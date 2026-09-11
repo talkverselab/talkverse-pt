@@ -1,0 +1,258 @@
+{
+ "lesson": 1,
+ "title": "포르투갈어 기본 문형 1",
+ "subtitle": "회화에 바로 쓰는 핵심 패턴 10개 × 예문 3",
+ "tts_lang": "pt-PT",
+ "stages": [
+  {
+   "stage": 1,
+   "title": "인칭·소개·질문"
+  },
+  {
+   "stage": 2,
+   "title": "동사·시간·장소"
+  }
+ ],
+ "patterns": [
+  {
+   "id": "p01",
+   "key": "Sou …",
+   "label": "나는 ~이다",
+   "explanation": "ser 1인칭. 이름·직업.",
+   "stage": 1,
+   "examples": [
+    {
+     "tl": "Sou o Minjun.",
+     "rd": "쏘우 우 민준.",
+     "ko": "나는 민준이야."
+    },
+    {
+     "tl": "Sou estudante.",
+     "rd": "쏘우 이쉬뚜단뜨.",
+     "ko": "나는 학생이야."
+    },
+    {
+     "tl": "Sou coreano.",
+     "rd": "쏘우 꼬레아누.",
+     "ko": "나는 한국인이야."
+    }
+   ]
+  },
+  {
+   "id": "p02",
+   "key": "Estou …",
+   "label": "나는 (지금) ~하다",
+   "explanation": "estar = 일시적 상태.",
+   "stage": 1,
+   "examples": [
+    {
+     "tl": "Estou cansado.",
+     "rd": "이쉬또우 깐싸두.",
+     "ko": "나 피곤해."
+    },
+    {
+     "tl": "Estou em casa.",
+     "rd": "이쉬또우 엥 까자.",
+     "ko": "나 집이야."
+    },
+    {
+     "tl": "Estás bem?",
+     "rd": "이쉬따쉬 벵?",
+     "ko": "괜찮아?"
+    }
+   ]
+  },
+  {
+   "id": "p03",
+   "key": "Chamo-me …",
+   "label": "내 이름은 ~",
+   "explanation": "chamar-se = ~라고 불리다.",
+   "stage": 1,
+   "examples": [
+    {
+     "tl": "Chamo-me Inês.",
+     "rd": "샤무 므 이네쉬.",
+     "ko": "내 이름은 이네스야."
+    },
+    {
+     "tl": "Como te chamas?",
+     "rd": "꼬무 뜨 샤마쉬?",
+     "ko": "네 이름은 뭐야?"
+    },
+    {
+     "tl": "Ele chama-se Pedro.",
+     "rd": "엘르 샤마 쓰 뻬드루.",
+     "ko": "그의 이름은 페드루야."
+    }
+   ]
+  },
+  {
+   "id": "p04",
+   "key": "Tenho …",
+   "label": "나는 ~을 가지고 있다",
+   "explanation": "ter. 시간·물건·형제.",
+   "stage": 1,
+   "examples": [
+    {
+     "tl": "Tenho tempo.",
+     "rd": "뗑유 뗌뿌.",
+     "ko": "나 시간 있어."
+    },
+    {
+     "tl": "Tens um irmão?",
+     "rd": "뗑쉬 웅 이르마웅?",
+     "ko": "형제 있어?"
+    },
+    {
+     "tl": "Temos fome.",
+     "rd": "떼무쉬 포므.",
+     "ko": "우리 배고파."
+    }
+   ]
+  },
+  {
+   "id": "p05",
+   "key": "O que …?",
+   "label": "무엇",
+   "explanation": "의문사 o que.",
+   "stage": 1,
+   "examples": [
+    {
+     "tl": "O que fazes?",
+     "rd": "우 끄 파제쉬?",
+     "ko": "뭐 해?"
+    },
+    {
+     "tl": "O que é isto?",
+     "rd": "우 끄 에 이쉬뚜?",
+     "ko": "이게 뭐야?"
+    },
+    {
+     "tl": "O que queres?",
+     "rd": "우 끄 께레쉬?",
+     "ko": "뭘 원해?"
+    }
+   ]
+  },
+  {
+   "id": "p06",
+   "key": "Queria …",
+   "label": "~하고 싶어요",
+   "explanation": "정중한 소망. 주문·요청.",
+   "stage": 2,
+   "examples": [
+    {
+     "tl": "Queria um café.",
+     "rd": "께리아 웅 까페.",
+     "ko": "커피 한 잔 주세요."
+    },
+    {
+     "tl": "Queria ir para casa.",
+     "rd": "께리아 이르 빠라 까자.",
+     "ko": "집에 가고 싶어."
+    },
+    {
+     "tl": "Querias vir?",
+     "rd": "께리아쉬 비르?",
+     "ko": "같이 갈래?"
+    }
+   ]
+  },
+  {
+   "id": "p07",
+   "key": "Posso …",
+   "label": "나는 ~할 수 있다",
+   "explanation": "poder + 동사원형.",
+   "stage": 2,
+   "examples": [
+    {
+     "tl": "Posso falar português.",
+     "rd": "뽀쑤 팔라르 뽀르뚜게쉬.",
+     "ko": "나 포르투갈어 할 수 있어."
+    },
+    {
+     "tl": "Podes ajudar-me?",
+     "rd": "뽀드쉬 아주다르 므?",
+     "ko": "나 좀 도와줄래?"
+    },
+    {
+     "tl": "Podemos ir amanhã.",
+     "rd": "뽀데무쉬 이르 아마냐.",
+     "ko": "우리 내일 갈 수 있어."
+    }
+   ]
+  },
+  {
+   "id": "p08",
+   "key": "Onde fica …?",
+   "label": "~는 어디에 있어?",
+   "explanation": "장소 묻기.",
+   "stage": 2,
+   "examples": [
+    {
+     "tl": "Onde fica a estação?",
+     "rd": "옹드 피까 아 이쉬따싸웅?",
+     "ko": "역이 어디예요?"
+    },
+    {
+     "tl": "Onde moras?",
+     "rd": "옹드 모라쉬?",
+     "ko": "어디 살아?"
+    },
+    {
+     "tl": "Onde estamos?",
+     "rd": "옹드 이쉬따무쉬?",
+     "ko": "우리 어디야?"
+    }
+   ]
+  },
+  {
+   "id": "p09",
+   "key": "Às … horas",
+   "label": "~시에",
+   "explanation": "시각 앞에는 às.",
+   "stage": 2,
+   "examples": [
+    {
+     "tl": "Às sete.",
+     "rd": "아쉬 쎄뜨.",
+     "ko": "7시에."
+    },
+    {
+     "tl": "Vemo-nos às oito.",
+     "rd": "베무 누쉬 아쉬 오이뚜.",
+     "ko": "우리 8시에 만나."
+    },
+    {
+     "tl": "A que horas?",
+     "rd": "아 끄 오라쉬?",
+     "ko": "몇 시에?"
+    }
+   ]
+  },
+  {
+   "id": "p10",
+   "key": "Foi …",
+   "label": "~였다",
+   "explanation": "ser 과거. 감상 말하기.",
+   "stage": 2,
+   "examples": [
+    {
+     "tl": "Foi bom.",
+     "rd": "포이 봉.",
+     "ko": "좋았어."
+    },
+    {
+     "tl": "O filme foi bonito.",
+     "rd": "우 필므 포이 보니뚜.",
+     "ko": "영화 좋았어."
+    },
+    {
+     "tl": "Ontem foi difícil.",
+     "rd": "옹뗑 포이 디피씰.",
+     "ko": "어제는 힘들었어."
+    }
+   ]
+  }
+ ]
+}
