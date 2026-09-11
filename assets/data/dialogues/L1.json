@@ -1,18 +1,510 @@
 {
-  "level": "L1",
-  "variety": "pt_PT",
-  "version": "v1-2026-09-03",
-  "schema": "v1-L1-5ep40turn",
-  "title": "L1 — 매칭 narrative (콘텐츠 대기)",
-  "description": "포르투갈어 L1 대화 — 콘텐츠 대기.",
-  "kpi": {
-    "episodes_target": 5,
-    "turns_per_episode": 40,
-    "turns_total_target": 200,
-    "turns_total_current": 0,
-    "progress_pct": 0.0
+ "level": "L1",
+ "variety": "pt_PT",
+ "version": "v2-2026-09-11",
+ "schema": "v2-L1-8turn",
+ "title": "L1 — 포르투갈어 첫 만남 (초안)",
+ "description": "포르투갈어 회화 초안 — 5편 × 8턴. 한글 독음 포함.",
+ "kpi": {
+  "episodes_target": 5,
+  "turns_per_episode": 8,
+  "turns_total_target": 40,
+  "turns_total_current": 40,
+  "progress_pct": 100.0
+ },
+ "characters": {
+  "A": {
+   "name": "Minjun",
+   "role": "",
+   "gender": "male"
   },
-  "characters": {},
-  "function_words": [],
-  "episodes": []
+  "B": {
+   "name": "Inês",
+   "role": "",
+   "gender": "female"
+  }
+ },
+ "function_words": [],
+ "episodes": [
+  {
+   "id": "ep1",
+   "title": "첫 인사",
+   "emoji": "💕",
+   "scenario": "언어교환 앱에서 처음 말을 건다",
+   "turns": [
+    {
+     "num": 1,
+     "speaker": "A",
+     "es": "Olá! Sou o Minjun. E tu?",
+     "rd": "올라! 쏘우 우 민준. 이 뚜?",
+     "ko": "안녕! 나는 민준이야. 너는?",
+     "note": "sou = 나는 ~이다",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 2,
+     "speaker": "B",
+     "es": "Olá, chamo-me Inês. De onde és?",
+     "rd": "올라, 샤무 므 이네쉬. 드 옹드 에쉬?",
+     "ko": "안녕, 나는 이네스야. 어디에서 왔어?",
+     "note": "de onde = 어디에서",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 3,
+     "speaker": "A",
+     "es": "Venho da Coreia. Estou a aprender português.",
+     "rd": "벵유 다 꼬레이아. 이쉬또우 아 아프렌데르 뽀르뚜게쉬.",
+     "ko": "한국에서 왔어. 포르투갈어 배우고 있어.",
+     "note": "estar a + 동사 = ~하는 중",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 4,
+     "speaker": "B",
+     "es": "Boa! O teu português já é bom.",
+     "rd": "보아! 우 떼우 뽀르뚜게쉬 자 에 봉.",
+     "ko": "좋다! 네 포르투갈어 벌써 좋은데.",
+     "note": "já = 벌써",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 5,
+     "speaker": "A",
+     "es": "Obrigado! Pratico todos os dias.",
+     "rd": "오브리가두! 프라띠꾸 또두즈 우쉬 디아쉬.",
+     "ko": "고마워! 매일 연습해.",
+     "note": "todos os dias = 매일",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 6,
+     "speaker": "B",
+     "es": "Moras em Lisboa?",
+     "rd": "모라쉬 앵 리쉬보아?",
+     "ko": "리스본에 살아?",
+     "note": "morar = 살다",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 7,
+     "speaker": "A",
+     "es": "Sim, há dois meses.",
+     "rd": "씽, 아 도이쉬 메제쉬.",
+     "ko": "응, 두 달 됐어.",
+     "note": "há = ~전부터",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 8,
+     "speaker": "B",
+     "es": "Então mostro-te a cidade!",
+     "rd": "엔따웅 모쉬트루 뜨 아 씨다드!",
+     "ko": "그럼 내가 도시를 보여 줄게!",
+     "note": "-te = 너에게",
+     "tags": [
+      "draft"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep2",
+   "title": "카페에서",
+   "emoji": "☕",
+   "scenario": "처음 만나 카페에서 주문한다",
+   "turns": [
+    {
+     "num": 1,
+     "speaker": "B",
+     "es": "O que queres beber?",
+     "rd": "우 끄 께레쉬 베베르?",
+     "ko": "뭐 마실래?",
+     "note": "o que = 무엇",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 2,
+     "speaker": "A",
+     "es": "Um café, por favor. E tu?",
+     "rd": "웅 까페, 뽀르 파보르. 이 뚜?",
+     "ko": "커피 하나, 부탁해. 너는?",
+     "note": "por favor = 부탁해",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 3,
+     "speaker": "B",
+     "es": "Eu levo um chá com leite.",
+     "rd": "에우 레부 웅 샤 꽁 레이뜨.",
+     "ko": "나는 밀크티로 할게.",
+     "note": "levar = 가져가다·고르다",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 4,
+     "speaker": "A",
+     "es": "O bolo aqui é bom?",
+     "rd": "우 볼루 아끼 에 봉?",
+     "ko": "여기 케이크 맛있어?",
+     "note": "aqui = 여기",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 5,
+     "speaker": "B",
+     "es": "Muito bom! O pastel de nata é o meu preferido.",
+     "rd": "무이뚜 봉! 우 빠쉬뗄 드 나따 에 우 메우 프레페리두.",
+     "ko": "엄청! 에그타르트가 내 최애야.",
+     "note": "preferido = 좋아하는",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 6,
+     "speaker": "A",
+     "es": "Então levamos dois.",
+     "rd": "엔따웅 레바무쉬 도이쉬.",
+     "ko": "그럼 두 개 시키자.",
+     "note": "nós 형 -amos",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 7,
+     "speaker": "B",
+     "es": "Perfeito. Eu pago.",
+     "rd": "뻬르페이뚜. 에우 빠구.",
+     "ko": "완벽해. 내가 살게.",
+     "note": "pagar = 지불하다",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 8,
+     "speaker": "A",
+     "es": "Não, não, hoje pago eu!",
+     "rd": "나웅, 나웅, 오즈 빠구 에우!",
+     "ko": "아니 아니, 오늘은 내가 낼게!",
+     "note": "hoje = 오늘",
+     "tags": [
+      "draft"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep3",
+   "title": "길 묻기",
+   "emoji": "🗺️",
+   "scenario": "박물관 가는 길을 묻는다",
+   "turns": [
+    {
+     "num": 1,
+     "speaker": "A",
+     "es": "Desculpe, onde fica o museu?",
+     "rd": "데쉬꿀쁘, 옹드 피까 우 무제우?",
+     "ko": "실례합니다, 박물관이 어디예요?",
+     "note": "ficar = 위치하다",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 2,
+     "speaker": "B",
+     "es": "Vai sempre em frente e depois à esquerda.",
+     "rd": "바이 셈프르 엥 프렌뜨 이 데뽀이쉬 아 이쉬께르다.",
+     "ko": "직진하다가 왼쪽으로 가.",
+     "note": "em frente = 직진",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 3,
+     "speaker": "A",
+     "es": "É longe?",
+     "rd": "에 롱즈?",
+     "ko": "멀어?",
+     "note": "longe = 먼",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 4,
+     "speaker": "B",
+     "es": "Não, cinco minutos a pé.",
+     "rd": "나웅, 씽꾸 미누뚜쉬 아 뻬.",
+     "ko": "아니, 걸어서 5분이야.",
+     "note": "a pé = 걸어서",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 5,
+     "speaker": "A",
+     "es": "Ótimo. Está aberto hoje?",
+     "rd": "오띠무, 이쉬따 아베르뚜 오즈?",
+     "ko": "좋다. 오늘 열었어?",
+     "note": "aberto = 열린",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 6,
+     "speaker": "B",
+     "es": "Sim, até às seis.",
+     "rd": "씽, 아떼 아쉬 쎄이쉬.",
+     "ko": "응, 6시까지.",
+     "note": "até = ~까지",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 7,
+     "speaker": "A",
+     "es": "Vens comigo?",
+     "rd": "벵쉬 꼬미구?",
+     "ko": "같이 갈래?",
+     "note": "comigo = 나와 함께",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 8,
+     "speaker": "B",
+     "es": "Com todo o gosto! Adoro arte.",
+     "rd": "꽁 또두 우 고쉬뚜! 아도루 아르뜨.",
+     "ko": "좋아! 나 예술 진짜 좋아해.",
+     "note": "adorar = 아주 좋아하다",
+     "tags": [
+      "draft"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep4",
+   "title": "약속 잡기",
+   "emoji": "📅",
+   "scenario": "주말에 만날 약속을 잡는다",
+   "turns": [
+    {
+     "num": 1,
+     "speaker": "B",
+     "es": "Estás livre no sábado?",
+     "rd": "이쉬따쉬 리브르 누 싸바두?",
+     "ko": "토요일에 시간 있어?",
+     "note": "livre = 한가한",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 2,
+     "speaker": "A",
+     "es": "Sim, estou livre. O que fazemos?",
+     "rd": "씽, 이쉬또우 리브르. 우 끄 파제무쉬?",
+     "ko": "응, 한가해. 뭐 할까?",
+     "note": "fazemos = (우리) 하다",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 3,
+     "speaker": "B",
+     "es": "Podíamos ir ao cinema.",
+     "rd": "뽀디아무쉬 이르 아우 씨네마.",
+     "ko": "영화관에 갈 수도 있지.",
+     "note": "podíamos = ~할 수 있을 텐데",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 4,
+     "speaker": "A",
+     "es": "Boa ideia! A que horas?",
+     "rd": "보아 이데이아! 아 끄 오라쉬?",
+     "ko": "좋은 생각! 몇 시에?",
+     "note": "a que horas = 몇 시에",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 5,
+     "speaker": "B",
+     "es": "Às sete? Depois comemos qualquer coisa.",
+     "rd": "아쉬 쎄뜨? 데뽀이쉬 꼬메무쉬 꽐께르 꼬이자.",
+     "ko": "7시? 그 다음에 뭐 좀 먹자.",
+     "note": "depois = 그 후에",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 6,
+     "speaker": "A",
+     "es": "Combinado. Onde nos encontramos?",
+     "rd": "꽁비나두. 옹드 누즈 엥꼰트라무쉬?",
+     "ko": "좋아. 어디서 만나?",
+     "note": "encontrar-se = 만나다",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 7,
+     "speaker": "B",
+     "es": "À frente da estação do Rossio.",
+     "rd": "아 프렌뜨 다 이쉬따싸웅 두 호씨우.",
+     "ko": "호시우 역 앞에서.",
+     "note": "à frente de = ~앞에",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 8,
+     "speaker": "A",
+     "es": "Está bem, até sábado!",
+     "rd": "이쉬따 벵, 아떼 싸바두!",
+     "ko": "알았어, 토요일에 봐!",
+     "note": "até + 시간 = ~에 보자",
+     "tags": [
+      "draft"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep5",
+   "title": "감정 말하기",
+   "emoji": "💬",
+   "scenario": "영화를 보고 나서 마음을 전한다",
+   "turns": [
+    {
+     "num": 1,
+     "speaker": "A",
+     "es": "O filme foi mesmo bonito.",
+     "rd": "우 필므 포이 메쥬무 보니뚜.",
+     "ko": "영화 정말 좋았어.",
+     "note": "foi = ~였다",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 2,
+     "speaker": "B",
+     "es": "Sim, mas o fim foi triste.",
+     "rd": "씽, 마쉬 우 핑 포이 트리쉬뜨.",
+     "ko": "응, 근데 결말이 슬펐어.",
+     "note": "mas = 하지만",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 3,
+     "speaker": "A",
+     "es": "Gosto de ver filmes contigo.",
+     "rd": "고쉬뚜 드 베르 필므쉬 꼰띠구.",
+     "ko": "너랑 영화 보는 게 좋아.",
+     "note": "contigo = 너와",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 4,
+     "speaker": "B",
+     "es": "Eu também. És muito querido.",
+     "rd": "에우 땀벵. 에쉬 무이뚜 께리두.",
+     "ko": "나도. 너 참 다정해.",
+     "note": "também = ~도",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 5,
+     "speaker": "A",
+     "es": "Vemo-nos para a semana?",
+     "rd": "베무 누쉬 빠라 아 쎄마나?",
+     "ko": "다음 주에 또 볼까?",
+     "note": "para a semana = 다음 주에",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 6,
+     "speaker": "B",
+     "es": "Claro. Escreve-me!",
+     "rd": "끌라루. 이쉬크레브 므!",
+     "ko": "당연하지. 문자해!",
+     "note": "escreve = 써(명령)",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 7,
+     "speaker": "A",
+     "es": "Escrevo. Boa noite, Inês.",
+     "rd": "이쉬크레부. 보아 노이뜨, 이네쉬.",
+     "ko": "그럴게. 잘 자, 이네스.",
+     "note": "boa noite = 잘 자",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 8,
+     "speaker": "B",
+     "es": "Boa noite, Minjun. Até breve!",
+     "rd": "보아 노이뜨, 민준. 아떼 브레브!",
+     "ko": "잘 자, 민준. 곧 봐!",
+     "note": "até breve = 곧 보자",
+     "tags": [
+      "draft"
+     ]
+    }
+   ]
+  }
+ ]
 }
