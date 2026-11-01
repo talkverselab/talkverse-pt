@@ -155,3 +155,26 @@ adb -s R3CY20HDN2K install --user 0 -r <apk>
 - 구조: **앱은 하나** — 번들 ID `com.talkverse.portugueseUniverse`·서명 키·Zealot 앱이름·아이콘·로그인 client_id `pt` 그대로. 처음 실행 때와 설정에서 「포르투갈 / 브라질」을 고르고, 데이터는 `assets/data/pt-PT/`·`assets/data/pt-BR/` 로 나누며 학습 기록도 판별로 따로 둔다(공용 학습 DB 에 올릴 때는 `lang='pt'` + 판 구분 칸).
 - 지금 들어 있는 초안 콘텐츠(회화 5편·문법 10패턴·단어 40, 독음 포함)는 **유럽판**이다.
 - 아직 구현 전 — 판 선택 화면·데이터 폴더 분리·`TtsService.locale` 판별 전환은 다음 작업.
+
+## 10. 회화 원칙 — 공통 원칙 링크 + 포르투갈어 특이점 (2026-11-02)
+
+- **공통 원칙(SSOT)**: https://talkverse.uk/talkverse/dialogue-rules/ — 레벨 = 절벽 R1~R4(L 폐지, 기준 https://talkverse.uk/cliff/18/), 턴 수 R1 6~8 · R2 8~12 · R3·R4 12~16, 모든 턴 한글 독음 `rd` 필수, 번역·설명 한국어, 편마다 반전 1회, 수위 12+, 검수 = 자동 검사 + Grok·Gemini 교차. 회화를 만들거나 고칠 때 이 페이지를 따른다. 아래는 포르투갈어만의 것.
+- **기본 변이 = 유럽 포르투갈어(pt-PT)**. 브라질판(pt-BR)은 별도 파일(`assets/data/pt-PT/`·`pt-BR/`, §9). 한 턴 안에 두 판을 병기하지 않는다. 지금 초안(`assets/data/dialogues/L1.json`)은 pt-PT 이고 아직 L1 태그 — R 로 다시 태그할 것.
+- **턴 길이(제안 — 검사기에 넣을 값)**: R1 3~10단어(1단어 단답 금지) · R2 ≤14단어 · R3·R4 ≤20단어, 한 턴 1~2문장.
+- **말투**: 친구·연인 = tu(동사 2인칭 단수), 낯선 사람·가게·일 = 3인칭 존칭(o senhor / a senhora, 동사 3인칭) — 유럽판은 você 를 거의 쓰지 않는다. pt-BR 은 você 가 기본.
+- **학습자 성별**: 한 판. 단 화자 자신을 가리키는 형용사·인사(obrigado/obrigada, cansado/cansada, contente…)는 성별로 바뀐다 — 성별판을 만들지, 프로필 성별로 그 어미만 치환할지 **미정**(사용자 결정 대기).
+- **독음 표기표(pt-PT, 지금 초안에서 쓰는 규칙)** — 스크립트 검사 기준:
+
+| 철자·자리 | 독음 | 예 |
+|---|---|---|
+| 무성 p·t·c(k)·qu | 된소리 ㅃ·ㄸ·ㄲ | por → 뽀르, tu → 뚜, café → 까페 |
+| 음절 끝·자음 앞 s·z | 쉬 (유성음 앞 쥬) | Lisboa → 리쉬보아, mesmo → 메쥬무 |
+| 단어 첫 r·rr | ㅎ | Rossio → 호씨우 |
+| 강세 없는 어말 o | 우 | obrigado → 오브리가두 |
+| 강세 없는 e | 약화 「으」 또는 탈락 | de → 드, hoje → 오즈, cidade → 씨다드 |
+| ão / õe | 아웅 / 오잉 | então → 엔따웅 |
+| em·en(어말·자음 앞) | 앵/엥 | em → 앵, sempre → 셈프르 |
+| lh / nh | ㄹ리 / 니·뉴 | venho → 벵유 |
+| ch·x(대개) / j·g(e,i) | 샤 계열 / 즈 계열 | chá → 샤, já → 자 |
+
+- **템플릿 잔재(공통 원칙 §12 — 정리할 것)**: 대상어 칸 이름 `es`, 홈 인사 「¡Hola!」(→ Olá!), 오늘의 학습 카드 「PRINCIPIANTE 1」·「Minjun & Lucía 스토리」(실제 인물은 Inês), 빈도 파일 이름 `lang_es_top.csv`. 회화 데이터 변환기(공통 모양 `{num, speaker, tl, rd, ko, note, tags, twist, flags}`)는 내보낼 때 만든다.
