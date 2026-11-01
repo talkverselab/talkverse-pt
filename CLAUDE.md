@@ -148,3 +148,10 @@ adb -s R3CY20HDN2K install --user 0 -r <apk>
 - **2026-10-26 첫 업로드(빌드 6·7)는 CI 가 만든 APK 를 그대로 올렸다** — `gh release download latest -R talkverselab/talkverse-pt -p '*.apk'` → `apksigner` 로 SHA-1 확인 → `~/bin/zealot-upload`. 빌드 번호가 앱 안 업데이트(`latest.json`)와 같아 번호가 꼬이지 않으므로 이 방법을 기본으로 쓴다.
   M6 의 `apksigner` = `~/Library/Android/sdk/build-tools/36.0.0/apksigner`, M6 의 `~/.android/debug.keystore` 도 §1 과 다른 키(`72:08:…:E7:BB`) — 여기서도 §1 의 `cp` 를 하지 말 것.
 - 서명 키 백업: Doppler `keys/prd` 의 `SIGNKEY_*`(내용이 같은 다른 앱 이름으로 저장됨, `SIGNKEY_INDEX` 참조) + PC `D:\backup\signing_keys\talkverse-pt\`. APK 백업 PC `D:\OneDrive\app project\talkverse-pt\talkverse-pt-latest.apk`.
+
+## 9. 유럽판·브라질판 — 한 앱 안 판 선택 (2026-11-02 사용자 결정)
+
+- 포르투갈어는 **유럽판(pt-PT)과 브라질판(pt-BR)을 둘 다 따로** 만든다. 코퍼스·빈도표·절벽구간(R1~R4)·구간별 단어/예문/독음·TTS 음색은 **판마다 따로** 산출·관리한다(talkverse.uk /cliff/ 도 두 판을 따로 표기).
+- 구조: **앱은 하나** — 번들 ID `com.talkverse.portugueseUniverse`·서명 키·Zealot 앱이름·아이콘·로그인 client_id `pt` 그대로. 처음 실행 때와 설정에서 「포르투갈 / 브라질」을 고르고, 데이터는 `assets/data/pt-PT/`·`assets/data/pt-BR/` 로 나누며 학습 기록도 판별로 따로 둔다(공용 학습 DB 에 올릴 때는 `lang='pt'` + 판 구분 칸).
+- 지금 들어 있는 초안 콘텐츠(회화 5편·문법 10패턴·단어 40, 독음 포함)는 **유럽판**이다.
+- 아직 구현 전 — 판 선택 화면·데이터 폴더 분리·`TtsService.locale` 판별 전환은 다음 작업.
