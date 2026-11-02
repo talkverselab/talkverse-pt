@@ -59,7 +59,7 @@ class ProfileScreen extends StatelessWidget {
                       ),
                       SizedBox(height: 4),
                       Text(
-                        tr('Día 1 · 입문 (A1)'),
+                        tr('Dia 1 · 입문 (A1)'),
                         style: TextStyle(
                           color: AppColors.gualdaBright,
                           fontSize: 13,
@@ -89,7 +89,7 @@ class ProfileScreen extends StatelessWidget {
                   subtitle: tr('아이폰은 TestFlight 앱에서 새 빌드를 받습니다')),
             _SettingItem(icon: Icons.volume_up, title: tr('TTS 음성'), subtitle: tr('pt-PT (시스템 보이스)')),
             _SettingItem(icon: Icons.public, title: tr('변종'), subtitle: tr('유럽 포르투갈어 (Portugal)')),
-            _SettingItem(icon: Icons.palette, title: tr('테마'), subtitle: tr('낮 · verde e vermelho #046A38')),
+            _SettingItem(icon: Icons.palette, title: tr('테마'), subtitle: tr('낮 · 아줄레주 블루 #2F6FB5')),
           ]),
           const SizedBox(height: 16),
           _SectionTitle(tr('정보')),
@@ -151,8 +151,12 @@ class _SettingsGroup extends StatelessWidget {
         borderRadius: BorderRadius.circular(8),
         border: Border.all(color: AppColors.gualda.withValues(alpha: 0.5)),
       ),
-      child: Column(
-        children: [
+      clipBehavior: Clip.antiAlias,
+      // ListTile 의 바탕·물결은 가장 가까운 Material 에 그려진다 — 색 있는 상자 안에 투명 Material 을 둔다
+      child: Material(
+        type: MaterialType.transparency,
+        child: Column(
+          children: [
           for (var i = 0; i < items.length; i++) ...[
             ListTile(
               onTap: items[i].onTap,
@@ -175,7 +179,8 @@ class _SettingsGroup extends StatelessWidget {
             if (i < items.length - 1)
               Container(height: 0.5, color: AppColors.gualda.withValues(alpha: 0.3)),
           ],
-        ],
+          ],
+        ),
       ),
     );
   }

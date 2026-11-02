@@ -207,6 +207,11 @@ const Map<String, String> kDictEn = {
   '중급': 'Intermediate',
   '고급': 'Advanced',
   '최상급': 'Expert',
+  // 포르투갈어 화면 문구(스페인어 템플릿 잔재 정리, 2026-11-03)
+  '진행 · Progresso': 'Progress',
+  'Dia 1 · 입문 (A1)': 'Day 1 · Beginner (A1)',
+  '낮 · 아줄레주 블루 #2F6FB5': 'Light · azulejo blue #2F6FB5',
+  'Minjun & Inês 스토리 {0}': 'Minjun & Inês story {0}',
 };
 
 const Map<String, String> kDictJa = {
@@ -402,6 +407,11 @@ const Map<String, String> kDictJa = {
   '중급': '中級',
   '고급': '上級',
   '최상급': '最上級',
+  // 포르투갈어 화면 문구(스페인어 템플릿 잔재 정리, 2026-11-03)
+  '진행 · Progresso': '進捗',
+  'Dia 1 · 입문 (A1)': 'Day 1 · 入門 (A1)',
+  '낮 · 아줄레주 블루 #2F6FB5': 'ライト · アズレージョ・ブルー #2F6FB5',
+  'Minjun & Inês 스토리 {0}': 'Minjun & Inês ストーリー {0}',
 };
 
 const Map<String, String> kDictZh = {
@@ -597,4 +607,9 @@ const Map<String, String> kDictZh = {
   '중급': '中级',
   '고급': '高级',
   '최상급': '最高级',
+  // 포르투갈어 화면 문구(스페인어 템플릿 잔재 정리, 2026-11-03)
+  '진행 · Progresso': '进度',
+  'Dia 1 · 입문 (A1)': '第1天 · 入门 (A1)',
+  '낮 · 아줄레주 블루 #2F6FB5': '浅色 · 瓷砖蓝 #2F6FB5',
+  'Minjun & Inês 스토리 {0}': 'Minjun & Inês 故事 {0}',
 };
