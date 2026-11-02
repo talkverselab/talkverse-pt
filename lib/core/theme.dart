@@ -46,7 +46,31 @@ class AppColors {
 
   // brand alias
   static const Color brand = rojo;
+
+  // ── 일본어앱에서 옮긴 화면(회화 리더·그림 카드·성과)이 쓰는 이름 — 2026-11-03 ──
+  // 일본어앱의 워드마크 구리색 자리에 포르투갈어 색 = talkverse.uk 언어 페이지 `--a #2f6fb5`(아줄레주 블루) 잉크판.
+  static const Color beni = Color(0xFF285E9A); // 강조(버튼·현재 턴·성과) — 글자 대비용 한 단계 진하게
+  static const Color beniDeep = Color(0xFF1E4A7C);
+  static const Color beniLight = Color(0xFF2F6FB5); // 사이트 `--a`
+  static const Color kinDeep = Color(0xFF6F97C7); // 사이트 `--a2 #94b7de` 진한 쪽
+  static const Color ai = rojo; // 인디고 — 선택·보조 강조
+  static const Color sumi = tinta;
+  static const Color sumiLight = tintaLight;
+  static const Color washi = cal;
+  static const Color washiDeep = calDeep;
+  static const Color matcha = Color(0xFF0E6245); // 완료·맞음(사이트 `--ok`)
+  static const Color line = Color(0xFFE6EBF1);
+  static const Color muted = gualdaDeep;
+
+  /// 「포르투갈어」 워드마크 그라데이션(아줄레주 블루 → 옅은 하늘). 제목 글자·구분선.
+  static const LinearGradient wordmark = LinearGradient(colors: [beni, kinDeep]);
 }
+
+/// 카드·타일 공통 그림자(사이트 `0 2px 5px -1px rgba(50,50,93,.1), 0 1px 3px -1px rgba(0,0,0,.1)`)
+const List<BoxShadow> kCardShadow = [
+  BoxShadow(color: Color(0x1A32325D), blurRadius: 5, offset: Offset(0, 2)),
+  BoxShadow(color: Color(0x1A000000), blurRadius: 3, offset: Offset(0, 1)),
+];
 
 class AppTheme {
   static ThemeData light() {

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 import 'core/theme.dart';
 import 'data/db/app_database.dart';
@@ -9,16 +10,36 @@ import 'core/l10n.dart';
 import 'data/account.dart';
 import 'data/entitlement.dart';
 import 'data/purchase.dart';
+import 'services/achievement_service.dart';
+import 'services/learner_prefs.dart';
 
 late final AppDatabase appDb;
 
+bool? _wide;
+
+/// 짧은 변 600 이상(아이패드·태블릿·폴드 펼침)이면 가로 회전 허용, 아니면 세로 고정(일본어앱과 같음).
+/// 폴드를 접고 펼 때마다 builder 에서 다시 계산한다.
+Future<void> _setOrientations([double? shortest]) async {
+  shortest ??= () {
+    final v = WidgetsBinding.instance.platformDispatcher.views.first;
+    return v.physicalSize.shortestSide / v.devicePixelRatio;
+  }();
+  final wide = shortest >= 600;
+  if (wide == _wide && shortest != 0) return;
+  _wide = wide;
+  await SystemChrome.setPreferredOrientations(wide ? DeviceOrientation.values : [DeviceOrientation.portraitUp]);
+}
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  await _setOrientations(); // 폰은 세로 고정, 태블릿·폴드 펼침은 회전 허용
   appDb = AppDatabase();
   await SeedLoader(appDb).seedIfNeeded();
   await KoReadingPrefs.load();
   await AppLangPrefs.load();
   await Entitlement.load();
+  await LearnerPrefs.load();
+  await AchievementService.instance.load();
   Account.load(); // 저장된 로그인 표시 + 뒤에서 토큰 갱신(기다리지 않음)
   Purchase.configure({Entitlement.lang: ('com.talkverse.portugueseUniverse.lifetime', 'lang_pt')});
   runApp(const PortugueseUniverseApp());
@@ -42,6 +63,7 @@ class PortugueseUniverseApp extends StatelessWidget {
         // 아이폰 Dynamic Type·갤럭시 글자 크기 설정이 커도 타일이 깨지지 않게 1.2배까지만
         builder: (context, child) {
           final mq = MediaQuery.of(context);
+          WidgetsBinding.instance.addPostFrameCallback((_) => _setOrientations(mq.size.shortestSide));
           return MediaQuery(
             data: mq.copyWith(
               textScaler: mq.textScaler.clamp(maxScaleFactor: 1.2),
