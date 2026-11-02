@@ -6,6 +6,9 @@ import 'data/db/seed_loader.dart';
 import 'screens/main_screen.dart';
 import 'services/ko_reading.dart';
 import 'core/l10n.dart';
+import 'data/account.dart';
+import 'data/entitlement.dart';
+import 'data/purchase.dart';
 
 late final AppDatabase appDb;
 
@@ -15,6 +18,9 @@ void main() async {
   await SeedLoader(appDb).seedIfNeeded();
   await KoReadingPrefs.load();
   await AppLangPrefs.load();
+  await Entitlement.load();
+  Account.load(); // 저장된 로그인 표시 + 뒤에서 토큰 갱신(기다리지 않음)
+  Purchase.configure({Entitlement.lang: ('com.talkverse.portugueseUniverse.lifetime', 'lang_pt')});
   runApp(const PortugueseUniverseApp());
 }
 
