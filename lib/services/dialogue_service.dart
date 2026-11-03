@@ -11,6 +11,12 @@ import 'learner_prefs.dart';
 /// 지금 데이터는 초안 `assets/data/dialogues/L1.json`(5편 × 8턴, 유럽 포르투갈어) 하나뿐이라 그것을 그대로 읽어 이 모양으로 바꾼다.
 /// 회화 콘텐츠는 바꾸지 않는다(회화 작성 금지 기간) — 새 구조(R0~R4·주제별·성별판 파일)는 회화 작성이 풀리면.
 /// 칸: tl = 포르투갈어(옛 템플릿 칸 이름 `es`), gloss = 없음, rd = 한글 독음, ko = 한국어, note = 핵심 표현(`x = 뜻`).
+/// 문장 내용어 한 개: 표면형(문장 속 모양)·기본형(사전형)·읽기(한글 독음, 아직 비어 있음).
+class Lemma {
+  final String surface, base, reading;
+  const Lemma(this.surface, this.base, this.reading);
+}
+
 class DialogueTurn {
   final int num;
   final String speaker; // A·B
@@ -21,6 +27,7 @@ class DialogueTurn {
   final String note;
   final List<String> tags;
   final String? art; // 장면 그림 URL(나중에 채움)
+  final List<Lemma> lemmas; // 문장 내용어(표면형·기본형·읽기) — 단어장 연결(2026-11-04)
   const DialogueTurn({
     required this.num,
     required this.speaker,
@@ -31,6 +38,7 @@ class DialogueTurn {
     required this.note,
     required this.tags,
     this.art,
+    this.lemmas = const [],
   });
 
   factory DialogueTurn.fromL1(Map<String, dynamic> j) => DialogueTurn(
@@ -43,6 +51,7 @@ class DialogueTurn {
         note: j['note'] as String? ?? '',
         tags: (j['tags'] as List?)?.cast<String>() ?? const [],
         art: j['art'] as String?,
+        lemmas: [for (final l in (j['lemmas'] as List? ?? const [])) if (l is List && l.length >= 2) Lemma('${l[0]}', '${l[1]}', l.length > 2 ? '${l[2]}' : '')],
       );
 
   /// 그림 조회용 핵심 단어 후보: 핵심 표현 메모(`palavra = 뜻`)의 왼쪽 낱말들.

@@ -1,0 +1,65 @@
+lemma,cliff_rank,count,example
+ser,4,4,"Olá, chamo-me Inês. De onde és?"
+estar,12,2,Venho da Coreia. Estou a aprender português.
+ir,15,2,Vai sempre em frente e depois à esquerda.
+fazer,23,1,"Sim, estou livre. O que fazemos?"
+querer,30,1,O que queres beber?
+poder,32,1,Podíamos ir ao cinema.
+ver,35,2,Gosto de ver filmes contigo.
+haver,39,1,"Sim, há dois meses."
+bom,42,7,Boa! O teu português já é bom.
+coisa,44,1,Às sete? Depois comemos qualquer coisa.
+dia,58,1,Obrigado! Pratico todos os dias.
+ficar,63,1,"Desculpe, onde fica o museu?"
+onde,65,2,"Olá, chamo-me Inês. De onde és?"
+vir,69,2,Venho da Coreia. Estou a aprender português.
+mesmo,70,1,O filme foi mesmo bonito.
+sempre,79,1,Vai sempre em frente e depois à esquerda.
+noite,88,2,"Escrevo. Boa noite, Inês."
+depois,89,2,Vai sempre em frente e depois à esquerda.
+gostar,113,2,Com todo o gosto! Adoro arte.
+favor,116,1,"Um café, por favor. E tu?"
+hora,124,1,Boa ideia! A que horas?
+levar,132,2,Eu levo um chá com leite.
+chamar,134,1,"Olá, chamo-me Inês. De onde és?"
+claro,140,1,Claro. Escreve-me!
+comigo,142,1,Vens comigo?
+encontrar,159,1,Combinado. Onde nos encontramos?
+contigo,208,1,Gosto de ver filmes contigo.
+ideia,211,1,Boa ideia! A que horas?
+comer,233,1,Às sete? Depois comemos qualquer coisa.
+pagar,249,2,Perfeito. Eu pago.
+fim,253,1,"Sim, mas o fim foi triste."
+pé,259,1,"Não, cinco minutos a pé."
+mês,278,1,"Sim, há dois meses."
+escrever,321,2,Claro. Escreve-me!
+português,324,2,Venho da Coreia. Estou a aprender português.
+longe,331,1,É longe?
+semana,332,1,Vemo-nos para a semana?
+beber,336,1,O que queres beber?
+frente,338,2,Vai sempre em frente e depois à esquerda.
+minuto,386,1,"Não, cinco minutos a pé."
+cidade,408,1,Então mostro-te a cidade!
+filme,436,2,O filme foi mesmo bonito.
+mostrar,455,1,Então mostro-te a cidade!
+adorar,472,1,Com todo o gosto! Adoro arte.
+livre,527,2,Estás livre no sábado?
+café,547,1,"Um café, por favor. E tu?"
+aprender,646,1,Venho da Coreia. Estou a aprender português.
+perfeito,769,1,Perfeito. Eu pago.
+breve,811,1,"Boa noite, Minjun. Até breve!"
+arte,929,1,Com todo o gosto! Adoro arte.
+cinema,944,1,Podíamos ir ao cinema.
+leite,998,1,Eu levo um chá com leite.
+morar,1006,1,Moras em Lisboa?
+bolo,1247,1,O bolo aqui é bom?
+chá,1420,1,Eu levo um chá com leite.
+aberto,1422,1,Ótimo. Está aberto hoje?
+esquerda,1482,1,Vai sempre em frente e depois à esquerda.
+sábado,1855,2,Estás livre no sábado?
+estação,1959,1,À frente da estação do Rossio.
+pastel,3308,1,Muito bom! O pastel de nata é o meu preferido.
+preferido,3384,1,Muito bom! O pastel de nata é o meu preferido.
+praticar,3580,1,Obrigado! Pratico todos os dias.
+museu,4137,1,"Desculpe, onde fica o museu?"
+nata,,1,Muito bom! O pastel de nata é o meu preferido.
