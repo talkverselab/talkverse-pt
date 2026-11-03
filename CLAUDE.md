@@ -159,7 +159,7 @@ adb -s R3CY20HDN2K install --user 0 -r <apk>
 ## 10. 회화 원칙 — 공통 원칙 링크 + 포르투갈어 특이점 (2026-11-02)
 
 - **공통 원칙(SSOT)**: https://talkverse.uk/talkverse/dialogue-rules/ — 레벨 = 절벽 R1~R4(L 폐지, 기준 https://talkverse.uk/cliff/18/), 턴 수 R1 6~8 · R2 8~12 · R3·R4 12~16, 모든 턴 한글 독음 `rd` 필수, 번역·설명 한국어, 편마다 반전 1회, 수위 12+, 검수 = 자동 검사 + Grok·Gemini 교차. 회화를 만들거나 고칠 때 이 페이지를 따른다. 아래는 포르투갈어만의 것.
-- **반전 비율·그림(2026-11-03 사용자 지시, 공통 원칙 §9)**: 카오스 30% 이상 · 연애·플러팅 편마다 심쿵 한 줄(여성 주도 편 더 많이) · 편마다 `twist_type`(chaos·slip·reveal·emotion·ignore) · 새 편은 왕초보·초급 위주 · 장면 그림 = A·B 쌍 1컷, 말풍선·글자 없음, 인물 기준 그림(`CHARACTERS.md`·`data/review/art/chars_pt_v1.jpg`) 첨부. Grok 을 직접 쓸 때는 M4 Chrome(쿠키 복사는 M4 안에서, `~/talkverse/GROK_M4_LOGIN.md`) — 사용자 지시가 있을 때만 켜고, 탭은 건마다 닫고 끝나면 Chrome 도 끈다.
+- **반전 비율·그림(2026-11-03 사용자 지시, 공통 원칙 §9)**: 카오스 30% 이상 · 연애·플러팅 편마다 심쿵 한 줄(여성 주도 편 더 많이) · 편마다 `twist_type`(chaos·slip·reveal·emotion·ignore) · 새 편은 왕초보·초급 위주 · 장면 그림 = A·B 쌍 1컷, 말풍선·글자 없음, 인물 기준 그림(`CHARACTERS.md`·`data/review/art/chars_pt_v1.jpg`) 첨부. Grok 을 직접 쓸 때는 M4 Chrome(쿠키 복사는 M4 안에서, `~/talkverse/GROK_M4_LOGIN.md`) — 사용자 지시가 있을 때만 켜고, 탭은 건마다 닫고 끝나면 Chrome 도 끈다. 요청문 작성법(편마다 새 방·재작성은 「모든 줄 새로」·받은 답은 리뷰·컷마다 한 요청) = `~/talkverse/GROK_PROMPT_GUIDE.md`, 틀 파일 `~/talkverse/zh/tools/`.
 - **기본 변이 = 유럽 포르투갈어(pt-PT)**. 브라질판(pt-BR)은 별도 파일(`assets/data/pt-PT/`·`pt-BR/`, §9). 한 턴 안에 두 판을 병기하지 않는다. 지금 초안(`assets/data/dialogues/L1.json`)은 pt-PT 이고 아직 L1 태그 — R 로 다시 태그할 것.
 - **턴 길이(제안 — 검사기에 넣을 값)**: R1 3~10단어(1단어 단답 금지) · R2 ≤14단어 · R3·R4 ≤20단어, 한 턴 1~2문장.
 - **말투**: 친구·연인 = tu(동사 2인칭 단수), 낯선 사람·가게·일 = 3인칭 존칭(o senhor / a senhora, 동사 3인칭) — 유럽판은 você 를 거의 쓰지 않는다. pt-BR 은 você 가 기본.
