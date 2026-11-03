@@ -17,7 +17,8 @@
 | Android | CI 빌드 **10**(b73eec4) · Zealot https://apps.talkverse.uk/KtegX/214 · PC `D:\OneDrive\app project\talkverse-pt\` |
 | iOS | TestFlight 업로드 **빌드 2611030130**(11-03 01:33) — 처리 뒤 TestFlight 에 나타남. ⚠ **Sign in with Apple 권한 빠짐**(아래) |
 | 로그인·결제 | 코드 `d58eb09`(Talkverse ID client_id `pt`, 상품 `com.talkverse.portugueseUniverse.lifetime`/`lang_pt`) — 잠근 화면은 아직 없음 |
-| 단어 그림 리스트 | talkversehanja `talkverse_art/words/pt.csv`(2,500)·`pt_food.csv`(50) 푸시(7f8c78c), uk 세션이 적재 — 그림은 `GET https://auth.talkverse.uk/art/pt/manifest` |
+| 절벽(레마) | **판별 재산정 11-03** — pt-PT R1 55·R2 83·R3 217·R4 656(상위 2,500 90.1%) / pt-BR 63·96·243·727, 자국 작품 자막 기준(`data/cliff/README.md`, `tools/pt_cliff.py`). 옛 234·403·1,134 폐기. 사이트 카드 = pt-PT 값 |
+| 단어 그림 리스트 | talkversehanja `talkverse_art/words/pt.csv` = 새 레마 순위 2,500(PT·BR 합침, 구간 PT 경계, R5 = 절벽 밖, 340f9b5)·`pt_food.csv`(50), uk 세션이 D1 다시 적재 — 그림은 `GET https://auth.talkverse.uk/art/pt/manifest` |
 | 저작권 정리 | 책 이름·책 파서 삭제 + 이력 재작성·강제 push 끝(11-02, 사용자 승인) |
 
 ## 이번에 만든 것(③)
@@ -37,6 +38,6 @@
 ## 다음 할 일(지시가 오면)
 - 동사 활용 시트(시안 PT-01 칸 ①) — `assets/data/grammar/verbs_core.json` 이 비어 있어 미구현. 콘텐츠 금지가 풀리면 동사 데이터와 함께.
 - 회화: R1~R4 재태그·성별판(남·여 파일)·pt-PT/pt-BR 폴더·반전 턴·검수(공통 원칙 https://talkverse.uk/talkverse/dialogue-rules/). 지금 초안은 남성 학습자·유럽판뿐.
-- 빈도표: `pt.csv` 는 유럽·브라질이 섞인 임시 빈도 — 판별로 다시 뽑으면 talkversehanja 같은 경로에 덮어 푸시 + uk 세션에 한 줄.
+- 절벽 말뭉치 한계: 자국 작품 수가 적고(PT 181편·BR 115편), pt-BR 은 브라질판 전용 자막 묶음이 아니라 포르투갈어 묶음 안의 브라질 제작 작품 — 더 정확히 하려면 브라질판 묶음을 받아 분류부터. 앱 「빈도 단어」 CSV(`lang_es_top.csv`, 헤더만)는 콘텐츠 금지가 풀리면 이 순위로 채운다.
 - 공용 사전 원본 `talkverse/_update_kit/l10n/l10n_dict.dart` 에 이 앱에서 추가한 로그인·리더 문구를 옮길지(다른 앱 세션과 겹치지 않을 때).
 - 작업 트리에 줄바꿈(CRLF)만 다른 파일이 남아 있다 — `git add -A` 금지, 바꾼 파일만 경로로.
