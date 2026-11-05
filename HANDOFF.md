@@ -1,4 +1,4 @@
-# HANDOFF — talkverse-pt (포르투갈어유니버스) · 2026-11-03
+# HANDOFF — talkverse-pt (포르투갈어유니버스) · 2026-11-06
 
 규칙은 `CLAUDE.md`(서명 §1·Zealot §8·판 §9·회화 원칙 §10), 언어앱 공통 절차는 `~/talkverse/LANG_APP_REPLICATE_PROMPT.md`.
 
@@ -14,12 +14,19 @@
 | 캐릭터 시안 ① | **통과**(11-03) — `data/review/art/chars_pt_v1.jpg`, 인물표 `CHARACTERS.md` |
 | UX/UI 시안 ② | **통과**(11-03) — 글 `data/review/uxui/sian_pt_01.md`, 그림 `sian_pt_02.jpg`(PT-01 은 캐릭터 미반영으로 다시 그림) |
 | 아이패드 빌드 ③ | 코드 `ba4007e`·`b73eec4`, 아이패드 스크린샷 9장 넘침 0·통합 테스트 통과 |
-| Android | CI 빌드 **10**(b73eec4) · Zealot https://apps.talkverse.uk/KtegX/214 · PC `D:\OneDrive\app project\talkverse-pt\` |
-| iOS | TestFlight 업로드 **빌드 2611030130**(11-03 01:33) — 처리 뒤 TestFlight 에 나타남. ⚠ **Sign in with Apple 권한 빠짐**(아래) |
+| Android | CI 빌드 **12**(91be624) · Zealot https://apps.talkverse.uk/KtegX/280 · ⚠ PC 백업 안 됨(11-05 PC 에 D: 드라이브가 안 보임 — 빌드 10 이 마지막 백업). Zealot .../279 는 설명이 틀린 빌드 11 중복 항목 |
+| iOS | TestFlight 업로드 **빌드 2611052356**(11-06 00:01), Sign in with Apple 권한 포함 확인(`tools/ios_release.sh` 의 entitlements ad-hoc 서명). IPA 는 `build/ios/ipa_appstore/` 에만 있음(PC 백업 실패) |
 | 로그인·결제 | 코드 `d58eb09`(Talkverse ID client_id `pt`, 상품 `com.talkverse.portugueseUniverse.lifetime`/`lang_pt`) — 잠근 화면은 아직 없음 |
 | 절벽(레마) | **판별 재산정 11-03** — pt-PT R1 55·R2 83·R3 217·R4 656(상위 2,500 90.1%) / pt-BR 63·96·243·727, 자국 작품 자막 기준(`data/cliff/README.md`, `tools/pt_cliff.py`). 옛 234·403·1,134 폐기. 사이트 카드 = pt-PT 값 |
 | 단어 그림 리스트 | talkversehanja `talkverse_art/words/pt.csv` = 새 레마 순위 2,500(PT·BR 합침, 구간 PT 경계, R5 = 절벽 밖, 340f9b5)·`pt_food.csv`(50), uk 세션이 D1 다시 적재 — 그림은 `GET https://auth.talkverse.uk/art/pt/manifest` |
 | 저작권 정리 | 책 이름·책 파서 삭제 + 이력 재작성·강제 push 끝(11-02, 사용자 승인) |
+
+## 11-04~05 일본어앱 변경 이식(`ee8e5a1`·`ce9c53c`·`aa4b02d`·`91be624`)
+- 대사는 그림 아래 띠(오버레이 말풍선 없음), 카드 앞면 한국어, 턴 `lemmas` + 레마 칩(`tools/add_lemmas.py`, 고침표 `LEMMA_FIX`), 빈도 단어 2,505어(`assets/data/freq/lang_pt_top.csv`, uk 세션 작성) — 레마 93개 전부 연결.
+- 시작 때 그림 기기 내려받기(`lib/services/content_sync.dart`·`lib/screens/sync_screen.dart`, 929장·약 24MB), `assets/data/version.json` db=4, 이름 없으면 묻기, `<편id>_f` 컷 먼저.
+- **DB 다시 채워도 학습 기록 유지**(`SeedLoader` 가 (레벨·편·턴 번호)로 되붙임, `test/seed_progress_test.dart`). 데이터를 바꾸면 version.json 번호만 올린다.
+- 아직 없음: 여자 학습자 컷·조연 캐릭터 시트(⑦⑧ 의 그림) — Grok 대기 해제 뒤. 코드는 준비됨.
+- 빌드 대기 수는 `ps -axo args= | grep -c '^[^ ]*dartvm .*flutter_tools'` 로 센다(`pgrep -f flutter_tools.snapshot` 은 대기 명령까지 세어 서로 기다리게 된다).
 
 ## 이번에 만든 것(③)
 - 넓은 화면(가로 720+): 레일 + 왼쪽 탭 | 오른쪽 칸(`lib/core/pane.dart`), 폰은 하단 탭·세로 고정(`main.dart` `_setOrientations`).
@@ -31,13 +38,13 @@
 - 스크린샷 흐름: `integration_test/dialogue_pane_test.dart` + `tools/pane_shots.py`(아이패드 시뮬레이터 「pt-shots iPad Pro 11」 3F293F2F-E008-495C-AE42-B1AC2CF6F5C5, 쓴 뒤 shutdown).
 
 ## 사용자가 할 일
-1. **개발자 포털 → Identifiers → `com.talkverse.portugueseUniverse` → Sign in with Apple 켜기**(Primary App ID 는 한자 앱, 이 앱은 "Group with existing primary"). 켠 뒤 `bash tools/ios_release.sh` 를 다시 돌려야 iOS 에서 Apple 로그인이 된다(지금 빌드는 구글·네이버·카카오·이메일 로그인만).
+1. **PC D: 드라이브 확인**(11-05 안 보임). 돌아오면 APK 빌드 12·IPA 2611052356 을 `D:\OneDrive\app project\` 에 다시 올린다. 서명 키 백업 `D:\backup\signing_keys\talkverse-pt\` 도 그쪽에 있다(Doppler 에는 있음).
 2. **평생 이용권으로 무엇을 열지** 결정(예: R2 이상 회화·단어, 브라질판) — 정해지기 전에는 잠그지 않는다.
 3. 스토어 인앱 상품 등록(iOS `com.talkverse.portugueseUniverse.lifetime`, Play `lang_pt`), 데모 계정에 lang `pt` 이용권 부여는 talkverse.uk 세션에 요청.
 
 ## 다음 할 일(지시가 오면)
 - 동사 활용 시트(시안 PT-01 칸 ①) — `assets/data/grammar/verbs_core.json` 이 비어 있어 미구현. 콘텐츠 금지가 풀리면 동사 데이터와 함께.
 - 회화: R1~R4 재태그·성별판(남·여 파일)·pt-PT/pt-BR 폴더·반전 턴·검수(공통 원칙 https://talkverse.uk/talkverse/dialogue-rules/). 지금 초안은 남성 학습자·유럽판뿐.
-- 절벽 말뭉치 한계: 자국 작품 수가 적고(PT 181편·BR 115편), pt-BR 은 브라질판 전용 자막 묶음이 아니라 포르투갈어 묶음 안의 브라질 제작 작품 — 더 정확히 하려면 브라질판 묶음을 받아 분류부터. 앱 「빈도 단어」 CSV(`lang_es_top.csv`, 헤더만)는 콘텐츠 금지가 풀리면 이 순위로 채운다.
+- 절벽 말뭉치 한계: 자국 작품 수가 적고(PT 181편·BR 115편), pt-BR 은 브라질판 전용 자막 묶음이 아니라 포르투갈어 묶음 안의 브라질 제작 작품 — 더 정확히 하려면 브라질판 묶음을 받아 분류부터.
 - 공용 사전 원본 `talkverse/_update_kit/l10n/l10n_dict.dart` 에 이 앱에서 추가한 로그인·리더 문구를 옮길지(다른 앱 세션과 겹치지 않을 때).
 - 작업 트리에 줄바꿈(CRLF)만 다른 파일이 남아 있다 — `git add -A` 금지, 바꾼 파일만 경로로.
