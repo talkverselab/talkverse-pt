@@ -29,7 +29,7 @@ class Words extends Table {
   TextColumn get meaningKo => text().nullable()();
   RealColumn get freq => real().nullable()();
   RealColumn get cumPct => real().nullable()();
-  TextColumn get region => text().nullable()(); // R1, R2, R3, R4
+  TextColumn get region => text().nullable()(); // R1~R4, R5 = 절벽 밖
   TextColumn get cefr => text().nullable()(); // A1, A2, B1, ...
 
   @override

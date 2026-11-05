@@ -1,0 +1,65 @@
+rank,word,reading,ko,en,pos
+4,ser,,"이다, 되다",to be,verb
+13,estar,,"있다, ~한 상태이다",to be (state),verb
+11,ir,,가다,to go,verb
+25,fazer,,"하다, 만들다",to do,verb
+27,querer,,원하다,to want,verb
+36,poder,,할 수 있다,can,verb
+39,ver,,보다,to see,verb
+42,haver,,있다 (존재),there is,verb
+40,bom,,좋은,good,adj
+48,coisa,,"것, 물건",thing,noun
+66,dia,,"날, 하루",day,noun
+57,ficar,,"위치하다, 머무르다",to be located,verb
+71,onde,,어디,where,adv
+73,vir,,오다,to come,verb
+68,mesmo,,"정말, 진짜",really,adv
+85,sempre,,항상,always,adv
+94,noite,,밤,night,noun
+96,depois,,"그 다음에, 나중에",afterwards,adv
+118,gostar,,좋아하다,to like,verb
+115,favor,,"부탁, 호의",favor,noun
+132,hora,,시간,hour,noun
+141,levar,,"가져가다, 데려가다",to take,verb
+144,chamar,,"부르다, 이름이 ~이다",to call,verb
+145,claro,,"물론, 분명한",of course,adj
+137,comigo,,나와 함께,with me,pron
+170,encontrar,,"만나다, 찾다",to meet,verb
+222,contigo,,너와 함께,with you,pron
+224,ideia,,"생각, 아이디어",idea,noun
+236,comer,,먹다,to eat,verb
+219,pagar,,지불하다,to pay,verb
+261,fim,,끝,end,noun
+268,pé,,"발, 걸음",foot,noun
+293,mês,,"달, 개월",month,noun
+332,escrever,,쓰다,to write,verb
+334,português,,"포르투갈어, 포르투갈의",Portuguese,noun
+342,longe,,멀리,far,adv
+287,semana,,"주, 일주일",week,noun
+347,beber,,마시다,to drink,verb
+249,frente,,앞,front,noun
+355,minuto,,분,minute,noun
+296,cidade,,도시,city,noun
+370,filme,,영화,movie,noun
+437,mostrar,,보여주다,to show,verb
+418,adorar,,아주 좋아하다,to adore,verb
+513,livre,,"한가한, 자유로운",free,adj
+470,café,,"커피, 카페",coffee,noun
+410,aprender,,배우다,to learn,verb
+716,perfeito,,완벽한,perfect,adj
+820,breve,,"짧은, 곧",brief,adj
+906,arte,,예술,art,noun
+905,cinema,,영화관,cinema,noun
+1005,leite,,우유,milk,noun
+457,morar,,"살다, 거주하다",to live,verb
+1225,bolo,,케이크,cake,noun
+1062,chá,,차,tea,noun
+1393,aberto,,"열린, 영업 중인",open,adj
+1127,esquerda,,왼쪽,left,noun
+1374,sábado,,토요일,Saturday,noun
+1650,estação,,역,station,noun
+3001,pastel,,파스텔 (페이스트리),pastry,noun
+3002,preferido,,가장 좋아하는,favorite,adj
+3003,praticar,,연습하다,to practice,verb
+3004,museu,,박물관,museum,noun
+3005,nata,,크림,cream,noun

@@ -178,4 +178,4 @@ adb -s R3CY20HDN2K install --user 0 -r <apk>
 | lh / nh | ㄹ리 / 니·뉴 | venho → 벵유 |
 | ch·x(대개) / j·g(e,i) | 샤 계열 / 즈 계열 | chá → 샤, já → 자 |
 
-- **템플릿 잔재(공통 원칙 §12 — 정리할 것)**: 대상어 칸 이름 `es`, 홈 인사 「¡Hola!」(→ Olá!), 오늘의 학습 카드 「PRINCIPIANTE 1」·「Minjun & Lucía 스토리」(실제 인물은 Inês), 빈도 파일 이름 `lang_es_top.csv`. 회화 데이터 변환기(공통 모양 `{num, speaker, tl, rd, ko, note, tags, twist, flags}`)는 내보낼 때 만든다.
+- **템플릿 잔재(공통 원칙 §12 — 정리할 것)**: 대상어 칸 이름 `es`, 홈 인사 「¡Hola!」(→ Olá!), 오늘의 학습 카드 「PRINCIPIANTE 1」·「Minjun & Lucía 스토리」(실제 인물은 Inês). 회화 데이터 변환기(공통 모양 `{num, speaker, tl, rd, ko, note, tags, twist, flags}`)는 내보낼 때 만든다.

@@ -42,7 +42,7 @@ class SeedLoader {
   Future<void> _seedWords() async {
     final String raw;
     try {
-      raw = await rootBundle.loadString('assets/data/freq/lang_es_top.csv');
+      raw = await rootBundle.loadString('assets/data/freq/lang_pt_top.csv');
     } catch (_) {
       return;
     }

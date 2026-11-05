@@ -40,6 +40,11 @@ try:
                 vocab.add(str(w.get('tx', '')).strip().lower())
 except FileNotFoundError:
     pass
+try:
+    for r in csv.DictReader(open(ROOT / 'assets/data/freq/lang_pt_top.csv', encoding='utf-8')):
+        vocab.add(r['word'].lower())
+except FileNotFoundError:
+    pass
 rank = {}
 try:
     for r in csv.DictReader(open(ROOT / 'data/cliff/pt_PT_top5000_lemma.csv', encoding='utf-8')):

@@ -44,6 +44,18 @@ void main() {
     expect(p.single.lastReviewed, when);
   });
 
+  test('빈도 단어표가 채워진다(레마 칩 단어장)', () async {
+    SharedPreferences.setMockInitialValues({});
+    final db = AppDatabase.forTesting(NativeDatabase.memory());
+    addTearDown(db.close);
+    await SeedLoader(db).seedIfNeeded();
+    final words = await db.select(db.words).get();
+    expect(words.length, greaterThanOrEqualTo(2500));
+    final querer = words.singleWhere((w) => w.word == 'querer');
+    expect(querer.meaningKo, isNotEmpty);
+    expect(querer.region, 'R1');
+  });
+
   test('번호가 같으면 다시 채우지 않는다', () async {
     SharedPreferences.setMockInitialValues({});
     final db = AppDatabase.forTesting(NativeDatabase.memory());
