@@ -19,7 +19,6 @@ class SeedLoader {
     final bundled = await bundledVersion();
     if (prefs.getInt(_kDbVersion) == bundled) return;
     await db.delete(db.words).go();
-    await db.delete(db.verbs).go();
     await _seedWords();
     await _seedVerbs();
     await _seedTurns();
@@ -126,11 +125,41 @@ class SeedLoader {
       }
     }
     if (batch.isNotEmpty) {
-      // 재시딩: 이전 버전 턴·진행 기록 제거 후 삽입 (turnId 재발급)
+      // 재시딩: turnId 가 새로 발급되므로 학습 기록은 (레벨·편·턴 번호)로 빼 두었다가 새 turnId 에 되붙인다.
+      // 업데이트로 폰의 학습 기록이 사라지면 안 된다(2026-11-04).
+      final saved = await _snapshotProgress();
       await db.delete(db.userProgress).go();
       await db.delete(db.turns).go();
       await db.batch((b) => b.insertAll(db.turns, batch));
+      await _restoreProgress(saved);
     }
+  }
+
+  static String _turnKey(TurnRow t) => '${t.level}/${t.episodeId}/${t.num}';
+
+  Future<Map<String, UserProgressRow>> _snapshotProgress() async {
+    final byId = {for (final t in await db.select(db.turns).get()) t.id: t};
+    return {
+      for (final p in await db.select(db.userProgress).get())
+        if (byId[p.turnId] != null) _turnKey(byId[p.turnId]!): p,
+    };
+  }
+
+  Future<void> _restoreProgress(Map<String, UserProgressRow> saved) async {
+    if (saved.isEmpty) return;
+    final rows = <UserProgressCompanion>[];
+    for (final t in await db.select(db.turns).get()) {
+      final p = saved[_turnKey(t)];
+      if (p == null) continue; // 없어진 턴의 기록은 버린다
+      rows.add(UserProgressCompanion.insert(
+        turnId: Value(t.id),
+        learned: Value(p.learned),
+        favorite: Value(p.favorite),
+        lastReviewed: Value(p.lastReviewed),
+        reviewCount: Value(p.reviewCount),
+      ));
+    }
+    await db.batch((b) => b.insertAll(db.userProgress, rows));
   }
 
   Future<int> turnCount() => db.turns.count().getSingle();
