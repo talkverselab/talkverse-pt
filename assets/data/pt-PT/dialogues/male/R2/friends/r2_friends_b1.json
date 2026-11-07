@@ -29,6 +29,10 @@
   "aliás",
   "tá bem"
  ],
+ "cast": {
+  "B": "duarte",
+  "C": "beatriz"
+ },
  "variant": "pt-PT",
  "learner_gender": "male",
  "draft": true,
@@ -43,6 +47,7 @@
    ],
    "ui": "bubble",
    "at": "21:02",
+   "emotion": "cheerful",
    "num": 1,
    "rd": "두아르뜨, 아 페쉬따 다 베아트리즈 에 아즈 오이뚜, 쎄르뚜?"
   },
@@ -56,6 +61,7 @@
    ],
    "ui": "bubble",
    "at": "21:02",
+   "emotion": "worried",
    "num": 2,
    "rd": "빠... 이쉬뚜 에 우 그루뿌 꽁 아 베아트리쉬."
   },
@@ -69,6 +75,16 @@
    ],
    "ui": "bubble",
    "at": "21:03",
+   "segs": [
+    [
+     "surprised",
+     "O quê?!"
+    ],
+    [
+     "worried",
+     "Já apaguei. Ela não viu, pois não?"
+    ]
+   ],
    "num": 3,
    "rd": "우 께?! 자 아빠게이. 엘라 나웅 비우, 뽀이쉬 나웅?"
   },
@@ -80,6 +96,13 @@
    "tags": [],
    "ui": "bubble",
    "at": "21:03",
+   "segs": [
+    [
+     "teasing",
+     "Que festa? 👀",
+     "Que festa?"
+    ]
+   ],
    "num": 4,
    "rd": "끄 페쉬따? 👀"
   },
@@ -91,6 +114,7 @@
    "tags": [],
    "ui": "bubble",
    "at": "21:04",
+   "emotion": "flustered",
    "num": 5,
    "rd": "페쉬따? 꽐 페쉬따? 포이 우 꼬헤또르!"
   },
@@ -104,6 +128,13 @@
    ],
    "ui": "bubble",
    "at": "21:04",
+   "segs": [
+    [
+     "teasing",
+     "O corretor escreveu «às oito»?",
+     "O corretor escreveu às oito?"
+    ]
+   ],
    "num": 6,
    "rd": "우 꼬헤또르 이쉬크레베우 «아즈 오이뚜»?"
   },
@@ -117,6 +148,7 @@
    ],
    "ui": "bubble",
    "at": "21:05",
+   "emotion": "polite",
    "num": 7,
    "rd": "베아트리쉬, 나웅 리그쉬. {name} 이쉬따 깐싸두."
   },
@@ -130,6 +162,7 @@
    ],
    "ui": "bubble",
    "at": "21:05",
+   "emotion": "amused",
    "num": 8,
    "rd": "따 벵. 엔따웅 에우 레부 우 볼루."
   },
@@ -143,6 +176,7 @@
    ],
    "ui": "bubble",
    "at": "21:06",
+   "emotion": "surprised",
    "num": 9,
    "rd": "이쉬뻬라... 뚜 싸비아쉬?"
   },
@@ -157,6 +191,16 @@
    ],
    "ui": "bubble",
    "at": "21:06",
+   "segs": [
+    [
+     "amused",
+     "Sabia, pois."
+    ],
+    [
+     "teasing",
+     "Aliás, a festa é para ti."
+    ]
+   ],
    "num": 10,
    "rd": "싸비아, 뽀이쉬. 알리아쉬, 아 페쉬따 에 빠라 띠."
   },
@@ -170,6 +214,7 @@
    ],
    "ui": "bubble",
    "at": "21:07",
+   "emotion": "shout",
    "num": 11,
    "rd": "빠라 밍?! 마즈 에우 파쑤 아누즈 앵 마르쑤!"
   },
@@ -184,6 +229,7 @@
    "ui": "bubble",
    "at": "21:07",
    "stamp": "😂",
+   "emotion": "annoyed",
    "num": 12,
    "rd": "베아트리쉬... 뚜 디쎄쉬뜨 끄 에라 오즈."
   }

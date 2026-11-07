@@ -29,6 +29,9 @@
   "espere lá",
   "pois"
  ],
+ "cast": {
+  "B": "fernanda"
+ },
  "variant": "pt-PT",
  "learner_gender": "female",
  "draft": true,
@@ -41,6 +44,13 @@
    "tags": [
     "expr:faça favor"
    ],
+   "segs": [
+    [
+     "polite",
+     "Número 147? Faça favor, sente-se. Em que posso ajudar?",
+     "Número cento e quarenta e sete? Faça favor, sente-se. Em que posso ajudar?"
+    ]
+   ],
    "num": 1,
    "rd": "누메루 147? 파싸 파보르, 쎈뜨 쓰. 앵 끄 뽀쑤 아주다르?"
   },
@@ -52,6 +62,7 @@
    "tags": [
     "form:precisar de"
    ],
+   "emotion": "stiff",
    "num": 2,
    "rd": "봉 디아. 프레씨주 드 웅 누메루 드 꼰트리부인뜨 빠라 알루가르 웅 아빠르따멘뚜."
   },
@@ -63,6 +74,7 @@
    "tags": [
     "expr:com certeza"
    ],
+   "emotion": "polite",
    "num": 3,
    "rd": "꽁 쎄르떼자. 땡 아이 웅 꽁프로바띠부 드 모라다?"
   },
@@ -74,6 +86,7 @@
    "tags": [
     "form:infinitivo-pessoal"
    ],
+   "emotion": "worried",
    "num": 4,
    "rd": "나웅 뗑유, 뽀르끄 우 쎙요리우 쏘 파즈 우 꼰트라뚜 데뽀이쉬 드 에우 떼르 우 누메루."
   },
@@ -86,6 +99,7 @@
     "expr:pois",
     "form:lhe"
    ],
+   "emotion": "polite",
    "num": 5,
    "rd": "뽀이쉬, 마쉬 쎙 모라다 나웅 리으 뽀쑤 다르 우 누메루."
   },
@@ -97,6 +111,7 @@
    "tags": [
     "expr:como é que"
    ],
+   "emotion": "flustered",
    "num": 6,
    "rd": "이 쎙 누메루 나웅 뗑유 모라다. 엔따웅 꼬무 에 끄 쓰 파쉬?"
   },
@@ -108,6 +123,7 @@
    "tags": [
     "expr:olhe"
    ],
+   "emotion": "amused",
    "num": 7,
    "rd": "올류, 에 웅 끌라씨꾸. 아 껭 안드 니쉬뚜 아 트레쉬 메즈쉬."
   },
@@ -119,6 +135,7 @@
    "tags": [
     "form:andar-a"
    ],
+   "emotion": "shout",
    "num": 8,
    "rd": "트레쉬 메즈쉬?! 안두 아 도르미르 누 쏘파 드 웅 꼴레가 아 두아쉬 쎄마나쉬!"
   },
@@ -131,6 +148,7 @@
     "expr:coitado",
     "form:conjuntivo"
    ],
+   "emotion": "gentle",
    "num": 9,
    "rd": "꼬이따다. 이 나웅 꽁예쓰 닝겡 끄 리으 엠프레쉬뜨 우마 모라다?"
   },
@@ -142,6 +160,7 @@
    "tags": [
     "expr:nem"
    ],
+   "emotion": "annoyed",
    "num": 10,
    "rd": "쏘 꽁예쑤 우 쎙요리우, 이 에쓰 넹 아뗀드 우 뗄레포느. 에 우 쎙요르 알바누."
   },
@@ -153,6 +172,7 @@
    "tags": [
     "expr:espere lá"
    ],
+   "emotion": "surprised",
    "num": 11,
    "rd": "이쉬뻬르 라. 알바누 페헤이라, 다 후아 다쉬 플로르쉬, 꽁 웅 까웅 끄 라드라 아 뚜두?"
   },
@@ -164,6 +184,7 @@
    "tags": [
     "form:clitic"
    ],
+   "emotion": "excited",
    "num": 12,
    "rd": "에쓰 메쥬무! 아 쎙요라 꽁예쓰 우?"
   },
@@ -176,6 +197,16 @@
     "expr:se conheço",
     "twist"
    ],
+   "segs": [
+    [
+     "amused",
+     "Se conheço!"
+    ],
+    [
+     "annoyed",
+     "É o meu irmão. Há dez anos que me deve dinheiro."
+    ]
+   ],
    "num": 13,
    "rd": "쓰 꽁예쑤! 에 우 메우 이르마웅. 아 데즈 아누쉬 끄 므 데브 딩예이루."
   },
@@ -187,6 +218,7 @@
    "tags": [
     "form:clitic"
    ],
+   "emotion": "neutral",
    "num": 14,
    "rd": "이 이쑤 아주다 므 앵 께, 이자따멘뜨?"
   },
@@ -198,6 +230,7 @@
    "tags": [
     "expr:ou ou"
    ],
+   "emotion": "annoyed",
    "num": 15,
    "rd": "알바누? 오우 파즈쉬 오즈 우 꼰트라뚜 아 에쉬따 조벵, 오우 꼰뚜 뚜두 아 마잉."
   },
@@ -209,6 +242,7 @@
    "tags": [
     "form:acabar-de"
    ],
+   "emotion": "amused",
    "num": 16,
    "rd": "아슈 끄 아까베이 드 아한자르 까자."
   }

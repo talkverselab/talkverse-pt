@@ -28,6 +28,9 @@
   "pelo contrário",
   "não faço ideia"
  ],
+ "cast": {
+  "B": "marta"
+ },
  "variant": "pt-PT",
  "learner_gender": "male",
  "draft": true,
@@ -40,6 +43,7 @@
    "tags": [
     "form:infinitivo-pessoal"
    ],
+   "emotion": "polite",
    "num": 1,
    "rd": "안뜨쉬 드 떼르미나르무쉬, 고쉬따바 드 싸베르 아 쑤아 오삐니아웅 쏘브르 아 프로뽀쉬따, {name}."
   },
@@ -52,6 +56,7 @@
     "expr:com todo o respeito",
     "form:condicional"
    ],
+   "emotion": "stiff",
    "num": 2,
    "rd": "꽁 또두 우 헤쉬뻬이뚜, 아슈 끄 쎄리아 프레페리벨 아디아르무즈 아 데씨자웅 아떼 떼르무쉬 마이쉬 다두쉬."
   },
@@ -63,6 +68,7 @@
    "tags": [
     "form:conjuntivo"
    ],
+   "emotion": "polite",
    "num": 3,
    "rd": "꽁프레엔두, 엠보라 우 끌리엔뜨 이쉬떼자 아 이쉬뻬라 드 우마 헤쉬뽀쉬따 아떼 쌔이쉬따 페이라."
   },
@@ -74,6 +80,7 @@
    "tags": [
     "form:conjuntivo-imperfeito"
    ],
+   "emotion": "polite",
    "num": 4,
    "rd": "네쓰 까주, 딸베쉬 뿌데쎄무쉬 프로뽀르 우마 파즈 드 떼쉬뜨, 쎙 누쉬 꽁프로메떼르무쉬 자."
   },
@@ -85,6 +92,7 @@
    "tags": [
     "form:conjuntivo"
    ],
+   "emotion": "polite",
    "num": 5,
    "rd": "나웅 므 빠레쓰 디쉬빠라뜨 넹융. 마쉬 아 알궁 히쉬꾸 끄 에우 나웅 이쉬떼자 아 베르?"
   },
@@ -96,6 +104,7 @@
    "tags": [
     "form:conjuntivo"
    ],
+   "emotion": "worried",
    "num": 6,
    "rd": "아 웅 뽀르메노르, 씽. 헤쎄이우 끄 우 오르싸멘뚜 나웅 셰그, 까주 우 프라주 데하쁘."
   },
@@ -107,6 +116,7 @@
    "tags": [
     "expr:bem menos"
    ],
+   "emotion": "teasing",
    "num": 7,
    "rd": "꾸리오주. 아인다 에쉬따 망양 알겡 디쓰 이자따멘뜨 우 메쥬무, 드 포르마 벵 메누즈 에두까다."
   },
@@ -119,6 +129,7 @@
     "expr:a sério",
     "form:futuro-perfeito"
    ],
+   "emotion": "flustered",
    "num": 8,
    "rd": "아 쎄리우? 껭 떼라 씨두?"
   },
@@ -129,6 +140,13 @@
    "note": "uma voz a dizer = 말하는 목소리",
    "tags": [
     "form:estar-a"
+   ],
+   "segs": [
+    [
+     "teasing",
+     "Não sei. Só ouvi uma voz a dizer que a proposta era «um desastre de gravata».",
+     "Não sei. Só ouvi uma voz a dizer que a proposta era um desastre de gravata."
+    ]
    ],
    "num": 9,
    "rd": "나웅 쎄이. 쏘 오우비 우마 보즈 아 디제르 끄 아 프로뽀쉬따 에라 «웅 데자쉬트르 드 그라바따»."
@@ -142,6 +160,7 @@
     "expr:não faço ideia",
     "form:conjuntivo"
    ],
+   "emotion": "flustered",
    "num": 10,
    "rd": "끄 에쉬프레싸웅 따웅... 크리아띠바. 나웅 파쑤 이데이아 드 껭 뽀싸 떼르 디뚜 딸 꼬이자."
   },
@@ -153,6 +172,7 @@
    "tags": [
     "twist"
    ],
+   "emotion": "polite",
    "num": 11,
    "rd": "뽀이쉬. 우 쎄우 미크로포느 피꼬우 리가두 두란뜨 아 빠우자. 오우비무쉬 또두쉬."
   },
@@ -162,6 +182,7 @@
    "ko": "다요? 고객도요?",
    "note": "incluindo = ~을 포함해",
    "tags": [],
+   "emotion": "worried",
    "num": 12,
    "rd": "또두쉬? 잉끌루인두 우 끌리엔뜨?"
   },
@@ -173,6 +194,7 @@
    "tags": [
     "expr:por incrível que pareça"
    ],
+   "emotion": "amused",
    "num": 13,
    "rd": "쏘브레뚜두 우 끌리엔뜨. 이, 뽀르 잉크리벨 끄 빠레싸, 아도로우 아 에쉬프레싸웅."
   },
@@ -184,6 +206,7 @@
    "tags": [
     "expr:quer dizer"
    ],
+   "emotion": "stiff",
    "num": 14,
    "rd": "께르 디제르 끄 나웅 보우 쎄르 데쉬뻬디두?"
   },
@@ -195,6 +218,7 @@
    "tags": [
     "expr:pelo contrário"
    ],
+   "emotion": "amused",
    "num": 15,
    "rd": "뻴루 꼰트라리우. 께르 끄 쎄자 {name} 아 아프레젠따르 우 데자쉬트르. 드 그라바따."
   }

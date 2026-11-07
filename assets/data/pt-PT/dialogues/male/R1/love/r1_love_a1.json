@@ -30,6 +30,9 @@
   "afinal",
   "só"
  ],
+ "cast": {
+  "B": "ines"
+ },
  "variant": "pt-PT",
  "learner_gender": "male",
  "draft": true,
@@ -42,6 +45,7 @@
    "tags": [
     "form:estar"
    ],
+   "emotion": "teasing",
    "num": 1,
    "rd": "올라! 이쉬따쉬 쏘지뉴?"
   },
@@ -53,6 +57,7 @@
    "tags": [
     "form:answer-verb"
    ],
+   "emotion": "neutral",
    "num": 2,
    "rd": "이쉬또우, 씽. 뽀르께?"
   },
@@ -64,6 +69,7 @@
    "tags": [
     "form:estar-a"
    ],
+   "emotion": "teasing",
    "num": 3,
    "rd": "뽀르끄 이쉬따즈 아 레르 우 메누 아 메이아 오라."
   },
@@ -75,6 +81,7 @@
    "tags": [
     "expr:pois é"
    ],
+   "emotion": "flustered",
    "num": 4,
    "rd": "뽀이즈 에... 나웅 뻬르쎄부 나다."
   },
@@ -86,6 +93,7 @@
    "tags": [
     "expr:então"
    ],
+   "emotion": "gentle",
    "num": 5,
    "rd": "엔따웅 에우 아주두. 우 끄 께르쉬?"
   },
@@ -97,6 +105,7 @@
    "tags": [
     "twist"
    ],
+   "emotion": "shy",
    "num": 6,
    "rd": "웅 까페. 이 우 떼우 노므."
   },
@@ -108,6 +117,7 @@
    "tags": [
     "expr:afinal"
    ],
+   "emotion": "surprised",
    "num": 7,
    "rd": "아! 아피날 싸브쉬 팔라르 무이뚜 벵!"
   },
@@ -119,6 +129,7 @@
    "tags": [
     "expr:só"
    ],
+   "emotion": "shy",
    "num": 8,
    "rd": "쏘 에싸 프라즈. 트레이네이 앵 까자."
   }

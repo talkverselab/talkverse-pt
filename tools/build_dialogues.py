@@ -37,6 +37,8 @@ for src in sys.argv[1:]:
             errs.append(f"{i}: 턴 {len(ep['turns'])}개(기준 {lo}~{hi})")
         if ep.get('twist_type') not in TWIST or not 1 <= ep.get('twist', 0) <= len(ep['turns']):
             errs.append(f'{i}: 반전 표시')
+        if not ep.get('cast') or any(k != 'A' and k not in ep['cast'] for k in ep['speakers']):
+            errs.append(f'{i}: cast(화자 → 목소리) 없음')
         if 'twist' not in ep['turns'][ep['twist'] - 1].get('tags', []):
             errs.append(f"{i}: {ep['twist']}턴에 twist 태그 없음")
         for g in ('male', 'female'):
@@ -48,10 +50,15 @@ for src in sys.argv[1:]:
                 a, b = WORDS[reg]
                 if w > b or (w < a and ep['kind'] != 'chat'):
                     errs.append(f'{i} {n}턴: {w}단어 「{tl}」')
+                if not (t.get('emotion') or t.get('segs')):
+                    errs.append(f'{i} {n}턴: 감정 없음(emotion 또는 segs)')
                 r = rd(tl)
                 if re.search(r'[a-zA-Zà-ÿ]', re.sub(r'\{[a-z_]+\}', '', r)) and not re.search(r'[A-Z]', tl):
                     errs.append(f'{i} {n}턴: 독음에 로마자 「{r}」')
-                out['turns'].append({**t, 'num': n, 'tl': tl, 'rd': r, 'ko': pick(t['ko'], g), 'note': pick(t['note'], g)})
+                row = {**t, 'num': n, 'tl': tl, 'rd': r, 'ko': pick(t['ko'], g), 'note': pick(t['note'], g)}
+                if t.get('segs'):
+                    row['segs'] = [[x[0]] + [pick(y, g) for y in x[1:]] for x in t['segs']]
+                out['turns'].append(row)
             p = ROOT / f"assets/data/pt-PT/dialogues/{g}/{reg}/{ep['island']}/{i}.json"
             p.parent.mkdir(parents=True, exist_ok=True)
             json.dump(out, open(p, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
