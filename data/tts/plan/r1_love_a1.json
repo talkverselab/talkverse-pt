@@ -1,0 +1,72 @@
+{
+ "ep": "r1_love_a1",
+ "cast": {
+  "B": "ines"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "teasing",
+     "Olá! Estás sozinh{o|a}?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "Estou, sim. Porquê?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "teasing",
+     "Porque estás a ler o menu há meia hora."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "flustered",
+     "Pois é... não percebo nada."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "gentle",
+     "Então eu ajudo. O que queres?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "shy",
+     "Um café. E o teu nome."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "surprised",
+     "Ah! Afinal sabes falar muito bem!"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "shy",
+     "Só essa frase. Treinei em casa."
+    ]
+   ]
+  }
+ }
+}

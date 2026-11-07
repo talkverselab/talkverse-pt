@@ -1,0 +1,129 @@
+{
+ "ep": "r4_work_b1",
+ "cast": {
+  "B": "marta"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "polite",
+     "Antes de terminarmos, gostava de saber a sua opinião sobre a proposta, {name}."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "stiff",
+     "Com todo o respeito, acho que seria preferível adiarmos a decisão até termos mais dados."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "polite",
+     "Compreendo, embora o cliente esteja à espera de uma resposta até sexta-feira."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "polite",
+     "Nesse caso, talvez pudéssemos propor uma fase de teste, sem nos comprometermos já."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "polite",
+     "Não me parece disparate nenhum. Mas há algum risco que eu não esteja a ver?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "worried",
+     "Há um pormenor, sim. Receio que o orçamento não chegue, caso o prazo derrape."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "teasing",
+     "Curioso. Ainda esta manhã alguém disse exatamente o mesmo, de forma bem menos educada."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "flustered",
+     "A sério? Quem terá sido?"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "teasing",
+     "Não sei. Só ouvi uma voz a dizer que a proposta era «um desastre de gravata».",
+     "Não sei. Só ouvi uma voz a dizer que a proposta era um desastre de gravata."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "flustered",
+     "Que expressão tão... criativa. Não faço ideia de quem possa ter dito tal coisa."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "polite",
+     "Pois. O seu microfone ficou ligado durante a pausa. Ouvimos todos."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "worried",
+     "Todos? Incluindo o cliente?"
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "amused",
+     "Sobretudo o cliente. E, por incrível que pareça, adorou a expressão."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "stiff",
+     "Quer dizer que não vou ser despedid{o|a}?"
+    ]
+   ]
+  },
+  "15": {
+   "segs": [
+    [
+     "amused",
+     "Pelo contrário. Quer que seja {name} a apresentar o desastre. De gravata."
+    ]
+   ]
+  }
+ }
+}

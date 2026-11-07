@@ -1,0 +1,141 @@
+{
+ "ep": "r3_life_b1",
+ "cast": {
+  "B": "fernanda"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "polite",
+     "Número 147? Faça favor, sente-se. Em que posso ajudar?",
+     "Número cento e quarenta e sete? Faça favor, sente-se. Em que posso ajudar?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "stiff",
+     "Bom dia. Preciso de um número de contribuinte para alugar um apartamento."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "polite",
+     "Com certeza. Tem aí um comprovativo de morada?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "worried",
+     "Não tenho, porque o senhorio só faz o contrato depois de eu ter o número."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "polite",
+     "Pois, mas sem morada não lhe posso dar o número."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "flustered",
+     "E sem número não tenho morada. Então como é que se faz?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "amused",
+     "Olhe, é um clássico. Há quem ande nisto há três meses."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "shout",
+     "Três meses?! Ando a dormir no sofá de um colega há duas semanas!"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "gentle",
+     "Coitad{o|a}. E não conhece ninguém que lhe empreste uma morada?"
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "annoyed",
+     "Só conheço o senhorio, e esse nem atende o telefone. É o senhor Albano."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "surprised",
+     "Espere lá. Albano Ferreira, da Rua das Flores, com um cão que ladra a tudo?"
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "excited",
+     "Esse mesmo! A senhora conhece-o?"
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "amused",
+     "Se conheço!"
+    ],
+    [
+     "annoyed",
+     "É o meu irmão. Há dez anos que me deve dinheiro."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "neutral",
+     "E isso ajuda-me em quê, exatamente?"
+    ]
+   ]
+  },
+  "15": {
+   "segs": [
+    [
+     "annoyed",
+     "Albano? Ou fazes hoje o contrato a est{e|a} jovem, ou conto tudo à mãe."
+    ]
+   ]
+  },
+  "16": {
+   "segs": [
+    [
+     "amused",
+     "Acho que acabei de arranjar casa."
+    ]
+   ]
+  }
+ }
+}

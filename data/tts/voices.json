@@ -1,0 +1,110 @@
+{
+ "_meta": "포르투갈어(유럽판) 회화 음성 — 목소리·감정·자리 채움. 일본어앱 data/tts/voices.json 과 같은 짜임. 참고 음성은 VoxCPM2(설명은 영어), 문장은 MOSS-TTS.",
+ "base_text": "Hoje à tarde tenho uma reunião, por isso quero preparar tudo antes. Depois vamos jantar juntos?",
+ "voices": {
+  "am": {
+   "desc": "A Portuguese man from Lisbon in his twenties, clear and gentle voice, European Portuguese accent"
+  },
+  "af": {
+   "desc": "A Portuguese woman from Lisbon in her twenties, clear and soft voice, European Portuguese accent"
+  },
+  "ines": {
+   "desc": "A Portuguese woman in her early twenties, warm and playful voice, European Portuguese accent"
+  },
+  "beatriz": {
+   "desc": "A Portuguese woman in her early twenties, fast, bright and energetic voice, European Portuguese accent"
+  },
+  "duarte": {
+   "desc": "A Portuguese man in his mid twenties, direct, friendly and slightly deep voice, European Portuguese accent"
+  },
+  "tiago": {
+   "desc": "A Portuguese man in his mid twenties, slow, relaxed and warm voice, European Portuguese accent"
+  },
+  "fernanda": {
+   "desc": "A Portuguese woman in her fifties, composed, dry and kind voice, European Portuguese accent"
+  },
+  "marta": {
+   "desc": "A Portuguese woman in her forties, confident, calm and professional voice, European Portuguese accent"
+  }
+ },
+ "emotions": {
+  "neutral": {
+   "instruct": "calm and natural, everyday tone",
+   "ref": "Hoje tenho uma reunião à tarde, por isso vou preparar tudo com calma."
+  },
+  "polite": {
+   "instruct": "polite and professional, like a clerk or station staff",
+   "ref": "Bom dia, faça favor. Em que posso ajudar? Muito obrigado pela sua visita."
+  },
+  "stiff": {
+   "instruct": "very nervous and stiff, formal and overly polite",
+   "ref": "Muito obrigado por me receber. Vou fazer o meu melhor. É uma honra estar aqui."
+  },
+  "cheerful": {
+   "instruct": "cheerful, bright and friendly",
+   "ref": "Olá! Que bom ver-te! Está um dia lindo e estou mesmo bem-disposto."
+  },
+  "amused": {
+   "instruct": "amused, laughing warmly, relaxed",
+   "ref": "Ah, ah, tem graça! Pronto, gosto disso, continua assim."
+  },
+  "teasing": {
+   "instruct": "teasing, playful and mischievous",
+   "ref": "Então, essa cara? Vá lá, conta-me tudo. Eu não digo a ninguém."
+  },
+  "excited": {
+   "instruct": "excited, bursting with energy, bright and loud",
+   "ref": "Consegui! Nem acredito! Isto é mesmo incrível, muito obrigado!"
+  },
+  "surprised": {
+   "instruct": "surprised, caught off guard, voice jumps",
+   "ref": "O quê? A sério? Espera lá, o que é que estás a dizer?"
+  },
+  "shout": {
+   "instruct": "surprised and loud, an exaggerated comic retort",
+   "ref": "O quê? Agora? Mas assim de repente, como é que eu faço?"
+  },
+  "tsukkomi": {
+   "instruct": "a quick sharp comic retort, exasperated but fond",
+   "ref": "Não, não é nada disso! Mas porque é que fizeste isso, pá?"
+  },
+  "annoyed": {
+   "instruct": "annoyed, irritated, sighing",
+   "ref": "Ai, outra vez? Já chega dessa conversa, por favor."
+  },
+  "sad": {
+   "instruct": "sad, quiet, voice slightly trembling",
+   "ref": "Foi só... um dia difícil. Deixa estar. Não te preocupes comigo."
+  },
+  "worried": {
+   "instruct": "worried and anxious, hesitant",
+   "ref": "Estás bem? Dói-te alguma coisa? Não achas melhor ir ao médico?"
+  },
+  "flustered": {
+   "instruct": "flustered and embarrassed, stammering, unsure",
+   "ref": "Ah, isto... quer dizer... não era bem isso que eu queria dizer..."
+  },
+  "shy": {
+   "instruct": "shy, soft, slightly trailing off",
+   "ref": "Bem... eu também gosto de estar contigo. Não digas a ninguém."
+  },
+  "gentle": {
+   "instruct": "gentle, warm and tender, quiet",
+   "ref": "Está tudo bem. Eu fico aqui contigo. Descansa um bocadinho."
+  }
+ },
+ "fill": {
+  "{name}": {
+   "m": {
+    "text": "Alex",
+    "rd": "알렉스",
+    "ko": "알렉스"
+   },
+   "f": {
+    "text": "Emma",
+    "rd": "에마",
+    "ko": "에마"
+   }
+  }
+ }
+}
