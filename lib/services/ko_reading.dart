@@ -8,11 +8,11 @@ class KoReadingPrefs {
   KoReadingPrefs._();
 
   static const _key = 'show_ko_reading';
-  static final ValueNotifier<bool> show = ValueNotifier<bool>(true);
+  static final ValueNotifier<bool> show = ValueNotifier<bool>(false);
 
   static Future<void> load() async {
     final p = await SharedPreferences.getInstance();
-    show.value = p.getBool(_key) ?? true;
+    show.value = p.getBool(_key) ?? false; // 기본 미표시(2026-11-07)
   }
 
   static Future<void> toggle() async {
@@ -26,6 +26,16 @@ class KoReadingPrefs {
 class KoReadingToggleAction extends StatelessWidget {
   const KoReadingToggleAction({super.key});
 
+  /// 전역 독음 전환. 표시로 켤 때 한 번 알린다(일본어앱 후리가나 토글과 같은 안내, 2026-11-07).
+  static Future<void> toggle(BuildContext context) async {
+    await KoReadingPrefs.toggle();
+    if (KoReadingPrefs.show.value && context.mounted) {
+      ScaffoldMessenger.of(context)
+        ..hideCurrentSnackBar()
+        ..showSnackBar(SnackBar(content: Text(tr('힘들어도 독음을 보지 않고 익혀보세요')), duration: const Duration(seconds: 3)));
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     final base = IconTheme.of(context).color ??
@@ -36,7 +46,7 @@ class KoReadingToggleAction extends StatelessWidget {
         final color = on ? base : base.withValues(alpha: 0.35);
         return IconButton(
           tooltip: on ? tr('한글독음 숨기기') : tr('한글독음 표시'),
-          onPressed: KoReadingPrefs.toggle,
+          onPressed: () => toggle(context),
           icon: Container(
             padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
             decoration: BoxDecoration(
@@ -66,11 +76,13 @@ class KoReadingText extends StatelessWidget {
     super.key,
     this.style,
     this.textAlign,
+    this.maxLines,
   });
 
   final String reading;
   final TextStyle? style;
   final TextAlign? textAlign;
+  final int? maxLines;
 
   @override
   Widget build(BuildContext context) {
@@ -78,7 +90,7 @@ class KoReadingText extends StatelessWidget {
       valueListenable: KoReadingPrefs.show,
       builder: (context, on, _) {
         if (!on) return const SizedBox.shrink();
-        return Text(reading, textAlign: textAlign, style: style);
+        return Text(reading, textAlign: textAlign, style: style, maxLines: maxLines, overflow: maxLines == null ? null : TextOverflow.ellipsis);
       },
     );
   }

@@ -1,0 +1,30 @@
+{
+"_meta": "회화 레마 중 절벽 단어표(2,000위) 밖이면서 단어표에 있는 것 · tools/build_cliff_words.py",
+"words": [
+{
+"word": "praticar",
+"ko": "연습하다",
+"n": 1
+},
+{
+"word": "pastel",
+"ko": "파스텔 (페이스트리)",
+"n": 1
+},
+{
+"word": "nata",
+"ko": "크림",
+"n": 1
+},
+{
+"word": "preferido",
+"ko": "가장 좋아하는",
+"n": 1
+},
+{
+"word": "museu",
+"ko": "박물관",
+"n": 1
+}
+]
+}

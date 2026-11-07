@@ -7,9 +7,11 @@ import '../services/achievement_service.dart';
 import '../services/art_service.dart';
 import '../services/content_sync.dart';
 import '../services/dialogue_service.dart';
+import '../services/ko_reading.dart';
 import '../services/learner_prefs.dart';
 import '../services/tts_service.dart';
 import '../widgets/lemma_chips.dart';
+import '../widgets/lemma_text.dart';
 import '../widgets/spanish_decor.dart';
 
 /// 편의 문장 플래시카드 — 일본어앱에서 옮김(2026-11-02). 앞면 = 그림 + **한국어 뜻**(사용자 지시 2026-11-04 "한국말로 보여줘야지"), 탭하면 포르투갈어·독음·메모·레마 칩.
@@ -75,6 +77,7 @@ class _DialogueCardScreenState extends State<DialogueCardScreen> {
           const SizedBox(height: 2),
           Text('${_pos + 1} / ${_order.length}', style: const TextStyle(color: AppColors.muted, fontSize: 10, letterSpacing: 2)),
         ]),
+        actions: const [KoReadingToggleAction()],
       ),
       body: Column(children: [
         Expanded(
@@ -156,9 +159,9 @@ class _CardText extends StatelessWidget {
               child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
                 Text('$name · ${t.num}', style: const TextStyle(fontSize: 11, color: AppColors.muted)),
                 const SizedBox(height: 8),
-                Text(LearnerPrefs.fill(t.tl), style: const TextStyle(fontSize: 24, fontWeight: FontWeight.w900, color: AppColors.beni, height: 1.3)),
+                LemmaText(t, style: const TextStyle(fontSize: 24, fontWeight: FontWeight.w900, color: AppColors.beni, height: 1.3)),
                 if (t.gloss.isNotEmpty) ...[const SizedBox(height: 6), Text(t.gloss, style: const TextStyle(fontSize: 13, color: AppColors.ai, fontWeight: FontWeight.w600))],
-                if (t.rd.isNotEmpty) Text(LearnerPrefs.fill(t.rd, ko: true), style: const TextStyle(fontSize: 13, color: AppColors.muted)),
+                if (t.rd.isNotEmpty) KoReadingText(LearnerPrefs.fill(t.rd, ko: true), style: const TextStyle(fontSize: 13, color: AppColors.muted)),
                 const SizedBox(height: 12),
                 const BrushDivider(height: 2),
                 const SizedBox(height: 10),

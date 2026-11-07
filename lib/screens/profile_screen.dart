@@ -1,18 +1,41 @@
 import 'package:flutter/material.dart';
 
+import 'about_screen.dart';
 import 'login_screen.dart';
-import 'update_screen.dart';
 
+import '../core/pane.dart';
 import '../core/theme.dart';
 import '../widgets/spanish_decor.dart';
 import '../core/l10n.dart';
-import '../core/platform.dart';
 import '../data/account.dart';
 import '../data/purchase.dart';
+import '../main.dart';
+import '../services/ko_reading.dart';
 import '../services/learner_prefs.dart';
 
 class ProfileScreen extends StatelessWidget {
   const ProfileScreen({super.key});
+
+  /// 회화 진행·동사 기록을 지운다(확인 후). 메모·성과는 그대로.
+  Future<void> _resetProgress(BuildContext context) async {
+    final ok = await showDialog<bool>(
+      context: context,
+      builder: (c) => AlertDialog(
+        title: Text(tr('학습 기록 초기화')),
+        content: Text(tr('회화 진행·동사 기록을 모두 지웁니다. 메모와 성과는 유지돼요.')),
+        actions: [
+          TextButton(onPressed: () => Navigator.pop(c, false), child: Text(tr('취소'))),
+          TextButton(onPressed: () => Navigator.pop(c, true), child: Text(tr('초기화'), style: const TextStyle(color: Colors.redAccent))),
+        ],
+      ),
+    );
+    if (ok != true) return;
+    await appDb.delete(appDb.userProgress).go();
+    await appDb.delete(appDb.verbProgress).go();
+    if (context.mounted) {
+      ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(tr('초기화 완료'))));
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -22,81 +45,44 @@ class ProfileScreen extends StatelessWidget {
       body: ListView(
         padding: const EdgeInsets.all(16),
         children: [
-          _SectionTitle(tr('학습자')),
-          const SizedBox(height: 8),
-          const _LearnerSection(),
-          const SizedBox(height: 18),
           _SectionTitle(tr('계정')),
           const SizedBox(height: 8),
           const _AccountSection(),
           const SizedBox(height: 18),
-          if (!isIOS) const UpdateEntryTile(),
-          Container(
-            padding: const EdgeInsets.all(18),
-            decoration: BoxDecoration(
-              gradient: const LinearGradient(
-                colors: [AppColors.rojoDeep, AppColors.rojo],
-              ),
-              borderRadius: BorderRadius.circular(10),
-              border: Border.all(color: AppColors.gualda, width: 1.5),
-            ),
-            child: Row(
-              children: [
-                const TileBadge(text: 'PT', size: 60, color: AppColors.lusa),
-                SizedBox(width: 14),
-                Expanded(
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text(
-                        tr('학습자'),
-                        style: TextStyle(
-                          color: AppColors.cal,
-                          fontSize: 20,
-                          fontWeight: FontWeight.w900,
-                          letterSpacing: 2,
-                        ),
-                      ),
-                      SizedBox(height: 4),
-                      Text(
-                        tr('Dia 1 · 입문 (A1)'),
-                        style: TextStyle(
-                          color: AppColors.gualdaBright,
-                          fontSize: 13,
-                          fontWeight: FontWeight.w600,
-                          letterSpacing: 2,
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
-              ],
-            ),
-          ),
+          _SectionTitle(tr('기록')),
+          const SizedBox(height: 8),
+          _SettingsGroup(items: [
+            _SettingItem(icon: Icons.restart_alt, title: tr('학습 기록 초기화'), subtitle: tr('회화·동사 학습 기록 삭제'), onTap: () => _resetProgress(context)),
+          ]),
+          const SizedBox(height: 18),
+          _SectionTitle(tr('학습자 프로필')),
+          const SizedBox(height: 8),
+          const _LearnerSection(),
           const SizedBox(height: 18),
           _SectionTitle(tr('설정')),
           const SizedBox(height: 8),
-          _SettingsGroup(items: [
-            _SettingItem(
-                icon: Icons.language,
-                title: tr('언어 / Language'),
-                subtitle: '${AppLangPrefs.lang.value.label}  →  ${AppLangPrefs.peekNext().label}',
-                onTap: AppLangPrefs.next),
-            if (isIOS)
+          ValueListenableBuilder<bool>(
+            valueListenable: KoReadingPrefs.show,
+            builder: (context, on, _) => _SettingsGroup(items: [
               _SettingItem(
-                  icon: Icons.flight_takeoff,
-                  title: tr('앱 업데이트'),
-                  subtitle: tr('아이폰은 TestFlight 앱에서 새 빌드를 받습니다')),
-            _SettingItem(icon: Icons.volume_up, title: tr('TTS 음성'), subtitle: tr('pt-PT (시스템 보이스)')),
-            _SettingItem(icon: Icons.public, title: tr('변종'), subtitle: tr('유럽 포르투갈어 (Portugal)')),
-            _SettingItem(icon: Icons.palette, title: tr('테마'), subtitle: tr('낮 · 아줄레주 블루 #2F6FB5')),
-          ]),
+                  icon: Icons.language,
+                  title: tr('언어 / Language'),
+                  subtitle: '${AppLangPrefs.lang.value.label}  →  ${AppLangPrefs.peekNext().label}',
+                  onTap: AppLangPrefs.next),
+              _SettingItem(
+                  icon: Icons.record_voice_over_outlined,
+                  title: tr('한글독음'),
+                  subtitle: on ? tr('표시 — 탭하면 숨김') : tr('미표시 — 탭하면 표시'),
+                  onTap: () => KoReadingToggleAction.toggle(context)),
+              _SettingItem(icon: Icons.public, title: tr('변종'), subtitle: tr('유럽 포르투갈어 (Portugal)')),
+            ]),
+          ),
           const SizedBox(height: 16),
           _SectionTitle(tr('정보')),
           const SizedBox(height: 8),
           _SettingsGroup(items: [
+            _SettingItem(icon: Icons.menu_book_outlined, title: tr('앱 소개'), subtitle: tr('절벽구간 — 단어를 나누는 기준'), onTap: () => openPane(context, (_) => const AboutScreen())),
             _SettingItem(icon: Icons.info_outline, title: tr('앱 버전'), subtitle: '0.1.0 · alpha'),
-            _SettingItem(icon: Icons.code, title: 'Stack', subtitle: 'Flutter 3.41 · Material 3 · Drift'),
             _SettingItem(icon: Icons.copyright, title: tr('저작권'), subtitle: tr('포르투갈어유니버스 · 2026')),
           ]),
           const SizedBox(height: 20),
