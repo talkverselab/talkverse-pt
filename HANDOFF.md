@@ -1,4 +1,4 @@
-# HANDOFF — talkverse-pt (포르투갈어유니버스) · 2026-11-06
+# HANDOFF — talkverse-pt (포르투갈어유니버스) · 2026-11-07
 
 규칙은 `CLAUDE.md`(서명 §1·Zealot §8·판 §9·회화 원칙 §10), 언어앱 공통 절차는 `~/talkverse/LANG_APP_REPLICATE_PROMPT.md`.
 
@@ -14,12 +14,19 @@
 | 캐릭터 시안 ① | **통과**(11-03) — `data/review/art/chars_pt_v1.jpg`, 인물표 `CHARACTERS.md` |
 | UX/UI 시안 ② | **통과**(11-03) — 글 `data/review/uxui/sian_pt_01.md`, 그림 `sian_pt_02.jpg`(PT-01 은 캐릭터 미반영으로 다시 그림) |
 | 아이패드 빌드 ③ | 코드 `ba4007e`·`b73eec4`, 아이패드 스크린샷 9장 넘침 0·통합 테스트 통과 |
-| Android | CI 빌드 **12**(91be624) · Zealot https://apps.talkverse.uk/KtegX/280 · ⚠ PC 백업 안 됨(11-05 PC 에 D: 드라이브가 안 보임 — 빌드 10 이 마지막 백업). Zealot .../279 는 설명이 틀린 빌드 11 중복 항목 |
-| iOS | TestFlight 업로드 **빌드 2611052356**(11-06 00:01), Sign in with Apple 권한 포함 확인(`tools/ios_release.sh` 의 entitlements ad-hoc 서명). IPA 는 `build/ios/ipa_appstore/` 에만 있음(PC 백업 실패) |
+| Android | CI 빌드 **13**(1032064) · Zealot https://apps.talkverse.uk/KtegX/314 · PC 백업 완료(11-07, D: 복구) |
+| iOS | ⚠ **빌드 13 내용은 아직 안 올림** — M6 Xcode 27.2·CoreSimulator 문제로 iOS 빌드 정지(`~/logs/rc/RELAY_xcode_20261107.md`, CoreSimulator 1174.21 이상이면 재개). TestFlight 최신 = 2611052356(11-06), IPA 는 PC `ios\` 에 백업 |
 | 로그인·결제 | 코드 `d58eb09`(Talkverse ID client_id `pt`, 상품 `com.talkverse.portugueseUniverse.lifetime`/`lang_pt`) — 잠근 화면은 아직 없음 |
 | 절벽(레마) | **판별 재산정 11-03** — pt-PT R1 55·R2 83·R3 217·R4 656(상위 2,500 90.1%) / pt-BR 63·96·243·727, 자국 작품 자막 기준(`data/cliff/README.md`, `tools/pt_cliff.py`). 옛 234·403·1,134 폐기. 사이트 카드 = pt-PT 값 |
 | 단어 그림 리스트 | talkversehanja `talkverse_art/words/pt.csv` = 새 레마 순위 2,500(PT·BR 합침, 구간 PT 경계, R5 = 절벽 밖, 340f9b5)·`pt_food.csv`(50), uk 세션이 D1 다시 적재 — 그림은 `GET https://auth.talkverse.uk/art/pt/manifest` |
 | 저작권 정리 | 책 이름·책 파서 삭제 + 이력 재작성·강제 push 끝(11-02, 사용자 승인) |
+
+## 11-07 단어·메뉴 개편(`1032064`, 일본어앱 `docs/MENU_WORDS_2026-11-07.md` 이식)
+- 절벽 단어: 유럽판 절벽 순위 2,000위, 20어 단원·타일, 「회화 단어 포함(+5)」. 데이터 `tools/build_cliff_words.py` → `cliff_pt_PT.csv`·`conv_words_pt.json`. **`lang_pt_top.csv` 의 rank 는 PT·BR 합친 그림 목록 순서 — 절벽 순위로 쓰지 말 것.**
+- 상위 2,000어 중 373어는 뜻 없음(단어만 표시) — 콘텐츠 금지가 풀리면 채운다. 레마는 사용자 지시(11-07)로 그대로 둔다.
+- 앱 소개(`about_screen.dart`, 2번 칸 = 브라질판 표), 메뉴 기초→문법→회화→단어→참고, 「문장 말하기」, 회화 노트·앱 업데이트 타일 제거(코드 `update_screen.dart` 는 남음), 프로필 정리·학습 기록 초기화(회화·동사).
+- 문장 레마 탭(`lib/widgets/lemma_text.dart`), 독음 전역 토글 `KoReadingPrefs` 기본 미표시·켤 때 안내.
+- 아직 안 본 것: 실제 화면 스크린샷 — iOS 재개 뒤 `integration_test/menu_words_test.dart` + `tools/pane_shots.py`. 그 다음 `tools/ios_release.sh` → TestFlight, uk 세션에 한 줄 답.
 
 ## 11-04~05 일본어앱 변경 이식(`ee8e5a1`·`ce9c53c`·`aa4b02d`·`91be624`)
 - 대사는 그림 아래 띠(오버레이 말풍선 없음), 카드 앞면 한국어, 턴 `lemmas` + 레마 칩(`tools/add_lemmas.py`, 고침표 `LEMMA_FIX`), 빈도 단어 2,505어(`assets/data/freq/lang_pt_top.csv`, uk 세션 작성) — 레마 93개 전부 연결.
@@ -38,9 +45,8 @@
 - 스크린샷 흐름: `integration_test/dialogue_pane_test.dart` + `tools/pane_shots.py`(아이패드 시뮬레이터 「pt-shots iPad Pro 11」 3F293F2F-E008-495C-AE42-B1AC2CF6F5C5, 쓴 뒤 shutdown).
 
 ## 사용자가 할 일
-1. **PC D: 드라이브 확인**(11-05 안 보임). 돌아오면 APK 빌드 12·IPA 2611052356 을 `D:\OneDrive\app project\` 에 다시 올린다. 서명 키 백업 `D:\backup\signing_keys\talkverse-pt\` 도 그쪽에 있다(Doppler 에는 있음).
-2. **평생 이용권으로 무엇을 열지** 결정(예: R2 이상 회화·단어, 브라질판) — 정해지기 전에는 잠그지 않는다.
-3. 스토어 인앱 상품 등록(iOS `com.talkverse.portugueseUniverse.lifetime`, Play `lang_pt`), 데모 계정에 lang `pt` 이용권 부여는 talkverse.uk 세션에 요청.
+1. **평생 이용권으로 무엇을 열지** 결정(예: R2 이상 회화·단어, 브라질판) — 정해지기 전에는 잠그지 않는다.
+2. 스토어 인앱 상품 등록(iOS `com.talkverse.portugueseUniverse.lifetime`, Play `lang_pt`), 데모 계정에 lang `pt` 이용권 부여는 talkverse.uk 세션에 요청.
 
 ## 다음 할 일(지시가 오면)
 - 동사 활용 시트(시안 PT-01 칸 ①) — `assets/data/grammar/verbs_core.json` 이 비어 있어 미구현. 콘텐츠 금지가 풀리면 동사 데이터와 함께.
