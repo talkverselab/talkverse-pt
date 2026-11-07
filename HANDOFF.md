@@ -24,6 +24,7 @@
 ## 11-07 회화 Claude 초안(사용자 지시: 회화 작성 제한 해제, 굴절어는 레벨별 한 편씩)
 - 4편으로 멈춤: R1 `r1_love_a1` · R2 `r2_friends_b1` · R3 `r3_life_b1` · R4 `r4_work_b1`(유럽판, 남·여 판별 파일 8개). R0 은 R1 에서 나누는 구간이라 따로 안 썼다. 브라질판은 아직 없음.
 - 원본 `data/dialogues_src/pt-PT/`(성별 표시 `{남|여}`) → `tools/build_dialogues.py` → `assets/data/pt-PT/dialogues/<male|female>/R*/`. 독음 `tools/rd_pt.py`. 읽는 판 `data/review/write/dialogues_pt_review.md`.
+- 앞으로 쓰는 회화는 턴마다 `emotion`, 감정이 바뀌면 `segs`([감정, 본문])를 원본에 함께 쓴다(값 16개 = 일본어앱 `data/tts/PLAN_GUIDE.md`, 사용자 지시 11-07). 이 4편의 감정은 `data/tts/plan/` 에 있다.
 - pubspec 에 안 넣어 앱에는 아직 없음. 다음 단계: Grok 재작성(11-10 이후, 편 1개씩) → 리뷰 → `lemmas`(spaCy) → 앱 연결(`DialogueService` 는 아직 L1.json 만 읽음). 조연 Dona Fernanda·Marta 는 그림 기준이 없다.
 
 ## 11-07 단어·메뉴 개편(`1032064`, 일본어앱 `docs/MENU_WORDS_2026-11-07.md` 이식)
