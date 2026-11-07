@@ -1,0 +1,202 @@
+{
+ "id": "r4_work_b1",
+ "region": "R4",
+ "island": "work",
+ "kind": "long",
+ "purpose": [
+  "work_japan"
+ ],
+ "domain": [
+  "work"
+ ],
+ "title": "넥타이 맨 재앙",
+ "emoji": "🎙️",
+ "scene": "화상 회의 끝자락. 상사 Marta 가 제안서에 대한 의견을 묻는다. 쉬는 시간에 마이크가 켜져 있던 줄은 모른다.",
+ "speakers": {
+  "A": "{name}",
+  "B": "Marta"
+ },
+ "register": "polite",
+ "twist": 11,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "완곡 표현과 접속법(embora·talvez·caso), 인칭 부정사, 미래형 추측",
+ "expressions": [
+  "com todo o respeito",
+  "a sério?",
+  "quer dizer",
+  "pelo contrário",
+  "não faço ideia"
+ ],
+ "variant": "pt-PT",
+ "learner_gender": "female",
+ "draft": true,
+ "turns": [
+  {
+   "speaker": "B",
+   "tl": "Antes de terminarmos, gostava de saber a sua opinião sobre a proposta, {name}.",
+   "ko": "마치기 전에 제안서에 대한 {name} 씨 의견을 듣고 싶어요.",
+   "note": "antes de terminarmos = 우리가 마치기 전에(인칭 부정사)",
+   "tags": [
+    "form:infinitivo-pessoal"
+   ],
+   "num": 1,
+   "rd": "안뜨쉬 드 떼르미나르무쉬, 고쉬따바 드 싸베르 아 쑤아 오삐니아웅 쏘브르 아 프로뽀쉬따, {name}."
+  },
+  {
+   "speaker": "A",
+   "tl": "Com todo o respeito, acho que seria preferível adiarmos a decisão até termos mais dados.",
+   "ko": "외람되지만, 자료가 더 모일 때까지 결정을 미루는 편이 나을 것 같습니다.",
+   "note": "com todo o respeito = 외람되지만",
+   "tags": [
+    "expr:com todo o respeito",
+    "form:condicional"
+   ],
+   "num": 2,
+   "rd": "꽁 또두 우 헤쉬뻬이뚜, 아슈 끄 쎄리아 프레페리벨 아디아르무즈 아 데씨자웅 아떼 떼르무쉬 마이쉬 다두쉬."
+  },
+  {
+   "speaker": "B",
+   "tl": "Compreendo, embora o cliente esteja à espera de uma resposta até sexta-feira.",
+   "ko": "이해합니다. 다만 고객이 금요일까지 답을 기다리고 있어요.",
+   "note": "embora + 접속법 = 비록 ~지만",
+   "tags": [
+    "form:conjuntivo"
+   ],
+   "num": 3,
+   "rd": "꽁프레엔두, 엠보라 우 끌리엔뜨 이쉬떼자 아 이쉬뻬라 드 우마 헤쉬뽀쉬따 아떼 쌔이쉬따 페이라."
+  },
+  {
+   "speaker": "A",
+   "tl": "Nesse caso, talvez pudéssemos propor uma fase de teste, sem nos comprometermos já.",
+   "ko": "그렇다면 당장 확약하지 말고 시범 단계를 제안해 볼 수도 있겠습니다.",
+   "note": "talvez + 접속법 = 어쩌면 ~할지도",
+   "tags": [
+    "form:conjuntivo-imperfeito"
+   ],
+   "num": 4,
+   "rd": "네쓰 까주, 딸베쉬 뿌데쎄무쉬 프로뽀르 우마 파즈 드 떼쉬뜨, 쎙 누쉬 꽁프로메떼르무쉬 자."
+  },
+  {
+   "speaker": "B",
+   "tl": "Não me parece disparate nenhum. Mas há algum risco que eu não esteja a ver?",
+   "ko": "전혀 엉뚱한 말이 아니네요. 그런데 제가 못 보고 있는 위험이 있나요?",
+   "note": "disparate = 터무니없는 말",
+   "tags": [
+    "form:conjuntivo"
+   ],
+   "num": 5,
+   "rd": "나웅 므 빠레쓰 디쉬빠라뜨 넹융. 마쉬 아 알궁 히쉬꾸 끄 에우 나웅 이쉬떼자 아 베르?"
+  },
+  {
+   "speaker": "A",
+   "tl": "Há um pormenor, sim. Receio que o orçamento não chegue, caso o prazo derrape.",
+   "ko": "작은 문제가 하나 있습니다. 기한이 밀리면 예산이 모자랄까 걱정입니다.",
+   "note": "receio que + 접속법 = ~일까 걱정이다",
+   "tags": [
+    "form:conjuntivo"
+   ],
+   "num": 6,
+   "rd": "아 웅 뽀르메노르, 씽. 헤쎄이우 끄 우 오르싸멘뚜 나웅 셰그, 까주 우 프라주 데하쁘."
+  },
+  {
+   "speaker": "B",
+   "tl": "Curioso. Ainda esta manhã alguém disse exatamente o mesmo, de forma bem menos educada.",
+   "ko": "재미있네요. 오늘 아침에도 누가 똑같은 말을 했거든요, 훨씬 덜 공손하게.",
+   "note": "bem menos = 훨씬 덜",
+   "tags": [
+    "expr:bem menos"
+   ],
+   "num": 7,
+   "rd": "꾸리오주. 아인다 에쉬따 망양 알겡 디쓰 이자따멘뜨 우 메쥬무, 드 포르마 벵 메누즈 에두까다."
+  },
+  {
+   "speaker": "A",
+   "tl": "A sério? Quem terá sido?",
+   "ko": "정말요? 누구였을까요?",
+   "note": "terá sido = ~였을까(미래완료로 추측)",
+   "tags": [
+    "expr:a sério",
+    "form:futuro-perfeito"
+   ],
+   "num": 8,
+   "rd": "아 쎄리우? 껭 떼라 씨두?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Não sei. Só ouvi uma voz a dizer que a proposta era «um desastre de gravata».",
+   "ko": "모르겠어요. 제안서가 「넥타이 맨 재앙」이라는 목소리만 들었어요.",
+   "note": "uma voz a dizer = 말하는 목소리",
+   "tags": [
+    "form:estar-a"
+   ],
+   "num": 9,
+   "rd": "나웅 쎄이. 쏘 오우비 우마 보즈 아 디제르 끄 아 프로뽀쉬따 에라 «웅 데자쉬트르 드 그라바따»."
+  },
+  {
+   "speaker": "A",
+   "tl": "Que expressão tão... criativa. Não faço ideia de quem possa ter dito tal coisa.",
+   "ko": "참… 창의적인 표현이네요. 누가 그런 말을 했는지 전혀 모르겠습니다.",
+   "note": "não faço ideia = 전혀 모르겠다",
+   "tags": [
+    "expr:não faço ideia",
+    "form:conjuntivo"
+   ],
+   "num": 10,
+   "rd": "끄 에쉬프레싸웅 따웅... 크리아띠바. 나웅 파쑤 이데이아 드 껭 뽀싸 떼르 디뚜 딸 꼬이자."
+  },
+  {
+   "speaker": "B",
+   "tl": "Pois. O seu microfone ficou ligado durante a pausa. Ouvimos todos.",
+   "ko": "그렇군요. 쉬는 시간에 마이크가 켜져 있었어요. 다 들었습니다.",
+   "note": "ficou ligado = 켜진 채로 있었다",
+   "tags": [
+    "twist"
+   ],
+   "num": 11,
+   "rd": "뽀이쉬. 우 쎄우 미크로포느 피꼬우 리가두 두란뜨 아 빠우자. 오우비무쉬 또두쉬."
+  },
+  {
+   "speaker": "A",
+   "tl": "Todos? Incluindo o cliente?",
+   "ko": "다요? 고객도요?",
+   "note": "incluindo = ~을 포함해",
+   "tags": [],
+   "num": 12,
+   "rd": "또두쉬? 잉끌루인두 우 끌리엔뜨?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Sobretudo o cliente. E, por incrível que pareça, adorou a expressão.",
+   "ko": "특히 고객이요. 그리고 믿기 어렵겠지만, 그 표현을 아주 좋아했어요.",
+   "note": "por incrível que pareça = 믿기 어렵겠지만",
+   "tags": [
+    "expr:por incrível que pareça"
+   ],
+   "num": 13,
+   "rd": "쏘브레뚜두 우 끌리엔뜨. 이, 뽀르 잉크리벨 끄 빠레싸, 아도로우 아 에쉬프레싸웅."
+  },
+  {
+   "speaker": "A",
+   "tl": "Quer dizer que não vou ser despedida?",
+   "ko": "그럼 저 해고되는 건 아니라는 말씀인가요?",
+   "note": "quer dizer = 그러니까, ~라는 말이다",
+   "tags": [
+    "expr:quer dizer"
+   ],
+   "num": 14,
+   "rd": "께르 디제르 끄 나웅 보우 쎄르 데쉬뻬디다?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Pelo contrário. Quer que seja {name} a apresentar o desastre. De gravata.",
+   "ko": "오히려요. 그 재앙을 {name} 씨가 발표하길 바란답니다. 넥타이 매고.",
+   "note": "pelo contrário = 오히려",
+   "tags": [
+    "expr:pelo contrário"
+   ],
+   "num": 15,
+   "rd": "뻴루 꼰트라리우. 께르 끄 쎄자 {name} 아 아프레젠따르 우 데자쉬트르. 드 그라바따."
+  }
+ ]
+}

@@ -1,0 +1,191 @@
+{
+ "id": "r2_friends_b1",
+ "region": "R2",
+ "island": "friends",
+ "kind": "chat",
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "title": "잘못 보낸 파티",
+ "emoji": "🎂",
+ "scene": "단톡방. Duarte 에게만 보내려던 메시지를 Beatriz 도 있는 방에 보내 버렸다.",
+ "speakers": {
+  "A": "{name}",
+  "B": "Duarte",
+  "C": "Beatriz"
+ },
+ "register": "chat",
+ "twist": 10,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "채팅 말투, 부가의문 「pois não?」, 과거형 sabia·disseste",
+ "expressions": [
+  "pá",
+  "pois não?",
+  "não ligues",
+  "aliás",
+  "tá bem"
+ ],
+ "variant": "pt-PT",
+ "learner_gender": "male",
+ "draft": true,
+ "turns": [
+  {
+   "speaker": "A",
+   "tl": "Duarte, a festa da Beatriz é às oito, certo?",
+   "ko": "Duarte, Beatriz 파티 8시 맞지?",
+   "note": "certo? = 맞지?",
+   "tags": [
+    "expr:certo"
+   ],
+   "ui": "bubble",
+   "at": "21:02",
+   "num": 1,
+   "rd": "두아르뜨, 아 페쉬따 다 베아트리즈 에 아즈 오이뚜, 쎄르뚜?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Pá... isto é o grupo com a Beatriz.",
+   "ko": "야… 여기 Beatriz 있는 방이야.",
+   "note": "pá = 야, 이봐(친구끼리 추임새)",
+   "tags": [
+    "expr:pá"
+   ],
+   "ui": "bubble",
+   "at": "21:02",
+   "num": 2,
+   "rd": "빠... 이쉬뚜 에 우 그루뿌 꽁 아 베아트리쉬."
+  },
+  {
+   "speaker": "A",
+   "tl": "O quê?! Já apaguei. Ela não viu, pois não?",
+   "ko": "뭐?! 바로 지웠어. 걔 못 봤지, 그치?",
+   "note": "pois não? = 그렇지 않지?(부정문 뒤 확인)",
+   "tags": [
+    "expr:pois não"
+   ],
+   "ui": "bubble",
+   "at": "21:03",
+   "num": 3,
+   "rd": "우 께?! 자 아빠게이. 엘라 나웅 비우, 뽀이쉬 나웅?"
+  },
+  {
+   "speaker": "C",
+   "tl": "Que festa? 👀",
+   "ko": "무슨 파티? 👀",
+   "note": "Que festa? = 무슨 파티?",
+   "tags": [],
+   "ui": "bubble",
+   "at": "21:03",
+   "num": 4,
+   "rd": "끄 페쉬따? 👀"
+  },
+  {
+   "speaker": "A",
+   "tl": "Festa? Qual festa? Foi o corretor!",
+   "ko": "파티? 무슨 파티? 자동 수정이 그랬어!",
+   "note": "corretor = 자동 수정",
+   "tags": [],
+   "ui": "bubble",
+   "at": "21:04",
+   "num": 5,
+   "rd": "페쉬따? 꽐 페쉬따? 포이 우 꼬헤또르!"
+  },
+  {
+   "speaker": "C",
+   "tl": "O corretor escreveu «às oito»?",
+   "ko": "자동 수정이 「8시에」라고 썼어?",
+   "note": "escreveu = 썼다(escrever 과거)",
+   "tags": [
+    "form:perfeito"
+   ],
+   "ui": "bubble",
+   "at": "21:04",
+   "num": 6,
+   "rd": "우 꼬헤또르 이쉬크레베우 «아즈 오이뚜»?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Beatriz, não ligues. {name} está cansado.",
+   "ko": "Beatriz, 신경 쓰지 마. {name} 피곤해서 그래.",
+   "note": "não ligues = 신경 쓰지 마",
+   "tags": [
+    "expr:não ligues"
+   ],
+   "ui": "bubble",
+   "at": "21:05",
+   "num": 7,
+   "rd": "베아트리쉬, 나웅 리그쉬. {name} 이쉬따 깐싸두."
+  },
+  {
+   "speaker": "C",
+   "tl": "Tá bem. Então eu levo o bolo.",
+   "ko": "알았어. 그럼 케이크는 내가 가져갈게.",
+   "note": "tá bem = 알았어(está bem 의 구어)",
+   "tags": [
+    "expr:tá bem"
+   ],
+   "ui": "bubble",
+   "at": "21:05",
+   "num": 8,
+   "rd": "따 벵. 엔따웅 에우 레부 우 볼루."
+  },
+  {
+   "speaker": "A",
+   "tl": "Espera... tu sabias?",
+   "ko": "잠깐… 너 알고 있었어?",
+   "note": "sabias = 알고 있었다(saber 반과거)",
+   "tags": [
+    "form:imperfeito"
+   ],
+   "ui": "bubble",
+   "at": "21:06",
+   "num": 9,
+   "rd": "이쉬뻬라... 뚜 싸비아쉬?"
+  },
+  {
+   "speaker": "C",
+   "tl": "Sabia, pois. Aliás, a festa é para ti.",
+   "ko": "알았지. 그보다, 그 파티 너 위한 거야.",
+   "note": "aliás = 그보다, 게다가",
+   "tags": [
+    "expr:aliás",
+    "twist"
+   ],
+   "ui": "bubble",
+   "at": "21:06",
+   "num": 10,
+   "rd": "싸비아, 뽀이쉬. 알리아쉬, 아 페쉬따 에 빠라 띠."
+  },
+  {
+   "speaker": "A",
+   "tl": "Para mim?! Mas eu faço anos em março!",
+   "ko": "나를?! 나 생일 3월인데!",
+   "note": "fazer anos = 생일이다",
+   "tags": [
+    "expr:fazer anos"
+   ],
+   "ui": "bubble",
+   "at": "21:07",
+   "num": 11,
+   "rd": "빠라 밍?! 마즈 에우 파쑤 아누즈 앵 마르쑤!"
+  },
+  {
+   "speaker": "B",
+   "tl": "Beatriz... tu disseste que era hoje.",
+   "ko": "Beatriz… 네가 오늘이라며.",
+   "note": "disseste = 네가 말했다(dizer 과거)",
+   "tags": [
+    "form:perfeito"
+   ],
+   "ui": "bubble",
+   "at": "21:07",
+   "stamp": "😂",
+   "num": 12,
+   "rd": "베아트리쉬... 뚜 디쎄쉬뜨 끄 에라 오즈."
+  }
+ ]
+}

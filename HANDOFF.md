@@ -21,6 +21,11 @@
 | 단어 그림 리스트 | talkversehanja `talkverse_art/words/pt.csv` = 새 레마 순위 2,500(PT·BR 합침, 구간 PT 경계, R5 = 절벽 밖, 340f9b5)·`pt_food.csv`(50), uk 세션이 D1 다시 적재 — 그림은 `GET https://auth.talkverse.uk/art/pt/manifest` |
 | 저작권 정리 | 책 이름·책 파서 삭제 + 이력 재작성·강제 push 끝(11-02, 사용자 승인) |
 
+## 11-07 회화 Claude 초안(사용자 지시: 회화 작성 제한 해제, 굴절어는 레벨별 한 편씩)
+- 4편으로 멈춤: R1 `r1_love_a1` · R2 `r2_friends_b1` · R3 `r3_life_b1` · R4 `r4_work_b1`(유럽판, 남·여 판별 파일 8개). R0 은 R1 에서 나누는 구간이라 따로 안 썼다. 브라질판은 아직 없음.
+- 원본 `data/dialogues_src/pt-PT/`(성별 표시 `{남|여}`) → `tools/build_dialogues.py` → `assets/data/pt-PT/dialogues/<male|female>/R*/`. 독음 `tools/rd_pt.py`. 읽는 판 `data/review/write/dialogues_pt_review.md`.
+- pubspec 에 안 넣어 앱에는 아직 없음. 다음 단계: Grok 재작성(11-10 이후, 편 1개씩) → 리뷰 → `lemmas`(spaCy) → 앱 연결(`DialogueService` 는 아직 L1.json 만 읽음). 조연 Dona Fernanda·Marta 는 그림 기준이 없다.
+
 ## 11-07 단어·메뉴 개편(`1032064`, 일본어앱 `docs/MENU_WORDS_2026-11-07.md` 이식)
 - 절벽 단어: 유럽판 절벽 순위 2,000위, 20어 단원·타일, 「회화 단어 포함(+5)」. 데이터 `tools/build_cliff_words.py` → `cliff_pt_PT.csv`·`conv_words_pt.json`. **`lang_pt_top.csv` 의 rank 는 PT·BR 합친 그림 목록 순서 — 절벽 순위로 쓰지 말 것.**
 - 상위 2,000어 중 373어는 뜻 없음(단어만 표시) — 콘텐츠 금지가 풀리면 채운다. 레마는 사용자 지시(11-07)로 그대로 둔다.

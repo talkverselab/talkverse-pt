@@ -1,0 +1,216 @@
+{
+ "id": "r3_life_b1",
+ "region": "R3",
+ "island": "life",
+ "kind": "long",
+ "purpose": [
+  "study_abroad",
+  "work_japan"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "번호 없인 집 없고 집 없인 번호 없고",
+ "emoji": "🏢",
+ "scene": "관공서 창구. 집을 구하려면 세금 번호가, 세금 번호를 받으려면 주소가 필요하다.",
+ "speakers": {
+  "A": "{name}",
+  "B": "Dona Fernanda"
+ },
+ "register": "polite",
+ "twist": 13,
+ "twist_type": "reveal",
+ "flags": [],
+ "goal": "관공서 존칭(3인칭), 「com certeza」「olhe」「espere lá」, 상대 성별에 맞춘 coitado/coitada",
+ "expressions": [
+  "com certeza",
+  "olhe",
+  "coitado",
+  "espere lá",
+  "pois"
+ ],
+ "variant": "pt-PT",
+ "learner_gender": "female",
+ "draft": true,
+ "turns": [
+  {
+   "speaker": "B",
+   "tl": "Número 147? Faça favor, sente-se. Em que posso ajudar?",
+   "ko": "147번이요? 앉으세요. 뭘 도와드릴까요?",
+   "note": "Faça favor = 그러세요, 이쪽으로요",
+   "tags": [
+    "expr:faça favor"
+   ],
+   "num": 1,
+   "rd": "누메루 147? 파싸 파보르, 쎈뜨 쓰. 앵 끄 뽀쑤 아주다르?"
+  },
+  {
+   "speaker": "A",
+   "tl": "Bom dia. Preciso de um número de contribuinte para alugar um apartamento.",
+   "ko": "안녕하세요. 아파트를 빌리려고 납세자 번호가 필요해요.",
+   "note": "precisar de = ~이 필요하다",
+   "tags": [
+    "form:precisar de"
+   ],
+   "num": 2,
+   "rd": "봉 디아. 프레씨주 드 웅 누메루 드 꼰트리부인뜨 빠라 알루가르 웅 아빠르따멘뚜."
+  },
+  {
+   "speaker": "B",
+   "tl": "Com certeza. Tem aí um comprovativo de morada?",
+   "ko": "그러시군요. 주소 증명서 가져오셨어요?",
+   "note": "comprovativo de morada = 주소 증명서",
+   "tags": [
+    "expr:com certeza"
+   ],
+   "num": 3,
+   "rd": "꽁 쎄르떼자. 땡 아이 웅 꽁프로바띠부 드 모라다?"
+  },
+  {
+   "speaker": "A",
+   "tl": "Não tenho, porque o senhorio só faz o contrato depois de eu ter o número.",
+   "ko": "없어요. 집주인이 제가 번호를 받아야만 계약서를 써 준대요.",
+   "note": "depois de eu ter = 내가 가진 뒤에(인칭 부정사)",
+   "tags": [
+    "form:infinitivo-pessoal"
+   ],
+   "num": 4,
+   "rd": "나웅 뗑유, 뽀르끄 우 쎙요리우 쏘 파즈 우 꼰트라뚜 데뽀이쉬 드 에우 떼르 우 누메루."
+  },
+  {
+   "speaker": "B",
+   "tl": "Pois, mas sem morada não lhe posso dar o número.",
+   "ko": "네, 그런데 주소 없이는 번호를 드릴 수가 없어요.",
+   "note": "lhe = 당신께(존칭)",
+   "tags": [
+    "expr:pois",
+    "form:lhe"
+   ],
+   "num": 5,
+   "rd": "뽀이쉬, 마쉬 쎙 모라다 나웅 리으 뽀쑤 다르 우 누메루."
+  },
+  {
+   "speaker": "A",
+   "tl": "E sem número não tenho morada. Então como é que se faz?",
+   "ko": "번호가 없으면 주소도 없는데요. 그럼 어떻게 해요?",
+   "note": "como é que se faz? = 어떻게 하죠?",
+   "tags": [
+    "expr:como é que"
+   ],
+   "num": 6,
+   "rd": "이 쎙 누메루 나웅 뗑유 모라다. 엔따웅 꼬무 에 끄 쓰 파쉬?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Olhe, é um clássico. Há quem ande nisto há três meses.",
+   "ko": "저기요, 흔한 일이에요. 석 달째 이러는 분도 계세요.",
+   "note": "olhe = 저기요, 있잖아요(존칭)",
+   "tags": [
+    "expr:olhe"
+   ],
+   "num": 7,
+   "rd": "올류, 에 웅 끌라씨꾸. 아 껭 안드 니쉬뚜 아 트레쉬 메즈쉬."
+  },
+  {
+   "speaker": "A",
+   "tl": "Três meses?! Ando a dormir no sofá de um colega há duas semanas!",
+   "ko": "석 달이요?! 저 2주째 동료 집 소파에서 자고 있어요!",
+   "note": "andar a + 동사원형 = 요즘 계속 ~하다",
+   "tags": [
+    "form:andar-a"
+   ],
+   "num": 8,
+   "rd": "트레쉬 메즈쉬?! 안두 아 도르미르 누 쏘파 드 웅 꼴레가 아 두아쉬 쎄마나쉬!"
+  },
+  {
+   "speaker": "B",
+   "tl": "Coitada. E não conhece ninguém que lhe empreste uma morada?",
+   "ko": "어쩌나. 주소 빌려줄 사람 아무도 없어요?",
+   "note": "coitado/coitada = 불쌍해라, 어쩌나",
+   "tags": [
+    "expr:coitado",
+    "form:conjuntivo"
+   ],
+   "num": 9,
+   "rd": "꼬이따다. 이 나웅 꽁예쓰 닝겡 끄 리으 엠프레쉬뜨 우마 모라다?"
+  },
+  {
+   "speaker": "A",
+   "tl": "Só conheço o senhorio, e esse nem atende o telefone. É o senhor Albano.",
+   "ko": "아는 사람은 집주인뿐인데 전화도 안 받아요. Albano 씨요.",
+   "note": "nem = ~조차 안",
+   "tags": [
+    "expr:nem"
+   ],
+   "num": 10,
+   "rd": "쏘 꽁예쑤 우 쎙요리우, 이 에쓰 넹 아뗀드 우 뗄레포느. 에 우 쎙요르 알바누."
+  },
+  {
+   "speaker": "B",
+   "tl": "Espere lá. Albano Ferreira, da Rua das Flores, com um cão que ladra a tudo?",
+   "ko": "잠깐만요. Rua das Flores 의 Albano Ferreira, 아무한테나 짖는 개 키우는 사람?",
+   "note": "espere lá = 잠깐만요",
+   "tags": [
+    "expr:espere lá"
+   ],
+   "num": 11,
+   "rd": "이쉬뻬르 라. 알바누 페헤이라, 다 후아 다쉬 플로르쉬, 꽁 웅 까웅 끄 라드라 아 뚜두?"
+  },
+  {
+   "speaker": "A",
+   "tl": "Esse mesmo! A senhora conhece-o?",
+   "ko": "바로 그분이에요! 아세요?",
+   "note": "conhece-o = 그를 아세요(접어는 동사 뒤)",
+   "tags": [
+    "form:clitic"
+   ],
+   "num": 12,
+   "rd": "에쓰 메쥬무! 아 쎙요라 꽁예쓰 우?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Se conheço! É o meu irmão. Há dez anos que me deve dinheiro.",
+   "ko": "알다마다요! 제 오빠예요. 10년째 저한테 돈을 안 갚고 있죠.",
+   "note": "Se conheço! = 알다마다요!",
+   "tags": [
+    "expr:se conheço",
+    "twist"
+   ],
+   "num": 13,
+   "rd": "쓰 꽁예쑤! 에 우 메우 이르마웅. 아 데즈 아누쉬 끄 므 데브 딩예이루."
+  },
+  {
+   "speaker": "A",
+   "tl": "E isso ajuda-me em quê, exatamente?",
+   "ko": "그게 저한테 정확히 무슨 도움이 되죠?",
+   "note": "em quê = 무엇에서",
+   "tags": [
+    "form:clitic"
+   ],
+   "num": 14,
+   "rd": "이 이쑤 아주다 므 앵 께, 이자따멘뜨?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Albano? Ou fazes hoje o contrato a esta jovem, ou conto tudo à mãe.",
+   "ko": "Albano? 오늘 이 젊은 사람 계약서 써 주든지, 아니면 엄마한테 다 이를 거야.",
+   "note": "ou… ou… = ~하든지 ~하든지",
+   "tags": [
+    "expr:ou ou"
+   ],
+   "num": 15,
+   "rd": "알바누? 오우 파즈쉬 오즈 우 꼰트라뚜 아 에쉬따 조벵, 오우 꼰뚜 뚜두 아 마잉."
+  },
+  {
+   "speaker": "A",
+   "tl": "Acho que acabei de arranjar casa.",
+   "ko": "저 방금 집 구한 것 같네요.",
+   "note": "acabar de + 동사원형 = 방금 ~했다",
+   "tags": [
+    "form:acabar-de"
+   ],
+   "num": 16,
+   "rd": "아슈 끄 아까베이 드 아한자르 까자."
+  }
+ ]
+}
