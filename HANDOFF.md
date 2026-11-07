@@ -27,6 +27,11 @@
 - 앞으로 쓰는 회화는 턴마다 `emotion`, 감정이 바뀌면 `segs`([감정, 본문])를 원본에 함께 쓴다(값 16개 = 일본어앱 `data/tts/PLAN_GUIDE.md`, 사용자 지시 11-07). `tools/tts/make_plan.py` 가 원본의 감정으로 `data/tts/plan/` 을 자동 생성한다(손으로 쓰지 않는다). 순서: `build_dialogues.py` → `make_plan.py` → `make_jobs.py`.
 - pubspec 에 안 넣어 앱에는 아직 없음. 다음 단계: Grok 재작성(11-10 이후, 편 1개씩) → 리뷰 → `lemmas`(spaCy) → 앱 연결(`DialogueService` 는 아직 L1.json 만 읽음). 조연 Dona Fernanda·Marta 는 그림 기준이 없다.
 
+## 11-07 회화 음성(4편 102줄, 약 6분)
+- R2 `audio/pt/…`·D1 `audio_lines`(lang `pt`) 올림, 목록 `data/tts/audio_pt.json`, 리뷰 `data/review/REVIEW_pt.html` → uk 세션에 갱신 요청함. 도구 `tools/tts/`, 작업 폴더 `~/tts_work/pt`, 받아쓰기 venv `~/.venvs/tts_zh`.
+- 조각 85개 중 84개 통과. r2_friends_b1 3턴 남성판 「O quê?!」(`03_0_m`)는 세 번 재생성해도 길이 기준 초과·받아쓰기 「Ok.」 — 가장 나은 판으로 올렸다. 유럽판 억양은 사람이 듣고 판단해야 한다.
+- 앱 재생 코드(`dialogue_audio.dart` 등)는 아직 없다. 회화 새 구조를 앱에 연결할 때 함께.
+
 ## 11-07 단어·메뉴 개편(`1032064`, 일본어앱 `docs/MENU_WORDS_2026-11-07.md` 이식)
 - 절벽 단어: 유럽판 절벽 순위 2,000위, 20어 단원·타일, 「회화 단어 포함(+5)」. 데이터 `tools/build_cliff_words.py` → `cliff_pt_PT.csv`·`conv_words_pt.json`. **`lang_pt_top.csv` 의 rank 는 PT·BR 합친 그림 목록 순서 — 절벽 순위로 쓰지 말 것.**
 - 상위 2,000어 중 373어는 뜻 없음(단어만 표시) — 콘텐츠 금지가 풀리면 채운다. 레마는 사용자 지시(11-07)로 그대로 둔다.
