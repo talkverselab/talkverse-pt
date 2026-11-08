@@ -1,0 +1,135 @@
+{
+ "id": "r0_love_c1",
+ "region": "R0",
+ "island": "love",
+ "kind": "chat",
+ "purpose": [
+  "love",
+  "chat"
+ ],
+ "domain": [
+  "love"
+ ],
+ "title": "지금 와",
+ "emoji": "📱",
+ "scene": "밤 11시 40분, Inês 가 먼저 메시지를 보낸다. 다급한 「지금 와」의 진짜 이유는 따로 있다.",
+ "speakers": {
+  "A": "{name}",
+  "B": "Inês"
+ },
+ "cast": {
+  "B": "ines"
+ },
+ "register": "chat",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [
+  "romance"
+ ],
+ "goal": "짧은 채팅 덩어리로 답하기 — 「tudo bem?」「a sério?」「pronto」",
+ "expressions": [
+  "tudo bem?",
+  "a sério?",
+  "pronto"
+ ],
+ "variant": "pt-PT",
+ "learner_gender": "female",
+ "draft": true,
+ "turns": [
+  {
+   "speaker": "B",
+   "tl": "Olá! Estás em casa?",
+   "ko": "안녕! 집이야?",
+   "note": "Estás em casa? = 집에 있어?",
+   "tags": [
+    "form:estar"
+   ],
+   "emotion": "cheerful",
+   "ui": "bubble",
+   "at": "23:41",
+   "num": 1,
+   "rd": "올라! 이쉬따즈 앵 까자?"
+  },
+  {
+   "speaker": "A",
+   "tl": "Estou. Tudo bem?",
+   "ko": "응. 무슨 일 있어?",
+   "note": "tudo bem? = 괜찮아?, 별일 없어?",
+   "tags": [
+    "expr:tudo bem?"
+   ],
+   "emotion": "neutral",
+   "ui": "bubble",
+   "at": "23:41",
+   "num": 2,
+   "rd": "이쉬또우. 뚜두 벵?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Vem à minha casa. Agora!",
+   "ko": "우리 집으로 와. 지금!",
+   "note": "vem = 와(tu 에게 하는 말)",
+   "tags": [
+    "form:vir"
+   ],
+   "emotion": "excited",
+   "ui": "bubble",
+   "at": "23:42",
+   "num": 3,
+   "rd": "벵 아 밍야 까자. 아고라!"
+  },
+  {
+   "speaker": "A",
+   "tl": "A sério? Vou já!",
+   "ko": "진짜? 바로 갈게!",
+   "note": "a sério? = 진짜?, vou já = 금방 갈게",
+   "tags": [
+    "expr:a sério?"
+   ],
+   "segs": [
+    [
+     "surprised",
+     "A sério?"
+    ],
+    [
+     "excited",
+     " Vou já!"
+    ]
+   ],
+   "ui": "bubble",
+   "at": "23:42",
+   "num": 4,
+   "rd": "아 쎄리우? 보우 자!"
+  },
+  {
+   "speaker": "B",
+   "tl": "Pronto, há uma barata aqui!",
+   "ko": "그게, 여기 바퀴벌레 있어!",
+   "note": "barata = 바퀴벌레 (상한 밖 낱말)",
+   "tags": [
+    "twist",
+    "expr:pronto"
+   ],
+   "emotion": "shout",
+   "ui": "bubble",
+   "at": "23:42",
+   "num": 5,
+   "rd": "프론뚜, 아 우마 바라따 아끼!"
+  },
+  {
+   "speaker": "B",
+   "tl": "E pronto... também te quero ver.",
+   "ko": "그리고 뭐… 너도 보고 싶고.",
+   "note": "te quero ver = 너를 보고 싶어",
+   "tags": [
+    "heart",
+    "expr:pronto"
+   ],
+   "emotion": "shy",
+   "ui": "bubble",
+   "at": "23:43",
+   "num": 6,
+   "rd": "이 프론뚜... 땀벵 뜨 께루 베르."
+  }
+ ]
+}

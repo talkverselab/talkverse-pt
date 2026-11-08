@@ -1,0 +1,61 @@
+{
+ "ep": "r0_love_c1",
+ "cast": {
+  "B": "ines"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Olá! Estás em casa?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "Estou. Tudo bem?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "excited",
+     "Vem à minha casa. Agora!"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "surprised",
+     "A sério?"
+    ],
+    [
+     "excited",
+     " Vou já!",
+     "Vou já!"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "shout",
+     "Pronto, há uma barata aqui!"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "shy",
+     "E pronto... também te quero ver."
+    ]
+   ]
+  }
+ }
+}

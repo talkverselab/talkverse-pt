@@ -1,0 +1,136 @@
+{
+ "ep": "r5_work_b1",
+ "cast": {
+  "B": "marta"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "polite",
+     "{name}, tem um minuto?"
+    ],
+    [
+     "annoyed",
+     "Alguém comeu o bolo que eu guardei na cozinha do escritório."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "worried",
+     "O bolo de anos? Que chatice. Era para quê?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "sad",
+     "Para o meu sobrinho. Faz seis anos hoje e o almoço é às duas."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "gentle",
+     "Coitado do miúdo."
+    ],
+    [
+     "flustered",
+     "Mas porque é que está a olhar para mim assim?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "stiff",
+     "Porque há migalhas de bolo na sua cadeira, {name}."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "shout",
+     "Isso não é prova nenhuma! Estou inocente, juro. Nem gosto de doces."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "tsukkomi",
+     "A sério? Na semana passada comeu três gelados na reunião de equipa."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "flustered",
+     "Quer dizer... gelado é diferente."
+    ],
+    [
+     "excited",
+     "A câmara de segurança grava a cozinha, não grava?"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "annoyed",
+     "Grava, sim. Vamos ver o vídeo agora, e acabou-se a mentira."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "teasing",
+     "Está bem. Se calhar vai pedir-me desculpa daqui a cinco minutos."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "surprised",
+     "Espere... aquilo é um pato? Entrou pela janela e está a comer o bolo!"
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "amused",
+     "Um pato do parque, com a cara toda suja de bolo! Afinal o ladrão sabe voar."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "polite",
+     "Pronto, peço desculpa."
+    ],
+    [
+     "teasing",
+     "Mas então, as migalhas na sua cadeira?"
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "flustered",
+     "Ah, essas... são do pão do pequeno-almoço. De certeza."
+    ]
+   ]
+  }
+ }
+}

@@ -1,6 +1,35 @@
 # 포르투갈어 회화 초안(유럽판, Claude 초안)
 
 
+## R0 · 지금 와 📱 (`r0_love_c1`, 반전 5턴 chaos)
+
+밤 11시 40분, Inês 가 먼저 메시지를 보낸다. 다급한 「지금 와」의 진짜 이유는 따로 있다.
+
+**1. Inês** Olá! Estás em casa?  
+올라! 이쉬따즈 앵 까자?  
+안녕! 집이야?
+
+**2. {name}** Estou. Tudo bem?  
+이쉬또우. 뚜두 벵?  
+응. 무슨 일 있어?
+
+**3. Inês** Vem à minha casa. Agora!  
+벵 아 밍야 까자. 아고라!  
+우리 집으로 와. 지금!
+
+**4. {name}** A sério? Vou já!  
+아 쎄리우? 보우 자!  
+진짜? 바로 갈게!
+
+**5. Inês** Pronto, há uma barata aqui!  
+프론뚜, 아 우마 바라따 아끼!  
+그게, 여기 바퀴벌레 있어!
+
+**6. Inês** E pronto... também te quero ver.  
+이 프론뚜... 땀벵 뜨 께루 베르.  
+그리고 뭐… 너도 보고 싶고.
+
+
 ## R1 · 그 문장만 ☕ (`r1_love_a1`, 반전 6턴 emotion)
 
 리스본 카페. 메뉴판 앞에서 30분째 굳어 있는 학습자에게 Inês 가 먼저 말을 건다.
@@ -228,3 +257,64 @@ Albano? 오늘 이 젊은 사람 계약서 써 주든지, 아니면 엄마한테
 **15. Marta** Pelo contrário. Quer que seja {name} a apresentar o desastre. De gravata.  
 뻴루 꼰트라리우. 께르 끄 쎄자 {name} 아 아프레젠따르 우 데자쉬트르. 드 그라바따.  
 오히려요. 그 재앙을 {name} 씨가 발표하길 바란답니다. 넥타이 매고.
+
+
+## R5 · 날개 달린 도둑 🎂 (`r5_work_b1`, 반전 11턴 chaos)
+
+사무실. 상사 Marta 가 조카 생일 케이크가 사라졌다며 학습자의 책상 위 부스러기를 노려본다.
+
+**1. Marta** {name}, tem um minuto? Alguém comeu o bolo que eu guardei na cozinha do escritório.  
+{name}, 땡 웅 미누뚜? 알겡 꼬메우 우 볼루 끄 에우 과르데이 나 꼬징야 두 이쉬크리또리우.  
+{name} 씨, 잠깐 시간 돼요? 누가 제가 사무실 부엌에 넣어 둔 케이크를 먹었어요.
+
+**2. {name}** O bolo de anos? Que chatice. Era para quê?  
+우 볼루 드 아누쉬? 끄 샤띠쓰. 에라 빠라 께?  
+그 생일 케이크요? 어떡해요. 무슨 케이크였는데요?
+
+**3. Marta** Para o meu sobrinho. Faz seis anos hoje e o almoço é às duas.  
+빠라 우 메우 쏘브링유. 파쉬 쎄이즈 아누쉬 오즈 이 우 알모쑤 에 아쉬 두아쉬.  
+우리 조카 거요. 오늘 여섯 살 되는데 점심이 두 시예요.
+
+**4. {name}** Coitado do miúdo. Mas porque é que está a olhar para mim assim?  
+꼬이따두 두 미우두. 마쉬 뽀르끄 에 끄 이쉬따 아 올랴르 빠라 밍 아씽?  
+애가 불쌍하네요. 근데 왜 저를 그렇게 보세요?
+
+**5. Marta** Porque há migalhas de bolo na sua cadeira, {name}.  
+뽀르끄 아 미갈랴쉬 드 볼루 나 쑤아 까데이라, {name}.  
+{name} 씨 의자에 케이크 부스러기가 있으니까요.
+
+**6. {name}** Isso não é prova nenhuma! Estou inocente, juro. Nem gosto de doces.  
+이쑤 나웅 에 프로바 넹유마! 이쉬또우 이노쎈뜨, 주루. 넹 고쉬뚜 드 도쓰쉬.  
+그건 아무 증거도 안 돼요! 저 결백해요, 맹세해요. 단것 좋아하지도 않아요.
+
+**7. Marta** A sério? Na semana passada comeu três gelados na reunião de equipa.  
+아 쎄리우? 나 쎄마나 빠싸다 꼬메우 트레쉬 젤라두쉬 나 헤우니아웅 드 에끼빠.  
+정말요? 지난주 팀 회의 때 아이스크림 세 개 먹었잖아요.
+
+**8. {name}** Quer dizer... gelado é diferente. A câmara de segurança grava a cozinha, não grava?  
+께르 디제르... 젤라두 에 디페렌뜨. 아 까마라 드 쎄구란싸 그라바 아 꼬징야, 나웅 그라바?  
+그러니까… 아이스크림은 다르죠. 보안 카메라가 부엌 찍지 않아요?
+
+**9. Marta** Grava, sim. Vamos ver o vídeo agora, e acabou-se a mentira.  
+그라바, 씽. 바무쉬 베르 우 비데우 아고라, 이 아까보우 쓰 아 멘띠라.  
+찍죠. 지금 영상 봐요. 거짓말은 거기서 끝이에요.
+
+**10. {name}** Está bem. Se calhar vai pedir-me desculpa daqui a cinco minutos.  
+이쉬따 벵. 쓰 깔랴르 바이 뻬디르 므 데쉬꿀빠 다끼 아 씽꾸 미누뚜쉬.  
+좋아요. 아마 5분 뒤엔 저한테 사과하시게 될걸요.
+
+**11. Marta** Espere... aquilo é um pato? Entrou pela janela e está a comer o bolo!  
+이쉬뻬르... 아낄루 에 웅 빠뚜? 엔트로우 뻴라 자넬라 이 이쉬따 아 꼬메르 우 볼루!  
+잠깐만요… 저거 오리예요? 창문으로 들어와서 케이크를 먹고 있어요!
+
+**12. {name}** Um pato do parque, com a cara toda suja de bolo! Afinal o ladrão sabe voar.  
+웅 빠뚜 두 빠르끄, 꽁 아 까라 또다 쑤자 드 볼루! 아피날 우 라드라웅 싸브 보아르.  
+공원 오리네요, 얼굴이 케이크 범벅이에요! 알고 보니 도둑이 날 줄 아네요.
+
+**13. Marta** Pronto, peço desculpa. Mas então, as migalhas na sua cadeira?  
+프론뚜, 뻬쑤 데쉬꿀빠. 마즈 엔따웅, 아쉬 미갈랴쉬 나 쑤아 까데이라?  
+알았어요, 미안해요. 그럼 의자에 있던 부스러기는요?
+
+**14. {name}** Ah, essas... são do pão do pequeno-almoço. De certeza.  
+아, 이싸쉬... 싸웅 두 빠웅 두 뻬께누 알모쑤. 드 쎄르떼자.  
+아, 그건… 아침에 먹은 빵이에요. 확실해요.

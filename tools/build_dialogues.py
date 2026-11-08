@@ -13,8 +13,9 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / 'tools'))
 from rd_pt import rd  # noqa: E402
 
-TURNS = {'R1': (6, 8), 'R2': (8, 12), 'R3': (12, 16), 'R4': (12, 16)}
-WORDS = {'R1': (3, 10), 'R2': (1, 14), 'R3': (1, 20), 'R4': (1, 20)}  # CLAUDE.md §10. 채팅은 R1 하한을 보지 않는다
+# 폴더 R 숫자 = 회화 레벨 = 문법 단계(굴절어 전략 A1, docs/DIALOGUE_RULES_pt.md): 0 소리·짧은 회화 · 1 활용 골격 · 2 챗 실전 · 3 그래머2 · 4 어려운 문법 · 5 어휘 완주
+TURNS = {'R0': (6, 8), 'R1': (6, 8), 'R2': (8, 12), 'R3': (12, 16), 'R4': (12, 16), 'R5': (12, 16)}
+WORDS = {'R0': (2, 8), 'R1': (3, 10), 'R2': (1, 14), 'R3': (1, 20), 'R4': (1, 20), 'R5': (1, 20)}  # CLAUDE.md §10. 채팅은 R1 하한을 보지 않는다
 TWIST = {'chaos', 'slip', 'reveal', 'emotion', 'ignore'}
 PICK = re.compile(r'\{([^{}|]*)\|([^{}|]*)\}')
 
@@ -48,7 +49,7 @@ for src in sys.argv[1:]:
                 tl = pick(t['tl'], g)
                 w = len(words(tl))
                 a, b = WORDS[reg]
-                if w > b or (w < a and ep['kind'] != 'chat'):
+                if w > b or (w < a and ep['kind'] != 'chat' and not (reg == 'R0' and w >= 1 and n > 1)):
                     errs.append(f'{i} {n}턴: {w}단어 「{tl}」')
                 if not (t.get('emotion') or t.get('segs')):
                     errs.append(f'{i} {n}턴: 감정 없음(emotion 또는 segs)')

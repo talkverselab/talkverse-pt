@@ -21,6 +21,10 @@
 | 단어 그림 리스트 | talkversehanja `talkverse_art/words/pt.csv` = 새 레마 순위 2,500(PT·BR 합침, 구간 PT 경계, R5 = 절벽 밖, 340f9b5)·`pt_food.csv`(50), uk 세션이 D1 다시 적재 — 그림은 `GET https://auth.talkverse.uk/art/pt/manifest` |
 | 저작권 정리 | 책 이름·책 파서 삭제 + 이력 재작성·강제 push 끝(11-02, 사용자 승인) |
 
+## 11-08 회화 레벨 = 문법 단계 R0~R5(굴절어 전략, `docs/DIALOGUE_RULES_pt.md`)
+- 레벨별 한 편씩 6편: R0 `r0_love_c1`(level0.json) · R1~R4 기존 4편(sample_r1_r4.json) · R5 `r5_work_b1`(level5.json). 작성 지시서 `data/dialogues_src/BRIEF_pt.md`. 사용자 검수 통과를 uk 가 전하면 나머지를 이 지시서로 끝까지 쓴다(편 수는 레벨당 핵심 약 50문장).
+- 빌드: `python3 tools/build_dialogues.py data/dialogues_src/pt-PT/*.json` 를 **모든 원본을 한 번에** 넘겨 돌린다(리뷰 md 를 넘긴 파일로만 다시 씀).
+
 ## 11-07 회화 Claude 초안(사용자 지시: 회화 작성 제한 해제, 굴절어는 레벨별 한 편씩)
 - 4편으로 멈춤: R1 `r1_love_a1` · R2 `r2_friends_b1` · R3 `r3_life_b1` · R4 `r4_work_b1`(유럽판, 남·여 판별 파일 8개). R0 은 R1 에서 나누는 구간이라 따로 안 썼다. 브라질판은 아직 없음.
 - 원본 `data/dialogues_src/pt-PT/`(성별 표시 `{남|여}`) → `tools/build_dialogues.py` → `assets/data/pt-PT/dialogues/<male|female>/R*/`. 독음 `tools/rd_pt.py`. 읽는 판 `data/review/write/dialogues_pt_review.md`.
