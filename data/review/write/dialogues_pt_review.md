@@ -495,7 +495,7 @@ Duarte? 괜찮아? 무슨 일이야?
 
 **7. Inês** Ah! Afinal sabes falar! Que atrevido!  
 아! 아피날 싸브쉬 팔라르! 끄 아트르비두!  
-어머! 알고 보니 말 할 줄 아네! 너 영리하다!  
+어머! 알고 보니 말 할 줄 아네! 대담한데!  
 여성판: Ah! Afinal sabes falar! Que atrevida!
 
 **8. {name}** Só sei essa frase. Treinei em casa.  

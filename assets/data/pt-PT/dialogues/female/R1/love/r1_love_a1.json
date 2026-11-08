@@ -115,8 +115,8 @@
   {
    "speaker": "B",
    "tl": "Ah! Afinal sabes falar! Que atrevida!",
-   "ko": "어머! 알고 보니 말 할 줄 아네! 너 영리하다!",
-   "note": "afinal = 알고 보니, és = 너는 ~이다(é ↔ és), esperto/esperta = 영리한, 약삭빠른(듣는 사람 성별에 맞춤)",
+   "ko": "어머! 알고 보니 말 할 줄 아네! 대담한데!",
+   "note": "afinal = 알고 보니, atrevido/atrevida = 대담한, 뻔뻔한(듣는 사람 성별에 맞춤)",
    "tags": [
     "expr:afinal",
     "form:gender-adj"
