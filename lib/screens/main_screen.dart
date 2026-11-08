@@ -12,6 +12,7 @@ import 'dialogue_screen.dart';
 import 'episode_screen.dart';
 import 'grammar_lesson_screen.dart';
 import 'profile_screen.dart';
+import 'pt_sounds_screen.dart';
 import 'sentence_flashcard_screen.dart';
 import 'speaking_practice_screen.dart';
 import 'progress_screen.dart';
@@ -396,8 +397,8 @@ class _MenuGrid extends StatelessWidget {
   Widget build(BuildContext context) {
     final sections = <(String, List<_MenuItem>)>[
       (tr('기초'), [
-        _MenuItem(label: tr('발음'), sub: 'Pronúncia', badge: 'rr', color: AppColors.er,
-          builder: (_) => _ComingSoon(title: tr('발음 (rr · ñ · 강세)'))),
+        _MenuItem(label: tr('문자와 발음'), sub: tr('알파벳·비모음·약화'), badge: 'Ãã', color: AppColors.er,
+          builder: (_) => const PtSoundsScreen()),
       ]),
       (tr('문법'), [
         _MenuItem(label: tr('문법'), sub: 'Gramática', badge: 'G', color: AppColors.rojoDeep,
