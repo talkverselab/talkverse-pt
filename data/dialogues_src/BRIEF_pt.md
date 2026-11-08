@@ -14,6 +14,11 @@
 | R5 어휘 완주 | 새 문법 없음, 어휘 657~2,000위를 자연스럽게 | 상황대로 | 2,000위 | 12~16 | ≤20 |
 상한 밖 낱말은 편당 1개(R4 3개)까지, 그 턴 note 에 뜻. 표현 풀·고유명사·{name} 은 세지 않는다.
 
+## 문법 배치(사용자 결정 2026-11-08, `docs/GRAMMAR_LEVELS_pt.md`)
+- 접어: 동사 뒤(diz-me)는 R1 부터, 동사 앞(não me·que te)은 R0~R1 에선 굳은 덩어리만 → R2 부터 규칙, 동사 사이 끼움(dir-te-ei)은 R5 에서만 드물게.
+- 접속법·미래 접속법·인칭 부정사: 규칙으로는 R4 에서만. 굳은 표현(desculpe·se calhar·vá lá·quando quiseres·como quiseres)은 R0 부터 덩어리로 허용.
+- 존칭 o senhor/a senhora: R3 부터. 어휘 상한은 위 표 그대로.
+
 ## 굴절에 익숙해지게(사용자 지시 2026-11-08 — 가장 중요)
 - 한 편 안에서 **같은 동사·형용사가 여러 인칭·시제·성수로 되풀이**되게 쓴다. 예: A 「Estou cansad{o|a}.」 → B 「Tu estás? Eu também estou.」 → 「Ela está pior.」, 「Gostas? — Gosto! O Duarte também gosta.」, 「Fui ontem. — Foste? Ele foi também.」. 묻고 답하기·되묻기·제3자에게 옮기기가 자연스러운 장치다.
 - 목표(편당, 남·여 판 합산 `~/.venvs/pt_nlp/bin/python tools/check_inflection.py`): R0 2개 이상 · R1 4개 이상(eu·tu·ele/ela 세 인칭이 다 나오는 동사 1개 이상, 성 일치 형용사 1개 이상) · R2 4 · R3 5(복수 형태 포함) · R4·R5 4.
