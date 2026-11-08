@@ -16,7 +16,7 @@
    "segs": [
     [
      "worried",
-     "O que foi? Estás bem?"
+     "O que foi? Precisas de quê?"
     ]
    ]
   },
@@ -32,7 +32,7 @@
    "segs": [
     [
      "amused",
-     "E então? A tua mãe é fixe."
+     "E então? Eu acho a tua mãe fixe."
     ]
    ]
   },
@@ -48,7 +48,7 @@
    "segs": [
     [
      "teasing",
-     "Ah, sim? Coitad{o|a}! Quem é?"
+     "Ah, tens? Coitad{o|a}! Quem é?"
     ]
    ]
   },
@@ -69,7 +69,7 @@
    "segs": [
     [
      "gentle",
-     "Pronto. E amanhã também posso ser?"
+     "Pronto. E achas que amanhã também posso ser?"
     ]
    ]
   }

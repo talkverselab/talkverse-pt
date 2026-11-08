@@ -47,15 +47,15 @@
   },
   {
    "speaker": "A",
-   "tl": "Fez o quê? Não sei.",
-   "ko": "뭘? 몰라.",
-   "note": "não sei = 몰라",
+   "tl": "Eu? Não fiz nada.",
+   "ko": "나? 아무것도 안 했어.",
+   "note": "fiz = (내가) 했다 · nada = 아무것도",
    "tags": [
-    "form:saber"
+    "form:fazer"
    ],
    "emotion": "neutral",
    "num": 2,
-   "rd": "페즈 우 께? 나웅 쎄이."
+   "rd": "에우? 나웅 피쉬 나다."
   },
   {
    "speaker": "B",

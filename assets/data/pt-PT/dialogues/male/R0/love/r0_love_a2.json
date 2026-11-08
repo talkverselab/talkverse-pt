@@ -75,15 +75,16 @@
   },
   {
    "speaker": "A",
-   "tl": "A sério? Onde?",
-   "ko": "진짜? 어디서?",
-   "note": "onde? = 어디서?",
+   "tl": "A sério? Mas quem és tu?",
+   "ko": "진짜? 근데 너 누구야?",
+   "note": "quem és tu? = 너 누구야? (sou ↔ és)",
    "tags": [
-    "expr:a sério?"
+    "expr:a sério?",
+    "form:ser"
    ],
    "emotion": "surprised",
    "num": 4,
-   "rd": "아 쎄리우? 옹드?"
+   "rd": "아 쎄리우? 마쉬 껭 에쉬 뚜?"
   },
   {
    "speaker": "B",

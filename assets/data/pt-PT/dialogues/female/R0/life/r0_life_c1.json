@@ -50,17 +50,17 @@
   },
   {
    "speaker": "A",
-   "tl": "Ya. Porquê?",
+   "tl": "Estou. Porquê?",
    "ko": "응. 왜?",
-   "note": "ya = 응",
+   "note": "estou = (나) 있어",
    "tags": [
-    "expr:ya"
+    "form:estar"
    ],
    "emotion": "neutral",
    "ui": "bubble",
    "at": "10:03",
    "num": 2,
-   "rd": "야. 뽀르께?"
+   "rd": "이쉬또우. 뽀르께?"
   },
   {
    "speaker": "B",
@@ -79,15 +79,17 @@
   },
   {
    "speaker": "A",
-   "tl": "Para mim? O quê?",
+   "tl": "Para mim? Tens o quê?",
    "ko": "나한테? 뭔데?",
-   "note": "o quê? = 뭐?",
-   "tags": [],
+   "note": "tens = (너는) 가지고 있다 · o quê? = 뭐?",
+   "tags": [
+    "form:ter"
+   ],
    "emotion": "surprised",
    "ui": "bubble",
    "at": "10:03",
    "num": 4,
-   "rd": "빠라 밍? 우 께?"
+   "rd": "빠라 밍? 뗑즈 우 께?"
   },
   {
    "speaker": "B",

@@ -51,17 +51,18 @@
   },
   {
    "speaker": "A",
-   "tl": "Estou, sim. O que se passa?",
-   "ko": "응, 있어. 무슨 일이야?",
-   "note": "O que se passa? = 무슨 일이야?",
+   "tl": "Estou, sim. Está tudo bem?",
+   "ko": "응, 있어. 별일 없어?",
+   "note": "Está tudo bem? = 다 괜찮아?(estás ↔ estou ↔ está)",
    "tags": [
-    "form:answer-verb"
+    "form:answer-verb",
+    "form:estar"
    ],
    "emotion": "neutral",
    "ui": "bubble",
    "at": "22:47",
    "num": 2,
-   "rd": "이쉬또우, 씽. 우 끄 쓰 빠싸?"
+   "rd": "이쉬또우, 씽. 이쉬따 뚜두 벵?"
   },
   {
    "speaker": "B",
@@ -77,18 +78,19 @@
   },
   {
    "speaker": "A",
-   "tl": "A sério? Então fala!",
-   "ko": "진짜? 그럼 말해!",
-   "note": "a sério? = 진짜?, então = 그럼",
+   "tl": "A sério? Queres? Então fala!",
+   "ko": "진짜? 하고 싶어? 그럼 말해!",
+   "note": "a sério? = 진짜?, queres? = 원해?(quero ↔ queres), então = 그럼",
    "tags": [
     "expr:a sério?",
-    "expr:então"
+    "expr:então",
+    "form:querer"
    ],
    "emotion": "excited",
    "ui": "bubble",
    "at": "22:48",
    "num": 4,
-   "rd": "아 쎄리우? 엔따웅 팔라!"
+   "rd": "아 쎄리우? 께르쉬? 엔따웅 팔라!"
   },
   {
    "speaker": "B",
@@ -112,23 +114,24 @@
   },
   {
    "speaker": "A",
-   "tl": "Eu... também penso em ti. 😳",
-   "ko": "나도… 네 생각 해. 😳",
-   "note": "também = ~도",
+   "tl": "Eu também penso em ti. Estou corado! 😳",
+   "ko": "나도 네 생각 해. 얼굴 빨개졌어! 😳",
+   "note": "corado/corada = 얼굴이 빨개진(말하는 사람 성별에 맞춤)",
    "tags": [
-    "expr:também"
+    "expr:também",
+    "form:gender-adj"
    ],
    "segs": [
     [
      "shy",
-     "Eu... também penso em ti. 😳",
-     "Eu... também penso em ti."
+     "Eu também penso em ti. Estou corado! 😳",
+     "Eu também penso em ti. Estou corado!"
     ]
    ],
    "ui": "bubble",
    "at": "22:50",
    "num": 6,
-   "rd": "에우... 땀벵 뻰쑤 앵 띠. 😳"
+   "rd": "에우 땀벵 뻰쑤 앵 띠. 이쉬또우 꾸라두! 😳"
   },
   {
    "speaker": "B",

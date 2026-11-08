@@ -35,26 +35,29 @@
  "turns": [
   {
    "speaker": "A",
-   "tl": "Duarte? O que se passa contigo?",
-   "ko": "Duarte? 너 무슨 일 있어?",
-   "note": "contigo = 너에게, 너와",
-   "tags": [],
+   "tl": "Duarte? Estás bem? O que se passa?",
+   "ko": "Duarte? 괜찮아? 무슨 일이야?",
+   "note": "estás bem? = 너 괜찮아?(estar)",
+   "tags": [
+    "form:estar"
+   ],
    "emotion": "worried",
    "num": 1,
-   "rd": "두아르뜨? 우 끄 쓰 빠싸 꼰띠구?"
+   "rd": "두아르뜨? 이쉬따쉬 벵? 우 끄 쓰 빠싸?"
   },
   {
    "speaker": "B",
-   "tl": "Nada. Deixa-me, pá.",
-   "ko": "아무것도 아냐. 내버려 둬.",
-   "note": "deixa-me = 날 내버려 둬(접어는 동사 뒤)",
+   "tl": "Não estou. Deixa-me, pá.",
+   "ko": "안 괜찮아. 내버려 둬.",
+   "note": "não estou = 안 괜찮아(동사로 답한다), deixa-me = 날 내버려 둬(접어는 동사 뒤)",
    "tags": [
+    "form:answer-verb",
     "form:clitic",
     "expr:pá"
    ],
    "emotion": "sad",
    "num": 2,
-   "rd": "나다. 데이샤 므, 빠."
+   "rd": "나웅 이쉬또우. 데이샤 므, 빠."
   },
   {
    "speaker": "A",
@@ -70,39 +73,41 @@
   },
   {
    "speaker": "B",
-   "tl": "Morreu, sim. O meu clube perdeu hoje.",
-   "ko": "응, 죽었어. 우리 팀이 오늘 졌어.",
-   "note": "clube = 클럽, 팀(상한 밖 낱말), perdeu = 졌다",
+   "tl": "Morri eu. O meu clube perdeu hoje.",
+   "ko": "내가 죽었어. 우리 팀이 오늘 졌어.",
+   "note": "morri = 내가 죽었다(morreu ↔ morri), clube = 클럽, 팀(상한 밖 낱말), perdeu = 졌다",
    "tags": [
     "form:perfeito"
    ],
    "emotion": "sad",
    "num": 4,
-   "rd": "무헤우, 씽. 우 메우 끌루브 쁘르데우 오즈."
+   "rd": "무히 에우. 우 메우 끌루브 쁘르데우 오즈."
   },
   {
    "speaker": "A",
-   "tl": "Ah... é só isso? Pronto, pronto.",
-   "ko": "아… 그게 다야? 자, 자.",
-   "note": "pronto, pronto = 자자, 됐어(달랠 때)",
+   "tl": "Ah... é só isso? Pronto, pronto. Está tudo bem.",
+   "ko": "아… 그게 다야? 자, 자. 다 괜찮아.",
+   "note": "pronto, pronto = 자자, 됐어(달랠 때), está tudo bem = 다 괜찮다",
    "tags": [
-    "expr:pronto"
+    "expr:pronto",
+    "form:estar"
    ],
    "emotion": "amused",
    "num": 5,
-   "rd": "아... 에 쏘 이쑤? 프론뚜, 프론뚜."
+   "rd": "아... 에 쏘 이쑤? 프론뚜, 프론뚜. 이쉬따 뚜두 벵."
   },
   {
    "speaker": "B",
-   "tl": "Só isso?! É a minha vida, pá!",
-   "ko": "그게 다라니?! 내 인생이라고!",
-   "note": "a minha vida = 내 인생",
+   "tl": "Só isso?! Estou a falar da minha vida, pá!",
+   "ko": "그게 다라니?! 내 인생 얘기라고!",
+   "note": "estar a falar de = ~에 대해 말하고 있다, a minha vida = 내 인생",
    "tags": [
-    "expr:pá"
+    "expr:pá",
+    "form:estar-a"
    ],
    "emotion": "shout",
    "num": 6,
-   "rd": "쏘 이쑤?! 에 아 밍야 비다, 빠!"
+   "rd": "쏘 이쑤?! 이쉬또우 아 팔라르 다 밍야 비다, 빠!"
   },
   {
    "speaker": "A",
@@ -118,25 +123,26 @@
   },
   {
    "speaker": "B",
-   "tl": "Obrigado, pá... Espera. Tu és do outro clube!",
-   "ko": "고마워… 잠깐. 너 상대 팀 편이잖아!",
-   "note": "ser de = ~ 편이다(de + o = do)",
+   "tl": "Obrigado... Espera. Estás animado? Tu és do outro clube!",
+   "ko": "고마워… 잠깐. 왜 신났어? 너 상대 팀 편이잖아!",
+   "note": "animado/animada = 신난(듣는 사람 성별에 맞춤), ser de = ~ 편이다(de + o = do)",
    "tags": [
     "twist",
-    "form:contraction"
+    "form:contraction",
+    "form:gender-adj"
    ],
    "segs": [
     [
      "gentle",
-     "Obrigado, pá..."
+     "Obrigado..."
     ],
     [
      "tsukkomi",
-     " Espera. Tu és do outro clube!"
+     " Espera. Estás animado? Tu és do outro clube!"
     ]
    ],
    "num": 8,
-   "rd": "오브리가두, 빠... 이쉬뻬라. 뚜 에쉬 두 오우트루 끌루브!"
+   "rd": "오브리가두... 이쉬뻬라. 이쉬따즈 아니마두? 뚜 에쉬 두 오우트루 끌루브!"
   }
  ]
 }

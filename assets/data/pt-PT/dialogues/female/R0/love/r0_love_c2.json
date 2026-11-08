@@ -84,18 +84,19 @@
   },
   {
    "speaker": "A",
-   "tl": "Fixe! Então outro dia?",
-   "ko": "좋네! 그럼 다른 날?",
-   "note": "fixe = 좋다, 멋지다, outro dia = 다른 날",
+   "tl": "Fixe! Então quando podes?",
+   "ko": "좋네! 그럼 언제 돼?",
+   "note": "fixe = 좋다 · podes = (너는) ~할 수 있다(posso ↔ podes)",
    "tags": [
     "expr:fixe",
-    "expr:então"
+    "expr:então",
+    "form:poder"
    ],
    "emotion": "cheerful",
    "ui": "bubble",
    "at": "19:12",
    "num": 4,
-   "rd": "피쉬! 엔따웅 오우트루 디아?"
+   "rd": "피쉬! 엔따웅 꽌두 뽀드쉬?"
   },
   {
    "speaker": "B",

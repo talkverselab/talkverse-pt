@@ -8,7 +8,7 @@
    "segs": [
     [
      "worried",
-     "Duarte? O que se passa contigo?"
+     "Duarte? Estás bem? O que se passa?"
     ]
    ]
   },
@@ -16,7 +16,7 @@
    "segs": [
     [
      "sad",
-     "Nada. Deixa-me, pá."
+     "Não estou. Deixa-me, pá."
     ]
    ]
   },
@@ -32,7 +32,7 @@
    "segs": [
     [
      "sad",
-     "Morreu, sim. O meu clube perdeu hoje."
+     "Morri eu. O meu clube perdeu hoje."
     ]
    ]
   },
@@ -40,7 +40,7 @@
    "segs": [
     [
      "amused",
-     "Ah... é só isso? Pronto, pronto."
+     "Ah... é só isso? Pronto, pronto. Está tudo bem."
     ]
    ]
   },
@@ -48,7 +48,7 @@
    "segs": [
     [
      "shout",
-     "Só isso?! É a minha vida, pá!"
+     "Só isso?! Estou a falar da minha vida, pá!"
     ]
    ]
   },
@@ -64,12 +64,12 @@
    "segs": [
     [
      "gentle",
-     "Obrigado, pá..."
+     "Obrigado..."
     ],
     [
      "tsukkomi",
-     " Espera. Tu és do outro clube!",
-     "Espera. Tu és do outro clube!"
+     " Espera. Estás animad{o|a}? Tu és do outro clube!",
+     "Espera. Estás animad{o|a}? Tu és do outro clube!"
     ]
    ]
   }

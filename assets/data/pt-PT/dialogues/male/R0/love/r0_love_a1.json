@@ -87,11 +87,12 @@
   },
   {
    "speaker": "B",
-   "tl": "Nada. Fui eu que perguntei.",
-   "ko": "아무 말도. 사실 내가 물어본 거야.",
-   "note": "perguntei = 내가 물어봤어 (상한 밖 낱말)",
+   "tl": "Nada. Eu é que falo de ti.",
+   "ko": "아무 말도. 사실 네 얘기 하는 건 나야.",
+   "note": "eu é que falo = 말하는 건 나야(fala → falo)",
    "tags": [
-    "twist"
+    "twist",
+    "form:falar"
    ],
    "segs": [
     [
@@ -100,11 +101,11 @@
     ],
     [
      "shy",
-     " Fui eu que perguntei."
+     " Eu é que falo de ti."
     ]
    ],
    "num": 5,
-   "rd": "나다. 푸이 에우 끄 쁘르군떼이."
+   "rd": "나다. 에우 에 끄 팔루 드 띠."
   },
   {
    "speaker": "B",

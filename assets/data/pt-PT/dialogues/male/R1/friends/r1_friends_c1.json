@@ -36,31 +36,33 @@
  "turns": [
   {
    "speaker": "B",
-   "tl": "Bom dia! Hoje vens comigo à praia!",
-   "ko": "좋은 아침! 오늘 나랑 바다 가는 거야!",
-   "note": "vens = 너 와(vir), praia = 해변(상한 밖 낱말)",
+   "tl": "Bom dia! Estás acordado? Hoje vens comigo à praia!",
+   "ko": "좋은 아침! 깼어? 오늘 나랑 바다 가는 거야!",
+   "note": "acordado/acordada = 깨어 있는(듣는 사람 성별에 맞춤), vens = 너 와(vir), praia = 해변(상한 밖 낱말)",
    "tags": [
-    "form:vir"
+    "form:vir",
+    "form:gender-adj"
    ],
    "emotion": "excited",
    "ui": "bubble",
    "at": "08:02",
    "num": 1,
-   "rd": "봉 디아! 오즈 벵쉬 꾸미구 아 프라이아!"
+   "rd": "봉 디아! 이쉬따즈 아꾸르다두? 오즈 벵쉬 꾸미구 아 프라이아!"
   },
   {
    "speaker": "A",
-   "tl": "Fixe! A que horas?",
-   "ko": "좋아! 몇 시에?",
-   "note": "fixe = 좋아, 멋져",
+   "tl": "Quero! Fixe! A que horas?",
+   "ko": "갈래! 좋아! 몇 시에?",
+   "note": "quero = 원해(querer, 초대에 '응!'), fixe = 좋아, 멋져",
    "tags": [
-    "expr:fixe"
+    "expr:fixe",
+    "form:querer"
    ],
    "emotion": "cheerful",
    "ui": "bubble",
    "at": "08:05",
    "num": 2,
-   "rd": "피쉬! 아 끄 오라쉬?"
+   "rd": "께루! 피쉬! 아 끄 오라쉬?"
   },
   {
    "speaker": "B",
@@ -112,17 +114,18 @@
   },
   {
    "speaker": "A",
-   "tl": "Beatriz... tu sabes o que queres?",
-   "ko": "Beatriz… 너 뭘 원하는지 알긴 해?",
-   "note": "o que queres = 네가 원하는 것",
+   "tl": "Beatriz... estás bem? Sabes o que queres?",
+   "ko": "Beatriz… 너 괜찮아? 뭘 원하는지 알긴 해?",
+   "note": "sabes = 너는 안다(sei ↔ sabes), queres = 네가 원한다(quero ↔ queres)",
    "tags": [
-    "form:querer"
+    "form:querer",
+    "form:estar"
    ],
    "emotion": "tsukkomi",
    "ui": "bubble",
    "at": "08:11",
    "num": 6,
-   "rd": "베아트리쉬... 뚜 싸브즈 우 끄 께르쉬?"
+   "rd": "베아트리쉬... 이쉬따쉬 벵? 싸브즈 우 끄 께르쉬?"
   },
   {
    "speaker": "B",
@@ -147,15 +150,18 @@
   },
   {
    "speaker": "B",
-   "tl": "Estou com o Duarte. Ele também vem!",
-   "ko": "Duarte 랑 같이 있어. 걔도 간대!",
-   "note": "ele também vem = 그도 온다",
-   "tags": [],
+   "tl": "O Duarte está comigo. Ele também vem!",
+   "ko": "Duarte 도 나랑 있어. 걔도 간대!",
+   "note": "está = 그가 있다(estou·estás·está), vem = 그가 온다(vens ↔ vem)",
+   "tags": [
+    "form:estar",
+    "form:vir"
+   ],
    "emotion": "amused",
    "ui": "bubble",
    "at": "08:12",
    "num": 8,
-   "rd": "이쉬또우 꽁 우 두아르뜨. 엘르 땀벵 벵!"
+   "rd": "우 두아르뜨 이쉬따 꾸미구. 엘르 땀벵 벵!"
   }
  ]
 }

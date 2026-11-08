@@ -32,7 +32,7 @@
    "segs": [
     [
      "flustered",
-     "Pois é... não percebo nada."
+     "Pois é... não percebo nada. Está tudo em português!"
     ]
    ]
   },
@@ -40,7 +40,7 @@
    "segs": [
     [
      "gentle",
-     "Então eu ajudo. O que queres?"
+     "Não percebes? Então eu ajudo. O que queres?"
     ]
    ]
   },
@@ -48,7 +48,7 @@
    "segs": [
     [
      "shy",
-     "Um café. E o teu nome."
+     "Quero um café. E o teu nome."
     ]
    ]
   },
@@ -56,7 +56,7 @@
    "segs": [
     [
      "surprised",
-     "Ah! Afinal sabes falar muito bem!"
+     "Ah! Afinal sabes falar! Que atrevid{o|a}!"
     ]
    ]
   },
@@ -64,7 +64,7 @@
    "segs": [
     [
      "shy",
-     "Só essa frase. Treinei em casa."
+     "Só sei essa frase. Treinei em casa."
     ]
    ]
   }

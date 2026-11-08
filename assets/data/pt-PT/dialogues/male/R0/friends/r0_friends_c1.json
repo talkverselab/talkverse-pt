@@ -66,17 +66,18 @@
   },
   {
    "speaker": "B",
-   "tl": "Olha! Agora, agora!",
-   "ko": "봐! 지금, 지금!",
-   "note": "olha = 봐",
+   "tl": "Olha! Vês? Agora, agora!",
+   "ko": "봐! 보여? 지금, 지금!",
+   "note": "olha = 봐 · vês? = (너) 보여?",
    "tags": [
-    "expr:olha"
+    "expr:olha",
+    "form:ver"
    ],
    "emotion": "shout",
    "ui": "bubble",
    "at": "21:03",
    "num": 3,
-   "rd": "올랴! 아고라, 아고라!"
+   "rd": "올랴! 베쉬? 아고라, 아고라!"
   },
   {
    "speaker": "A",

@@ -52,17 +52,18 @@
   },
   {
    "speaker": "A",
-   "tl": "Estou. Tudo bem?",
-   "ko": "응. 무슨 일 있어?",
-   "note": "tudo bem? = 괜찮아?, 별일 없어?",
+   "tl": "Estou. Queres o quê?",
+   "ko": "응. 뭐 필요해?",
+   "note": "queres = (너는) 원하다 (queria 와 같은 querer)",
    "tags": [
-    "expr:tudo bem?"
+    "expr:tudo bem?",
+    "form:querer"
    ],
    "emotion": "neutral",
    "ui": "bubble",
    "at": "23:41",
    "num": 2,
-   "rd": "이쉬또우. 뚜두 벵?"
+   "rd": "이쉬또우. 께르즈 우 께?"
   },
   {
    "speaker": "B",

@@ -163,15 +163,16 @@
   },
   {
    "speaker": "B",
-   "tl": "Ah... um ovo. Que coisa estranha, não é?",
-   "ko": "아… 달걀이요. 참 이상한 일이네요, 그렇죠?",
-   "note": "estranho = 이상한",
+   "tl": "Ah... um ovo. Que coisa estranha, não é? Eu não sei de nada.",
+   "ko": "아… 달걀이요. 참 이상한 일이네요, 그렇죠? 전 아무것도 몰라요.",
+   "note": "estranho = 이상한 · não sei de nada = 아무것도 몰라요(sabes ↔ sei)",
    "tags": [
-    "vocab:estranho"
+    "vocab:estranho",
+    "form:saber"
    ],
    "emotion": "stiff",
    "num": 10,
-   "rd": "아... 웅 오부. 끄 꼬이자 이쉬트랑야, 나웅 에?"
+   "rd": "아... 웅 오부. 끄 꼬이자 이쉬트랑야, 나웅 에? 에우 나웅 쎄이 드 나다."
   },
   {
    "speaker": "A",
@@ -234,15 +235,16 @@
   },
   {
    "speaker": "A",
-   "tl": "Ótimo. Agora a galinha mora cá de graça e eu continuo sem dormir.",
-   "ko": "잘됐네. 이제 닭은 공짜로 살고 나는 계속 못 자고.",
-   "note": "de graça = 공짜로 · morar = 살다",
+   "tl": "Não diz nada? Ótimo. Agora a galinha mora cá de graça e eu continuo sem dormir.",
+   "ko": "아무 말 안 하신다고요? 잘됐네요. 이제 닭은 공짜로 살고 나는 계속 못 자고.",
+   "note": "não diz nada = (그분이) 아무 말 안 한다(digo ↔ diz) · de graça = 공짜로 · morar = 살다",
    "tags": [
-    "vocab:morar"
+    "vocab:morar",
+    "form:dizer"
    ],
    "emotion": "tsukkomi",
    "num": 14,
-   "rd": "오띠무. 아고라 아 갈링야 모라 까 드 그라싸 이 에우 꼰띠누우 쎙 두르미르."
+   "rd": "나웅 디쉬 나다? 오띠무. 아고라 아 갈링야 모라 까 드 그라싸 이 에우 꼰띠누우 쎙 두르미르."
   }
  ]
 }

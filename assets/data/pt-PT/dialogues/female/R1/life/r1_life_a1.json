@@ -48,15 +48,16 @@
   },
   {
    "speaker": "B",
-   "tl": "Com ninguém, pá! Está tudo bem.",
-   "ko": "아무도 아냐! 다 괜찮아.",
-   "note": "pá = 야(친구끼리 추임새)",
+   "tl": "Com ninguém, pá! Estás cansada, vai dormir.",
+   "ko": "아무도 아냐! 너 피곤해서 그래, 가서 자.",
+   "note": "pá = 야(친구끼리 추임새), cansado/cansada = 피곤한(듣는 사람 성별에 맞춤)",
    "tags": [
-    "expr:pá"
+    "expr:pá",
+    "form:gender-adj"
    ],
    "emotion": "flustered",
    "num": 2,
-   "rd": "꽁 닝겡, 빠! 이쉬따 뚜두 벵."
+   "rd": "꽁 닝겡, 빠! 이쉬따쉬 깐싸다, 바이 두르미르."
   },
   {
    "speaker": "A",
@@ -78,50 +79,55 @@
   },
   {
    "speaker": "B",
-   "tl": "Pois... estou a falar com a Mãe.",
-   "ko": "그게… 엄마랑 얘기하는 중이야.",
-   "note": "pois = 그게, 응(얼버무릴 때)",
+   "tl": "Pois... ouviste bem. Estou a falar com a Mãe.",
+   "ko": "그게… 제대로 들었어. 엄마랑 얘기하는 중이야.",
+   "note": "pois = 그게, 응(얼버무릴 때), ouviste = 네가 들었다(ouvi ↔ ouviste)",
    "tags": [
     "expr:pois",
-    "form:estar-a"
+    "form:estar-a",
+    "form:perfeito"
    ],
    "emotion": "stiff",
    "num": 4,
-   "rd": "뽀이쉬... 이쉬또우 아 팔라르 꽁 아 마잉."
+   "rd": "뽀이쉬... 오우비쉬뜨 벵. 이쉬또우 아 팔라르 꽁 아 마잉."
   },
   {
    "speaker": "A",
-   "tl": "Com a tua mãe? A esta hora?",
-   "ko": "너희 엄마랑? 이 시간에?",
-   "note": "a esta hora = 이 시간에",
-   "tags": [],
+   "tl": "Com a tua mãe? Ela fala a esta hora?",
+   "ko": "너희 엄마랑? 엄마가 이 시간에 통화를 해?",
+   "note": "ela fala = 그녀가 말한다(falo·falas·fala)",
+   "tags": [
+    "form:falar"
+   ],
    "emotion": "surprised",
    "num": 5,
-   "rd": "꽁 아 뚜아 마잉? 아 에쉬따 오라?"
+   "rd": "꽁 아 뚜아 마잉? 엘라 팔라 아 에쉬따 오라?"
   },
   {
    "speaker": "B",
-   "tl": "Não. Com esta Mãe. Diz olá, Mãe!",
-   "ko": "아니. 이 「엄마」랑. 엄마, 인사해!",
-   "note": "diz = 말해(dizer, tu 에게 시킬 때)",
+   "tl": "Não, esta Mãe. Está aqui! Diz olá, Mãe!",
+   "ko": "아니, 이 「엄마」. 여기 있어! 엄마, 인사해!",
+   "note": "está aqui = (그녀가) 여기 있다(estou·estás·está), diz = 말해(dizer, tu 에게 시킬 때)",
    "tags": [
+    "form:estar",
     "form:dizer"
    ],
    "emotion": "cheerful",
    "num": 6,
-   "rd": "나웅. 꽁 에쉬따 마잉. 디즈 올라, 마잉!"
+   "rd": "나웅, 에쉬따 마잉. 이쉬따 아끼! 디즈 올라, 마잉!"
   },
   {
    "speaker": "A",
-   "tl": "Duarte... isso é um cão!",
-   "ko": "Duarte… 그거 개잖아!",
-   "note": "cão = 개(상한 밖 낱말)",
+   "tl": "Duarte... isso é um cão! És maluco?",
+   "ko": "Duarte… 그거 개잖아! 너 미쳤어?",
+   "note": "cão = 개(상한 밖 낱말), és = 너는 ~이다(é ↔ és)",
    "tags": [
-    "twist"
+    "twist",
+    "form:ser"
    ],
    "emotion": "shout",
    "num": 7,
-   "rd": "두아르뜨... 이쑤 에 웅 까웅!"
+   "rd": "두아르뜨... 이쑤 에 웅 까웅! 에쉬 말루꾸?"
   },
   {
    "speaker": "B",

@@ -64,28 +64,30 @@
   },
   {
    "speaker": "B",
-   "tl": "Sou! Olha, posso pedir uma coisa?",
-   "ko": "응! 있잖아, 하나 부탁해도 돼?",
-   "note": "olha = 있잖아, 저기",
+   "tl": "Sou! Olha, estás ocupado? Posso pedir uma coisa?",
+   "ko": "응! 있잖아, 바빠? 하나 부탁해도 돼?",
+   "note": "olha = 있잖아, ocupado/ocupada = 바쁜(듣는 사람 성별에 맞춤)",
    "tags": [
     "expr:olha",
-    "form:poder"
+    "form:poder",
+    "form:gender-adj"
    ],
    "emotion": "excited",
    "num": 3,
-   "rd": "쏘우! 올랴, 뽀쑤 쁘디르 우마 꼬이자?"
+   "rd": "쏘우! 올랴, 이쉬따즈 오꾸빠두? 뽀쑤 쁘디르 우마 꼬이자?"
   },
   {
    "speaker": "A",
-   "tl": "Claro. O que precisas?",
-   "ko": "물론. 뭐 필요해?",
-   "note": "claro = 물론",
+   "tl": "Não estou. Claro, o que precisas?",
+   "ko": "안 바빠. 물론, 뭐 필요해?",
+   "note": "não estou = 안 그래(estás ↔ estou), claro = 물론",
    "tags": [
-    "expr:claro"
+    "expr:claro",
+    "form:answer-verb"
    ],
    "emotion": "cheerful",
    "num": 4,
-   "rd": "끌라루. 우 끄 프르씨자쉬?"
+   "rd": "나웅 이쉬또우. 끌라루, 우 끄 프르씨자쉬?"
   },
   {
    "speaker": "B",
@@ -110,15 +112,16 @@
   },
   {
    "speaker": "A",
-   "tl": "Espera. Tu, sem palavras? A sério?",
-   "ko": "잠깐. 네가 말이 막혀? 진짜?",
-   "note": "sem palavras = 말없이, 말문이 막혀",
+   "tl": "Tu, sem palavras? A sério? Isso é novo.",
+   "ko": "네가 말이 막혀? 진짜? 처음 보네.",
+   "note": "isso é novo = 그거 새롭다(sou·és·é)",
    "tags": [
-    "expr:a sério?"
+    "expr:a sério?",
+    "form:ser"
    ],
    "emotion": "teasing",
    "num": 6,
-   "rd": "이쉬뻬라. 뚜, 쎙 빨라브라쉬? 아 쎄리우?"
+   "rd": "뚜, 쎙 빨라브라쉬? 아 쎄리우? 이쑤 에 노부."
   },
   {
    "speaker": "B",

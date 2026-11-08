@@ -19,11 +19,11 @@
    {"speaker": "B", "tl": "Olá! Estás sozinh{o|a}?", "ko": "안녕! 혼자야?", "note": "sozinho/sozinha = 혼자(듣는 사람 성별에 맞춤)", "tags": ["form:estar"], "emotion": "teasing"},
    {"speaker": "A", "tl": "Estou, sim. Porquê?", "ko": "응, 혼자야. 왜?", "note": "Estou, sim = 응 그래(동사를 되풀이해 답한다)", "tags": ["form:answer-verb"], "emotion": "neutral"},
    {"speaker": "B", "tl": "Porque estás a ler o menu há meia hora.", "ko": "메뉴를 30분째 읽고 있으니까.", "note": "estar a + 동사원형 = ~하고 있다(유럽판 진행형)", "tags": ["form:estar-a"], "emotion": "teasing"},
-   {"speaker": "A", "tl": "Pois é... não percebo nada.", "ko": "그러게… 하나도 모르겠어.", "note": "pois é = 그러게, 맞아", "tags": ["expr:pois é"], "emotion": "flustered"},
-   {"speaker": "B", "tl": "Então eu ajudo. O que queres?", "ko": "그럼 내가 도와줄게. 뭐 먹을래?", "note": "O que queres? = 뭐 원해?", "tags": ["expr:então"], "emotion": "gentle"},
-   {"speaker": "A", "tl": "Um café. E o teu nome.", "ko": "커피 한 잔. 그리고 네 이름.", "note": "o teu nome = 네 이름", "tags": ["twist"], "emotion": "shy"},
-   {"speaker": "B", "tl": "Ah! Afinal sabes falar muito bem!", "ko": "어머! 알고 보니 말 진짜 잘하네!", "note": "afinal = 알고 보니", "tags": ["expr:afinal"], "emotion": "surprised"},
-   {"speaker": "A", "tl": "Só essa frase. Treinei em casa.", "ko": "그 문장만. 집에서 연습했어.", "note": "só = ~만", "tags": ["expr:só"], "emotion": "shy"}
+   {"speaker": "A", "tl": "Pois é... não percebo nada. Está tudo em português!", "ko": "그러게… 하나도 모르겠어. 전부 포르투갈어야!", "note": "pois é = 그러게, 맞아, está = (그것이) ~이다(estou·estás·está)", "tags": ["expr:pois é", "form:estar"], "emotion": "flustered"},
+   {"speaker": "B", "tl": "Não percebes? Então eu ajudo. O que queres?", "ko": "모르겠어? 그럼 내가 도와줄게. 뭐 먹을래?", "note": "percebes = 너는 이해한다(percebo ↔ percebes), O que queres? = 뭐 원해?", "tags": ["expr:então", "form:perceber"], "emotion": "gentle"},
+   {"speaker": "A", "tl": "Quero um café. E o teu nome.", "ko": "커피 한 잔. 그리고 네 이름.", "note": "quero = 원해(queres ↔ quero)", "tags": ["twist", "form:querer"], "emotion": "shy"},
+   {"speaker": "B", "tl": "Ah! Afinal sabes falar! Que atrevid{o|a}!", "ko": "어머! 알고 보니 말 할 줄 아네! 너 영리하다!", "note": "afinal = 알고 보니, és = 너는 ~이다(é ↔ és), esperto/esperta = 영리한, 약삭빠른(듣는 사람 성별에 맞춤)", "tags": ["expr:afinal", "form:gender-adj"], "emotion": "surprised"},
+   {"speaker": "A", "tl": "Só sei essa frase. Treinei em casa.", "ko": "그 문장만 알아. 집에서 연습했어.", "note": "só = ~만, sei = 나는 안다(sabes ↔ sei)", "tags": ["expr:só", "form:saber"], "emotion": "shy"}
   ],
   "cast":{"B": "ines"}},
  {"id":"r2_friends_b1",

@@ -52,31 +52,33 @@
   },
   {
    "speaker": "A",
-   "tl": "Calma, pá. Tenho a mala, o passaporte e a garrafa de água. Falta alguma coisa?",
-   "ko": "진정해. 캐리어, 여권, 물병 다 있어. 뭐 빠진 거 있어?",
-   "note": "mala = 여행 가방 · passaporte = 여권 · garrafa = 병",
+   "tl": "Calma, pá. Tenho a mala, o passaporte e a garrafa de água. Tu tens os bilhetes?",
+   "ko": "진정해. 캐리어, 여권, 물병 다 있어. 표는 네가 갖고 있지?",
+   "note": "mala = 여행 가방 · passaporte = 여권 · garrafa = 병 · tens = (너는) 갖고 있다",
    "tags": [
     "expr:pá",
     "vocab:mala",
     "vocab:passaporte",
-    "vocab:garrafa"
+    "vocab:garrafa",
+    "form:ter"
    ],
    "emotion": "amused",
    "num": 2,
-   "rd": "깔마, 빠. 뗑유 아 말라, 우 빠싸뽀르뜨 이 아 가하파 드 아과. 팔따 알구마 꼬이자?"
+   "rd": "깔마, 빠. 뗑유 아 말라, 우 빠싸뽀르뜨 이 아 가하파 드 아과. 뚜 뗑즈 우쉬 빌례뜨쉬?"
   },
   {
    "speaker": "B",
-   "tl": "Os bilhetes! Comprei-os ontem no telemóvel. Olha, lugares à janela.",
-   "ko": "표! 어제 폰으로 샀어. 봐, 창가 자리야.",
-   "note": "bilhete = 표 · telemóvel = 휴대폰",
+   "tl": "Tenho! Comprei-os ontem no telemóvel. Olha, lugares à janela.",
+   "ko": "있지! 어제 폰으로 샀어. 봐, 창가 자리야.",
+   "note": "bilhete = 표 · telemóvel = 휴대폰 · tenho = (나) 갖고 있어",
    "tags": [
     "vocab:bilhete",
-    "vocab:telemóvel"
+    "vocab:telemóvel",
+    "form:ter"
    ],
    "emotion": "cheerful",
    "num": 3,
-   "rd": "우쉬 빌례뜨쉬! 꽁프레이 우즈 온뗑 누 뜰르모벨. 올랴, 루가르즈 아 자넬라."
+   "rd": "뗑유! 꽁프레이 우즈 온뗑 누 뜰르모벨. 올랴, 루가르즈 아 자넬라."
   },
   {
    "speaker": "A",
@@ -108,15 +110,16 @@
   },
   {
    "speaker": "A",
-   "tl": "Outra vez? Na semana passada mudaste o plano três vezes.",
-   "ko": "또? 지난주에도 계획 세 번 바꿨잖아.",
-   "note": "plano = 계획",
+   "tl": "Outra vez? Na semana passada disseste o mesmo e mudaste o plano três vezes.",
+   "ko": "또? 지난주에도 똑같이 말하고 계획 세 번 바꿨잖아.",
+   "note": "plano = 계획 · disseste = (너는) 말했다",
    "tags": [
-    "vocab:plano"
+    "vocab:plano",
+    "form:dizer"
    ],
    "emotion": "tsukkomi",
    "num": 6,
-   "rd": "오우트라 베쉬? 나 쓰마나 빠싸다 무다쉬뜨 우 쁠라누 트레쉬 베즈쉬."
+   "rd": "오우트라 베쉬? 나 쓰마나 빠싸다 디쎄쉬뜨 우 메쥬무 이 무다쉬뜨 우 쁠라누 트레쉬 베즈쉬."
   },
   {
    "speaker": "B",
@@ -158,15 +161,16 @@
   },
   {
    "speaker": "A",
-   "tl": "A máquina diz que não. Aparece uma data estranha... dez do doze?",
-   "ko": "기계가 안 된대. 이상한 날짜가 떠… 12월 10일?",
-   "note": "data = 날짜 · dez do doze = 12월 10일(날짜 읽기)",
+   "tl": "A máquina diz que não. Vês? Aparece uma data estranha... dez do doze?",
+   "ko": "기계가 안 된대. 보여? 이상한 날짜가 떠… 12월 10일?",
+   "note": "data = 날짜 · dez do doze = 12월 10일(날짜 읽기) · vês? = 보여?(vejo ↔ vês)",
    "tags": [
-    "vocab:data"
+    "vocab:data",
+    "form:ver"
    ],
    "emotion": "worried",
    "num": 10,
-   "rd": "아 마끼나 디쉬 끄 나웅. 아빠레쓰 우마 다따 이쉬트랑야... 데쉬 두 도즈?"
+   "rd": "아 마끼나 디쉬 끄 나웅. 베쉬? 아빠레쓰 우마 다따 이쉬트랑야... 데쉬 두 도즈?"
   },
   {
    "speaker": "B",

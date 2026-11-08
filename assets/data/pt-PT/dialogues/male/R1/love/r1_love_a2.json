@@ -51,13 +51,15 @@
   },
   {
    "speaker": "A",
-   "tl": "O que foi? Estás bem?",
-   "ko": "무슨 일이야? 괜찮아?",
-   "note": "O que foi? = 무슨 일이야?",
-   "tags": [],
+   "tl": "O que foi? Precisas de quê?",
+   "ko": "무슨 일이야? 뭐가 필요해?",
+   "note": "precisas de = 너는 ~이 필요하다(preciso ↔ precisas)",
+   "tags": [
+    "form:precisar de"
+   ],
    "emotion": "worried",
    "num": 2,
-   "rd": "우 끄 포이? 이쉬따쉬 벵?"
+   "rd": "우 끄 포이? 프르씨자쉬 드 께?"
   },
   {
    "speaker": "B",
@@ -73,16 +75,17 @@
   },
   {
    "speaker": "A",
-   "tl": "E então? A tua mãe é fixe.",
-   "ko": "그래서? 너희 엄마 좋으시잖아.",
-   "note": "e então? = 그래서?",
+   "tl": "E então? Eu acho a tua mãe fixe.",
+   "ko": "그래서? 난 너희 엄마 좋던데.",
+   "note": "achar = ~라고 생각하다(acho), e então? = 그래서?",
    "tags": [
     "expr:então",
-    "expr:fixe"
+    "expr:fixe",
+    "form:achar"
    ],
    "emotion": "amused",
    "num": 4,
-   "rd": "이 엔따웅? 아 뚜아 마잉 에 피쉬."
+   "rd": "이 엔따웅? 에우 아슈 아 뚜아 마잉 피쉬."
   },
   {
    "speaker": "B",
@@ -99,15 +102,16 @@
   },
   {
    "speaker": "A",
-   "tl": "Ah, sim? Coitado! Quem é?",
-   "ko": "아, 그래? 불쌍한 사람! 누군데?",
-   "note": "coitado/coitada = 불쌍해라(그 사람 성별에 맞춤)",
+   "tl": "Ah, tens? Coitado! Quem é?",
+   "ko": "아, 있어? 불쌍한 사람! 누군데?",
+   "note": "tens = 너는 가지고 있다(tenho ↔ tens), coitado/coitada = 불쌍해라(그 사람 성별에 맞춤)",
    "tags": [
-    "expr:coitado"
+    "expr:coitado",
+    "form:ter"
    ],
    "emotion": "teasing",
    "num": 6,
-   "rd": "아, 씽? 꼬이따두! 껭 에?"
+   "rd": "아, 뗑쉬? 꼬이따두! 껭 에?"
   },
   {
    "speaker": "B",
@@ -133,16 +137,17 @@
   },
   {
    "speaker": "A",
-   "tl": "Pronto. E amanhã também posso ser?",
-   "ko": "알았어. 그럼 내일도 해도 돼?",
-   "note": "posso ser = 내가 ~이어도 돼?(poder + 원형)",
+   "tl": "Pronto. E achas que amanhã também posso ser?",
+   "ko": "알았어. 그럼 내일도 내가 해도 될까?",
+   "note": "achas que = 너는 ~라고 생각해?(acho·achas·acha), posso ser = 내가 ~이어도 돼(poder + 원형)",
    "tags": [
     "expr:pronto",
-    "form:poder"
+    "form:poder",
+    "form:achar que"
    ],
    "emotion": "gentle",
    "num": 8,
-   "rd": "프론뚜. 이 아망양 땀벵 뽀쑤 쎄르?"
+   "rd": "프론뚜. 이 아샤쉬 끄 아망양 땀벵 뽀쑤 쎄르?"
   }
  ]
 }

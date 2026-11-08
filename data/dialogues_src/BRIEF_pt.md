@@ -14,6 +14,11 @@
 | R5 어휘 완주 | 새 문법 없음, 어휘 657~2,000위를 자연스럽게 | 상황대로 | 2,000위 | 12~16 | ≤20 |
 상한 밖 낱말은 편당 1개(R4 3개)까지, 그 턴 note 에 뜻. 표현 풀·고유명사·{name} 은 세지 않는다.
 
+## 굴절에 익숙해지게(사용자 지시 2026-11-08 — 가장 중요)
+- 한 편 안에서 **같은 동사·형용사가 여러 인칭·시제·성수로 되풀이**되게 쓴다. 예: A 「Estou cansad{o|a}.」 → B 「Tu estás? Eu também estou.」 → 「Ela está pior.」, 「Gostas? — Gosto! O Duarte também gosta.」, 「Fui ontem. — Foste? Ele foi também.」. 묻고 답하기·되묻기·제3자에게 옮기기가 자연스러운 장치다.
+- 목표(편당, 남·여 판 합산 `~/.venvs/pt_nlp/bin/python tools/check_inflection.py`): R0 2개 이상 · R1 4개 이상(eu·tu·ele/ela 세 인칭이 다 나오는 동사 1개 이상, 성 일치 형용사 1개 이상) · R2 4 · R3 5(복수 형태 포함) · R4·R5 4.
+- 어휘: 절벽구간(많이 쓰이는) 단어를 먼저 쓰되 절대 기준은 아니다. **재미와 자연스러움이 먼저**이고, 되풀이가 억지스러우면 줄인다.
+
 ## 쓰는 법(굴절어 전략 §B 요약)
 - 최우선: 포르투갈 사람이 실제로 많이 쓰는 짧은 구어 표현을 편마다 2개 이상. 표현 풀: pois · pois é · então · olha · ó · pá · epá · fixe · bué · giro · tá bem · está bem · pronto · vá lá · ya · sei lá · se calhar · de certeza · claro · afinal · mesmo · ainda bem · que chatice · não faz mal · tudo bem? · até já · um bocado · tás a ver? · percebes? · a sério? · nem pensar · quer dizer · coitado/a · ora essa · estou-me nas tintas(R4+) · desenrascar(R3+).
 - 유럽판 말: tu + 2인칭 동사, estar a + 원형(진행), 접어는 동사 뒤(chamo-me), pequeno-almoço·autocarro·telemóvel·casa de banho·comboio·bica·galão·fino·Multibanco. 브라질 말(você 반말·gerúndio·ônibus·celular·trem) 금지.

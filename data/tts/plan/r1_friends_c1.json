@@ -8,7 +8,7 @@
    "segs": [
     [
      "excited",
-     "Bom dia! Hoje vens comigo à praia!"
+     "Bom dia! Estás acordad{o|a}? Hoje vens comigo à praia!"
     ]
    ]
   },
@@ -16,7 +16,7 @@
    "segs": [
     [
      "cheerful",
-     "Fixe! A que horas?"
+     "Quero! Fixe! A que horas?"
     ]
    ]
   },
@@ -53,7 +53,7 @@
    "segs": [
     [
      "tsukkomi",
-     "Beatriz... tu sabes o que queres?"
+     "Beatriz... estás bem? Sabes o que queres?"
     ]
    ]
   },
@@ -70,7 +70,7 @@
    "segs": [
     [
      "amused",
-     "Estou com o Duarte. Ele também vem!"
+     "O Duarte está comigo. Ele também vem!"
     ]
    ]
   }

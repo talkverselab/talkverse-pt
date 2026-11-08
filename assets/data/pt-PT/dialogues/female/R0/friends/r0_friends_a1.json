@@ -49,39 +49,42 @@
   },
   {
    "speaker": "B",
-   "tl": "Olha... é para ti.",
-   "ko": "있잖아… 너 주는 거야.",
-   "note": "é para ti = 너를 위한 거야",
+   "tl": "Olha... faço uma coisa para ti.",
+   "ko": "있잖아… 너 주려고 뭐 만드는 중이야.",
+   "note": "faço = (내가) 만들다 · coisa = 것",
    "tags": [
-    "expr:olha"
+    "expr:olha",
+    "form:fazer"
    ],
    "emotion": "gentle",
    "num": 2,
-   "rd": "올랴... 에 빠라 띠."
+   "rd": "올랴... 파쑤 우마 꼬이자 빠라 띠."
   },
   {
    "speaker": "A",
-   "tl": "Para mim? A sério?",
-   "ko": "나한테? 진짜?",
-   "note": "para mim = 나를 위해",
+   "tl": "Para mim? És mesmo fixe!",
+   "ko": "나한테? 너 진짜 멋지다!",
+   "note": "és = (너는) ~이다 · fixe = 멋지다",
    "tags": [
-    "expr:a sério?"
+    "expr:fixe",
+    "form:ser"
    ],
    "emotion": "surprised",
    "num": 3,
-   "rd": "빠라 밍? 아 쎄리우?"
+   "rd": "빠라 밍? 에쉬 메쥬무 피쉬!"
   },
   {
    "speaker": "B",
-   "tl": "Sim. Só para ti, pá.",
-   "ko": "응. 너만을 위해서.",
-   "note": "só = 오직, ~만",
+   "tl": "Sim. É só para ti, pá.",
+   "ko": "응. 너만을 위한 거야.",
+   "note": "é para ti = 너를 위한 거야 · só = 오직, ~만",
    "tags": [
-    "expr:pá"
+    "expr:pá",
+    "form:ser"
    ],
    "emotion": "gentle",
    "num": 4,
-   "rd": "씽. 쏘 빠라 띠, 빠."
+   "rd": "씽. 에 쏘 빠라 띠, 빠."
   },
   {
    "speaker": "A",
@@ -98,15 +101,16 @@
   },
   {
    "speaker": "B",
-   "tl": "Ainda não. Mais uma vez.",
-   "ko": "아직. 한 번 더.",
-   "note": "mais uma vez = 한 번 더",
+   "tl": "Ainda não podes. Mais uma vez.",
+   "ko": "아직 안 돼. 한 번 더.",
+   "note": "podes = (너는) ~할 수 있다 · mais uma vez = 한 번 더",
    "tags": [
-    "twist"
+    "twist",
+    "form:poder"
    ],
    "emotion": "amused",
    "num": 6,
-   "rd": "아인다 나웅. 마이즈 우마 베쉬."
+   "rd": "아인다 나웅 뽀드쉬. 마이즈 우마 베쉬."
   }
  ]
 }

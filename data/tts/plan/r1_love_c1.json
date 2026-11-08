@@ -16,7 +16,7 @@
    "segs": [
     [
      "neutral",
-     "Estou, sim. O que se passa?"
+     "Estou, sim. Está tudo bem?"
     ]
    ]
   },
@@ -32,7 +32,7 @@
    "segs": [
     [
      "excited",
-     "A sério? Então fala!"
+     "A sério? Queres? Então fala!"
     ]
    ]
   },
@@ -49,8 +49,8 @@
    "segs": [
     [
      "shy",
-     "Eu... também penso em ti. 😳",
-     "Eu... também penso em ti."
+     "Eu também penso em ti. Estou corad{o|a}! 😳",
+     "Eu também penso em ti. Estou corad{o|a}!"
     ]
    ]
   },
