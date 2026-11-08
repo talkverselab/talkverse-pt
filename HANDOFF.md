@@ -14,8 +14,8 @@
 | 캐릭터 시안 ① | **통과**(11-03) — `data/review/art/chars_pt_v1.jpg`, 인물표 `CHARACTERS.md` |
 | UX/UI 시안 ② | **통과**(11-03) — 글 `data/review/uxui/sian_pt_01.md`, 그림 `sian_pt_02.jpg`(PT-01 은 캐릭터 미반영으로 다시 그림) |
 | 아이패드 빌드 ③ | 코드 `ba4007e`·`b73eec4`, 아이패드 스크린샷 9장 넘침 0·통합 테스트 통과 |
-| Android | CI 빌드 **13**(1032064) · Zealot https://apps.talkverse.uk/KtegX/314 · PC 백업 완료(11-07, D: 복구) |
-| iOS | ⚠ **빌드 13 내용은 아직 안 올림** — M6 Xcode 27.2·CoreSimulator 문제로 iOS 빌드 정지(`~/logs/rc/RELAY_xcode_20261107.md`, CoreSimulator 1174.21 이상이면 재개). TestFlight 최신 = 2611052356(11-06), IPA 는 PC `ios\` 에 백업 |
+| Android | CI 빌드 **14**(7e15dac) · Zealot(11-08) · PC 백업 완료 |
+| iOS | TestFlight **빌드 2611081624**(11-08, 단어·메뉴 개편 포함, Sign in with Apple 권한 확인) · IPA PC `ios\` 백업. 아이패드 스크린샷 5장 확인(넘침 없음) |
 | 로그인·결제 | 코드 `d58eb09`(Talkverse ID client_id `pt`, 상품 `com.talkverse.portugueseUniverse.lifetime`/`lang_pt`) — 잠근 화면은 아직 없음 |
 | 절벽(레마) | **판별 재산정 11-03** — pt-PT R1 55·R2 83·R3 217·R4 656(상위 2,500 90.1%) / pt-BR 63·96·243·727, 자국 작품 자막 기준(`data/cliff/README.md`, `tools/pt_cliff.py`). 옛 234·403·1,134 폐기. 사이트 카드 = pt-PT 값 |
 | 단어 그림 리스트 | talkversehanja `talkverse_art/words/pt.csv` = 새 레마 순위 2,500(PT·BR 합침, 구간 PT 경계, R5 = 절벽 밖, 340f9b5)·`pt_food.csv`(50), uk 세션이 D1 다시 적재 — 그림은 `GET https://auth.talkverse.uk/art/pt/manifest` |
