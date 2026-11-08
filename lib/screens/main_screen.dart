@@ -501,12 +501,16 @@ class _MenuTile extends StatelessWidget {
             children: [
               TileBadge(text: item.badge, size: 44, color: item.color),
               const SizedBox(height: 8),
-              Text(
-                item.label,
-                style: const TextStyle(
-                  fontSize: 13,
-                  fontWeight: FontWeight.w600,
-                  color: AppColors.tinta,
+              FittedBox(
+                fit: BoxFit.scaleDown, // 「문장 말하기」가 좁은 칸에서 두 줄로 꺾이지 않게
+                child: Text(
+                  item.label,
+                  maxLines: 1,
+                  style: const TextStyle(
+                    fontSize: 13,
+                    fontWeight: FontWeight.w600,
+                    color: AppColors.tinta,
+                  ),
                 ),
               ),
               const SizedBox(height: 2),
