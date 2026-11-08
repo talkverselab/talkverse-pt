@@ -1,5 +1,5 @@
 {
- "ep": "r3_life_b1",
+ "ep": "r4_life_b1",
  "cast": {
   "B": "fernanda"
  },
@@ -8,8 +8,8 @@
    "segs": [
     [
      "polite",
-     "Número 147? Faça favor, sente-se. Em que posso ajudar?",
-     "Número cento e quarenta e sete? Faça favor, sente-se. Em que posso ajudar?"
+     "Senha 147? Faça favor, sente-se. Em que posso ajudar?",
+     "Senha cento e quarenta e sete? Faça favor, sente-se. Em que posso ajudar?"
     ]
    ]
   },

@@ -1,6 +1,6 @@
 {
- "id": "r3_life_b1",
- "region": "R3",
+ "id": "r4_life_b1",
+ "region": "R4",
  "island": "life",
  "kind": "long",
  "purpose": [
@@ -33,26 +33,26 @@
   "B": "fernanda"
  },
  "variant": "pt-PT",
- "learner_gender": "female",
+ "learner_gender": "male",
  "draft": true,
  "turns": [
   {
    "speaker": "B",
-   "tl": "Número 147? Faça favor, sente-se. Em que posso ajudar?",
-   "ko": "147번이요? 앉으세요. 뭘 도와드릴까요?",
-   "note": "Faça favor = 그러세요, 이쪽으로요",
+   "tl": "Senha 147? Faça favor, sente-se. Em que posso ajudar?",
+   "ko": "147번 번호표요? 앉으세요. 뭘 도와드릴까요?",
+   "note": "senha = 번호표",
    "tags": [
     "expr:faça favor"
    ],
    "segs": [
     [
      "polite",
-     "Número 147? Faça favor, sente-se. Em que posso ajudar?",
-     "Número cento e quarenta e sete? Faça favor, sente-se. Em que posso ajudar?"
+     "Senha 147? Faça favor, sente-se. Em que posso ajudar?",
+     "Senha cento e quarenta e sete? Faça favor, sente-se. Em que posso ajudar?"
     ]
    ],
    "num": 1,
-   "rd": "누메루 147? 파싸 파보르, 쎈뜨 쓰. 앵 끄 뽀쑤 아주다르?"
+   "rd": "쎙야 147? 파싸 파보르, 쎈뜨 쓰. 앵 끄 뽀쑤 아주다르?"
   },
   {
    "speaker": "A",
@@ -64,19 +64,19 @@
    ],
    "emotion": "stiff",
    "num": 2,
-   "rd": "봉 디아. 프레씨주 드 웅 누메루 드 꼰트리부인뜨 빠라 알루가르 웅 아빠르따멘뚜."
+   "rd": "봉 디아. 프르씨주 드 웅 누메루 드 꼰트리부인뜨 빠라 알루가르 웅 아빠르따멘뚜."
   },
   {
    "speaker": "B",
    "tl": "Com certeza. Tem aí um comprovativo de morada?",
-   "ko": "그러시군요. 주소 증명서 가져오셨어요?",
+   "ko": "그럼요. 주소 증명서 가져오셨어요?",
    "note": "comprovativo de morada = 주소 증명서",
    "tags": [
     "expr:com certeza"
    ],
    "emotion": "polite",
    "num": 3,
-   "rd": "꽁 쎄르떼자. 땡 아이 웅 꽁프로바띠부 드 모라다?"
+   "rd": "꽁 쓰르떼자. 땡 아이 웅 꽁프루바띠부 드 무라다?"
   },
   {
    "speaker": "A",
@@ -88,7 +88,7 @@
    ],
    "emotion": "worried",
    "num": 4,
-   "rd": "나웅 뗑유, 뽀르끄 우 쎙요리우 쏘 파즈 우 꼰트라뚜 데뽀이쉬 드 에우 떼르 우 누메루."
+   "rd": "나웅 뗑유, 뿌르끄 우 쎙요리우 쏘 파즈 우 꼰트라뚜 드뽀이쉬 드 에우 떼르 우 누메루."
   },
   {
    "speaker": "B",
@@ -101,7 +101,7 @@
    ],
    "emotion": "polite",
    "num": 5,
-   "rd": "뽀이쉬, 마쉬 쎙 모라다 나웅 리 뽀쑤 다르 우 누메루."
+   "rd": "뽀이쉬, 마쉬 쎙 무라다 나웅 리 뽀쑤 다르 우 누메루."
   },
   {
    "speaker": "A",
@@ -113,7 +113,7 @@
    ],
    "emotion": "flustered",
    "num": 6,
-   "rd": "이 쎙 누메루 나웅 뗑유 모라다. 엔따웅 꼬무 에 끄 쓰 파쉬?"
+   "rd": "이 쎙 누메루 나웅 뗑유 무라다. 엔따웅 꼬무 에 끄 쓰 파쉬?"
   },
   {
    "speaker": "B",
@@ -137,11 +137,11 @@
    ],
    "emotion": "shout",
    "num": 8,
-   "rd": "트레쉬 메즈쉬?! 안두 아 도르미르 누 쏘파 드 웅 꼴레가 아 두아쉬 쎄마나쉬!"
+   "rd": "트레쉬 메즈쉬?! 안두 아 두르미르 누 쑤파 드 웅 꿀레가 아 두아쉬 쓰마나쉬!"
   },
   {
    "speaker": "B",
-   "tl": "Coitada. E não conhece ninguém que lhe empreste uma morada?",
+   "tl": "Coitado. E não conhece ninguém que lhe empreste uma morada?",
    "ko": "어쩌나. 주소 빌려줄 사람 아무도 없어요?",
    "note": "coitado/coitada = 불쌍해라, 어쩌나",
    "tags": [
@@ -150,7 +150,7 @@
    ],
    "emotion": "gentle",
    "num": 9,
-   "rd": "꼬이따다. 이 나웅 꽁예쓰 닝겡 끄 리 엠프레쉬뜨 우마 모라다?"
+   "rd": "꼬이따두. 이 나웅 꽁예쓰 닝겡 끄 리 엠프레쉬뜨 우마 무라다?"
   },
   {
    "speaker": "A",
@@ -162,7 +162,7 @@
    ],
    "emotion": "annoyed",
    "num": 10,
-   "rd": "쏘 꽁예쑤 우 쎙요리우, 이 에쓰 넹 아뗀드 우 뗄레포느. 에 우 쎙요르 알바누."
+   "rd": "쏘 꽁예쑤 우 쎙요리우, 이 에쓰 넹 아뗀드 우 뜰르포느. 에 우 쎙요르 알바누."
   },
   {
    "speaker": "B",
@@ -174,7 +174,7 @@
    ],
    "emotion": "surprised",
    "num": 11,
-   "rd": "이쉬뻬르 라. 알바누 페헤이라, 다 후아 다쉬 플로르쉬, 꽁 웅 까웅 끄 라드라 아 뚜두?"
+   "rd": "이쉬뻬르 라. 알바누 프헤이라, 다 후아 다쉬 플로르쉬, 꽁 웅 까웅 끄 라드라 아 뚜두?"
   },
   {
    "speaker": "A",
@@ -224,7 +224,7 @@
   },
   {
    "speaker": "B",
-   "tl": "Albano? Ou fazes hoje o contrato a esta jovem, ou conto tudo à mãe.",
+   "tl": "Albano? Ou fazes hoje o contrato a este jovem, ou conto tudo à mãe.",
    "ko": "Albano? 오늘 이 젊은 사람 계약서 써 주든지, 아니면 엄마한테 다 이를 거야.",
    "note": "ou… ou… = ~하든지 ~하든지",
    "tags": [
@@ -232,7 +232,7 @@
    ],
    "emotion": "annoyed",
    "num": 15,
-   "rd": "알바누? 오우 파즈즈 오즈 우 꼰트라뚜 아 에쉬따 조벵, 오우 꼰뚜 뚜두 아 마잉."
+   "rd": "알바누? 오우 파즈즈 오즈 우 꼰트라뚜 아 에쉬뜨 조벵, 오우 꼰뚜 뚜두 아 마잉."
   },
   {
    "speaker": "A",

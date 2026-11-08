@@ -24,7 +24,7 @@
    "segs": [
     [
      "polite",
-     "Compreendo, embora o cliente esteja à espera de uma resposta até sexta-feira."
+     "Compreendo, mas o cliente está à espera de uma resposta até sexta-feira."
     ]
    ]
   },
@@ -40,7 +40,7 @@
    "segs": [
     [
      "polite",
-     "Não me parece disparate nenhum. Mas há algum risco que eu não esteja a ver?"
+     "Não me parece disparate nenhum. Mas há algum risco que me está a escapar?"
     ]
    ]
   },
@@ -121,7 +121,7 @@
    "segs": [
     [
      "amused",
-     "Pelo contrário. Quer que seja {name} a apresentar o desastre. De gravata."
+     "Pelo contrário. Quer que seja {o|a} {name} a apresentar o desastre. De gravata."
     ]
    ]
   }

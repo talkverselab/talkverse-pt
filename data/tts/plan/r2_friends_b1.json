@@ -17,7 +17,7 @@
    "segs": [
     [
      "worried",
-     "Pá... isto é o grupo com a Beatriz."
+     "Pá... a Beatriz está neste grupo."
     ]
    ]
   },
@@ -63,7 +63,7 @@
    "segs": [
     [
      "polite",
-     "Beatriz, não ligues. {name} está cansad{o|a}."
+     "Beatriz, não ligues. {O|A} {name} está cansad{o|a}."
     ]
    ]
   },

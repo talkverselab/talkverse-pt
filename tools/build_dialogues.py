@@ -51,6 +51,8 @@ for src in sys.argv[1:]:
                 a, b = WORDS[reg]
                 if w > b or (w < a and ep['kind'] != 'chat' and not (reg == 'R0' and w >= 1 and n > 1)):
                     errs.append(f'{i} {n}턴: {w}단어 「{tl}」')
+                if re.search(r'(?<![,.!?…:]\s)(?<!^)(?<![{|]o\|a\} )(?<!\{O\|A\} )\{name\}', t['tl']):
+                    errs.append(f'{i} {n}턴: {{name}} 앞에 성별 관사 {{o|a}} 필요(호격이 아니면)')
                 if not (t.get('emotion') or t.get('segs')):
                     errs.append(f'{i} {n}턴: 감정 없음(emotion 또는 segs)')
                 r = rd(tl)

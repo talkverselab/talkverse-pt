@@ -30,7 +30,7 @@
  "expressions": [
   "tudo bem?",
   "a sério?",
-  "pronto"
+  "é que"
  ],
  "variant": "pt-PT",
  "learner_gender": "male",
@@ -103,8 +103,8 @@
   },
   {
    "speaker": "B",
-   "tl": "Pronto, há uma barata aqui!",
-   "ko": "그게, 여기 바퀴벌레 있어!",
+   "tl": "É que há uma barata aqui!",
+   "ko": "그게, 여기 바퀴벌레가 있거든!",
    "note": "barata = 바퀴벌레 (상한 밖 낱말)",
    "tags": [
     "twist",
@@ -114,13 +114,13 @@
    "ui": "bubble",
    "at": "23:42",
    "num": 5,
-   "rd": "프론뚜, 아 우마 바라따 아끼!"
+   "rd": "에 끄 아 우마 바라따 아끼!"
   },
   {
    "speaker": "B",
-   "tl": "E pronto... também te quero ver.",
-   "ko": "그리고 뭐… 너도 보고 싶고.",
-   "note": "te quero ver = 너를 보고 싶어",
+   "tl": "E... também te queria ver.",
+   "ko": "그리고… 너도 보고 싶었어.",
+   "note": "te queria ver = 너를 보고 싶었어(부드러운 반과거)",
    "tags": [
     "heart",
     "expr:pronto"
@@ -129,7 +129,7 @@
    "ui": "bubble",
    "at": "23:43",
    "num": 6,
-   "rd": "이 프론뚜... 땀벵 뜨 께루 베르."
+   "rd": "이... 땀벵 뜨 께리아 베르."
   }
  ]
 }

@@ -53,8 +53,8 @@
   },
   {
    "speaker": "B",
-   "tl": "Pá... isto é o grupo com a Beatriz.",
-   "ko": "야… 여기 Beatriz 있는 방이야.",
+   "tl": "Pá... a Beatriz está neste grupo.",
+   "ko": "야… Beatriz 도 이 방에 있어.",
    "note": "pá = 야, 이봐(친구끼리 추임새)",
    "tags": [
     "expr:pá"
@@ -63,7 +63,7 @@
    "at": "21:02",
    "emotion": "worried",
    "num": 2,
-   "rd": "빠... 이쉬뚜 에 우 그루뿌 꽁 아 베아트리쉬."
+   "rd": "빠... 아 베아트리즈 이쉬따 네쉬뜨 그루뿌."
   },
   {
    "speaker": "A",
@@ -116,7 +116,7 @@
    "at": "21:04",
    "emotion": "flustered",
    "num": 5,
-   "rd": "페쉬따? 꽐 페쉬따? 포이 우 꼬헤또르!"
+   "rd": "페쉬따? 꽐 페쉬따? 포이 우 꾸흐또르!"
   },
   {
    "speaker": "C",
@@ -136,11 +136,11 @@
     ]
    ],
    "num": 6,
-   "rd": "우 꼬헤또르 이쉬크레베우 «아즈 오이뚜»?"
+   "rd": "우 꾸흐또르 이쉬크르베우 «아즈 오이뚜»?"
   },
   {
    "speaker": "B",
-   "tl": "Beatriz, não ligues. {name} está cansado.",
+   "tl": "Beatriz, não ligues. O {name} está cansado.",
    "ko": "Beatriz, 신경 쓰지 마. {name} 피곤해서 그래.",
    "note": "não ligues = 신경 쓰지 마",
    "tags": [
@@ -150,7 +150,7 @@
    "at": "21:05",
    "emotion": "polite",
    "num": 7,
-   "rd": "베아트리쉬, 나웅 리그쉬. {name} 이쉬따 깐싸두."
+   "rd": "베아트리쉬, 나웅 리그쉬. 우 {name} 이쉬따 깐싸두."
   },
   {
    "speaker": "C",

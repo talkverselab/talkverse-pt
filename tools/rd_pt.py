@@ -11,7 +11,7 @@ EXC = {
     'ao': '아우', 'aos': '아우쉬', 'em': '앵', 'um': '웅', 'uns': '웅쉬', 'uma': '우마', 'umas': '우마쉬', 'com': '꽁', 'por': '뽀르', 'para': '빠라', 'pra': '프라',
     'tu': '뚜', 'eu': '에우', 'ele': '엘르', 'ela': '엘라', 'eles': '엘르쉬', 'não': '나웅', 'sim': '씽', 'bem': '벵', 'também': '땀벵', 'muito': '무이뚜', 'muita': '무이따',
     'muitos': '무이뚜쉬', 'muitas': '무이따쉬', 'sou': '쏘우', 'é': '에', 'és': '에쉬', 'ou': '오우', 'mas': '마쉬', 'mais': '마이쉬', 'pois': '뽀이쉬', 'já': '자',
-    'ok': '오께이', 'trouxe': '트로쓰', 'trouxeste': '트로쎄쉬뜨', 'tiago': '띠아구', 'fixe': '피쉬', 'bué': '부에', 'tás': '따쉬', 'tá': '따', 'nada': '나다', 'porquê': '뽀르께', 'porque': '뽀르끄', 'aliás': '알리아쉬', 'sexta': '쌔이쉬따', 'mesmo': '메쥬무', 'mesma': '메쥬마', 'só': '쏘', 'sozinho': '쏘지뉴', 'sozinha': '쏘지냐', 'gelo': '젤루', 'rua': '후아', 'cão': '까웅', 'nisto': '니쉬뚜', 'isto': '이쉬뚜', 'isso': '이쑤', 'esse': '에쓰', 'essa': '에싸', 'este': '에쉬뜨', 'esta': '에쉬따', 'está': '이쉬따', 'estou': '이쉬또우', 'estás': '이쉬따쉬', 'estar': '이쉬따르', 'meia': '메이아', 'hora': '오라', 'horas': '오라쉬', 'ya': '야', 'pá': '빠', 'epá': '에빠', 'ó': '오', 'wi-fi': '와이파이', 'wifi': '와이파이', 'táxi': '딱씨', 'próximo': '쁘로씨무', 'próxima': '쁘로씨마',
+    'ok': '오께이', 'trouxe': '트로쓰', 'trouxeste': '트로쎄쉬뜨', 'tiago': '띠아구', 'fixe': '피쉬', 'bué': '부에', 'tás': '따쉬', 'tá': '따', 'nada': '나다', 'porquê': '뽀르께', 'porque': '뿌르끄', 'aliás': '알리아쉬', 'sexta': '쌔이쉬따', 'mesmo': '메쥬무', 'mesma': '메쥬마', 'só': '쏘', 'sozinho': '쏘지뉴', 'sozinha': '쏘지냐', 'gelo': '젤루', 'rua': '후아', 'cão': '까웅', 'nisto': '니쉬뚜', 'isto': '이쉬뚜', 'isso': '이쑤', 'esse': '에쓰', 'essa': '에싸', 'este': '에쉬뜨', 'esta': '에쉬따', 'está': '이쉬따', 'estou': '이쉬또우', 'estás': '이쉬따쉬', 'estar': '이쉬따르', 'meia': '메이아', 'hora': '오라', 'horas': '오라쉬', 'ya': '야', 'pá': '빠', 'epá': '에빠', 'ó': '오', 'wi-fi': '와이파이', 'wifi': '와이파이', 'táxi': '딱씨', 'próximo': '쁘로씨무', 'próxima': '쁘로씨마',
     'exemplo': '이젬쁠루', 'exame': '이자므', 'exato': '이자뚜', 'exatamente': '이자따멘뜨', 'hoje': '오즈', 'boa': '보아', 'bom': '봉', 'bons': '봉쉬', 'boas': '보아쉬',
     'quê': '께', 'qual': '꽐', 'quando': '꽌두', 'quanto': '꽌뚜', 'quanta': '꽌따', 'quantos': '꽌뚜쉬', 'quantas': '꽌따쉬', 'quatro': '꽈트루',
     'se': '쓰', 'sem': '쎙', 'tem': '땡', 'têm': '땡잉', 'vem': '벵', 'vêm': '벵잉', 'nem': '넹', 'quem': '껭', 'cem': '쎙', 'dez': '데쉬', 'seis': '쎄이쉬', 'três': '트레쉬', 'mês': '메쉬', 'vez': '베쉬', 'luz': '루쉬', 'fiz': '피쉬', 'diz': '디쉬', 'faz': '파쉬', 'paz': '빠쉬', 'traz': '트라쉬',
@@ -32,17 +32,18 @@ def syl(c, v, j=' '):
 def tokens(w):
     """글자 → (종류, 값) 차례. 종류: C 자음 · Y 샤 계열 · J 즈 계열 · NH · LH · V 모음 · CODA."""
     out, i, n = [], 0, len(w)
+    ACC.clear()
     nxt = lambda k: w[k] if k < n else ''
     while i < n:
         c = w[i]
         d = nxt(i + 1)
         if c in V:
-            if w[i:i + 2] == 'ão':
-                out += [('V', 'ㅏ'), ('V', 'ㅜ', 'ㅇ')]; i += 2; continue
-            if w[i:i + 2] == 'ãe':
-                out += [('V', 'ㅏ'), ('V', 'ㅣ', 'ㅇ')]; i += 2; continue
-            if w[i:i + 2] == 'õe':
-                out += [('V', 'ㅗ'), ('V', 'ㅣ', 'ㅇ')]; i += 2; continue
+            if w[i:i + 2] in ('ão', 'ãe', 'õe'):
+                ACC.add(len(out))
+                out += {'ão': [('V', 'ㅏ'), ('V', 'ㅜ', 'ㅇ')], 'ãe': [('V', 'ㅏ'), ('V', 'ㅣ', 'ㅇ')], 'õe': [('V', 'ㅗ'), ('V', 'ㅣ', 'ㅇ')]}[w[i:i + 2]]
+                i += 2; continue
+            if c in 'áàâéêíóôú':
+                ACC.add(len(out))
             base = unicodedata.normalize('NFD', c)[0]
             v = {'a': 'ㅏ', 'e': 'ㅔ', 'i': 'ㅣ', 'o': 'ㅗ', 'u': 'ㅜ'}[base]
             out.append(('V', v, 'ㅇ') if c == 'ã' else ('V', v)); i += 1; continue
@@ -99,6 +100,40 @@ def tokens(w):
     return out
 
 
+ACC = set()  # tokens() 가 채운다: 악센트가 붙은 모음 토큰 위치
+
+
+def reduce_pretonic(w, t):
+    """강세 앞 모음 약화(유럽판): e → 으, o → 우 (porque 뿌르끄, telefone 뜰르포느, pequeno 쁘께누).
+    강세 = 악센트 모음, 없으면 a·e·o(+s)·am·em·ens 로 끝나면 끝에서 둘째 음절, 그 밖은 마지막 음절.
+    낱말 첫 모음·이중모음(ei·ou·oi…)·비모음(뒤에 m/n)은 그대로 둔다."""
+    groups, cur = [], []
+    for i, x in enumerate(t):
+        if x[0] == 'V':
+            cur.append(i)
+        elif cur:
+            groups.append(cur); cur = []
+    if cur:
+        groups.append(cur)
+    if len(groups) < 2:
+        return
+    acc = [g for g in groups if ACC & set(g)]
+    if acc:
+        st = groups.index(acc[-1])
+    else:
+        st = len(groups) - 2 if re.search(r'([aeo]s?|am|em|ens)$', w) else len(groups) - 1
+    for g in groups[:st]:
+        if len(g) != 1 or g[0] == 0:
+            continue
+        k = g[0]
+        if len(t[k]) > 2 or (k + 1 < len(t) and t[k + 1][0] in ('N', 'NH')):
+            continue
+        if t[k][1] == 'ㅔ':
+            t[k] = ('V', 'ㅡ')
+        elif t[k][1] == 'ㅗ':
+            t[k] = ('V', 'ㅜ')
+
+
 Y = {'ㅏ': 'ㅑ', 'ㅔ': 'ㅖ', 'ㅗ': 'ㅛ', 'ㅜ': 'ㅠ', 'ㅣ': 'ㅣ', 'ㅡ': 'ㅠ'}
 WV = {'ㅏ': 'ㅘ', 'ㅔ': 'ㅞ', 'ㅣ': 'ㅟ', 'ㅗ': 'ㅗ'}
 
@@ -122,6 +157,7 @@ def word(w, nxt=''):
                 t[last] = ('V', 'ㅡ')
     if w.startswith('es') and len(vs) > 1 and t and t[0][1:] == ('ㅔ',):
         t[0] = ('V', 'ㅣ')
+    reduce_pretonic(w, t)
     res = []  # 음절 조각: [초, 중, 종]
 
     def coda(j):

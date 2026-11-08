@@ -45,7 +45,7 @@
    ],
    "emotion": "polite",
    "num": 1,
-   "rd": "안뜨쉬 드 떼르미나르무쉬, 고쉬따바 드 싸베르 아 쑤아 오삐니아웅 쏘브르 아 프로뽀쉬따, {name}."
+   "rd": "안뜨쉬 드 뜨르미나르무쉬, 구쉬따바 드 싸베르 아 쑤아 오삐니아웅 쏘브르 아 프루뽀쉬따, {name}."
   },
   {
    "speaker": "A",
@@ -58,19 +58,19 @@
    ],
    "emotion": "stiff",
    "num": 2,
-   "rd": "꽁 또두 우 헤쉬뻬이뚜, 아슈 끄 쎄리아 프레페리벨 아디아르무즈 아 데씨자웅 아떼 떼르무쉬 마이쉬 다두쉬."
+   "rd": "꽁 또두 우 흐쉬뻬이뚜, 아슈 끄 쎄리아 프르프리벨 아디아르무즈 아 드씨자웅 아떼 떼르무쉬 마이쉬 다두쉬."
   },
   {
    "speaker": "B",
-   "tl": "Compreendo, embora o cliente esteja à espera de uma resposta até sexta-feira.",
-   "ko": "이해합니다. 다만 고객이 금요일까지 답을 기다리고 있어요.",
-   "note": "embora + 접속법 = 비록 ~지만",
+   "tl": "Compreendo, mas o cliente está à espera de uma resposta até sexta-feira.",
+   "ko": "이해합니다. 그런데 고객이 금요일까지 답을 기다리고 있어요.",
+   "note": "estar à espera de = ~을 기다리고 있다",
    "tags": [
-    "form:conjuntivo"
+    "expr:estar à espera"
    ],
    "emotion": "polite",
    "num": 3,
-   "rd": "꽁프레엔두, 엠보라 우 끌리엔뜨 이쉬떼자 아 이쉬뻬라 드 우마 헤쉬뽀쉬따 아떼 쌔이쉬따 페이라."
+   "rd": "꽁프레엔두, 마즈 우 끌리엔뜨 이쉬따 아 이쉬뻬라 드 우마 흐쉬뽀쉬따 아떼 쌔이쉬따 페이라."
   },
   {
    "speaker": "A",
@@ -82,19 +82,17 @@
    ],
    "emotion": "polite",
    "num": 4,
-   "rd": "네쓰 까주, 딸베쉬 뿌데쎄무쉬 프로뽀르 우마 파즈 드 떼쉬뜨, 쎙 누쉬 꽁프로메떼르무쉬 자."
+   "rd": "네쓰 까주, 딸베쉬 뿌데쎄무쉬 프루뽀르 우마 파즈 드 떼쉬뜨, 쎙 누쉬 꽁프루므떼르무쉬 자."
   },
   {
    "speaker": "B",
-   "tl": "Não me parece disparate nenhum. Mas há algum risco que eu não esteja a ver?",
-   "ko": "전혀 엉뚱한 말이 아니네요. 그런데 제가 못 보고 있는 위험이 있나요?",
-   "note": "disparate = 터무니없는 말",
-   "tags": [
-    "form:conjuntivo"
-   ],
+   "tl": "Não me parece disparate nenhum. Mas há algum risco que me está a escapar?",
+   "ko": "전혀 엉뚱한 말이 아니네요. 그런데 제가 놓치고 있는 위험이 있나요?",
+   "note": "escapar = 놓치다, 빠져나가다",
+   "tags": [],
    "emotion": "polite",
    "num": 5,
-   "rd": "나웅 므 빠레쓰 디쉬빠라뜨 넹융. 마즈 아 알궁 히쉬꾸 끄 에우 나웅 이쉬떼자 아 베르?"
+   "rd": "나웅 므 빠레쓰 디쉬빠라뜨 넹융. 마즈 아 알궁 히쉬꾸 끄 므 이쉬따 아 이쉬까빠르?"
   },
   {
    "speaker": "A",
@@ -106,7 +104,7 @@
    ],
    "emotion": "worried",
    "num": 6,
-   "rd": "아 웅 뽀르메노르, 씽. 헤쎄이우 끄 우 오르싸멘뚜 나웅 셰그, 까주 우 프라주 데하쁘."
+   "rd": "아 웅 뿌르므노르, 씽. 헤쎄이우 끄 우 오르싸멘뚜 나웅 셰그, 까주 우 프라주 드하쁘."
   },
   {
    "speaker": "B",
@@ -131,7 +129,7 @@
    ],
    "emotion": "flustered",
    "num": 8,
-   "rd": "아 쎄리우? 껭 떼라 씨두?"
+   "rd": "아 쎄리우? 껭 뜨라 씨두?"
   },
   {
    "speaker": "B",
@@ -149,7 +147,7 @@
     ]
    ],
    "num": 9,
-   "rd": "나웅 쎄이. 쏘 오우비 우마 보즈 아 디제르 끄 아 프로뽀쉬따 에라 «웅 데자쉬트르 드 그라바따»."
+   "rd": "나웅 쎄이. 쏘 오우비 우마 보즈 아 디제르 끄 아 프루뽀쉬따 에라 «웅 드자쉬트르 드 그라바따»."
   },
   {
    "speaker": "A",
@@ -162,7 +160,7 @@
    ],
    "emotion": "flustered",
    "num": 10,
-   "rd": "끄 에쉬프레싸웅 따웅... 크리아띠바. 나웅 파쑤 이데이아 드 껭 뽀싸 떼르 디뚜 딸 꼬이자."
+   "rd": "끄 에쉬프르싸웅 따웅... 크리아띠바. 나웅 파쑤 이데이아 드 껭 뽀싸 떼르 디뚜 딸 꼬이자."
   },
   {
    "speaker": "B",
@@ -174,7 +172,7 @@
    ],
    "emotion": "polite",
    "num": 11,
-   "rd": "뽀이쉬. 우 쎄우 미크로포느 피꼬우 리가두 두란뜨 아 빠우자. 오우비무쉬 또두쉬."
+   "rd": "뽀이쉬. 우 쎄우 미크루포느 피꼬우 리가두 두란뜨 아 빠우자. 오우비무쉬 또두쉬."
   },
   {
    "speaker": "A",
@@ -196,7 +194,7 @@
    ],
    "emotion": "amused",
    "num": 13,
-   "rd": "쏘브레뚜두 우 끌리엔뜨. 이, 뽀르 잉크리벨 끄 빠레싸, 아도로우 아 에쉬프레싸웅."
+   "rd": "쑤브르뚜두 우 끌리엔뜨. 이, 뽀르 잉크리벨 끄 빠레싸, 아두로우 아 에쉬프르싸웅."
   },
   {
    "speaker": "A",
@@ -208,11 +206,11 @@
    ],
    "emotion": "stiff",
    "num": 14,
-   "rd": "께르 디제르 끄 나웅 보우 쎄르 데쉬뻬디다?"
+   "rd": "께르 디제르 끄 나웅 보우 쎄르 드쉬쁘디다?"
   },
   {
    "speaker": "B",
-   "tl": "Pelo contrário. Quer que seja {name} a apresentar o desastre. De gravata.",
+   "tl": "Pelo contrário. Quer que seja a {name} a apresentar o desastre. De gravata.",
    "ko": "오히려요. 그 재앙을 {name} 씨가 발표하길 바란답니다. 넥타이 매고.",
    "note": "pelo contrário = 오히려",
    "tags": [
@@ -220,7 +218,7 @@
    ],
    "emotion": "amused",
    "num": 15,
-   "rd": "뻴루 꼰트라리우. 께르 끄 쎄자 {name} 아 아프레젠따르 우 데자쉬트르. 드 그라바따."
+   "rd": "뻴루 꼰트라리우. 께르 끄 쎄자 아 {name} 아 아프르젠따르 우 드자쉬트르. 드 그라바따."
   }
  ]
 }

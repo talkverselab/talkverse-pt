@@ -44,12 +44,12 @@
   "expressions":["pá", "pois não?", "não ligues", "aliás", "tá bem"],
   "turns":[
    {"speaker": "A", "tl": "Duarte, a festa da Beatriz é às oito, certo?", "ko": "Duarte, Beatriz 파티 8시 맞지?", "note": "certo? = 맞지?", "tags": ["expr:certo"], "ui": "bubble", "at": "21:02", "emotion": "cheerful"},
-   {"speaker": "B", "tl": "Pá... isto é o grupo com a Beatriz.", "ko": "야… 여기 Beatriz 있는 방이야.", "note": "pá = 야, 이봐(친구끼리 추임새)", "tags": ["expr:pá"], "ui": "bubble", "at": "21:02", "emotion": "worried"},
+   {"speaker": "B", "tl": "Pá... a Beatriz está neste grupo.", "ko": "야… Beatriz 도 이 방에 있어.", "note": "pá = 야, 이봐(친구끼리 추임새)", "tags": ["expr:pá"], "ui": "bubble", "at": "21:02", "emotion": "worried"},
    {"speaker": "A", "tl": "O quê?! Já apaguei. Ela não viu, pois não?", "ko": "뭐?! 바로 지웠어. 걔 못 봤지, 그치?", "note": "pois não? = 그렇지 않지?(부정문 뒤 확인)", "tags": ["expr:pois não"], "ui": "bubble", "at": "21:03", "segs": [["surprised", "O quê?!"], ["worried", "Já apaguei. Ela não viu, pois não?"]]},
    {"speaker": "C", "tl": "Que festa? 👀", "ko": "무슨 파티? 👀", "note": "Que festa? = 무슨 파티?", "tags": [], "ui": "bubble", "at": "21:03", "segs": [["teasing", "Que festa? 👀", "Que festa?"]]},
    {"speaker": "A", "tl": "Festa? Qual festa? Foi o corretor!", "ko": "파티? 무슨 파티? 자동 수정이 그랬어!", "note": "corretor = 자동 수정", "tags": [], "ui": "bubble", "at": "21:04", "emotion": "flustered"},
    {"speaker": "C", "tl": "O corretor escreveu «às oito»?", "ko": "자동 수정이 「8시에」라고 썼어?", "note": "escreveu = 썼다(escrever 과거)", "tags": ["form:perfeito"], "ui": "bubble", "at": "21:04", "segs": [["teasing", "O corretor escreveu «às oito»?", "O corretor escreveu às oito?"]]},
-   {"speaker": "B", "tl": "Beatriz, não ligues. {name} está cansad{o|a}.", "ko": "Beatriz, 신경 쓰지 마. {name} 피곤해서 그래.", "note": "não ligues = 신경 쓰지 마", "tags": ["expr:não ligues"], "ui": "bubble", "at": "21:05", "emotion": "polite"},
+   {"speaker": "B", "tl": "Beatriz, não ligues. {O|A} {name} está cansad{o|a}.", "ko": "Beatriz, 신경 쓰지 마. {name} 피곤해서 그래.", "note": "não ligues = 신경 쓰지 마", "tags": ["expr:não ligues"], "ui": "bubble", "at": "21:05", "emotion": "polite"},
    {"speaker": "C", "tl": "Tá bem. Então eu levo o bolo.", "ko": "알았어. 그럼 케이크는 내가 가져갈게.", "note": "tá bem = 알았어(está bem 의 구어)", "tags": ["expr:tá bem"], "ui": "bubble", "at": "21:05", "emotion": "amused"},
    {"speaker": "A", "tl": "Espera... tu sabias?", "ko": "잠깐… 너 알고 있었어?", "note": "sabias = 알고 있었다(saber 반과거)", "tags": ["form:imperfeito"], "ui": "bubble", "at": "21:06", "emotion": "surprised"},
    {"speaker": "C", "tl": "Sabia, pois. Aliás, a festa é para ti.", "ko": "알았지. 그보다, 그 파티 너 위한 거야.", "note": "aliás = 그보다, 게다가", "tags": ["expr:aliás", "twist"], "ui": "bubble", "at": "21:06", "segs": [["amused", "Sabia, pois."], ["teasing", "Aliás, a festa é para ti."]]},
@@ -57,8 +57,8 @@
    {"speaker": "B", "tl": "Beatriz... tu disseste que era hoje.", "ko": "Beatriz… 네가 오늘이라며.", "note": "disseste = 네가 말했다(dizer 과거)", "tags": ["form:perfeito"], "ui": "bubble", "at": "21:07", "stamp": "😂", "emotion": "annoyed"}
   ],
   "cast":{"B": "duarte", "C": "beatriz"}},
- {"id":"r3_life_b1",
-  "region":"R3",
+ {"id":"r4_life_b1",
+  "region":"R4",
   "island":"life",
   "kind":"long",
   "purpose":["study_abroad", "work_japan"],
@@ -74,9 +74,9 @@
   "goal":"관공서 존칭(3인칭), 「com certeza」「olhe」「espere lá」, 상대 성별에 맞춘 coitado/coitada",
   "expressions":["com certeza", "olhe", "coitado", "espere lá", "pois"],
   "turns":[
-   {"speaker": "B", "tl": "Número 147? Faça favor, sente-se. Em que posso ajudar?", "ko": "147번이요? 앉으세요. 뭘 도와드릴까요?", "note": "Faça favor = 그러세요, 이쪽으로요", "tags": ["expr:faça favor"], "segs": [["polite", "Número 147? Faça favor, sente-se. Em que posso ajudar?", "Número cento e quarenta e sete? Faça favor, sente-se. Em que posso ajudar?"]]},
+   {"speaker": "B", "tl": "Senha 147? Faça favor, sente-se. Em que posso ajudar?", "ko": "147번 번호표요? 앉으세요. 뭘 도와드릴까요?", "note": "senha = 번호표", "tags": ["expr:faça favor"], "segs": [["polite", "Senha 147? Faça favor, sente-se. Em que posso ajudar?", "Senha cento e quarenta e sete? Faça favor, sente-se. Em que posso ajudar?"]]},
    {"speaker": "A", "tl": "Bom dia. Preciso de um número de contribuinte para alugar um apartamento.", "ko": "안녕하세요. 아파트를 빌리려고 납세자 번호가 필요해요.", "note": "precisar de = ~이 필요하다", "tags": ["form:precisar de"], "emotion": "stiff"},
-   {"speaker": "B", "tl": "Com certeza. Tem aí um comprovativo de morada?", "ko": "그러시군요. 주소 증명서 가져오셨어요?", "note": "comprovativo de morada = 주소 증명서", "tags": ["expr:com certeza"], "emotion": "polite"},
+   {"speaker": "B", "tl": "Com certeza. Tem aí um comprovativo de morada?", "ko": "그럼요. 주소 증명서 가져오셨어요?", "note": "comprovativo de morada = 주소 증명서", "tags": ["expr:com certeza"], "emotion": "polite"},
    {"speaker": "A", "tl": "Não tenho, porque o senhorio só faz o contrato depois de eu ter o número.", "ko": "없어요. 집주인이 제가 번호를 받아야만 계약서를 써 준대요.", "note": "depois de eu ter = 내가 가진 뒤에(인칭 부정사)", "tags": ["form:infinitivo-pessoal"], "emotion": "worried"},
    {"speaker": "B", "tl": "Pois, mas sem morada não lhe posso dar o número.", "ko": "네, 그런데 주소 없이는 번호를 드릴 수가 없어요.", "note": "lhe = 당신께(존칭)", "tags": ["expr:pois", "form:lhe"], "emotion": "polite"},
    {"speaker": "A", "tl": "E sem número não tenho morada. Então como é que se faz?", "ko": "번호가 없으면 주소도 없는데요. 그럼 어떻게 해요?", "note": "como é que se faz? = 어떻게 하죠?", "tags": ["expr:como é que"], "emotion": "flustered"},
@@ -111,9 +111,9 @@
   "turns":[
    {"speaker": "B", "tl": "Antes de terminarmos, gostava de saber a sua opinião sobre a proposta, {name}.", "ko": "마치기 전에 제안서에 대한 {name} 씨 의견을 듣고 싶어요.", "note": "antes de terminarmos = 우리가 마치기 전에(인칭 부정사)", "tags": ["form:infinitivo-pessoal"], "emotion": "polite"},
    {"speaker": "A", "tl": "Com todo o respeito, acho que seria preferível adiarmos a decisão até termos mais dados.", "ko": "외람되지만, 자료가 더 모일 때까지 결정을 미루는 편이 나을 것 같습니다.", "note": "com todo o respeito = 외람되지만", "tags": ["expr:com todo o respeito", "form:condicional"], "emotion": "stiff"},
-   {"speaker": "B", "tl": "Compreendo, embora o cliente esteja à espera de uma resposta até sexta-feira.", "ko": "이해합니다. 다만 고객이 금요일까지 답을 기다리고 있어요.", "note": "embora + 접속법 = 비록 ~지만", "tags": ["form:conjuntivo"], "emotion": "polite"},
+   {"speaker": "B", "tl": "Compreendo, mas o cliente está à espera de uma resposta até sexta-feira.", "ko": "이해합니다. 그런데 고객이 금요일까지 답을 기다리고 있어요.", "note": "estar à espera de = ~을 기다리고 있다", "tags": ["expr:estar à espera"], "emotion": "polite"},
    {"speaker": "A", "tl": "Nesse caso, talvez pudéssemos propor uma fase de teste, sem nos comprometermos já.", "ko": "그렇다면 당장 확약하지 말고 시범 단계를 제안해 볼 수도 있겠습니다.", "note": "talvez + 접속법 = 어쩌면 ~할지도", "tags": ["form:conjuntivo-imperfeito"], "emotion": "polite"},
-   {"speaker": "B", "tl": "Não me parece disparate nenhum. Mas há algum risco que eu não esteja a ver?", "ko": "전혀 엉뚱한 말이 아니네요. 그런데 제가 못 보고 있는 위험이 있나요?", "note": "disparate = 터무니없는 말", "tags": ["form:conjuntivo"], "emotion": "polite"},
+   {"speaker": "B", "tl": "Não me parece disparate nenhum. Mas há algum risco que me está a escapar?", "ko": "전혀 엉뚱한 말이 아니네요. 그런데 제가 놓치고 있는 위험이 있나요?", "note": "escapar = 놓치다, 빠져나가다", "tags": [], "emotion": "polite"},
    {"speaker": "A", "tl": "Há um pormenor, sim. Receio que o orçamento não chegue, caso o prazo derrape.", "ko": "작은 문제가 하나 있습니다. 기한이 밀리면 예산이 모자랄까 걱정입니다.", "note": "receio que + 접속법 = ~일까 걱정이다", "tags": ["form:conjuntivo"], "emotion": "worried"},
    {"speaker": "B", "tl": "Curioso. Ainda esta manhã alguém disse exatamente o mesmo, de forma bem menos educada.", "ko": "재미있네요. 오늘 아침에도 누가 똑같은 말을 했거든요, 훨씬 덜 공손하게.", "note": "bem menos = 훨씬 덜", "tags": ["expr:bem menos"], "emotion": "teasing"},
    {"speaker": "A", "tl": "A sério? Quem terá sido?", "ko": "정말요? 누구였을까요?", "note": "terá sido = ~였을까(미래완료로 추측)", "tags": ["expr:a sério", "form:futuro-perfeito"], "emotion": "flustered"},
@@ -123,7 +123,7 @@
    {"speaker": "A", "tl": "Todos? Incluindo o cliente?", "ko": "다요? 고객도요?", "note": "incluindo = ~을 포함해", "tags": [], "emotion": "worried"},
    {"speaker": "B", "tl": "Sobretudo o cliente. E, por incrível que pareça, adorou a expressão.", "ko": "특히 고객이요. 그리고 믿기 어렵겠지만, 그 표현을 아주 좋아했어요.", "note": "por incrível que pareça = 믿기 어렵겠지만", "tags": ["expr:por incrível que pareça"], "emotion": "amused"},
    {"speaker": "A", "tl": "Quer dizer que não vou ser despedid{o|a}?", "ko": "그럼 저 해고되는 건 아니라는 말씀인가요?", "note": "quer dizer = 그러니까, ~라는 말이다", "tags": ["expr:quer dizer"], "emotion": "stiff"},
-   {"speaker": "B", "tl": "Pelo contrário. Quer que seja {name} a apresentar o desastre. De gravata.", "ko": "오히려요. 그 재앙을 {name} 씨가 발표하길 바란답니다. 넥타이 매고.", "note": "pelo contrário = 오히려", "tags": ["expr:pelo contrário"], "emotion": "amused"}
+   {"speaker": "B", "tl": "Pelo contrário. Quer que seja {o|a} {name} a apresentar o desastre. De gravata.", "ko": "오히려요. 그 재앙을 {name} 씨가 발표하길 바란답니다. 넥타이 매고.", "note": "pelo contrário = 오히려", "tags": ["expr:pelo contrário"], "emotion": "amused"}
   ],
   "cast":{"B": "marta"}}
 ]

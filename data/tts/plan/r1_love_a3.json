@@ -8,7 +8,7 @@
    "segs": [
     [
      "excited",
-     "Olá! Tu és {name}, certo? Do lado?"
+     "Olá! Tu és {o|a} {name}, certo? Do lado?"
     ]
    ]
   },

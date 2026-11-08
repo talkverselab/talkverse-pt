@@ -11,7 +11,7 @@
  ],
  "title": "날개 달린 도둑",
  "emoji": "🎂",
- "scene": "사무실. 상사 Marta 가 조카 생일 케이크가 사라졌다며 학습자의 책상 위 부스러기를 노려본다.",
+ "scene": "사무실. 상사 Marta 가 조카 생일 케이크가 사라졌다며 학습자의 의자 위 부스러기를 노려본다.",
  "speakers": {
   "A": "{name}",
   "B": "Marta"
@@ -40,8 +40,8 @@
  "turns": [
   {
    "speaker": "B",
-   "tl": "{name}, tem um minuto? Alguém comeu o bolo que eu guardei na cozinha do escritório.",
-   "ko": "{name} 씨, 잠깐 시간 돼요? 누가 제가 사무실 부엌에 넣어 둔 케이크를 먹었어요.",
+   "tl": "{name}, tem um minuto? Alguém comeu o bolo que eu guardei na copa.",
+   "ko": "{name} 씨, 잠깐 시간 돼요? 누가 제가 탕비실에 넣어 둔 케이크를 먹었어요.",
    "note": "guardar = 보관하다, 넣어 두다",
    "tags": [
     "vocab:guardar",
@@ -54,23 +54,23 @@
     ],
     [
      "annoyed",
-     "Alguém comeu o bolo que eu guardei na cozinha do escritório."
+     "Alguém comeu o bolo que eu guardei na copa."
     ]
    ],
    "num": 1,
-   "rd": "{name}, 땡 웅 미누뚜? 알겡 꼬메우 우 볼루 끄 에우 과르데이 나 꼬징야 두 이쉬크리또리우."
+   "rd": "{name}, 땡 웅 미누뚜? 알겡 꾸메우 우 볼루 끄 에우 과르데이 나 꼬빠."
   },
   {
    "speaker": "A",
-   "tl": "O bolo de anos? Que chatice. Era para quê?",
-   "ko": "그 생일 케이크요? 어떡해요. 무슨 케이크였는데요?",
+   "tl": "O bolo de anos? Que chatice. Era para quem?",
+   "ko": "그 생일 케이크요? 어떡해요. 누구 주려던 거였어요?",
    "note": "bolo de anos = 생일 케이크 · que chatice = 이런, 짜증 나게",
    "tags": [
     "expr:que chatice"
    ],
    "emotion": "worried",
    "num": 2,
-   "rd": "우 볼루 드 아누쉬? 끄 샤띠쓰. 에라 빠라 께?"
+   "rd": "우 볼루 드 아누쉬? 끄 샤띠쓰. 에라 빠라 껭?"
   },
   {
    "speaker": "B",
@@ -83,7 +83,7 @@
    ],
    "emotion": "sad",
    "num": 3,
-   "rd": "빠라 우 메우 쏘브링유. 파쉬 쎄이즈 아누즈 오즈 이 우 알모쑤 에 아쉬 두아쉬."
+   "rd": "빠라 우 메우 쑤브링유. 파쉬 쎄이즈 아누즈 오즈 이 우 알모쑤 에 아쉬 두아쉬."
   },
   {
    "speaker": "A",
@@ -104,7 +104,7 @@
     ]
    ],
    "num": 4,
-   "rd": "꼬이따두 두 미우두. 마쉬 뽀르끄 에 끄 이쉬따 아 올랴르 빠라 밍 아씽?"
+   "rd": "꼬이따두 두 미우두. 마쉬 뿌르끄 에 끄 이쉬따 아 올랴르 빠라 밍 아씽?"
   },
   {
    "speaker": "B",
@@ -116,11 +116,11 @@
    ],
    "emotion": "stiff",
    "num": 5,
-   "rd": "뽀르끄 아 미갈랴쉬 드 볼루 나 쑤아 까데이라, {name}."
+   "rd": "뿌르끄 아 미갈랴쉬 드 볼루 나 쑤아 까데이라, {name}."
   },
   {
    "speaker": "A",
-   "tl": "Isso não é prova nenhuma! Estou inocente, juro. Nem gosto de doces.",
+   "tl": "Isso não é prova nenhuma! Sou inocente, juro. Nem gosto de doces.",
    "ko": "그건 아무 증거도 안 돼요! 저 결백해요, 맹세해요. 단것 좋아하지도 않아요.",
    "note": "prova = 증거 · inocente = 결백한",
    "tags": [
@@ -129,7 +129,7 @@
    ],
    "emotion": "shout",
    "num": 6,
-   "rd": "이쑤 나웅 에 프로바 넹유마! 이쉬또우 이노쎈뜨, 주루. 넹 고쉬뚜 드 도쓰쉬."
+   "rd": "이쑤 나웅 에 프로바 넹유마! 쏘우 이누쎈뜨, 주루. 넹 고쉬뚜 드 도쓰쉬."
   },
   {
    "speaker": "B",
@@ -143,7 +143,7 @@
    ],
    "emotion": "tsukkomi",
    "num": 7,
-   "rd": "아 쎄리우? 나 쎄마나 빠싸다 꼬메우 트레쉬 젤라두쉬 나 헤우니아웅 드 에끼빠."
+   "rd": "아 쎄리우? 나 쓰마나 빠싸다 꾸메우 트레쉬 즐라두쉬 나 헤우니아웅 드 에끼빠."
   },
   {
    "speaker": "A",
@@ -166,7 +166,7 @@
     ]
    ],
    "num": 8,
-   "rd": "께르 디제르... 젤라두 에 디페렌뜨. 아 까마라 드 쎄구란싸 그라바 아 꼬징야, 나웅 그라바?"
+   "rd": "께르 디제르... 즐라두 에 디프렌뜨. 아 까마라 드 쓰구란싸 그라바 아 꾸징야, 나웅 그라바?"
   },
   {
    "speaker": "B",
@@ -191,7 +191,7 @@
    ],
    "emotion": "teasing",
    "num": 10,
-   "rd": "이쉬따 벵. 쓰 깔랴르 바이 뻬디르 므 데쉬꿀빠 다끼 아 씽꾸 미누뚜쉬."
+   "rd": "이쉬따 벵. 쓰 깔랴르 바이 쁘디르 므 드쉬꿀빠 다끼 아 씽꾸 미누뚜쉬."
   },
   {
    "speaker": "B",
@@ -204,12 +204,12 @@
    ],
    "emotion": "surprised",
    "num": 11,
-   "rd": "이쉬뻬르... 아낄루 에 웅 빠뚜? 엔트로우 뻴라 자넬라 이 이쉬따 아 꼬메르 우 볼루!"
+   "rd": "이쉬뻬르... 아낄루 에 웅 빠뚜? 엔트로우 뻴라 자넬라 이 이쉬따 아 꾸메르 우 볼루!"
   },
   {
    "speaker": "A",
-   "tl": "Um pato do parque, com a cara toda suja de bolo! Afinal o ladrão sabe voar.",
-   "ko": "공원 오리네요, 얼굴이 케이크 범벅이에요! 알고 보니 도둑이 날 줄 아네요.",
+   "tl": "Um pato do parque, com o bico todo sujo de bolo! Afinal o ladrão sabe voar.",
+   "ko": "공원 오리네요, 부리가 케이크 범벅이에요! 알고 보니 도둑이 날 줄 아네요.",
    "note": "sujo = 더러운, 범벅인 · ladrão = 도둑 · voar = 날다 · afinal = 알고 보니",
    "tags": [
     "expr:afinal",
@@ -218,7 +218,7 @@
    ],
    "emotion": "amused",
    "num": 12,
-   "rd": "웅 빠뚜 두 빠르끄, 꽁 아 까라 또다 쑤자 드 볼루! 아피날 우 라드라웅 싸브 보아르."
+   "rd": "웅 빠뚜 두 빠르끄, 꽁 우 비꾸 또두 쑤주 드 볼루! 아피날 우 라드라웅 싸브 보아르."
   },
   {
    "speaker": "B",
@@ -239,7 +239,7 @@
     ]
    ],
    "num": 13,
-   "rd": "프론뚜, 뻬쑤 데쉬꿀빠. 마즈 엔따웅, 아쉬 미갈랴쉬 나 쑤아 까데이라?"
+   "rd": "프론뚜, 뻬쑤 드쉬꿀빠. 마즈 엔따웅, 아쉬 미갈랴쉬 나 쑤아 까데이라?"
   },
   {
    "speaker": "A",
@@ -251,7 +251,7 @@
    ],
    "emotion": "flustered",
    "num": 14,
-   "rd": "아, 이싸쉬... 싸웅 두 빠웅 두 뻬께누 알모쑤. 드 쎄르떼자."
+   "rd": "아, 이싸쉬... 싸웅 두 빠웅 두 쁘께누 알모쑤. 드 쓰르떼자."
   }
  ]
 }
