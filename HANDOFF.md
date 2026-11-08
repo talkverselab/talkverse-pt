@@ -2,11 +2,20 @@
 
 규칙은 `CLAUDE.md`(서명 §1·Zealot §8·판 §9·회화 원칙 §10), 언어앱 공통 절차는 `~/talkverse/LANG_APP_REPLICATE_PROMPT.md`.
 
+## ▶ 다음 세션이 바로 할 일(2026-11-08 세션 종료 시점)
+1. **Grok 완전 재작성**(11-09 13:30 재개, 한자 세션 경유·`~/talkverse/GROK_PROMPT_GUIDE.md`): 회화 32편(`data/dialogues_src/pt-PT/*.json`)을 편마다 새 방에서 「모든 줄 새로」 → 리뷰 → `build_dialogues.py`(원본 전부 한 번에) → `make_plan.py` → REVIEW_pt 갱신 요청.
+2. **앱 연결(전략 문서 단계 A)** `docs/APP_BUILD_STRATEGY_pt.md`: pubspec 에 `assets/data/pt-PT/` 등록, `DialogueService` 를 새 폴더 로더로, 회화 음성 재생(`dialogue_audio.dart` 이식). Android·iOS 함께 올림.
+3. **절벽 단어 뜻 373어 채우기**(회화 밖 동결 해제됨): `assets/data/freq/lang_pt_top.csv` 뜻 빈칸 → `tools/build_cliff_words.py` 재실행.
+4. **음성 재시험**: 사용자가 실패 원인(억양·발음·감정·목소리)을 아직 답하지 않음. 답 받으면 QA 기준 0.9·어말 s 검사로 1편 재시험(uk 에 순서 요청).
+5. PC 백업: 빌드 15 APK·IPA 2611081652 를 `D:\OneDrive\app project\talkverse-pt\` 에(빌드 14 까지 됨).
+6. 답 없는 사용자 질문: 성별판 형식(A9, 지금 = 판별 파일)·강세 부호(B10, 지금 = 표준 철자) — `docs/DIALOGUE_RULES_pt.md` §D.
+- 결정된 것: 레벨 = 문법 단계 R0~R5, 존칭 R3, 넓힌 어휘 상한, 접어 R1/R2/R5, 접속법 R4(굳은 표현 R0) — `docs/GRAMMAR_LEVELS_pt.md`. 굴절 노출 점검 `~/.venvs/pt_nlp/bin/python tools/check_inflection.py`.
+
 ## ⛔ 지금 걸려 있는 사용자 지시
-- **콘텐츠 생성 금지**(2026-11-02, 해제 전까지): 회화·단어·예문·문법 설명·음성·그림 등 새 학습 콘텐츠를 만들거나 다시 쓰지 않는다. 허용 = 저작권·이력 정리, 버그 수정, 문서, 빌드.
+- ~~콘텐츠 생성 금지~~ — 2026-11-08 사용자가 회화·회화 밖 모두 해제.
 - **아이콘은 talkverse.uk 세션 담당** — mipmap·AppIcon 파일을 직접 고치지 말고 요청.
 - **Grok 그림 요청은 한자 세션 경유**(그림만, 글 시안은 이 세션이 직접 씀).
-- **맥미니(M6) 부하**: 시뮬레이터는 쓰고 바로 `xcrun simctl shutdown`, 빌드는 `pgrep -f flutter_tools.snapshot | wc -l` 이 3 이상이면 기다렸다가.
+- **맥미니(M6) 부하**: 시뮬레이터는 쓰고 바로 `xcrun simctl shutdown`, 빌드는 `ps -axo args= | grep -c '^[^ ]*dartvm .*flutter_tools'` 가 3 이상이면 기다렸다가.
 
 ## 상태 표
 | 항목 | 상태 |
