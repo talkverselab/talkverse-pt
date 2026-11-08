@@ -14,8 +14,8 @@
 | 캐릭터 시안 ① | **통과**(11-03) — `data/review/art/chars_pt_v1.jpg`, 인물표 `CHARACTERS.md` |
 | UX/UI 시안 ② | **통과**(11-03) — 글 `data/review/uxui/sian_pt_01.md`, 그림 `sian_pt_02.jpg`(PT-01 은 캐릭터 미반영으로 다시 그림) |
 | 아이패드 빌드 ③ | 코드 `ba4007e`·`b73eec4`, 아이패드 스크린샷 9장 넘침 0·통합 테스트 통과 |
-| Android | CI 빌드 **14**(7e15dac) · Zealot(11-08) · PC 백업 완료 |
-| iOS | TestFlight **빌드 2611081624**(11-08, 단어·메뉴 개편 포함, Sign in with Apple 권한 확인) · IPA PC `ios\` 백업. 아이패드 스크린샷 5장 확인(넘침 없음) |
+| Android | CI 빌드 **15**(182fbc0, 문자와 발음 메뉴) · Zealot(11-08) · PC 백업은 빌드 14 까지 |
+| iOS | TestFlight **빌드 2611081652**(11-08, 문자와 발음 포함, Sign in with Apple 확인). 아이패드 스크린샷 확인 |
 | 로그인·결제 | 코드 `d58eb09`(Talkverse ID client_id `pt`, 상품 `com.talkverse.portugueseUniverse.lifetime`/`lang_pt`) — 잠근 화면은 아직 없음 |
 | 절벽(레마) | **판별 재산정 11-03** — pt-PT R1 55·R2 83·R3 217·R4 656(상위 2,500 90.1%) / pt-BR 63·96·243·727, 자국 작품 자막 기준(`data/cliff/README.md`, `tools/pt_cliff.py`). 옛 234·403·1,134 폐기. 사이트 카드 = pt-PT 값 |
 | 단어 그림 리스트 | talkversehanja `talkverse_art/words/pt.csv` = 새 레마 순위 2,500(PT·BR 합침, 구간 PT 경계, R5 = 절벽 밖, 340f9b5)·`pt_food.csv`(50), uk 세션이 D1 다시 적재 — 그림은 `GET https://auth.talkverse.uk/art/pt/manifest` |
@@ -36,6 +36,9 @@
 - R2 `audio/pt/…`·D1 `audio_lines`(lang `pt`) 올림, 목록 `data/tts/audio_pt.json`, 리뷰 `data/review/REVIEW_pt.html` → uk 세션에 갱신 요청함. 도구 `tools/tts/`, 작업 폴더 `~/tts_work/pt`, 받아쓰기 venv `~/.venvs/tts_zh`.
 - 조각 85개 중 84개 통과. r2_friends_b1 3턴 남성판 「O quê?!」(`03_0_m`)는 세 번 재생성해도 길이 기준 초과·받아쓰기 「Ok.」 — 가장 나은 판으로 올렸다. 유럽판 억양은 사람이 듣고 판단해야 한다.
 - 앱 재생 코드(`dialogue_audio.dart` 등)는 아직 없다. 회화 새 구조를 앱에 연결할 때 함께.
+
+## 11-08 「문자와 발음」 기초 메뉴(공통 프롬프터 §5-3)
+- `lib/screens/pt_sounds_screen.dart` · `lib/widgets/pt_sound_sheet.dart` · 데이터 `lib/services/pt_phonetics.dart`(알파벳 26 · 모음·악센트 8 · 비모음 8 · 자음 조합 8 · 모음 약화 4). 조음 그림 `assets/images/ipa/places_of_articulation.png` 는 임시(출처 표기 없음, 출시 전 공용 Grok 그림으로 교체).
 
 ## 11-07 단어·메뉴 개편(`1032064`, 일본어앱 `docs/MENU_WORDS_2026-11-07.md` 이식)
 - 절벽 단어: 유럽판 절벽 순위 2,000위, 20어 단원·타일, 「회화 단어 포함(+5)」. 데이터 `tools/build_cliff_words.py` → `cliff_pt_PT.csv`·`conv_words_pt.json`. **`lang_pt_top.csv` 의 rank 는 PT·BR 합친 그림 목록 순서 — 절벽 순위로 쓰지 말 것.**
