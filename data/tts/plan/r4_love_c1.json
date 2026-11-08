@@ -1,0 +1,136 @@
+{
+ "ep": "r4_love_c1",
+ "cast": {
+  "B": "ines"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Olha, uma pergunta."
+    ],
+    [
+     "shy",
+     " Se eu te pedisse para jantar comigo amanhã, o que dirias?",
+     "Se eu te pedisse para jantar comigo amanhã, o que dirias?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "surprised",
+     "Diria que sim. Mas porquê «se»? Estás a perguntar a sério?",
+     "Diria que sim. Mas porquê se? Estás a perguntar a sério?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "flustered",
+     "Pronto, é para não ficar com vergonha caso digas que não."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "teasing",
+     "Nem pensar. Mas só vou se fores tu a escolher o sítio."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "excited",
+     "Fixe! Há um sítio perto do rio onde cantam fado. Achas que gostarias?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "cheerful",
+     "Gostaria muito. Nunca ouvi fado ao vivo."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "shout",
+     "ELE DISSE QUE SIM!!!"
+    ],
+    [
+     "excited",
+     " Ajuda, o que é que eu visto? Preciso que me digas já!!",
+     "Ajuda, o que é que eu visto? Preciso que me digas já!!"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "flustered",
+     "Espera."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "flustered",
+     "Isso não era para ti. Era para a Beatriz. Esquece o que viste."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "amused",
+     "Tarde demais. Já li tudo, e mais de uma vez."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "flustered",
+     "Que vergonha..."
+    ],
+    [
+     "shy",
+     " Pronto, é verdade. Há semanas que queria que fosses tu a pedir.",
+     "Pronto, é verdade. Há semanas que queria que fosses tu a pedir."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "surprised",
+     "Semanas? E eu a pensar que tu nem olhavas para mim."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "gentle",
+     "Quanto à roupa: vem como quiseres. Vais estar bonita de qualquer maneira."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "shy",
+     "...Esta também vou mostrar à Beatriz."
+    ]
+   ]
+  }
+ }
+}

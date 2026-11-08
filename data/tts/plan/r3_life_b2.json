@@ -1,0 +1,124 @@
+{
+ "ep": "r3_life_b2",
+ "cast": {
+  "B": "tiago"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "polite",
+     "Bom dia! {O senhor|A senhora} quer sentar-se lá fora ou aqui dentro?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "stiff",
+     "Aqui dentro, obrigad{o|a}. Um café, se faz favor."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "polite",
+     "Claro. Quer um copo de água com o café?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "stiff",
+     "Sim, pode ser."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "cheerful",
+     "E um doce? Hoje temos doces da casa, são muito bons."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "flustered",
+     "Pode ser, sim."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "teasing",
+     "Um ou dois? As pessoas daqui comem sempre dois."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "flustered",
+     "Sim, sim, claro."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "excited",
+     "Muito bem! E nós temos música ao vivo. Posso tocar uma coisa para {o senhor|a senhora}?"
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "flustered",
+     "Sim… quer dizer… pode ser?"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "excited",
+     "Pronto! Vou buscar a guitarra. Os meus amigos também cantam. Eles podem sentar-se aqui?"
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "excited",
+     "Sim! E o senhor também canta?"
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "polite",
+     "Muito bem. Então são três cafés, seis doces, quatro águas e um fado."
+    ],
+    [
+     "teasing",
+     "{O senhor|A senhora} paga tudo?"
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Pois… Acho que agora aprendi a dizer não."
+    ]
+   ]
+  }
+ }
+}

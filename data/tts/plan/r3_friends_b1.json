@@ -1,0 +1,135 @@
+{
+ "ep": "r3_friends_b1",
+ "cast": {
+  "B": "duarte",
+  "C": "ines",
+  "D": "beatriz"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "excited",
+     "Então, pessoal, a Beatriz chega às oito. Vocês trataram de tudo?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Eu tratei da música. E chamei umas pessoas do trabalho dela."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "cheerful",
+     "Eu trouxe as flores e os copos. E tu, Duarte?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "flustered",
+     "Eu? Eu estava a ver o jogo… Pensei que vocês iam comprar as coisas para comer."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Nós?! Duarte, tu disseste que tratavas tu disso!"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "worried",
+     "Pronto, não faz mal. Temos quanto tempo?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "excited",
+     "Uma hora. Eu vou já buscar qualquer coisa. Vocês ficam aqui e escondem as flores."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Escondemos onde? A casa é um quarto e meio!"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "worried",
+     "Espera… alguém está a abrir a porta."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "excited",
+     "Olá! Mudei tudo, cheguei mais cedo!"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "surprised",
+     "Beatriz?! Ainda são sete horas!"
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "excited",
+     "Pois é! E trouxe os meus amigos do mar."
+    ],
+    [
+     "cheerful",
+     "Somos 20. Vocês têm alguma coisa para comer?",
+     "Somos vinte. Vocês têm alguma coisa para comer?"
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "amused",
+     "Temos flores, copos e uma surpresa."
+    ],
+    [
+     "tsukkomi",
+     "Quer dizer… tínhamos."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "excited",
+     "Pessoal, cheguei!"
+    ],
+    [
+     "flustered",
+     "Só consegui uma coisa: um doce. Um."
+    ]
+   ]
+  }
+ }
+}

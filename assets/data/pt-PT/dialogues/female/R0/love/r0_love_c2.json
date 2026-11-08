@@ -1,0 +1,131 @@
+{
+ "id": "r0_love_c2",
+ "region": "R0",
+ "island": "love",
+ "kind": "chat",
+ "purpose": [
+  "love",
+  "chat"
+ ],
+ "domain": [
+  "love"
+ ],
+ "title": "시간은 늘 있어",
+ "emoji": "🌊",
+ "scene": "저녁, Beatriz 가 또 약속을 바꾼다. 서운하지 않다고 답했더니, 그녀가 한 줄을 더 보낸다.",
+ "speakers": {
+  "A": "{name}",
+  "B": "Beatriz"
+ },
+ "cast": {
+  "B": "beatriz"
+ },
+ "register": "chat",
+ "twist": 6,
+ "twist_type": "slip",
+ "flags": [
+  "romance"
+ ],
+ "goal": "약속이 바뀔 때 짧게 답하기 — 「afinal」「não faz mal」「fixe」「quer dizer」",
+ "expressions": [
+  "afinal",
+  "não faz mal",
+  "fixe",
+  "então",
+  "quer dizer",
+  "pronto"
+ ],
+ "variant": "pt-PT",
+ "learner_gender": "female",
+ "draft": true,
+ "turns": [
+  {
+   "speaker": "B",
+   "tl": "Afinal não posso ir!",
+   "ko": "나 결국 못 가!",
+   "note": "afinal = 결국, 알고 보니",
+   "tags": [
+    "expr:afinal",
+    "form:poder"
+   ],
+   "emotion": "worried",
+   "ui": "bubble",
+   "at": "19:10",
+   "num": 1,
+   "rd": "아피날 나웅 뽀쑤 이르!"
+  },
+  {
+   "speaker": "A",
+   "tl": "Tudo bem. Não faz mal.",
+   "ko": "괜찮아. 신경 쓰지 마.",
+   "note": "não faz mal = 괜찮아",
+   "tags": [
+    "expr:não faz mal"
+   ],
+   "emotion": "gentle",
+   "ui": "bubble",
+   "at": "19:11",
+   "num": 2,
+   "rd": "뚜두 벵. 나웅 파쉬 말."
+  },
+  {
+   "speaker": "B",
+   "tl": "Vou para a praia, pá!",
+   "ko": "나 바다 간다!",
+   "note": "praia = 해변 (상한 밖 낱말)",
+   "tags": [
+    "form:ir"
+   ],
+   "emotion": "excited",
+   "ui": "bubble",
+   "at": "19:11",
+   "num": 3,
+   "rd": "보우 빠라 아 프라이아, 빠!"
+  },
+  {
+   "speaker": "A",
+   "tl": "Fixe! Então outro dia?",
+   "ko": "좋네! 그럼 다른 날?",
+   "note": "fixe = 좋다, 멋지다, outro dia = 다른 날",
+   "tags": [
+    "expr:fixe",
+    "expr:então"
+   ],
+   "emotion": "cheerful",
+   "ui": "bubble",
+   "at": "19:12",
+   "num": 4,
+   "rd": "피쉬! 엔따웅 오우트루 디아?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Para ti, tenho sempre tempo.",
+   "ko": "너한텐 시간 늘 있어.",
+   "note": "tenho sempre tempo = 시간은 늘 있어",
+   "tags": [
+    "heart"
+   ],
+   "emotion": "gentle",
+   "ui": "bubble",
+   "at": "19:12",
+   "num": 5,
+   "rd": "빠라 띠, 뗑유 쎔프르 뗌뿌."
+  },
+  {
+   "speaker": "B",
+   "tl": "Quer dizer... para todos! Pronto.",
+   "ko": "아니 그러니까… 다들한테! 됐지.",
+   "note": "quer dizer = 그러니까, 내 말은",
+   "tags": [
+    "twist",
+    "expr:quer dizer",
+    "expr:pronto"
+   ],
+   "emotion": "flustered",
+   "ui": "bubble",
+   "at": "19:12",
+   "num": 6,
+   "rd": "께르 디제르... 빠라 또두쉬! 프론뚜."
+  }
+ ]
+}

@@ -1,0 +1,115 @@
+{
+ "ep": "r2_friends_c2",
+ "cast": {
+  "B": "beatriz",
+  "C": "duarte"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "excited",
+     "Fim de semana no mar, em Peniche! Quem quer? 🏄‍♀️",
+     "Fim de semana no mar, em Peniche! Quem quer?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Eu! Mas há jogo às oito da noite."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "cheerful",
+     "Eu também quero. Levo o carro?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "excited",
+     "Espera, mudei de ideia. Lisboa é mais fixe!"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Lisboa? Ontem disseste que Lisboa era cara demais."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "flustered",
+     "Pois, mas..."
+    ],
+    [
+     "excited",
+     "não, olha: Porto! Tem tudo e é perto do rio!"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Beatriz, já mudaste três vezes em cinco minutos, pá."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "annoyed",
+     "Pronto. Escolhe uma coisa e eu encontro uma casa."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "amused",
+     "Tá bem, tá bem. Porto. De certeza."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "excited",
+     "Já está! Duas noites, uma casa ao pé do rio. 🙌",
+     "Já está! Duas noites, uma casa ao pé do rio."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "cheerful",
+     "Boa!"
+    ],
+    [
+     "flustered",
+     "Ah... esqueci-me de dizer. Ontem paguei dois dias em Peniche."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "shout",
+     "E eu? Há jogo, pá!"
+    ]
+   ]
+  }
+ }
+}

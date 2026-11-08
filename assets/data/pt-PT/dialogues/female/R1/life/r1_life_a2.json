@@ -1,0 +1,142 @@
+{
+ "id": "r1_life_a2",
+ "region": "R1",
+ "island": "life",
+ "kind": "short",
+ "purpose": [
+  "daily_life",
+  "making_friends"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "세상이 끝난 날",
+ "emoji": "⚽",
+ "scene": "거실 불이 꺼진 채 Duarte 가 소파에 웅크리고 있다. 무슨 일이 생긴 걸까.",
+ "speakers": {
+  "A": "{name}",
+  "B": "Duarte"
+ },
+ "cast": {
+  "B": "duarte"
+ },
+ "register": "casual",
+ "twist": 8,
+ "twist_type": "reveal",
+ "flags": [],
+ "goal": "완료과거 morreu·perdeu, 접어 deixa-me, 달래는 말 「pronto, pronto」",
+ "expressions": [
+  "pá",
+  "pronto"
+ ],
+ "variant": "pt-PT",
+ "learner_gender": "female",
+ "draft": true,
+ "turns": [
+  {
+   "speaker": "A",
+   "tl": "Duarte? O que se passa contigo?",
+   "ko": "Duarte? 너 무슨 일 있어?",
+   "note": "contigo = 너에게, 너와",
+   "tags": [],
+   "emotion": "worried",
+   "num": 1,
+   "rd": "두아르뜨? 우 끄 쓰 빠싸 꼰띠구?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Nada. Deixa-me, pá.",
+   "ko": "아무것도 아냐. 내버려 둬.",
+   "note": "deixa-me = 날 내버려 둬(접어는 동사 뒤)",
+   "tags": [
+    "form:clitic",
+    "expr:pá"
+   ],
+   "emotion": "sad",
+   "num": 2,
+   "rd": "나다. 데이샤 므, 빠."
+  },
+  {
+   "speaker": "A",
+   "tl": "Morreu alguém? Fala comigo.",
+   "ko": "누가 죽었어? 말 좀 해 봐.",
+   "note": "morreu = 죽었다(morrer 완료과거)",
+   "tags": [
+    "form:perfeito"
+   ],
+   "emotion": "worried",
+   "num": 3,
+   "rd": "모헤우 알겡? 팔라 꼬미구."
+  },
+  {
+   "speaker": "B",
+   "tl": "Morreu, sim. O meu clube perdeu hoje.",
+   "ko": "응, 죽었어. 우리 팀이 오늘 졌어.",
+   "note": "clube = 클럽, 팀(상한 밖 낱말), perdeu = 졌다",
+   "tags": [
+    "form:perfeito"
+   ],
+   "emotion": "sad",
+   "num": 4,
+   "rd": "모헤우, 씽. 우 메우 끌루브 뻬르데우 오즈."
+  },
+  {
+   "speaker": "A",
+   "tl": "Ah... é só isso? Pronto, pronto.",
+   "ko": "아… 그게 다야? 자, 자.",
+   "note": "pronto, pronto = 자자, 됐어(달랠 때)",
+   "tags": [
+    "expr:pronto"
+   ],
+   "emotion": "amused",
+   "num": 5,
+   "rd": "아... 에 쏘 이쑤? 프론뚜, 프론뚜."
+  },
+  {
+   "speaker": "B",
+   "tl": "Só isso?! É a minha vida, pá!",
+   "ko": "그게 다라니?! 내 인생이라고!",
+   "note": "a minha vida = 내 인생",
+   "tags": [
+    "expr:pá"
+   ],
+   "emotion": "shout",
+   "num": 6,
+   "rd": "쏘 이쑤?! 에 아 밍야 비다, 빠!"
+  },
+  {
+   "speaker": "A",
+   "tl": "Desculpa. Anda cá, eu fico contigo.",
+   "ko": "미안. 이리 와, 내가 옆에 있을게.",
+   "note": "fico contigo = 너랑 같이 있을게(ficar)",
+   "tags": [
+    "form:ficar"
+   ],
+   "emotion": "gentle",
+   "num": 7,
+   "rd": "데쉬꿀빠. 안다 까, 에우 피꾸 꼰띠구."
+  },
+  {
+   "speaker": "B",
+   "tl": "Obrigado, pá... Espera. Tu és do outro clube!",
+   "ko": "고마워… 잠깐. 너 상대 팀 편이잖아!",
+   "note": "ser de = ~ 편이다(de + o = do)",
+   "tags": [
+    "twist",
+    "form:contraction"
+   ],
+   "segs": [
+    [
+     "gentle",
+     "Obrigado, pá..."
+    ],
+    [
+     "tsukkomi",
+     " Espera. Tu és do outro clube!"
+    ]
+   ],
+   "num": 8,
+   "rd": "오브리가두, 빠... 이쉬뻬라. 뚜 에쉬 두 오우트루 끌루브!"
+  }
+ ]
+}

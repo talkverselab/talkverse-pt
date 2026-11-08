@@ -1,0 +1,136 @@
+{
+ "ep": "r3_travel_b1",
+ "cast": {
+  "B": "ines",
+  "C": "fernanda"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "polite",
+     "Desculpe, {o senhor|a senhora} está no meu lugar. É o 32, à janela.",
+     "Desculpe, {o senhor|a senhora} está no meu lugar. É o trinta e dois, à janela."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "surprised",
+     "A sério? O meu também é o 32, à janela.",
+     "A sério? O meu também é o trinta e dois, à janela."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "worried",
+     "Que estranho. Este é o comboio das dez para o Porto, não é?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "polite",
+     "É, sim. Eu vou para o Porto. A senhora também?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "tsukkomi",
+     "A senhora?!"
+    ],
+    [
+     "teasing",
+     "Tenho 22 anos. Pode tratar-me por tu.",
+     "Tenho vinte e dois anos. Pode tratar-me por tu."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "flustered",
+     "Desculpa! Então… tu também vais para o Porto?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "cheerful",
+     "Vou ver os meus pais. Eles vivem lá."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "gentle",
+     "Então eu fico deste lado e tu ficas à janela."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "shy",
+     "Fico à janela… mas tu podes ver o mar comigo."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "cheerful",
+     "Fixe. Nós temos três horas de viagem, não é?"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "polite",
+     "Bom dia. Os senhores vão para onde?"
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "cheerful",
+     "Vamos os dois para o Porto."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "surprised",
+     "Para o Porto?"
+    ],
+    [
+     "polite",
+     "Este vai para Faro. O do Porto partiu há cinco minutos."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "amused",
+     "Pronto… Afinal vamos ver o mar juntos."
+    ],
+    [
+     "gentle",
+     "Só que no Algarve."
+    ]
+   ]
+  }
+ }
+}

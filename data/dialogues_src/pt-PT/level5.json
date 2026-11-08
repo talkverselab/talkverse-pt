@@ -1,35 +1,903 @@
 [
- {"id":"r5_work_b1",
-  "region":"R5",
-  "island":"work",
-  "kind":"long",
-  "purpose":["work_japan"],
-  "domain":["work"],
-  "title":"날개 달린 도둑",
-  "emoji":"🎂",
-  "scene":"사무실. 상사 Marta 가 조카 생일 케이크가 사라졌다며 학습자의 책상 위 부스러기를 노려본다.",
-  "speakers":{"A":"{name}","B":"Marta"},
-  "register":"polite",
-  "twist":11,
-  "twist_type":"chaos",
-  "flags":[],
-  "goal":"새 문법 없이 657~2,000위 어휘(escritório·sobrinho·prova·inocente·câmara·segurança·gravar·ladrão·voar) 를 직장 대화에서 쓰기",
-  "expressions":["que chatice","coitado","a sério?","quer dizer","se calhar","afinal","pronto","de certeza"],
-  "turns":[
-   {"speaker":"B","tl":"{name}, tem um minuto? Alguém comeu o bolo que eu guardei na cozinha do escritório.","ko":"{name} 씨, 잠깐 시간 돼요? 누가 제가 사무실 부엌에 넣어 둔 케이크를 먹었어요.","note":"guardar = 보관하다, 넣어 두다","tags":["vocab:guardar","vocab:escritório"],"segs":[["polite","{name}, tem um minuto?"],["annoyed","Alguém comeu o bolo que eu guardei na cozinha do escritório."]]},
-   {"speaker":"A","tl":"O bolo de anos? Que chatice. Era para quê?","ko":"그 생일 케이크요? 어떡해요. 무슨 케이크였는데요?","note":"bolo de anos = 생일 케이크 · que chatice = 이런, 짜증 나게","tags":["expr:que chatice"],"emotion":"worried"},
-   {"speaker":"B","tl":"Para o meu sobrinho. Faz seis anos hoje e o almoço é às duas.","ko":"우리 조카 거요. 오늘 여섯 살 되는데 점심이 두 시예요.","note":"sobrinho = 조카","tags":["vocab:sobrinho","vocab:almoço"],"emotion":"sad"},
-   {"speaker":"A","tl":"Coitado do miúdo. Mas porque é que está a olhar para mim assim?","ko":"애가 불쌍하네요. 근데 왜 저를 그렇게 보세요?","note":"coitado = 불쌍해라","tags":["expr:coitado"],"segs":[["gentle","Coitado do miúdo."],["flustered","Mas porque é que está a olhar para mim assim?"]]},
-   {"speaker":"B","tl":"Porque há migalhas de bolo na sua cadeira, {name}.","ko":"{name} 씨 의자에 케이크 부스러기가 있으니까요.","note":"migalha = 부스러기(상한 밖 낱말) · cadeira = 의자","tags":["vocab:cadeira"],"emotion":"stiff"},
-   {"speaker":"A","tl":"Isso não é prova nenhuma! Estou inocente, juro. Nem gosto de doces.","ko":"그건 아무 증거도 안 돼요! 저 결백해요, 맹세해요. 단것 좋아하지도 않아요.","note":"prova = 증거 · inocente = 결백한","tags":["vocab:prova","vocab:inocente"],"emotion":"shout"},
-   {"speaker":"B","tl":"A sério? Na semana passada comeu três gelados na reunião de equipa.","ko":"정말요? 지난주 팀 회의 때 아이스크림 세 개 먹었잖아요.","note":"gelado = 아이스크림 · reunião de equipa = 팀 회의","tags":["expr:a sério","vocab:reunião","vocab:equipa"],"emotion":"tsukkomi"},
-   {"speaker":"A","tl":"Quer dizer... gelado é diferente. A câmara de segurança grava a cozinha, não grava?","ko":"그러니까… 아이스크림은 다르죠. 보안 카메라가 부엌 찍지 않아요?","note":"câmara de segurança = 보안 카메라 · gravar = 녹화하다","tags":["expr:quer dizer","vocab:câmara","vocab:gravar"],"segs":[["flustered","Quer dizer... gelado é diferente."],["excited","A câmara de segurança grava a cozinha, não grava?"]]},
-   {"speaker":"B","tl":"Grava, sim. Vamos ver o vídeo agora, e acabou-se a mentira.","ko":"찍죠. 지금 영상 봐요. 거짓말은 거기서 끝이에요.","note":"acabou-se = 끝났다 · mentira = 거짓말","tags":["vocab:mentira","vocab:vídeo"],"emotion":"annoyed"},
-   {"speaker":"A","tl":"Está bem. Se calhar vai pedir-me desculpa daqui a cinco minutos.","ko":"좋아요. 아마 5분 뒤엔 저한테 사과하시게 될걸요.","note":"se calhar = 아마, 어쩌면","tags":["expr:se calhar"],"emotion":"teasing"},
-   {"speaker":"B","tl":"Espere... aquilo é um pato? Entrou pela janela e está a comer o bolo!","ko":"잠깐만요… 저거 오리예요? 창문으로 들어와서 케이크를 먹고 있어요!","note":"pato = 오리","tags":["vocab:pato","twist"],"emotion":"surprised"},
-   {"speaker":"A","tl":"Um pato do parque, com a cara toda suja de bolo! Afinal o ladrão sabe voar.","ko":"공원 오리네요, 얼굴이 케이크 범벅이에요! 알고 보니 도둑이 날 줄 아네요.","note":"sujo = 더러운, 범벅인 · ladrão = 도둑 · voar = 날다 · afinal = 알고 보니","tags":["expr:afinal","vocab:ladrão","vocab:voar"],"emotion":"amused"},
-   {"speaker":"B","tl":"Pronto, peço desculpa. Mas então, as migalhas na sua cadeira?","ko":"알았어요, 미안해요. 그럼 의자에 있던 부스러기는요?","note":"pronto = 됐어요, 알았어요","tags":["expr:pronto"],"segs":[["polite","Pronto, peço desculpa."],["teasing","Mas então, as migalhas na sua cadeira?"]]},
-   {"speaker":"A","tl":"Ah, essas... são do pão do pequeno-almoço. De certeza.","ko":"아, 그건… 아침에 먹은 빵이에요. 확실해요.","note":"de certeza = 확실히","tags":["expr:de certeza"],"emotion":"flustered"}
+ {
+  "id": "r5_work_b1",
+  "region": "R5",
+  "island": "work",
+  "kind": "long",
+  "purpose": [
+   "work_japan"
   ],
-  "cast":{"B":"marta"}}
+  "domain": [
+   "work"
+  ],
+  "title": "날개 달린 도둑",
+  "emoji": "🎂",
+  "scene": "사무실. 상사 Marta 가 조카 생일 케이크가 사라졌다며 학습자의 책상 위 부스러기를 노려본다.",
+  "speakers": {
+   "A": "{name}",
+   "B": "Marta"
+  },
+  "register": "polite",
+  "twist": 11,
+  "twist_type": "chaos",
+  "flags": [],
+  "goal": "새 문법 없이 657~2,000위 어휘(escritório·sobrinho·prova·inocente·câmara·segurança·gravar·ladrão·voar) 를 직장 대화에서 쓰기",
+  "expressions": [
+   "que chatice",
+   "coitado",
+   "a sério?",
+   "quer dizer",
+   "se calhar",
+   "afinal",
+   "pronto",
+   "de certeza"
+  ],
+  "turns": [
+   {
+    "speaker": "B",
+    "tl": "{name}, tem um minuto? Alguém comeu o bolo que eu guardei na cozinha do escritório.",
+    "ko": "{name} 씨, 잠깐 시간 돼요? 누가 제가 사무실 부엌에 넣어 둔 케이크를 먹었어요.",
+    "note": "guardar = 보관하다, 넣어 두다",
+    "tags": [
+     "vocab:guardar",
+     "vocab:escritório"
+    ],
+    "segs": [
+     [
+      "polite",
+      "{name}, tem um minuto?"
+     ],
+     [
+      "annoyed",
+      "Alguém comeu o bolo que eu guardei na cozinha do escritório."
+     ]
+    ]
+   },
+   {
+    "speaker": "A",
+    "tl": "O bolo de anos? Que chatice. Era para quê?",
+    "ko": "그 생일 케이크요? 어떡해요. 무슨 케이크였는데요?",
+    "note": "bolo de anos = 생일 케이크 · que chatice = 이런, 짜증 나게",
+    "tags": [
+     "expr:que chatice"
+    ],
+    "emotion": "worried"
+   },
+   {
+    "speaker": "B",
+    "tl": "Para o meu sobrinho. Faz seis anos hoje e o almoço é às duas.",
+    "ko": "우리 조카 거요. 오늘 여섯 살 되는데 점심이 두 시예요.",
+    "note": "sobrinho = 조카",
+    "tags": [
+     "vocab:sobrinho",
+     "vocab:almoço"
+    ],
+    "emotion": "sad"
+   },
+   {
+    "speaker": "A",
+    "tl": "Coitado do miúdo. Mas porque é que está a olhar para mim assim?",
+    "ko": "애가 불쌍하네요. 근데 왜 저를 그렇게 보세요?",
+    "note": "coitado = 불쌍해라",
+    "tags": [
+     "expr:coitado"
+    ],
+    "segs": [
+     [
+      "gentle",
+      "Coitado do miúdo."
+     ],
+     [
+      "flustered",
+      "Mas porque é que está a olhar para mim assim?"
+     ]
+    ]
+   },
+   {
+    "speaker": "B",
+    "tl": "Porque há migalhas de bolo na sua cadeira, {name}.",
+    "ko": "{name} 씨 의자에 케이크 부스러기가 있으니까요.",
+    "note": "migalha = 부스러기(상한 밖 낱말) · cadeira = 의자",
+    "tags": [
+     "vocab:cadeira"
+    ],
+    "emotion": "stiff"
+   },
+   {
+    "speaker": "A",
+    "tl": "Isso não é prova nenhuma! Estou inocente, juro. Nem gosto de doces.",
+    "ko": "그건 아무 증거도 안 돼요! 저 결백해요, 맹세해요. 단것 좋아하지도 않아요.",
+    "note": "prova = 증거 · inocente = 결백한",
+    "tags": [
+     "vocab:prova",
+     "vocab:inocente"
+    ],
+    "emotion": "shout"
+   },
+   {
+    "speaker": "B",
+    "tl": "A sério? Na semana passada comeu três gelados na reunião de equipa.",
+    "ko": "정말요? 지난주 팀 회의 때 아이스크림 세 개 먹었잖아요.",
+    "note": "gelado = 아이스크림 · reunião de equipa = 팀 회의",
+    "tags": [
+     "expr:a sério",
+     "vocab:reunião",
+     "vocab:equipa"
+    ],
+    "emotion": "tsukkomi"
+   },
+   {
+    "speaker": "A",
+    "tl": "Quer dizer... gelado é diferente. A câmara de segurança grava a cozinha, não grava?",
+    "ko": "그러니까… 아이스크림은 다르죠. 보안 카메라가 부엌 찍지 않아요?",
+    "note": "câmara de segurança = 보안 카메라 · gravar = 녹화하다",
+    "tags": [
+     "expr:quer dizer",
+     "vocab:câmara",
+     "vocab:gravar"
+    ],
+    "segs": [
+     [
+      "flustered",
+      "Quer dizer... gelado é diferente."
+     ],
+     [
+      "excited",
+      "A câmara de segurança grava a cozinha, não grava?"
+     ]
+    ]
+   },
+   {
+    "speaker": "B",
+    "tl": "Grava, sim. Vamos ver o vídeo agora, e acabou-se a mentira.",
+    "ko": "찍죠. 지금 영상 봐요. 거짓말은 거기서 끝이에요.",
+    "note": "acabou-se = 끝났다 · mentira = 거짓말",
+    "tags": [
+     "vocab:mentira",
+     "vocab:vídeo"
+    ],
+    "emotion": "annoyed"
+   },
+   {
+    "speaker": "A",
+    "tl": "Está bem. Se calhar vai pedir-me desculpa daqui a cinco minutos.",
+    "ko": "좋아요. 아마 5분 뒤엔 저한테 사과하시게 될걸요.",
+    "note": "se calhar = 아마, 어쩌면",
+    "tags": [
+     "expr:se calhar"
+    ],
+    "emotion": "teasing"
+   },
+   {
+    "speaker": "B",
+    "tl": "Espere... aquilo é um pato? Entrou pela janela e está a comer o bolo!",
+    "ko": "잠깐만요… 저거 오리예요? 창문으로 들어와서 케이크를 먹고 있어요!",
+    "note": "pato = 오리",
+    "tags": [
+     "vocab:pato",
+     "twist"
+    ],
+    "emotion": "surprised"
+   },
+   {
+    "speaker": "A",
+    "tl": "Um pato do parque, com a cara toda suja de bolo! Afinal o ladrão sabe voar.",
+    "ko": "공원 오리네요, 얼굴이 케이크 범벅이에요! 알고 보니 도둑이 날 줄 아네요.",
+    "note": "sujo = 더러운, 범벅인 · ladrão = 도둑 · voar = 날다 · afinal = 알고 보니",
+    "tags": [
+     "expr:afinal",
+     "vocab:ladrão",
+     "vocab:voar"
+    ],
+    "emotion": "amused"
+   },
+   {
+    "speaker": "B",
+    "tl": "Pronto, peço desculpa. Mas então, as migalhas na sua cadeira?",
+    "ko": "알았어요, 미안해요. 그럼 의자에 있던 부스러기는요?",
+    "note": "pronto = 됐어요, 알았어요",
+    "tags": [
+     "expr:pronto"
+    ],
+    "segs": [
+     [
+      "polite",
+      "Pronto, peço desculpa."
+     ],
+     [
+      "teasing",
+      "Mas então, as migalhas na sua cadeira?"
+     ]
+    ]
+   },
+   {
+    "speaker": "A",
+    "tl": "Ah, essas... são do pão do pequeno-almoço. De certeza.",
+    "ko": "아, 그건… 아침에 먹은 빵이에요. 확실해요.",
+    "note": "de certeza = 확실히",
+    "tags": [
+     "expr:de certeza"
+    ],
+    "emotion": "flustered"
+   }
+  ],
+  "cast": {
+   "B": "marta"
+  }
+ },
+ {
+  "id": "r5_travel_b1",
+  "region": "R5",
+  "island": "travel",
+  "kind": "long",
+  "purpose": [
+   "travel"
+  ],
+  "domain": [
+   "travel"
+  ],
+  "title": "네 번째 계획",
+  "emoji": "🚆",
+  "scene": "기차역. 계획을 수시로 바꾸는 Beatriz 와 포르투행 기차를 타러 뛰어왔다.",
+  "speakers": {
+   "A": "{name}",
+   "B": "Beatriz"
+  },
+  "cast": {
+   "B": "beatriz"
+  },
+  "register": "casual",
+  "twist": 11,
+  "twist_type": "reveal",
+  "flags": [],
+  "goal": "새 문법 없이 657~2,000위 어휘(despachar·mala·passaporte·garrafa·bilhete·hotel·ponte·plano·prometer·entrada·máquina·data·autocarro·maluco)를 여행 대화에서 쓰기",
+  "expressions": [
+   "pá",
+   "fixe",
+   "epá",
+   "a sério",
+   "está bem",
+   "vá lá",
+   "mesmo"
+  ],
+  "turns": [
+   {
+    "speaker": "B",
+    "tl": "Despacha-te, {name}! O comboio para o Porto sai daqui a dez minutos.",
+    "ko": "서둘러, {name}! 포르투 가는 기차 10분 뒤에 출발해.",
+    "note": "despachar-se = 서두르다",
+    "tags": [
+     "vocab:despachar",
+     "vocab:comboio"
+    ],
+    "emotion": "excited"
+   },
+   {
+    "speaker": "A",
+    "tl": "Calma, pá. Tenho a mala, o passaporte e a garrafa de água. Falta alguma coisa?",
+    "ko": "진정해. 캐리어, 여권, 물병 다 있어. 뭐 빠진 거 있어?",
+    "note": "mala = 여행 가방 · passaporte = 여권 · garrafa = 병",
+    "tags": [
+     "expr:pá",
+     "vocab:mala",
+     "vocab:passaporte",
+     "vocab:garrafa"
+    ],
+    "emotion": "amused"
+   },
+   {
+    "speaker": "B",
+    "tl": "Os bilhetes! Comprei-os ontem no telemóvel. Olha, lugares à janela.",
+    "ko": "표! 어제 폰으로 샀어. 봐, 창가 자리야.",
+    "note": "bilhete = 표 · telemóvel = 휴대폰",
+    "tags": [
+     "vocab:bilhete",
+     "vocab:telemóvel"
+    ],
+    "emotion": "cheerful"
+   },
+   {
+    "speaker": "A",
+    "tl": "Fixe. E no Porto ficamos naquele hotel perto da ponte, certo?",
+    "ko": "좋다. 그리고 포르투에선 다리 근처 그 호텔에 묵는 거지?",
+    "note": "fixe = 좋다, 멋지다 · ponte = 다리",
+    "tags": [
+     "expr:fixe",
+     "vocab:hotel",
+     "vocab:ponte"
+    ],
+    "emotion": "cheerful"
+   },
+   {
+    "speaker": "B",
+    "tl": "Epá, mudei de ideias. Primeiro vamos à praia, amanhã há ondas enormes!",
+    "ko": "아 참, 생각 바꿨어. 먼저 바다 가자, 내일 파도 엄청 커!",
+    "note": "onda = 파도(상한 밖 낱말) · enorme = 엄청 큰",
+    "tags": [
+     "expr:epá",
+     "vocab:praia",
+     "vocab:enorme"
+    ],
+    "emotion": "excited"
+   },
+   {
+    "speaker": "A",
+    "tl": "Outra vez? Na semana passada mudaste o plano três vezes.",
+    "ko": "또? 지난주에도 계획 세 번 바꿨잖아.",
+    "note": "plano = 계획",
+    "tags": [
+     "vocab:plano"
+    ],
+    "emotion": "tsukkomi"
+   },
+   {
+    "speaker": "B",
+    "tl": "Mas desta vez é a sério. Prometo, é o último plano.",
+    "ko": "근데 이번엔 진짜야. 약속해, 이게 마지막 계획이야.",
+    "note": "a sério = 진짜로 · prometer = 약속하다",
+    "tags": [
+     "expr:a sério",
+     "vocab:prometer"
+    ],
+    "emotion": "teasing"
+   },
+   {
+    "speaker": "A",
+    "tl": "Está bem. Onde é que mostramos os bilhetes? Não vejo ninguém na entrada.",
+    "ko": "알았어. 표는 어디서 보여 줘? 입구에 아무도 없는데.",
+    "note": "entrada = 입구",
+    "tags": [
+     "expr:está bem",
+     "vocab:entrada"
+    ],
+    "emotion": "worried"
+   },
+   {
+    "speaker": "B",
+    "tl": "Na máquina ao lado da porta. Pões o telemóvel em cima e já está.",
+    "ko": "문 옆 기계에. 폰을 위에 올려놓으면 끝이야.",
+    "note": "máquina = 기계 · em cima = 위에",
+    "tags": [
+     "vocab:máquina"
+    ],
+    "emotion": "cheerful"
+   },
+   {
+    "speaker": "A",
+    "tl": "A máquina diz que não. Aparece uma data estranha... dez do doze?",
+    "ko": "기계가 안 된대. 이상한 날짜가 떠… 12월 10일?",
+    "note": "data = 날짜 · dez do doze = 12월 10일(날짜 읽기)",
+    "tags": [
+     "vocab:data"
+    ],
+    "emotion": "worried"
+   },
+   {
+    "speaker": "B",
+    "tl": "Do doze?! Ai... comprei os bilhetes para o mês que vem.",
+    "ko": "12월?! 아… 표를 다음 달 걸로 샀네.",
+    "note": "o mês que vem = 다음 달",
+    "tags": [
+     "twist"
+    ],
+    "segs": [
+     [
+      "surprised",
+      "Do doze?!"
+     ],
+     [
+      "flustered",
+      "Ai... comprei os bilhetes para o mês que vem."
+     ]
+    ]
+   },
+   {
+    "speaker": "A",
+    "tl": "Então a mala, o passaporte, a garrafa... tudo para nada?",
+    "ko": "그럼 캐리어, 여권, 물병… 다 헛수고야?",
+    "note": "para nada = 헛되이",
+    "tags": [
+     "expr:então"
+    ],
+    "emotion": "sad"
+   },
+   {
+    "speaker": "B",
+    "tl": "Nada disso! Há um autocarro para a praia às onze. Vá lá, novo plano!",
+    "ko": "무슨 소리! 11시에 바다 가는 버스 있어. 자, 새 계획이야!",
+    "note": "autocarro = 버스 · vá lá = 자, 어서",
+    "tags": [
+     "expr:vá lá",
+     "vocab:autocarro"
+    ],
+    "segs": [
+     [
+      "excited",
+      "Nada disso! Há um autocarro para a praia às onze."
+     ],
+     [
+      "cheerful",
+      "Vá lá, novo plano!"
+     ]
+    ]
+   },
+   {
+    "speaker": "A",
+    "tl": "Quarto plano em dez minutos. És mesmo maluca, sabes?",
+    "ko": "10분 만에 네 번째 계획이네. 너 진짜 미쳤어, 알지?",
+    "note": "maluco/a = 미친, 정신없는 · mesmo = 진짜",
+    "tags": [
+     "expr:mesmo",
+     "vocab:maluco"
+    ],
+    "emotion": "amused"
+   }
+  ]
+ },
+ {
+  "id": "r5_life_b1",
+  "region": "R5",
+  "island": "life",
+  "kind": "long",
+  "purpose": [
+   "daily_life"
+  ],
+  "domain": [
+   "home"
+  ],
+  "title": "새벽 여섯 시의 룸메이트",
+  "emoji": "🐔",
+  "scene": "셰어하우스 거실. 매일 새벽 베란다에서 나는 소리 때문에 잠을 못 잔 학습자가 룸메이트 Duarte 를 추궁한다.",
+  "speakers": {
+   "A": "{name}",
+   "B": "Duarte",
+   "C": "Dona Fernanda"
+  },
+  "cast": {
+   "B": "duarte",
+   "C": "fernanda"
+  },
+  "register": "mixed",
+  "twist": 11,
+  "twist_type": "chaos",
+  "flags": [],
+  "goal": "새 문법 없이 657~2,000위 어휘(barulho·vento·chão·sala·casaco·pássaro·animal·apartamento·ovo·quente·estranho·máquina·lavar·mercado·fresco·dono·prédio)를 집 생활 대화에서 쓰기",
+  "expressions": [
+   "pá",
+   "se calhar",
+   "olha",
+   "pronto",
+   "não é?"
+  ],
+  "turns": [
+   {
+    "speaker": "A",
+    "tl": "Duarte, ouviste aquele barulho? Outra vez na varanda, às seis da manhã.",
+    "ko": "Duarte, 그 소리 들었어? 또 베란다야, 새벽 여섯 시에.",
+    "note": "barulho = 소음 · varanda = 베란다(상한 밖 낱말)",
+    "tags": [
+     "vocab:barulho"
+    ],
+    "emotion": "annoyed"
+   },
+   {
+    "speaker": "B",
+    "tl": "Que barulho? Eu estava a dormir. Deve ser o vento.",
+    "ko": "무슨 소리? 난 자고 있었는데. 바람이겠지.",
+    "note": "vento = 바람",
+    "tags": [
+     "vocab:vento"
+    ],
+    "emotion": "stiff"
+   },
+   {
+    "speaker": "A",
+    "tl": "O vento não canta, pá. E há penas no chão da sala.",
+    "ko": "바람은 노래 안 하거든. 그리고 거실 바닥에 깃털이 있어.",
+    "note": "pena = 깃털 · chão = 바닥",
+    "tags": [
+     "expr:pá",
+     "vocab:chão",
+     "vocab:sala"
+    ],
+    "emotion": "tsukkomi"
+   },
+   {
+    "speaker": "B",
+    "tl": "Penas? Se calhar são do meu casaco velho. Olha, vou fazer o pequeno-almoço.",
+    "ko": "깃털? 아마 내 낡은 패딩에서 나왔나 봐. 저기, 나 아침 만들게.",
+    "note": "se calhar = 아마 · casaco = 외투",
+    "tags": [
+     "expr:se calhar",
+     "expr:olha",
+     "vocab:casaco"
+    ],
+    "emotion": "flustered"
+   },
+   {
+    "speaker": "A",
+    "tl": "Tu? Desde quando? E porque é que compraste um saco de comida para pássaros?",
+    "ko": "네가? 언제부터? 그리고 새 모이는 왜 한 봉지 산 건데?",
+    "note": "saco = 봉지 · pássaro = 새",
+    "tags": [
+     "vocab:saco",
+     "vocab:pássaro"
+    ],
+    "emotion": "teasing"
+   },
+   {
+    "speaker": "B",
+    "tl": "Para... para os pássaros do parque. Gosto muito de animais, sabes?",
+    "ko": "그건… 공원 새들 주려고. 나 동물 엄청 좋아하잖아.",
+    "note": "animal = 동물",
+    "tags": [
+     "vocab:animal",
+     "vocab:parque"
+    ],
+    "emotion": "flustered"
+   },
+   {
+    "speaker": "C",
+    "tl": "Bom dia, meninos. Desculpem, o barulho vem do vosso apartamento?",
+    "ko": "좋은 아침이에요, 학생들. 미안한데, 그 소리 여기 집에서 나는 거예요?",
+    "note": "apartamento = 아파트, 집",
+    "tags": [
+     "vocab:apartamento"
+    ],
+    "emotion": "polite"
+   },
+   {
+    "speaker": "A",
+    "tl": "Bom dia, Dona Fernanda. A senhora também acordou com aquilo?",
+    "ko": "안녕하세요, 페르난다 아주머니. 아주머니도 그 소리에 깨셨어요?",
+    "note": "a senhora = 아주머니(존칭, 3인칭 동사)",
+    "tags": [
+     "vocab:acordar"
+    ],
+    "emotion": "polite"
+   },
+   {
+    "speaker": "C",
+    "tl": "Acordei, sim. E encontrei um ovo à minha porta. Um ovo quente!",
+    "ko": "깼죠. 그리고 우리 집 문 앞에서 달걀을 하나 찾았어요. 따뜻한 달걀!",
+    "note": "ovo = 달걀 · quente = 따뜻한",
+    "tags": [
+     "vocab:ovo",
+     "vocab:quente"
+    ],
+    "segs": [
+     [
+      "polite",
+      "Acordei, sim."
+     ],
+     [
+      "surprised",
+      "E encontrei um ovo à minha porta. Um ovo quente!"
+     ]
+    ]
+   },
+   {
+    "speaker": "B",
+    "tl": "Ah... um ovo. Que coisa estranha, não é?",
+    "ko": "아… 달걀이요. 참 이상한 일이네요, 그렇죠?",
+    "note": "estranho = 이상한",
+    "tags": [
+     "vocab:estranho"
+    ],
+    "emotion": "stiff"
+   },
+   {
+    "speaker": "A",
+    "tl": "Duarte! Está uma galinha na varanda, atrás da máquina de lavar!",
+    "ko": "Duarte! 베란다에 닭이 있어, 세탁기 뒤에!",
+    "note": "galinha = 닭 · máquina de lavar = 세탁기",
+    "tags": [
+     "vocab:galinha",
+     "vocab:máquina",
+     "twist"
+    ],
+    "emotion": "shout"
+   },
+   {
+    "speaker": "B",
+    "tl": "Pronto, é a Gertrudes. Comprei-a no mercado. Ovos frescos todos os dias!",
+    "ko": "그래, 걔 이름은 제르트루드야. 시장에서 샀어. 매일 신선한 달걀이라고!",
+    "note": "pronto = 그래, 됐어 · fresco = 신선한",
+    "tags": [
+     "expr:pronto",
+     "vocab:mercado",
+     "vocab:fresco"
+    ],
+    "segs": [
+     [
+      "flustered",
+      "Pronto, é a Gertrudes."
+     ],
+     [
+      "excited",
+      "Comprei-a no mercado. Ovos frescos todos os dias!"
+     ]
+    ]
+   },
+   {
+    "speaker": "C",
+    "tl": "Ovos frescos? Então quero seis por semana, e não digo nada ao dono do prédio.",
+    "ko": "신선한 달걀이요? 그럼 일주일에 여섯 개 줘요, 건물 주인한텐 아무 말 안 할게.",
+    "note": "dono = 주인 · prédio = 건물",
+    "tags": [
+     "vocab:dono",
+     "vocab:prédio"
+    ],
+    "segs": [
+     [
+      "surprised",
+      "Ovos frescos?"
+     ],
+     [
+      "teasing",
+      "Então quero seis por semana, e não digo nada ao dono do prédio."
+     ]
+    ]
+   },
+   {
+    "speaker": "A",
+    "tl": "Ótimo. Agora a galinha mora cá de graça e eu continuo sem dormir.",
+    "ko": "잘됐네. 이제 닭은 공짜로 살고 나는 계속 못 자고.",
+    "note": "de graça = 공짜로 · morar = 살다",
+    "tags": [
+     "vocab:morar"
+    ],
+    "emotion": "tsukkomi"
+   }
+  ]
+ },
+ {
+  "id": "r5_friends_c1",
+  "region": "R5",
+  "island": "friends",
+  "kind": "chat",
+  "purpose": [
+   "making_friends"
+  ],
+  "domain": [
+   "friends"
+  ],
+  "title": "고양이가 아니라 할머니",
+  "emoji": "🎨",
+  "scene": "밤 1:1 채팅. Inês 가 Tiago 카페에 걸 그림을 막 끝내고 학습자에게 사진을 보낸다.",
+  "speakers": {
+   "A": "{name}",
+   "B": "Inês"
+  },
+  "cast": {
+   "B": "ines"
+  },
+  "register": "chat",
+  "twist": 11,
+  "twist_type": "emotion",
+  "flags": [],
+  "goal": "새 문법 없이 657~2,000위 어휘(quadro·opinião·foto·enviar·verdade·retrato·avó·sorriso·cor·giro·mentira·rir·emprego·arte)를 채팅에서 쓰기",
+  "expressions": [
+   "epá",
+   "pois",
+   "não faz mal",
+   "ainda bem",
+   "a sério?",
+   "pronto"
+  ],
+  "turns": [
+   {
+    "speaker": "B",
+    "tl": "Estás acordad{o|a}? Acabei o quadro para o café do Tiago e preciso da tua opinião.",
+    "ko": "깨어 있어? Tiago 카페에 걸 그림 다 그렸는데 네 의견이 필요해.",
+    "note": "quadro = 그림 · opinião = 의견",
+    "tags": [
+     "vocab:quadro",
+     "vocab:opinião"
+    ],
+    "ui": "bubble",
+    "at": "22:10",
+    "emotion": "excited"
+   },
+   {
+    "speaker": "A",
+    "tl": "Manda lá! Prometo dizer a verdade.",
+    "ko": "보내 봐! 솔직하게 말할게.",
+    "note": "manda lá = 보내 봐",
+    "tags": [
+     "vocab:prometer"
+    ],
+    "ui": "bubble",
+    "at": "22:11",
+    "emotion": "cheerful"
+   },
+   {
+    "speaker": "B",
+    "tl": "Pronto, foto enviada. Sê simpátic{o|a}, por favor.",
+    "ko": "자, 사진 보냈어. 착하게 말해 줘, 제발.",
+    "note": "enviar = 보내다 · simpático = 친절한",
+    "tags": [
+     "expr:pronto",
+     "vocab:enviar",
+     "vocab:simpático"
+    ],
+    "ui": "bubble",
+    "at": "22:12",
+    "emotion": "shy"
+   },
+   {
+    "speaker": "A",
+    "tl": "Epá... é um gato a andar de bicicleta? Ou um cão?",
+    "ko": "어… 자전거 타는 고양이야? 아니면 개?",
+    "note": "bicicleta = 자전거(상한 밖 낱말) · gato = 고양이",
+    "tags": [
+     "expr:epá",
+     "vocab:gato"
+    ],
+    "ui": "bubble",
+    "at": "22:14",
+    "emotion": "surprised"
+   },
+   {
+    "speaker": "B",
+    "tl": "É um retrato da minha avó, {name}.",
+    "ko": "우리 할머니 초상화거든, {name}.",
+    "note": "retrato = 초상화 · avó = 할머니",
+    "tags": [
+     "vocab:retrato",
+     "vocab:avó"
+    ],
+    "ui": "bubble",
+    "at": "22:14",
+    "emotion": "tsukkomi"
+   },
+   {
+    "speaker": "A",
+    "tl": "Ah. Pois... a tua avó tem um sorriso lindo. E as cores são giras!",
+    "ko": "아. 그렇구나… 할머니 미소가 예쁘시다. 그리고 색깔도 예뻐!",
+    "note": "pois = 그렇구나(얼버무림) · sorriso = 미소 · giro = 예쁜",
+    "tags": [
+     "expr:pois",
+     "vocab:sorriso",
+     "vocab:cor",
+     "vocab:giro"
+    ],
+    "ui": "bubble",
+    "at": "22:15",
+    "emotion": "flustered"
+   },
+   {
+    "speaker": "B",
+    "tl": "Mentira! Mas não faz mal, ela também se ia rir. Vens ao café no sábado?",
+    "ko": "거짓말! 근데 괜찮아, 할머니도 웃으셨을 거야. 토요일에 카페 올 거지?",
+    "note": "mentira = 거짓말 · não faz mal = 괜찮아",
+    "tags": [
+     "expr:não faz mal",
+     "vocab:mentira",
+     "vocab:rir"
+    ],
+    "ui": "bubble",
+    "at": "22:15",
+    "segs": [
+     [
+      "amused",
+      "Mentira! Mas não faz mal, ela também se ia rir."
+     ],
+     [
+      "cheerful",
+      "Vens ao café no sábado?"
+     ]
+    ]
+   },
+   {
+    "speaker": "A",
+    "tl": "Claro que vou. Quero ver o gato ao vivo.",
+    "ko": "당연히 가지. 고양이 실물로 보고 싶어.",
+    "note": "ao vivo = 직접, 실물로",
+    "tags": [
+     "expr:claro"
+    ],
+    "ui": "bubble",
+    "at": "22:16",
+    "emotion": "teasing"
+   },
+   {
+    "speaker": "B",
+    "tl": "Ainda bem. Vai ser o meu último sábado cá.",
+    "ko": "다행이다. 내가 여기서 보내는 마지막 토요일이거든.",
+    "note": "ainda bem = 다행이다",
+    "tags": [
+     "expr:ainda bem"
+    ],
+    "ui": "bubble",
+    "at": "22:20",
+    "emotion": "sad"
+   },
+   {
+    "speaker": "A",
+    "tl": "Último? Como assim?",
+    "ko": "마지막? 무슨 말이야?",
+    "note": "como assim? = 무슨 뜻이야?",
+    "tags": [],
+    "ui": "bubble",
+    "at": "22:20",
+    "emotion": "worried"
+   },
+   {
+    "speaker": "B",
+    "tl": "Consegui um emprego numa escola de arte lá fora. Parto no domingo.",
+    "ko": "외국 미술 학교에 일자리 구했어. 일요일에 떠나.",
+    "note": "emprego = 일자리 · arte = 미술 · lá fora = 외국에",
+    "tags": [
+     "vocab:emprego",
+     "vocab:arte",
+     "twist"
+    ],
+    "ui": "bubble",
+    "at": "22:22",
+    "emotion": "sad"
+   },
+   {
+    "speaker": "A",
+    "tl": "O quê?! A sério? E só me dizes isso agora?",
+    "ko": "뭐?! 진짜? 근데 그걸 지금 말해?",
+    "note": "a sério? = 진짜?",
+    "tags": [
+     "expr:a sério"
+    ],
+    "ui": "bubble",
+    "at": "22:23",
+    "segs": [
+     [
+      "shout",
+      "O quê?! A sério?"
+     ],
+     [
+      "annoyed",
+      "E só me dizes isso agora?"
+     ]
+    ]
+   },
+   {
+    "speaker": "B",
+    "tl": "Tinha medo de chorar. Pronto, já estou a chorar.",
+    "ko": "울까 봐 무서웠어. 봐, 벌써 울고 있잖아.",
+    "note": "medo = 두려움 · chorar = 울다",
+    "tags": [
+     "expr:pronto"
+    ],
+    "ui": "bubble",
+    "at": "22:23",
+    "segs": [
+     [
+      "shy",
+      "Tinha medo de chorar."
+     ],
+     [
+      "sad",
+      "Pronto, já estou a chorar."
+     ]
+    ]
+   },
+   {
+    "speaker": "A",
+    "tl": "Então no sábado compro o gato de bicicleta. E não digo nada à tua avó.",
+    "ko": "그럼 토요일에 자전거 탄 고양이 내가 살게. 할머니한텐 비밀로 하고.",
+    "note": "comprar = 사다",
+    "tags": [],
+    "ui": "bubble",
+    "at": "22:25",
+    "segs": [
+     [
+      "gentle",
+      "Então no sábado compro o gato de bicicleta."
+     ],
+     [
+      "teasing",
+      "E não digo nada à tua avó."
+     ]
+    ]
+   }
+  ]
+ }
 ]

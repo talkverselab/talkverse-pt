@@ -1,0 +1,171 @@
+{
+ "id": "r1_love_c1",
+ "region": "R1",
+ "island": "love",
+ "kind": "chat",
+ "purpose": [
+  "love",
+  "chat"
+ ],
+ "domain": [
+  "love"
+ ],
+ "title": "잘못 보낸 고백",
+ "emoji": "📱",
+ "scene": "밤 10시 47분, Inês 가 먼저 메시지를 보낸다. 다정한 말이 이어지다가…",
+ "speakers": {
+  "A": "{name}",
+  "B": "Inês"
+ },
+ "cast": {
+  "B": "ines"
+ },
+ "register": "chat",
+ "twist": 7,
+ "twist_type": "slip",
+ "flags": [
+  "romance"
+ ],
+ "goal": "채팅 맞장구 「a sério?」「então」, pensar em ti, 완료과거 disseste",
+ "expressions": [
+  "a sério?",
+  "então"
+ ],
+ "variant": "pt-PT",
+ "learner_gender": "male",
+ "draft": true,
+ "turns": [
+  {
+   "speaker": "B",
+   "tl": "Olá! Estás aí?",
+   "ko": "안녕! 있어?",
+   "note": "Estás aí? = 거기 있어?(채팅에서 '있어?')",
+   "tags": [
+    "form:estar"
+   ],
+   "emotion": "cheerful",
+   "ui": "bubble",
+   "at": "22:47",
+   "num": 1,
+   "rd": "올라! 이쉬따즈 아이?"
+  },
+  {
+   "speaker": "A",
+   "tl": "Estou, sim. O que se passa?",
+   "ko": "응, 있어. 무슨 일이야?",
+   "note": "O que se passa? = 무슨 일이야?",
+   "tags": [
+    "form:answer-verb"
+   ],
+   "emotion": "neutral",
+   "ui": "bubble",
+   "at": "22:47",
+   "num": 2,
+   "rd": "이쉬또우, 씽. 우 끄 쓰 빠싸?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Nada... só quero falar contigo.",
+   "ko": "아무것도… 그냥 너랑 얘기하고 싶어.",
+   "note": "contigo = 너와 함께",
+   "tags": [],
+   "emotion": "shy",
+   "ui": "bubble",
+   "at": "22:48",
+   "num": 3,
+   "rd": "나다... 쏘 께루 팔라르 꼰띠구."
+  },
+  {
+   "speaker": "A",
+   "tl": "A sério? Então fala!",
+   "ko": "진짜? 그럼 말해!",
+   "note": "a sério? = 진짜?, então = 그럼",
+   "tags": [
+    "expr:a sério?",
+    "expr:então"
+   ],
+   "emotion": "excited",
+   "ui": "bubble",
+   "at": "22:48",
+   "num": 4,
+   "rd": "아 쎄리우? 엔따웅 팔라!"
+  },
+  {
+   "speaker": "B",
+   "tl": "Penso em ti o dia todo. 🙈",
+   "ko": "하루 종일 네 생각 해. 🙈",
+   "note": "pensar em = ~을 생각하다",
+   "tags": [
+    "form:pensar-em"
+   ],
+   "segs": [
+    [
+     "shy",
+     "Penso em ti o dia todo. 🙈",
+     "Penso em ti o dia todo."
+    ]
+   ],
+   "ui": "bubble",
+   "at": "22:49",
+   "num": 5,
+   "rd": "뻰쑤 앵 띠 우 디아 또두. 🙈"
+  },
+  {
+   "speaker": "A",
+   "tl": "Eu... também penso em ti. 😳",
+   "ko": "나도… 네 생각 해. 😳",
+   "note": "também = ~도",
+   "tags": [
+    "expr:também"
+   ],
+   "segs": [
+    [
+     "shy",
+     "Eu... também penso em ti. 😳",
+     "Eu... também penso em ti."
+    ]
+   ],
+   "ui": "bubble",
+   "at": "22:50",
+   "num": 6,
+   "rd": "에우... 땀벵 뻰쑤 앵 띠. 😳"
+  },
+  {
+   "speaker": "B",
+   "tl": "Ah! Desculpa, isto é para o Tiago!",
+   "ko": "앗! 미안, 이거 Tiago 한테 보낸 거야!",
+   "note": "isto é para… = 이건 ~한테 가는 거야",
+   "tags": [
+    "twist"
+   ],
+   "emotion": "flustered",
+   "ui": "bubble",
+   "at": "22:50",
+   "num": 7,
+   "rd": "아! 데쉬꿀빠, 이쉬뚜 에 빠라 우 띠아구!"
+  },
+  {
+   "speaker": "B",
+   "tl": "Espera. Disseste que também pensas em mim?",
+   "ko": "잠깐. 너도 내 생각 한다고 했어?",
+   "note": "disseste = 네가 말했다(dizer 완료과거)",
+   "tags": [
+    "form:perfeito"
+   ],
+   "segs": [
+    [
+     "surprised",
+     "Espera."
+    ],
+    [
+     "teasing",
+     " Disseste que também pensas em mim?"
+    ]
+   ],
+   "ui": "bubble",
+   "at": "22:51",
+   "num": 8,
+   "rd": "이쉬뻬라. 디쎄쉬뜨 끄 땀벵 뻰싸즈 앵 밍?"
+  }
+ ]
+}

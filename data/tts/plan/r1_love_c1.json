@@ -1,0 +1,79 @@
+{
+ "ep": "r1_love_c1",
+ "cast": {
+  "B": "ines"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Olá! Estás aí?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "Estou, sim. O que se passa?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "shy",
+     "Nada... só quero falar contigo."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "excited",
+     "A sério? Então fala!"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "shy",
+     "Penso em ti o dia todo. 🙈",
+     "Penso em ti o dia todo."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "shy",
+     "Eu... também penso em ti. 😳",
+     "Eu... também penso em ti."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "flustered",
+     "Ah! Desculpa, isto é para o Tiago!"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "surprised",
+     "Espera."
+    ],
+    [
+     "teasing",
+     " Disseste que também pensas em mim?",
+     "Disseste que também pensas em mim?"
+    ]
+   ]
+  }
+ }
+}

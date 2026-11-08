@@ -1,0 +1,221 @@
+{
+ "id": "r3_life_b2",
+ "region": "R3",
+ "island": "life",
+ "kind": "long",
+ "purpose": [
+  "travel",
+  "study_abroad"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "다 「네」라고 했을 뿐인데",
+ "emoji": "☕",
+ "scene": "처음 들어간 동네 카페. 바리스타 Tiago 가 존칭으로 이것저것 권하는데, 말이 빨라 무조건 「네」만 한다.",
+ "speakers": {
+  "A": "{name}",
+  "B": "Tiago"
+ },
+ "cast": {
+  "B": "tiago"
+ },
+ "register": "polite",
+ "twist": 13,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "가게 존칭(o senhor/a senhora + 3인칭 단수), 복수 nós·eles 어미, 「pode ser」「claro」「quer dizer」「pronto」",
+ "expressions": [
+  "se faz favor",
+  "pode ser",
+  "claro",
+  "quer dizer",
+  "pronto",
+  "pois"
+ ],
+ "variant": "pt-PT",
+ "learner_gender": "female",
+ "draft": true,
+ "turns": [
+  {
+   "speaker": "B",
+   "tl": "Bom dia! A senhora quer sentar-se lá fora ou aqui dentro?",
+   "ko": "안녕하세요! 밖에 앉으시겠어요, 안에 앉으시겠어요?",
+   "note": "o senhor / a senhora + quer = 손님께서 원하세요(존칭은 3인칭 단수 동사)",
+   "tags": [
+    "form:o-senhor"
+   ],
+   "emotion": "polite",
+   "num": 1,
+   "rd": "봉 디아! 아 쎙요라 께르 쎈따르 쓰 라 포라 오우 아끼 덴트루?"
+  },
+  {
+   "speaker": "A",
+   "tl": "Aqui dentro, obrigada. Um café, se faz favor.",
+   "ko": "안이요, 고마워요. 커피 한 잔 주세요.",
+   "note": "se faz favor = (부탁할 때) 주세요",
+   "tags": [
+    "expr:se faz favor"
+   ],
+   "emotion": "stiff",
+   "num": 2,
+   "rd": "아끼 덴트루, 오브리가다. 웅 까페, 쓰 파쉬 파보르."
+  },
+  {
+   "speaker": "B",
+   "tl": "Claro. Quer um copo de água com o café?",
+   "ko": "그럼요. 커피랑 물 한 잔 같이 드릴까요?",
+   "note": "claro = 그럼요, 물론",
+   "tags": [
+    "expr:claro"
+   ],
+   "emotion": "polite",
+   "num": 3,
+   "rd": "끌라루. 께르 웅 꼬뿌 드 아과 꽁 우 까페?"
+  },
+  {
+   "speaker": "A",
+   "tl": "Sim, pode ser.",
+   "ko": "네, 그렇게 주세요.",
+   "note": "pode ser = 그걸로 할게요, 좋아요",
+   "tags": [
+    "expr:pode ser"
+   ],
+   "emotion": "stiff",
+   "num": 4,
+   "rd": "씽, 뽀드 쎄르."
+  },
+  {
+   "speaker": "B",
+   "tl": "E um doce? Hoje temos doces da casa, são muito bons.",
+   "ko": "디저트도요? 오늘은 직접 만든 디저트가 있는데, 아주 맛있어요.",
+   "note": "temos = 우리가 가지고 있다(nós 어미 -mos)",
+   "tags": [
+    "form:nos"
+   ],
+   "emotion": "cheerful",
+   "num": 5,
+   "rd": "이 웅 도쓰? 오즈 떼무쉬 도쓰쉬 다 까자, 싸웅 무이뚜 봉쉬."
+  },
+  {
+   "speaker": "A",
+   "tl": "Pode ser, sim.",
+   "ko": "네, 좋아요.",
+   "note": "말이 빨라서 일단 「네」",
+   "tags": [
+    "expr:pode ser"
+   ],
+   "emotion": "flustered",
+   "num": 6,
+   "rd": "뽀드 쎄르, 씽."
+  },
+  {
+   "speaker": "B",
+   "tl": "Um ou dois? As pessoas daqui comem sempre dois.",
+   "ko": "하나요, 두 개요? 이 동네 사람들은 늘 두 개씩 먹어요.",
+   "note": "comem = 그들이 먹는다(eles 어미 -em)",
+   "tags": [
+    "form:eles"
+   ],
+   "emotion": "teasing",
+   "num": 7,
+   "rd": "웅 오우 도이쉬? 아쉬 뻬쏘아쉬 다끼 꼬멩 쎔프르 도이쉬."
+  },
+  {
+   "speaker": "A",
+   "tl": "Sim, sim, claro.",
+   "ko": "네, 네, 그럼요.",
+   "note": "sim, sim = 네네(대충 넘길 때)",
+   "tags": [
+    "expr:claro"
+   ],
+   "emotion": "flustered",
+   "num": 8,
+   "rd": "씽, 씽, 끌라루."
+  },
+  {
+   "speaker": "B",
+   "tl": "Muito bem! E nós temos música ao vivo. Posso tocar uma coisa para a senhora?",
+   "ko": "좋습니다! 저희는 라이브 음악도 해요. 손님을 위해 한 곡 연주해도 될까요?",
+   "note": "ao vivo = 라이브로",
+   "tags": [
+    "form:nos",
+    "form:o-senhor"
+   ],
+   "emotion": "excited",
+   "num": 9,
+   "rd": "무이뚜 벵! 이 노쉬 떼무쉬 무지까 아우 비부. 뽀쑤 또까르 우마 꼬이자 빠라 아 쎙요라?"
+  },
+  {
+   "speaker": "A",
+   "tl": "Sim… quer dizer… pode ser?",
+   "ko": "네… 그러니까… 그러셔도 되는데요?",
+   "note": "quer dizer = 그러니까, 아니 내 말은",
+   "tags": [
+    "expr:quer dizer"
+   ],
+   "emotion": "flustered",
+   "num": 10,
+   "rd": "씽… 께르 디제르… 뽀드 쎄르?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Pronto! Vou buscar a guitarra. Os meus amigos também cantam. Eles podem sentar-se aqui?",
+   "ko": "됐다! 기타 가져올게요. 제 친구들도 노래하거든요. 걔들 여기 앉아도 될까요?",
+   "note": "guitarra = 기타(상한 밖 낱말)",
+   "tags": [
+    "expr:pronto",
+    "form:eles"
+   ],
+   "emotion": "excited",
+   "num": 11,
+   "rd": "프론뚜! 보우 부쉬까르 아 기따하. 우쉬 메우즈 아미구쉬 땀벵 깐따웅. 엘르쉬 뽀뎅 쎈따르 쓰 아끼?"
+  },
+  {
+   "speaker": "A",
+   "tl": "Sim! E o senhor também canta?",
+   "ko": "네! 그럼 사장님도 노래하세요?",
+   "note": "o senhor canta = 당신도 노래하세요(존칭 3인칭)",
+   "tags": [
+    "form:o-senhor"
+   ],
+   "emotion": "excited",
+   "num": 12,
+   "rd": "씽! 이 우 쎙요르 땀벵 깐따?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Muito bem. Então são três cafés, seis doces, quatro águas e um fado. A senhora paga tudo?",
+   "ko": "좋아요. 그럼 커피 셋, 디저트 여섯, 물 넷, 그리고 파두 한 곡이요. 전부 손님이 내시는 거죠?",
+   "note": "paga tudo = 전부 계산하다",
+   "tags": [
+    "twist",
+    "form:o-senhor"
+   ],
+   "segs": [
+    [
+     "polite",
+     "Muito bem. Então são três cafés, seis doces, quatro águas e um fado."
+    ],
+    [
+     "teasing",
+     "A senhora paga tudo?"
+    ]
+   ],
+   "num": 13,
+   "rd": "무이뚜 벵. 엔따웅 싸웅 트레쉬 까페쉬, 쎄이쉬 도쓰쉬, 꽈트루 아과즈 이 웅 파두. 아 쎙요라 빠가 뚜두?"
+  },
+  {
+   "speaker": "A",
+   "tl": "Pois… Acho que agora aprendi a dizer não.",
+   "ko": "그게… 저 방금 「아니요」 하는 법을 배운 것 같아요.",
+   "note": "aprender a + 동사원형 = ~하는 법을 배우다",
+   "tags": [
+    "expr:pois"
+   ],
+   "emotion": "tsukkomi",
+   "num": 14,
+   "rd": "뽀이쉬… 아슈 끄 아고라 아프렌디 아 디제르 나웅."
+  }
+ ]
+}

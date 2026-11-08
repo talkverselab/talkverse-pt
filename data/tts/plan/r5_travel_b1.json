@@ -1,0 +1,128 @@
+{
+ "ep": "r5_travel_b1",
+ "cast": {
+  "B": "beatriz"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "excited",
+     "Despacha-te, {name}! O comboio para o Porto sai daqui a dez minutos."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "amused",
+     "Calma, pá. Tenho a mala, o passaporte e a garrafa de água. Falta alguma coisa?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "cheerful",
+     "Os bilhetes! Comprei-os ontem no telemóvel. Olha, lugares à janela."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "cheerful",
+     "Fixe. E no Porto ficamos naquele hotel perto da ponte, certo?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "excited",
+     "Epá, mudei de ideias. Primeiro vamos à praia, amanhã há ondas enormes!"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Outra vez? Na semana passada mudaste o plano três vezes."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "teasing",
+     "Mas desta vez é a sério. Prometo, é o último plano."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "worried",
+     "Está bem. Onde é que mostramos os bilhetes? Não vejo ninguém na entrada."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "cheerful",
+     "Na máquina ao lado da porta. Pões o telemóvel em cima e já está."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "worried",
+     "A máquina diz que não. Aparece uma data estranha... dez do doze?"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "surprised",
+     "Do doze?!"
+    ],
+    [
+     "flustered",
+     "Ai... comprei os bilhetes para o mês que vem."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "sad",
+     "Então a mala, o passaporte, a garrafa... tudo para nada?"
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "excited",
+     "Nada disso! Há um autocarro para a praia às onze."
+    ],
+    [
+     "cheerful",
+     "Vá lá, novo plano!"
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "amused",
+     "Quarto plano em dez minutos. És mesmo maluca, sabes?"
+    ]
+   ]
+  }
+ }
+}

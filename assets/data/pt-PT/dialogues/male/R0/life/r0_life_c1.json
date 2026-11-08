@@ -1,0 +1,131 @@
+{
+ "id": "r0_life_c1",
+ "region": "R0",
+ "island": "life",
+ "kind": "chat",
+ "purpose": [
+  "life",
+  "chat"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "선물 있어",
+ "emoji": "🐱",
+ "scene": "토요일 아침, Inês 가 갑자기 메시지를 보낸다. 선물을 들고 온다는데, 수가 이상하다.",
+ "speakers": {
+  "A": "{name}",
+  "B": "Inês"
+ },
+ "cast": {
+  "B": "ines"
+ },
+ "register": "chat",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "채팅에서 놀라고 받아치기 — 「ya」「nem pensar」「pronto」",
+ "expressions": [
+  "ya",
+  "nem pensar",
+  "pronto"
+ ],
+ "variant": "pt-PT",
+ "learner_gender": "male",
+ "draft": true,
+ "turns": [
+  {
+   "speaker": "B",
+   "tl": "Estás em casa?",
+   "ko": "집이야?",
+   "note": "estás em casa? = 집에 있어?",
+   "tags": [
+    "form:estar"
+   ],
+   "emotion": "cheerful",
+   "ui": "bubble",
+   "at": "10:02",
+   "num": 1,
+   "rd": "이쉬따즈 앵 까자?"
+  },
+  {
+   "speaker": "A",
+   "tl": "Ya. Porquê?",
+   "ko": "응. 왜?",
+   "note": "ya = 응",
+   "tags": [
+    "expr:ya"
+   ],
+   "emotion": "neutral",
+   "ui": "bubble",
+   "at": "10:03",
+   "num": 2,
+   "rd": "야. 뽀르께?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Vou já. Tenho uma coisa para ti.",
+   "ko": "지금 갈게. 너 줄 거 있어.",
+   "note": "vou já = 바로 갈게",
+   "tags": [
+    "form:ir",
+    "form:ter"
+   ],
+   "emotion": "excited",
+   "ui": "bubble",
+   "at": "10:03",
+   "num": 3,
+   "rd": "보우 자. 뗑유 우마 꼬이자 빠라 띠."
+  },
+  {
+   "speaker": "A",
+   "tl": "Para mim? O quê?",
+   "ko": "나한테? 뭔데?",
+   "note": "o quê? = 뭐?",
+   "tags": [],
+   "emotion": "surprised",
+   "ui": "bubble",
+   "at": "10:03",
+   "num": 4,
+   "rd": "빠라 밍? 우 께?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Um gato. E outro. E outro...",
+   "ko": "고양이. 그리고 또. 그리고 또…",
+   "note": "gato = 고양이 (상한 밖 낱말)",
+   "tags": [
+    "twist"
+   ],
+   "emotion": "cheerful",
+   "ui": "bubble",
+   "at": "10:04",
+   "num": 5,
+   "rd": "웅 가뚜. 이 오우트루. 이 오우트루..."
+  },
+  {
+   "speaker": "A",
+   "tl": "Nem pensar! ... Pronto, vem lá.",
+   "ko": "절대 안 돼! … 됐어, 와.",
+   "note": "nem pensar = 말도 안 돼, vem = 와",
+   "tags": [
+    "expr:nem pensar",
+    "expr:pronto"
+   ],
+   "segs": [
+    [
+     "tsukkomi",
+     "Nem pensar! ..."
+    ],
+    [
+     "gentle",
+     " Pronto, vem lá."
+    ]
+   ],
+   "ui": "bubble",
+   "at": "10:05",
+   "num": 6,
+   "rd": "넹 뻰싸르! ... 프론뚜, 벵 라."
+  }
+ ]
+}

@@ -1,0 +1,267 @@
+{
+ "id": "r4_love_c1",
+ "region": "R4",
+ "island": "love",
+ "kind": "chat",
+ "purpose": [
+  "love",
+  "chat"
+ ],
+ "domain": [
+  "love"
+ ],
+ "title": "그 메시지는 고양이가",
+ "emoji": "💬",
+ "scene": "밤 11시 40분, Inês 가 먼저 「가정법」 질문을 보낸다. 들뜬 다음 메시지는 엉뚱한 방으로 간다.",
+ "speakers": {
+  "A": "{name}",
+  "B": "Inês"
+ },
+ "cast": {
+  "B": "ines"
+ },
+ "register": "chat",
+ "twist": 7,
+ "twist_type": "slip",
+ "flags": [
+  "romance"
+ ],
+ "goal": "접속법 과거(se eu pedisse·como se), 조건법(dirias·gostarias), 미래 접속법(se fores·como quiseres)으로 조심스러운 데이트 신청",
+ "expressions": [
+  "olha",
+  "a sério?",
+  "pronto",
+  "nem pensar",
+  "fixe"
+ ],
+ "variant": "pt-PT",
+ "learner_gender": "female",
+ "draft": true,
+ "turns": [
+  {
+   "speaker": "B",
+   "tl": "Olha, uma pergunta. Se eu te pedisse para jantar comigo amanhã, o que dirias?",
+   "ko": "있잖아, 하나 물어볼게. 내가 내일 같이 저녁 먹자고 하면, 뭐라고 할 거야?",
+   "note": "se eu te pedisse = 내가 너한테 청한다면(접속법 과거) · dirias = 말하겠어?(조건법)",
+   "tags": [
+    "expr:olha",
+    "form:conjuntivo-imperfeito",
+    "form:condicional"
+   ],
+   "segs": [
+    [
+     "cheerful",
+     "Olha, uma pergunta."
+    ],
+    [
+     "shy",
+     " Se eu te pedisse para jantar comigo amanhã, o que dirias?"
+    ]
+   ],
+   "ui": "bubble",
+   "at": "23:41",
+   "num": 1,
+   "rd": "올랴, 우마 뻬르군따. 쓰 에우 뜨 뻬디쓰 빠라 잔따르 꼬미구 아망양, 우 끄 디리아쉬?"
+  },
+  {
+   "speaker": "A",
+   "tl": "Diria que sim. Mas porquê «se»? Estás a perguntar a sério?",
+   "ko": "좋다고 하겠지. 근데 왜 「만약」이야? 진짜로 묻는 거야?",
+   "note": "diria = 말하겠지(조건법) · a sério = 진지하게",
+   "tags": [
+    "form:condicional",
+    "expr:a sério?",
+    "form:estar a"
+   ],
+   "emotion": "surprised",
+   "ui": "bubble",
+   "at": "23:42",
+   "num": 2,
+   "rd": "디리아 끄 씽. 마쉬 뽀르께 «쓰»? 이쉬따즈 아 뻬르군따르 아 쎄리우?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Pronto, é para não ficar com vergonha caso digas que não.",
+   "ko": "그게, 네가 싫다고 할 경우에 안 창피하려고.",
+   "note": "caso + 접속법 = ~할 경우에 · ficar com vergonha = 창피해지다",
+   "tags": [
+    "expr:pronto",
+    "form:conjuntivo"
+   ],
+   "emotion": "flustered",
+   "ui": "bubble",
+   "at": "23:42",
+   "num": 3,
+   "rd": "프론뚜, 에 빠라 나웅 피까르 꽁 베르공야 까주 디가쉬 끄 나웅."
+  },
+  {
+   "speaker": "A",
+   "tl": "Nem pensar. Mas só vou se fores tu a escolher o sítio.",
+   "ko": "그럴 리가. 근데 장소는 네가 고르는 조건으로만 갈래.",
+   "note": "se fores tu = 네가 한다면(미래 접속법)",
+   "tags": [
+    "expr:nem pensar",
+    "form:futuro-conjuntivo"
+   ],
+   "emotion": "teasing",
+   "ui": "bubble",
+   "at": "23:43",
+   "num": 4,
+   "rd": "넹 뻰싸르. 마쉬 쏘 보우 쓰 포르쉬 뚜 아 이쉬꼴례르 우 씨띠우."
+  },
+  {
+   "speaker": "B",
+   "tl": "Fixe! Há um sítio perto do rio onde cantam fado. Achas que gostarias?",
+   "ko": "좋아! 강 근처에 파두 부르는 데가 있어. 네 마음에 들 것 같아?",
+   "note": "gostarias = 좋아하겠어?(조건법) · fado = 포르투갈 전통 노래",
+   "tags": [
+    "expr:fixe",
+    "form:condicional"
+   ],
+   "emotion": "excited",
+   "ui": "bubble",
+   "at": "23:44",
+   "num": 5,
+   "rd": "피쉬! 아 웅 씨띠우 뻬르뚜 두 히우 옹드 깐따웅 파두. 아샤쉬 끄 고쉬따리아쉬?"
+  },
+  {
+   "speaker": "A",
+   "tl": "Gostaria muito. Nunca ouvi fado ao vivo.",
+   "ko": "엄청 좋을 것 같아. 파두를 라이브로 들어 본 적이 없거든.",
+   "note": "ao vivo = 라이브로, 현장에서",
+   "tags": [
+    "form:condicional"
+   ],
+   "emotion": "cheerful",
+   "ui": "bubble",
+   "at": "23:44",
+   "num": 6,
+   "rd": "고쉬따리아 무이뚜. 눙까 오우비 파두 아우 비부."
+  },
+  {
+   "speaker": "B",
+   "tl": "ELE DISSE QUE SIM!!! Ajuda, o que é que eu visto? Preciso que me digas já!!",
+   "ko": "걔가 좋대!!! 도와줘, 나 뭐 입지? 지금 당장 말해 줘!!",
+   "note": "visto = 내가 입다(vestir, 상한 밖 낱말) · preciso que + 접속법 = ~해 줘야 해",
+   "tags": [
+    "twist",
+    "form:conjuntivo"
+   ],
+   "segs": [
+    [
+     "shout",
+     "ELE DISSE QUE SIM!!!"
+    ],
+    [
+     "excited",
+     " Ajuda, o que é que eu visto? Preciso que me digas já!!"
+    ]
+   ],
+   "ui": "bubble",
+   "at": "23:45",
+   "num": 7,
+   "rd": "엘르 디쓰 끄 씽!!! 아주다, 우 끄 에 끄 에우 비쉬뚜? 프레씨주 끄 므 디가쉬 자!!"
+  },
+  {
+   "speaker": "B",
+   "tl": "Espera.",
+   "ko": "잠깐.",
+   "note": "espera = 잠깐",
+   "tags": [],
+   "emotion": "flustered",
+   "ui": "bubble",
+   "at": "23:45",
+   "num": 8,
+   "rd": "이쉬뻬라."
+  },
+  {
+   "speaker": "B",
+   "tl": "Isso não era para ti. Era para a Beatriz. Esquece o que viste.",
+   "ko": "그거 너한테 보낸 거 아니야. 베아트리스한테 보낸 거야. 본 거 잊어.",
+   "note": "esquece = 잊어(명령)",
+   "tags": [],
+   "emotion": "flustered",
+   "ui": "bubble",
+   "at": "23:45",
+   "num": 9,
+   "rd": "이쑤 나웅 에라 빠라 띠. 에라 빠라 아 베아트리쉬. 이쉬께쓰 우 끄 비쉬뜨."
+  },
+  {
+   "speaker": "A",
+   "tl": "Tarde demais. Já li tudo, e mais de uma vez.",
+   "ko": "너무 늦었어. 벌써 다 읽었어, 그것도 여러 번.",
+   "note": "tarde demais = 너무 늦었다",
+   "tags": [],
+   "emotion": "amused",
+   "ui": "bubble",
+   "at": "23:46",
+   "num": 10,
+   "rd": "따르드 데마이쉬. 자 리 뚜두, 이 마이쉬 드 우마 베쉬."
+  },
+  {
+   "speaker": "B",
+   "tl": "Que vergonha... Pronto, é verdade. Há semanas que queria que fosses tu a pedir.",
+   "ko": "아 창피해… 그래, 맞아. 몇 주째 네가 먼저 말해 주길 바랐어.",
+   "note": "queria que fosses tu = 네가 (해) 주길 바랐어(접속법 과거)",
+   "tags": [
+    "expr:pronto",
+    "form:conjuntivo-imperfeito"
+   ],
+   "segs": [
+    [
+     "flustered",
+     "Que vergonha..."
+    ],
+    [
+     "shy",
+     " Pronto, é verdade. Há semanas que queria que fosses tu a pedir."
+    ]
+   ],
+   "ui": "bubble",
+   "at": "23:47",
+   "num": 11,
+   "rd": "끄 베르공야... 프론뚜, 에 베르다드. 아 쎄마나쉬 끄 께리아 끄 포쓰쉬 뚜 아 뻬디르."
+  },
+  {
+   "speaker": "A",
+   "tl": "Semanas? E eu a pensar que tu nem olhavas para mim.",
+   "ko": "몇 주? 난 네가 날 쳐다보지도 않는 줄 알았는데.",
+   "note": "eu a pensar que = 난 ~인 줄 알았다",
+   "tags": [
+    "form:estar a"
+   ],
+   "emotion": "surprised",
+   "ui": "bubble",
+   "at": "23:47",
+   "num": 12,
+   "rd": "쎄마나쉬? 이 에우 아 뻰싸르 끄 뚜 넹 올랴바쉬 빠라 밍."
+  },
+  {
+   "speaker": "A",
+   "tl": "Quanto à roupa: vem como quiseres. Vais estar bonita de qualquer maneira.",
+   "ko": "옷은 말이야, 입고 싶은 대로 와. 어떻게 와도 예쁠 거야.",
+   "note": "como quiseres = 네가 원하는 대로(미래 접속법)",
+   "tags": [
+    "heart",
+    "form:futuro-conjuntivo"
+   ],
+   "emotion": "gentle",
+   "ui": "bubble",
+   "at": "23:48",
+   "num": 13,
+   "rd": "꽌뚜 아 호우빠: 벵 꼬무 끼제르쉬. 바이즈 이쉬따르 보니따 드 꽐께르 마네이라."
+  },
+  {
+   "speaker": "B",
+   "tl": "...Esta também vou mostrar à Beatriz.",
+   "ko": "…이것도 베아트리스한테 보여 줄 거야.",
+   "note": "esta = 이것(이 메시지)",
+   "tags": [],
+   "emotion": "shy",
+   "ui": "bubble",
+   "at": "23:50",
+   "num": 14,
+   "rd": "...에쉬따 땀벵 보우 모쉬트라르 아 베아트리쉬."
+  }
+ ]
+}

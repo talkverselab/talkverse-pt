@@ -1,0 +1,232 @@
+{
+ "id": "r2_love_c2",
+ "region": "R2",
+ "island": "love",
+ "kind": "chat",
+ "purpose": [
+  "dating"
+ ],
+ "domain": [
+  "love"
+ ],
+ "title": "잘못 보낸 음성 메시지",
+ "emoji": "🌊",
+ "scene": "바다가 거친 밤, Beatriz 가 먼저 {name} 에게 메시지를 보낸다. 내일 서핑은 취소.",
+ "speakers": {
+  "A": "{name}",
+  "B": "Beatriz"
+ },
+ "cast": {
+  "B": "beatriz"
+ },
+ "register": "chat",
+ "twist": 7,
+ "twist_type": "slip",
+ "flags": [
+  "romance"
+ ],
+ "goal": "채팅 말투, 부가의문 pois não?, 완료과거 ouviste·ouvi",
+ "expressions": [
+  "que chatice",
+  "sei lá",
+  "se calhar",
+  "pois não?",
+  "então"
+ ],
+ "variant": "pt-PT",
+ "learner_gender": "male",
+ "draft": true,
+ "turns": [
+  {
+   "speaker": "B",
+   "tl": "Estás acordado?",
+   "ko": "깨어 있어?",
+   "note": "acordado/a = 깨어 있는",
+   "tags": [],
+   "ui": "bubble",
+   "at": "23:12",
+   "emotion": "gentle",
+   "num": 1,
+   "rd": "이쉬따즈 아꼬르다두?"
+  },
+  {
+   "speaker": "A",
+   "tl": "Estou. Não consigo dormir.",
+   "ko": "응. 잠이 안 와.",
+   "note": "não consigo = ~할 수가 없다(conseguir)",
+   "tags": [],
+   "ui": "bubble",
+   "at": "23:13",
+   "emotion": "neutral",
+   "num": 2,
+   "rd": "이쉬또우. 나웅 꼰씨구 도르미르."
+  },
+  {
+   "speaker": "B",
+   "tl": "Amanhã não dá para ir ao mar. Está muito mau.",
+   "ko": "내일 바다 못 가. 너무 험해.",
+   "note": "não dá para = ~할 수가 없다",
+   "tags": [],
+   "ui": "bubble",
+   "at": "23:13",
+   "emotion": "sad",
+   "num": 3,
+   "rd": "아망양 나웅 다 빠라 이르 아우 마르. 이쉬따 무이뚜 마우."
+  },
+  {
+   "speaker": "A",
+   "tl": "Que chatice. Então o que fazes amanhã?",
+   "ko": "아 짜증 나겠다. 그럼 내일 뭐 해?",
+   "note": "que chatice = 아 짜증 나, 아쉽다",
+   "tags": [
+    "expr:que chatice",
+    "expr:então"
+   ],
+   "ui": "bubble",
+   "at": "23:14",
+   "emotion": "gentle",
+   "num": 4,
+   "rd": "끄 샤띠쓰. 엔따웅 우 끄 파즈즈 아망양?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Sei lá. Se calhar fico em casa a ver filmes sozinha.",
+   "ko": "몰라. 어쩌면 집에서 혼자 영화나 볼래.",
+   "note": "sei lá = 몰라 / se calhar = 어쩌면",
+   "tags": [
+    "expr:sei lá",
+    "expr:se calhar"
+   ],
+   "ui": "bubble",
+   "at": "23:14",
+   "emotion": "sad",
+   "num": 5,
+   "rd": "쎄이 라. 쓰 깔랴르 피꾸 앵 까자 아 베르 필므쉬 쏘지냐."
+  },
+  {
+   "speaker": "B",
+   "tl": "Espera, vou mandar uma mensagem de voz à Inês.",
+   "ko": "잠깐, Inês 한테 음성 메시지 하나 보낼게.",
+   "note": "mensagem de voz = 음성 메시지(mensagem 상한 밖)",
+   "tags": [
+    "new:mensagem"
+   ],
+   "ui": "bubble",
+   "at": "23:15",
+   "emotion": "cheerful",
+   "num": 6,
+   "rd": "이쉬뻬라, 보우 만다르 우마 멘싸젱 드 보즈 아 이네쉬."
+  },
+  {
+   "speaker": "B",
+   "tl": "Inês, acho que gosto dele... e ele não percebe nada! 🎤",
+   "ko": "Inês, 나 걔 좋아하는 것 같아… 근데 걔는 하나도 몰라! 🎤",
+   "note": "percebe = 알아차리다(perceber)",
+   "tags": [
+    "twist",
+    "ui:voice"
+   ],
+   "ui": "bubble",
+   "at": "23:15",
+   "segs": [
+    [
+     "shy",
+     "Inês, acho que gosto dele..."
+    ],
+    [
+     "annoyed",
+     "e ele não percebe nada! 🎤",
+     "e ele não percebe nada!"
+    ]
+   ],
+   "num": 7,
+   "rd": "이네쉬, 아슈 끄 고쉬뚜 델르... 이 엘르 나웅 뻬르쎄브 나다! 🎤"
+  },
+  {
+   "speaker": "A",
+   "tl": "Beatriz... acho que isso não foi para a Inês.",
+   "ko": "Beatriz… 그거 Inês 한테 간 거 아닌 것 같은데.",
+   "note": "foi para = ~에게 갔다(ir 완료과거)",
+   "tags": [
+    "form:perfeito"
+   ],
+   "ui": "bubble",
+   "at": "23:16",
+   "emotion": "flustered",
+   "num": 8,
+   "rd": "베아트리쉬... 아슈 끄 이쑤 나웅 포이 빠라 아 이네쉬."
+  },
+  {
+   "speaker": "B",
+   "tl": "NÃO. Esquece isso! Não ouviste nada, pois não?",
+   "ko": "안 돼. 잊어! 아무것도 못 들었지, 그치?",
+   "note": "pois não? = 그렇지?(부정문 뒤 확인)",
+   "tags": [
+    "expr:pois não?",
+    "form:perfeito"
+   ],
+   "ui": "bubble",
+   "at": "23:16",
+   "segs": [
+    [
+     "shout",
+     "NÃO. Esquece isso!"
+    ],
+    [
+     "flustered",
+     "Não ouviste nada, pois não?"
+    ]
+   ],
+   "num": 9,
+   "rd": "나웅. 이쉬께쓰 이쑤! 나웅 오우비쉬뜨 나다, 뽀이쉬 나웅?"
+  },
+  {
+   "speaker": "A",
+   "tl": "Ouvi. Duas vezes. 😏",
+   "ko": "들었지. 두 번. 😏",
+   "note": "ouvi = 들었다(ouvir 완료과거)",
+   "tags": [
+    "form:perfeito"
+   ],
+   "ui": "bubble",
+   "at": "23:17",
+   "segs": [
+    [
+     "teasing",
+     "Ouvi. Duas vezes. 😏",
+     "Ouvi. Duas vezes."
+    ]
+   ],
+   "num": 10,
+   "rd": "오우비. 두아쉬 베즈쉬. 😏"
+  },
+  {
+   "speaker": "B",
+   "tl": "... E então?",
+   "ko": "…그래서?",
+   "note": "e então? = 그래서?",
+   "tags": [
+    "expr:então"
+   ],
+   "ui": "bubble",
+   "at": "23:19",
+   "emotion": "shy",
+   "num": 11,
+   "rd": "... 이 엔따웅?"
+  },
+  {
+   "speaker": "A",
+   "tl": "Então amanhã não vês filmes sozinha.",
+   "ko": "그럼 내일은 혼자 영화 안 보는 거지.",
+   "note": "vês = 너는 본다(ver 현재)",
+   "tags": [
+    "heart"
+   ],
+   "ui": "bubble",
+   "at": "23:20",
+   "emotion": "gentle",
+   "num": 12,
+   "rd": "엔따웅 아망양 나웅 베쉬 필므쉬 쏘지냐."
+  }
+ ]
+}

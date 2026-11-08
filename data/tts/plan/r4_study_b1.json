@@ -1,0 +1,125 @@
+{
+ "ep": "r4_study_b1",
+ "cast": {
+  "B": "duarte"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "{name}, tens um minuto? Se me ajudares esta noite, faço o jantar a semana toda."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "teasing",
+     "Ajudar em quê? Não me digas que é o exame de amanhã."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "flustered",
+     "É. E ainda não abri o livro. Passei a tarde a ver o jogo."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "tsukkomi",
+     "A tarde toda? Duarte, o exame é amanhã de manhã!"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "worried",
+     "Pois, por isso é que preciso de ti. Explicas-me tudo como se eu não soubesse nada?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "annoyed",
+     "Está bem. Mas nada de jogos até acabarmos."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "cheerful",
+     "Juro. Pronto, primeira pergunta: o que é que eu teria de saber para passar?"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "neutral",
+     "Tudo. Mas se perceberes esta parte do livro, já é meio caminho."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "gentle",
+     "Vá lá, já vamos a meio. Agora explica-me tu, como se eu fosse o professor."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "cheerful",
+     "Não é preciso. Já percebi. Agora já posso explicar tudo à Inês amanhã."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "surprised",
+     "À Inês? Espera... o exame não é teu?"
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "amused",
+     "Meu? Eu nem estudo lá."
+    ],
+    [
+     "shy",
+     " O exame é da Inês. Disse-lhe que a ajudava.",
+     "O exame é da Inês. Disse-lhe que a ajudava."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Então passei a noite a explicar isto para tu ficares bem com ela?"
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "shy",
+     "E faço o jantar o mês todo. Mas não lhe digas nada, por favor."
+    ]
+   ]
+  }
+ }
+}

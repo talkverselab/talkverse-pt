@@ -1,0 +1,114 @@
+{
+ "ep": "r2_love_c2",
+ "cast": {
+  "B": "beatriz"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "gentle",
+     "Estás acordad{o|a}?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "Estou. Não consigo dormir."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "sad",
+     "Amanhã não dá para ir ao mar. Está muito mau."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "gentle",
+     "Que chatice. Então o que fazes amanhã?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "sad",
+     "Sei lá. Se calhar fico em casa a ver filmes sozinha."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "cheerful",
+     "Espera, vou mandar uma mensagem de voz à Inês."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "shy",
+     "Inês, acho que gosto d{ele|ela}..."
+    ],
+    [
+     "annoyed",
+     "e el{e|a} não percebe nada! 🎤",
+     "e el{e|a} não percebe nada!"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "flustered",
+     "Beatriz... acho que isso não foi para a Inês."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "shout",
+     "NÃO. Esquece isso!"
+    ],
+    [
+     "flustered",
+     "Não ouviste nada, pois não?"
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "teasing",
+     "Ouvi. Duas vezes. 😏",
+     "Ouvi. Duas vezes."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "shy",
+     "... E então?"
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "gentle",
+     "Então amanhã não vês filmes sozinha."
+    ]
+   ]
+  }
+ }
+}

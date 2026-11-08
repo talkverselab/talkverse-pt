@@ -1,0 +1,61 @@
+{
+ "ep": "r0_love_a1",
+ "cast": {
+  "B": "beatriz"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Olha, tu és {o|a} {name}?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "surprised",
+     "Sim, sou eu. Porquê?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "teasing",
+     "A Inês fala muito de ti."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "flustered",
+     "A sério? E diz o quê?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "amused",
+     "Nada."
+    ],
+    [
+     "shy",
+     " Fui eu que perguntei.",
+     "Fui eu que perguntei."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "gentle",
+     "Então... vens comigo? Vá lá."
+    ]
+   ]
+  }
+ }
+}

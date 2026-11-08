@@ -1,0 +1,113 @@
+{
+ "ep": "r2_love_c1",
+ "cast": {
+  "B": "ines"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Olá! Gostei muito da tua fotografia com o cão. 🐶",
+     "Olá! Gostei muito da tua fotografia com o cão."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "amused",
+     "Obrigad{o|a}! Mas olha, o cão não é meu."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "surprised",
+     "A sério? Então de quem é?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "neutral",
+     "Não sei. Apareceu na rua ontem à noite e ficou comigo."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "teasing",
+     "Ficou contigo a noite toda? Que cão com sorte."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "amused",
+     "Pois. E comeu o meu jantar todo, coitado."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "worried",
+     "Espera. Era pequeno e não parava de correr?"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "surprised",
+     "Era! Como é que sabes?"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "excited",
+     "Porque é o meu cão!"
+    ],
+    [
+     "worried",
+     "Saiu de casa ontem e não voltou."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "cheerful",
+     "Ainda bem! Está aqui comigo, a dormir na minha cama."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "cheerful",
+     "Então vou aí buscá-lo."
+    ],
+    [
+     "shy",
+     "Ou buscar-te a ti. Se calhar os dois."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "amused",
+     "Traz alguma coisa para comer. Ele comeu o meu jantar, lembras-te?"
+    ]
+   ]
+  }
+ }
+}

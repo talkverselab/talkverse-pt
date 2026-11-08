@@ -1,0 +1,240 @@
+{
+ "id": "r3_friends_b1",
+ "region": "R3",
+ "island": "friends",
+ "kind": "long",
+ "purpose": [
+  "study_abroad",
+  "travel"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "title": "주인공이 먼저 온 깜짝 파티",
+ "emoji": "🎉",
+ "scene": "셰어하우스. Duarte·Inês 와 함께 Beatriz 깜짝 생일 파티를 준비하는데, 먹을 걸 산 사람이 아무도 없다.",
+ "speakers": {
+  "A": "{name}",
+  "B": "Duarte",
+  "C": "Inês",
+  "D": "Beatriz"
+ },
+ "cast": {
+  "B": "duarte",
+  "C": "ines",
+  "D": "beatriz"
+ },
+ "register": "casual",
+ "twist": 12,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "복수 vocês·nós 어미(trataram·escondemos·somos), 「pronto」「não faz mal」「pois é」「quer dizer」",
+ "expressions": [
+  "então",
+  "pronto",
+  "não faz mal",
+  "pois é",
+  "quer dizer"
+ ],
+ "variant": "pt-PT",
+ "learner_gender": "male",
+ "draft": true,
+ "turns": [
+  {
+   "speaker": "B",
+   "tl": "Então, pessoal, a Beatriz chega às oito. Vocês trataram de tudo?",
+   "ko": "자, 얘들아, Beatriz 8시에 와. 너희 다 준비했지?",
+   "note": "vocês trataram = 너희가 처리했다(vocês = 3인칭 복수 어미)",
+   "tags": [
+    "expr:então",
+    "form:voces"
+   ],
+   "emotion": "excited",
+   "num": 1,
+   "rd": "엔따웅, 뻬쏘알, 아 베아트리쉬 셰가 아즈 오이뚜. 보쎄쉬 트라따라웅 드 뚜두?"
+  },
+  {
+   "speaker": "C",
+   "tl": "Eu tratei da música. E chamei umas pessoas do trabalho dela.",
+   "ko": "난 음악 맡았어. 그리고 걔 회사 사람들도 몇 명 불렀어.",
+   "note": "tratar de = ~을 맡다, 처리하다",
+   "tags": [
+    "form:tratar-de"
+   ],
+   "emotion": "cheerful",
+   "num": 2,
+   "rd": "에우 트라떼이 다 무지까. 이 샤메이 우마쉬 뻬쏘아쉬 두 트라발류 델라."
+  },
+  {
+   "speaker": "A",
+   "tl": "Eu trouxe as flores e os copos. E tu, Duarte?",
+   "ko": "난 꽃이랑 컵 가져왔어. 넌, Duarte?",
+   "note": "trouxe = 가져왔다(trazer 완료과거)",
+   "tags": [
+    "form:trazer"
+   ],
+   "emotion": "cheerful",
+   "num": 3,
+   "rd": "에우 트로쓰 아쉬 플로르즈 이 우쉬 꼬뿌쉬. 이 뚜, 두아르뜨?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Eu? Eu estava a ver o jogo… Pensei que vocês iam comprar as coisas para comer.",
+   "ko": "나? 난 경기 보고 있었는데… 먹을 건 너희가 사는 줄 알았지.",
+   "note": "vocês iam comprar = 너희가 살 거였다",
+   "tags": [
+    "form:voces"
+   ],
+   "emotion": "flustered",
+   "num": 4,
+   "rd": "에우? 에우 이쉬따바 아 베르 우 조구… 뻰쎄이 끄 보쎄즈 이아웅 꽁프라르 아쉬 꼬이자쉬 빠라 꼬메르."
+  },
+  {
+   "speaker": "C",
+   "tl": "Nós?! Duarte, tu disseste que tratavas tu disso!",
+   "ko": "우리가?! Duarte, 그건 네가 한다며!",
+   "note": "tratavas tu disso = 네가 그걸 맡는다고",
+   "tags": [
+    "form:nos"
+   ],
+   "emotion": "tsukkomi",
+   "num": 5,
+   "rd": "노쉬?! 두아르뜨, 뚜 디쎄쉬뜨 끄 트라따바쉬 뚜 디쑤!"
+  },
+  {
+   "speaker": "A",
+   "tl": "Pronto, não faz mal. Temos quanto tempo?",
+   "ko": "됐어, 괜찮아. 시간 얼마나 남았어?",
+   "note": "não faz mal = 괜찮아, 상관없어",
+   "tags": [
+    "expr:pronto",
+    "expr:não faz mal"
+   ],
+   "emotion": "worried",
+   "num": 6,
+   "rd": "프론뚜, 나웅 파쉬 말. 떼무쉬 꽌뚜 뗌뿌?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Uma hora. Eu vou já buscar qualquer coisa. Vocês ficam aqui e escondem as flores.",
+   "ko": "한 시간. 내가 당장 뭐라도 사 올게. 너희는 여기서 꽃 숨겨.",
+   "note": "vocês ficam / escondem = 너희가 남다 / 숨기다",
+   "tags": [
+    "form:voces"
+   ],
+   "emotion": "excited",
+   "num": 7,
+   "rd": "우마 오라. 에우 보우 자 부쉬까르 꽐께르 꼬이자. 보쎄쉬 피까웅 아끼 이 이쉬꽁뎅 아쉬 플로르쉬."
+  },
+  {
+   "speaker": "C",
+   "tl": "Escondemos onde? A casa é um quarto e meio!",
+   "ko": "어디다 숨겨? 집이 방 한 칸 반인데!",
+   "note": "escondemos = 우리가 숨기다(nós 어미 -mos)",
+   "tags": [
+    "form:nos"
+   ],
+   "emotion": "tsukkomi",
+   "num": 8,
+   "rd": "이쉬꽁데무즈 옹드? 아 까자 에 웅 꽈르뚜 이 메이우!"
+  },
+  {
+   "speaker": "A",
+   "tl": "Espera… alguém está a abrir a porta.",
+   "ko": "잠깐… 누가 문 열고 있어.",
+   "note": "estar a + 동사원형 = ~하는 중",
+   "tags": [
+    "form:estar-a"
+   ],
+   "emotion": "worried",
+   "num": 9,
+   "rd": "이쉬뻬라… 알겡 이쉬따 아 아브리르 아 뽀르따."
+  },
+  {
+   "speaker": "D",
+   "tl": "Olá! Mudei tudo, cheguei mais cedo!",
+   "ko": "안녕! 계획 다 바꿨어, 일찍 왔지!",
+   "note": "mudei tudo = 다 바꿨다",
+   "tags": [],
+   "emotion": "excited",
+   "num": 10,
+   "rd": "올라! 무데이 뚜두, 셰게이 마이쉬 쎄두!"
+  },
+  {
+   "speaker": "C",
+   "tl": "Beatriz?! Ainda são sete horas!",
+   "ko": "Beatriz?! 아직 7시밖에 안 됐는데!",
+   "note": "ainda são … horas = 아직 ~시다",
+   "tags": [],
+   "emotion": "surprised",
+   "num": 11,
+   "rd": "베아트리쉬?! 아인다 싸웅 쎄뜨 오라쉬!"
+  },
+  {
+   "speaker": "D",
+   "tl": "Pois é! E trouxe os meus amigos do mar. Somos 20. Vocês têm alguma coisa para comer?",
+   "ko": "그렇지! 서핑 친구들도 데려왔어. 우리 스무 명이야. 너희 먹을 거 좀 있어?",
+   "note": "somos = 우리는 ~이다(ser, nós) / pois é = 그렇지, 맞아",
+   "tags": [
+    "twist",
+    "expr:pois é",
+    "form:nos"
+   ],
+   "segs": [
+    [
+     "excited",
+     "Pois é! E trouxe os meus amigos do mar."
+    ],
+    [
+     "cheerful",
+     "Somos 20. Vocês têm alguma coisa para comer?",
+     "Somos vinte. Vocês têm alguma coisa para comer?"
+    ]
+   ],
+   "num": 12,
+   "rd": "뽀이즈 에! 이 트로쓰 우쉬 메우즈 아미구쉬 두 마르. 쏘무쉬 20. 보쎄쉬 땡잉 알구마 꼬이자 빠라 꼬메르?"
+  },
+  {
+   "speaker": "A",
+   "tl": "Temos flores, copos e uma surpresa. Quer dizer… tínhamos.",
+   "ko": "꽃이랑 컵이랑 깜짝 파티가 있어. 아니… 있었어.",
+   "note": "surpresa = 깜짝 선물·파티(상한 밖 낱말) / quer dizer = 아니 그러니까",
+   "tags": [
+    "expr:quer dizer"
+   ],
+   "segs": [
+    [
+     "amused",
+     "Temos flores, copos e uma surpresa."
+    ],
+    [
+     "tsukkomi",
+     "Quer dizer… tínhamos."
+    ]
+   ],
+   "num": 13,
+   "rd": "떼무쉬 플로르쉬, 꼬뿌즈 이 우마 쑤르프레자. 께르 디제르… 띵야무쉬."
+  },
+  {
+   "speaker": "B",
+   "tl": "Pessoal, cheguei! Só consegui uma coisa: um doce. Um.",
+   "ko": "얘들아, 나 왔어! 겨우 하나 구했어. 디저트. 하나.",
+   "note": "consegui = 해냈다, 구했다(conseguir)",
+   "tags": [
+    "form:conseguir"
+   ],
+   "segs": [
+    [
+     "excited",
+     "Pessoal, cheguei!"
+    ],
+    [
+     "flustered",
+     "Só consegui uma coisa: um doce. Um."
+    ]
+   ],
+   "num": 14,
+   "rd": "뻬쏘알, 셰게이! 쏘 꼰쎄기 우마 꼬이자: 웅 도쓰. 웅."
+  }
+ ]
+}

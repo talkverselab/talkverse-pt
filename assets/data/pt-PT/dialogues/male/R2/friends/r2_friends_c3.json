@@ -1,0 +1,225 @@
+{
+ "id": "r2_friends_c3",
+ "region": "R2",
+ "island": "friends",
+ "kind": "chat",
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "friends",
+  "life"
+ ],
+ "title": "내 케이크 어디 갔어",
+ "emoji": "🎂",
+ "scene": "밤늦게 룸메이트 Duarte 와 채팅. 집에 두고 나간 케이크가 사라졌다.",
+ "speakers": {
+  "A": "{name}",
+  "B": "Duarte"
+ },
+ "cast": {
+  "B": "duarte"
+ },
+ "register": "chat",
+ "twist": 10,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "채팅 말투, 완료과거 viste·comeste·houve, 반과거 estava·era",
+ "expressions": [
+  "pois",
+  "um bocado",
+  "epá",
+  "quer dizer",
+  "olha"
+ ],
+ "variant": "pt-PT",
+ "learner_gender": "male",
+ "draft": true,
+ "turns": [
+  {
+   "speaker": "A",
+   "tl": "Duarte, viste o meu bolo? Estava aqui em casa.",
+   "ko": "Duarte, 내 케이크 봤어? 집에 있었는데.",
+   "note": "bolo = 케이크(상한 밖) / viste = 봤어(ver 완료과거)",
+   "tags": [
+    "form:perfeito",
+    "form:imperfeito",
+    "new:bolo"
+   ],
+   "ui": "bubble",
+   "at": "23:40",
+   "emotion": "worried",
+   "num": 1,
+   "rd": "두아르뜨, 비쉬뜨 우 메우 볼루? 이쉬따바 아끼 앵 까자."
+  },
+  {
+   "speaker": "B",
+   "tl": "Que bolo? Estou a ver o jogo.",
+   "ko": "무슨 케이크? 나 경기 보는 중.",
+   "note": "estou a ver = 보고 있다(estar a + 원형)",
+   "tags": [],
+   "ui": "bubble",
+   "at": "23:41",
+   "emotion": "stiff",
+   "num": 2,
+   "rd": "끄 볼루? 이쉬또우 아 베르 우 조구."
+  },
+  {
+   "speaker": "A",
+   "tl": "O bolo grande. Com o meu nome em cima.",
+   "ko": "큰 케이크. 위에 내 이름 써 있는 거.",
+   "note": "em cima = 위에",
+   "tags": [],
+   "ui": "bubble",
+   "at": "23:41",
+   "emotion": "annoyed",
+   "num": 3,
+   "rd": "우 볼루 그란드. 꽁 우 메우 노므 앵 씨마."
+  },
+  {
+   "speaker": "B",
+   "tl": "Ah, esse. Pois, era muito bonito.",
+   "ko": "아, 그거. 그래, 예뻤지.",
+   "note": "era = ~였다(ser 반과거)",
+   "tags": [
+    "expr:pois",
+    "form:imperfeito"
+   ],
+   "ui": "bubble",
+   "at": "23:42",
+   "emotion": "teasing",
+   "num": 4,
+   "rd": "아, 에쓰. 뽀이쉬, 에라 무이뚜 보니뚜."
+  },
+  {
+   "speaker": "A",
+   "tl": "ERA?! Duarte, comeste o meu bolo?",
+   "ko": "예뻤지?! Duarte, 너 내 케이크 먹었어?",
+   "note": "comeste = 네가 먹었다(comer 완료과거)",
+   "tags": [
+    "form:perfeito"
+   ],
+   "ui": "bubble",
+   "at": "23:42",
+   "emotion": "shout",
+   "num": 5,
+   "rd": "에라?! 두아르뜨, 꼬메쉬뜨 우 메우 볼루?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Só um bocado. Epá, que jogo!",
+   "ko": "조금만. 와, 경기 미쳤다!",
+   "note": "um bocado = 조금 / epá = 와, 이야",
+   "tags": [
+    "expr:um bocado",
+    "expr:epá"
+   ],
+   "ui": "bubble",
+   "at": "23:43",
+   "segs": [
+    [
+     "flustered",
+     "Só um bocado."
+    ],
+    [
+     "excited",
+     "Epá, que jogo!"
+    ]
+   ],
+   "num": 6,
+   "rd": "쏘 웅 보까두. 에빠, 끄 조구!"
+  },
+  {
+   "speaker": "A",
+   "tl": "Não quero saber do jogo. Um bocado quanto?",
+   "ko": "경기 알 바 아니고. 조금이 얼마만큼인데?",
+   "note": "não quero saber de = ~ 알 바 아니다",
+   "tags": [],
+   "ui": "bubble",
+   "at": "23:43",
+   "emotion": "annoyed",
+   "num": 7,
+   "rd": "나웅 께루 싸베르 두 조구. 웅 보까두 꽌뚜?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Um bocado grande. Quer dizer... tudo.",
+   "ko": "큰 조금. 그러니까… 전부.",
+   "note": "quer dizer = 그러니까, 다시 말해",
+   "tags": [
+    "expr:quer dizer"
+   ],
+   "ui": "bubble",
+   "at": "23:44",
+   "emotion": "flustered",
+   "num": 8,
+   "rd": "웅 보까두 그란드. 께르 디제르... 뚜두."
+  },
+  {
+   "speaker": "A",
+   "tl": "Tudo?! Olha que esse bolo nem era para mim!",
+   "ko": "전부?! 그 케이크 나 먹으려던 것도 아니었다고!",
+   "note": "olha que = 알아둬, 있잖아(강조)",
+   "tags": [
+    "expr:olha"
+   ],
+   "ui": "bubble",
+   "at": "23:45",
+   "emotion": "shout",
+   "num": 9,
+   "rd": "뚜두?! 올랴 끄 에쓰 볼루 넹 에라 빠라 밍!"
+  },
+  {
+   "speaker": "B",
+   "tl": "Calma. A Inês também comeu. E o Tiago. E a Beatriz.",
+   "ko": "진정해. Inês 도 먹었어. 그리고 Tiago. 그리고 Beatriz.",
+   "note": "calma = 진정해",
+   "tags": [
+    "twist"
+   ],
+   "ui": "bubble",
+   "at": "23:45",
+   "segs": [
+    [
+     "flustered",
+     "Calma."
+    ],
+    [
+     "teasing",
+     "A Inês também comeu. E o Tiago. E a Beatriz."
+    ]
+   ],
+   "num": 10,
+   "rd": "깔마. 아 이네쉬 땀벵 꼬메우. 이 우 띠아구. 이 아 베아트리쉬."
+  },
+  {
+   "speaker": "A",
+   "tl": "Espera... houve uma festa aí sem mim?",
+   "ko": "잠깐… 나 빼고 거기서 파티 했어?",
+   "note": "houve = 있었다(haver 완료과거)",
+   "tags": [
+    "form:perfeito"
+   ],
+   "ui": "bubble",
+   "at": "23:46",
+   "emotion": "sad",
+   "num": 11,
+   "rd": "이쉬뻬라... 오우브 우마 페쉬따 아이 쎙 밍?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Houve. Mas deixei o teu nome para ti.",
+   "ko": "했지. 근데 네 이름은 남겨 놨어.",
+   "note": "deixei = 남겼다(deixar 완료과거)",
+   "tags": [
+    "form:perfeito"
+   ],
+   "ui": "bubble",
+   "at": "23:46",
+   "stamp": "😂",
+   "emotion": "teasing",
+   "num": 12,
+   "rd": "오우브. 마쉬 데이셰이 우 떼우 노므 빠라 띠."
+  }
+ ]
+}

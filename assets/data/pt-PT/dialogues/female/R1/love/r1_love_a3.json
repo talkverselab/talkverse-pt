@@ -1,0 +1,156 @@
+{
+ "id": "r1_love_a3",
+ "region": "R1",
+ "island": "love",
+ "kind": "short",
+ "purpose": [
+  "love",
+  "making_friends"
+ ],
+ "domain": [
+  "love"
+ ],
+ "title": "말 빠른 애가 말을 잃었다",
+ "emoji": "🌙",
+ "scene": "계단에서 마주친 옆집 Beatriz. 늘 말이 빠른 그녀가 오늘은 뭔가 이상하다.",
+ "speakers": {
+  "A": "{name}",
+  "B": "Beatriz"
+ },
+ "cast": {
+  "B": "beatriz"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "emotion",
+ "flags": [
+  "romance"
+ ],
+ "goal": "ser 현재 eu/tu(sou·és), poder·querer 로 부탁하기, 「olha」「a sério?」",
+ "expressions": [
+  "olha",
+  "claro",
+  "a sério?",
+  "pronto"
+ ],
+ "variant": "pt-PT",
+ "learner_gender": "female",
+ "draft": true,
+ "turns": [
+  {
+   "speaker": "B",
+   "tl": "Olá! Tu és {name}, certo? Do lado?",
+   "ko": "안녕! 너 {name} 맞지? 옆집?",
+   "note": "do lado = 옆집의(de + o lado)",
+   "tags": [
+    "form:ser"
+   ],
+   "emotion": "excited",
+   "num": 1,
+   "rd": "올라! 뚜 에쉬 {name}, 쎄르뚜? 두 라두?"
+  },
+  {
+   "speaker": "A",
+   "tl": "Sou, sim. E tu és a Beatriz.",
+   "ko": "응, 맞아. 그리고 넌 Beatriz 지.",
+   "note": "sou = 나는 ~이다(ser)",
+   "tags": [
+    "form:ser",
+    "form:answer-verb"
+   ],
+   "emotion": "cheerful",
+   "num": 2,
+   "rd": "쏘우, 씽. 이 뚜 에즈 아 베아트리쉬."
+  },
+  {
+   "speaker": "B",
+   "tl": "Sou! Olha, posso pedir uma coisa?",
+   "ko": "응! 있잖아, 하나 부탁해도 돼?",
+   "note": "olha = 있잖아, 저기",
+   "tags": [
+    "expr:olha",
+    "form:poder"
+   ],
+   "emotion": "excited",
+   "num": 3,
+   "rd": "쏘우! 올랴, 뽀쑤 뻬디르 우마 꼬이자?"
+  },
+  {
+   "speaker": "A",
+   "tl": "Claro. O que precisas?",
+   "ko": "물론. 뭐 필요해?",
+   "note": "claro = 물론",
+   "tags": [
+    "expr:claro"
+   ],
+   "emotion": "cheerful",
+   "num": 4,
+   "rd": "끌라루. 우 끄 프레씨자쉬?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Vens comigo... ah... não. Esquece.",
+   "ko": "나랑 같이… 아… 아냐. 잊어.",
+   "note": "esquece = 잊어(상한 밖 낱말, tu 에게 하는 말)",
+   "tags": [
+    "twist"
+   ],
+   "segs": [
+    [
+     "excited",
+     "Vens comigo..."
+    ],
+    [
+     "shy",
+     " ah... não. Esquece."
+    ]
+   ],
+   "num": 5,
+   "rd": "벵쉬 꼬미구... 아... 나웅. 이쉬께쓰."
+  },
+  {
+   "speaker": "A",
+   "tl": "Espera. Tu, sem palavras? A sério?",
+   "ko": "잠깐. 네가 말이 막혀? 진짜?",
+   "note": "sem palavras = 말없이, 말문이 막혀",
+   "tags": [
+    "expr:a sério?"
+   ],
+   "emotion": "teasing",
+   "num": 6,
+   "rd": "이쉬뻬라. 뚜, 쎙 빨라브라쉬? 아 쎄리우?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Pronto! Queres sair comigo amanhã à noite?",
+   "ko": "됐어! 내일 밤에 나랑 나갈래?",
+   "note": "sair com = ~와 데이트하다, 나가다",
+   "tags": [
+    "expr:pronto",
+    "form:querer"
+   ],
+   "segs": [
+    [
+     "shout",
+     "Pronto!"
+    ],
+    [
+     "shy",
+     " Queres sair comigo amanhã à noite?"
+    ]
+   ],
+   "num": 7,
+   "rd": "프론뚜! 께르쉬 싸이르 꼬미구 아망양 아 노이뜨?"
+  },
+  {
+   "speaker": "A",
+   "tl": "Quero. E eu a pensar que era só eu.",
+   "ko": "좋아. 나만 그런 줄 알았는데.",
+   "note": "eu a pensar que… = 난 ~인 줄 알았는데",
+   "tags": [],
+   "emotion": "gentle",
+   "num": 8,
+   "rd": "께루. 이 에우 아 뻰싸르 끄 에라 쏘 에우."
+  }
+ ]
+}

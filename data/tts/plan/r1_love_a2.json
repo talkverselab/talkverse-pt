@@ -1,0 +1,77 @@
+{
+ "ep": "r1_love_a2",
+ "cast": {
+  "B": "ines"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "worried",
+     "Preciso de ti, {name}. Agora!"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "worried",
+     "O que foi? Estás bem?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "worried",
+     "A minha mãe vem cá hoje à noite."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "amused",
+     "E então? A tua mãe é fixe."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "flustered",
+     "Pois, mas ela acha que tenho namorad{o|a}."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "teasing",
+     "Ah, sim? Coitad{o|a}! Quem é?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "flustered",
+     "És tu."
+    ],
+    [
+     "shy",
+     " Disse o teu nome sem pensar.",
+     "Disse o teu nome sem pensar."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "gentle",
+     "Pronto. E amanhã também posso ser?"
+    ]
+   ]
+  }
+ }
+}

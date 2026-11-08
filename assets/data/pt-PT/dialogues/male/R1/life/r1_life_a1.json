@@ -1,0 +1,139 @@
+{
+ "id": "r1_life_a1",
+ "region": "R1",
+ "island": "life",
+ "kind": "short",
+ "purpose": [
+  "daily_life",
+  "making_friends"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "엄마랑 통화 중",
+ "emoji": "🐶",
+ "scene": "새벽, 셰어하우스 거실에서 룸메이트 Duarte 가 누군가에게 속삭이는 소리가 들린다.",
+ "speakers": {
+  "A": "{name}",
+  "B": "Duarte"
+ },
+ "cast": {
+  "B": "duarte"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "estar a + 원형(진행), 완료과거 ouvi, 「pá」「pois」로 얼버무리기",
+ "expressions": [
+  "pá",
+  "pois",
+  "claro"
+ ],
+ "variant": "pt-PT",
+ "learner_gender": "male",
+ "draft": true,
+ "turns": [
+  {
+   "speaker": "A",
+   "tl": "Duarte? Estás a falar com quem?",
+   "ko": "Duarte? 누구랑 얘기해?",
+   "note": "estar a falar = 말하고 있다(유럽판 진행형)",
+   "tags": [
+    "form:estar-a"
+   ],
+   "emotion": "annoyed",
+   "num": 1,
+   "rd": "두아르뜨? 이쉬따즈 아 팔라르 꽁 껭?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Com ninguém, pá! Está tudo bem.",
+   "ko": "아무도 아냐! 다 괜찮아.",
+   "note": "pá = 야(친구끼리 추임새)",
+   "tags": [
+    "expr:pá"
+   ],
+   "emotion": "flustered",
+   "num": 2,
+   "rd": "꽁 닝겡, 빠! 이쉬따 뚜두 벵."
+  },
+  {
+   "speaker": "A",
+   "tl": "Eu ouvi «anda cá, meu amor».",
+   "ko": "「이리 와, 내 사랑」 들었는데.",
+   "note": "ouvi = 들었다(ouvir 완료과거)",
+   "tags": [
+    "form:perfeito"
+   ],
+   "segs": [
+    [
+     "teasing",
+     "Eu ouvi «anda cá, meu amor».",
+     "Eu ouvi anda cá, meu amor."
+    ]
+   ],
+   "num": 3,
+   "rd": "에우 오우비 «안다 까, 메우 아모르»."
+  },
+  {
+   "speaker": "B",
+   "tl": "Pois... estou a falar com a Mãe.",
+   "ko": "그게… 엄마랑 얘기하는 중이야.",
+   "note": "pois = 그게, 응(얼버무릴 때)",
+   "tags": [
+    "expr:pois",
+    "form:estar-a"
+   ],
+   "emotion": "stiff",
+   "num": 4,
+   "rd": "뽀이쉬... 이쉬또우 아 팔라르 꽁 아 마잉."
+  },
+  {
+   "speaker": "A",
+   "tl": "Com a tua mãe? A esta hora?",
+   "ko": "너희 엄마랑? 이 시간에?",
+   "note": "a esta hora = 이 시간에",
+   "tags": [],
+   "emotion": "surprised",
+   "num": 5,
+   "rd": "꽁 아 뚜아 마잉? 아 에쉬따 오라?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Não. Com esta Mãe. Diz olá, Mãe!",
+   "ko": "아니. 이 「엄마」랑. 엄마, 인사해!",
+   "note": "diz = 말해(dizer, tu 에게 시킬 때)",
+   "tags": [
+    "form:dizer"
+   ],
+   "emotion": "cheerful",
+   "num": 6,
+   "rd": "나웅. 꽁 에쉬따 마잉. 디즈 올라, 마잉!"
+  },
+  {
+   "speaker": "A",
+   "tl": "Duarte... isso é um cão!",
+   "ko": "Duarte… 그거 개잖아!",
+   "note": "cão = 개(상한 밖 낱말)",
+   "tags": [
+    "twist"
+   ],
+   "emotion": "shout",
+   "num": 7,
+   "rd": "두아르뜨... 이쑤 에 웅 까웅!"
+  },
+  {
+   "speaker": "B",
+   "tl": "Claro! Assim falo com a minha mãe todos os dias.",
+   "ko": "당연하지! 이러면 매일 엄마랑 얘기하잖아.",
+   "note": "todos os dias = 매일",
+   "tags": [
+    "expr:claro"
+   ],
+   "emotion": "amused",
+   "num": 8,
+   "rd": "끌라루! 아씽 팔루 꽁 아 밍야 마잉 또두즈 우쉬 디아쉬."
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "ep": "r1_friends_c1",
+ "cast": {
+  "B": "beatriz"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "excited",
+     "Bom dia! Hoje vens comigo à praia!"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Fixe! A que horas?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "excited",
+     "Agora!"
+    ],
+    [
+     "flustered",
+     " Não, espera... à tarde.",
+     "Não, espera... à tarde."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "neutral",
+     "Tá bem. Então à tarde."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "excited",
+     "Ou amanhã! Não... hoje à noite!"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Beatriz... tu sabes o que queres?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "teasing",
+     "Sei! E já estou na tua casa. 😎",
+     "Sei! E já estou na tua casa."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "amused",
+     "Estou com o Duarte. Ele também vem!"
+    ]
+   ]
+  }
+ }
+}

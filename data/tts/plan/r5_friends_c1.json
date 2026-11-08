@@ -1,0 +1,136 @@
+{
+ "ep": "r5_friends_c1",
+ "cast": {
+  "B": "ines"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "excited",
+     "Estás acordad{o|a}? Acabei o quadro para o café do Tiago e preciso da tua opinião."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Manda lá! Prometo dizer a verdade."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "shy",
+     "Pronto, foto enviada. Sê simpátic{o|a}, por favor."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "surprised",
+     "Epá... é um gato a andar de bicicleta? Ou um cão?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "tsukkomi",
+     "É um retrato da minha avó, {name}."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "flustered",
+     "Ah. Pois... a tua avó tem um sorriso lindo. E as cores são giras!"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "amused",
+     "Mentira! Mas não faz mal, ela também se ia rir."
+    ],
+    [
+     "cheerful",
+     "Vens ao café no sábado?"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "teasing",
+     "Claro que vou. Quero ver o gato ao vivo."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "sad",
+     "Ainda bem. Vai ser o meu último sábado cá."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "worried",
+     "Último? Como assim?"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "sad",
+     "Consegui um emprego numa escola de arte lá fora. Parto no domingo."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "shout",
+     "O quê?! A sério?"
+    ],
+    [
+     "annoyed",
+     "E só me dizes isso agora?"
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "shy",
+     "Tinha medo de chorar."
+    ],
+    [
+     "sad",
+     "Pronto, já estou a chorar."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "gentle",
+     "Então no sábado compro o gato de bicicleta."
+    ],
+    [
+     "teasing",
+     "E não digo nada à tua avó."
+    ]
+   ]
+  }
+ }
+}

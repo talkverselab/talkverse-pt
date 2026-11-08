@@ -1,0 +1,133 @@
+{
+ "ep": "r5_life_b1",
+ "cast": {
+  "B": "duarte",
+  "C": "fernanda"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "annoyed",
+     "Duarte, ouviste aquele barulho? Outra vez na varanda, às seis da manhã."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "stiff",
+     "Que barulho? Eu estava a dormir. Deve ser o vento."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "tsukkomi",
+     "O vento não canta, pá. E há penas no chão da sala."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "flustered",
+     "Penas? Se calhar são do meu casaco velho. Olha, vou fazer o pequeno-almoço."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "teasing",
+     "Tu? Desde quando? E porque é que compraste um saco de comida para pássaros?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "flustered",
+     "Para... para os pássaros do parque. Gosto muito de animais, sabes?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "polite",
+     "Bom dia, meninos. Desculpem, o barulho vem do vosso apartamento?"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "polite",
+     "Bom dia, Dona Fernanda. A senhora também acordou com aquilo?"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "polite",
+     "Acordei, sim."
+    ],
+    [
+     "surprised",
+     "E encontrei um ovo à minha porta. Um ovo quente!"
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "stiff",
+     "Ah... um ovo. Que coisa estranha, não é?"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "shout",
+     "Duarte! Está uma galinha na varanda, atrás da máquina de lavar!"
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "flustered",
+     "Pronto, é a Gertrudes."
+    ],
+    [
+     "excited",
+     "Comprei-a no mercado. Ovos frescos todos os dias!"
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "surprised",
+     "Ovos frescos?"
+    ],
+    [
+     "teasing",
+     "Então quero seis por semana, e não digo nada ao dono do prédio."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Ótimo. Agora a galinha mora cá de graça e eu continuo sem dormir."
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,148 @@
+{
+ "id": "r1_love_a2",
+ "region": "R1",
+ "island": "love",
+ "kind": "short",
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "title": "엄마가 오는 밤",
+ "emoji": "💌",
+ "scene": "Inês 가 다급하게 문을 두드린다. 오늘 밤 엄마가 오는데 문제가 하나 있다.",
+ "speakers": {
+  "A": "{name}",
+  "B": "Inês"
+ },
+ "cast": {
+  "B": "ines"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "reveal",
+ "flags": [
+  "romance"
+ ],
+ "goal": "precisar de·achar que, 듣는 사람 성별에 맞춘 coitado/coitada, 「pronto」",
+ "expressions": [
+  "então",
+  "fixe",
+  "pois",
+  "coitado",
+  "pronto"
+ ],
+ "variant": "pt-PT",
+ "learner_gender": "male",
+ "draft": true,
+ "turns": [
+  {
+   "speaker": "B",
+   "tl": "Preciso de ti, {name}. Agora!",
+   "ko": "네가 필요해, {name}. 지금!",
+   "note": "precisar de = ~이 필요하다",
+   "tags": [
+    "form:precisar de"
+   ],
+   "emotion": "worried",
+   "num": 1,
+   "rd": "프레씨주 드 띠, {name}. 아고라!"
+  },
+  {
+   "speaker": "A",
+   "tl": "O que foi? Estás bem?",
+   "ko": "무슨 일이야? 괜찮아?",
+   "note": "O que foi? = 무슨 일이야?",
+   "tags": [],
+   "emotion": "worried",
+   "num": 2,
+   "rd": "우 끄 포이? 이쉬따쉬 벵?"
+  },
+  {
+   "speaker": "B",
+   "tl": "A minha mãe vem cá hoje à noite.",
+   "ko": "우리 엄마가 오늘 밤에 여기 와.",
+   "note": "vem cá = 여기 온다(vir)",
+   "tags": [
+    "form:vir"
+   ],
+   "emotion": "worried",
+   "num": 3,
+   "rd": "아 밍야 마잉 벵 까 오즈 아 노이뜨."
+  },
+  {
+   "speaker": "A",
+   "tl": "E então? A tua mãe é fixe.",
+   "ko": "그래서? 너희 엄마 좋으시잖아.",
+   "note": "e então? = 그래서?",
+   "tags": [
+    "expr:então",
+    "expr:fixe"
+   ],
+   "emotion": "amused",
+   "num": 4,
+   "rd": "이 엔따웅? 아 뚜아 마잉 에 피쉬."
+  },
+  {
+   "speaker": "B",
+   "tl": "Pois, mas ela acha que tenho namorado.",
+   "ko": "응, 근데 엄마는 내가 남자친구가 있는 줄 알아.",
+   "note": "namorado/namorada = 남자친구/여자친구(상한 밖 낱말)",
+   "tags": [
+    "expr:pois",
+    "form:achar que"
+   ],
+   "emotion": "flustered",
+   "num": 5,
+   "rd": "뽀이쉬, 마즈 엘라 아샤 끄 뗑유 나모라두."
+  },
+  {
+   "speaker": "A",
+   "tl": "Ah, sim? Coitado! Quem é?",
+   "ko": "아, 그래? 불쌍한 사람! 누군데?",
+   "note": "coitado/coitada = 불쌍해라(그 사람 성별에 맞춤)",
+   "tags": [
+    "expr:coitado"
+   ],
+   "emotion": "teasing",
+   "num": 6,
+   "rd": "아, 씽? 꼬이따두! 껭 에?"
+  },
+  {
+   "speaker": "B",
+   "tl": "És tu. Disse o teu nome sem pensar.",
+   "ko": "너야. 생각 없이 네 이름을 말해 버렸어.",
+   "note": "disse = 내가 말했다(dizer 완료과거)",
+   "tags": [
+    "twist",
+    "form:perfeito"
+   ],
+   "segs": [
+    [
+     "flustered",
+     "És tu."
+    ],
+    [
+     "shy",
+     " Disse o teu nome sem pensar."
+    ]
+   ],
+   "num": 7,
+   "rd": "에쉬 뚜. 디쓰 우 떼우 노므 쎙 뻰싸르."
+  },
+  {
+   "speaker": "A",
+   "tl": "Pronto. E amanhã também posso ser?",
+   "ko": "알았어. 그럼 내일도 해도 돼?",
+   "note": "posso ser = 내가 ~이어도 돼?(poder + 원형)",
+   "tags": [
+    "expr:pronto",
+    "form:poder"
+   ],
+   "emotion": "gentle",
+   "num": 8,
+   "rd": "프론뚜. 이 아망양 땀벵 뽀쑤 쎄르?"
+  }
+ ]
+}

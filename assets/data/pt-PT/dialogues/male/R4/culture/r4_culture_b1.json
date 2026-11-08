@@ -1,0 +1,227 @@
+{
+ "id": "r4_culture_b1",
+ "region": "R4",
+ "island": "culture",
+ "kind": "long",
+ "purpose": [
+  "culture",
+  "friends"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "title": "사라진 두아르트, 행진 한가운데",
+ "emoji": "🎉",
+ "scene": "6월 성 안토니오 축제의 밤, 골목은 사람으로 꽉 찼다. Beatriz 는 계획을 또 바꾸고, Duarte 는 연락이 끊겼다.",
+ "speakers": {
+  "A": "{name}",
+  "B": "Beatriz",
+  "C": "Duarte"
+ },
+ "cast": {
+  "B": "beatriz",
+  "C": "duarte"
+ },
+ "register": "casual",
+ "twist": 10,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "antes que·quero que + 접속법, 추측의 미래(estará·terá ido), 3인칭 접속법 명령(ele que se desenrasque), 미래 접속법(se aparecer)",
+ "expressions": [
+  "não faço ideia",
+  "se calhar",
+  "olha",
+  "pois",
+  "desenrascar",
+  "nem pensar",
+  "quer dizer",
+  "giro"
+ ],
+ "variant": "pt-PT",
+ "learner_gender": "male",
+ "draft": true,
+ "turns": [
+  {
+   "speaker": "B",
+   "tl": "Anda, depressa! Quero chegar antes que a festa comece a sério!",
+   "ko": "가자, 빨리! 축제 제대로 시작하기 전에 도착하고 싶어!",
+   "note": "antes que + 접속법 = ~하기 전에",
+   "tags": [
+    "form:conjuntivo"
+   ],
+   "emotion": "excited",
+   "num": 1,
+   "rd": "안다, 데프레싸! 께루 셰가르 안뜨쉬 끄 아 페쉬따 꼬메쓰 아 쎄리우!"
+  },
+  {
+   "speaker": "A",
+   "tl": "Calma, Beatriz. Há gente por todo o lado. Onde é que está o Duarte?",
+   "ko": "진정해, 베아트리스. 사방이 사람이야. 두아르트는 어디 있어?",
+   "note": "por todo o lado = 사방에",
+   "tags": [],
+   "emotion": "worried",
+   "num": 2,
+   "rd": "깔마, 베아트리쉬. 아 젠뜨 뽀르 또두 우 라두. 옹드 에 끄 이쉬따 우 두아르뜨?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Não faço ideia. Disse que estaria perto da igreja, e há uma hora que não diz nada.",
+   "ko": "몰라. 성당 근처에 있겠다더니 한 시간째 아무 말이 없어.",
+   "note": "estaria = 있을 거라고(과거에서 본 미래, 조건법) · não faço ideia = 전혀 모르겠다",
+   "tags": [
+    "expr:não faço ideia",
+    "form:condicional"
+   ],
+   "emotion": "annoyed",
+   "num": 3,
+   "rd": "나웅 파쑤 이데이아. 디쓰 끄 이쉬따리아 뻬르뚜 다 이그레자, 이 아 우마 오라 끄 나웅 디쉬 나다."
+  },
+  {
+   "speaker": "A",
+   "tl": "Estará perdido? Ou terá ido comer sardinhas sem nós?",
+   "ko": "길 잃은 걸까? 아니면 우리 빼고 정어리 먹으러 갔나?",
+   "note": "estará·terá ido = ~일까, ~했을까(추측의 미래) · sardinha = 정어리(상한 밖 낱말)",
+   "tags": [
+    "form:futuro",
+    "form:futuro-perfeito"
+   ],
+   "emotion": "amused",
+   "num": 4,
+   "rd": "이쉬따라 뻬르디두? 오우 떼라 이두 꼬메르 싸르딩야쉬 쎙 노쉬?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Se calhar as duas coisas. Olha, esquece a igreja: primeiro vamos ver as marchas!",
+   "ko": "아마 둘 다겠지. 있잖아, 성당은 됐고, 먼저 행진 보러 가자!",
+   "note": "marcha = 축제 거리 행진(상한 밖 낱말) · se calhar = 아마",
+   "tags": [
+    "expr:se calhar",
+    "expr:olha"
+   ],
+   "emotion": "excited",
+   "num": 5,
+   "rd": "쓰 깔랴르 아쉬 두아쉬 꼬이자쉬. 올랴, 이쉬께쓰 아 이그레자: 프리메이루 바무쉬 베르 아쉬 마르샤쉬!"
+  },
+  {
+   "speaker": "A",
+   "tl": "Outra vez? Já mudaste de ideias não sei quantas vezes esta noite.",
+   "ko": "또? 오늘 밤에만 마음 바꾼 게 몇 번째인지 모르겠다.",
+   "note": "mudar de ideias = 마음을 바꾸다",
+   "tags": [],
+   "emotion": "tsukkomi",
+   "num": 6,
+   "rd": "오우트라 베쉬? 자 무다쉬뜨 드 이데이아쉬 나웅 쎄이 꽌따쉬 베즈즈 에쉬따 노이뜨."
+  },
+  {
+   "speaker": "B",
+   "tl": "Pois, mas desta vez é a sério. Quero que vejas isto pelo menos uma vez na vida.",
+   "ko": "그래, 근데 이번엔 진짜야. 이건 살면서 한 번은 꼭 봤으면 해.",
+   "note": "quero que + 접속법 = 네가 ~하길 바라",
+   "tags": [
+    "expr:pois",
+    "form:conjuntivo"
+   ],
+   "emotion": "cheerful",
+   "num": 7,
+   "rd": "뽀이쉬, 마쉬 데쉬따 베즈 에 아 쎄리우. 께루 끄 베자즈 이쉬뚜 뻴루 메누즈 우마 베쉬 나 비다."
+  },
+  {
+   "speaker": "A",
+   "tl": "Está bem. Mas se o Duarte aparecer, quem lhe diz onde estamos?",
+   "ko": "알았어. 근데 두아르트가 나타나면 우리 어디 있는지 누가 말해 줘?",
+   "note": "se aparecer = 나타나면(미래 접속법)",
+   "tags": [
+    "form:futuro-conjuntivo"
+   ],
+   "emotion": "neutral",
+   "num": 8,
+   "rd": "이쉬따 벵. 마쉬 쓰 우 두아르뜨 아빠레쎄르, 껭 리 디즈 옹드 이쉬따무쉬?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Ele que se desenrasque. Já não é nenhuma criança.",
+   "ko": "알아서 하라고 해. 애도 아니고.",
+   "note": "ele que se desenrasque = 걔가 알아서 하라지(접속법) · desenrascar = 어떻게든 해내다",
+   "tags": [
+    "expr:desenrascar",
+    "form:conjuntivo"
+   ],
+   "emotion": "teasing",
+   "num": 9,
+   "rd": "엘르 끄 쓰 데젠하쉬끄. 자 나웅 에 넹유마 크리안싸."
+  },
+  {
+   "speaker": "A",
+   "tl": "Espera... aquele ali, com flores na cabeça, a cantar no meio da marcha, não é o Duarte?",
+   "ko": "잠깐… 저기 머리에 꽃 달고 행진 한가운데서 노래하는 사람, 두아르트 아니야?",
+   "note": "a cantar = 노래하면서 · no meio de = ~의 한가운데",
+   "tags": [
+    "twist",
+    "form:estar-a"
+   ],
+   "emotion": "surprised",
+   "num": 10,
+   "rd": "이쉬뻬라... 아껠르 알리, 꽁 플로르쉬 나 까베싸, 아 깐따르 누 메이우 다 마르샤, 나웅 에 우 두아르뜨?"
+  },
+  {
+   "speaker": "C",
+   "tl": "{name}! Beatriz! Perdi uma aposta! Venham, que falta gente!",
+   "ko": "{name}! 베아트리스! 내기에 졌어! 와, 사람 모자라!",
+   "note": "aposta = 내기(상한 밖 낱말) · venham = 와(너희, 접속법형 명령)",
+   "tags": [
+    "form:conjuntivo"
+   ],
+   "emotion": "shout",
+   "num": 11,
+   "rd": "{name}! 베아트리쉬! 뻬르디 우마 아뽀쉬따! 벵양, 끄 팔따 젠뜨!"
+  },
+  {
+   "speaker": "B",
+   "tl": "Nem pensar! ... Quer dizer, até seria giro. Anda, {name}!",
+   "ko": "말도 안 돼! … 아니 근데, 재밌을 것 같기도. 가자, {name}!",
+   "note": "seria giro = 재밌겠다(조건법) · quer dizer = 그러니까, 아니",
+   "tags": [
+    "expr:nem pensar",
+    "expr:quer dizer",
+    "expr:giro",
+    "form:condicional"
+   ],
+   "segs": [
+    [
+     "shout",
+     "Nem pensar! ..."
+    ],
+    [
+     "amused",
+     " Quer dizer, até seria giro. Anda, {name}!"
+    ]
+   ],
+   "num": 12,
+   "rd": "넹 뻰싸르! ... 께르 디제르, 아떼 쎄리아 지루. 안다, {name}!"
+  },
+  {
+   "speaker": "A",
+   "tl": "Se alguém tirar uma fotografia, eu mudo de país.",
+   "ko": "누가 사진 찍기만 해 봐, 나 나라 옮긴다.",
+   "note": "se alguém tirar = 누가 찍으면(미래 접속법)",
+   "tags": [
+    "form:futuro-conjuntivo"
+   ],
+   "emotion": "tsukkomi",
+   "num": 13,
+   "rd": "쓰 알겡 띠라르 우마 포또그라피아, 에우 무두 드 빠이쉬."
+  },
+  {
+   "speaker": "C",
+   "tl": "Tarde demais! A Dona Fernanda está a tirar fotografias desde que chegaste!",
+   "ko": "이미 늦었어! 페르난다 아주머니가 너 온 순간부터 사진 찍고 계셔!",
+   "note": "desde que chegaste = 네가 온 뒤로 계속",
+   "tags": [
+    "form:estar-a"
+   ],
+   "emotion": "amused",
+   "num": 14,
+   "rd": "따르드 데마이쉬! 아 도나 페르난다 이쉬따 아 띠라르 포또그라피아쉬 데쥬드 끄 셰가쉬뜨!"
+  }
+ ]
+}

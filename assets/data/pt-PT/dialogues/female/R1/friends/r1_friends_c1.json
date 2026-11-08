@@ -1,0 +1,161 @@
+{
+ "id": "r1_friends_c1",
+ "region": "R1",
+ "island": "friends",
+ "kind": "chat",
+ "purpose": [
+  "making_friends",
+  "chat"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "title": "계획은 계속 바뀐다",
+ "emoji": "🏄",
+ "scene": "아침 8시, 아직 침대에 있는데 Beatriz 의 메시지가 쏟아진다.",
+ "speakers": {
+  "A": "{name}",
+  "B": "Beatriz"
+ },
+ "cast": {
+  "B": "beatriz"
+ },
+ "register": "chat",
+ "twist": 7,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "vir·querer·saber 현재 tu/eu 활용, 시간 말 à tarde·à noite, 「fixe」「tá bem」",
+ "expressions": [
+  "fixe",
+  "tá bem",
+  "então"
+ ],
+ "variant": "pt-PT",
+ "learner_gender": "female",
+ "draft": true,
+ "turns": [
+  {
+   "speaker": "B",
+   "tl": "Bom dia! Hoje vens comigo à praia!",
+   "ko": "좋은 아침! 오늘 나랑 바다 가는 거야!",
+   "note": "vens = 너 와(vir), praia = 해변(상한 밖 낱말)",
+   "tags": [
+    "form:vir"
+   ],
+   "emotion": "excited",
+   "ui": "bubble",
+   "at": "08:02",
+   "num": 1,
+   "rd": "봉 디아! 오즈 벵쉬 꼬미구 아 프라이아!"
+  },
+  {
+   "speaker": "A",
+   "tl": "Fixe! A que horas?",
+   "ko": "좋아! 몇 시에?",
+   "note": "fixe = 좋아, 멋져",
+   "tags": [
+    "expr:fixe"
+   ],
+   "emotion": "cheerful",
+   "ui": "bubble",
+   "at": "08:05",
+   "num": 2,
+   "rd": "피쉬! 아 끄 오라쉬?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Agora! Não, espera... à tarde.",
+   "ko": "지금! 아니, 잠깐… 오후에.",
+   "note": "à tarde = 오후에",
+   "tags": [],
+   "segs": [
+    [
+     "excited",
+     "Agora!"
+    ],
+    [
+     "flustered",
+     " Não, espera... à tarde."
+    ]
+   ],
+   "ui": "bubble",
+   "at": "08:05",
+   "num": 3,
+   "rd": "아고라! 나웅, 이쉬뻬라... 아 따르드."
+  },
+  {
+   "speaker": "A",
+   "tl": "Tá bem. Então à tarde.",
+   "ko": "알았어. 그럼 오후에.",
+   "note": "tá bem = 알았어(está bem 의 구어)",
+   "tags": [
+    "expr:tá bem",
+    "expr:então"
+   ],
+   "emotion": "neutral",
+   "ui": "bubble",
+   "at": "08:06",
+   "num": 4,
+   "rd": "따 벵. 엔따웅 아 따르드."
+  },
+  {
+   "speaker": "B",
+   "tl": "Ou amanhã! Não... hoje à noite!",
+   "ko": "아니면 내일! 아냐… 오늘 밤!",
+   "note": "à noite = 밤에",
+   "tags": [],
+   "emotion": "excited",
+   "ui": "bubble",
+   "at": "08:10",
+   "num": 5,
+   "rd": "오우 아망양! 나웅... 오즈 아 노이뜨!"
+  },
+  {
+   "speaker": "A",
+   "tl": "Beatriz... tu sabes o que queres?",
+   "ko": "Beatriz… 너 뭘 원하는지 알긴 해?",
+   "note": "o que queres = 네가 원하는 것",
+   "tags": [
+    "form:querer"
+   ],
+   "emotion": "tsukkomi",
+   "ui": "bubble",
+   "at": "08:11",
+   "num": 6,
+   "rd": "베아트리쉬... 뚜 싸브즈 우 끄 께르쉬?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Sei! E já estou na tua casa. 😎",
+   "ko": "알지! 그리고 나 벌써 너희 집이야. 😎",
+   "note": "na tua casa = 너희 집에(em + a)",
+   "tags": [
+    "twist",
+    "form:contraction"
+   ],
+   "segs": [
+    [
+     "teasing",
+     "Sei! E já estou na tua casa. 😎",
+     "Sei! E já estou na tua casa."
+    ]
+   ],
+   "ui": "bubble",
+   "at": "08:11",
+   "num": 7,
+   "rd": "쎄이! 이 자 이쉬또우 나 뚜아 까자. 😎"
+  },
+  {
+   "speaker": "B",
+   "tl": "Estou com o Duarte. Ele também vem!",
+   "ko": "Duarte 랑 같이 있어. 걔도 간대!",
+   "note": "ele também vem = 그도 온다",
+   "tags": [],
+   "emotion": "amused",
+   "ui": "bubble",
+   "at": "08:12",
+   "num": 8,
+   "rd": "이쉬또우 꽁 우 두아르뜨. 엘르 땀벵 벵!"
+  }
+ ]
+}

@@ -1,0 +1,240 @@
+{
+ "id": "r2_friends_c2",
+ "region": "R2",
+ "island": "friends",
+ "kind": "chat",
+ "purpose": [
+  "making_friends",
+  "planning"
+ ],
+ "domain": [
+  "friends",
+  "travel"
+ ],
+ "title": "5분마다 바뀌는 주말 여행",
+ "emoji": "🧳",
+ "scene": "셋이 있는 단톡방. Beatriz 가 주말 여행 계획을 꺼내자마자 바꾸고 또 바꾼다.",
+ "speakers": {
+  "A": "{name}",
+  "B": "Beatriz",
+  "C": "Duarte"
+ },
+ "cast": {
+  "B": "beatriz",
+  "C": "duarte"
+ },
+ "register": "chat",
+ "twist": 11,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "채팅 말투, 완료과거 disseste·mudaste·paguei, 반과거 era",
+ "expressions": [
+  "fixe",
+  "olha",
+  "pá",
+  "pronto",
+  "tá bem",
+  "de certeza"
+ ],
+ "variant": "pt-PT",
+ "learner_gender": "female",
+ "draft": true,
+ "turns": [
+  {
+   "speaker": "B",
+   "tl": "Fim de semana no mar, em Peniche! Quem quer? 🏄‍♀️",
+   "ko": "주말에 바다 가자, 페니시! 갈 사람? 🏄‍♀️",
+   "note": "fim de semana = 주말",
+   "tags": [],
+   "ui": "bubble",
+   "at": "19:30",
+   "segs": [
+    [
+     "excited",
+     "Fim de semana no mar, em Peniche! Quem quer? 🏄‍♀️",
+     "Fim de semana no mar, em Peniche! Quem quer?"
+    ]
+   ],
+   "num": 1,
+   "rd": "핑 드 쎄마나 누 마르, 앵 뻬니쉬! 껭 께르? 🏄‍♀️"
+  },
+  {
+   "speaker": "C",
+   "tl": "Eu! Mas há jogo às oito da noite.",
+   "ko": "나! 근데 밤 8시에 경기 있어.",
+   "note": "há jogo = 경기가 있다",
+   "tags": [],
+   "ui": "bubble",
+   "at": "19:31",
+   "emotion": "cheerful",
+   "num": 2,
+   "rd": "에우! 마즈 아 조구 아즈 오이뚜 다 노이뜨."
+  },
+  {
+   "speaker": "A",
+   "tl": "Eu também quero. Levo o carro?",
+   "ko": "나도 갈래. 내가 차 가져갈까?",
+   "note": "levo = 가져간다(levar)",
+   "tags": [],
+   "ui": "bubble",
+   "at": "19:31",
+   "emotion": "cheerful",
+   "num": 3,
+   "rd": "에우 땀벵 께루. 레부 우 까후?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Espera, mudei de ideia. Lisboa é mais fixe!",
+   "ko": "잠깐, 마음 바뀌었어. 리스본이 더 좋아!",
+   "note": "fixe = 좋은, 멋진 / mudar de ideia = 마음을 바꾸다",
+   "tags": [
+    "expr:fixe",
+    "form:perfeito"
+   ],
+   "ui": "bubble",
+   "at": "19:32",
+   "emotion": "excited",
+   "num": 4,
+   "rd": "이쉬뻬라, 무데이 드 이데이아. 리쉬보아 에 마이쉬 피쉬!"
+  },
+  {
+   "speaker": "A",
+   "tl": "Lisboa? Ontem disseste que Lisboa era cara demais.",
+   "ko": "리스본? 어제는 리스본 너무 비싸다며.",
+   "note": "disseste = 네가 말했다 / era = ~였다(반과거)",
+   "tags": [
+    "form:perfeito",
+    "form:imperfeito"
+   ],
+   "ui": "bubble",
+   "at": "19:32",
+   "emotion": "tsukkomi",
+   "num": 5,
+   "rd": "리쉬보아? 온뗑 디쎄쉬뜨 끄 리쉬보아 에라 까라 데마이쉬."
+  },
+  {
+   "speaker": "B",
+   "tl": "Pois, mas... não, olha: Porto! Tem tudo e é perto do rio!",
+   "ko": "그건 그런데… 아니, 있잖아: 포르투! 다 있고 강 바로 옆이야!",
+   "note": "perto de = ~ 가까이",
+   "tags": [
+    "expr:olha"
+   ],
+   "ui": "bubble",
+   "at": "19:33",
+   "segs": [
+    [
+     "flustered",
+     "Pois, mas..."
+    ],
+    [
+     "excited",
+     "não, olha: Porto! Tem tudo e é perto do rio!"
+    ]
+   ],
+   "num": 6,
+   "rd": "뽀이쉬, 마쉬... 나웅, 올랴: 뽀르뚜! 땡 뚜두 이 에 뻬르뚜 두 히우!"
+  },
+  {
+   "speaker": "C",
+   "tl": "Beatriz, já mudaste três vezes em cinco minutos, pá.",
+   "ko": "Beatriz, 너 5분 만에 벌써 세 번 바꿨어.",
+   "note": "pá = 야(친구끼리 추임새) / mudaste = 네가 바꿨다",
+   "tags": [
+    "expr:pá",
+    "form:perfeito"
+   ],
+   "ui": "bubble",
+   "at": "19:33",
+   "emotion": "tsukkomi",
+   "num": 7,
+   "rd": "베아트리쉬, 자 무다쉬뜨 트레쉬 베즈즈 앵 씽꾸 미누뚜쉬, 빠."
+  },
+  {
+   "speaker": "A",
+   "tl": "Pronto. Escolhe uma coisa e eu encontro uma casa.",
+   "ko": "됐어. 하나만 골라, 집은 내가 찾을게.",
+   "note": "pronto = 됐어, 자(정리할 때)",
+   "tags": [
+    "expr:pronto"
+   ],
+   "ui": "bubble",
+   "at": "19:34",
+   "emotion": "annoyed",
+   "num": 8,
+   "rd": "프론뚜. 이쉬꼴르 우마 꼬이자 이 에우 엥꼰트루 우마 까자."
+  },
+  {
+   "speaker": "B",
+   "tl": "Tá bem, tá bem. Porto. De certeza.",
+   "ko": "알았어, 알았어. 포르투. 확실히.",
+   "note": "de certeza = 확실히",
+   "tags": [
+    "expr:tá bem",
+    "expr:de certeza"
+   ],
+   "ui": "bubble",
+   "at": "19:34",
+   "emotion": "amused",
+   "num": 9,
+   "rd": "따 벵, 따 벵. 뽀르뚜. 드 쎄르떼자."
+  },
+  {
+   "speaker": "A",
+   "tl": "Já está! Duas noites, uma casa ao pé do rio. 🙌",
+   "ko": "끝! 이틀 밤, 강 바로 옆 집. 🙌",
+   "note": "já está = 됐다, 끝났다 / ao pé de = ~ 바로 옆",
+   "tags": [],
+   "ui": "bubble",
+   "at": "19:40",
+   "segs": [
+    [
+     "excited",
+     "Já está! Duas noites, uma casa ao pé do rio. 🙌",
+     "Já está! Duas noites, uma casa ao pé do rio."
+    ]
+   ],
+   "num": 10,
+   "rd": "자 이쉬따! 두아쉬 노이뜨쉬, 우마 까자 아우 뻬 두 히우. 🙌"
+  },
+  {
+   "speaker": "B",
+   "tl": "Boa! Ah... esqueci-me de dizer. Ontem paguei dois dias em Peniche.",
+   "ko": "좋아! 아… 말하는 걸 깜빡했다. 어제 페니시에 이틀 치 결제했어.",
+   "note": "esqueci-me de = ~하는 걸 잊었다 / paguei = 냈다(pagar 완료과거)",
+   "tags": [
+    "form:perfeito",
+    "twist"
+   ],
+   "ui": "bubble",
+   "at": "19:41",
+   "segs": [
+    [
+     "cheerful",
+     "Boa!"
+    ],
+    [
+     "flustered",
+     "Ah... esqueci-me de dizer. Ontem paguei dois dias em Peniche."
+    ]
+   ],
+   "num": 11,
+   "rd": "보아! 아... 이쉬께씨 므 드 디제르. 온뗑 빠게이 도이쉬 디아즈 앵 뻬니쉬."
+  },
+  {
+   "speaker": "C",
+   "tl": "E eu? Há jogo, pá!",
+   "ko": "나는? 경기 있다고!",
+   "note": "E eu? = 나는?",
+   "tags": [
+    "expr:pá"
+   ],
+   "ui": "bubble",
+   "at": "19:41",
+   "stamp": "😂",
+   "emotion": "shout",
+   "num": 12,
+   "rd": "이 에우? 아 조구, 빠!"
+  }
+ ]
+}

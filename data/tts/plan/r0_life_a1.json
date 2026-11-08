@@ -1,0 +1,61 @@
+{
+ "ep": "r0_life_a1",
+ "cast": {
+  "B": "duarte"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "surprised",
+     "Epá! Quem fez isto?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "Fez o quê? Não sei."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "shout",
+     "A casa está muito bem!"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Pois é. Não fui eu."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "worried",
+     "Foi a Inês? A Beatriz?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "neutral",
+     "Foi o teu pai."
+    ],
+    [
+     "worried",
+     " Ainda está aqui.",
+     "Ainda está aqui."
+    ]
+   ]
+  }
+ }
+}

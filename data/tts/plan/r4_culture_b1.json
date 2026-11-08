@@ -1,0 +1,126 @@
+{
+ "ep": "r4_culture_b1",
+ "cast": {
+  "B": "beatriz",
+  "C": "duarte"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "excited",
+     "Anda, depressa! Quero chegar antes que a festa comece a sério!"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "worried",
+     "Calma, Beatriz. Há gente por todo o lado. Onde é que está o Duarte?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "annoyed",
+     "Não faço ideia. Disse que estaria perto da igreja, e há uma hora que não diz nada."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "amused",
+     "Estará perdido? Ou terá ido comer sardinhas sem nós?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "excited",
+     "Se calhar as duas coisas. Olha, esquece a igreja: primeiro vamos ver as marchas!"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Outra vez? Já mudaste de ideias não sei quantas vezes esta noite."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "cheerful",
+     "Pois, mas desta vez é a sério. Quero que vejas isto pelo menos uma vez na vida."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "neutral",
+     "Está bem. Mas se o Duarte aparecer, quem lhe diz onde estamos?"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "teasing",
+     "Ele que se desenrasque. Já não é nenhuma criança."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "surprised",
+     "Espera... aquele ali, com flores na cabeça, a cantar no meio da marcha, não é o Duarte?"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "shout",
+     "{name}! Beatriz! Perdi uma aposta! Venham, que falta gente!"
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "shout",
+     "Nem pensar! ..."
+    ],
+    [
+     "amused",
+     " Quer dizer, até seria giro. Anda, {name}!",
+     "Quer dizer, até seria giro. Anda, {name}!"
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Se alguém tirar uma fotografia, eu mudo de país."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "amused",
+     "Tarde demais! A Dona Fernanda está a tirar fotografias desde que chegaste!"
+    ]
+   ]
+  }
+ }
+}

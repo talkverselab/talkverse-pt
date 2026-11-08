@@ -1,0 +1,115 @@
+{
+ "id": "r0_love_a2",
+ "region": "R0",
+ "island": "love",
+ "kind": "short",
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "title": "오래 봤어",
+ "emoji": "🎉",
+ "scene": "친구 집 파티. 구석에 있던 학습자에게 Inês 가 먼저 다가온다. 어디서 본 얼굴인데.",
+ "speakers": {
+  "A": "{name}",
+  "B": "Inês"
+ },
+ "cast": {
+  "B": "ines"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "reveal",
+ "flags": [
+  "romance"
+ ],
+ "goal": "다가오는 말에 짧게 답하기 — 「então」「a sério?」「pois」",
+ "expressions": [
+  "então",
+  "a sério?",
+  "pois"
+ ],
+ "variant": "pt-PT",
+ "learner_gender": "male",
+ "draft": true,
+ "turns": [
+  {
+   "speaker": "B",
+   "tl": "Então, tu não falas comigo?",
+   "ko": "뭐야, 나랑은 말 안 해?",
+   "note": "falas comigo = 나랑 말해",
+   "tags": [
+    "expr:então",
+    "form:falar"
+   ],
+   "emotion": "teasing",
+   "num": 1,
+   "rd": "엔따웅, 뚜 나웅 팔라쉬 꼬미구?"
+  },
+  {
+   "speaker": "A",
+   "tl": "Eu? Falo, falo!",
+   "ko": "나? 해, 하지!",
+   "note": "falo = 나는 말한다",
+   "tags": [
+    "form:falar"
+   ],
+   "emotion": "flustered",
+   "num": 2,
+   "rd": "에우? 팔루, 팔루!"
+  },
+  {
+   "speaker": "B",
+   "tl": "Há muito tempo que te vejo.",
+   "ko": "너 오래전부터 봐 왔어.",
+   "note": "há muito tempo que = 오래전부터",
+   "tags": [
+    "heart",
+    "form:ver"
+   ],
+   "emotion": "shy",
+   "num": 3,
+   "rd": "아 무이뚜 뗌뿌 끄 뜨 베주."
+  },
+  {
+   "speaker": "A",
+   "tl": "A sério? Onde?",
+   "ko": "진짜? 어디서?",
+   "note": "onde? = 어디서?",
+   "tags": [
+    "expr:a sério?"
+   ],
+   "emotion": "surprised",
+   "num": 4,
+   "rd": "아 쎄리우? 옹드?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Pois... sou a tua vizinha.",
+   "ko": "그게… 나 너네 옆집이야.",
+   "note": "vizinha = 이웃 (여) (상한 밖 낱말)",
+   "tags": [
+    "twist",
+    "expr:pois"
+   ],
+   "emotion": "amused",
+   "num": 5,
+   "rd": "뽀이쉬... 쏘우 아 뚜아 비징야."
+  },
+  {
+   "speaker": "A",
+   "tl": "Ah... então já sabes tudo.",
+   "ko": "아… 그럼 다 알겠네.",
+   "note": "já sabes tudo = 이미 다 알아",
+   "tags": [
+    "expr:então",
+    "form:saber"
+   ],
+   "emotion": "worried",
+   "num": 6,
+   "rd": "아... 엔따웅 자 싸브쉬 뚜두."
+  }
+ ]
+}

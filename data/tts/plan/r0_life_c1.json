@@ -1,0 +1,61 @@
+{
+ "ep": "r0_life_c1",
+ "cast": {
+  "B": "ines"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Estás em casa?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "Ya. Porquê?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "excited",
+     "Vou já. Tenho uma coisa para ti."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "surprised",
+     "Para mim? O quê?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "cheerful",
+     "Um gato. E outro. E outro..."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Nem pensar! ..."
+    ],
+    [
+     "gentle",
+     " Pronto, vem lá.",
+     "Pronto, vem lá."
+    ]
+   ]
+  }
+ }
+}

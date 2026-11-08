@@ -1,0 +1,73 @@
+{
+ "ep": "r1_life_a1",
+ "cast": {
+  "B": "duarte"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "annoyed",
+     "Duarte? Estás a falar com quem?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "flustered",
+     "Com ninguém, pá! Está tudo bem."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "teasing",
+     "Eu ouvi «anda cá, meu amor».",
+     "Eu ouvi anda cá, meu amor."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "stiff",
+     "Pois... estou a falar com a Mãe."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "surprised",
+     "Com a tua mãe? A esta hora?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "cheerful",
+     "Não. Com esta Mãe. Diz olá, Mãe!"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "shout",
+     "Duarte... isso é um cão!"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "amused",
+     "Claro! Assim falo com a minha mãe todos os dias."
+    ]
+   ]
+  }
+ }
+}

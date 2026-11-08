@@ -1,0 +1,56 @@
+{
+ "ep": "r0_friends_a1",
+ "cast": {
+  "B": "tiago"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "amused",
+     "Tiago, estás a fazer o quê?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "gentle",
+     "Olha... é para ti."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "surprised",
+     "Para mim? A sério?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "gentle",
+     "Sim. Só para ti, pá."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "teasing",
+     "Fixe! Então... já posso falar?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "amused",
+     "Ainda não. Mais uma vez."
+    ]
+   ]
+  }
+ }
+}

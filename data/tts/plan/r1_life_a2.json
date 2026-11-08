@@ -1,0 +1,77 @@
+{
+ "ep": "r1_life_a2",
+ "cast": {
+  "B": "duarte"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "worried",
+     "Duarte? O que se passa contigo?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "sad",
+     "Nada. Deixa-me, pá."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "worried",
+     "Morreu alguém? Fala comigo."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "sad",
+     "Morreu, sim. O meu clube perdeu hoje."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "amused",
+     "Ah... é só isso? Pronto, pronto."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "shout",
+     "Só isso?! É a minha vida, pá!"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "gentle",
+     "Desculpa. Anda cá, eu fico contigo."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "gentle",
+     "Obrigado, pá..."
+    ],
+    [
+     "tsukkomi",
+     " Espera. Tu és do outro clube!",
+     "Espera. Tu és do outro clube!"
+    ]
+   ]
+  }
+ }
+}

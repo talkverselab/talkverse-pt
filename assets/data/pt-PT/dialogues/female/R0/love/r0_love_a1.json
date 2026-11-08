@@ -1,0 +1,124 @@
+{
+ "id": "r0_love_a1",
+ "region": "R0",
+ "island": "love",
+ "kind": "short",
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "title": "너 맞지?",
+ "emoji": "🏄",
+ "scene": "해변, 서핑을 마친 Beatriz 가 젖은 머리로 먼저 다가온다. 친구 얘기를 꺼내는데 뭔가 수상하다.",
+ "speakers": {
+  "A": "{name}",
+  "B": "Beatriz"
+ },
+ "cast": {
+  "B": "beatriz"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "reveal",
+ "flags": [
+  "romance"
+ ],
+ "goal": "처음 말을 걸어 오는 사람에게 짧게 답하기 — 「olha」「a sério?」「vá lá」",
+ "expressions": [
+  "olha",
+  "a sério?",
+  "então",
+  "vá lá"
+ ],
+ "variant": "pt-PT",
+ "learner_gender": "female",
+ "draft": true,
+ "turns": [
+  {
+   "speaker": "B",
+   "tl": "Olha, tu és a {name}?",
+   "ko": "저기, 네가 {name}이지?",
+   "note": "és = 너는 ~이다 (ser)",
+   "tags": [
+    "expr:olha",
+    "form:ser"
+   ],
+   "emotion": "cheerful",
+   "num": 1,
+   "rd": "올랴, 뚜 에즈 아 {name}?"
+  },
+  {
+   "speaker": "A",
+   "tl": "Sim, sou eu. Porquê?",
+   "ko": "응, 나야. 왜?",
+   "note": "porquê? = 왜?",
+   "tags": [
+    "form:ser"
+   ],
+   "emotion": "surprised",
+   "num": 2,
+   "rd": "씽, 쏘우 에우. 뽀르께?"
+  },
+  {
+   "speaker": "B",
+   "tl": "A Inês fala muito de ti.",
+   "ko": "Inês가 네 얘기 엄청 해.",
+   "note": "fala de ti = 네 얘기를 해",
+   "tags": [
+    "form:falar"
+   ],
+   "emotion": "teasing",
+   "num": 3,
+   "rd": "아 이네쉬 팔라 무이뚜 드 띠."
+  },
+  {
+   "speaker": "A",
+   "tl": "A sério? E diz o quê?",
+   "ko": "진짜? 뭐라고 하는데?",
+   "note": "diz = 말해 (dizer)",
+   "tags": [
+    "expr:a sério?"
+   ],
+   "emotion": "flustered",
+   "num": 4,
+   "rd": "아 쎄리우? 이 디즈 우 께?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Nada. Fui eu que perguntei.",
+   "ko": "아무 말도. 사실 내가 물어본 거야.",
+   "note": "perguntei = 내가 물어봤어 (상한 밖 낱말)",
+   "tags": [
+    "twist"
+   ],
+   "segs": [
+    [
+     "amused",
+     "Nada."
+    ],
+    [
+     "shy",
+     " Fui eu que perguntei."
+    ]
+   ],
+   "num": 5,
+   "rd": "나다. 푸이 에우 끄 뻬르군떼이."
+  },
+  {
+   "speaker": "B",
+   "tl": "Então... vens comigo? Vá lá.",
+   "ko": "그럼… 나랑 갈래? 응?",
+   "note": "vens comigo? = 나랑 갈래?, vá lá = 에이, 가자",
+   "tags": [
+    "heart",
+    "expr:então",
+    "expr:vá lá"
+   ],
+   "emotion": "gentle",
+   "num": 6,
+   "rd": "엔따웅... 벵쉬 꼬미구? 바 라."
+  }
+ ]
+}

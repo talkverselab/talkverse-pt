@@ -1,0 +1,118 @@
+{
+ "id": "r0_life_a1",
+ "region": "R0",
+ "island": "life",
+ "kind": "short",
+ "purpose": [
+  "life"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "누가 했어?",
+ "emoji": "🧹",
+ "scene": "아침, 셰어하우스 거실. Duarte 가 눈을 비비며 나왔다가 그대로 굳는다. 집이 너무 깨끗하다.",
+ "speakers": {
+  "A": "{name}",
+  "B": "Duarte"
+ },
+ "cast": {
+  "B": "duarte"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "놀란 말에 짧게 받아치기 — 「epá」「pois é」",
+ "expressions": [
+  "epá",
+  "pois é"
+ ],
+ "variant": "pt-PT",
+ "learner_gender": "male",
+ "draft": true,
+ "turns": [
+  {
+   "speaker": "B",
+   "tl": "Epá! Quem fez isto?",
+   "ko": "헐! 이거 누가 했어?",
+   "note": "quem fez? = 누가 했어?",
+   "tags": [
+    "expr:epá",
+    "form:fazer"
+   ],
+   "emotion": "surprised",
+   "num": 1,
+   "rd": "에빠! 껭 페즈 이쉬뚜?"
+  },
+  {
+   "speaker": "A",
+   "tl": "Fez o quê? Não sei.",
+   "ko": "뭘? 몰라.",
+   "note": "não sei = 몰라",
+   "tags": [
+    "form:saber"
+   ],
+   "emotion": "neutral",
+   "num": 2,
+   "rd": "페즈 우 께? 나웅 쎄이."
+  },
+  {
+   "speaker": "B",
+   "tl": "A casa está muito bem!",
+   "ko": "집이 완전 멀쩡해!",
+   "note": "está muito bem = 아주 좋아",
+   "tags": [
+    "form:estar"
+   ],
+   "emotion": "shout",
+   "num": 3,
+   "rd": "아 까자 이쉬따 무이뚜 벵!"
+  },
+  {
+   "speaker": "A",
+   "tl": "Pois é. Não fui eu.",
+   "ko": "그러게. 난 아니야.",
+   "note": "pois é = 그러게, fui = 내가 ~였다 (ser)",
+   "tags": [
+    "expr:pois é"
+   ],
+   "emotion": "tsukkomi",
+   "num": 4,
+   "rd": "뽀이즈 에. 나웅 푸이 에우."
+  },
+  {
+   "speaker": "B",
+   "tl": "Foi a Inês? A Beatriz?",
+   "ko": "Inês야? Beatriz야?",
+   "note": "foi = ~였어 (ser)",
+   "tags": [
+    "form:ser"
+   ],
+   "emotion": "worried",
+   "num": 5,
+   "rd": "포이 아 이네쉬? 아 베아트리쉬?"
+  },
+  {
+   "speaker": "A",
+   "tl": "Foi o teu pai. Ainda está aqui.",
+   "ko": "너네 아빠. 아직 여기 계셔.",
+   "note": "o teu pai = 너네 아빠, ainda = 아직",
+   "tags": [
+    "twist"
+   ],
+   "segs": [
+    [
+     "neutral",
+     "Foi o teu pai."
+    ],
+    [
+     "worried",
+     " Ainda está aqui."
+    ]
+   ],
+   "num": 6,
+   "rd": "포이 우 떼우 빠이. 아인다 이쉬따 아끼."
+  }
+ ]
+}

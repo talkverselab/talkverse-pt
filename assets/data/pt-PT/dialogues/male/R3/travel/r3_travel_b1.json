@@ -1,0 +1,255 @@
+{
+ "id": "r3_travel_b1",
+ "region": "R3",
+ "island": "travel",
+ "kind": "long",
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel",
+  "love"
+ ],
+ "title": "32번 창가 자리",
+ "emoji": "🚆",
+ "scene": "리스본발 기차. 창가 32번 자리에 앉아 있는데, 같은 표를 든 Inês 가 다가온다.",
+ "speakers": {
+  "A": "{name}",
+  "B": "Inês",
+  "C": "Dona Fernanda"
+ },
+ "cast": {
+  "B": "ines",
+  "C": "fernanda"
+ },
+ "register": "mixed",
+ "twist": 13,
+ "twist_type": "reveal",
+ "flags": [
+  "romance"
+ ],
+ "goal": "낯선 사이 존칭 → 반말 전환(pode tratar-me por tu), 복수 os senhores·vamos·eles, 「a sério?」「fixe」「pronto」「afinal」",
+ "expressions": [
+  "a sério?",
+  "fixe",
+  "pronto",
+  "afinal",
+  "desculpe",
+  "desculpa"
+ ],
+ "variant": "pt-PT",
+ "learner_gender": "male",
+ "draft": true,
+ "turns": [
+  {
+   "speaker": "B",
+   "tl": "Desculpe, o senhor está no meu lugar. É o 32, à janela.",
+   "ko": "실례지만 제 자리에 앉아 계세요. 32번 창가요.",
+   "note": "desculpe = 실례합니다(존칭), à janela = 창가",
+   "tags": [
+    "form:o-senhor"
+   ],
+   "segs": [
+    [
+     "polite",
+     "Desculpe, o senhor está no meu lugar. É o 32, à janela.",
+     "Desculpe, o senhor está no meu lugar. É o trinta e dois, à janela."
+    ]
+   ],
+   "num": 1,
+   "rd": "데쉬꿀쁘, 우 쎙요르 이쉬따 누 메우 루가르. 에 우 32, 아 자넬라."
+  },
+  {
+   "speaker": "A",
+   "tl": "A sério? O meu também é o 32, à janela.",
+   "ko": "정말요? 제 것도 32번 창가인데요.",
+   "note": "a sério? = 정말?",
+   "tags": [
+    "expr:a sério?"
+   ],
+   "segs": [
+    [
+     "surprised",
+     "A sério? O meu também é o 32, à janela.",
+     "A sério? O meu também é o trinta e dois, à janela."
+    ]
+   ],
+   "num": 2,
+   "rd": "아 쎄리우? 우 메우 땀벵 에 우 32, 아 자넬라."
+  },
+  {
+   "speaker": "B",
+   "tl": "Que estranho. Este é o comboio das dez para o Porto, não é?",
+   "ko": "이상하네요. 이거 10시 포르투행 기차 맞죠?",
+   "note": "comboio = 기차(유럽판, 상한 밖 낱말)",
+   "tags": [
+    "form:comboio"
+   ],
+   "emotion": "worried",
+   "num": 3,
+   "rd": "끄 이쉬트랑유. 에쉬뜨 에 우 꽁보이우 다쉬 데쉬 빠라 우 뽀르뚜, 나웅 에?"
+  },
+  {
+   "speaker": "A",
+   "tl": "É, sim. Eu vou para o Porto. A senhora também?",
+   "ko": "네, 맞아요. 저 포르투 가요. 손님도요?",
+   "note": "a senhora = (여성에게) 당신(존칭)",
+   "tags": [
+    "form:o-senhor"
+   ],
+   "emotion": "polite",
+   "num": 4,
+   "rd": "에, 씽. 에우 보우 빠라 우 뽀르뚜. 아 쎙요라 땀벵?"
+  },
+  {
+   "speaker": "B",
+   "tl": "A senhora?! Tenho 22 anos. Pode tratar-me por tu.",
+   "ko": "손님?! 저 스물두 살이에요. 그냥 편하게 말해요.",
+   "note": "tratar por tu = 반말로 부르다",
+   "tags": [
+    "form:tratar-por-tu"
+   ],
+   "segs": [
+    [
+     "tsukkomi",
+     "A senhora?!"
+    ],
+    [
+     "teasing",
+     "Tenho 22 anos. Pode tratar-me por tu.",
+     "Tenho vinte e dois anos. Pode tratar-me por tu."
+    ]
+   ],
+   "num": 5,
+   "rd": "아 쎙요라?! 뗑유 22 아누쉬. 뽀드 트라따르 므 뽀르 뚜."
+  },
+  {
+   "speaker": "A",
+   "tl": "Desculpa! Então… tu também vais para o Porto?",
+   "ko": "미안! 그럼… 너도 포르투 가?",
+   "note": "desculpa = 미안(반말), desculpe 와 짝",
+   "tags": [
+    "form:tu"
+   ],
+   "emotion": "flustered",
+   "num": 6,
+   "rd": "데쉬꿀빠! 엔따웅… 뚜 땀벵 바이쉬 빠라 우 뽀르뚜?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Vou ver os meus pais. Eles vivem lá.",
+   "ko": "부모님 보러 가. 거기 사시거든.",
+   "note": "vivem = 그들이 산다(eles 어미 -em)",
+   "tags": [
+    "form:eles"
+   ],
+   "emotion": "cheerful",
+   "num": 7,
+   "rd": "보우 베르 우쉬 메우쉬 빠이쉬. 엘르쉬 비벵 라."
+  },
+  {
+   "speaker": "A",
+   "tl": "Então eu fico deste lado e tu ficas à janela.",
+   "ko": "그럼 내가 이쪽에 앉을게, 넌 창가에 앉아.",
+   "note": "deste lado = 이쪽에(de + este)",
+   "tags": [
+    "form:tu"
+   ],
+   "emotion": "gentle",
+   "num": 8,
+   "rd": "엔따웅 에우 피꾸 데쉬뜨 라두 이 뚜 피까즈 아 자넬라."
+  },
+  {
+   "speaker": "B",
+   "tl": "Fico à janela… mas tu podes ver o mar comigo.",
+   "ko": "창가엔 내가 앉을게… 근데 바다는 나랑 같이 봐도 돼.",
+   "note": "comigo = 나와 함께",
+   "tags": [
+    "heart"
+   ],
+   "emotion": "shy",
+   "num": 9,
+   "rd": "피꾸 아 자넬라… 마쉬 뚜 뽀드쉬 베르 우 마르 꼬미구."
+  },
+  {
+   "speaker": "A",
+   "tl": "Fixe. Nós temos três horas de viagem, não é?",
+   "ko": "좋아. 우리 세 시간 가는 거 맞지?",
+   "note": "fixe = 좋다, 멋지다 / temos = 우리가 가지다(nós)",
+   "tags": [
+    "expr:fixe",
+    "form:nos"
+   ],
+   "emotion": "cheerful",
+   "num": 10,
+   "rd": "피쉬. 노쉬 떼무쉬 트레즈 오라쉬 드 비아젱, 나웅 에?"
+  },
+  {
+   "speaker": "C",
+   "tl": "Bom dia. Os senhores vão para onde?",
+   "ko": "안녕하세요. 두 분 어디까지 가세요?",
+   "note": "os senhores vão = 손님들 가세요(존칭 복수 = 3인칭 복수)",
+   "tags": [
+    "form:os-senhores"
+   ],
+   "emotion": "polite",
+   "num": 11,
+   "rd": "봉 디아. 우쉬 쎙요르쉬 바웅 빠라 옹드?"
+  },
+  {
+   "speaker": "A",
+   "tl": "Vamos os dois para o Porto.",
+   "ko": "둘 다 포르투 가요.",
+   "note": "vamos os dois = 우리 둘 다 간다",
+   "tags": [
+    "form:nos"
+   ],
+   "emotion": "cheerful",
+   "num": 12,
+   "rd": "바무즈 우쉬 도이쉬 빠라 우 뽀르뚜."
+  },
+  {
+   "speaker": "C",
+   "tl": "Para o Porto? Este vai para Faro. O do Porto partiu há cinco minutos.",
+   "ko": "포르투요? 이건 파루행이에요. 포르투행은 5분 전에 떠났어요.",
+   "note": "há cinco minutos = 5분 전에",
+   "tags": [
+    "twist"
+   ],
+   "segs": [
+    [
+     "surprised",
+     "Para o Porto?"
+    ],
+    [
+     "polite",
+     "Este vai para Faro. O do Porto partiu há cinco minutos."
+    ]
+   ],
+   "num": 13,
+   "rd": "빠라 우 뽀르뚜? 에쉬뜨 바이 빠라 파루. 우 두 뽀르뚜 빠르띠우 아 씽꾸 미누뚜쉬."
+  },
+  {
+   "speaker": "B",
+   "tl": "Pronto… Afinal vamos ver o mar juntos. Só que no Algarve.",
+   "ko": "뭐… 결국 바다는 같이 보네. 알가르브 바다긴 하지만.",
+   "note": "afinal = 결국 / pronto = 뭐, 됐어",
+   "tags": [
+    "expr:pronto",
+    "expr:afinal"
+   ],
+   "segs": [
+    [
+     "amused",
+     "Pronto… Afinal vamos ver o mar juntos."
+    ],
+    [
+     "gentle",
+     "Só que no Algarve."
+    ]
+   ],
+   "num": 14,
+   "rd": "프론뚜… 아피날 바무쉬 베르 우 마르 준뚜쉬. 쏘 끄 누 알가르브."
+  }
+ ]
+}

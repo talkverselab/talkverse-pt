@@ -1,0 +1,61 @@
+{
+ "ep": "r0_friends_c1",
+ "cast": {
+  "B": "duarte"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "excited",
+     "Epá, estás a ver isto?!"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "Ver o quê, pá?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "shout",
+     "Olha! Agora, agora!"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "annoyed",
+     "Tá bem, tá bem..."
+    ],
+    [
+     "neutral",
+     " estou a ver.",
+     "estou a ver."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "shout",
+     "É o meu pai, pá! Lá!"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "surprised",
+     "A sério?! Ele está a... dançar?"
+    ]
+   ]
+  }
+ }
+}

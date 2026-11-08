@@ -1,0 +1,248 @@
+{
+ "id": "r5_life_b1",
+ "region": "R5",
+ "island": "life",
+ "kind": "long",
+ "purpose": [
+  "daily_life"
+ ],
+ "domain": [
+  "home"
+ ],
+ "title": "새벽 여섯 시의 룸메이트",
+ "emoji": "🐔",
+ "scene": "셰어하우스 거실. 매일 새벽 베란다에서 나는 소리 때문에 잠을 못 잔 학습자가 룸메이트 Duarte 를 추궁한다.",
+ "speakers": {
+  "A": "{name}",
+  "B": "Duarte",
+  "C": "Dona Fernanda"
+ },
+ "cast": {
+  "B": "duarte",
+  "C": "fernanda"
+ },
+ "register": "mixed",
+ "twist": 11,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "새 문법 없이 657~2,000위 어휘(barulho·vento·chão·sala·casaco·pássaro·animal·apartamento·ovo·quente·estranho·máquina·lavar·mercado·fresco·dono·prédio)를 집 생활 대화에서 쓰기",
+ "expressions": [
+  "pá",
+  "se calhar",
+  "olha",
+  "pronto",
+  "não é?"
+ ],
+ "variant": "pt-PT",
+ "learner_gender": "female",
+ "draft": true,
+ "turns": [
+  {
+   "speaker": "A",
+   "tl": "Duarte, ouviste aquele barulho? Outra vez na varanda, às seis da manhã.",
+   "ko": "Duarte, 그 소리 들었어? 또 베란다야, 새벽 여섯 시에.",
+   "note": "barulho = 소음 · varanda = 베란다(상한 밖 낱말)",
+   "tags": [
+    "vocab:barulho"
+   ],
+   "emotion": "annoyed",
+   "num": 1,
+   "rd": "두아르뜨, 오우비쉬뜨 아껠르 바룰류? 오우트라 베쉬 나 바란다, 아쉬 쎄이쉬 다 망양."
+  },
+  {
+   "speaker": "B",
+   "tl": "Que barulho? Eu estava a dormir. Deve ser o vento.",
+   "ko": "무슨 소리? 난 자고 있었는데. 바람이겠지.",
+   "note": "vento = 바람",
+   "tags": [
+    "vocab:vento"
+   ],
+   "emotion": "stiff",
+   "num": 2,
+   "rd": "끄 바룰류? 에우 이쉬따바 아 도르미르. 데브 쎄르 우 벤뚜."
+  },
+  {
+   "speaker": "A",
+   "tl": "O vento não canta, pá. E há penas no chão da sala.",
+   "ko": "바람은 노래 안 하거든. 그리고 거실 바닥에 깃털이 있어.",
+   "note": "pena = 깃털 · chão = 바닥",
+   "tags": [
+    "expr:pá",
+    "vocab:chão",
+    "vocab:sala"
+   ],
+   "emotion": "tsukkomi",
+   "num": 3,
+   "rd": "우 벤뚜 나웅 깐따, 빠. 이 아 뻬나쉬 누 샤웅 다 쌀라."
+  },
+  {
+   "speaker": "B",
+   "tl": "Penas? Se calhar são do meu casaco velho. Olha, vou fazer o pequeno-almoço.",
+   "ko": "깃털? 아마 내 낡은 패딩에서 나왔나 봐. 저기, 나 아침 만들게.",
+   "note": "se calhar = 아마 · casaco = 외투",
+   "tags": [
+    "expr:se calhar",
+    "expr:olha",
+    "vocab:casaco"
+   ],
+   "emotion": "flustered",
+   "num": 4,
+   "rd": "뻬나쉬? 쓰 깔랴르 싸웅 두 메우 까자꾸 벨류. 올랴, 보우 파제르 우 뻬께누 알모쑤."
+  },
+  {
+   "speaker": "A",
+   "tl": "Tu? Desde quando? E porque é que compraste um saco de comida para pássaros?",
+   "ko": "네가? 언제부터? 그리고 새 모이는 왜 한 봉지 산 건데?",
+   "note": "saco = 봉지 · pássaro = 새",
+   "tags": [
+    "vocab:saco",
+    "vocab:pássaro"
+   ],
+   "emotion": "teasing",
+   "num": 5,
+   "rd": "뚜? 데쥬드 꽌두? 이 뽀르끄 에 끄 꽁프라쉬뜨 웅 싸꾸 드 꼬미다 빠라 빠싸루쉬?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Para... para os pássaros do parque. Gosto muito de animais, sabes?",
+   "ko": "그건… 공원 새들 주려고. 나 동물 엄청 좋아하잖아.",
+   "note": "animal = 동물",
+   "tags": [
+    "vocab:animal",
+    "vocab:parque"
+   ],
+   "emotion": "flustered",
+   "num": 6,
+   "rd": "빠라... 빠라 우쉬 빠싸루쉬 두 빠르끄. 고쉬뚜 무이뚜 드 아니마이쉬, 싸브쉬?"
+  },
+  {
+   "speaker": "C",
+   "tl": "Bom dia, meninos. Desculpem, o barulho vem do vosso apartamento?",
+   "ko": "좋은 아침이에요, 학생들. 미안한데, 그 소리 여기 집에서 나는 거예요?",
+   "note": "apartamento = 아파트, 집",
+   "tags": [
+    "vocab:apartamento"
+   ],
+   "emotion": "polite",
+   "num": 7,
+   "rd": "봉 디아, 메니누쉬. 데쉬꿀뼁, 우 바룰류 벵 두 보쑤 아빠르따멘뚜?"
+  },
+  {
+   "speaker": "A",
+   "tl": "Bom dia, Dona Fernanda. A senhora também acordou com aquilo?",
+   "ko": "안녕하세요, 페르난다 아주머니. 아주머니도 그 소리에 깨셨어요?",
+   "note": "a senhora = 아주머니(존칭, 3인칭 동사)",
+   "tags": [
+    "vocab:acordar"
+   ],
+   "emotion": "polite",
+   "num": 8,
+   "rd": "봉 디아, 도나 페르난다. 아 쎙요라 땀벵 아꼬르도우 꽁 아낄루?"
+  },
+  {
+   "speaker": "C",
+   "tl": "Acordei, sim. E encontrei um ovo à minha porta. Um ovo quente!",
+   "ko": "깼죠. 그리고 우리 집 문 앞에서 달걀을 하나 찾았어요. 따뜻한 달걀!",
+   "note": "ovo = 달걀 · quente = 따뜻한",
+   "tags": [
+    "vocab:ovo",
+    "vocab:quente"
+   ],
+   "segs": [
+    [
+     "polite",
+     "Acordei, sim."
+    ],
+    [
+     "surprised",
+     "E encontrei um ovo à minha porta. Um ovo quente!"
+    ]
+   ],
+   "num": 9,
+   "rd": "아꼬르데이, 씽. 이 엥꼰트레이 웅 오부 아 밍야 뽀르따. 웅 오부 껜뜨!"
+  },
+  {
+   "speaker": "B",
+   "tl": "Ah... um ovo. Que coisa estranha, não é?",
+   "ko": "아… 달걀이요. 참 이상한 일이네요, 그렇죠?",
+   "note": "estranho = 이상한",
+   "tags": [
+    "vocab:estranho"
+   ],
+   "emotion": "stiff",
+   "num": 10,
+   "rd": "아... 웅 오부. 끄 꼬이자 이쉬트랑야, 나웅 에?"
+  },
+  {
+   "speaker": "A",
+   "tl": "Duarte! Está uma galinha na varanda, atrás da máquina de lavar!",
+   "ko": "Duarte! 베란다에 닭이 있어, 세탁기 뒤에!",
+   "note": "galinha = 닭 · máquina de lavar = 세탁기",
+   "tags": [
+    "vocab:galinha",
+    "vocab:máquina",
+    "twist"
+   ],
+   "emotion": "shout",
+   "num": 11,
+   "rd": "두아르뜨! 이쉬따 우마 갈링야 나 바란다, 아트라쉬 다 마끼나 드 라바르!"
+  },
+  {
+   "speaker": "B",
+   "tl": "Pronto, é a Gertrudes. Comprei-a no mercado. Ovos frescos todos os dias!",
+   "ko": "그래, 걔 이름은 제르트루드야. 시장에서 샀어. 매일 신선한 달걀이라고!",
+   "note": "pronto = 그래, 됐어 · fresco = 신선한",
+   "tags": [
+    "expr:pronto",
+    "vocab:mercado",
+    "vocab:fresco"
+   ],
+   "segs": [
+    [
+     "flustered",
+     "Pronto, é a Gertrudes."
+    ],
+    [
+     "excited",
+     "Comprei-a no mercado. Ovos frescos todos os dias!"
+    ]
+   ],
+   "num": 12,
+   "rd": "프론뚜, 에 아 제르트루드쉬. 꽁프레이 아 누 메르까두. 오부쉬 프레쉬꾸쉬 또두즈 우쉬 디아쉬!"
+  },
+  {
+   "speaker": "C",
+   "tl": "Ovos frescos? Então quero seis por semana, e não digo nada ao dono do prédio.",
+   "ko": "신선한 달걀이요? 그럼 일주일에 여섯 개 줘요, 건물 주인한텐 아무 말 안 할게.",
+   "note": "dono = 주인 · prédio = 건물",
+   "tags": [
+    "vocab:dono",
+    "vocab:prédio"
+   ],
+   "segs": [
+    [
+     "surprised",
+     "Ovos frescos?"
+    ],
+    [
+     "teasing",
+     "Então quero seis por semana, e não digo nada ao dono do prédio."
+    ]
+   ],
+   "num": 13,
+   "rd": "오부쉬 프레쉬꾸쉬? 엔따웅 께루 쎄이쉬 뽀르 쎄마나, 이 나웅 디구 나다 아우 도누 두 프레디우."
+  },
+  {
+   "speaker": "A",
+   "tl": "Ótimo. Agora a galinha mora cá de graça e eu continuo sem dormir.",
+   "ko": "잘됐네. 이제 닭은 공짜로 살고 나는 계속 못 자고.",
+   "note": "de graça = 공짜로 · morar = 살다",
+   "tags": [
+    "vocab:morar"
+   ],
+   "emotion": "tsukkomi",
+   "num": 14,
+   "rd": "오띠무. 아고라 아 갈링야 모라 까 드 그라싸 이 에우 꼰띠누우 쎙 도르미르."
+  }
+ ]
+}

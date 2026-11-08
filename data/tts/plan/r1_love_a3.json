@@ -1,0 +1,82 @@
+{
+ "ep": "r1_love_a3",
+ "cast": {
+  "B": "beatriz"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "excited",
+     "Olá! Tu és {name}, certo? Do lado?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Sou, sim. E tu és a Beatriz."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "excited",
+     "Sou! Olha, posso pedir uma coisa?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "cheerful",
+     "Claro. O que precisas?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "excited",
+     "Vens comigo..."
+    ],
+    [
+     "shy",
+     " ah... não. Esquece.",
+     "ah... não. Esquece."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "teasing",
+     "Espera. Tu, sem palavras? A sério?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "shout",
+     "Pronto!"
+    ],
+    [
+     "shy",
+     " Queres sair comigo amanhã à noite?",
+     "Queres sair comigo amanhã à noite?"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "gentle",
+     "Quero. E eu a pensar que era só eu."
+    ]
+   ]
+  }
+ }
+}

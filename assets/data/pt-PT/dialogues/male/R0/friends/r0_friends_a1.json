@@ -1,0 +1,112 @@
+{
+ "id": "r0_friends_a1",
+ "region": "R0",
+ "island": "friends",
+ "kind": "short",
+ "purpose": [
+  "friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "title": "한 번 더",
+ "emoji": "🎸",
+ "scene": "밤, 셰어하우스 옥상. Tiago 가 기타를 들고 와서 천천히 노래 한 곡을 시작한다.",
+ "speakers": {
+  "A": "{name}",
+  "B": "Tiago"
+ },
+ "cast": {
+  "B": "tiago"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "ignore",
+ "flags": [],
+ "goal": "느긋한 친구에게 짧게 반응하기 — 「olha」「a sério?」「fixe」",
+ "expressions": [
+  "olha",
+  "a sério?",
+  "pá",
+  "fixe",
+  "então"
+ ],
+ "variant": "pt-PT",
+ "learner_gender": "male",
+ "draft": true,
+ "turns": [
+  {
+   "speaker": "A",
+   "tl": "Tiago, estás a fazer o quê?",
+   "ko": "Tiago, 뭐 해?",
+   "note": "estás a fazer o quê? = 뭐 하고 있어?",
+   "tags": [
+    "form:estar a"
+   ],
+   "emotion": "amused",
+   "num": 1,
+   "rd": "띠아구, 이쉬따즈 아 파제르 우 께?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Olha... é para ti.",
+   "ko": "있잖아… 너 주는 거야.",
+   "note": "é para ti = 너를 위한 거야",
+   "tags": [
+    "expr:olha"
+   ],
+   "emotion": "gentle",
+   "num": 2,
+   "rd": "올랴... 에 빠라 띠."
+  },
+  {
+   "speaker": "A",
+   "tl": "Para mim? A sério?",
+   "ko": "나한테? 진짜?",
+   "note": "para mim = 나를 위해",
+   "tags": [
+    "expr:a sério?"
+   ],
+   "emotion": "surprised",
+   "num": 3,
+   "rd": "빠라 밍? 아 쎄리우?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Sim. Só para ti, pá.",
+   "ko": "응. 너만을 위해서.",
+   "note": "só = 오직, ~만",
+   "tags": [
+    "expr:pá"
+   ],
+   "emotion": "gentle",
+   "num": 4,
+   "rd": "씽. 쏘 빠라 띠, 빠."
+  },
+  {
+   "speaker": "A",
+   "tl": "Fixe! Então... já posso falar?",
+   "ko": "멋지다! 그럼… 이제 말해도 돼?",
+   "note": "já posso falar? = 이제 말해도 돼?",
+   "tags": [
+    "expr:fixe",
+    "expr:então"
+   ],
+   "emotion": "teasing",
+   "num": 5,
+   "rd": "피쉬! 엔따웅... 자 뽀쑤 팔라르?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Ainda não. Mais uma vez.",
+   "ko": "아직. 한 번 더.",
+   "note": "mais uma vez = 한 번 더",
+   "tags": [
+    "twist"
+   ],
+   "emotion": "amused",
+   "num": 6,
+   "rd": "아인다 나웅. 마이즈 우마 베쉬."
+  }
+ ]
+}
