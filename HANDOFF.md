@@ -4,6 +4,8 @@
 
 ## ▶ 다음 세션이 바로 할 일(2026-11-08 세션 종료 시점)
 1. **Grok 완전 재작성**(11-09 재개 — **한자 세션 대행 중단**: 자기 크롬을 M4 에서 켜고 `ssh macmini4` 로 `/usr/bin/python3 ~/talkverse-uk/tools/grok_cookie_sync.py 9231 <자기 포트>` 로 쿠키 동기화, 도구는 M6 `~/Hanja/tools/grok_req.py`·`grok_cdp.py` 를 복사해 씀, uk 의 방·9231 탭은 건드리지 않음 — `~/logs/rc/RELAY_grok_20261109.md`, 요청문 작성법 `~/talkverse/GROK_PROMPT_GUIDE.md`): 회화 32편(`data/dialogues_src/pt-PT/*.json`)을 편마다 새 방에서 「모든 줄 새로」 → 리뷰 → `build_dialogues.py`(원본 전부 한 번에) → `make_plan.py` → REVIEW_pt 갱신 요청.
+   - **Grok 프롬프트 최소화(사용자 지시 11-09)**: 규칙은 문서에 한 번만 쓰고, 방 첫 메시지에서 「이후 파일 이름 한 줄만 보낸다」고 약속한 뒤, 이후 채팅은 한 줄씩만 보낸다. 그림이 처음과 달라지면 최초 통과 그림을 기준으로 한다(이미 만든 것은 그대로).
+   - 감정 열: 회화를 만들거나 다시 쓸 때 줄마다 emotion/segs 를 넣는다(이미 32편 모두 있음, `tools/tts/make_plan.py`).
 2. **앱 연결(전략 문서 단계 A)** `docs/APP_BUILD_STRATEGY_pt.md`: pubspec 에 `assets/data/pt-PT/` 등록, `DialogueService` 를 새 폴더 로더로, 회화 음성 재생(`dialogue_audio.dart` 이식). Android·iOS 함께 올림.
 3. **절벽 단어 뜻 373어 채우기**(회화 밖 동결 해제됨): `assets/data/freq/lang_pt_top.csv` 뜻 빈칸 → `tools/build_cliff_words.py` 재실행.
 4. **음성 재시험**: 사용자가 실패 원인(억양·발음·감정·목소리)을 아직 답하지 않음. 답 받으면 QA 기준 0.9·어말 s 검사로 1편 재시험(uk 에 순서 요청).
