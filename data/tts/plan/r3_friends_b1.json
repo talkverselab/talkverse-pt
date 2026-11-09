@@ -82,7 +82,7 @@
    "segs": [
     [
      "excited",
-     "Olá! Mudei tudo, cheguei mais cedo!"
+     "Olá! Mudei de planos, cheguei mais cedo!"
     ]
    ]
   },
@@ -98,12 +98,12 @@
    "segs": [
     [
      "excited",
-     "Pois é! E trouxe os meus amigos do mar."
+     "Pois é! O Duarte contou-me tudo ontem."
     ],
     [
      "cheerful",
-     "Somos 20. Vocês têm alguma coisa para comer?",
-     "Somos vinte. Vocês têm alguma coisa para comer?"
+     " Trouxe pizas… e os meus amigos do surf. Somos seis!",
+     "Trouxe pizas… e os meus amigos do surf. Somos seis!"
     ]
    ]
   },
@@ -123,11 +123,12 @@
    "segs": [
     [
      "excited",
-     "Pessoal, cheguei!"
+     "Pessoal, cheguei! Só consegui um doce…"
     ],
     [
      "flustered",
-     "Só consegui uma coisa: um doce. Um."
+     " Beatriz?! Pronto, fui eu que contei.",
+     "Beatriz?! Pronto, fui eu que contei."
     ]
    ]
   }

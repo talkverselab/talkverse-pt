@@ -33,51 +33,54 @@
    "segs": [
     [
      "neutral",
-     "Não sei. Apareceu na rua ontem à noite e ficou comigo."
+     "É da minha vizinha. Fui com ele à praia no sábado."
     ]
    ]
   },
   "5": {
    "segs": [
     [
-     "teasing",
-     "Ficou contigo a noite toda? Que cão com sorte."
+     "sad",
+     "Ah... então não vives com ele? Que pena."
     ]
    ]
   },
   "6": {
    "segs": [
     [
-     "amused",
-     "Pois. E comeu o meu jantar todo, coitado."
+     "flustered",
+     "Pois. Desculpa, era a melhor fotografia que eu tinha."
     ]
    ]
   },
   "7": {
    "segs": [
     [
-     "worried",
-     "Espera. Era pequeno e não parava de correr?"
+     "amused",
+     "Eu percebo. Na minha, eu estava com a minha irmã e cortei-a. 😅",
+     "Eu percebo. Na minha, eu estava com a minha irmã e cortei-a."
     ]
    ]
   },
   "8": {
    "segs": [
     [
-     "surprised",
-     "Era! Como é que sabes?"
+     "teasing",
+     "Então gostaste do cão, não de mim? 😏",
+     "Então gostaste do cão, não de mim?"
     ]
    ]
   },
   "9": {
    "segs": [
     [
-     "excited",
-     "Porque é o meu cão!"
+     "teasing",
+     "Primeiro do cão, sim."
     ],
     [
-     "worried",
-     "Saiu de casa ontem e não voltou."
+     "cheerful",
+     " Depois li o teu perfil e ri-me bué.",
+     "Depois li o teu perfil e ri-me bué."
     ]
    ]
   },
@@ -85,27 +88,34 @@
    "segs": [
     [
      "cheerful",
-     "Ainda bem! Está aqui comigo, a dormir na minha cama."
+     "Ainda bem! E o que é que te fez rir?"
     ]
    ]
   },
   "11": {
    "segs": [
     [
-     "cheerful",
-     "Então vou aí buscá-lo."
+     "amused",
+     "«Faço o melhor café da cidade.»",
+     "Faço o melhor café da cidade."
     ],
     [
      "shy",
-     "Ou buscar-te a ti. Se calhar os dois."
+     " Se calhar tenho de provar. Amanhã?",
+     "Se calhar tenho de provar. Amanhã?"
     ]
    ]
   },
   "12": {
    "segs": [
     [
+     "excited",
+     "Combinado! Às cinco?"
+    ],
+    [
      "amused",
-     "Traz alguma coisa para comer. Ele comeu o meu jantar, lembras-te?"
+     " E levo o cão, a vizinha deixa.",
+     "E levo o cão, a vizinha deixa."
     ]
    ]
   }

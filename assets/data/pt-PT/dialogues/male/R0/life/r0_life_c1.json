@@ -10,9 +10,9 @@
  "domain": [
   "life"
  ],
- "title": "선물 있어",
- "emoji": "🐱",
- "scene": "토요일 아침, Inês 가 갑자기 메시지를 보낸다. 선물을 들고 온다는데, 수가 이상하다.",
+ "title": "너 줄 거 있어",
+ "emoji": "🔑",
+ "scene": "토요일 아침, Inês 가 갑자기 메시지를 보낸다. 줄 게 있다는데, 그 물건 때문에 밤새 일이 하나 꼬여 있었다.",
  "speakers": {
   "A": "{name}",
   "B": "Inês"
@@ -24,11 +24,11 @@
  "twist": 5,
  "twist_type": "chaos",
  "flags": [],
- "goal": "채팅에서 놀라고 받아치기 — 「ya」「nem pensar」「pronto」",
+ "goal": "채팅으로 집이야?·바로 갈게 주고받기, 놀라고 받아치기 — 「pois é」「vá lá」",
  "expressions": [
-  "ya",
-  "nem pensar",
-  "pronto"
+  "pois é",
+  "vá lá",
+  "já"
  ],
  "variant": "pt-PT",
  "learner_gender": "male",
@@ -93,41 +93,70 @@
   },
   {
    "speaker": "B",
-   "tl": "Um gato. E outro. E outro...",
-   "ko": "고양이. 그리고 또. 그리고 또…",
-   "note": "gato = 고양이 (상한 밖 낱말)",
+   "tl": "A tua chave. Ficou cá ontem.",
+   "ko": "네 열쇠. 어제 우리 집에 두고 갔어.",
+   "note": "chave = 열쇠(상한 밖 낱말) · ficou = 남았다",
    "tags": [
-    "twist"
+    "twist",
+    "form:ficar"
    ],
-   "emotion": "cheerful",
+   "emotion": "teasing",
    "ui": "bubble",
    "at": "10:04",
    "num": 5,
-   "rd": "웅 가뚜. 이 오우트루. 이 오우트루..."
+   "rd": "아 뚜아 샤브. 피꼬우 까 온뗑."
   },
   {
    "speaker": "A",
-   "tl": "Nem pensar! ... Pronto, vem lá.",
-   "ko": "절대 안 돼! … 됐어, 와.",
-   "note": "nem pensar = 말도 안 돼, vem = 와",
+   "tl": "A minha chave? Então a porta...",
+   "ko": "내 열쇠? 그럼 문은…",
+   "note": "então = 그럼",
    "tags": [
-    "expr:nem pensar",
-    "expr:pronto"
+    "expr:então"
+   ],
+   "emotion": "worried",
+   "ui": "bubble",
+   "at": "10:04",
+   "num": 6,
+   "rd": "아 밍야 샤브? 엔따웅 아 뽀르따..."
+  },
+  {
+   "speaker": "B",
+   "tl": "Está aberta desde ontem? 😂",
+   "ko": "어제부터 열려 있었던 거야? 😂",
+   "note": "está aberta = 열려 있다",
+   "tags": [
+    "form:estar"
+   ],
+   "emotion": "amused",
+   "ui": "bubble",
+   "at": "10:05",
+   "num": 7,
+   "rd": "이쉬따 아베르따 데쥬드 온뗑? 😂"
+  },
+  {
+   "speaker": "A",
+   "tl": "Pois é! Vem já, vá lá!",
+   "ko": "그러게! 빨리 와, 제발!",
+   "note": "pois é = 그러게 · vá lá = 제발, 어서",
+   "tags": [
+    "expr:pois é",
+    "expr:vá lá"
    ],
    "segs": [
     [
-     "tsukkomi",
-     "Nem pensar! ..."
+     "flustered",
+     "Pois é!"
     ],
     [
-     "gentle",
-     " Pronto, vem lá."
+     "shout",
+     " Vem já, vá lá!"
     ]
    ],
    "ui": "bubble",
    "at": "10:05",
-   "num": 6,
-   "rd": "넹 뻰싸르! ... 프론뚜, 벵 라."
+   "num": 8,
+   "rd": "뽀이즈 에! 벵 자, 바 라!"
   }
  ]
 }

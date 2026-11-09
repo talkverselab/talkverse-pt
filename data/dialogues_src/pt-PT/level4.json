@@ -41,7 +41,7 @@
   "kind": "long",
   "purpose": ["culture", "friends"],
   "domain": ["culture"],
-  "title": "사라진 두아르트, 행진 한가운데",
+  "title": "사라진 두아르트, 아주머니와 춤을",
   "emoji": "🎉",
   "scene": "6월 성 안토니오 축제의 밤, 골목은 사람으로 꽉 찼다. Beatriz 는 계획을 또 바꾸고, Duarte 는 연락이 끊겼다.",
   "speakers": {"A": "{name}", "B": "Beatriz", "C": "Duarte"},
@@ -62,11 +62,11 @@
    {"speaker": "B", "tl": "Pois, mas desta vez é a sério. Quero que vejas isto pelo menos uma vez na vida.", "ko": "그래, 근데 이번엔 진짜야. 이건 살면서 한 번은 꼭 봤으면 해.", "note": "quero que + 접속법 = 네가 ~하길 바라", "tags": ["expr:pois", "form:conjuntivo"], "emotion": "cheerful"},
    {"speaker": "A", "tl": "Está bem. Mas se o Duarte aparecer, quem lhe diz onde estamos?", "ko": "알았어. 근데 두아르트가 나타나면 우리 어디 있는지 누가 말해 줘?", "note": "se aparecer = 나타나면(미래 접속법)", "tags": ["form:futuro-conjuntivo"], "emotion": "neutral"},
    {"speaker": "B", "tl": "Ele que se desenrasque. Já não é nenhuma criança.", "ko": "알아서 하라고 해. 애도 아니고.", "note": "ele que se desenrasque = 걔가 알아서 하라지(접속법) · desenrascar = 어떻게든 해내다", "tags": ["expr:desenrascar", "form:conjuntivo"], "emotion": "teasing"},
-   {"speaker": "A", "tl": "Espera... aquele ali, com flores na cabeça, a cantar no meio da marcha, não é o Duarte?", "ko": "잠깐… 저기 머리에 꽃 달고 행진 한가운데서 노래하는 사람, 두아르트 아니야?", "note": "a cantar = 노래하면서 · no meio de = ~의 한가운데", "tags": ["twist", "form:estar-a"], "emotion": "surprised"},
-   {"speaker": "C", "tl": "{name}! Beatriz! Perdi uma aposta! Venham, que falta gente!", "ko": "{name}! 베아트리스! 내기에 졌어! 와, 사람 모자라!", "note": "aposta = 내기(상한 밖 낱말) · venham = 와(너희, 접속법형 명령)", "tags": ["form:conjuntivo"], "emotion": "shout"},
+   {"speaker": "A", "tl": "Espera... aquele ali, a dançar com a Dona Fernanda ao pé das sardinhas, não é o Duarte?", "ko": "잠깐… 저기 정어리 굽는 데 옆에서 페르난다 아주머니랑 춤추는 사람, 두아르트 아니야?", "note": "a dançar = 춤추면서 · ao pé de = ~ 옆에", "tags": ["twist", "form:estar-a"], "emotion": "surprised"},
+   {"speaker": "C", "tl": "{name}! Beatriz! Fiquei sem bateria! A Dona Fernanda não me larga. Venham, que falta gente!", "ko": "{name}! 베아트리스! 배터리 나갔어! 페르난다 아주머니가 날 안 놔줘. 와, 사람 모자라!", "note": "ficar sem bateria = 배터리가 나가다(상한 밖 낱말) · venham = 와(너희, 접속법형 명령)", "tags": ["form:conjuntivo"], "emotion": "shout"},
    {"speaker": "B", "tl": "Nem pensar! ... Quer dizer, até seria giro. Anda, {name}!", "ko": "말도 안 돼! … 아니 근데, 재밌을 것 같기도. 가자, {name}!", "note": "seria giro = 재밌겠다(조건법) · quer dizer = 그러니까, 아니", "tags": ["expr:nem pensar", "expr:quer dizer", "expr:giro", "form:condicional"], "segs": [["shout", "Nem pensar! ..."], ["amused", " Quer dizer, até seria giro. Anda, {name}!"]]},
    {"speaker": "A", "tl": "Se alguém tirar uma fotografia, eu mudo de país.", "ko": "누가 사진 찍기만 해 봐, 나 나라 옮긴다.", "note": "se alguém tirar = 누가 찍으면(미래 접속법)", "tags": ["form:futuro-conjuntivo"], "emotion": "tsukkomi"},
-   {"speaker": "C", "tl": "Tarde demais! A Dona Fernanda está a tirar fotografias desde que chegaste!", "ko": "이미 늦었어! 페르난다 아주머니가 너 온 순간부터 사진 찍고 계셔!", "note": "desde que chegaste = 네가 온 뒤로 계속", "tags": ["form:estar-a"], "emotion": "amused"}
+   {"speaker": "C", "tl": "Tarde demais! A filha da Dona Fernanda está a filmar desde que chegaste!", "ko": "이미 늦었어! 페르난다 아주머니 딸이 너 온 순간부터 찍고 있어!", "note": "desde que chegaste = 네가 온 뒤로 계속 · filmar = 영상 찍다", "tags": ["form:estar-a"], "emotion": "amused"}
   ]
  },
  {

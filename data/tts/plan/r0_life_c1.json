@@ -39,21 +39,38 @@
   "5": {
    "segs": [
     [
-     "cheerful",
-     "Um gato. E outro. E outro..."
+     "teasing",
+     "A tua chave. Ficou cá ontem."
     ]
    ]
   },
   "6": {
    "segs": [
     [
-     "tsukkomi",
-     "Nem pensar! ..."
+     "worried",
+     "A minha chave? Então a porta..."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "amused",
+     "Está aberta desde ontem? 😂",
+     "Está aberta desde ontem?"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "flustered",
+     "Pois é!"
     ],
     [
-     "gentle",
-     " Pronto, vem lá.",
-     "Pronto, vem lá."
+     "shout",
+     " Vem já, vá lá!",
+     "Vem já, vá lá!"
     ]
    ]
   }

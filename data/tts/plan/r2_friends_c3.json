@@ -24,7 +24,7 @@
    "segs": [
     [
      "annoyed",
-     "O bolo grande. Com o meu nome em cima."
+     "O de chocolate. Estava na cozinha, numa caixa branca."
     ]
    ]
   },
@@ -32,7 +32,7 @@
    "segs": [
     [
      "teasing",
-     "Ah, esse. Pois, era muito bonito."
+     "Ah, esse. Pois, era muito bom."
     ]
    ]
   },
@@ -52,6 +52,7 @@
     ],
     [
      "excited",
+     " Epá, que jogo!",
      "Epá, que jogo!"
     ]
    ]
@@ -68,7 +69,7 @@
    "segs": [
     [
      "flustered",
-     "Um bocado grande. Quer dizer... tudo."
+     "Um bocado grande. Quer dizer... metade."
     ]
    ]
   },
@@ -76,27 +77,28 @@
    "segs": [
     [
      "shout",
-     "Tudo?! Olha que esse bolo nem era para mim!"
+     "Metade?! Olha que esse bolo era para os anos da Inês!"
     ]
    ]
   },
   "10": {
    "segs": [
     [
-     "flustered",
-     "Calma."
+     "surprised",
+     "Da Inês?"
     ],
     [
-     "teasing",
-     "A Inês também comeu. E o Tiago. E a Beatriz."
+     "flustered",
+     " Epá... pensei que era o bolo que a minha mãe me mandou.",
+     "Epá... pensei que era o bolo que a minha mãe me mandou."
     ]
    ]
   },
   "11": {
    "segs": [
     [
-     "sad",
-     "Espera... houve uma festa aí sem mim?"
+     "tsukkomi",
+     "O da tua mãe está no teu quarto desde sábado, pá. Não viste?"
     ]
    ]
   },
@@ -104,7 +106,7 @@
    "segs": [
     [
      "teasing",
-     "Houve. Mas deixei o teu nome para ti."
+     "Pronto. Amanhã a Inês come o da minha mãe. Ela nem vai saber."
     ]
    ]
   }

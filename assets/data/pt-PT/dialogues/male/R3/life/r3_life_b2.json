@@ -24,7 +24,7 @@
  "twist": 13,
  "twist_type": "chaos",
  "flags": [],
- "goal": "가게 존칭(o senhor/a senhora + 3인칭 단수), 복수 nós·eles 어미, 「pode ser」「claro」「quer dizer」「pronto」",
+ "goal": "카페 주문 존칭(o senhor/a senhora + 3인칭 단수), 복수 nós·eles 어미, 「se faz favor」「pode ser」「quanto é que eu pago?」",
  "expressions": [
   "se faz favor",
   "pode ser",
@@ -51,33 +51,33 @@
   },
   {
    "speaker": "A",
-   "tl": "Aqui dentro, obrigado. Um café, se faz favor.",
+   "tl": "Aqui dentro, obrigado. Quero um café, se faz favor.",
    "ko": "안이요, 고마워요. 커피 한 잔 주세요.",
-   "note": "se faz favor = (부탁할 때) 주세요",
+   "note": "se faz favor = (부탁할 때) 주세요 · quero = 원해요(quer ↔ quero)",
    "tags": [
     "expr:se faz favor"
    ],
    "emotion": "stiff",
    "num": 2,
-   "rd": "아끼 덴트루, 오브리가두. 웅 까페, 쓰 파쉬 파보르."
+   "rd": "아끼 덴트루, 오브리가두. 께루 웅 까페, 쓰 파쉬 파보르."
   },
   {
    "speaker": "B",
-   "tl": "Claro. Quer um copo de água com o café?",
-   "ko": "그럼요. 커피랑 물 한 잔 같이 드릴까요?",
-   "note": "claro = 그럼요, 물론",
+   "tl": "Claro. Quer uma água com o café? Fresca ou natural?",
+   "ko": "그럼요. 커피랑 물도 드릴까요? 시원한 거요, 상온이요?",
+   "note": "fresca = 차가운 · natural = 상온(냉장 안 한)",
    "tags": [
     "expr:claro"
    ],
    "emotion": "polite",
    "num": 3,
-   "rd": "끌라루. 께르 웅 꼬뿌 드 아과 꽁 우 까페?"
+   "rd": "끌라루. 께르 우마 아과 꽁 우 까페? 프레쉬까 오우 나뚜랄?"
   },
   {
    "speaker": "A",
    "tl": "Sim, pode ser.",
    "ko": "네, 그렇게 주세요.",
-   "note": "pode ser = 그걸로 할게요, 좋아요",
+   "note": "pode ser = 그걸로 할게요(둘 중 고르라는데 「네」)",
    "tags": [
     "expr:pode ser"
    ],
@@ -87,15 +87,15 @@
   },
   {
    "speaker": "B",
-   "tl": "E um doce? Hoje temos doces da casa, são muito bons.",
-   "ko": "디저트도요? 오늘은 직접 만든 디저트가 있는데, 아주 맛있어요.",
-   "note": "temos = 우리가 가지고 있다(nós 어미 -mos)",
+   "tl": "E um doce? Hoje temos pastéis de nata acabados de fazer.",
+   "ko": "디저트도요? 오늘 에그타르트 방금 구운 게 있어요.",
+   "note": "temos = 우리가 가지고 있다(nós 어미 -mos) · pastel de nata = 에그타르트(상한 밖 낱말)",
    "tags": [
     "form:nos"
    ],
    "emotion": "cheerful",
    "num": 5,
-   "rd": "이 웅 도쓰? 오즈 떼무쉬 도쓰쉬 다 까자, 싸웅 무이뚜 봉쉬."
+   "rd": "이 웅 도쓰? 오즈 떼무쉬 빠쉬떼이쉬 드 나따 아까바두쉬 드 파제르."
   },
   {
    "speaker": "A",
@@ -123,28 +123,29 @@
   },
   {
    "speaker": "A",
-   "tl": "Sim, sim, claro.",
-   "ko": "네, 네, 그럼요.",
-   "note": "sim, sim = 네네(대충 넘길 때)",
+   "tl": "Sim, sim… como dois, claro.",
+   "ko": "네, 네… 두 개 먹죠, 그럼요.",
+   "note": "como = 내가 먹는다(comem ↔ como) · sim, sim = 네네(대충 넘길 때)",
    "tags": [
-    "expr:claro"
+    "expr:claro",
+    "form:comer"
    ],
    "emotion": "flustered",
    "num": 8,
-   "rd": "씽, 씽, 끌라루."
+   "rd": "씽, 씽… 꼬무 도이쉬, 끌라루."
   },
   {
    "speaker": "B",
-   "tl": "Muito bem! E nós temos música ao vivo. Posso tocar uma coisa para o senhor?",
-   "ko": "좋습니다! 저희는 라이브 음악도 해요. 손님을 위해 한 곡 연주해도 될까요?",
-   "note": "ao vivo = 라이브로",
+   "tl": "Muito bem! E torradas? Nós fazemos com pão da casa, os clientes adoram.",
+   "ko": "좋습니다! 토스트도요? 저희가 직접 만든 빵으로 해요, 손님들이 아주 좋아하세요.",
+   "note": "fazemos = 우리가 만든다(nós) · adoram = 그들이 아주 좋아한다(eles)",
    "tags": [
     "form:nos",
-    "form:o-senhor"
+    "form:eles"
    ],
    "emotion": "excited",
    "num": 9,
-   "rd": "무이뚜 벵! 이 노쉬 떼무쉬 무지까 아우 비부. 뽀쑤 뚜까르 우마 꼬이자 빠라 우 쎙요르?"
+   "rd": "무이뚜 벵! 이 뚜하다쉬? 노쉬 파제무쉬 꽁 빠웅 다 까자, 우쉬 끌리엔뜨즈 아도라웅."
   },
   {
    "speaker": "A",
@@ -160,62 +161,62 @@
   },
   {
    "speaker": "B",
-   "tl": "Pronto! Vou buscar a guitarra. Os meus amigos também cantam. Eles podem sentar-se aqui?",
-   "ko": "됐다! 기타 가져올게요. 제 친구들도 노래하거든요. 걔들 여기 앉아도 될까요?",
-   "note": "guitarra = 기타(상한 밖 낱말)",
+   "tl": "Pronto! E leva também uma caixa de seis pastéis para casa? Estão quentinhos.",
+   "ko": "됐다! 그리고 집에 가져가실 에그타르트 여섯 개 한 상자도요? 따끈따끈해요.",
+   "note": "leva = 가져가시다(존칭 3인칭) · quentinho = 따끈한",
    "tags": [
     "expr:pronto",
-    "form:eles"
+    "form:o-senhor"
    ],
-   "emotion": "excited",
+   "emotion": "cheerful",
    "num": 11,
-   "rd": "프론뚜! 보우 부쉬까르 아 기따하. 우쉬 메우즈 아미구쉬 땀벵 깐따웅. 엘르쉬 뽀뎅 쎈따르 쓰 아끼?"
+   "rd": "프론뚜! 이 레바 땀벵 우마 까이샤 드 쎄이쉬 빠쉬떼이쉬 빠라 까자? 이쉬따웅 껜띵유쉬."
   },
   {
    "speaker": "A",
-   "tl": "Sim! E o senhor também canta?",
-   "ko": "네! 그럼 사장님도 노래하세요?",
-   "note": "o senhor canta = 당신도 노래하세요(존칭 3인칭)",
+   "tl": "Sim, claro… Quanto é que eu pago, se faz favor?",
+   "ko": "네, 그럼요… 얼마 내면 돼요?",
+   "note": "quanto é que eu pago? = 얼마 내면 돼요?",
    "tags": [
-    "form:o-senhor"
+    "expr:se faz favor"
    ],
-   "emotion": "excited",
+   "emotion": "flustered",
    "num": 12,
-   "rd": "씽! 이 우 쎙요르 땀벵 깐따?"
+   "rd": "씽, 끌라루… 꽌뚜 에 끄 에우 빠구, 쓰 파쉬 파보르?"
   },
   {
    "speaker": "B",
-   "tl": "Muito bem. Então são três cafés, seis doces, quatro águas e um fado. O senhor paga tudo?",
-   "ko": "좋아요. 그럼 커피 셋, 디저트 여섯, 물 넷, 그리고 파두 한 곡이요. 전부 손님이 내시는 거죠?",
-   "note": "paga tudo = 전부 계산하다",
+   "tl": "Então: um café, uma água, oito pastéis e torradas. São dezassete euros e meio. Paga com cartão?",
+   "ko": "그럼 커피 하나, 물 하나, 에그타르트 여덟 개, 토스트요. 17유로 50센트입니다. 카드로 하시겠어요?",
+   "note": "são … euros = ~유로입니다(복수 são) · paga = 계산하시다(pago ↔ paga)",
    "tags": [
     "twist",
-    "form:o-senhor"
+    "form:eles"
    ],
    "segs": [
     [
      "polite",
-     "Muito bem. Então são três cafés, seis doces, quatro águas e um fado."
+     "Então: um café, uma água, oito pastéis e torradas."
     ],
     [
      "teasing",
-     "O senhor paga tudo?"
+     " São dezassete euros e meio. Paga com cartão?"
     ]
    ],
    "num": 13,
-   "rd": "무이뚜 벵. 엔따웅 싸웅 트레쉬 까페쉬, 쎄이쉬 도쓰쉬, 꽈트루 아과즈 이 웅 파두. 우 쎙요르 빠가 뚜두?"
+   "rd": "엔따웅: 웅 까페, 우마 아과, 오이뚜 빠쉬떼이즈 이 뚜하다쉬. 싸웅 드자쎄뜨 에우루즈 이 메이우. 빠가 꽁 까르따웅?"
   },
   {
    "speaker": "A",
-   "tl": "Pois… Acho que agora aprendi a dizer não.",
-   "ko": "그게… 저 방금 「아니요」 하는 법을 배운 것 같아요.",
+   "tl": "Dezassete?! Pois… acho que hoje aprendi a dizer «não».",
+   "ko": "17유로요?! 그게… 저 오늘 「아니요」 하는 법 배운 것 같아요.",
    "note": "aprender a + 동사원형 = ~하는 법을 배우다",
    "tags": [
     "expr:pois"
    ],
    "emotion": "tsukkomi",
    "num": 14,
-   "rd": "뽀이쉬… 아슈 끄 아고라 아프렌디 아 디제르 나웅."
+   "rd": "드자쎄뜨?! 뽀이쉬… 아슈 끄 오즈 아프렌디 아 디제르 «나웅»."
   }
  ]
 }

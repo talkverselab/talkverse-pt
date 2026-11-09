@@ -10,7 +10,7 @@
  "domain": [
   "culture"
  ],
- "title": "사라진 두아르트, 행진 한가운데",
+ "title": "사라진 두아르트, 아주머니와 춤을",
  "emoji": "🎉",
  "scene": "6월 성 안토니오 축제의 밤, 골목은 사람으로 꽉 찼다. Beatriz 는 계획을 또 바꾸고, Duarte 는 연락이 끊겼다.",
  "speakers": {
@@ -152,28 +152,28 @@
   },
   {
    "speaker": "A",
-   "tl": "Espera... aquele ali, com flores na cabeça, a cantar no meio da marcha, não é o Duarte?",
-   "ko": "잠깐… 저기 머리에 꽃 달고 행진 한가운데서 노래하는 사람, 두아르트 아니야?",
-   "note": "a cantar = 노래하면서 · no meio de = ~의 한가운데",
+   "tl": "Espera... aquele ali, a dançar com a Dona Fernanda ao pé das sardinhas, não é o Duarte?",
+   "ko": "잠깐… 저기 정어리 굽는 데 옆에서 페르난다 아주머니랑 춤추는 사람, 두아르트 아니야?",
+   "note": "a dançar = 춤추면서 · ao pé de = ~ 옆에",
    "tags": [
     "twist",
     "form:estar-a"
    ],
    "emotion": "surprised",
    "num": 10,
-   "rd": "이쉬뻬라... 아껠르 알리, 꽁 플로르쉬 나 까베싸, 아 깐따르 누 메이우 다 마르샤, 나웅 에 우 두아르뜨?"
+   "rd": "이쉬뻬라... 아껠르 알리, 아 단싸르 꽁 아 도나 프르난다 아우 뻬 다쉬 싸르딩야쉬, 나웅 에 우 두아르뜨?"
   },
   {
    "speaker": "C",
-   "tl": "{name}! Beatriz! Perdi uma aposta! Venham, que falta gente!",
-   "ko": "{name}! 베아트리스! 내기에 졌어! 와, 사람 모자라!",
-   "note": "aposta = 내기(상한 밖 낱말) · venham = 와(너희, 접속법형 명령)",
+   "tl": "{name}! Beatriz! Fiquei sem bateria! A Dona Fernanda não me larga. Venham, que falta gente!",
+   "ko": "{name}! 베아트리스! 배터리 나갔어! 페르난다 아주머니가 날 안 놔줘. 와, 사람 모자라!",
+   "note": "ficar sem bateria = 배터리가 나가다(상한 밖 낱말) · venham = 와(너희, 접속법형 명령)",
    "tags": [
     "form:conjuntivo"
    ],
    "emotion": "shout",
    "num": 11,
-   "rd": "{name}! 베아트리쉬! 쁘르디 우마 아뽀쉬따! 벵양, 끄 팔따 젠뜨!"
+   "rd": "{name}! 베아트리쉬! 피께이 쎙 바떼리아! 아 도나 프르난다 나웅 므 라르가. 벵양, 끄 팔따 젠뜨!"
   },
   {
    "speaker": "B",
@@ -213,15 +213,15 @@
   },
   {
    "speaker": "C",
-   "tl": "Tarde demais! A Dona Fernanda está a tirar fotografias desde que chegaste!",
-   "ko": "이미 늦었어! 페르난다 아주머니가 너 온 순간부터 사진 찍고 계셔!",
-   "note": "desde que chegaste = 네가 온 뒤로 계속",
+   "tl": "Tarde demais! A filha da Dona Fernanda está a filmar desde que chegaste!",
+   "ko": "이미 늦었어! 페르난다 아주머니 딸이 너 온 순간부터 찍고 있어!",
+   "note": "desde que chegaste = 네가 온 뒤로 계속 · filmar = 영상 찍다",
    "tags": [
     "form:estar-a"
    ],
    "emotion": "amused",
    "num": 14,
-   "rd": "따르드 드마이쉬! 아 도나 프르난다 이쉬따 아 띠라르 푸뚜그라피아쉬 데쥬드 끄 쉬가쉬뜨!"
+   "rd": "따르드 드마이쉬! 아 필랴 다 도나 프르난다 이쉬따 아 필마르 데쥬드 끄 쉬가쉬뜨!"
   }
  ]
 }

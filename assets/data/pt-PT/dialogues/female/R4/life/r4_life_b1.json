@@ -21,13 +21,14 @@
  "twist": 13,
  "twist_type": "reveal",
  "flags": [],
- "goal": "관공서 존칭(3인칭), 「com certeza」「olhe」「espere lá」, 상대 성별에 맞춘 coitado/coitada",
+ "goal": "관공서 존칭(3인칭), 「com certeza」「olhe」「espere lá」「não me diga」, 상대 성별에 맞춘 coitado/coitada",
  "expressions": [
   "com certeza",
   "olhe",
   "coitado",
   "espere lá",
-  "pois"
+  "pois",
+  "se calhar"
  ],
  "cast": {
   "B": "fernanda"
@@ -154,97 +155,118 @@
   },
   {
    "speaker": "A",
-   "tl": "Só conheço o senhorio, e esse nem atende o telefone. É o senhor Albano.",
-   "ko": "아는 사람은 집주인뿐인데 전화도 안 받아요. Albano 씨요.",
-   "note": "nem = ~조차 안",
+   "tl": "Não conheço ninguém. Durmo no sofá de um colega. Vou passar a vida naquele sofá?",
+   "ko": "아는 사람이 없어요. 동료 집 소파에서 자요. 평생 그 소파에서 살아야 하나요?",
+   "note": "conheço = 내가 안다(conhece ↔ conheço) · durmo = 내가 잔다(dormir) · passar a vida = 평생을 보내다",
    "tags": [
-    "expr:nem"
-   ],
-   "emotion": "annoyed",
-   "num": 10,
-   "rd": "쏘 꽁예쑤 우 쎙요리우, 이 에쓰 넹 아뗀드 우 뜰르포느. 에 우 쎙요르 알바누."
-  },
-  {
-   "speaker": "B",
-   "tl": "Espere lá. Albano Ferreira, da Rua das Flores, com um cão que ladra a tudo?",
-   "ko": "잠깐만요. Rua das Flores 의 Albano Ferreira, 아무한테나 짖는 개 키우는 사람?",
-   "note": "espere lá = 잠깐만요",
-   "tags": [
-    "expr:espere lá"
-   ],
-   "emotion": "surprised",
-   "num": 11,
-   "rd": "이쉬뻬르 라. 알바누 프헤이라, 다 후아 다쉬 플로르쉬, 꽁 웅 까웅 끄 라드라 아 뚜두?"
-  },
-  {
-   "speaker": "A",
-   "tl": "Esse mesmo! A senhora conhece-o?",
-   "ko": "바로 그분이에요! 아세요?",
-   "note": "conhece-o = 그를 아세요(접어는 동사 뒤)",
-   "tags": [
-    "form:clitic"
-   ],
-   "emotion": "excited",
-   "num": 12,
-   "rd": "에쓰 메쥬무! 아 쎙요라 꽁예쓰 우?"
-  },
-  {
-   "speaker": "B",
-   "tl": "Se conheço! É o meu irmão. Há dez anos que me deve dinheiro.",
-   "ko": "알다마다요! 제 오빠예요. 10년째 저한테 돈을 안 갚고 있죠.",
-   "note": "Se conheço! = 알다마다요!",
-   "tags": [
-    "expr:se conheço",
-    "twist"
+    "form:dormir"
    ],
    "segs": [
     [
-     "amused",
-     "Se conheço!"
+     "annoyed",
+     "Não conheço ninguém. Durmo no sofá de um colega."
     ],
     [
-     "annoyed",
-     "É o meu irmão. Há dez anos que me deve dinheiro."
+     "sad",
+     " Vou passar a vida naquele sofá?"
     ]
    ],
-   "num": 13,
-   "rd": "쓰 꽁예쑤! 에 우 메우 이르마웅. 아 데즈 아누쉬 끄 므 데브 딩예이루."
-  },
-  {
-   "speaker": "A",
-   "tl": "E isso ajuda-me em quê, exatamente?",
-   "ko": "그게 저한테 정확히 무슨 도움이 되죠?",
-   "note": "em quê = 무엇에서",
-   "tags": [
-    "form:clitic"
-   ],
-   "emotion": "neutral",
-   "num": 14,
-   "rd": "이 이쑤 아주다 므 앵 께, 이자따멘뜨?"
+   "num": 10,
+   "rd": "나웅 꽁예쑤 닝겡. 두르무 누 쑤파 드 웅 꿀레가. 보우 빠싸르 아 비다 나껠르 쑤파?"
   },
   {
    "speaker": "B",
-   "tl": "Albano? Ou fazes hoje o contrato a esta jovem, ou conto tudo à mãe.",
-   "ko": "Albano? 오늘 이 젊은 사람 계약서 써 주든지, 아니면 엄마한테 다 이를 거야.",
-   "note": "ou… ou… = ~하든지 ~하든지",
+   "tl": "Espere lá. Deixe-me ver o seu passaporte… há aqui uma coisa estranha.",
+   "ko": "잠깐만요. 여권 좀 볼게요… 여기 좀 이상한 게 있네요.",
+   "note": "espere lá = 잠깐만요 · deixe-me ver = 좀 볼게요(존칭 명령)",
    "tags": [
-    "expr:ou ou"
+    "expr:espere lá",
+    "form:clitic"
    ],
-   "emotion": "annoyed",
-   "num": 15,
-   "rd": "알바누? 오우 파즈즈 오즈 우 꼰트라뚜 아 에쉬따 조벵, 오우 꼰뚜 뚜두 아 마잉."
+   "emotion": "surprised",
+   "num": 11,
+   "rd": "이쉬뻬르 라. 데이쉬 므 베르 우 쎄우 빠싸뽀르뜨… 아 아끼 우마 꼬이자 이쉬트랑야."
   },
   {
    "speaker": "A",
-   "tl": "Acho que acabei de arranjar casa.",
-   "ko": "저 방금 집 구한 것 같네요.",
+   "tl": "Estranha? Não me diga que agora preciso de mais um papel.",
+   "ko": "이상한 거요? 이제 서류가 하나 더 필요하다는 말은 하지 마세요.",
+   "note": "não me diga = 설마요, 말도 마세요(접속법 덩어리)",
+   "tags": [
+    "expr:não me diga",
+    "form:conjuntivo"
+   ],
+   "emotion": "worried",
+   "num": 12,
+   "rd": "이쉬트랑야? 나웅 므 디가 끄 아고라 프르씨주 드 마이즈 웅 빠뻴."
+  },
+  {
+   "speaker": "B",
+   "tl": "Pelo contrário, não precisa de nada. A senhora já tem número desde o ano passado. Pediu-o a sua universidade.",
+   "ko": "그 반대예요, 아무것도 필요 없어요. 손님은 작년부터 이미 번호가 있어요. 다니시는 대학교에서 신청했네요.",
+   "note": "pelo contrário = 그 반대로 · precisa = 필요하시다(preciso ↔ precisa) · pediu-o = 그것을 신청했다",
+   "tags": [
+    "twist",
+    "form:o-senhor"
+   ],
+   "segs": [
+    [
+     "surprised",
+     "Pelo contrário, não precisa de nada."
+    ],
+    [
+     "amused",
+     " A senhora já tem número desde o ano passado. Pediu-o a sua universidade."
+    ]
+   ],
+   "num": 13,
+   "rd": "뻴루 꼰트라리우, 나웅 프르씨자 드 나다. 아 쎙요라 자 땡 누메루 데쥬드 우 아누 빠싸두. 쁘디우 우 아 쑤아 우니브르씨다드."
+  },
+  {
+   "speaker": "A",
+   "tl": "Desde o ano passado?! E ninguém me disse nada?",
+   "ko": "작년부터요?! 근데 아무도 말을 안 해 줬다고요?",
+   "note": "me disse = 나에게 말했다",
+   "tags": [
+    "form:perfeito"
+   ],
+   "emotion": "shout",
+   "num": 14,
+   "rd": "데쥬드 우 아누 빠싸두?! 이 닝겡 므 디쓰 나다?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Se calhar disseram. Mandaram-lhe uma carta, em português. Coitada.",
+   "ko": "아마 말했겠죠. 편지를 보냈네요, 포르투갈어로요. 어쩌나.",
+   "note": "se calhar = 아마 · mandaram-lhe = 당신께 보냈다",
+   "tags": [
+    "expr:se calhar",
+    "expr:coitado"
+   ],
+   "emotion": "teasing",
+   "num": 15,
+   "rd": "쓰 깔랴르 디쎄라웅. 만다라웅 리 우마 까르따, 앵 뿌르뚜게쉬. 꼬이따다."
+  },
+  {
+   "speaker": "A",
+   "tl": "Acho que acabei de arranjar casa. E de perder duas semanas.",
+   "ko": "저 방금 집 구한 것 같네요. 그리고 2주를 날린 것 같고요.",
    "note": "acabar de + 동사원형 = 방금 ~했다",
    "tags": [
     "form:acabar-de"
    ],
-   "emotion": "amused",
+   "segs": [
+    [
+     "amused",
+     "Acho que acabei de arranjar casa."
+    ],
+    [
+     "tsukkomi",
+     " E de perder duas semanas."
+    ]
+   ],
    "num": 16,
-   "rd": "아슈 끄 아까베이 드 아한자르 까자."
+   "rd": "아슈 끄 아까베이 드 아한자르 까자. 이 드 쁘르데르 두아쉬 쓰마나쉬."
   }
  ]
 }

@@ -152,13 +152,13 @@
   },
   {
    "speaker": "D",
-   "tl": "Olá! Mudei tudo, cheguei mais cedo!",
-   "ko": "안녕! 계획 다 바꿨어, 일찍 왔지!",
-   "note": "mudei tudo = 다 바꿨다",
+   "tl": "Olá! Mudei de planos, cheguei mais cedo!",
+   "ko": "안녕! 계획 바꿨어, 일찍 왔지!",
+   "note": "mudar de planos = 계획을 바꾸다",
    "tags": [],
    "emotion": "excited",
    "num": 10,
-   "rd": "올라! 무데이 뚜두, 쉬게이 마이쉬 쎄두!"
+   "rd": "올라! 무데이 드 쁠라누쉬, 쉬게이 마이쉬 쎄두!"
   },
   {
    "speaker": "C",
@@ -172,9 +172,9 @@
   },
   {
    "speaker": "D",
-   "tl": "Pois é! E trouxe os meus amigos do mar. Somos 20. Vocês têm alguma coisa para comer?",
-   "ko": "그렇지! 서핑 친구들도 데려왔어. 우리 스무 명이야. 너희 먹을 거 좀 있어?",
-   "note": "somos = 우리는 ~이다(ser, nós) / pois é = 그렇지, 맞아",
+   "tl": "Pois é! O Duarte contou-me tudo ontem. Trouxe pizas… e os meus amigos do surf. Somos seis!",
+   "ko": "그렇지! Duarte 가 어제 다 말해 줬어. 피자 가져왔어… 그리고 서핑 친구들도. 우리 여섯 명이야!",
+   "note": "contou-me = 나한테 말했다 · somos = 우리는 ~이다(ser, nós) / pois é = 그렇지, 맞아",
    "tags": [
     "twist",
     "expr:pois é",
@@ -183,16 +183,15 @@
    "segs": [
     [
      "excited",
-     "Pois é! E trouxe os meus amigos do mar."
+     "Pois é! O Duarte contou-me tudo ontem."
     ],
     [
      "cheerful",
-     "Somos 20. Vocês têm alguma coisa para comer?",
-     "Somos vinte. Vocês têm alguma coisa para comer?"
+     " Trouxe pizas… e os meus amigos do surf. Somos seis!"
     ]
    ],
    "num": 12,
-   "rd": "뽀이즈 에! 이 트로쓰 우쉬 메우즈 아미구쉬 두 마르. 쏘무쉬 20. 부쎄쉬 땡잉 알구마 꼬이자 빠라 꾸메르?"
+   "rd": "뽀이즈 에! 우 두아르뜨 꼰또우 므 뚜두 온뗑. 트로쓰 삐자쉬… 이 우쉬 메우즈 아미구쉬 두 쑤르프. 쏘무쉬 쎄이쉬!"
   },
   {
    "speaker": "A",
@@ -217,24 +216,25 @@
   },
   {
    "speaker": "B",
-   "tl": "Pessoal, cheguei! Só consegui uma coisa: um doce. Um.",
-   "ko": "얘들아, 나 왔어! 겨우 하나 구했어. 디저트. 하나.",
-   "note": "consegui = 해냈다, 구했다(conseguir)",
+   "tl": "Pessoal, cheguei! Só consegui um doce… Beatriz?! Pronto, fui eu que contei.",
+   "ko": "얘들아, 나 왔어! 디저트 하나밖에 못 샀어… Beatriz?! 그래, 내가 말했어.",
+   "note": "consegui = 구했다(conseguir) · fui eu que = 내가 한 거야",
    "tags": [
-    "form:conseguir"
+    "form:conseguir",
+    "expr:pronto"
    ],
    "segs": [
     [
      "excited",
-     "Pessoal, cheguei!"
+     "Pessoal, cheguei! Só consegui um doce…"
     ],
     [
      "flustered",
-     "Só consegui uma coisa: um doce. Um."
+     " Beatriz?! Pronto, fui eu que contei."
     ]
    ],
    "num": 14,
-   "rd": "쁘쏘알, 쉬게이! 쏘 꼰쓰기 우마 꼬이자: 웅 도쓰. 웅."
+   "rd": "쁘쏘알, 쉬게이! 쏘 꼰쓰기 웅 도쓰… 베아트리쉬?! 프론뚜, 푸이 에우 끄 꼰떼이."
   }
  ]
 }

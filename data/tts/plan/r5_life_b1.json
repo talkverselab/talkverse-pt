@@ -9,7 +9,7 @@
    "segs": [
     [
      "annoyed",
-     "Duarte, ouviste aquele barulho? Outra vez na varanda, às seis da manhã."
+     "Duarte, ouviste aquele barulho? Outra vez, às seis da manhã."
     ]
    ]
   },
@@ -25,7 +25,7 @@
    "segs": [
     [
      "tsukkomi",
-     "O vento não canta, pá. E há penas no chão da sala."
+     "O vento não bate assim, pá. Parecia uma máquina dentro da parede."
     ]
    ]
   },
@@ -33,7 +33,12 @@
    "segs": [
     [
      "flustered",
-     "Penas? Se calhar são do meu casaco velho. Olha, vou fazer o pequeno-almoço."
+     "Se calhar são os pássaros."
+    ],
+    [
+     "stiff",
+     " Olha, vou fazer o pequeno-almoço.",
+     "Olha, vou fazer o pequeno-almoço."
     ]
    ]
   },
@@ -41,15 +46,15 @@
    "segs": [
     [
      "teasing",
-     "Tu? Desde quando? E porque é que compraste um saco de comida para pássaros?"
+     "Tu fazes o pequeno-almoço? E porque é que a máquina de lavar está cheia de roupa molhada?"
     ]
    ]
   },
   "6": {
    "segs": [
     [
-     "flustered",
-     "Para... para os pássaros do parque. Gosto muito de animais, sabes?"
+     "shout",
+     "Isso é de ontem à noite! Juro. Não lavo roupa às seis, não sou maluco."
     ]
    ]
   },
@@ -57,7 +62,7 @@
    "segs": [
     [
      "polite",
-     "Bom dia, meninos. Desculpem, o barulho vem do vosso apartamento?"
+     "Bom dia, meninos. Desculpem, está tudo bem? Ouvi gritos."
     ]
    ]
   },
@@ -65,67 +70,65 @@
    "segs": [
     [
      "polite",
-     "Bom dia, Dona Fernanda. A senhora também acordou com aquilo?"
+     "Bom dia, Dona Fernanda. A senhora também acordou com aquele barulho às seis?"
     ]
    ]
   },
   "9": {
    "segs": [
     [
-     "polite",
-     "Acordei, sim."
-    ],
-    [
      "surprised",
-     "E encontrei um ovo à minha porta. Um ovo quente!"
+     "Acordei? Não, eu às seis já estou a pé. Porquê?"
     ]
    ]
   },
   "10": {
    "segs": [
     [
-     "stiff",
-     "Ah... um ovo. Que coisa estranha, não é? Eu não sei de nada."
+     "annoyed",
+     "Há um barulho horrível todas as manhãs. {O|A} {name} acha que sou eu."
     ]
    ]
   },
   "11": {
    "segs": [
     [
-     "shout",
-     "Duarte! Está uma galinha na varanda, atrás da máquina de lavar!"
+     "surprised",
+     "Ah… às seis?"
+    ],
+    [
+     "flustered",
+     " Então é a minha máquina. Ponho-a a lavar cedo porque a luz é mais barata.",
+     "Então é a minha máquina. Ponho-a a lavar cedo porque a luz é mais barata."
     ]
    ]
   },
   "12": {
    "segs": [
     [
-     "flustered",
-     "Pronto, é a Gertrudes."
-    ],
-    [
-     "excited",
-     "Comprei-a no mercado. Ovos frescos todos os dias!"
+     "surprised",
+     "A da senhora? E o barulho chega ao nosso quarto?"
     ]
    ]
   },
   "13": {
    "segs": [
     [
-     "surprised",
-     "Ovos frescos?"
-    ],
-    [
-     "teasing",
-     "Então quero seis por semana, e não digo nada ao dono do prédio."
+     "polite",
+     "Pois, a máquina está junto à vossa parede. Desculpem, a partir de amanhã ponho às oito."
     ]
    ]
   },
   "14": {
    "segs": [
     [
-     "tsukkomi",
-     "Não diz nada? Ótimo. Agora a galinha mora cá de graça e eu continuo sem dormir."
+     "cheerful",
+     "Obrigad{o|a}!"
+    ],
+    [
+     "gentle",
+     " E desculpa, Duarte. Afinal não eras tu. Achei mesmo que eras.",
+     "E desculpa, Duarte. Afinal não eras tu. Achei mesmo que eras."
     ]
    ]
   }

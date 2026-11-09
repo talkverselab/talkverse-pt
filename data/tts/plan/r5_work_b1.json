@@ -56,7 +56,7 @@
    "segs": [
     [
      "shout",
-     "Isso não é prova nenhuma! Sou inocente, juro. Nem gosto de doces."
+     "Isso não é prova nenhuma! Sou inocente, juro. Eu nem como doces."
     ]
    ]
   },
@@ -100,26 +100,32 @@
    "segs": [
     [
      "surprised",
-     "Espere... aquilo é um pato? Entrou pela janela e está a comer o bolo!"
+     "Espere... esta pessoa sou eu."
+    ],
+    [
+     "flustered",
+     " Às nove tirei o bolo da copa e levei-o para o carro.",
+     "Às nove tirei o bolo da copa e levei-o para o carro."
     ]
    ]
   },
   "12": {
    "segs": [
     [
-     "amused",
-     "Um pato do parque, com o bico todo sujo de bolo! Afinal o ladrão sabe voar."
+     "teasing",
+     "Para o carro? Afinal o bolo está inteiro e o ladrão é a chefe."
     ]
    ]
   },
   "13": {
    "segs": [
     [
-     "polite",
-     "Pronto, peço desculpa."
+     "flustered",
+     "Pronto, peço desculpa. No carro estava mais fresco."
     ],
     [
      "teasing",
+     " Mas então, as migalhas na sua cadeira?",
      "Mas então, as migalhas na sua cadeira?"
     ]
    ]

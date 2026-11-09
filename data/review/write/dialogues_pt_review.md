@@ -176,9 +176,9 @@ Tiago, 뭐 해?
 아직 안 돼. 한 번 더.
 
 
-## R0 · 선물 있어 🐱 (`r0_life_c1`, 반전 5턴 chaos)
+## R0 · 너 줄 거 있어 🔑 (`r0_life_c1`, 반전 5턴 chaos)
 
-토요일 아침, Inês 가 갑자기 메시지를 보낸다. 선물을 들고 온다는데, 수가 이상하다.
+토요일 아침, Inês 가 갑자기 메시지를 보낸다. 줄 게 있다는데, 그 물건 때문에 밤새 일이 하나 꼬여 있었다.
 
 **1. Inês** Estás em casa?  
 이쉬따즈 앵 까자?  
@@ -196,13 +196,21 @@ Tiago, 뭐 해?
 빠라 밍? 뗑즈 우 께?  
 나한테? 뭔데?
 
-**5. Inês** Um gato. E outro. E outro...  
-웅 가뚜. 이 오우트루. 이 오우트루...  
-고양이. 그리고 또. 그리고 또…
+**5. Inês** A tua chave. Ficou cá ontem.  
+아 뚜아 샤브. 피꼬우 까 온뗑.  
+네 열쇠. 어제 우리 집에 두고 갔어.
 
-**6. {name}** Nem pensar! ... Pronto, vem lá.  
-넹 뻰싸르! ... 프론뚜, 벵 라.  
-절대 안 돼! … 됐어, 와.
+**6. {name}** A minha chave? Então a porta...  
+아 밍야 샤브? 엔따웅 아 뽀르따...  
+내 열쇠? 그럼 문은…
+
+**7. Inês** Está aberta desde ontem? 😂  
+이쉬따 아베르따 데쥬드 온뗑? 😂  
+어제부터 열려 있었던 거야? 😂
+
+**8. {name}** Pois é! Vem já, vá lá!  
+뽀이즈 에! 벵 자, 바 라!  
+그러게! 빨리 와, 제발!
 
 
 ## R0 · 오래 봤어 🎉 (`r0_love_a2`, 반전 5턴 reveal)
@@ -234,9 +242,9 @@ Tiago, 뭐 해?
 아… 그럼 다 알겠네.
 
 
-## R1 · 엄마랑 통화 중 🐶 (`r1_life_a1`, 반전 7턴 chaos)
+## R1 · 엄마랑 통화 중 📞 (`r1_life_a1`, 반전 6턴 chaos)
 
-새벽, 셰어하우스 거실에서 룸메이트 Duarte 가 누군가에게 속삭이는 소리가 들린다.
+새벽, 셰어하우스 거실. 룸메이트 Duarte 가 누군가와 속삭이며 통화하고 있다. 거실은 어젯밤 그대로 엉망이다.
 
 **1. {name}** Duarte? Estás a falar com quem?  
 두아르뜨? 이쉬따즈 아 팔라르 꽁 껭?  
@@ -247,29 +255,29 @@ Duarte? 누구랑 얘기해?
 아무도 아냐! 너 피곤해서 그래, 가서 자.  
 여성판: Com ninguém, pá! Estás cansada, vai dormir.
 
-**3. {name}** Eu ouvi «anda cá, meu amor».  
-에우 오우비 «안다 까, 메우 아모르».  
-「이리 와, 내 사랑」 들었는데.
+**3. {name}** Eu ouvi «sim, mãe, já vou».  
+에우 오우비 «씽, 마잉, 자 보우».  
+「응, 엄마, 지금 가」 들었는데.
 
-**4. Duarte** Pois... ouviste bem. Estou a falar com a Mãe.  
-뽀이쉬... 오우비쉬뜨 벵. 이쉬또우 아 팔라르 꽁 아 마잉.  
-그게… 제대로 들었어. 엄마랑 얘기하는 중이야.
+**4. Duarte** Pois... ouviste bem. Estou a falar com a minha mãe.  
+뽀이쉬... 오우비쉬뜨 벵. 이쉬또우 아 팔라르 꽁 아 밍야 마잉.  
+그게… 제대로 들었어. 엄마랑 통화 중이야.
 
 **5. {name}** Com a tua mãe? Ela fala a esta hora?  
 꽁 아 뚜아 마잉? 엘라 팔라 아 에쉬따 오라?  
 너희 엄마랑? 엄마가 이 시간에 통화를 해?
 
-**6. Duarte** Não, esta Mãe. Está aqui! Diz olá, Mãe!  
-나웅, 에쉬따 마잉. 이쉬따 아끼! 디즈 올라, 마잉!  
-아니, 이 「엄마」. 여기 있어! 엄마, 인사해!
+**6. Duarte** Fala. Ela está no carro... e já está à porta!  
+팔라. 엘라 이쉬따 누 까후... 이 자 이쉬따 아 뽀르따!  
+하지. 엄마 차에 계셔… 그리고 벌써 문 앞이야!
 
-**7. {name}** Duarte... isso é um cão! És maluco?  
-두아르뜨... 이쑤 에 웅 까웅! 에쉬 말루꾸?  
-Duarte… 그거 개잖아! 너 미쳤어?
+**7. {name}** À porta?! Agora? E a sala está assim!  
+아 뽀르따?! 아고라? 이 아 쌀라 이쉬따 아씽!  
+문 앞?! 지금? 거실 이 꼴인데!
 
-**8. Duarte** Claro! Assim falo com a minha mãe todos os dias.  
-끌라루! 아씽 팔루 꽁 아 밍야 마잉 또두즈 우쉬 디아쉬.  
-당연하지! 이러면 매일 엄마랑 얘기하잖아.
+**8. Duarte** Pois é. Ajuda-me, vá lá! Ela acha que sou arrumado.  
+뽀이즈 에. 아주다 므, 바 라! 엘라 아샤 끄 쏘우 아후마두.  
+그러니까. 좀 도와줘, 제발! 엄마는 내가 깔끔한 줄 알아.
 
 
 ## R1 · 잘못 보낸 고백 📱 (`r1_love_c1`, 반전 7턴 slip)
@@ -598,34 +606,35 @@ Beatriz… 네가 오늘이라며.
 어쩌나. 주소 빌려줄 사람 아무도 없어요?  
 여성판: Coitada. E não conhece ninguém que lhe empreste uma morada?
 
-**10. {name}** Só conheço o senhorio, e esse nem atende o telefone. É o senhor Albano.  
-쏘 꽁예쑤 우 쎙요리우, 이 에쓰 넹 아뗀드 우 뜰르포느. 에 우 쎙요르 알바누.  
-아는 사람은 집주인뿐인데 전화도 안 받아요. Albano 씨요.
+**10. {name}** Não conheço ninguém. Durmo no sofá de um colega. Vou passar a vida naquele sofá?  
+나웅 꽁예쑤 닝겡. 두르무 누 쑤파 드 웅 꿀레가. 보우 빠싸르 아 비다 나껠르 쑤파?  
+아는 사람이 없어요. 동료 집 소파에서 자요. 평생 그 소파에서 살아야 하나요?
 
-**11. Dona Fernanda** Espere lá. Albano Ferreira, da Rua das Flores, com um cão que ladra a tudo?  
-이쉬뻬르 라. 알바누 프헤이라, 다 후아 다쉬 플로르쉬, 꽁 웅 까웅 끄 라드라 아 뚜두?  
-잠깐만요. Rua das Flores 의 Albano Ferreira, 아무한테나 짖는 개 키우는 사람?
+**11. Dona Fernanda** Espere lá. Deixe-me ver o seu passaporte… há aqui uma coisa estranha.  
+이쉬뻬르 라. 데이쉬 므 베르 우 쎄우 빠싸뽀르뜨… 아 아끼 우마 꼬이자 이쉬트랑야.  
+잠깐만요. 여권 좀 볼게요… 여기 좀 이상한 게 있네요.
 
-**12. {name}** Esse mesmo! A senhora conhece-o?  
-에쓰 메쥬무! 아 쎙요라 꽁예쓰 우?  
-바로 그분이에요! 아세요?
+**12. {name}** Estranha? Não me diga que agora preciso de mais um papel.  
+이쉬트랑야? 나웅 므 디가 끄 아고라 프르씨주 드 마이즈 웅 빠뻴.  
+이상한 거요? 이제 서류가 하나 더 필요하다는 말은 하지 마세요.
 
-**13. Dona Fernanda** Se conheço! É o meu irmão. Há dez anos que me deve dinheiro.  
-쓰 꽁예쑤! 에 우 메우 이르마웅. 아 데즈 아누쉬 끄 므 데브 딩예이루.  
-알다마다요! 제 오빠예요. 10년째 저한테 돈을 안 갚고 있죠.
+**13. Dona Fernanda** Pelo contrário, não precisa de nada. O senhor já tem número desde o ano passado. Pediu-o a sua universidade.  
+뻴루 꼰트라리우, 나웅 프르씨자 드 나다. 우 쎙요르 자 땡 누메루 데쥬드 우 아누 빠싸두. 쁘디우 우 아 쑤아 우니브르씨다드.  
+그 반대예요, 아무것도 필요 없어요. 손님은 작년부터 이미 번호가 있어요. 다니시는 대학교에서 신청했네요.  
+여성판: Pelo contrário, não precisa de nada. A senhora já tem número desde o ano passado. Pediu-o a sua universidade.
 
-**14. {name}** E isso ajuda-me em quê, exatamente?  
-이 이쑤 아주다 므 앵 께, 이자따멘뜨?  
-그게 저한테 정확히 무슨 도움이 되죠?
+**14. {name}** Desde o ano passado?! E ninguém me disse nada?  
+데쥬드 우 아누 빠싸두?! 이 닝겡 므 디쓰 나다?  
+작년부터요?! 근데 아무도 말을 안 해 줬다고요?
 
-**15. Dona Fernanda** Albano? Ou fazes hoje o contrato a este jovem, ou conto tudo à mãe.  
-알바누? 오우 파즈즈 오즈 우 꼰트라뚜 아 에쉬뜨 조벵, 오우 꼰뚜 뚜두 아 마잉.  
-Albano? 오늘 이 젊은 사람 계약서 써 주든지, 아니면 엄마한테 다 이를 거야.  
-여성판: Albano? Ou fazes hoje o contrato a esta jovem, ou conto tudo à mãe.
+**15. Dona Fernanda** Se calhar disseram. Mandaram-lhe uma carta, em português. Coitado.  
+쓰 깔랴르 디쎄라웅. 만다라웅 리 우마 까르따, 앵 뿌르뚜게쉬. 꼬이따두.  
+아마 말했겠죠. 편지를 보냈네요, 포르투갈어로요. 어쩌나.  
+여성판: Se calhar disseram. Mandaram-lhe uma carta, em português. Coitada.
 
-**16. {name}** Acho que acabei de arranjar casa.  
-아슈 끄 아까베이 드 아한자르 까자.  
-저 방금 집 구한 것 같네요.
+**16. {name}** Acho que acabei de arranjar casa. E de perder duas semanas.  
+아슈 끄 아까베이 드 아한자르 까자. 이 드 쁘르데르 두아쉬 쓰마나쉬.  
+저 방금 집 구한 것 같네요. 그리고 2주를 날린 것 같고요.
 
 
 ## R4 · 넥타이 맨 재앙 🎙️ (`r4_work_b1`, 반전 11턴 chaos)
@@ -712,41 +721,41 @@ Albano? 오늘 이 젊은 사람 계약서 써 주든지, 아니면 엄마한테
 아 쎄리우? 엔따웅 드 껭 에?  
 진짜? 그럼 누구 건데?
 
-**4. {name}** Não sei. Apareceu na rua ontem à noite e ficou comigo.  
-나웅 쎄이. 아빠르쎄우 나 후아 온뗑 아 노이뜨 이 피꼬우 꾸미구.  
-몰라. 어젯밤에 길에서 나타나더니 나랑 같이 있었어.
+**4. {name}** É da minha vizinha. Fui com ele à praia no sábado.  
+에 다 밍야 비징야. 푸이 꽁 엘르 아 프라이아 누 싸바두.  
+옆집 사람 거야. 토요일에 데리고 바닷가 갔었어.
 
-**5. Inês** Ficou contigo a noite toda? Que cão com sorte.  
-피꼬우 꼰띠구 아 노이뜨 또다? 끄 까웅 꽁 쏘르뜨.  
-밤새 너랑 있었다고? 운 좋은 강아지네.
+**5. Inês** Ah... então não vives com ele? Que pena.  
+아... 엔따웅 나웅 비브쉬 꽁 엘르? 끄 뻬나.  
+아… 그럼 같이 사는 거 아니야? 아쉽다.
 
-**6. {name}** Pois. E comeu o meu jantar todo, coitado.  
-뽀이쉬. 이 꾸메우 우 메우 잔따르 또두, 꼬이따두.  
-그러게. 그리고 내 저녁 다 먹었어, 불쌍하게.
+**6. {name}** Pois. Desculpa, era a melhor fotografia que eu tinha.  
+뽀이쉬. 드쉬꿀빠, 에라 아 믈료르 푸뚜그라피아 끄 에우 띵야.  
+그러게. 미안, 내가 가진 사진 중에 제일 잘 나온 거였어.
 
-**7. Inês** Espera. Era pequeno e não parava de correr?  
-이쉬뻬라. 에라 쁘께누 이 나웅 빠라바 드 꾸헤르?  
-잠깐. 작고 계속 뛰어다니지 않았어?
+**7. Inês** Eu percebo. Na minha, eu estava com a minha irmã e cortei-a. 😅  
+에우 쁘르쎄부. 나 밍야, 에우 이쉬따바 꽁 아 밍야 이르망 이 꾸르떼이 아. 😅  
+이해해. 내 사진은 언니랑 찍은 건데 언니를 잘라냈거든. 😅
 
-**8. {name}** Era! Como é que sabes?  
-에라! 꼬무 에 끄 싸브쉬?  
-맞아! 어떻게 알아?
+**8. {name}** Então gostaste do cão, não de mim? 😏  
+엔따웅 구쉬따쉬뜨 두 까웅, 나웅 드 밍? 😏  
+그럼 나 말고 강아지가 좋았던 거야? 😏
 
-**9. Inês** Porque é o meu cão! Saiu de casa ontem e não voltou.  
-뿌르끄 에 우 메우 까웅! 싸이우 드 까자 온뗑 이 나웅 불또우.  
-내 강아지거든! 어제 집 나가서 안 돌아왔어.
+**9. Inês** Primeiro do cão, sim. Depois li o teu perfil e ri-me bué.  
+프리메이루 두 까웅, 씽. 드뽀이쉬 리 우 떼우 쁘르필 이 히 므 부에.  
+처음엔 강아지, 맞아. 그다음에 네 프로필 읽고 엄청 웃었어.
 
-**10. {name}** Ainda bem! Está aqui comigo, a dormir na minha cama.  
-아인다 벵! 이쉬따 아끼 꾸미구, 아 두르미르 나 밍야 까마.  
-다행이다! 지금 나랑 있어, 내 침대에서 자는 중.
+**10. {name}** Ainda bem! E o que é que te fez rir?  
+아인다 벵! 이 우 끄 에 끄 뜨 페쉬 히르?  
+다행이다! 뭐가 그렇게 웃겼는데?
 
-**11. Inês** Então vou aí buscá-lo. Ou buscar-te a ti. Se calhar os dois.  
-엔따웅 보우 아이 부쉬까 로. 오우 부쉬까르 뜨 아 띠. 쓰 깔랴르 우쉬 도이쉬.  
-그럼 데리러 갈게. 걔를. 아니면 너를. 어쩌면 둘 다.
+**11. Inês** «Faço o melhor café da cidade.» Se calhar tenho de provar. Amanhã?  
+«파쑤 우 믈료르 까페 다 씨다드.» 쓰 깔랴르 뗑유 드 프루바르. 아망양?  
+「동네에서 커피 제일 잘 내림.」 아무래도 내가 직접 마셔 봐야겠네. 내일?
 
-**12. {name}** Traz alguma coisa para comer. Ele comeu o meu jantar, lembras-te?  
-트라즈 알구마 꼬이자 빠라 꾸메르. 엘르 꾸메우 우 메우 잔따르, 렘브라쉬 뜨?  
-먹을 것 좀 가져와. 쟤가 내 저녁 먹었다니까, 기억나?
+**12. {name}** Combinado! Às cinco? E levo o cão, a vizinha deixa.  
+꽁비나두! 아쉬 씽꾸? 이 레부 우 까웅, 아 비징야 데이샤.  
+좋아! 다섯 시? 강아지도 데려갈게, 옆집이 허락해 줘.
 
 
 ## R2 · 5분마다 바뀌는 주말 여행 🧳 (`r2_friends_c2`, 반전 11턴 chaos)
@@ -804,7 +813,7 @@ Beatriz, 너 5분 만에 벌써 세 번 바꿨어.
 
 ## R2 · 내 케이크 어디 갔어 🎂 (`r2_friends_c3`, 반전 10턴 chaos)
 
-밤늦게 룸메이트 Duarte 와 채팅. 집에 두고 나간 케이크가 사라졌다.
+밤늦게 룸메이트 Duarte 와 채팅. 집에 두고 나간 초콜릿 케이크가 사라졌다.
 
 **1. {name}** Duarte, viste o meu bolo? Estava aqui em casa.  
 두아르뜨, 비쉬뜨 우 메우 볼루? 이쉬따바 아끼 앵 까자.  
@@ -814,17 +823,17 @@ Duarte, 내 케이크 봤어? 집에 있었는데.
 끄 볼루? 이쉬또우 아 베르 우 조구.  
 무슨 케이크? 나 경기 보는 중.
 
-**3. {name}** O bolo grande. Com o meu nome em cima.  
-우 볼루 그란드. 꽁 우 메우 노므 앵 씨마.  
-큰 케이크. 위에 내 이름 써 있는 거.
+**3. {name}** O de chocolate. Estava na cozinha, numa caixa branca.  
+우 드 슈꿀라뜨. 이쉬따바 나 꾸징야, 누마 까이샤 브랑까.  
+초콜릿 케이크. 부엌에 하얀 상자에 있었어.
 
-**4. Duarte** Ah, esse. Pois, era muito bonito.  
-아, 에쓰. 뽀이쉬, 에라 무이뚜 부니뚜.  
-아, 그거. 그래, 예뻤지.
+**4. Duarte** Ah, esse. Pois, era muito bom.  
+아, 에쓰. 뽀이쉬, 에라 무이뚜 봉.  
+아, 그거. 그래, 맛있었지.
 
 **5. {name}** ERA?! Duarte, comeste o meu bolo?  
 에라?! 두아르뜨, 꾸메쉬뜨 우 메우 볼루?  
-예뻤지?! Duarte, 너 내 케이크 먹었어?
+맛있었지?! Duarte, 너 내 케이크 먹었어?
 
 **6. Duarte** Só um bocado. Epá, que jogo!  
 쏘 웅 부까두. 에빠, 끄 조구!  
@@ -834,25 +843,25 @@ Duarte, 내 케이크 봤어? 집에 있었는데.
 나웅 께루 싸베르 두 조구. 웅 부까두 꽌뚜?  
 경기 알 바 아니고. 조금이 얼마만큼인데?
 
-**8. Duarte** Um bocado grande. Quer dizer... tudo.  
-웅 부까두 그란드. 께르 디제르... 뚜두.  
-큰 조금. 그러니까… 전부.
+**8. Duarte** Um bocado grande. Quer dizer... metade.  
+웅 부까두 그란드. 께르 디제르... 므따드.  
+큰 조금. 그러니까… 반.
 
-**9. {name}** Tudo?! Olha que esse bolo nem era para mim!  
-뚜두?! 올랴 끄 에쓰 볼루 넹 에라 빠라 밍!  
-전부?! 그 케이크 나 먹으려던 것도 아니었다고!
+**9. {name}** Metade?! Olha que esse bolo era para os anos da Inês!  
+므따드?! 올랴 끄 에쓰 볼루 에라 빠라 우즈 아누쉬 다 이네쉬!  
+반?! 그 케이크 Inês 생일 거였다고!
 
-**10. Duarte** Calma. A Inês também comeu. E o Tiago. E a Beatriz.  
-깔마. 아 이네쉬 땀벵 꾸메우. 이 우 띠아구. 이 아 베아트리쉬.  
-진정해. Inês 도 먹었어. 그리고 Tiago. 그리고 Beatriz.
+**10. Duarte** Da Inês? Epá... pensei que era o bolo que a minha mãe me mandou.  
+다 이네쉬? 에빠... 뻰쎄이 끄 에라 우 볼루 끄 아 밍야 마잉 므 만도우.  
+Inês 거? 이런… 우리 엄마가 보내 준 케이크인 줄 알았어.
 
-**11. {name}** Espera... houve uma festa aí sem mim?  
-이쉬뻬라... 오우브 우마 페쉬따 아이 쎙 밍?  
-잠깐… 나 빼고 거기서 파티 했어?
+**11. {name}** O da tua mãe está no teu quarto desde sábado, pá. Não viste?  
+우 다 뚜아 마잉 이쉬따 누 떼우 꽈르뚜 데쥬드 싸바두, 빠. 나웅 비쉬뜨?  
+너희 엄마 케이크는 토요일부터 네 방에 있잖아. 못 봤어?
 
-**12. Duarte** Houve. Mas deixei o teu nome para ti.  
-오우브. 마쉬 데이셰이 우 떼우 노므 빠라 띠.  
-했지. 근데 네 이름은 남겨 놨어.
+**12. Duarte** Pronto. Amanhã a Inês come o da minha mãe. Ela nem vai saber.  
+프론뚜. 아망양 아 이네쉬 꼬므 우 다 밍야 마잉. 엘라 넹 바이 싸베르.  
+됐어. 내일 Inês 는 우리 엄마 케이크 먹으면 돼. 걔는 모를 거야.
 
 
 ## R2 · 잘못 보낸 음성 메시지 🌊 (`r2_love_c2`, 반전 7턴 slip)
@@ -919,22 +928,22 @@ Beatriz… 그거 Inês 한테 간 거 아닌 것 같은데.
 안녕하세요! 밖에 앉으시겠어요, 안에 앉으시겠어요?  
 여성판: Bom dia! A senhora quer sentar-se lá fora ou aqui dentro?
 
-**2. {name}** Aqui dentro, obrigado. Um café, se faz favor.  
-아끼 덴트루, 오브리가두. 웅 까페, 쓰 파쉬 파보르.  
+**2. {name}** Aqui dentro, obrigado. Quero um café, se faz favor.  
+아끼 덴트루, 오브리가두. 께루 웅 까페, 쓰 파쉬 파보르.  
 안이요, 고마워요. 커피 한 잔 주세요.  
-여성판: Aqui dentro, obrigada. Um café, se faz favor.
+여성판: Aqui dentro, obrigada. Quero um café, se faz favor.
 
-**3. Tiago** Claro. Quer um copo de água com o café?  
-끌라루. 께르 웅 꼬뿌 드 아과 꽁 우 까페?  
-그럼요. 커피랑 물 한 잔 같이 드릴까요?
+**3. Tiago** Claro. Quer uma água com o café? Fresca ou natural?  
+끌라루. 께르 우마 아과 꽁 우 까페? 프레쉬까 오우 나뚜랄?  
+그럼요. 커피랑 물도 드릴까요? 시원한 거요, 상온이요?
 
 **4. {name}** Sim, pode ser.  
 씽, 뽀드 쎄르.  
 네, 그렇게 주세요.
 
-**5. Tiago** E um doce? Hoje temos doces da casa, são muito bons.  
-이 웅 도쓰? 오즈 떼무쉬 도쓰쉬 다 까자, 싸웅 무이뚜 봉쉬.  
-디저트도요? 오늘은 직접 만든 디저트가 있는데, 아주 맛있어요.
+**5. Tiago** E um doce? Hoje temos pastéis de nata acabados de fazer.  
+이 웅 도쓰? 오즈 떼무쉬 빠쉬떼이쉬 드 나따 아까바두쉬 드 파제르.  
+디저트도요? 오늘 에그타르트 방금 구운 게 있어요.
 
 **6. {name}** Pode ser, sim.  
 뽀드 쎄르, 씽.  
@@ -944,35 +953,33 @@ Beatriz… 그거 Inês 한테 간 거 아닌 것 같은데.
 웅 오우 도이쉬? 아쉬 뻬쏘아쉬 다끼 꼬멩 쎔프르 도이쉬.  
 하나요, 두 개요? 이 동네 사람들은 늘 두 개씩 먹어요.
 
-**8. {name}** Sim, sim, claro.  
-씽, 씽, 끌라루.  
-네, 네, 그럼요.
+**8. {name}** Sim, sim… como dois, claro.  
+씽, 씽… 꼬무 도이쉬, 끌라루.  
+네, 네… 두 개 먹죠, 그럼요.
 
-**9. Tiago** Muito bem! E nós temos música ao vivo. Posso tocar uma coisa para o senhor?  
-무이뚜 벵! 이 노쉬 떼무쉬 무지까 아우 비부. 뽀쑤 뚜까르 우마 꼬이자 빠라 우 쎙요르?  
-좋습니다! 저희는 라이브 음악도 해요. 손님을 위해 한 곡 연주해도 될까요?  
-여성판: Muito bem! E nós temos música ao vivo. Posso tocar uma coisa para a senhora?
+**9. Tiago** Muito bem! E torradas? Nós fazemos com pão da casa, os clientes adoram.  
+무이뚜 벵! 이 뚜하다쉬? 노쉬 파제무쉬 꽁 빠웅 다 까자, 우쉬 끌리엔뜨즈 아도라웅.  
+좋습니다! 토스트도요? 저희가 직접 만든 빵으로 해요, 손님들이 아주 좋아하세요.
 
 **10. {name}** Sim… quer dizer… pode ser?  
 씽… 께르 디제르… 뽀드 쎄르?  
 네… 그러니까… 그러셔도 되는데요?
 
-**11. Tiago** Pronto! Vou buscar a guitarra. Os meus amigos também cantam. Eles podem sentar-se aqui?  
-프론뚜! 보우 부쉬까르 아 기따하. 우쉬 메우즈 아미구쉬 땀벵 깐따웅. 엘르쉬 뽀뎅 쎈따르 쓰 아끼?  
-됐다! 기타 가져올게요. 제 친구들도 노래하거든요. 걔들 여기 앉아도 될까요?
+**11. Tiago** Pronto! E leva também uma caixa de seis pastéis para casa? Estão quentinhos.  
+프론뚜! 이 레바 땀벵 우마 까이샤 드 쎄이쉬 빠쉬떼이쉬 빠라 까자? 이쉬따웅 껜띵유쉬.  
+됐다! 그리고 집에 가져가실 에그타르트 여섯 개 한 상자도요? 따끈따끈해요.
 
-**12. {name}** Sim! E o senhor também canta?  
-씽! 이 우 쎙요르 땀벵 깐따?  
-네! 그럼 사장님도 노래하세요?
+**12. {name}** Sim, claro… Quanto é que eu pago, se faz favor?  
+씽, 끌라루… 꽌뚜 에 끄 에우 빠구, 쓰 파쉬 파보르?  
+네, 그럼요… 얼마 내면 돼요?
 
-**13. Tiago** Muito bem. Então são três cafés, seis doces, quatro águas e um fado. O senhor paga tudo?  
-무이뚜 벵. 엔따웅 싸웅 트레쉬 까페쉬, 쎄이쉬 도쓰쉬, 꽈트루 아과즈 이 웅 파두. 우 쎙요르 빠가 뚜두?  
-좋아요. 그럼 커피 셋, 디저트 여섯, 물 넷, 그리고 파두 한 곡이요. 전부 손님이 내시는 거죠?  
-여성판: Muito bem. Então são três cafés, seis doces, quatro águas e um fado. A senhora paga tudo?
+**13. Tiago** Então: um café, uma água, oito pastéis e torradas. São dezassete euros e meio. Paga com cartão?  
+엔따웅: 웅 까페, 우마 아과, 오이뚜 빠쉬떼이즈 이 뚜하다쉬. 싸웅 드자쎄뜨 에우루즈 이 메이우. 빠가 꽁 까르따웅?  
+그럼 커피 하나, 물 하나, 에그타르트 여덟 개, 토스트요. 17유로 50센트입니다. 카드로 하시겠어요?
 
-**14. {name}** Pois… Acho que agora aprendi a dizer não.  
-뽀이쉬… 아슈 끄 아고라 아프렌디 아 디제르 나웅.  
-그게… 저 방금 「아니요」 하는 법을 배운 것 같아요.
+**14. {name}** Dezassete?! Pois… acho que hoje aprendi a dizer «não».  
+드자쎄뜨?! 뽀이쉬… 아슈 끄 오즈 아프렌디 아 디제르 «나웅».  
+17유로요?! 그게… 저 오늘 「아니요」 하는 법 배운 것 같아요.
 
 
 ## R3 · 32번 창가 자리 🚆 (`r3_travel_b1`, 반전 13턴 reveal)
@@ -1077,25 +1084,25 @@ Beatriz… 그거 Inês 한테 간 거 아닌 것 같은데.
 이쉬뻬라… 알겡 이쉬따 아 아브리르 아 뽀르따.  
 잠깐… 누가 문 열고 있어.
 
-**10. Beatriz** Olá! Mudei tudo, cheguei mais cedo!  
-올라! 무데이 뚜두, 쉬게이 마이쉬 쎄두!  
-안녕! 계획 다 바꿨어, 일찍 왔지!
+**10. Beatriz** Olá! Mudei de planos, cheguei mais cedo!  
+올라! 무데이 드 쁠라누쉬, 쉬게이 마이쉬 쎄두!  
+안녕! 계획 바꿨어, 일찍 왔지!
 
 **11. Inês** Beatriz?! Ainda são sete horas!  
 베아트리쉬?! 아인다 싸웅 쎄뜨 오라쉬!  
 Beatriz?! 아직 7시밖에 안 됐는데!
 
-**12. Beatriz** Pois é! E trouxe os meus amigos do mar. Somos 20. Vocês têm alguma coisa para comer?  
-뽀이즈 에! 이 트로쓰 우쉬 메우즈 아미구쉬 두 마르. 쏘무쉬 20. 부쎄쉬 땡잉 알구마 꼬이자 빠라 꾸메르?  
-그렇지! 서핑 친구들도 데려왔어. 우리 스무 명이야. 너희 먹을 거 좀 있어?
+**12. Beatriz** Pois é! O Duarte contou-me tudo ontem. Trouxe pizas… e os meus amigos do surf. Somos seis!  
+뽀이즈 에! 우 두아르뜨 꼰또우 므 뚜두 온뗑. 트로쓰 삐자쉬… 이 우쉬 메우즈 아미구쉬 두 쑤르프. 쏘무쉬 쎄이쉬!  
+그렇지! Duarte 가 어제 다 말해 줬어. 피자 가져왔어… 그리고 서핑 친구들도. 우리 여섯 명이야!
 
 **13. {name}** Temos flores, copos e uma surpresa. Quer dizer… tínhamos.  
 떼무쉬 플로르쉬, 꼬뿌즈 이 우마 쑤르프레자. 께르 디제르… 띵야무쉬.  
 꽃이랑 컵이랑 깜짝 파티가 있어. 아니… 있었어.
 
-**14. Duarte** Pessoal, cheguei! Só consegui uma coisa: um doce. Um.  
-쁘쏘알, 쉬게이! 쏘 꼰쓰기 우마 꼬이자: 웅 도쓰. 웅.  
-얘들아, 나 왔어! 겨우 하나 구했어. 디저트. 하나.
+**14. Duarte** Pessoal, cheguei! Só consegui um doce… Beatriz?! Pronto, fui eu que contei.  
+쁘쏘알, 쉬게이! 쏘 꼰쓰기 웅 도쓰… 베아트리쉬?! 프론뚜, 푸이 에우 끄 꼰떼이.  
+얘들아, 나 왔어! 디저트 하나밖에 못 샀어… Beatriz?! 그래, 내가 말했어.
 
 
 ## R4 · 그 메시지는 고양이가 💬 (`r4_love_c1`, 반전 7턴 slip)
@@ -1159,7 +1166,7 @@ Beatriz?! 아직 7시밖에 안 됐는데!
 …이것도 베아트리스한테 보여 줄 거야.
 
 
-## R4 · 사라진 두아르트, 행진 한가운데 🎉 (`r4_culture_b1`, 반전 10턴 chaos)
+## R4 · 사라진 두아르트, 아주머니와 춤을 🎉 (`r4_culture_b1`, 반전 10턴 chaos)
 
 6월 성 안토니오 축제의 밤, 골목은 사람으로 꽉 찼다. Beatriz 는 계획을 또 바꾸고, Duarte 는 연락이 끊겼다.
 
@@ -1199,13 +1206,13 @@ Beatriz?! 아직 7시밖에 안 됐는데!
 엘르 끄 쓰 드젠하쉬끄. 자 나웅 에 넹유마 크리안싸.  
 알아서 하라고 해. 애도 아니고.
 
-**10. {name}** Espera... aquele ali, com flores na cabeça, a cantar no meio da marcha, não é o Duarte?  
-이쉬뻬라... 아껠르 알리, 꽁 플로르쉬 나 까베싸, 아 깐따르 누 메이우 다 마르샤, 나웅 에 우 두아르뜨?  
-잠깐… 저기 머리에 꽃 달고 행진 한가운데서 노래하는 사람, 두아르트 아니야?
+**10. {name}** Espera... aquele ali, a dançar com a Dona Fernanda ao pé das sardinhas, não é o Duarte?  
+이쉬뻬라... 아껠르 알리, 아 단싸르 꽁 아 도나 프르난다 아우 뻬 다쉬 싸르딩야쉬, 나웅 에 우 두아르뜨?  
+잠깐… 저기 정어리 굽는 데 옆에서 페르난다 아주머니랑 춤추는 사람, 두아르트 아니야?
 
-**11. Duarte** {name}! Beatriz! Perdi uma aposta! Venham, que falta gente!  
-{name}! 베아트리쉬! 쁘르디 우마 아뽀쉬따! 벵양, 끄 팔따 젠뜨!  
-{name}! 베아트리스! 내기에 졌어! 와, 사람 모자라!
+**11. Duarte** {name}! Beatriz! Fiquei sem bateria! A Dona Fernanda não me larga. Venham, que falta gente!  
+{name}! 베아트리쉬! 피께이 쎙 바떼리아! 아 도나 프르난다 나웅 므 라르가. 벵양, 끄 팔따 젠뜨!  
+{name}! 베아트리스! 배터리 나갔어! 페르난다 아주머니가 날 안 놔줘. 와, 사람 모자라!
 
 **12. Beatriz** Nem pensar! ... Quer dizer, até seria giro. Anda, {name}!  
 넹 뻰싸르! ... 께르 디제르, 아떼 쎄리아 지루. 안다, {name}!  
@@ -1215,9 +1222,9 @@ Beatriz?! 아직 7시밖에 안 됐는데!
 쓰 알겡 띠라르 우마 푸뚜그라피아, 에우 무두 드 빠이쉬.  
 누가 사진 찍기만 해 봐, 나 나라 옮긴다.
 
-**14. Duarte** Tarde demais! A Dona Fernanda está a tirar fotografias desde que chegaste!  
-따르드 드마이쉬! 아 도나 프르난다 이쉬따 아 띠라르 푸뚜그라피아쉬 데쥬드 끄 쉬가쉬뜨!  
-이미 늦었어! 페르난다 아주머니가 너 온 순간부터 사진 찍고 계셔!
+**14. Duarte** Tarde demais! A filha da Dona Fernanda está a filmar desde que chegaste!  
+따르드 드마이쉬! 아 필랴 다 도나 프르난다 이쉬따 아 필마르 데쥬드 끄 쉬가쉬뜨!  
+이미 늦었어! 페르난다 아주머니 딸이 너 온 순간부터 찍고 있어!
 
 
 ## R4 · 누구의 시험인가 📚 (`r4_study_b1`, 반전 10턴 reveal)
@@ -1281,7 +1288,7 @@ Beatriz?! 아직 7시밖에 안 됐는데!
 그럼 저녁은 한 달 내내 내가 할게. 대신 걔한텐 아무 말도 하지 마, 제발.
 
 
-## R5 · 날개 달린 도둑 🎂 (`r5_work_b1`, 반전 11턴 chaos)
+## R5 · 케이크 도둑을 찾아라 🎂 (`r5_work_b1`, 반전 11턴 reveal)
 
 사무실. 상사 Marta 가 조카 생일 케이크가 사라졌다며 학습자의 의자 위 부스러기를 노려본다.
 
@@ -1305,9 +1312,9 @@ Beatriz?! 아직 7시밖에 안 됐는데!
 뿌르끄 아 미갈랴쉬 드 볼루 나 쑤아 까데이라, {name}.  
 {name} 씨 의자에 케이크 부스러기가 있으니까요.
 
-**6. {name}** Isso não é prova nenhuma! Sou inocente, juro. Nem gosto de doces.  
-이쑤 나웅 에 프로바 넹유마! 쏘우 이누쎈뜨, 주루. 넹 고쉬뚜 드 도쓰쉬.  
-그건 아무 증거도 안 돼요! 저 결백해요, 맹세해요. 단것 좋아하지도 않아요.
+**6. {name}** Isso não é prova nenhuma! Sou inocente, juro. Eu nem como doces.  
+이쑤 나웅 에 프로바 넹유마! 쏘우 이누쎈뜨, 주루. 에우 넹 꼬무 도쓰쉬.  
+그건 아무 증거도 안 돼요! 저 결백해요, 맹세해요. 저 단것 먹지도 않아요.
 
 **7. Marta** A sério? Na semana passada comeu três gelados na reunião de equipa.  
 아 쎄리우? 나 쓰마나 빠싸다 꾸메우 트레쉬 즐라두쉬 나 헤우니아웅 드 에끼빠.  
@@ -1325,17 +1332,17 @@ Beatriz?! 아직 7시밖에 안 됐는데!
 이쉬따 벵. 쓰 깔랴르 바이 쁘디르 므 드쉬꿀빠 다끼 아 씽꾸 미누뚜쉬.  
 좋아요. 아마 5분 뒤엔 저한테 사과하시게 될걸요.
 
-**11. Marta** Espere... aquilo é um pato? Entrou pela janela e está a comer o bolo!  
-이쉬뻬르... 아낄루 에 웅 빠뚜? 엔트로우 뻴라 자넬라 이 이쉬따 아 꾸메르 우 볼루!  
-잠깐만요… 저거 오리예요? 창문으로 들어와서 케이크를 먹고 있어요!
+**11. Marta** Espere... esta pessoa sou eu. Às nove tirei o bolo da copa e levei-o para o carro.  
+이쉬뻬르... 에쉬따 뻬쏘아 쏘우 에우. 아쉬 노브 띠레이 우 볼루 다 꼬빠 이 르베이 우 빠라 우 까후.  
+잠깐만요… 이 사람 저네요. 아홉 시에 제가 케이크를 탕비실에서 꺼내서 차에 갖다 놨어요.
 
-**12. {name}** Um pato do parque, com o bico todo sujo de bolo! Afinal o ladrão sabe voar.  
-웅 빠뚜 두 빠르끄, 꽁 우 비꾸 또두 쑤주 드 볼루! 아피날 우 라드라웅 싸브 보아르.  
-공원 오리네요, 부리가 케이크 범벅이에요! 알고 보니 도둑이 날 줄 아네요.
+**12. {name}** Para o carro? Afinal o bolo está inteiro e o ladrão é a chefe.  
+빠라 우 까후? 아피날 우 볼루 이쉬따 인떼이루 이 우 라드라웅 에 아 셰프.  
+차에요? 알고 보니 케이크는 멀쩡하고 도둑은 팀장님이네요.
 
-**13. Marta** Pronto, peço desculpa. Mas então, as migalhas na sua cadeira?  
-프론뚜, 뻬쑤 드쉬꿀빠. 마즈 엔따웅, 아쉬 미갈랴쉬 나 쑤아 까데이라?  
-알았어요, 미안해요. 그럼 의자에 있던 부스러기는요?
+**13. Marta** Pronto, peço desculpa. No carro estava mais fresco. Mas então, as migalhas na sua cadeira?  
+프론뚜, 뻬쑤 드쉬꿀빠. 누 까후 이쉬따바 마이쉬 프레쉬꾸. 마즈 엔따웅, 아쉬 미갈랴쉬 나 쑤아 까데이라?  
+알았어요, 미안해요. 차가 더 시원했거든요. 그럼 의자에 있던 부스러기는요?
 
 **14. {name}** Ah, essas... são do pão do pequeno-almoço. De certeza.  
 아, 이싸쉬... 싸웅 두 빠웅 두 쁘께누 알모쑤. 드 쓰르떼자.  
@@ -1403,65 +1410,67 @@ Beatriz?! 아직 7시밖에 안 됐는데!
 10분 만에 네 번째 계획이네. 너 진짜 미쳤어, 알지?
 
 
-## R5 · 새벽 여섯 시의 룸메이트 🐔 (`r5_life_b1`, 반전 11턴 chaos)
+## R5 · 새벽 여섯 시의 소음 🫧 (`r5_life_b1`, 반전 11턴 reveal)
 
-셰어하우스 거실. 매일 새벽 베란다에서 나는 소리 때문에 잠을 못 잔 학습자가 룸메이트 Duarte 를 추궁한다.
+셰어하우스. 매일 새벽 여섯 시, 벽 너머에서 쿵쿵 소리가 나서 잠을 못 잔 학습자가 룸메이트 Duarte 를 추궁한다.
 
-**1. {name}** Duarte, ouviste aquele barulho? Outra vez na varanda, às seis da manhã.  
-두아르뜨, 오우비쉬뜨 아껠르 바룰류? 오우트라 베쉬 나 바란다, 아쉬 쎄이쉬 다 망양.  
-Duarte, 그 소리 들었어? 또 베란다야, 새벽 여섯 시에.
+**1. {name}** Duarte, ouviste aquele barulho? Outra vez, às seis da manhã.  
+두아르뜨, 오우비쉬뜨 아껠르 바룰류? 오우트라 베쉬, 아쉬 쎄이쉬 다 망양.  
+Duarte, 그 소리 들었어? 또야, 새벽 여섯 시에.
 
 **2. Duarte** Que barulho? Eu estava a dormir. Deve ser o vento.  
 끄 바룰류? 에우 이쉬따바 아 두르미르. 데브 쎄르 우 벤뚜.  
 무슨 소리? 난 자고 있었는데. 바람이겠지.
 
-**3. {name}** O vento não canta, pá. E há penas no chão da sala.  
-우 벤뚜 나웅 깐따, 빠. 이 아 뻬나쉬 누 샤웅 다 쌀라.  
-바람은 노래 안 하거든. 그리고 거실 바닥에 깃털이 있어.
+**3. {name}** O vento não bate assim, pá. Parecia uma máquina dentro da parede.  
+우 벤뚜 나웅 바뜨 아씽, 빠. 빠레씨아 우마 마끼나 덴트루 다 빠레드.  
+바람은 그렇게 안 쳐. 벽 안에 기계가 있는 것 같았어.
 
-**4. Duarte** Penas? Se calhar são do meu casaco velho. Olha, vou fazer o pequeno-almoço.  
-뻬나쉬? 쓰 깔랴르 싸웅 두 메우 까자꾸 벨류. 올랴, 보우 파제르 우 쁘께누 알모쑤.  
-깃털? 아마 내 낡은 패딩에서 나왔나 봐. 저기, 나 아침 만들게.
+**4. Duarte** Se calhar são os pássaros. Olha, vou fazer o pequeno-almoço.  
+쓰 깔랴르 싸웅 우쉬 빠싸루쉬. 올랴, 보우 파제르 우 쁘께누 알모쑤.  
+아마 새들이겠지. 저기, 나 아침 만들게.
 
-**5. {name}** Tu? Desde quando? E porque é que compraste um saco de comida para pássaros?  
-뚜? 데쥬드 꽌두? 이 뿌르끄 에 끄 꽁프라쉬뜨 웅 싸꾸 드 꾸미다 빠라 빠싸루쉬?  
-네가? 언제부터? 그리고 새 모이는 왜 한 봉지 산 건데?
+**5. {name}** Tu fazes o pequeno-almoço? E porque é que a máquina de lavar está cheia de roupa molhada?  
+뚜 파즈즈 우 쁘께누 알모쑤? 이 뿌르끄 에 끄 아 마끼나 드 라바르 이쉬따 셰이아 드 호우빠 물랴다?  
+네가 아침을 한다고? 그리고 세탁기에 젖은 빨래는 왜 가득한데?
 
-**6. Duarte** Para... para os pássaros do parque. Gosto muito de animais, sabes?  
-빠라... 빠라 우쉬 빠싸루쉬 두 빠르끄. 고쉬뚜 무이뚜 드 아니마이쉬, 싸브쉬?  
-그건… 공원 새들 주려고. 나 동물 엄청 좋아하잖아.
+**6. Duarte** Isso é de ontem à noite! Juro. Não lavo roupa às seis, não sou maluco.  
+이쑤 에 드 온뗑 아 노이뜨! 주루. 나웅 라부 호우빠 아쉬 쎄이쉬, 나웅 쏘우 말루꾸.  
+그건 어젯밤 거야! 맹세해. 여섯 시에 빨래 안 해, 나 미친 거 아니야.
 
-**7. Dona Fernanda** Bom dia, meninos. Desculpem, o barulho vem do vosso apartamento?  
-봉 디아, 므니누쉬. 드쉬꿀뼁, 우 바룰류 벵 두 보쑤 아빠르따멘뚜?  
-좋은 아침이에요, 학생들. 미안한데, 그 소리 여기 집에서 나는 거예요?
+**7. Dona Fernanda** Bom dia, meninos. Desculpem, está tudo bem? Ouvi gritos.  
+봉 디아, 므니누쉬. 드쉬꿀뼁, 이쉬따 뚜두 벵? 오우비 그리뚜쉬.  
+좋은 아침이에요, 학생들. 미안한데, 별일 없어요? 소리 지르는 게 들려서요.
 
-**8. {name}** Bom dia, Dona Fernanda. A senhora também acordou com aquilo?  
-봉 디아, 도나 프르난다. 아 쎙요라 땀벵 아꾸르도우 꽁 아낄루?  
-안녕하세요, 페르난다 아주머니. 아주머니도 그 소리에 깨셨어요?
+**8. {name}** Bom dia, Dona Fernanda. A senhora também acordou com aquele barulho às seis?  
+봉 디아, 도나 프르난다. 아 쎙요라 땀벵 아꾸르도우 꽁 아껠르 바룰류 아쉬 쎄이쉬?  
+안녕하세요, 페르난다 아주머니. 아주머니도 여섯 시에 그 소리에 깨셨어요?
 
-**9. Dona Fernanda** Acordei, sim. E encontrei um ovo à minha porta. Um ovo quente!  
-아꾸르데이, 씽. 이 엥꼰트레이 웅 오부 아 밍야 뽀르따. 웅 오부 껜뜨!  
-깼죠. 그리고 우리 집 문 앞에서 달걀을 하나 찾았어요. 따뜻한 달걀!
+**9. Dona Fernanda** Acordei? Não, eu às seis já estou a pé. Porquê?  
+아꾸르데이? 나웅, 에우 아쉬 쎄이쉬 자 이쉬또우 아 뻬. 뽀르께?  
+깼냐고요? 아뇨, 난 여섯 시면 벌써 일어나 있어요. 왜요?
 
-**10. Duarte** Ah... um ovo. Que coisa estranha, não é? Eu não sei de nada.  
-아... 웅 오부. 끄 꼬이자 이쉬트랑야, 나웅 에? 에우 나웅 쎄이 드 나다.  
-아… 달걀이요. 참 이상한 일이네요, 그렇죠? 전 아무것도 몰라요.
+**10. Duarte** Há um barulho horrível todas as manhãs. O {name} acha que sou eu.  
+아 웅 바룰류 오히벨 또다즈 아쉬 망양쉬. 우 {name} 아샤 끄 쏘우 에우.  
+매일 아침 끔찍한 소리가 나요. {name}은 저라고 생각하고요.  
+여성판: Há um barulho horrível todas as manhãs. A {name} acha que sou eu.
 
-**11. {name}** Duarte! Está uma galinha na varanda, atrás da máquina de lavar!  
-두아르뜨! 이쉬따 우마 갈링야 나 바란다, 아트라쉬 다 마끼나 드 라바르!  
-Duarte! 베란다에 닭이 있어, 세탁기 뒤에!
+**11. Dona Fernanda** Ah… às seis? Então é a minha máquina. Ponho-a a lavar cedo porque a luz é mais barata.  
+아… 아쉬 쎄이쉬? 엔따웅 에 아 밍야 마끼나. 뽕유 아 아 라바르 쎄두 뿌르끄 아 루즈 에 마이쉬 바라따.  
+아… 여섯 시요? 그럼 우리 집 세탁기예요. 전기가 싸서 일찍 돌리거든요.
 
-**12. Duarte** Pronto, é a Gertrudes. Comprei-a no mercado. Ovos frescos todos os dias!  
-프론뚜, 에 아 즈르트루드쉬. 꽁프레이 아 누 므르까두. 오부쉬 프레쉬꾸쉬 또두즈 우쉬 디아쉬!  
-그래, 걔 이름은 제르트루드야. 시장에서 샀어. 매일 신선한 달걀이라고!
+**12. {name}** A da senhora? E o barulho chega ao nosso quarto?  
+아 다 쎙요라? 이 우 바룰류 셰가 아우 노쑤 꽈르뚜?  
+아주머니 거요? 그 소리가 우리 방까지 와요?
 
-**13. Dona Fernanda** Ovos frescos? Então quero seis por semana, e não digo nada ao dono do prédio.  
-오부쉬 프레쉬꾸쉬? 엔따웅 께루 쎄이쉬 뽀르 쓰마나, 이 나웅 디구 나다 아우 도누 두 프레디우.  
-신선한 달걀이요? 그럼 일주일에 여섯 개 줘요, 건물 주인한텐 아무 말 안 할게.
+**13. Dona Fernanda** Pois, a máquina está junto à vossa parede. Desculpem, a partir de amanhã ponho às oito.  
+뽀이쉬, 아 마끼나 이쉬따 준뚜 아 보싸 빠레드. 드쉬꿀뼁, 아 빠르띠르 드 아망양 뽕유 아즈 오이뚜.  
+그러게요, 세탁기가 학생들 벽 바로 옆이에요. 미안해요, 내일부터는 여덟 시에 돌릴게요.
 
-**14. {name}** Não diz nada? Ótimo. Agora a galinha mora cá de graça e eu continuo sem dormir.  
-나웅 디쉬 나다? 오띠무. 아고라 아 갈링야 모라 까 드 그라싸 이 에우 꼰띠누우 쎙 두르미르.  
-아무 말 안 하신다고요? 잘됐네요. 이제 닭은 공짜로 살고 나는 계속 못 자고.
+**14. {name}** Obrigado! E desculpa, Duarte. Afinal não eras tu. Achei mesmo que eras.  
+오브리가두! 이 드쉬꿀빠, 두아르뜨. 아피날 나웅 에라쉬 뚜. 아셰이 메쥬무 끄 에라쉬.  
+감사해요! 그리고 미안, Duarte. 알고 보니 너 아니었네. 진짜 너인 줄 알았어.  
+여성판: Obrigada! E desculpa, Duarte. Afinal não eras tu. Achei mesmo que eras.
 
 
 ## R5 · 고양이가 아니라 할머니 🎨 (`r5_friends_c1`, 반전 11턴 emotion)

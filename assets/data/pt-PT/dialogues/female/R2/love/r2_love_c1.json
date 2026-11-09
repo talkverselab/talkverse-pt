@@ -26,13 +26,13 @@
  "flags": [
   "romance"
  ],
- "goal": "채팅 첫 메시지, 완료과거 apareceu·ficou·saiu, 반과거 era·parava",
+ "goal": "데이팅앱 첫 채팅과 약속 잡기, 완료과거 gostei·gostaste·fui·li, 반과거 era·tinha·estava",
  "expressions": [
   "olha",
   "a sério?",
   "então",
   "pois",
-  "coitado",
+  "bué",
   "ainda bem",
   "se calhar"
  ],
@@ -48,9 +48,9 @@
    "tags": [
     "form:perfeito"
    ],
+   "emotion": "cheerful",
    "ui": "bubble",
    "at": "22:10",
-   "emotion": "cheerful",
    "num": 1,
    "rd": "올라! 구쉬떼이 무이뚜 다 뚜아 푸뚜그라피아 꽁 우 까웅. 🐶"
   },
@@ -62,9 +62,9 @@
    "tags": [
     "expr:olha"
    ],
+   "emotion": "amused",
    "ui": "bubble",
    "at": "22:11",
-   "emotion": "amused",
    "num": 2,
    "rd": "오브리가다! 마즈 올랴, 우 까웅 나웅 에 메우."
   },
@@ -77,152 +77,166 @@
     "expr:a sério?",
     "expr:então"
    ],
+   "emotion": "surprised",
    "ui": "bubble",
    "at": "22:11",
-   "emotion": "surprised",
    "num": 3,
    "rd": "아 쎄리우? 엔따웅 드 껭 에?"
   },
   {
    "speaker": "A",
-   "tl": "Não sei. Apareceu na rua ontem à noite e ficou comigo.",
-   "ko": "몰라. 어젯밤에 길에서 나타나더니 나랑 같이 있었어.",
-   "note": "apareceu = 나타났다(aparecer 완료과거)",
+   "tl": "É da minha vizinha. Fui com ele à praia no sábado.",
+   "ko": "옆집 사람 거야. 토요일에 데리고 바닷가 갔었어.",
+   "note": "fui = 갔다(ir 완료과거) · vizinha = 이웃(여자)",
    "tags": [
     "form:perfeito"
    ],
+   "emotion": "neutral",
    "ui": "bubble",
    "at": "22:12",
-   "emotion": "neutral",
    "num": 4,
-   "rd": "나웅 쎄이. 아빠르쎄우 나 후아 온뗑 아 노이뜨 이 피꼬우 꾸미구."
+   "rd": "에 다 밍야 비징야. 푸이 꽁 엘르 아 프라이아 누 싸바두."
   },
   {
    "speaker": "B",
-   "tl": "Ficou contigo a noite toda? Que cão com sorte.",
-   "ko": "밤새 너랑 있었다고? 운 좋은 강아지네.",
-   "note": "com sorte = 운 좋은",
+   "tl": "Ah... então não vives com ele? Que pena.",
+   "ko": "아… 그럼 같이 사는 거 아니야? 아쉽다.",
+   "note": "que pena = 아쉽다",
    "tags": [],
+   "emotion": "sad",
    "ui": "bubble",
    "at": "22:12",
-   "emotion": "teasing",
    "num": 5,
-   "rd": "피꼬우 꼰띠구 아 노이뜨 또다? 끄 까웅 꽁 쏘르뜨."
+   "rd": "아... 엔따웅 나웅 비브쉬 꽁 엘르? 끄 뻬나."
   },
   {
    "speaker": "A",
-   "tl": "Pois. E comeu o meu jantar todo, coitado.",
-   "ko": "그러게. 그리고 내 저녁 다 먹었어, 불쌍하게.",
-   "note": "coitado = 불쌍한 것(반어로도)",
+   "tl": "Pois. Desculpa, era a melhor fotografia que eu tinha.",
+   "ko": "그러게. 미안, 내가 가진 사진 중에 제일 잘 나온 거였어.",
+   "note": "era·tinha = ~였다·가지고 있었다(반과거)",
    "tags": [
     "expr:pois",
-    "expr:coitado"
-   ],
-   "ui": "bubble",
-   "at": "22:13",
-   "emotion": "amused",
-   "num": 6,
-   "rd": "뽀이쉬. 이 꾸메우 우 메우 잔따르 또두, 꼬이따두."
-  },
-  {
-   "speaker": "B",
-   "tl": "Espera. Era pequeno e não parava de correr?",
-   "ko": "잠깐. 작고 계속 뛰어다니지 않았어?",
-   "note": "não parava de = 계속 ~했다(parar 반과거)",
-   "tags": [
     "form:imperfeito"
    ],
+   "emotion": "flustered",
    "ui": "bubble",
    "at": "22:13",
-   "emotion": "worried",
-   "num": 7,
-   "rd": "이쉬뻬라. 에라 쁘께누 이 나웅 빠라바 드 꾸헤르?"
-  },
-  {
-   "speaker": "A",
-   "tl": "Era! Como é que sabes?",
-   "ko": "맞아! 어떻게 알아?",
-   "note": "como é que = 어떻게(구어 의문)",
-   "tags": [],
-   "ui": "bubble",
-   "at": "22:14",
-   "emotion": "surprised",
-   "num": 8,
-   "rd": "에라! 꼬무 에 끄 싸브쉬?"
+   "num": 6,
+   "rd": "뽀이쉬. 드쉬꿀빠, 에라 아 믈료르 푸뚜그라피아 끄 에우 띵야."
   },
   {
    "speaker": "B",
-   "tl": "Porque é o meu cão! Saiu de casa ontem e não voltou.",
-   "ko": "내 강아지거든! 어제 집 나가서 안 돌아왔어.",
-   "note": "saiu = 나갔다(sair 완료과거)",
+   "tl": "Eu percebo. Na minha, eu estava com a minha irmã e cortei-a. 😅",
+   "ko": "이해해. 내 사진은 언니랑 찍은 건데 언니를 잘라냈거든. 😅",
+   "note": "estava = 있었다(반과거) · cortei-a = 그녀를 잘랐다",
    "tags": [
-    "form:perfeito",
-    "twist"
+    "form:imperfeito",
+    "form:perfeito"
    ],
+   "emotion": "amused",
    "ui": "bubble",
-   "at": "22:14",
-   "segs": [
-    [
-     "excited",
-     "Porque é o meu cão!"
-    ],
-    [
-     "worried",
-     "Saiu de casa ontem e não voltou."
-    ]
-   ],
-   "num": 9,
-   "rd": "뿌르끄 에 우 메우 까웅! 싸이우 드 까자 온뗑 이 나웅 불또우."
+   "at": "22:13",
+   "num": 7,
+   "rd": "에우 쁘르쎄부. 나 밍야, 에우 이쉬따바 꽁 아 밍야 이르망 이 꾸르떼이 아. 😅"
   },
   {
    "speaker": "A",
-   "tl": "Ainda bem! Está aqui comigo, a dormir na minha cama.",
-   "ko": "다행이다! 지금 나랑 있어, 내 침대에서 자는 중.",
-   "note": "ainda bem = 다행이다",
+   "tl": "Então gostaste do cão, não de mim? 😏",
+   "ko": "그럼 나 말고 강아지가 좋았던 거야? 😏",
+   "note": "gostaste = 네가 좋아했다(gostei ↔ gostaste)",
+   "tags": [
+    "expr:então",
+    "form:perfeito"
+   ],
+   "emotion": "teasing",
+   "ui": "bubble",
+   "at": "22:14",
+   "num": 8,
+   "rd": "엔따웅 구쉬따쉬뜨 두 까웅, 나웅 드 밍? 😏"
+  },
+  {
+   "speaker": "B",
+   "tl": "Primeiro do cão, sim. Depois li o teu perfil e ri-me bué.",
+   "ko": "처음엔 강아지, 맞아. 그다음에 네 프로필 읽고 엄청 웃었어.",
+   "note": "li = 읽었다 · ri-me = 웃었다(rir-se) · bué = 엄청",
+   "tags": [
+    "twist",
+    "expr:bué",
+    "form:perfeito"
+   ],
+   "segs": [
+    [
+     "teasing",
+     "Primeiro do cão, sim."
+    ],
+    [
+     "cheerful",
+     " Depois li o teu perfil e ri-me bué."
+    ]
+   ],
+   "ui": "bubble",
+   "at": "22:14",
+   "num": 9,
+   "rd": "프리메이루 두 까웅, 씽. 드뽀이쉬 리 우 떼우 쁘르필 이 히 므 부에."
+  },
+  {
+   "speaker": "A",
+   "tl": "Ainda bem! E o que é que te fez rir?",
+   "ko": "다행이다! 뭐가 그렇게 웃겼는데?",
+   "note": "ainda bem = 다행이다 · te fez rir = 너를 웃게 했다",
    "tags": [
     "expr:ainda bem"
    ],
+   "emotion": "cheerful",
    "ui": "bubble",
    "at": "22:15",
-   "emotion": "cheerful",
    "num": 10,
-   "rd": "아인다 벵! 이쉬따 아끼 꾸미구, 아 두르미르 나 밍야 까마."
+   "rd": "아인다 벵! 이 우 끄 에 끄 뜨 페쉬 히르?"
   },
   {
    "speaker": "B",
-   "tl": "Então vou aí buscá-lo. Ou buscar-te a ti. Se calhar os dois.",
-   "ko": "그럼 데리러 갈게. 걔를. 아니면 너를. 어쩌면 둘 다.",
-   "note": "se calhar = 어쩌면",
+   "tl": "«Faço o melhor café da cidade.» Se calhar tenho de provar. Amanhã?",
+   "ko": "「동네에서 커피 제일 잘 내림.」 아무래도 내가 직접 마셔 봐야겠네. 내일?",
+   "note": "se calhar = 아무래도, 어쩌면 · provar = 맛보다",
    "tags": [
     "expr:se calhar",
     "heart"
    ],
-   "ui": "bubble",
-   "at": "22:16",
    "segs": [
     [
-     "cheerful",
-     "Então vou aí buscá-lo."
+     "amused",
+     "«Faço o melhor café da cidade.»"
     ],
     [
      "shy",
-     "Ou buscar-te a ti. Se calhar os dois."
+     " Se calhar tenho de provar. Amanhã?"
     ]
    ],
+   "ui": "bubble",
+   "at": "22:16",
    "num": 11,
-   "rd": "엔따웅 보우 아이 부쉬까 로. 오우 부쉬까르 뜨 아 띠. 쓰 깔랴르 우쉬 도이쉬."
+   "rd": "«파쑤 우 믈료르 까페 다 씨다드.» 쓰 깔랴르 뗑유 드 프루바르. 아망양?"
   },
   {
    "speaker": "A",
-   "tl": "Traz alguma coisa para comer. Ele comeu o meu jantar, lembras-te?",
-   "ko": "먹을 것 좀 가져와. 쟤가 내 저녁 먹었다니까, 기억나?",
-   "note": "lembras-te? = 기억나?(접어는 동사 뒤)",
+   "tl": "Combinado! Às cinco? E levo o cão, a vizinha deixa.",
+   "ko": "좋아! 다섯 시? 강아지도 데려갈게, 옆집이 허락해 줘.",
+   "note": "combinado = 좋아, 그렇게 하자 · deixa = 허락한다",
    "tags": [],
+   "segs": [
+    [
+     "excited",
+     "Combinado! Às cinco?"
+    ],
+    [
+     "amused",
+     " E levo o cão, a vizinha deixa."
+    ]
+   ],
    "ui": "bubble",
    "at": "22:16",
-   "emotion": "amused",
    "num": 12,
-   "rd": "트라즈 알구마 꼬이자 빠라 꾸메르. 엘르 꾸메우 우 메우 잔따르, 렘브라쉬 뜨?"
+   "rd": "꽁비나두! 아쉬 씽꾸? 이 레부 우 까웅, 아 비징야 데이샤."
   }
  ]
 }

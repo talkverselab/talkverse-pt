@@ -81,7 +81,12 @@
    "segs": [
     [
      "annoyed",
-     "Só conheço o senhorio, e esse nem atende o telefone. É o senhor Albano."
+     "Não conheço ninguém. Durmo no sofá de um colega."
+    ],
+    [
+     "sad",
+     " Vou passar a vida naquele sofá?",
+     "Vou passar a vida naquele sofá?"
     ]
    ]
   },
@@ -89,43 +94,44 @@
    "segs": [
     [
      "surprised",
-     "Espere lá. Albano Ferreira, da Rua das Flores, com um cão que ladra a tudo?"
+     "Espere lá. Deixe-me ver o seu passaporte… há aqui uma coisa estranha."
     ]
    ]
   },
   "12": {
    "segs": [
     [
-     "excited",
-     "Esse mesmo! A senhora conhece-o?"
+     "worried",
+     "Estranha? Não me diga que agora preciso de mais um papel."
     ]
    ]
   },
   "13": {
    "segs": [
     [
-     "amused",
-     "Se conheço!"
+     "surprised",
+     "Pelo contrário, não precisa de nada."
     ],
     [
-     "annoyed",
-     "É o meu irmão. Há dez anos que me deve dinheiro."
+     "amused",
+     " {O senhor|A senhora} já tem número desde o ano passado. Pediu-o a sua universidade.",
+     "{O senhor|A senhora} já tem número desde o ano passado. Pediu-o a sua universidade."
     ]
    ]
   },
   "14": {
    "segs": [
     [
-     "neutral",
-     "E isso ajuda-me em quê, exatamente?"
+     "shout",
+     "Desde o ano passado?! E ninguém me disse nada?"
     ]
    ]
   },
   "15": {
    "segs": [
     [
-     "annoyed",
-     "Albano? Ou fazes hoje o contrato a est{e|a} jovem, ou conto tudo à mãe."
+     "teasing",
+     "Se calhar disseram. Mandaram-lhe uma carta, em português. Coitad{o|a}."
     ]
    ]
   },
@@ -134,6 +140,11 @@
     [
      "amused",
      "Acho que acabei de arranjar casa."
+    ],
+    [
+     "tsukkomi",
+     " E de perder duas semanas.",
+     "E de perder duas semanas."
     ]
    ]
   }

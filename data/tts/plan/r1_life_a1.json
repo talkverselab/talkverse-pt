@@ -24,8 +24,8 @@
    "segs": [
     [
      "teasing",
-     "Eu ouvi «anda cá, meu amor».",
-     "Eu ouvi anda cá, meu amor."
+     "Eu ouvi «sim, mãe, já vou».",
+     "Eu ouvi sim, mãe, já vou."
     ]
    ]
   },
@@ -33,7 +33,7 @@
    "segs": [
     [
      "stiff",
-     "Pois... ouviste bem. Estou a falar com a Mãe."
+     "Pois... ouviste bem. Estou a falar com a minha mãe."
     ]
    ]
   },
@@ -48,8 +48,13 @@
   "6": {
    "segs": [
     [
-     "cheerful",
-     "Não, esta Mãe. Está aqui! Diz olá, Mãe!"
+     "stiff",
+     "Fala."
+    ],
+    [
+     "worried",
+     " Ela está no carro... e já está à porta!",
+     "Ela está no carro... e já está à porta!"
     ]
    ]
   },
@@ -57,15 +62,15 @@
    "segs": [
     [
      "shout",
-     "Duarte... isso é um cão! És maluco?"
+     "À porta?! Agora? E a sala está assim!"
     ]
    ]
   },
   "8": {
    "segs": [
     [
-     "amused",
-     "Claro! Assim falo com a minha mãe todos os dias."
+     "flustered",
+     "Pois é. Ajuda-me, vá lá! Ela acha que sou arrumado."
     ]
    ]
   }
