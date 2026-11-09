@@ -7,9 +7,13 @@
 2. **앱 연결(전략 문서 단계 A)** `docs/APP_BUILD_STRATEGY_pt.md`: pubspec 에 `assets/data/pt-PT/` 등록, `DialogueService` 를 새 폴더 로더로, 회화 음성 재생(`dialogue_audio.dart` 이식). Android·iOS 함께 올림.
 3. **절벽 단어 뜻 373어 채우기**(회화 밖 동결 해제됨): `assets/data/freq/lang_pt_top.csv` 뜻 빈칸 → `tools/build_cliff_words.py` 재실행.
 4. **음성 재시험**: 사용자가 실패 원인(억양·발음·감정·목소리)을 아직 답하지 않음. 답 받으면 QA 기준 0.9·어말 s 검사로 1편 재시험(uk 에 순서 요청).
-5. PC 백업: 빌드 15 APK·IPA 2611081652 를 `D:\OneDrive\app project\talkverse-pt\` 에(빌드 14 까지 됨).
 6. 답 없는 사용자 질문: 성별판 형식(A9, 지금 = 판별 파일)·강세 부호(B10, 지금 = 표준 철자) — `docs/DIALOGUE_RULES_pt.md` §D.
 - 결정된 것: 레벨 = 문법 단계 R0~R5, 존칭 R3, 넓힌 어휘 상한, 접어 R1/R2/R5, 접속법 R4(굳은 표현 R0) — `docs/GRAMMAR_LEVELS_pt.md`. 굴절 노출 점검 `~/.venvs/pt_nlp/bin/python tools/check_inflection.py`.
+
+## 11-09 가격·스토어·통합 앱
+- 가격 확정(b1aa979, uk 작성): 상품 `lang_pt_1m·3m·1y·life`·`all_1y·all_life`, 결제 시트 정가 취소선·규정 표기·약관 링크. 옛 평생 ID 는 복원 때 `lang_pt_life`. 무엇을 잠글지는 사용자 결정 대기.
+- 스토어 차별화 `docs/STORE_PRODUCTS.md`(지침 4.3 — 설명 첫 줄·전용 도구 4·실측 숫자·심사 메모·스크린샷 순서). 출시 전에 채울 것(동사 활용 0개·성·수 준비 중·회화 초안·음성)도 거기.
+- 통합 앱 연결점(de477f6, `~/talkverse/talkverse-app/EMBED_GUIDE.md`): `lib/embed.dart`(embedInit/embedApp)·`lib/core/embed_env.dart`(assetPath·dataDir)·`lib/core/prefs.dart`(설정 키 `pt_` 접두, 단독 앱 옛 키 한 번 이동)·DB `pt_portuguese_universe`. 패키지 `portuguese_universe`, 콜백 `talkverse.pt://auth`, drift 2.34.4·drift_flutter 0.3.1·sqlite3_flutter_libs 0.6.0+eol. **통합 앱 자체는 uk 담당 — 여기서 고치지 않는다.** 새 코드도 SharedPreferences 대신 `Prefs`, rootBundle·Image.asset 은 `assetPath()`.
 
 ## ⛔ 지금 걸려 있는 사용자 지시
 - ~~콘텐츠 생성 금지~~ — 2026-11-08 사용자가 회화·회화 밖 모두 해제.
@@ -23,8 +27,8 @@
 | 캐릭터 시안 ① | **통과**(11-03) — `data/review/art/chars_pt_v1.jpg`, 인물표 `CHARACTERS.md` |
 | UX/UI 시안 ② | **통과**(11-03) — 글 `data/review/uxui/sian_pt_01.md`, 그림 `sian_pt_02.jpg`(PT-01 은 캐릭터 미반영으로 다시 그림) |
 | 아이패드 빌드 ③ | 코드 `ba4007e`·`b73eec4`, 아이패드 스크린샷 9장 넘침 0·통합 테스트 통과 |
-| Android | CI 빌드 **15**(182fbc0, 문자와 발음 메뉴) · Zealot(11-08) · PC 백업은 빌드 14 까지 |
-| iOS | TestFlight **빌드 2611081652**(11-08, 문자와 발음 포함, Sign in with Apple 확인). 아이패드 스크린샷 확인 |
+| Android | CI 빌드 **17**(de477f6) · Zealot(11-09) · PC 백업 완료 |
+| iOS | TestFlight **빌드 2611091215**(11-09, 가격·통합 앱 연결점 포함, Sign in with Apple 확인) · IPA PC 백업 |
 | 로그인·결제 | 코드 `d58eb09`(Talkverse ID client_id `pt`, 상품 `com.talkverse.portugueseUniverse.lifetime`/`lang_pt`) — 잠근 화면은 아직 없음 |
 | 절벽(레마) | **판별 재산정 11-03** — pt-PT R1 55·R2 83·R3 217·R4 656(상위 2,500 90.1%) / pt-BR 63·96·243·727, 자국 작품 자막 기준(`data/cliff/README.md`, `tools/pt_cliff.py`). 옛 234·403·1,134 폐기. 사이트 카드 = pt-PT 값 |
 | 단어 그림 리스트 | talkversehanja `talkverse_art/words/pt.csv` = 새 레마 순위 2,500(PT·BR 합침, 구간 PT 경계, R5 = 절벽 밖, 340f9b5)·`pt_food.csv`(50), uk 세션이 D1 다시 적재 — 그림은 `GET https://auth.talkverse.uk/art/pt/manifest` |
