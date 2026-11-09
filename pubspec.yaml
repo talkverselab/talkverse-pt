@@ -61,6 +61,7 @@ flutter:
     - assets/data/audio_manifest.json
     - assets/data/version.json
     - assets/data/dialogues/
+    - assets/data/pt-PT/dialogues/
     - assets/data/freq/
     - assets/data/grammar/
     - assets/data/vocab/

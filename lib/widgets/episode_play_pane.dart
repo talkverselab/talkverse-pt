@@ -17,7 +17,7 @@ import '../services/content_sync.dart';
 import '../services/learner_prefs.dart';
 import 'learner_setup_dialog.dart';
 import 'lemma_chips.dart';
-import '../services/tts_service.dart';
+import '../services/dialogue_audio.dart';
 import 'achievement_desk.dart';
 
 /// 「모든 문장 듣기」 재생 패널 — 일본어앱 Grok UXUI 시안 02 「만화책 읽기형」을 옮김(2026-11-02, 일본어앱 `data/review/uxui/sian_02.md`).
@@ -72,7 +72,7 @@ class _EpisodePlayPaneState extends State<EpisodePlayPane> {
   void dispose() {
     KoReadingPrefs.show.removeListener(_onRd);
     _session++;
-    TtsService.instance.stop();
+    DialogueAudio.instance.stop();
     super.dispose();
   }
 
@@ -82,7 +82,7 @@ class _EpisodePlayPaneState extends State<EpisodePlayPane> {
     while (mounted && my == _session && _i < d.turns.length) {
       final t = d.turns[_i];
       _scrollTo(_i);
-      await TtsService.instance.speakAs(_ttsText(t), gender: _gender(t.speaker), rate: _rate * 0.45);
+      await speakTurn(d, t, rate: _rate);
       if (!mounted || my != _session) return;
       await Future.delayed(Duration(milliseconds: (650 / _rate).round())); // 턴 사이 숨
       if (!mounted || my != _session) return;
@@ -99,14 +99,14 @@ class _EpisodePlayPaneState extends State<EpisodePlayPane> {
 
   void _pause() {
     _session++;
-    TtsService.instance.stop();
+    DialogueAudio.instance.stop();
     setState(() => _playing = false);
   }
 
   void _goto(int n, {bool play = false}) {
     n = n.clamp(0, d.turns.length - 1);
     _session++;
-    TtsService.instance.stop();
+    DialogueAudio.instance.stop();
     setState(() {
       _i = n;
       _playing = false;
@@ -115,19 +115,16 @@ class _EpisodePlayPaneState extends State<EpisodePlayPane> {
     if (play) _play();
   }
 
-  void _speakOne(DialogueTurn t) => TtsService.instance.speakAs(_ttsText(t), gender: _gender(t.speaker), rate: _rate * 0.45);
+  void _speakOne(DialogueTurn t) {
+    DialogueAudio.instance.stop();
+    speakTurn(d, t, rate: _rate);
+  }
 
   void _scrollTo(int i) {
     final ctx = _keys[i].currentContext;
     if (ctx == null) return;
     Scrollable.ensureVisible(ctx, duration: const Duration(milliseconds: 300), curve: Curves.easeOut, alignment: 0.3);
   }
-
-  String _ttsText(DialogueTurn t) {
-    return t.tl.replaceAll(RegExp(r'\([^)]*\)'), '').replaceAll(RegExp(r'\{[a-z_]+\}'), '').trim();
-  }
-
-  String _gender(String sp) => d.voiceGender(sp); // 지금 회화는 화자 성별이 데이터에 정해져 있다(A Mark 남 · B Sari 여)
 
   @override
   Widget build(BuildContext context) {

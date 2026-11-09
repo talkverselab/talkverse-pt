@@ -74,6 +74,10 @@ class Dialogue {
   final List<String> expressions;
   final List<DialogueTurn> turns;
   final String? art;
+  final String kind; // short · long · chat · survival (옛 L1 은 short)
+  final int twist; // 반전 턴 번호(0 = 없음)
+  final String twistType;
+  final String variant; // pt-PT · pt-BR
   const Dialogue({
     required this.id,
     required this.region,
@@ -86,7 +90,36 @@ class Dialogue {
     required this.expressions,
     required this.turns,
     this.art,
+    this.kind = 'short',
+    this.twist = 0,
+    this.twistType = '',
+    this.variant = 'pt-PT',
   });
+
+  /// 새 회화 묶음(`tools/build_dialogues.py` → `assets/data/pt-PT/dialogues/<성별>.json`)의 편 하나.
+  /// 목소리 성별은 cast(화자 → 목소리 이름)로 정한다.
+  factory Dialogue.fromJson(Map<String, dynamic> j) {
+    final speakers = ((j['speakers'] as Map?) ?? const {}).map((k, v) => MapEntry('$k', '$v'));
+    final cast = ((j['cast'] as Map?) ?? const {}).map((k, v) => MapEntry('$k', '$v'));
+    return Dialogue(
+      id: j['id'] as String,
+      region: j['region'] as String? ?? 'R1',
+      island: j['island'] as String? ?? 'life',
+      title: j['title'] as String? ?? j['id'] as String,
+      emoji: j['emoji'] as String? ?? '💬',
+      scene: j['scene'] as String? ?? '',
+      speakers: speakers,
+      genders: {for (final e in cast.entries) e.key: _maleVoices.contains(e.value) ? 'male' : 'female'},
+      expressions: ((j['expressions'] as List?) ?? const []).map((e) => '$e').toList(),
+      turns: ((j['turns'] as List?) ?? const []).map((t) => DialogueTurn.fromL1(t as Map<String, dynamic>)).toList(),
+      kind: j['kind'] as String? ?? 'short',
+      twist: j['twist'] as int? ?? 0,
+      twistType: j['twist_type'] as String? ?? '',
+      variant: j['variant'] as String? ?? 'pt-PT',
+    );
+  }
+
+  static const _maleVoices = {'duarte', 'tiago'};
 
   /// 화자 표시 이름. `{name}` 자리는 학습자 이름(없으면 「나」).
   String speakerName(String sp) {
@@ -124,7 +157,16 @@ class DialogueService {
     'work': '💼',
     'study': '🎓',
   };
-  static const levelKo = {'L1': '이야기', 'R0': '왕초보', 'R1': '초보', 'R2': '중급', 'R3': '고급', 'R4': '최상급'};
+  /// 회화 레벨 = 문법 단계(docs/GRAMMAR_LEVELS_pt.md) — 단어 메뉴의 절벽 구간 R1~R5 와 번호가 다르다.
+  static const levelKo = {
+    'R0': '레벨 0 · 소리·짧은 회화',
+    'R1': '레벨 1 · 활용 골격',
+    'R2': '레벨 2 · 채팅 실전',
+    'R3': '레벨 3 · 복수·존댓말',
+    'R4': '레벨 4 · 어려운 문법',
+    'R5': '레벨 5 · 어휘 완주',
+    'L1': '이야기',
+  };
   static const _prefLast = 'dialogue_last';
 
   final List<Dialogue> _all = [];
@@ -137,10 +179,25 @@ class DialogueService {
   }
 
   /// 넓은 화면에서 여러 탭이 동시에 불러도 한 번만 읽는다(플래그 방식은 목록이 두 번 찬다).
-  Future<void> ensureLoaded() => _loading ??= _load();
+  /// 학습자 성별이 바뀌면 그 성별판을 다시 읽는다(성별판 = 파일 분리, CLAUDE.md §10).
+  Future<void> ensureLoaded() {
+    if (_loadedGender != null && _loadedGender != LearnerPrefs.gender.value) _loading = null;
+    return _loading ??= _load();
+  }
+
+  String? _loadedGender;
 
   Future<void> _load() async {
     _lastOpened = (await Prefs.getInstance()).getString(_prefLast);
+    final g = _loadedGender = LearnerPrefs.gender.value;
+    final all = <Dialogue>[];
+    try {
+      final list = json.decode(await rootBundle.loadString(assetPath('assets/data/pt-PT/dialogues/$g.json'))) as List;
+      for (final e in list) {
+        final d = Dialogue.fromJson(e as Map<String, dynamic>);
+        if (d.turns.isNotEmpty) all.add(d);
+      }
+    } catch (_) {}
     try {
       final j = json.decode(await rootBundle.loadString(assetPath('assets/data/dialogues/L1.json'))) as Map<String, dynamic>;
       final chars = (j['characters'] as Map<String, dynamic>? ?? const {});
@@ -151,7 +208,7 @@ class DialogueService {
         final m = e as Map<String, dynamic>;
         final turns = ((m['turns'] as List?) ?? const []).map((t) => DialogueTurn.fromL1(t as Map<String, dynamic>)).toList();
         if (turns.isEmpty) continue;
-        _all.add(Dialogue(
+        all.add(Dialogue(
           id: '${level}_${m['id']}',
           region: level,
           island: 'love', // 옛 L1 = 언어교환 앱에서 시작하는 설렘 이야기(원칙: 기존 연애 서사는 love 주제)
@@ -165,6 +222,9 @@ class DialogueService {
         ));
       }
     } catch (_) {}
+    _all
+      ..clear()
+      ..addAll(all);
   }
 
   Dialogue? byId(String id) => _all.where((d) => d.id == id).firstOrNull;

@@ -35,7 +35,7 @@ rank,word,cum_pct,region,ko
 34,seu,49.26,R1,그의
 35,ver,49.61,R1,보다
 36,aqui,49.96,R1,여기
-37,tu,50.29,R1,
+37,tu,50.29,R1,너
 38,sim,50.63,R1,네
 39,haver,50.96,R1,있다
 40,todo,51.28,R1,모든
@@ -60,7 +60,7 @@ rank,word,cum_pct,region,ko
 59,ou,55.95,R2,또는
 60,ela,56.16,R2,그녀
 61,falar,56.35,R2,말하다
-62,estás,56.54,R2,
+62,estás,56.54,R2,(너) ~있다 · estar
 63,ficar,56.73,R2,머물다
 64,casa,56.92,R2,집
 65,onde,57.10,R2,어디
@@ -102,7 +102,7 @@ rank,word,cum_pct,region,ko
 101,eles,62.36,R3,그들
 102,grande,62.47,R3,큰
 103,pessoa,62.58,R3,사람
-104,deus,62.69,R3,
+104,deus,62.69,R3,신
 105,és,62.80,R3,너는 ~이다
 106,deixar,62.91,R3,두다
 107,filho,63.01,R3,아들
@@ -124,7 +124,7 @@ rank,word,cum_pct,region,ko
 123,pouco,64.52,R3,조금
 124,hora,64.60,R3,시간
 125,voltar,64.68,R3,돌아가다
-126,olha,64.77,R3,
+126,olha,64.77,R3,봐 · 있잖아
 127,obrigado,64.85,R3,고맙습니다
 128,verdade,64.92,R3,진실
 129,primeiro,65.00,R3,첫째
@@ -155,7 +155,7 @@ rank,word,cum_pct,region,ko
 154,dinheiro,66.75,R3,돈
 155,qual,66.81,R3,어느
 156,talvez,66.88,R3,아마
-157,vais,66.94,R3,
+157,vais,66.94,R3,(너) 간다 · ir
 158,sabe,67.00,R3,안다
 159,encontrar,67.06,R3,찾다
 160,boa,67.12,R3,좋은
@@ -170,7 +170,7 @@ rank,word,cum_pct,region,ko
 169,alguém,67.66,R3,누군가
 170,começar,67.71,R3,시작하다
 171,desculpa,67.77,R3,미안
-172,maria,67.82,R3,
+172,maria,67.82,R3,(이름) 마리아
 173,tens,67.88,R3,가지고 있다
 174,perder,67.93,R3,잃다
 175,espera,67.99,R3,기다림
@@ -189,16 +189,16 @@ rank,word,cum_pct,region,ko
 188,ah,68.66,R3,아
 189,lado,68.71,R3,옆
 190,trabalho,68.76,R3,일
-191,olá,68.81,R3,
+191,olá,68.81,R3,안녕
 192,entre,68.86,R3,~사이
-193,sabes,68.91,R3,
+193,sabes,68.91,R3,(너) 안다 · saber
 194,água,68.96,R3,물
-195,queres,69.01,R3,
+195,queres,69.01,R3,(너) 원한다 · querer
 196,daqui,69.05,R3,여기서
 197,certo,69.10,R3,맞는
 198,velho,69.15,R3,늙은
 199,dentro,69.20,R3,안
-200,anda,69.25,R3,
+200,anda,69.25,R3,가자 · 이리 와
 201,entrar,69.29,R3,들어가다
 202,menina,69.34,R3,소녀
 203,logo,69.39,R3,곧
@@ -222,13 +222,12 @@ rank,word,cum_pct,region,ko
 221,problema,70.21,R4,문제
 222,cabeça,70.26,R4,머리
 223,razão,70.30,R4,이유
-224,val,70.34,R4,
 225,sério,70.39,R4,진지한
 226,trabalhar,70.43,R4,일하다
 227,vós,70.47,R4,너희
 228,morte,70.51,R4,죽음
 229,criança,70.56,R4,아이
-230,lisboa,70.60,R4,
+230,lisboa,70.60,R4,리스본(지명)
 231,ai,70.64,R4,아이고
 232,pequeno,70.68,R4,작은
 233,comer,70.72,R4,먹다
@@ -238,11 +237,11 @@ rank,word,cum_pct,region,ko
 237,carro,70.88,R4,자동차
 238,continuar,70.92,R4,계속하다
 239,disso,70.96,R4,그것의
-240,joão,71.00,R4,
+240,joão,71.00,R4,(이름) 주앙
 241,música,71.04,R4,음악
 242,volta,71.08,R4,돌아옴
 243,consigo,71.12,R4,자기와 함께
-244,portugal,71.16,R4,
+244,portugal,71.16,R4,포르투갈
 245,dormir,71.19,R4,자다
 246,cantar,71.23,R4,노래하다
 247,cada,71.27,R4,각각
@@ -254,16 +253,16 @@ rank,word,cum_pct,region,ko
 253,fim,71.50,R4,끝
 254,coração,71.53,R4,심장
 255,tentar,71.57,R4,시도하다
-256,padre,71.61,R4,
+256,padre,71.61,R4,신부
 257,livro,71.65,R4,책
 258,quase,71.68,R4,거의
 259,pé,71.72,R4,발
 260,mau,71.76,R4,나쁜
 261,correr,71.79,R4,달리다
 262,mandar,71.83,R4,보내다
-263,ouve,71.87,R4,
+263,ouve,71.87,R4,들어 봐 · ouvir
 264,último,71.90,R4,마지막
-265,carlos,71.94,R4,
+265,carlos,71.94,R4,(이름) 카를루스
 266,acha,71.97,R4,생각하다
 267,único,72.01,R4,유일한
 268,adeus,72.04,R4,"안녕, 작별"
@@ -298,7 +297,7 @@ rank,word,cum_pct,region,ko
 297,tomar,73.02,R4,마시다
 298,esquecer,73.05,R4,잊다
 299,rei,73.09,R4,왕
-300,pedro,73.12,R4,
+300,pedro,73.12,R4,(이름) 페드루
 301,vejo,73.15,R4,본다
 302,tocar,73.18,R4,연주하다
 303,rua,73.21,R4,거리
@@ -308,16 +307,15 @@ rank,word,cum_pct,region,ko
 307,maneira,73.34,R4,방식
 308,faltar,73.37,R4,"부족하다, 결석하다"
 309,buscar,73.40,R4,찾다
-310,á,73.43,R4,
 311,feliz,73.46,R4,행복한
 312,abrir,73.49,R4,열다
-313,rosa,73.52,R4,
+313,rosa,73.52,R4,장미
 314,foi,73.55,R4,~였다
 315,lugar,73.58,R4,장소
 316,menino,73.61,R4,소년
 317,cara,73.64,R4,얼굴
 318,luz,73.67,R4,빛
-319,desculpe,73.70,R4,
+319,desculpe,73.70,R4,죄송합니다
 320,carta,73.73,R4,편지
 321,escrever,73.76,R4,쓰다
 322,país,73.79,R4,나라
@@ -325,13 +323,13 @@ rank,word,cum_pct,region,ko
 324,português,73.84,R4,포르투갈어
 325,importante,73.87,R4,중요한
 326,tia,73.90,R4,이모
-327,ok,73.93,R4,
+327,ok,73.93,R4,오케이
 328,sinto,73.96,R4,느끼다
 329,perceber,73.99,R4,알아채다
 330,vem,74.02,R4,오다
 331,longe,74.04,R4,멀리
 332,semana,74.07,R4,주
-333,obrigada,74.10,R4,
+333,obrigada,74.10,R4,고마워요(여성)
 334,fiz,74.13,R4,했다
 335,forma,74.16,R4,형태
 336,beber,74.18,R4,마시다
@@ -348,11 +346,11 @@ rank,word,cum_pct,region,ko
 347,sonho,74.48,R4,꿈
 348,vontade,74.51,R4,의지
 349,contra,74.54,R4,~에 반대하여
-350,josé,74.56,R4,
+350,josé,74.56,R4,(이름) 조제
 351,jogo,74.59,R4,경기
 352,sorte,74.62,R4,행운
 353,cama,74.64,R4,침대
-354,calma,74.67,R4,
+354,calma,74.67,R4,진정해
 355,morto,74.69,R4,죽은
 356,cuidado,74.72,R4,조심
 357,foda,74.75,R4,섹스
@@ -364,13 +362,12 @@ rank,word,cum_pct,region,ko
 363,casar,74.90,R4,결혼하다
 364,enquanto,74.93,R4,~하는 동안
 365,aparecer,74.95,R4,나타나다
-366,gosto,74.98,R4,
+366,gosto,74.98,R4,(나) 좋아한다 · gostar
 367,fico,75.00,R4,머문다
 368,mar,75.03,R4,바다
 369,seguir,75.05,R4,따르다
 370,prazer,75.08,R4,기쁨
 371,fugir,75.10,R4,도망치다
-372,portuguese,75.13,R4,
 373,possível,75.15,R4,가능한
 374,tornar,75.17,R4,되다
 375,era,75.20,R4,~였다
@@ -415,9 +412,9 @@ rank,word,cum_pct,region,ko
 414,roubar,76.09,R4,훔치다
 415,baixo,76.11,R4,낮은
 416,pergunta,76.13,R4,질문
-417,chico,76.15,R4,
+417,chico,76.15,R4,(이름) 시쿠
 418,boca,76.18,R4,입
-419,podes,76.20,R4,
+419,podes,76.20,R4,(너) ~할 수 있다 · poder
 420,porra,76.22,R4,젠장
 421,vos,76.24,R4,너희를
 422,além,76.26,R4,~너머
@@ -427,17 +424,17 @@ rank,word,cum_pct,region,ko
 426,festa,76.35,R4,파티
 427,direito,76.37,R4,권리
 428,interessar,76.39,R4,관심을 끌다
-429,disseste,76.41,R4,
+429,disseste,76.41,R4,(너) 말했다 · dizer
 430,deles,76.43,R4,그들의
 431,triste,76.45,R4,슬픈
-432,disto,76.47,R4,
+432,disto,76.47,R4,이것에 대해 · de + isto
 433,bater,76.49,R4,치다
-434,santo,76.51,R4,
+434,santo,76.51,R4,성스러운 · 성인
 435,licença,76.53,R4,허가
 436,filme,76.55,R4,영화
 437,jovem,76.57,R4,젊은이
-438,olhe,76.59,R4,
-439,caralho,76.61,R4,
+438,olhe,76.59,R4,보세요 · olhar
+439,caralho,76.61,R4,(비속어) 젠장
 440,voz,76.63,R4,목소리
 441,descobrir,76.65,R4,발견하다
 442,paz,76.67,R4,평화
@@ -445,7 +442,7 @@ rank,word,cum_pct,region,ko
 444,número,76.71,R4,숫자
 445,toma,76.73,R4,가져라
 446,puta,76.75,R4,창녀
-447,vês,76.77,R4,
+447,vês,76.77,R4,(너) 본다 · ver
 448,culpa,76.79,R4,잘못
 449,doente,76.81,R4,아픈
 450,lembro,76.83,R4,기억한다
@@ -459,17 +456,16 @@ rank,word,cum_pct,region,ko
 458,nisso,76.98,R4,그것에
 459,sítio,77.00,R4,장소
 460,procurar,77.02,R4,찾다
-461,ema,77.04,R4,
 462,ao,77.06,R4,~에게
 463,ordem,77.08,R4,질서
 464,sol,77.09,R4,태양
 465,futuro,77.11,R4,미래
-466,são,77.13,R4,
+466,são,77.13,R4,~이다(그들) · ser
 467,próximo,77.15,R4,다음의
 468,importar,77.17,R4,중요하다
 469,amiga,77.19,R4,여자친구
-470,antónio,77.21,R4,
-471,fizeste,77.22,R4,
+470,antónio,77.21,R4,(이름) 안토니우
+471,fizeste,77.22,R4,(너) 했다 · fazer
 472,adorar,77.24,R4,매우 좋아하다
 473,louco,77.26,R4,미친
 474,sentar,77.28,R4,"앉히다, 앉다"
@@ -480,10 +476,10 @@ rank,word,cum_pct,region,ko
 479,decidir,77.37,R4,결정하다
 480,beijo,77.39,R4,키스
 481,falta,77.40,R4,부족
-482,foste,77.42,R4,
+482,foste,77.42,R4,(너) 갔다 · 였다 · ir·ser
 483,conversa,77.44,R4,대화
-484,vossa,77.46,R4,
-485,santa,77.48,R4,
+484,vossa,77.46,R4,너희의
+485,santa,77.48,R4,성녀 · 성스러운
 486,difícil,77.49,R4,어려운
 487,rico,77.51,R4,부유한
 488,calmo,77.53,R4,차분한
@@ -493,10 +489,9 @@ rank,word,cum_pct,region,ko
 492,servir,77.60,R4,제공하다
 493,branco,77.62,R4,흰색
 494,escola,77.63,R4,학교
-495,vasco,77.65,R4,
+495,vasco,77.65,R4,(이름) 바스쿠
 496,minha,77.67,R4,나의
 497,explicar,77.68,R4,설명하다
-498,la,77.70,R4,
 499,fechar,77.72,R4,닫다
 500,forte,77.74,R4,강한
 501,deitar,77.75,R4,"눕다, 눕히다"
@@ -505,16 +500,16 @@ rank,word,cum_pct,region,ko
 504,sangue,77.80,R4,피
 505,igual,77.82,R4,같은
 506,fácil,77.84,R4,쉬운
-507,deixe,77.85,R4,
+507,deixe,77.85,R4,두세요 · deixar
 508,faça,77.87,R4,하세요
 509,saúde,77.89,R4,건강
-510,manuel,77.90,R4,
+510,manuel,77.90,R4,(이름) 마누엘
 511,assunto,77.92,R4,주제
 512,gosta,77.94,R4,좋아하다
 513,arma,77.95,R4,무기
 514,estado,77.97,R4,상태
 515,tinha,77.99,R4,가졌다
-516,ana,78.00,R4,
+516,ana,78.00,R4,(이름) 아나
 517,criar,78.02,R4,만들다
 518,prender,78.03,R4,"체포하다, 묶다"
 519,braço,78.05,R4,팔
@@ -529,28 +524,28 @@ rank,word,cum_pct,region,ko
 528,crer,78.20,R4,믿다
 529,fundo,78.21,R4,바닥
 530,resto,78.23,R4,나머지
-531,eduardo,78.25,R4,
+531,eduardo,78.25,R4,(이름) 에두아르두
 532,vinho,78.26,R4,와인
 533,segredo,78.28,R4,비밀
-534,viste,78.29,R4,
+534,viste,78.29,R4,(너) 봤다 · ver
 535,fado,78.31,R4,"파두(음악), 운명"
 536,quiser,78.32,R4,원한다면
-537,francisco,78.34,R4,
+537,francisco,78.34,R4,(이름) 프란시스쿠
 538,janela,78.36,R4,창문
 539,roupa,78.37,R4,옷
 540,sequer,78.39,R4,~조차
-541,miguel,78.40,R4,
+541,miguel,78.40,R4,(이름) 미겔
 542,rio,78.42,R4,강
 543,sentido,78.43,R4,의미
 544,entender,78.45,R4,이해하다
-545,pára,78.47,R4,
+545,pára,78.47,R4,멈춰 · parar
 546,miúdo,78.48,R4,"아이, 꼬마"
 547,café,78.50,R4,커피
 548,resolver,78.51,R4,해결하다
 549,descansar,78.53,R4,쉬다
 550,aceitar,78.54,R4,받아들이다
 551,escolher,78.56,R4,고르다
-552,catarina,78.57,R4,
+552,catarina,78.57,R4,(이름) 카타리나
 553,respeito,78.59,R4,존중
 554,espírito,78.60,R4,영혼
 555,sente,78.62,R4,느끼다
@@ -563,17 +558,17 @@ rank,word,cum_pct,region,ko
 562,uma,78.72,R4,하나의
 563,vergonha,78.74,R4,부끄러움
 564,imaginar,78.75,R4,상상하다
-565,vê,78.77,R4,
+565,vê,78.77,R4,본다 · 봐 · ver
 566,verdadeiro,78.78,R4,진짜의
-567,estavas,78.80,R4,
+567,estavas,78.80,R4,(너) ~있었다 · estar
 568,trás,78.81,R4,뒤
 569,lua,78.83,R4,달
 570,igreja,78.84,R4,교회
 571,flor,78.86,R4,꽃
 572,atenção,78.87,R4,주의
-573,podia,78.89,R4,
+573,podia,78.89,R4,~할 수 있었다 · poder
 574,rápido,78.90,R4,빠른
-575,cabrão,78.91,R4,
+575,cabrão,78.91,R4,(비속어) 나쁜 놈
 576,copo,78.93,R4,"컵, 잔"
 577,salvar,78.94,R4,구하다
 578,saudade,78.96,R4,그리움
@@ -596,42 +591,40 @@ rank,word,cum_pct,region,ko
 595,frio,79.20,R4,추운
 596,conto,79.21,R4,이야기
 597,desejo,79.23,R4,소망
-598,mariana,79.24,R4,
+598,mariana,79.24,R4,(이름) 마리아나
 599,telefone,79.25,R4,전화
 600,custar,79.27,R4,비용이 들다
 601,portanto,79.28,R4,따라서
-602,perdão,79.30,R4,
+602,perdão,79.30,R4,용서 · 죄송해요
 603,dê,79.31,R4,주다
 604,companhia,79.32,R4,회사
 605,exemplo,79.34,R4,예
 606,encontro,79.35,R4,만남
 607,juro,79.36,R4,이자
 608,campo,79.38,R4,들판
-609,percebo,79.39,R4,
+609,percebo,79.39,R4,(나) 이해한다 · perceber
 610,do,79.40,R4,~의
 611,querida,79.42,R4,사랑하는
-612,daniel,79.43,R4,
+612,daniel,79.43,R4,(이름) 다니엘
 613,cavalo,79.45,R4,말
 614,memória,79.46,R4,기억
-615,jesus,79.47,R4,
-616,pilar,79.49,R4,
+615,jesus,79.47,R4,예수
+616,pilar,79.49,R4,기둥
 617,barco,79.50,R4,배
 618,impossível,79.51,R4,불가능한
 619,subir,79.53,R4,올라가다
-620,há-de,79.54,R4,
-621,percebi,79.55,R4,
+620,há-de,79.54,R4,~할 것이다 · haver de
+621,percebi,79.55,R4,(나) 이해했다 · perceber
 622,simples,79.57,R4,간단한
 623,esconder,79.58,R4,숨기다
 624,excelência,79.59,R4,"각하, 탁월함"
 625,imagem,79.61,R4,이미지
-626,jacinto,79.62,R4,
 627,devia,79.63,R4,해야 했다
 628,contrário,79.65,R4,반대
-629,espanha,79.66,R4,
-630,preocupes,79.67,R4,
+629,espanha,79.66,R4,스페인
+630,preocupes,79.67,R4,걱정하다 · não te preocupes = 걱정 마
 631,venha,79.69,R4,오세요
 632,demais,79.70,R4,너무
-633,lo,79.71,R4,
 634,toda,79.72,R4,모든
 635,demasiado,79.74,R4,"너무, 지나치게"
 636,os,79.75,R4,그들
@@ -645,14 +638,14 @@ rank,word,cum_pct,region,ko
 644,desejar,79.86,R4,"원하다, 바라다"
 645,doce,79.87,R4,단
 646,aprender,79.88,R4,배우다
-647,majestade,79.89,R4,
+647,majestade,79.89,R4,폐하
 648,banho,79.91,R4,목욕
 649,francês,79.92,R4,프랑스어
 650,passo,79.93,R4,걸음
-651,paulo,79.95,R4,
+651,paulo,79.95,R4,(이름) 파울루
 652,serviço,79.96,R4,서비스
 653,aldeia,79.97,R4,마을
-654,dona,79.98,R4,
+654,dona,79.98,R4,(여성 존칭) 도나
 655,calar,80.00,R4,입 다물다
 656,mesa,80.01,R4,탁자
 657,destino,80.02,R5,목적지
@@ -662,10 +655,9 @@ rank,word,cum_pct,region,ko
 661,relação,80.07,R5,관계
 662,responder,80.08,R5,대답하다
 663,banco,80.10,R5,은행
-664,vo,80.11,R5,
 665,enganar,80.12,R5,속이다
 666,mentira,80.13,R5,거짓말
-667,cala,80.15,R5,
+667,cala,80.15,R5,조용히 해 · calar
 668,vista,80.16,R5,전망
 669,guarda,80.17,R5,경비원
 670,apresentar,80.18,R5,소개하다
@@ -677,29 +669,27 @@ rank,word,cum_pct,region,ko
 676,sexo,80.26,R5,성별
 677,parede,80.27,R5,벽
 678,dançar,80.28,R5,춤추다
-679,ã,80.29,R5,
 680,vão,80.31,R5,간다
 681,língua,80.32,R5,언어
 682,levantar,80.33,R5,일으키다
-683,brasil,80.34,R5,
+683,brasil,80.34,R5,브라질
 684,sala,80.35,R5,방
 685,cor,80.37,R5,색
 686,real,80.38,R5,진짜의
 687,má,80.39,R5,나쁜
 688,cabelo,80.40,R5,머리카락
 689,pegar,80.41,R5,잡다
-690,dom,80.43,R5,
-691,lamento,80.44,R5,
-692,tuo,80.45,R5,
+690,dom,80.43,R5,재능 · (남성 존칭) 동
+691,lamento,80.44,R5,유감이다 · lamentar
 693,pensa,80.46,R5,생각하다
 694,árvore,80.47,R5,나무
 695,presidente,80.49,R5,대통령
-696,mário,80.50,R5,
+696,mário,80.50,R5,(이름) 마리우
 697,lembra,80.51,R5,기억하다
-698,estive,80.52,R5,
-699,venho,80.53,R5,
+698,estive,80.52,R5,(나) ~있었다 · estar
+699,venho,80.53,R5,(나) 온다 · vir
 700,cena,80.55,R5,장면
-701,jorge,80.56,R5,
+701,jorge,80.56,R5,(이름) 조르즈
 702,especial,80.57,R5,특별한
 703,sonhar,80.58,R5,꿈꾸다
 704,telemóvel,80.59,R5,휴대전화
@@ -715,7 +705,6 @@ rank,word,cum_pct,region,ko
 714,normal,80.71,R5,보통의
 715,jornal,80.72,R5,신문
 716,realmente,80.73,R5,정말
-717,luisinha,80.75,R5,
 718,sinal,80.76,R5,신호
 719,longo,80.77,R5,긴
 720,avô,80.78,R5,할아버지
@@ -724,7 +713,7 @@ rank,word,cum_pct,region,ko
 723,aguentar,80.81,R5,견디다
 724,guardar,80.83,R5,보관하다
 725,peça,80.84,R5,조각
-726,neve,80.85,R5,
+726,neve,80.85,R5,눈(雪)
 727,cérebro,80.86,R5,뇌
 728,máquina,80.87,R5,기계
 729,sai,80.88,R5,나가다
@@ -737,17 +726,17 @@ rank,word,cum_pct,region,ko
 736,estrada,80.96,R5,도로
 737,vento,80.97,R5,바람
 738,chão,80.98,R5,바닥
-739,mamã,81.00,R5,
-740,ouviste,81.01,R5,
+739,mamã,81.00,R5,엄마
+740,ouviste,81.01,R5,(너) 들었다 · ouvir
 741,facto,81.02,R5,사실
 742,estrela,81.03,R5,별
 743,miúda,81.04,R5,여자아이
 744,hotel,81.05,R5,호텔
 745,permitir,81.06,R5,허락하다
 746,coragem,81.07,R5,용기
-747,hei-de,81.08,R5,
+747,hei-de,81.08,R5,(나) ~할 것이다 · haver de
 748,oferecer,81.09,R5,제공하다
-749,rita,81.11,R5,
+749,rita,81.11,R5,(이름) 히타
 750,patrão,81.12,R5,사장
 751,branca,81.13,R5,흰색
 752,enfim,81.14,R5,마침내
@@ -763,10 +752,10 @@ rank,word,cum_pct,region,ko
 762,cortar,81.25,R5,자르다
 763,tenha,81.26,R5,가지다
 764,ilha,81.27,R5,섬
-765,fernando,81.28,R5,
+765,fernando,81.28,R5,(이름) 페르난두
 766,lavar,81.29,R5,씻다
 767,estúpido,81.30,R5,멍청한
-768,porto,81.31,R5,
+768,porto,81.31,R5,항구 · 포르투(지명)
 769,perfeito,81.32,R5,완벽한
 770,significar,81.33,R5,의미하다
 771,presente,81.34,R5,선물
@@ -775,10 +764,10 @@ rank,word,cum_pct,region,ko
 774,lhe,81.37,R5,그에게
 775,honra,81.39,R5,명예
 776,rir,81.40,R5,웃다
-777,vier,81.41,R5,
+777,vier,81.41,R5,오면 · vir 접속법 미래
 778,mensagem,81.42,R5,메시지
-779,paris,81.43,R5,
-780,júlio,81.44,R5,
+779,paris,81.43,R5,파리(지명)
+780,júlio,81.44,R5,(이름) 줄리우
 781,verde,81.45,R5,초록색
 782,esposo,81.46,R5,남편
 783,namorado,81.47,R5,남자친구
@@ -796,16 +785,14 @@ rank,word,cum_pct,region,ko
 795,perna,81.59,R5,다리
 796,eh,81.60,R5,"어, 에이"
 797,capitão,81.61,R5,대위
-798,sancho,81.62,R5,
 799,casamento,81.63,R5,결혼식
 800,esperança,81.64,R5,희망
 801,fumar,81.65,R5,담배 피우다
 802,final,81.66,R5,마지막
 803,repente,81.67,R5,갑작스러움
-804,lir,81.68,R5,
 805,resposta,81.69,R5,대답
 806,local,81.70,R5,장소
-807,zé,81.71,R5,
+807,zé,81.71,R5,(이름) 제
 808,espécie,81.72,R5,종
 809,atirar,81.73,R5,"던지다, 쏘다"
 810,fala,81.74,R5,말
@@ -830,7 +817,7 @@ rank,word,cum_pct,region,ko
 829,teatro,81.92,R5,극장
 830,plano,81.93,R5,계획
 831,grupo,81.94,R5,그룹
-832,sejas,81.95,R5,
+832,sejas,81.95,R5,~이기를 · ser 접속법
 833,colega,81.96,R5,동료
 834,enviar,81.97,R5,보내다
 835,surpresa,81.98,R5,놀람
@@ -838,13 +825,13 @@ rank,word,cum_pct,region,ko
 837,grave,82.00,R5,심각한
 838,carne,82.01,R5,고기
 839,pensamento,82.02,R5,생각
-840,rui,82.03,R5,
+840,rui,82.03,R5,(이름) 후이
 841,namorar,82.04,R5,사귀다
 842,óptimo,82.05,R5,아주 좋은
 843,lindo,82.06,R5,아름다운
 844,oportunidade,82.07,R5,기회
 845,calor,82.08,R5,더위
-846,bravo,82.09,R5,
+846,bravo,82.09,R5,용감한 · 브라보
 847,som,82.10,R5,소리
 848,perdi,82.11,R5,잃었다
 849,dedo,82.12,R5,손가락
@@ -855,9 +842,9 @@ rank,word,cum_pct,region,ko
 854,gostava,82.16,R5,좋아했다
 855,confiança,82.17,R5,신뢰
 856,conversar,82.18,R5,대화하다
-857,europa,82.19,R5,
-858,isabel,82.20,R5,
-859,percebe,82.21,R5,
+857,europa,82.19,R5,유럽
+858,isabel,82.20,R5,(이름) 이자벨
+859,percebe,82.21,R5,이해한다 · perceber
 860,conhece,82.22,R5,알다
 861,saia,82.23,R5,치마
 862,apesar,82.24,R5,~에도 불구하고
@@ -866,9 +853,9 @@ rank,word,cum_pct,region,ko
 865,conheci,82.26,R5,알게 됐다
 866,fé,82.27,R5,믿음
 867,pra,82.28,R5,~을 위해
-868,suíça,82.29,R5,
+868,suíça,82.29,R5,스위스
 869,estou,82.30,R5,~이다
-870,disser,82.31,R5,
+870,disser,82.31,R5,말하면 · dizer 접속법 미래
 871,vi,82.32,R5,보았다
 872,nota,82.33,R5,메모
 873,colocar,82.34,R5,놓다
@@ -881,7 +868,7 @@ rank,word,cum_pct,region,ko
 880,foto,82.40,R5,사진
 881,puro,82.41,R5,순수한
 882,pecado,82.42,R5,죄
-883,corvo,82.43,R5,
+883,corvo,82.43,R5,까마귀
 884,sobretudo,82.44,R5,특히
 885,enorme,82.45,R5,거대한
 886,após,82.46,R5,~후에
@@ -890,19 +877,18 @@ rank,word,cum_pct,region,ko
 889,avisar,82.48,R5,"알리다, 경고하다"
 890,condição,82.49,R5,조건
 891,casaco,82.50,R5,"외투, 재킷"
-892,foder,82.51,R5,
-893,simão,82.52,R5,
+892,foder,82.51,R5,(비속어) 망치다
+893,simão,82.52,R5,(이름) 시망
 894,seguro,82.53,R5,안전한
-895,madalena,82.54,R5,
+895,madalena,82.54,R5,(이름) 마달레나
 896,suficiente,82.54,R5,충분한
-897,boaventura,82.55,R5,
 898,provar,82.56,R5,"맛보다, 입어보다"
 899,informação,82.57,R5,정보
 900,visitar,82.58,R5,방문하다
 901,decisão,82.59,R5,결정
 902,linda,82.60,R5,예쁜
-903,viva,82.61,R5,
-904,frança,82.61,R5,
+903,viva,82.61,R5,만세 · 살아 있는
+904,frança,82.61,R5,프랑스
 905,espaço,82.62,R5,공간
 906,motivo,82.63,R5,동기
 907,apetecer,82.64,R5,"당기다, 하고 싶다"
@@ -910,8 +896,7 @@ rank,word,cum_pct,region,ko
 909,casado,82.66,R5,결혼한
 910,americano,82.67,R5,미국인
 911,exactamente,82.68,R5,정확히
-912,cristo,82.68,R5,
-913,ão,82.69,R5,
+912,cristo,82.68,R5,그리스도
 914,digo,82.70,R5,나는 말한다
 915,crescer,82.71,R5,자라다
 916,paixão,82.72,R5,열정
@@ -920,7 +905,6 @@ rank,word,cum_pct,region,ko
 919,conselho,82.74,R5,조언
 920,apostar,82.75,R5,내기하다
 921,liberdade,82.76,R5,자유
-922,cesária,82.77,R5,
 923,chave,82.78,R5,열쇠
 924,bastar,82.79,R5,충분하다
 925,julgar,82.80,R5,판단하다
@@ -931,11 +915,11 @@ rank,word,cum_pct,region,ko
 930,necessário,82.84,R5,필요한
 931,experiência,82.85,R5,경험
 932,infelizmente,82.85,R5,안타깝게도
-933,entra,82.86,R5,
-934,clara,82.87,R5,
+933,entra,82.86,R5,들어와 · entrar
+934,clara,82.87,R5,맑은 · (이름) 클라라
 935,perigoso,82.88,R5,위험한
-936,puder,82.89,R5,
-937,deixei,82.90,R5,
+936,puder,82.89,R5,~할 수 있으면 · poder 접속법 미래
+937,deixei,82.90,R5,(나) 두었다 · deixar
 938,gay,82.90,R5,동성애자
 939,ensinar,82.91,R5,가르치다
 940,hã,82.92,R5,응?
@@ -945,39 +929,37 @@ rank,word,cum_pct,region,ko
 944,cinema,82.95,R5,영화관
 945,amante,82.96,R5,"연인, 애인"
 946,regra,82.97,R5,규칙
-947,afonso,82.98,R5,
+947,afonso,82.98,R5,(이름) 아폰수
 948,agradecer,82.99,R5,감사하다
 949,vila,83.00,R5,마을
 950,fantástico,83.00,R5,환상적인
 951,rosto,83.01,R5,얼굴
 952,sentimento,83.02,R5,감정
 953,vim,83.03,R5,나는 왔다
-954,aonde,83.04,R5,
+954,aonde,83.04,R5,어디로
 955,lei,83.05,R5,법
 956,mexer,83.05,R5,"움직이다, 건드리다"
-957,laura,83.06,R5,
+957,laura,83.06,R5,(이름) 라우라
 958,quero,83.07,R5,원하다
 959,avó,83.08,R5,할머니
 960,anjo,83.09,R5,천사
 961,peito,83.09,R5,가슴
-962,levo,83.10,R5,
-963,nossa,83.11,R5,
+962,levo,83.10,R5,(나) 가져간다 · levar
+963,nossa,83.11,R5,우리의
 964,simpático,83.12,R5,상냥한
-965,ihe,83.13,R5,
 966,prisão,83.13,R5,감옥
-967,prefiro,83.14,R5,
+967,prefiro,83.14,R5,(나) 더 좋아한다 · preferir
 968,beleza,83.15,R5,아름다움
 969,azul,83.16,R5,파란색
 970,bar,83.17,R5,술집
 971,separar,83.17,R5,분리하다
 972,disparate,83.18,R5,터무니없는 말
-973,põe,83.19,R5,
+973,põe,83.19,R5,놓는다 · 놓아 · pôr
 974,quadro,83.20,R5,그림
-975,jacinta,83.21,R5,
-976,filipe,83.22,R5,
+976,filipe,83.22,R5,(이름) 필리프
 977,circo,83.22,R5,서커스
-978,teresa,83.23,R5,
-979,senta,83.24,R5,
+978,teresa,83.23,R5,(이름) 테레자
+979,senta,83.24,R5,앉아 · sentar
 980,revista,83.25,R5,잡지
 981,bruxa,83.25,R5,마녀
 982,leva,83.26,R5,가져가다
@@ -985,7 +967,7 @@ rank,word,cum_pct,region,ko
 984,no,83.28,R5,~에
 985,gaja,83.29,R5,여자(속어)
 986,telefonar,83.29,R5,전화하다
-987,conde,83.30,R5,
+987,conde,83.30,R5,백작
 988,ciúme,83.31,R5,질투
 989,terminar,83.32,R5,끝내다
 990,bilhete,83.33,R5,"표, 티켓"
@@ -994,19 +976,19 @@ rank,word,cum_pct,region,ko
 993,dias,83.35,R5,날들
 994,ovo,83.36,R5,달걀
 995,porco,83.36,R5,돼지
-996,nisto,83.37,R5,
+996,nisto,83.37,R5,이것에 · em + isto
 997,cozinha,83.38,R5,부엌
 998,leite,83.39,R5,우유
 999,pássaro,83.40,R5,새
-1000,basta,83.40,R5,
-1001,esqueça,83.41,R5,
+1000,basta,83.40,R5,충분하다 · 그만
+1001,esqueça,83.41,R5,잊으세요 · esquecer
 1002,sob,83.42,R5,~아래
 1003,primeira,83.43,R5,첫째
 1004,vestido,83.43,R5,원피스
 1005,nu,83.44,R5,벌거벗은
 1006,morar,83.45,R5,"살다, 거주하다"
 1007,muitas,83.46,R5,많은
-1008,inês,83.47,R5,
+1008,inês,83.47,R5,(이름) 이네스
 1009,estudar,83.47,R5,공부하다
 1010,presença,83.48,R5,존재
 1011,férias,83.49,R5,휴가
@@ -1015,13 +997,13 @@ rank,word,cum_pct,region,ko
 1014,compra,83.51,R5,구매
 1015,cigarro,83.52,R5,담배
 1016,parvo,83.53,R5,바보 같은
-1017,margarida,83.53,R5,
-1018,lena,83.54,R5,
+1017,margarida,83.53,R5,데이지 · (이름) 마르가리다
+1018,lena,83.54,R5,(이름) 레나
 1019,convencer,83.55,R5,설득하다
 1020,convidar,83.56,R5,초대하다
 1021,restaurante,83.56,R5,식당
 1022,conheço,83.57,R5,나는 안다
-1023,andré,83.58,R5,
+1023,andré,83.58,R5,(이름) 안드레
 1024,descer,83.59,R5,내려가다
 1025,veja,83.59,R5,보다
 1026,fato,83.60,R5,사실
@@ -1037,27 +1019,27 @@ rank,word,cum_pct,region,ko
 1036,brincadeira,83.68,R5,장난
 1037,respirar,83.68,R5,숨 쉬다
 1038,seguinte,83.69,R5,다음의
-1039,beatriz,83.70,R5,
+1039,beatriz,83.70,R5,(이름) 베아트리스
 1040,soldado,83.71,R5,군인
 1041,parque,83.71,R5,공원
 1042,político,83.72,R5,정치인
-1043,diana,83.73,R5,
-1044,preocupe,83.73,R5,
+1043,diana,83.73,R5,(이름) 디아나
+1044,preocupe,83.73,R5,걱정하다 · não se preocupe = 걱정 마세요
 1045,reparar,83.74,R5,알아차리다
 1046,direita,83.75,R5,오른쪽
 1047,ambos,83.76,R5,둘 다
 1048,assassino,83.76,R5,살인자
 1049,pressa,83.77,R5,서두름
 1050,assinar,83.78,R5,서명하다
-1051,joaquim,83.79,R5,
+1051,joaquim,83.79,R5,(이름) 조아킹
 1052,motor,83.79,R5,엔진
 1053,sapato,83.80,R5,구두
 1054,canto,83.81,R5,구석
-1055,dás,83.82,R5,
+1055,dás,83.82,R5,(너) 준다 · dar
 1056,processo,83.82,R5,과정
-1057,trago,83.83,R5,
+1057,trago,83.83,R5,(나) 가져온다 · trazer
 1058,virgem,83.84,R5,"처녀, 순결한"
-1059,natal,83.84,R5,
+1059,natal,83.84,R5,크리스마스
 1060,segurança,83.85,R5,안전
 1061,aproveitar,83.86,R5,즐기다
 1062,errar,83.87,R5,틀리다
@@ -1065,16 +1047,15 @@ rank,word,cum_pct,region,ko
 1064,inferno,83.88,R5,지옥
 1065,perigo,83.89,R5,위험
 1066,teste,83.90,R5,시험
-1067,cruz,83.90,R5,
-1068,têm,83.91,R5,
+1067,cruz,83.90,R5,십자가
+1068,têm,83.91,R5,(그들) 가지고 있다 · ter
 1069,confusão,83.92,R5,혼란
 1070,vale,83.92,R5,계곡
-1071,compreendo,83.93,R5,
+1071,compreendo,83.93,R5,(나) 이해한다 · compreender
 1072,vossemecê,83.94,R5,당신(옛 존칭)
 1073,inventar,83.95,R5,발명하다
 1074,defender,83.95,R5,방어하다
 1075,cavaleiro,83.96,R5,"기사, 기수"
-1076,peter,83.97,R5,
 1077,noivo,83.97,R5,"신랑, 약혼자"
 1078,leve,83.98,R5,가벼운
 1079,reconhecer,83.99,R5,알아보다
@@ -1085,56 +1066,53 @@ rank,word,cum_pct,region,ko
 1084,costumar,84.02,R5,~하곤 하다
 1085,merecer,84.03,R5,~할 만하다
 1086,sobrinho,84.04,R5,조카
-1087,lúcia,84.05,R5,
-1088,susana,84.05,R5,
+1087,lúcia,84.05,R5,(이름) 루시아
+1088,susana,84.05,R5,(이름) 수자나
 1089,terceiro,84.06,R5,세 번째
 1090,considerar,84.07,R5,고려하다
 1091,linha,84.07,R5,선
-1092,sua,84.08,R5,
+1092,sua,84.08,R5,그의 · 당신의
 1093,beijinho,84.09,R5,뽀뽀
-1094,vicente,84.09,R5,
+1094,vicente,84.09,R5,(이름) 비센트
 1095,osso,84.10,R5,뼈
 1096,apaixonar,84.11,R5,사랑에 빠지게 하다
 1097,restar,84.12,R5,남다
-1098,barbara,84.12,R5,
-1099,tenório,84.13,R5,
+1098,barbara,84.12,R5,(이름) 바르바라
 1100,gozar,84.14,R5,"즐기다, 놀리다"
 1101,maravilhoso,84.14,R5,멋진
-1102,tiveste,84.15,R5,
+1102,tiveste,84.15,R5,(너) 가졌다 · ter
 1103,movimento,84.16,R5,움직임
 1104,falso,84.16,R5,거짓된
 1105,beijar,84.17,R5,키스하다
 1106,milagre,84.18,R5,기적
-1107,alberto,84.18,R5,
+1107,alberto,84.18,R5,(이름) 알베르투
 1108,preocupado,84.19,R5,걱정하는
 1109,missão,84.20,R5,임무
-1110,desculpem,84.21,R5,
+1110,desculpem,84.21,R5,죄송합니다(여러분)
 1111,perfeitamente,84.21,R5,완벽하게
 1112,gato,84.22,R5,고양이
-1113,alferes,84.23,R5,
+1113,alferes,84.23,R5,소위(군)
 1114,confessar,84.23,R5,고백하다
 1115,metro,84.24,R5,"지하철, 미터"
 1116,terrível,84.25,R5,끔찍한
-1117,gostas,84.25,R5,
+1117,gostas,84.25,R5,(너) 좋아한다 · gostar
 1118,ouro,84.26,R5,금
-1119,ega,84.27,R5,
 1120,escapar,84.27,R5,탈출하다
-1121,vieste,84.28,R5,
+1121,vieste,84.28,R5,(너) 왔다 · vir
 1122,banda,84.29,R5,밴드
-1123,dorme,84.29,R5,
+1123,dorme,84.29,R5,잔다 · 자 · dormir
 1124,instante,84.30,R5,순간
-1125,silva,84.31,R5,
+1125,silva,84.31,R5,(성) 실바
 1126,repetir,84.31,R5,반복하다
-1127,alice,84.32,R5,
+1127,alice,84.32,R5,(이름) 알리스
 1128,cheiro,84.33,R5,냄새
-1129,lembras,84.34,R5,
-1130,saramago,84.34,R5,
+1129,lembras,84.34,R5,(너) 기억한다 · lembrar-se
 1131,convosco,84.35,R5,너희와 함께
-1132,amélia,84.36,R5,
-1133,judite,84.36,R5,
+1132,amélia,84.36,R5,(이름) 아멜리아
+1133,judite,84.36,R5,(이름) 주디트
 1134,castelo,84.37,R5,성
 1135,justo,84.38,R5,공정한
-1136,esqueci,84.38,R5,
+1136,esqueci,84.38,R5,(나) 잊었다 · esquecer
 1137,militar,84.39,R5,군인
 1138,nele,84.40,R5,그 안에
 1139,valor,84.40,R5,가치
@@ -1142,14 +1120,14 @@ rank,word,cum_pct,region,ko
 1141,sombra,84.42,R5,그림자
 1142,cerveja,84.42,R5,맥주
 1143,tema,84.43,R5,주제
-1144,marta,84.44,R5,
-1145,aurora,84.44,R5,
+1144,marta,84.44,R5,(이름) 마르타
+1145,aurora,84.44,R5,새벽 · 오로라
 1146,pista,84.45,R5,단서
-1147,deves,84.46,R5,
+1147,deves,84.46,R5,(너) ~해야 한다 · dever
 1148,desgraça,84.46,R5,불행
-1149,deixo,84.47,R5,
+1149,deixo,84.47,R5,(나) 둔다 · deixar
 1150,feio,84.48,R5,못생긴
-1151,achas,84.48,R5,
+1151,achas,84.48,R5,(너) 생각한다 · achar
 1152,início,84.49,R5,시작
 1153,dente,84.50,R5,이
 1154,despedir,84.50,R5,해고하다
@@ -1162,7 +1140,7 @@ rank,word,cum_pct,region,ko
 1161,popular,84.55,R5,인기 있는
 1162,pesar,84.55,R5,무게를 재다
 1163,preferir,84.56,R5,선호하다
-1164,fizemos,84.57,R5,
+1164,fizemos,84.57,R5,(우리) 했다 · fazer
 1165,trocar,84.57,R5,바꾸다
 1166,inocente,84.58,R5,결백한
 1167,ocupar,84.59,R5,차지하다
@@ -1172,29 +1150,27 @@ rank,word,cum_pct,region,ko
 1171,marquês,84.61,R5,후작
 1172,abre,84.62,R5,연다
 1173,marcar,84.63,R5,"표시하다, 득점하다"
-1174,espere,84.63,R5,
-1175,drama,84.64,R5,
+1174,espere,84.63,R5,기다리세요 · esperar
+1175,drama,84.64,R5,드라마 · 극
 1176,quente,84.65,R5,뜨거운
 1177,sensação,84.65,R5,느낌
 1178,inimigo,84.66,R5,적
 1179,droga,84.66,R5,마약
 1180,boxe,84.67,R5,복싱
-1181,dir,84.68,R5,
 1182,rezar,84.68,R5,기도하다
 1183,atravessar,84.69,R5,건너다
 1184,delas,84.70,R5,그녀들의
 1185,durar,84.70,R5,지속되다
-1186,sois,84.71,R5,
-1187,amadeu,84.72,R5,
+1186,sois,84.71,R5,(너희) ~이다 · ser
 1188,porcaria,84.72,R5,쓰레기 같은 것
 1189,aquela,84.73,R5,저
 1190,cansado,84.74,R5,피곤한
 1191,vermelho,84.74,R5,빨간색
-1192,luísa,84.75,R5,
+1192,luísa,84.75,R5,(이름) 루이자
 1193,posição,84.76,R5,위치
-1194,david,84.76,R5,
+1194,david,84.76,R5,(이름) 다비드
 1195,fantasma,84.77,R5,유령
-1196,ponha,84.77,R5,
+1196,ponha,84.77,R5,놓으세요 · pôr
 1197,tenho,84.78,R5,가지고 있다
 1198,efeito,84.79,R5,효과
 1199,pertencer,84.79,R5,속하다
@@ -1203,24 +1179,22 @@ rank,word,cum_pct,region,ko
 1202,centro,84.81,R5,중심
 1203,horror,84.82,R5,공포
 1204,transformar,84.83,R5,변형하다
-1205,ricardo,84.83,R5,
+1205,ricardo,84.83,R5,(이름) 히카르두
 1206,erro,84.84,R5,실수
 1207,revolução,84.84,R5,혁명
-1208,salomé,84.85,R5,
-1209,enter,84.86,R5,
 1210,princesa,84.86,R5,공주
 1211,devo,84.87,R5,~해야 하다
 1212,havia,84.88,R5,있었다
 1213,direcção,84.88,R5,방향
-1214,dizem,84.89,R5,
+1214,dizem,84.89,R5,(그들) 말한다 · dizer
 1215,escritório,84.89,R5,사무실
-1216,tchau,84.90,R5,
+1216,tchau,84.90,R5,안녕(헤어질 때)
 1217,golpe,84.91,R5,타격
 1218,verão,84.91,R5,여름
 1219,recuperar,84.92,R5,회복하다
-1220,fátima,84.93,R5,
+1220,fátima,84.93,R5,(이름) 파티마
 1221,ladrão,84.93,R5,도둑
-1222,xavier,84.94,R5,
+1222,xavier,84.94,R5,(이름) 샤비에르
 1223,glória,84.95,R5,영광
 1224,escudo,84.95,R5,방패
 1225,missa,84.96,R5,미사
@@ -1231,14 +1205,14 @@ rank,word,cum_pct,region,ko
 1230,contacto,84.99,R5,연락
 1231,famoso,85.00,R5,유명한
 1232,mistério,85.00,R5,미스터리
-1233,vás,85.01,R5,
+1233,vás,85.01,R5,가다 · não vás = 가지 마
 1234,saco,85.01,R5,자루
 1235,romance,85.02,R5,연애소설
 1236,almoçar,85.03,R5,점심 먹다
 1237,juízo,85.03,R5,판단력
 1238,agente,85.04,R5,요원
 1239,passear,85.04,R5,산책하다
-1240,larga,85.05,R5,
+1240,larga,85.05,R5,놔 · 넓은 · largar
 1241,justiça,85.06,R5,정의
 1242,atrasar,85.06,R5,늦추다
 1243,peso,85.07,R5,무게
@@ -1246,10 +1220,8 @@ rank,word,cum_pct,region,ko
 1245,sucesso,85.08,R5,성공
 1246,acção,85.09,R5,행동
 1247,bolo,85.09,R5,케이크
-1248,maia,85.10,R5,
-1249,roma,85.11,R5,
-1250,camarate,85.11,R5,
-1251,martim,85.12,R5,
+1249,roma,85.11,R5,로마(지명)
+1251,martim,85.12,R5,(이름) 마르팅
 1252,importância,85.12,R5,중요성
 1253,estragar,85.13,R5,망치다
 1254,chatear,85.14,R5,짜증나게 하다
@@ -1264,46 +1236,46 @@ rank,word,cum_pct,region,ko
 1263,letra,85.19,R5,글자
 1264,juntar,85.20,R5,모으다
 1265,escuro,85.20,R5,어두운
-1266,joana,85.21,R5,
+1266,joana,85.21,R5,(이름) 조아나
 1267,apagar,85.22,R5,끄다
 1268,voar,85.22,R5,날다
-1269,lucas,85.23,R5,
+1269,lucas,85.23,R5,(이름) 루카스
 1270,loja,85.23,R5,가게
 1271,novidade,85.24,R5,새 소식
 1272,desistir,85.25,R5,포기하다
 1273,marca,85.25,R5,브랜드
 1274,excelente,85.26,R5,훌륭한
 1275,costume,85.26,R5,습관
-1276,luís,85.27,R5,
-1277,ouça,85.28,R5,
+1276,luís,85.27,R5,(이름) 루이스
+1277,ouça,85.28,R5,들으세요 · ouvir
 1278,cadeira,85.28,R5,의자
 1279,monte,85.29,R5,산
 1280,disposto,85.29,R5,~할 의향 있는
 1281,entanto,85.30,R5,그러나
 1282,esquerdo,85.31,R5,왼쪽의
 1283,caçador,85.31,R5,사냥꾼
-1284,ias,85.32,R5,
+1284,ias,85.32,R5,(너) 가고 있었다 · ir
 1285,barulho,85.32,R5,소음
 1286,equipa,85.33,R5,팀
-1287,vejam,85.33,R5,
-1288,pare,85.34,R5,
+1287,vejam,85.33,R5,보세요(여러분) · ver
+1288,pare,85.34,R5,멈추세요 · parar
 1289,retirar,85.35,R5,빼내다
 1290,mercado,85.35,R5,시장
 1291,gelado,85.36,R5,아이스크림
-1292,esquece,85.36,R5,
+1292,esquece,85.36,R5,잊어 · esquecer
 1293,atender,85.37,R5,응대하다
 1294,almoço,85.38,R5,점심
 1295,bacalhau,85.38,R5,대구
 1296,afastar,85.39,R5,멀리하다
 1297,bola,85.39,R5,공
 1298,estiver,85.40,R5,있다면
-1299,alex,85.41,R5,
+1299,alex,85.41,R5,(이름) 알렉스
 1300,social,85.41,R5,사회의
-1301,devias,85.42,R5,
+1301,devias,85.42,R5,(너) ~했어야 했다 · dever
 1302,alguma,85.42,R5,어떤
 1303,imediatamente,85.43,R5,즉시
 1304,século,85.43,R5,세기
-1305,éramos,85.44,R5,
+1305,éramos,85.44,R5,(우리) ~였다 · ser
 1306,casal,85.45,R5,커플
 1307,interesse,85.45,R5,관심
 1308,fiel,85.46,R5,충실한
@@ -1327,7 +1299,7 @@ rank,word,cum_pct,region,ko
 1326,feito,85.56,R5,된
 1327,visto,85.57,R5,본
 1328,vocês,85.57,R5,너희
-1329,madame,85.58,R5,
+1329,madame,85.58,R5,마담
 1330,impressão,85.58,R5,인상
 1331,morreu,85.59,R5,죽었다
 1332,género,85.59,R5,종류 성별
@@ -1336,40 +1308,36 @@ rank,word,cum_pct,region,ko
 1335,jornalista,85.61,R5,기자
 1336,extraordinário,85.62,R5,비범한
 1337,república,85.62,R5,공화국
-1338,william,85.63,R5,
-1339,sara,85.63,R5,
-1340,henrique,85.64,R5,
-1341,ramón,85.65,R5,
+1339,sara,85.63,R5,(이름) 사라
+1340,henrique,85.64,R5,(이름) 엔히크
 1342,data,85.65,R5,날짜
 1343,advogado,85.66,R5,변호사
 1344,cego,85.66,R5,눈먼
-1345,soubesse,85.67,R5,
+1345,soubesse,85.67,R5,안다면 · saber 접속법 과거
 1346,maldito,85.67,R5,저주받은
 1347,representar,85.68,R5,대표하다
 1348,lançar,85.68,R5,던지다
 1349,camisa,85.69,R5,셔츠
 1350,nela,85.70,R5,그 안에
 1351,praça,85.70,R5,광장
-1352,londres,85.71,R5,
+1352,londres,85.71,R5,런던(지명)
 1353,gravar,85.71,R5,녹음하다
-1354,valha,85.72,R5,
+1354,valha,85.72,R5,~의 가치가 있기를 · valer
 1355,filmar,85.72,R5,촬영하다
-1356,prometo,85.73,R5,
-1357,cu,85.73,R5,
+1356,prometo,85.73,R5,(나) 약속한다 · prometer
+1357,cu,85.73,R5,(비속어) 엉덩이
 1358,burro,85.74,R5,당나귀
 1359,impedir,85.75,R5,막다
-1360,là,85.75,R5,
-1361,deolinda,85.76,R5,
 1362,sofrimento,85.76,R5,고통
-1363,nova,85.77,R5,
+1363,nova,85.77,R5,새로운
 1364,partido,85.77,R5,정당
 1365,apoio,85.78,R5,지원
 1366,frase,85.78,R5,문장
 1367,nervoso,85.79,R5,긴장한
 1368,sono,85.80,R5,잠
-1369,dói,85.80,R5,
+1369,dói,85.80,R5,아프다 · doer
 1370,relógio,85.81,R5,시계
-1371,sofia,85.81,R5,
+1371,sofia,85.81,R5,(이름) 소피아
 1372,insistir,85.82,R5,고집하다
 1373,à,85.82,R5,~에
 1374,mana,85.83,R5,누나 언니
@@ -1381,65 +1349,59 @@ rank,word,cum_pct,region,ko
 1380,escada,85.86,R5,계단
 1381,palácio,85.87,R5,궁전
 1382,cujo,85.87,R5,그 사람의
-1383,jà,85.88,R5,
 1384,tristeza,85.88,R5,슬픔
 1385,fábrica,85.89,R5,공장
-1386,amália,85.89,R5,
+1386,amália,85.89,R5,(이름) 아말리아
 1387,sorriso,85.90,R5,미소
 1388,vencer,85.90,R5,이기다
 1389,ovelha,85.91,R5,양
 1390,vários,85.91,R5,여러
-1391,estiveste,85.92,R5,
+1391,estiveste,85.92,R5,(너) ~있었다 · estar
 1392,precisa,85.93,R5,필요하다
-1393,ótimo,85.93,R5,
+1393,ótimo,85.93,R5,아주 좋은
 1394,concerto,85.94,R5,콘서트
-1395,imagina,85.94,R5,
+1395,imagina,85.94,R5,상상해 봐 · imaginar
 1396,coitado,85.95,R5,불쌍한
-1397,far,85.95,R5,
 1398,natureza,85.96,R5,자연
 1399,fez,85.96,R5,했다
 1400,prometer,85.97,R5,약속하다
 1401,chapéu,85.97,R5,모자
-1402,elias,85.98,R5,
+1402,elias,85.98,R5,(이름) 엘리아스
 1403,quieto,85.98,R5,가만히 있는
 1404,entrada,85.99,R5,입구
 1405,miséria,86.00,R5,비참함
 1406,cabra,86.00,R5,염소
-1407,américa,86.01,R5,
+1407,américa,86.01,R5,아메리카 · 미국
 1408,roda,86.01,R5,바퀴
 1409,reino,86.02,R5,왕국
 1410,atacar,86.02,R5,공격하다
 1411,respeitar,86.03,R5,존중하다
 1412,brasileiro,86.03,R5,브라질 사람
-1413,saí,86.04,R5,
-1414,telmo,86.04,R5,
+1413,saí,86.04,R5,(나) 나갔다 · sair
+1414,telmo,86.04,R5,(이름) 텔무
 1415,montanha,86.05,R5,산
 1416,ponte,86.05,R5,다리
-1417,diogo,86.06,R5,
-1418,falaste,86.06,R5,
-1419,venham,86.07,R5,
+1417,diogo,86.06,R5,(이름) 디오구
+1418,falaste,86.06,R5,(너) 말했다 · falar
+1419,venham,86.07,R5,오세요(여러분) · vir
 1420,chá,86.08,R5,차
 1421,liga,86.08,R5,연맹
 1422,aberto,86.09,R5,열린
 1423,exame,86.09,R5,시험
-1424,tira,86.10,R5,
+1424,tira,86.10,R5,빼 · 찍어 · tirar
 1425,várias,86.10,R5,여러
 1426,agradável,86.11,R5,유쾌한
 1427,esteja,86.11,R5,있다
 1428,realidade,86.12,R5,현실
 1429,nacional,86.12,R5,국가의
-1430,júlia,86.13,R5,
+1430,júlia,86.13,R5,(이름) 줄리아
 1431,poderoso,86.13,R5,강력한
-1432,mesquita,86.14,R5,
 1433,espada,86.14,R5,검
 1434,mente,86.15,R5,마음
-1435,castela,86.15,R5,
 1436,saltar,86.16,R5,뛰다
-1437,ron,86.16,R5,
-1438,samuel,86.17,R5,
-1439,jeanne,86.17,R5,
+1438,samuel,86.17,R5,(이름) 사무엘
 1440,façam,86.18,R5,하세요
-1441,alexandre,86.19,R5,
+1441,alexandre,86.19,R5,(이름) 알렉산드르
 1442,cerca,86.19,R5,약
 1443,vazio,86.20,R5,"빈, 공허"
 1444,tropa,86.20,R5,군대
@@ -1450,16 +1412,15 @@ rank,word,cum_pct,region,ko
 1449,alemão,86.23,R5,독일인
 1450,paraíso,86.23,R5,천국
 1451,cartão,86.24,R5,카드
-1452,estávamos,86.24,R5,
+1452,estávamos,86.24,R5,(우리) ~있었다 · estar
 1453,querem,86.25,R5,원한다
 1454,rato,86.25,R5,쥐
 1455,tribunal,86.26,R5,법원
-1456,rafael,86.26,R5,
+1456,rafael,86.26,R5,(이름) 하파엘
 1457,daquilo,86.27,R5,저것의
 1458,adivinhar,86.27,R5,맞히다
-1459,gostaria,86.28,R5,
+1459,gostaria,86.28,R5,~하고 싶다(정중) · gostar
 1460,política,86.28,R5,정치
-1461,malo,86.29,R5,
 1462,espectáculo,86.29,R5,공연
 1463,fixe,86.30,R5,멋진
 1464,traz,86.30,R5,가져오다
@@ -1474,26 +1435,24 @@ rank,word,cum_pct,region,ko
 1473,grito,86.35,R5,"외침, 비명"
 1474,posto,86.35,R5,둔
 1475,passagem,86.36,R5,통로
-1476,conte,86.36,R5,
+1476,conte,86.36,R5,말해 주세요 · contar
 1477,cumprir,86.37,R5,이행하다
-1478,percebeste,86.37,R5,
+1478,percebeste,86.37,R5,(너) 이해했다 · perceber
 1479,mostra,86.38,R5,보여준다
 1480,paizinho,86.38,R5,아빠
 1481,piada,86.39,R5,농담
 1482,esquerda,86.39,R5,왼쪽
-1483,lopes,86.40,R5,
+1483,lopes,86.40,R5,(성) 로페스
 1484,voto,86.40,R5,투표
 1485,pecar,86.41,R5,죄짓다
-1486,moura,86.41,R5,
-1487,adriana,86.42,R5,
+1487,adriana,86.42,R5,(이름) 아드리아나
 1488,inverno,86.42,R5,겨울
 1489,passeio,86.43,R5,산책
-1490,sir,86.43,R5,
 1491,garantir,86.44,R5,보장하다
 1492,presa,86.44,R5,먹이
 1493,retrato,86.45,R5,초상화
 1494,aproximar,86.45,R5,가까이 가다
-1495,hei,86.46,R5,
+1495,hei,86.46,R5,(나) ~할 것이다 · haver de · 어이
 1496,aula,86.46,R5,수업
 1497,piano,86.47,R5,피아노
 1498,fortuna,86.47,R5,재산 운
@@ -1505,17 +1464,15 @@ rank,word,cum_pct,region,ko
 1504,autor,86.50,R5,저자
 1505,proibir,86.51,R5,금지하다
 1506,geral,86.51,R5,일반적인
-1507,bela,86.52,R5,
+1507,bela,86.52,R5,아름다운
 1508,limpar,86.52,R5,"닦다, 청소하다"
 1509,pastor,86.53,R5,"목동, 목사"
 1510,lume,86.53,R5,불
-1511,arranja,86.54,R5,
+1511,arranja,86.54,R5,마련해 · 고쳐 · arranjar
 1512,ódio,86.54,R5,증오
 1513,entretanto,86.55,R5,그러나
 1514,piedade,86.55,R5,연민
-1515,jó,86.56,R5,
-1516,ç,86.56,R5,
-1517,carla,86.57,R5,
+1517,carla,86.57,R5,(이름) 카를라
 1518,diferença,86.57,R5,차이
 1519,abraço,86.58,R5,포옹
 1520,vinha,86.58,R5,포도밭
@@ -1531,14 +1488,13 @@ rank,word,cum_pct,region,ko
 1530,mães,86.63,R5,어머니들
 1531,piscina,86.64,R5,수영장
 1532,basco,86.64,R5,바스크의
-1533,fran,86.64,R5,
 1534,trato,86.65,R5,대우 거래
 1535,perno,86.65,R5,볼트
 1536,acredita,86.66,R5,믿다
 1537,bondade,86.66,R5,친절
 1538,palma,86.67,R5,손바닥
 1539,libertar,86.67,R5,해방하다
-1540,perdoe,86.68,R5,
+1540,perdoe,86.68,R5,용서하세요 · perdoar
 1541,barriga,86.68,R5,배
 1542,mala,86.69,R5,가방
 1543,pato,86.69,R5,오리
@@ -1546,21 +1502,19 @@ rank,word,cum_pct,region,ko
 1545,queixa,86.70,R5,불평
 1546,arrancar,86.71,R5,뽑다
 1547,enterrar,86.71,R5,묻다
-1548,mataste,86.72,R5,
+1548,mataste,86.72,R5,(너) 죽였다 · matar
 1549,chato,86.72,R5,지루한
 1550,guitarra,86.73,R5,기타
-1551,deixem,86.73,R5,
+1551,deixem,86.73,R5,두세요(여러분) · deixar
 1552,engano,86.73,R5,착각
 1553,queijo,86.74,R5,치즈
-1554,vens,86.74,R5,
+1554,vens,86.74,R5,(너) 온다 · vir
 1555,nobre,86.75,R5,귀족의
 1556,revelar,86.75,R5,밝히다
 1557,escolha,86.76,R5,선택
 1558,moeda,86.76,R5,동전
 1559,voo,86.77,R5,비행
 1560,comprimido,86.77,R5,알약
-1561,sam,86.78,R5,
-1562,laureano,86.78,R5,
 1563,trabalhador,86.79,R5,"노동자, 부지런한"
 1564,culpar,86.79,R5,비난하다
 1565,funeral,86.80,R5,장례식
@@ -1575,13 +1529,12 @@ rank,word,cum_pct,region,ko
 1574,vítima,86.84,R5,피해자
 1575,encontrei,86.84,R5,찾았다
 1576,largo,86.85,R5,넓은
-1577,ouço,86.85,R5,
+1577,ouço,86.85,R5,(나) 듣는다 · ouvir
 1578,recado,86.86,R5,전갈
 1579,madrinha,86.86,R5,대모
 1580,certamente,86.87,R5,확실히
 1581,lar,86.87,R5,가정
 1582,visão,86.87,R5,시야
-1583,adelaide,86.88,R5,
 1584,demorar,86.88,R5,오래 걸리다
 1585,principal,86.89,R5,주된
 1586,odeio,86.89,R5,싫어한다
@@ -1589,7 +1542,7 @@ rank,word,cum_pct,region,ko
 1588,vingança,86.90,R5,복수
 1589,entrevista,86.91,R5,인터뷰
 1590,material,86.91,R5,재료
-1591,áfrica,86.92,R5,
+1591,áfrica,86.92,R5,아프리카
 1592,experimentar,86.92,R5,시도해 보다
 1593,curar,86.92,R5,치료하다
 1594,sujo,86.93,R5,더러운
@@ -1599,7 +1552,6 @@ rank,word,cum_pct,region,ko
 1598,leão,86.95,R5,사자
 1599,campeão,86.95,R5,챔피언
 1600,pior,86.96,R5,더 나쁜
-1601,està,86.96,R5,
 1602,nariz,86.97,R5,코
 1603,músico,86.97,R5,음악가
 1604,poeta,86.97,R5,시인
@@ -1611,8 +1563,7 @@ rank,word,cum_pct,region,ko
 1610,caixão,87.00,R5,관
 1611,projecto,87.01,R5,프로젝트
 1612,escritor,87.01,R5,작가
-1613,vítor,87.02,R5,
-1614,yolanda,87.02,R5,
+1613,vítor,87.02,R5,(이름) 비토르
 1615,combinar,87.02,R5,조합하다
 1616,fomos,87.03,R5,우리는 ~했다
 1617,operação,87.03,R5,작전
@@ -1628,34 +1579,31 @@ rank,word,cum_pct,region,ko
 1627,aparelho,87.08,R5,기기 장치
 1628,quinta,87.08,R5,목요일
 1629,sobreviver,87.09,R5,살아남다
-1630,ri,87.09,R5,
-1631,ponho,87.10,R5,
+1630,ri,87.09,R5,웃는다 · rir
+1631,ponho,87.10,R5,(나) 놓는다 · pôr
 1632,resultado,87.10,R5,결과
 1633,esperto,87.10,R5,영리한
-1634,escuta,87.11,R5,
+1634,escuta,87.11,R5,들어 봐 · escutar
 1635,convento,87.11,R5,수도원
 1636,emprestar,87.12,R5,빌려주다
 1637,clube,87.12,R5,클럽
-1638,serra,87.13,R5,
+1638,serra,87.13,R5,산맥 · 톱
 1639,hum,87.13,R5,음
 1640,zona,87.13,R5,지역
 1641,toca,87.14,R5,연주하다
 1642,falo,87.14,R5,말한다
-1643,evaristo,87.15,R5,
 1644,asa,87.15,R5,날개
-1645,credo,87.16,R5,
+1645,credo,87.16,R5,세상에(놀람) · 신조
 1646,queixar,87.16,R5,불평하다
 1647,infância,87.17,R5,어린 시절
 1648,magoar,87.17,R5,상처 주다
 1649,espelho,87.17,R5,거울
-1650,estais,87.18,R5,
+1650,estais,87.18,R5,(너희) ~있다 · estar
 1651,acerca,87.18,R5,~에 관하여
 1652,lixar,87.19,R5,망치다 사포질하다
-1653,texas,87.19,R5,
-1654,quixote,87.20,R5,
 1655,ridículo,87.20,R5,우스꽝스러운
 1656,apoiar,87.21,R5,지지하다
-1657,deixaste,87.21,R5,
+1657,deixaste,87.21,R5,(너) 두었다 · deixar
 1658,convidado,87.21,R5,손님 초대받은
 1659,alimentar,87.22,R5,먹이다
 1660,giro,87.22,R5,멋진
@@ -1669,14 +1617,14 @@ rank,word,cum_pct,region,ko
 1668,assumir,87.26,R5,맡다
 1669,veio,87.26,R5,왔다
 1670,luta,87.27,R5,싸움
-1671,civil,87.27,R5,
+1671,civil,87.27,R5,시민의 · 민간의
 1672,escutar,87.27,R5,귀 기울이다
 1673,testemunha,87.28,R5,증인
 1674,manda,87.28,R5,보내다
 1675,bicho,87.29,R5,"벌레, 짐승"
 1676,fino,87.29,R5,가는 얇은
-1677,santos,87.30,R5,
-1678,perdeste,87.30,R5,
+1677,santos,87.30,R5,성인들 · (성) 산투스
+1678,perdeste,87.30,R5,(너) 잃었다 · perder
 1679,toque,87.30,R5,접촉
 1680,febre,87.31,R5,열
 1681,discutir,87.31,R5,토론하다
@@ -1684,8 +1632,7 @@ rank,word,cum_pct,region,ko
 1683,lágrima,87.32,R5,눈물
 1684,técnico,87.33,R5,기술자
 1685,responsável,87.33,R5,책임 있는
-1686,capcom,87.34,R5,
-1687,sacana,87.34,R5,
+1687,sacana,87.34,R5,(비속어) 못된 놈
 1688,recordar,87.34,R5,기억하다
 1689,correio,87.35,R5,우편
 1690,cantor,87.35,R5,가수
@@ -1693,16 +1640,15 @@ rank,word,cum_pct,region,ko
 1692,ponta,87.36,R5,끝
 1693,grávido,87.36,R5,임신한
 1694,pus,87.37,R5,고름
-1695,bora,87.37,R5,
+1695,bora,87.37,R5,가자(구어)
 1696,doer,87.38,R5,아프다
 1697,causar,87.38,R5,일으키다
 1698,autoridade,87.39,R5,권위
 1699,cantiga,87.39,R5,노래 민요
 1700,destruir,87.39,R5,파괴하다
 1701,tostão,87.40,R5,동전 푼돈
-1702,legendagem,87.40,R5,
 1703,come,87.41,R5,먹다
-1704,baixa,87.41,R5,
+1704,baixa,87.41,R5,낮은 · 시내 중심가
 1705,cometer,87.42,R5,저지르다
 1706,assistir,87.42,R5,보다
 1707,construir,87.42,R5,짓다
@@ -1713,17 +1659,17 @@ rank,word,cum_pct,region,ko
 1712,qualidade,87.44,R5,품질
 1713,seco,87.45,R5,마른
 1714,lista,87.45,R5,목록
-1715,agradeço,87.46,R5,
+1715,agradeço,87.46,R5,(나) 감사한다 · agradecer
 1716,declarar,87.46,R5,선언하다
 1717,informar,87.47,R5,알리다
-1718,conheces,87.47,R5,
+1718,conheces,87.47,R5,(너) 안다(사람·장소) · conhecer
 1719,prato,87.47,R5,접시
 1720,fresco,87.48,R5,시원한 신선한
 1721,galinha,87.48,R5,닭
 1722,bonita,87.49,R5,예쁜
 1723,solução,87.49,R5,해결책
 1724,pescoço,87.49,R5,목
-1725,chame,87.50,R5,
+1725,chame,87.50,R5,부르세요 · chamar
 1726,conduzir,87.50,R5,운전하다
 1727,viúva,87.51,R5,과부
 1728,tremer,87.51,R5,떨다
@@ -1733,13 +1679,13 @@ rank,word,cum_pct,region,ko
 1732,oficial,87.53,R5,공식의
 1733,engenheiro,87.53,R5,기술자
 1734,provavelmente,87.54,R5,아마도
-1735,mete,87.54,R5,
+1735,mete,87.54,R5,넣어 · meter
 1736,mania,87.54,R5,버릇 집착
 1737,orgulho,87.55,R5,자부심
 1738,muro,87.55,R5,담벼락
 1739,socorro,87.56,R5,도움
 1740,empresário,87.56,R5,사업가
-1741,ajude,87.56,R5,
+1741,ajude,87.56,R5,도와주세요 · ajudar
 1742,admirar,87.57,R5,감탄하다
 1743,pequenino,87.57,R5,아주 작은
 1744,capa,87.58,R5,표지
@@ -1752,19 +1698,17 @@ rank,word,cum_pct,region,ko
 1751,joelho,87.61,R5,무릎
 1752,sacrifício,87.61,R5,희생
 1753,sopa,87.61,R5,수프
-1754,fale,87.62,R5,
+1754,fale,87.62,R5,말하세요 · falar
 1755,morada,87.62,R5,거주지 주소
 1756,terreno,87.63,R5,땅
 1757,companheiro,87.63,R5,"동료, 짝"
 1758,ruína,87.63,R5,폐허
-1759,major,87.64,R5,
-1760,gilbert,87.64,R5,
-1761,jim,87.65,R5,
+1759,major,87.64,R5,소령
 1762,rede,87.65,R5,그물
 1763,acusar,87.65,R5,고발하다
 1764,padrinho,87.66,R5,대부
 1765,humanidade,87.66,R5,인류
-1766,querias,87.67,R5,
+1766,querias,87.67,R5,(너) 원했다 · querer
 1767,curioso,87.67,R5,호기심 많은
 1768,hábito,87.67,R5,습관
 1769,bolsa,87.68,R5,가방
@@ -1772,15 +1716,15 @@ rank,word,cum_pct,region,ko
 1771,caça,87.69,R5,사냥
 1772,estudo,87.69,R5,공부
 1773,armar,87.69,R5,무장시키다 설치하다
-1774,judiciária,87.70,R5,
+1774,judiciária,87.70,R5,사법 경찰
 1775,preso,87.70,R5,갇힌
 1776,lição,87.71,R5,수업 교훈
-1777,doutora,87.71,R5,
+1777,doutora,87.71,R5,박사님(여) · 의사 선생님
 1778,ameaça,87.71,R5,위협
 1779,quilo,87.72,R5,킬로그램
 1780,baleia,87.72,R5,고래
-1781,tás,87.73,R5,
-1782,corta,87.73,R5,
+1781,tás,87.73,R5,(너) ~있다(구어) · estar
+1782,corta,87.73,R5,잘라 · cortar
 1783,interior,87.73,R5,내부
 1784,dessas,87.74,R5,이것들의
 1785,carreira,87.74,R5,경력
@@ -1793,96 +1737,80 @@ rank,word,cum_pct,region,ko
 1792,divertir,87.77,R5,즐겁게 하다
 1793,atingir,87.78,R5,도달하다
 1794,aterrar,87.78,R5,착륙하다
-1795,quereis,87.78,R5,
-1796,mayer,87.79,R5,
+1795,quereis,87.78,R5,(너희) 원한다 · querer
 1797,exército,87.79,R5,군대
-1798,sally,87.80,R5,
-1799,robert,87.80,R5,
-1800,gordon,87.80,R5,
-1801,helena,87.81,R5,
-1802,gomes,87.81,R5,
-1803,toby,87.82,R5,
+1801,helena,87.81,R5,(이름) 엘레나
+1802,gomes,87.81,R5,(성) 고메스
 1804,houve,87.82,R5,있었다
 1805,envolver,87.82,R5,감싸다
 1806,concordar,87.83,R5,동의하다
-1807,andei,87.83,R5,
+1807,andei,87.83,R5,(나) 걸었다 · 다녔다 · andar
 1808,pega,87.83,R5,잡다
 1809,investigação,87.84,R5,조사
-1810,sebastião,87.84,R5,
+1810,sebastião,87.84,R5,(이름) 세바스티앙
 1811,juventude,87.85,R5,청춘
 1812,dirigir,87.85,R5,지휘하다
-1813,pude,87.85,R5,
+1813,pude,87.85,R5,(나) ~할 수 있었다 · poder
 1814,habituar,87.86,R5,익숙하게 하다
 1815,distância,87.86,R5,거리
 1816,calado,87.87,R5,조용한
 1817,aquecer,87.87,R5,데우다
 1818,saiba,87.87,R5,알다
-1819,fizer,87.88,R5,
+1819,fizer,87.88,R5,하면 · fazer 접속법 미래
 1820,caraça,87.88,R5,세상에
 1821,general,87.89,R5,장군
-1822,ernesto,87.89,R5,
 1823,génio,87.89,R5,천재
-1824,simões,87.90,R5,
 1825,garganta,87.90,R5,목구멍
 1826,livrar,87.91,R5,구해내다
 1827,esquisito,87.91,R5,이상한
 1828,apartamento,87.91,R5,아파트
 1829,futebol,87.92,R5,축구
 1830,trouxe,87.92,R5,가져왔다
-1831,beladona,87.92,R5,
-1832,matt,87.93,R5,
-1833,pierre,87.93,R5,
-1834,souto,87.94,R5,
-1835,mauro,87.94,R5,
 1836,organizar,87.94,R5,정리하다
 1837,eram,87.95,R5,~였다
 1838,demora,87.95,R5,지연
-1839,madrid,87.96,R5,
-1840,vira,87.96,R5,
+1839,madrid,87.96,R5,마드리드(지명)
+1840,vira,87.96,R5,돌아 · 돌린다 · virar
 1841,devem,87.96,R5,~해야 한다
 1842,dama,87.97,R5,숙녀
 1843,alegre,87.97,R5,즐거운
-1844,man,87.97,R5,
 1845,apetite,87.98,R5,식욕
 1846,investigar,87.98,R5,조사하다
-1847,carolina,87.99,R5,
+1847,carolina,87.99,R5,(이름) 카롤리나
 1848,curto,87.99,R5,짧은
 1849,ferro,87.99,R5,철
 1850,besta,88.00,R5,짐승 바보
 1851,produção,88.00,R5,생산
 1852,venda,88.00,R5,판매
 1853,fronteira,88.01,R5,국경
-1854,paula,88.01,R5,
+1854,paula,88.01,R5,(이름) 파울라
 1855,sábado,88.02,R5,토요일
 1856,gastar,88.02,R5,쓰다 소비하다
-1857,sousa,88.02,R5,
-1858,esqueceste,88.03,R5,
+1857,sousa,88.02,R5,(성) 소자
+1858,esqueceste,88.03,R5,(너) 잊었다 · esquecer
 1859,realizar,88.03,R5,실현하다
 1860,tiver,88.04,R5,가지면
 1861,destes,88.04,R5,이것들의
-1862,saio,88.04,R5,
+1862,saio,88.04,R5,(나) 나간다 · sair
 1863,destas,88.05,R5,이것들의
-1864,los,88.05,R5,
-1865,chegaste,88.05,R5,
+1865,chegaste,88.05,R5,(너) 도착했다 · chegar
 1866,director,88.06,R5,감독 이사
 1867,comunicar,88.06,R5,전달하다
 1868,pecador,88.07,R5,죄인
 1869,freira,88.07,R5,수녀
-1870,adriano,88.07,R5,
-1871,fodido,88.08,R5,
-1872,nathalie,88.08,R5,
+1871,fodido,88.08,R5,(비속어) 망한
 1873,consequência,88.08,R5,결과
 1874,declaração,88.09,R5,선언
 1875,sócio,88.09,R5,동업자 회원
-1876,exacto,88.10,R5,
+1876,exacto,88.10,R5,정확한 · 바로 그거야
 1877,neto,88.10,R5,손자
 1878,sabem,88.10,R5,안다
-1879,levanta,88.11,R5,
+1879,levanta,88.11,R5,일어나 · 들어 · levantar
 1880,foram,88.11,R5,~였다
 1881,surpreender,88.11,R5,놀라게 하다
-1882,farei,88.12,R5,
+1882,farei,88.12,R5,(나) 할 것이다 · fazer
 1883,romântico,88.12,R5,낭만적인
-1884,guilherme,88.13,R5,
+1884,guilherme,88.13,R5,(이름) 길레르므
 1885,mata,88.13,R5,죽이다
 1886,noiva,88.13,R5,신부 약혼녀
 1887,mama,88.14,R5,젖가슴
@@ -1896,14 +1824,13 @@ rank,word,cum_pct,region,ko
 1895,ei,88.17,R5,어이
 1896,marinheiro,88.17,R5,선원
 1897,capacidade,88.17,R5,능력
-1898,unidos,88.18,R5,
+1898,unidos,88.18,R5,연합한 · 하나 된
 1899,limite,88.18,R5,한계
 1900,tranquilo,88.18,R5,"조용한, 평온한"
 1901,estilo,88.19,R5,스타일
-1902,leitão,88.19,R5,
-1903,cale,88.20,R5,
+1902,leitão,88.19,R5,새끼 돼지 구이
+1903,cale,88.20,R5,조용히 하세요 · calar
 1904,sorrir,88.20,R5,미소 짓다
-1905,narciso,88.20,R5,
 1906,trata,88.21,R5,다루다
 1907,educar,88.21,R5,교육하다
 1908,papa,88.21,R5,교황
@@ -1911,7 +1838,7 @@ rank,word,cum_pct,region,ko
 1910,particular,88.22,R5,개인의
 1911,capital,88.23,R5,수도
 1912,depender,88.23,R5,의존하다
-1913,escrevi,88.23,R5,
+1913,escrevi,88.23,R5,(나) 썼다 · escrever
 1914,ataque,88.24,R5,공격
 1915,cobrir,88.24,R5,덮다
 1916,violência,88.24,R5,폭력
@@ -1919,70 +1846,62 @@ rank,word,cum_pct,region,ko
 1918,maioria,88.25,R5,대다수
 1919,bala,88.26,R5,총알
 1920,autocarro,88.26,R5,버스
-1921,collins,88.26,R5,
-1922,oliver,88.27,R5,
-1923,murilo,88.27,R5,
 1924,avançar,88.27,R5,전진하다
 1925,campanha,88.28,R5,캠페인
-1926,responde,88.28,R5,
+1926,responde,88.28,R5,대답해 · responder
 1927,útil,88.28,R5,유용한
 1928,chinês,88.29,R5,중국인 중국어
 1929,supermercado,88.29,R5,슈퍼마켓
 1930,dança,88.30,R5,춤
-1931,mo,88.30,R5,
 1932,ligação,88.30,R5,연결
 1933,donde,88.31,R5,어디서
 1934,profissional,88.31,R5,전문가
-1935,despacha,88.31,R5,
+1935,despacha,88.31,R5,서둘러 · despachar
 1936,vidro,88.32,R5,유리
 1937,pau,88.32,R5,막대기
-1938,gonçalo,88.32,R5,
+1938,gonçalo,88.32,R5,(이름) 곤살루
 1939,inteligente,88.33,R5,똑똑한
 1940,produto,88.33,R5,제품
 1941,falhar,88.33,R5,실패하다
-1942,senhores,88.34,R5,
+1942,senhores,88.34,R5,여러분 · 신사분들
 1943,desgosto,88.34,R5,슬픔 실망
 1944,juiz,88.35,R5,판사
 1945,prémio,88.35,R5,상
-1946,caetano,88.35,R5,
 1947,fadista,88.36,R5,파두 가수
 1948,quantos,88.36,R5,몇 개
 1949,discurso,88.36,R5,연설
 1950,petróleo,88.37,R5,석유
 1951,fumo,88.37,R5,연기
 1952,vaca,88.37,R5,"소, 암소"
-1953,penses,88.38,R5,
+1953,penses,88.38,R5,생각하다 · não penses = 생각하지 마
 1954,dificuldade,88.38,R5,어려움
 1955,violar,88.39,R5,위반하다 겁탈하다
 1956,eterno,88.39,R5,영원한
-1957,jerónimo,88.39,R5,
 1958,jamais,88.40,R5,결코
 1959,estação,88.40,R5,역
 1960,anunciar,88.40,R5,알리다
 1961,ensaio,88.41,R5,리허설 시험
-1962,violeta,88.41,R5,
+1962,violeta,88.41,R5,보라색 · 제비꽃
 1963,nuvem,88.41,R5,구름
 1964,castigar,88.42,R5,벌주다
 1965,propriedade,88.42,R5,재산
 1966,cadáver,88.43,R5,시체
-1967,itália,88.43,R5,
-1968,seminário,88.43,R5,
-1969,friedrich,88.44,R5,
+1967,itália,88.43,R5,이탈리아
+1968,seminário,88.43,R5,세미나 · 신학교
 1970,passaporte,88.44,R5,여권
-1971,canhão,88.44,R5,
-1972,dâmaso,88.45,R5,
-1973,raquel,88.45,R5,
-1974,duarte,88.45,R5,
-1975,suponho,88.46,R5,
-1976,fazes,88.46,R5,
+1971,canhão,88.44,R5,대포
+1973,raquel,88.45,R5,(이름) 하켈
+1974,duarte,88.45,R5,(이름) 두아르트
+1975,suponho,88.46,R5,(나) 추측한다 · supor
+1976,fazes,88.46,R5,(너) 한다 · fazer
 1977,chamado,88.46,R5,불린
-1978,roberto,88.47,R5,
+1978,roberto,88.47,R5,(이름) 호베르투
 1979,talento,88.47,R5,재능
 1980,despachar,88.47,R5,처리하다 발송하다
 1981,adoro,88.48,R5,나는 아주 좋아한다
 1982,poupar,88.48,R5,아끼다
 1983,parto,88.49,R5,출산
-1984,julguei,88.49,R5,
+1984,julguei,88.49,R5,(나) 생각했다 · julgar
 1985,dívida,88.49,R5,빚
 1986,tragédia,88.50,R5,비극
 1987,regresso,88.50,R5,귀환
@@ -1991,11 +1910,11 @@ rank,word,cum_pct,region,ko
 1990,inspector,88.51,R5,검사관
 1991,completo,88.51,R5,완전한
 1992,veneno,88.52,R5,독
-1993,pensava,88.52,R5,
+1993,pensava,88.52,R5,생각하고 있었다 · pensar
 1994,arriscar,88.52,R5,위험을 무릅쓰다
-1995,percebes,88.53,R5,
+1995,percebes,88.53,R5,(너) 알아들어? · perceber
 1996,devido,88.53,R5,~때문에
 1997,sarilho,88.53,R5,소동 말썽
-1998,perco,88.54,R5,
+1998,perco,88.54,R5,(나) 잃는다 · perder
 1999,anúncio,88.54,R5,광고
 2000,palerma,88.54,R5,멍청한

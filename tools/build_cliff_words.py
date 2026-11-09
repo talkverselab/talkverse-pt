@@ -3,7 +3,8 @@
   → assets/data/freq/cliff_pt_PT.csv   유럽판 절벽 순위 1~2,000(rank,word,cum_pct,region,ko)
   → assets/data/freq/conv_words_pt.json 회화 레마 중 2,000위 밖이면서 단어표에 있는 것({words:[{word,ko,n}]}, 등장 횟수순)
 순위·구간은 data/cliff/pt_PT_top5000_lemma.csv(판별 재산정). lang_pt_top.csv 의 rank 는 PT·BR 을 합친 그림 목록 순서라 절벽 순위로 쓰지 않는다.
-뜻은 lang_pt_top.csv 에 있는 것만 붙인다(새로 쓰지 않음, 없으면 빈칸)."""
+뜻은 lang_pt_top.csv 것을 먼저, 없으면 data/freq/ko_fill_pt_PT.csv(2026-11-09, 활용형은 「(너) 간다 · ir」, 사람 이름은 「(이름) …」).
+보충표에서 뜻이 「-」인 낱말(말뭉치 잡음·외국 이름 조각)은 화면 목록에서 뺀다 — 순위 번호는 그대로 둔다."""
 import collections
 import csv
 import glob
@@ -15,12 +16,19 @@ CAP = 2000
 FREQ = ROOT / 'assets/data/freq'
 
 ko = {r['word']: r['ko'].strip() for r in csv.DictReader(open(FREQ / 'lang_pt_top.csv', encoding='utf-8-sig'))}
+fill = {r['word']: r['ko'].strip() for r in csv.DictReader(open(ROOT / 'data/freq/ko_fill_pt_PT.csv', encoding='utf-8'))}
+for k, v in fill.items():
+    if not ko.get(k):
+        ko[k] = v
+hide = {k for k, v in ko.items() if v == '-'}
 rows = list(csv.DictReader(open(ROOT / 'data/cliff/pt_PT_top5000_lemma.csv', encoding='utf-8-sig')))
 top = rows[:CAP]
 with open(FREQ / 'cliff_pt_PT.csv', 'w', encoding='utf-8', newline='') as f:
     w = csv.writer(f, lineterminator='\n')
     w.writerow(['rank', 'word', 'cum_pct', 'region', 'ko'])
     for r in top:
+        if r['lemma'] in hide:
+            continue
         w.writerow([r['rank'], r['lemma'], r['cum_pct'], r['level'], ko.get(r['lemma'], '')])
 
 inside = {r['lemma'] for r in top}
@@ -29,9 +37,9 @@ for p in glob.glob(str(ROOT / 'assets/data/dialogues/*.json')):
     for ep in json.load(open(p, encoding='utf-8')).get('episodes', []):
         for t in ep.get('turns', []):
             for l in t.get('lemmas', []):
-                if l[1] not in inside and ko.get(l[1]):
+                if l[1] not in inside and ko.get(l[1]) and l[1] not in hide:
                     n[l[1]] += 1
 words = [{'word': b, 'ko': ko[b], 'n': c} for b, c in n.most_common()]
 json.dump({'_meta': '회화 레마 중 절벽 단어표(2,000위) 밖이면서 단어표에 있는 것 · tools/build_cliff_words.py', 'words': words},
           open(FREQ / 'conv_words_pt.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
-print(len(top), 'with ko', sum(1 for r in top if ko.get(r['lemma'])), 'conv', len(words))
+print(len(top), 'hidden', sum(1 for r in top if r['lemma'] in hide), 'no ko', sum(1 for r in top if not ko.get(r['lemma'])), 'conv', len(words))

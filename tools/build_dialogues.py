@@ -29,6 +29,7 @@ def words(s):
 
 
 errs = []
+bundle = {'male': [], 'female': []}  # 앱이 읽는 묶음(assets/data/pt-PT/dialogues/<성별>.json — pubspec 에는 이 두 파일만)
 review = ['# 포르투갈어 회화 초안(유럽판, Claude 초안)\n']
 for src in sys.argv[1:]:
     for ep in json.load(open(src, encoding='utf-8')):
@@ -65,6 +66,7 @@ for src in sys.argv[1:]:
             p = ROOT / f"assets/data/pt-PT/dialogues/{g}/{reg}/{ep['island']}/{i}.json"
             p.parent.mkdir(parents=True, exist_ok=True)
             json.dump(out, open(p, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+            bundle[g].append(out)
             if g == 'female':
                 continue
             review.append(f"\n## {reg} · {out['title']} {out['emoji']} (`{i}`, 반전 {ep['twist']}턴 {ep['twist_type']})\n\n{out['scene']}\n")
@@ -72,6 +74,12 @@ for src in sys.argv[1:]:
                 sp = ep['speakers'][t['speaker']]
                 diff = '' if '|' not in ep['turns'][t['num'] - 1]['tl'] else f"  \n여성판: {pick(ep['turns'][t['num'] - 1]['tl'], 'female')}"
                 review.append(f"**{t['num']}. {sp}** {t['tl']}  \n{t['rd']}  \n{t['ko']}{diff}\n")
+ALL = {x.resolve() for x in (ROOT / 'data/dialogues_src/pt-PT').glob('*.json')}
+if {Path(x).resolve() for x in sys.argv[1:]} == ALL:  # 일부 원본만 넘기면 묶음을 덮어쓰지 않는다(모든 원본을 한 번에 넘길 것)
+    order = {f'R{n}': n for n in range(6)}
+    for g, eps in bundle.items():
+        eps.sort(key=lambda e: (order.get(e['region'], 9), e['id']))
+        json.dump(eps, open(ROOT / f'assets/data/pt-PT/dialogues/{g}.json', 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
 Path(ROOT / 'data/review/write/dialogues_pt_review.md').write_text('\n'.join(review), encoding='utf-8')
 print('\n'.join(errs) or '검사 통과')
 sys.exit(1 if errs else 0)
