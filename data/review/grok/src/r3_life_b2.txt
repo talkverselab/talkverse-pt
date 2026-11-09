@@ -1,0 +1,25 @@
+=== r3_life_b2
+level: R3
+kind: long
+title: 다 「네」라고 했을 뿐인데
+emoji: ☕
+scene: 처음 들어간 동네 카페. 바리스타 Tiago 가 존칭으로 이것저것 권하는데, 말이 빨라 무조건 「네」만 한다.
+cast: B: Tiago
+register: polite
+twist: 13 chaos
+goal: 카페 주문 존칭(o senhor/a senhora + 3인칭 단수), 복수 nós·eles 어미, 「se faz favor」「pode ser」「quanto é que eu pago?」
+expressions: se faz favor; pode ser; claro; quer dizer; pronto; pois
+B | Bom dia! {O senhor|A senhora} quer sentar-se lá fora ou aqui dentro? | 안녕하세요! 밖에 앉으시겠어요, 안에 앉으시겠어요? | o senhor / a senhora + quer = 손님께서 원하세요(존칭은 3인칭 단수 동사) | emotion=polite | tags=form:o-senhor
+A | Aqui dentro, obrigad{o|a}. Quero um café, se faz favor. | 안이요, 고마워요. 커피 한 잔 주세요. | se faz favor = (부탁할 때) 주세요 · quero = 원해요(quer ↔ quero) | emotion=stiff | tags=expr:se faz favor
+B | Claro. Quer uma água com o café? Fresca ou natural? | 그럼요. 커피랑 물도 드릴까요? 시원한 거요, 상온이요? | fresca = 차가운 · natural = 상온(냉장 안 한) | emotion=polite | tags=expr:claro
+A | Sim, pode ser. | 네, 그렇게 주세요. | pode ser = 그걸로 할게요(둘 중 고르라는데 「네」) | emotion=stiff | tags=expr:pode ser
+B | E um doce? Hoje temos pastéis de nata acabados de fazer. | 디저트도요? 오늘 에그타르트 방금 구운 게 있어요. | temos = 우리가 가지고 있다(nós 어미 -mos) · pastel de nata = 에그타르트(상한 밖 낱말) | emotion=cheerful | tags=form:nos
+A | Pode ser, sim. | 네, 좋아요. | 말이 빨라서 일단 「네」 | emotion=flustered | tags=expr:pode ser
+B | Um ou dois? As pessoas daqui comem sempre dois. | 하나요, 두 개요? 이 동네 사람들은 늘 두 개씩 먹어요. | comem = 그들이 먹는다(eles 어미 -em) | emotion=teasing | tags=form:eles
+A | Sim, sim… como dois, claro. | 네, 네… 두 개 먹죠, 그럼요. | como = 내가 먹는다(comem ↔ como) · sim, sim = 네네(대충 넘길 때) | emotion=flustered | tags=expr:claro,form:comer
+B | Muito bem! E torradas? Nós fazemos com pão da casa, os clientes adoram. | 좋습니다! 토스트도요? 저희가 직접 만든 빵으로 해요, 손님들이 아주 좋아하세요. | fazemos = 우리가 만든다(nós) · adoram = 그들이 아주 좋아한다(eles) | emotion=excited | tags=form:nos,form:eles
+A | Sim… quer dizer… pode ser? | 네… 그러니까… 그러셔도 되는데요? | quer dizer = 그러니까, 아니 내 말은 | emotion=flustered | tags=expr:quer dizer
+B | Pronto! E leva também uma caixa de seis pastéis para casa? Estão quentinhos. | 됐다! 그리고 집에 가져가실 에그타르트 여섯 개 한 상자도요? 따끈따끈해요. | leva = 가져가시다(존칭 3인칭) · quentinho = 따끈한 | emotion=cheerful | tags=expr:pronto,form:o-senhor
+A | Sim, claro… Quanto é que eu pago, se faz favor? | 네, 그럼요… 얼마 내면 돼요? | quanto é que eu pago? = 얼마 내면 돼요? | emotion=flustered | tags=expr:se faz favor
+B | Então: um café, uma água, oito pastéis e torradas. // São dezassete euros e meio. Paga com cartão? | 그럼 커피 하나, 물 하나, 에그타르트 여덟 개, 토스트요. 17유로 50센트입니다. 카드로 하시겠어요? | são … euros = ~유로입니다(복수 são) · paga = 계산하시다(pago ↔ paga) | emotion=polite+teasing | tags=twist,form:eles
+A | Dezassete?! Pois… acho que hoje aprendi a dizer «não». | 17유로요?! 그게… 저 오늘 「아니요」 하는 법 배운 것 같아요. | aprender a + 동사원형 = ~하는 법을 배우다 | emotion=tsukkomi | tags=expr:pois

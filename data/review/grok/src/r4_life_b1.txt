@@ -1,0 +1,27 @@
+=== r4_life_b1
+level: R4
+kind: long
+title: 번호 없인 집 없고 집 없인 번호 없고
+emoji: 🏢
+scene: 관공서 창구. 집을 구하려면 세금 번호가, 세금 번호를 받으려면 주소가 필요하다.
+cast: B: Dona Fernanda
+register: polite
+twist: 13 reveal
+goal: 관공서 존칭(3인칭), 「com certeza」「olhe」「espere lá」「não me diga」, 상대 성별에 맞춘 coitado/coitada
+expressions: com certeza; olhe; coitado; espere lá; pois; se calhar
+B | Senha 147? Faça favor, sente-se. Em que posso ajudar? | 147번 번호표요? 앉으세요. 뭘 도와드릴까요? | senha = 번호표 | emotion=polite | tags=expr:faça favor | say=Senha cento e quarenta e sete? Faça favor, sente-se. Em que posso ajudar?
+A | Bom dia. Preciso de um número de contribuinte para alugar um apartamento. | 안녕하세요. 아파트를 빌리려고 납세자 번호가 필요해요. | precisar de = ~이 필요하다 | emotion=stiff | tags=form:precisar de
+B | Com certeza. Tem aí um comprovativo de morada? | 그럼요. 주소 증명서 가져오셨어요? | comprovativo de morada = 주소 증명서 | emotion=polite | tags=expr:com certeza
+A | Não tenho, porque o senhorio só faz o contrato depois de eu ter o número. | 없어요. 집주인이 제가 번호를 받아야만 계약서를 써 준대요. | depois de eu ter = 내가 가진 뒤에(인칭 부정사) | emotion=worried | tags=form:infinitivo-pessoal
+B | Pois, mas sem morada não lhe posso dar o número. | 네, 그런데 주소 없이는 번호를 드릴 수가 없어요. | lhe = 당신께(존칭) | emotion=polite | tags=expr:pois,form:lhe
+A | E sem número não tenho morada. Então como é que se faz? | 번호가 없으면 주소도 없는데요. 그럼 어떻게 해요? | como é que se faz? = 어떻게 하죠? | emotion=flustered | tags=expr:como é que
+B | Olhe, é um clássico. Há quem ande nisto há três meses. | 저기요, 흔한 일이에요. 석 달째 이러는 분도 계세요. | olhe = 저기요, 있잖아요(존칭) | emotion=amused | tags=expr:olhe
+A | Três meses?! Ando a dormir no sofá de um colega há duas semanas! | 석 달이요?! 저 2주째 동료 집 소파에서 자고 있어요! | andar a + 동사원형 = 요즘 계속 ~하다 | emotion=shout | tags=form:andar-a
+B | Coitad{o|a}. E não conhece ninguém que lhe empreste uma morada? | 어쩌나. 주소 빌려줄 사람 아무도 없어요? | coitado/coitada = 불쌍해라, 어쩌나 | emotion=gentle | tags=expr:coitado,form:conjuntivo
+A | Não conheço ninguém. Durmo no sofá de um colega. // Vou passar a vida naquele sofá? | 아는 사람이 없어요. 동료 집 소파에서 자요. 평생 그 소파에서 살아야 하나요? | conheço = 내가 안다(conhece ↔ conheço) · durmo = 내가 잔다(dormir) · passar a vida = 평생을 보내다 | emotion=annoyed+sad | tags=form:dormir
+B | Espere lá. Deixe-me ver o seu passaporte… há aqui uma coisa estranha. | 잠깐만요. 여권 좀 볼게요… 여기 좀 이상한 게 있네요. | espere lá = 잠깐만요 · deixe-me ver = 좀 볼게요(존칭 명령) | emotion=surprised | tags=expr:espere lá,form:clitic
+A | Estranha? Não me diga que agora preciso de mais um papel. | 이상한 거요? 이제 서류가 하나 더 필요하다는 말은 하지 마세요. | não me diga = 설마요, 말도 마세요(접속법 덩어리) | emotion=worried | tags=expr:não me diga,form:conjuntivo
+B | Pelo contrário, não precisa de nada. // {O senhor|A senhora} já tem número desde o ano passado. Pediu-o a sua universidade. | 그 반대예요, 아무것도 필요 없어요. 손님은 작년부터 이미 번호가 있어요. 다니시는 대학교에서 신청했네요. | pelo contrário = 그 반대로 · precisa = 필요하시다(preciso ↔ precisa) · pediu-o = 그것을 신청했다 | emotion=surprised+amused | tags=twist,form:o-senhor
+A | Desde o ano passado?! E ninguém me disse nada? | 작년부터요?! 근데 아무도 말을 안 해 줬다고요? | me disse = 나에게 말했다 | emotion=shout | tags=form:perfeito
+B | Se calhar disseram. Mandaram-lhe uma carta, em português. Coitad{o|a}. | 아마 말했겠죠. 편지를 보냈네요, 포르투갈어로요. 어쩌나. | se calhar = 아마 · mandaram-lhe = 당신께 보냈다 | emotion=teasing | tags=expr:se calhar,expr:coitado
+A | Acho que acabei de arranjar casa. // E de perder duas semanas. | 저 방금 집 구한 것 같네요. 그리고 2주를 날린 것 같고요. | acabar de + 동사원형 = 방금 ~했다 | emotion=amused+tsukkomi | tags=form:acabar-de

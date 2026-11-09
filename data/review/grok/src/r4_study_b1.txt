@@ -1,0 +1,25 @@
+=== r4_study_b1
+level: R4
+kind: long
+title: 누구의 시험인가
+emoji: 📚
+scene: 시험 전날 밤, 룸메이트 Duarte 가 저녁 당번 일주일을 걸고 과외를 부탁한다. 책은 아직 펴지도 않았다.
+cast: B: Duarte
+register: casual
+twist: 10 reveal
+goal: 미래 접속법(se me ajudares·se perceberes), como se + 접속법 과거, 인칭 부정사(até acabarmos·para tu ficares), 조건법(teria de)
+expressions: pois; pronto; vá lá; está bem
+B | {name}, tens um minuto? Se me ajudares esta noite, faço o jantar a semana toda. | {name}, 잠깐 시간 돼? 오늘 밤 도와주면 일주일 내내 저녁은 내가 할게. | se me ajudares = 나를 도와주면(미래 접속법) | emotion=cheerful | tags=form:futuro-conjuntivo
+A | Ajudar em quê? Não me digas que é o exame de amanhã. | 뭘 도와? 설마 내일 시험이라고 하진 마. | não me digas = 설마(부정 명령 = 접속법) · exame = 시험(상한 밖 낱말) | emotion=teasing | tags=form:conjuntivo
+B | É. E ainda não abri o livro. Passei a tarde a ver o jogo. | 맞아. 그리고 책은 아직 안 폈어. 오후 내내 경기 봤거든. | passar a tarde a + 원형 = 오후 내내 ~하다 | emotion=flustered | tags=form:estar-a
+A | A tarde toda? Duarte, o exame é amanhã de manhã! | 오후 내내? 두아르트, 시험 내일 아침이야! | amanhã de manhã = 내일 아침 | emotion=tsukkomi | tags=
+B | Pois, por isso é que preciso de ti. Explicas-me tudo como se eu não soubesse nada? | 그러니까 네가 필요하지. 내가 아무것도 모르는 셈 치고 다 설명해 줄래? | como se + 접속법 과거 = 마치 ~인 것처럼 | emotion=worried | tags=expr:pois,form:conjuntivo-imperfeito
+A | Está bem. Mas nada de jogos até acabarmos. | 알았어. 대신 끝날 때까지 경기는 금지야. | até acabarmos = 우리가 끝낼 때까지(미래 접속법·인칭 부정사 꼴) | emotion=annoyed | tags=expr:está bem,form:infinitivo-pessoal
+B | Juro. Pronto, primeira pergunta: o que é que eu teria de saber para passar? | 맹세해. 자, 첫 질문: 붙으려면 뭘 알아야 할까? | teria de = ~해야 할 거다(조건법) · passar = 통과하다 | emotion=cheerful | tags=expr:pronto,form:condicional
+A | Tudo. Mas se perceberes esta parte do livro, já é meio caminho. | 전부. 근데 책 이 부분만 이해하면 반은 된 거야. | se perceberes = 이해하면(미래 접속법) · meio caminho = 절반 | emotion=neutral | tags=form:futuro-conjuntivo
+A | Vá lá, já vamos a meio. Agora explica-me tu, como se eu fosse o professor. | 자, 벌써 반 왔어. 이제 네가 설명해 봐, 내가 교수인 것처럼. | como se eu fosse = 내가 ~인 것처럼(접속법 과거) · vá lá = 자, 어서 | emotion=gentle | tags=expr:vá lá,form:conjuntivo-imperfeito
+B | Não é preciso. Já percebi. Agora já posso explicar tudo à Inês amanhã. | 필요 없어. 이해했어. 이제 내일 이네스한테 다 설명해 줄 수 있어. | já percebi = 이제 알겠어 | emotion=cheerful | tags=twist
+A | À Inês? Espera... o exame não é teu? | 이네스한테? 잠깐… 시험 네 거 아니야? | teu = 네 것 | emotion=surprised | tags=
+B | Meu? Eu nem estudo lá. // O exame é da Inês. Disse-lhe que a ajudava. | 내 거? 난 거기 학생도 아닌데. 시험은 이네스 거야. 도와주겠다고 했거든. | estudar = 공부하다, 다니다(상한 밖 낱말) · disse-lhe = 그녀에게 말했다 | emotion=amused+shy | tags=
+A | Então passei a noite a explicar isto para tu ficares bem com ela? | 그러니까 내가 밤새 이걸 설명한 게 너 걔한테 잘 보이라고? | para tu ficares = 네가 ~하도록(인칭 부정사) | emotion=tsukkomi | tags=form:infinitivo-pessoal
+B | E faço o jantar o mês todo. Mas não lhe digas nada, por favor. | 그럼 저녁은 한 달 내내 내가 할게. 대신 걔한텐 아무 말도 하지 마, 제발. | não lhe digas = 그녀에게 말하지 마(접속법) | emotion=shy | tags=form:conjuntivo

@@ -2,6 +2,14 @@
 
 규칙은 `CLAUDE.md`(서명 §1·Zealot §8·판 §9·회화 원칙 §10), 언어앱 공통 절차는 `~/talkverse/LANG_APP_REPLICATE_PROMPT.md`.
 
+## 11-09 밤 진행(Grok 재작성·앱 연결·단어 뜻)
+- **Grok = PC 크롬 9260**(예약 작업 `Grok-Chrome-pt-9260`, 프로필 `D:\chrome-grok-pt`, 포트 표 M4 `~/talkverse-uk/docs/GROK_CHROME_PORTS.md` 에 적음 — uk 리포라 커밋은 안 함). 터널: M4·M6 각각 `ssh -fN -L 9260:127.0.0.1:9260 pc`, 쿠키 `ssh macmini4 '/usr/bin/python3 ~/talkverse-uk/tools/grok_cookie_sync.py 9231 9260'`, 모델 전문가 확인 `grok_mode.py 9260 --check`. 처음 띄우면 쿠키 동의 창(OneTrust)이 화면을 가려 모델 단추가 안 보임 → 「모두 거부」 누르면 됨.
+- 도구 `tools/grok/`: `pt_dialogue_txt.py export|import`(원본 JSON ↔ 편별 글, 감정 바뀌는 곳은 ` // `, 숫자 읽기 `say=`), 규칙 `rewrite_grok_pt.md`(방 첫 메시지에만 첨부), `rewrite_all.sh`(10편씩 방 하나, 결과 `data/review/grok/out/`, 로그 `run.log`). 넣은 뒤 `build_dialogues.py`(모든 원본 한 번에 — 그래야 앱 묶음 `assets/data/pt-PT/dialogues/<male|female>.json` 이 갱신됨) → `make_plan.py`.
+- 앱 연결(단계 A, 6cdd9d7): 회화 메뉴에 레벨 0~5(32편) + 옛 「이야기」 5편. 학습자 성별로 묶음 파일을 고르고 성별을 바꾸면 다시 읽음. 음성은 `ContentSync.audioIndex`(색인만, 미리 받기 없음) + `DialogueAudio` — **음성 글이 지금 대사와 같을 때만** 재생, 아니면 TTS. DB 시드(문장 카드·말하기)는 아직 옛 L1 만(전략 문서 단계 A 의 SeedLoader 항목은 남음).
+- 절벽 단어 뜻: `data/freq/ko_fill_pt_PT.csv` 로 373어 채움(활용형 「(너) 간다 · ir」, 이름 「(이름) …」), 뜻이 「-」인 81어(말뭉치 잡음·외국 이름 조각)는 목록에서 숨김 — 순위 번호는 그대로.
+- **11-10 00:20 멈춤(사용자 지시 "uk 세션 외 모든 세션 지금 작업만 마무리하고 작업 끄고 탭 닫고 대기")**: Grok 재작성 15/32 받음(`data/review/grok/out/`, 아직 원본에 안 넣음·리뷰 전). 3분 넘겨 중지된 편 r1_love_c1·r2_friends_c2 와 나머지 17편은 `zsh tools/grok/rewrite_all.sh` 다시 돌리면 이어서 함(있는 편은 건너뜀). 9260 의 Grok 탭은 닫음(크롬·PC 예약 작업은 둠).
+- **Grok 답 3분 한도(사용자 지시 11-10 "그록 3분만, 넘어가면 대화방 중지")**: `grok_text.py` 기본 `--wait 180`, 넘으면 중지 단추(없으면 Esc) 누르고 저장 없이 rc=4.
+
 ## ▶ 다음 세션이 바로 할 일(2026-11-08 세션 종료 시점)
 1. **Grok 완전 재작성**(11-09 재개 — **한자 세션 대행 중단**: 자기 크롬을 M4 에서 켜고 `ssh macmini4` 로 `/usr/bin/python3 ~/talkverse-uk/tools/grok_cookie_sync.py 9231 <자기 포트>` 로 쿠키 동기화, 도구는 M6 `~/Hanja/tools/grok_req.py`·`grok_cdp.py` 를 복사해 씀, uk 의 방·9231 탭은 건드리지 않음 — `~/logs/rc/RELAY_grok_20261109.md`, 요청문 작성법 `~/talkverse/GROK_PROMPT_GUIDE.md`): 회화 32편(`data/dialogues_src/pt-PT/*.json`)을 편마다 새 방에서 「모든 줄 새로」 → 리뷰 → `build_dialogues.py`(원본 전부 한 번에) → `make_plan.py` → REVIEW_pt 갱신 요청.
    - **Grok 은 PC 크롬에서(사용자 지시 11-09 "집필 시작 안 한 세션은 PC 에서 시작") — 전체 절차 `~/talkverse/PC_GROK_GUIDE.md`(PC 크롬은 작업 스케줄러 사용자 john, 첨부는 PC 경로)**: `~/talkverse-uk/docs/GROK_CHROME_PORTS.md` 표에 빈 포트(예: 9248)를 먼저 적고, PC 에 프로필 `D:\chrome-grok-pt` 로 예약 작업 크롬을 띄운 뒤(헝가리어 `Grok-Chrome-hu-9247` 참고) M4·M6 에서 `ssh -fN -L <포트>:127.0.0.1:<포트> pc` 터널, 쿠키는 M4 에서 `grok_cookie_sync.py 9231 <포트>`.

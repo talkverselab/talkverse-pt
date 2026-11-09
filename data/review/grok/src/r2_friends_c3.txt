@@ -1,0 +1,23 @@
+=== r2_friends_c3
+level: R2
+kind: chat
+title: 내 케이크 어디 갔어
+emoji: 🎂
+scene: 밤늦게 룸메이트 Duarte 와 채팅. 집에 두고 나간 초콜릿 케이크가 사라졌다.
+cast: B: Duarte
+register: chat
+twist: 10 chaos
+goal: 채팅 말투, 완료과거 viste·comeste·pensei·mandou, 반과거 estava·era
+expressions: pois; um bocado; epá; quer dizer; olha; pronto
+A | Duarte, viste o meu bolo? Estava aqui em casa. | Duarte, 내 케이크 봤어? 집에 있었는데. | bolo = 케이크(상한 밖) / viste = 봤어(ver 완료과거) | emotion=worried | tags=form:perfeito,form:imperfeito,new:bolo
+B | Que bolo? Estou a ver o jogo. | 무슨 케이크? 나 경기 보는 중. | estou a ver = 보고 있다(estar a + 원형) | emotion=stiff | tags=
+A | O de chocolate. Estava na cozinha, numa caixa branca. | 초콜릿 케이크. 부엌에 하얀 상자에 있었어. | o de chocolate = 초콜릿 거 · caixa = 상자 | emotion=annoyed | tags=form:imperfeito
+B | Ah, esse. Pois, era muito bom. | 아, 그거. 그래, 맛있었지. | era = ~였다(ser 반과거) | emotion=teasing | tags=expr:pois,form:imperfeito
+A | ERA?! Duarte, comeste o meu bolo? | 맛있었지?! Duarte, 너 내 케이크 먹었어? | comeste = 네가 먹었다(comer 완료과거) | emotion=shout | tags=form:perfeito
+B | Só um bocado. // Epá, que jogo! | 조금만. 와, 경기 미쳤다! | um bocado = 조금 / epá = 와, 이야 | emotion=flustered+excited | tags=expr:um bocado,expr:epá
+A | Não quero saber do jogo. Um bocado quanto? | 경기 알 바 아니고. 조금이 얼마만큼인데? | não quero saber de = ~ 알 바 아니다 | emotion=annoyed | tags=
+B | Um bocado grande. Quer dizer... metade. | 큰 조금. 그러니까… 반. | quer dizer = 그러니까, 다시 말해 · metade = 반 | emotion=flustered | tags=expr:quer dizer
+A | Metade?! Olha que esse bolo era para os anos da Inês! | 반?! 그 케이크 Inês 생일 거였다고! | olha que = 알아둬(강조) · os anos = 생일 | emotion=shout | tags=expr:olha
+B | Da Inês? // Epá... pensei que era o bolo que a minha mãe me mandou. | Inês 거? 이런… 우리 엄마가 보내 준 케이크인 줄 알았어. | pensei que = ~인 줄 알았다 · me mandou = 나한테 보냈다(접어 앞) | emotion=surprised+flustered | tags=twist,expr:epá,form:perfeito
+A | O da tua mãe está no teu quarto desde sábado, pá. Não viste? | 너희 엄마 케이크는 토요일부터 네 방에 있잖아. 못 봤어? | o da tua mãe = 너희 엄마 거 · não viste? = 못 봤어? | emotion=tsukkomi | tags=form:perfeito
+B | Pronto. Amanhã a Inês come o da minha mãe. Ela nem vai saber. | 됐어. 내일 Inês 는 우리 엄마 케이크 먹으면 돼. 걔는 모를 거야. | come = (그녀가) 먹는다(como·comes·come) · nem vai saber = 알지도 못할 거야 | emotion=teasing | tags=expr:pronto

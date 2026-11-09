@@ -1,0 +1,25 @@
+=== r3_travel_b1
+level: R3
+kind: long
+title: 32번 창가 자리
+emoji: 🚆
+scene: 리스본발 기차. 창가 32번 자리에 앉아 있는데, 같은 표를 든 Inês 가 다가온다.
+cast: B: Inês, C: Dona Fernanda
+register: mixed
+twist: 13 reveal
+goal: 낯선 사이 존칭 → 반말 전환(pode tratar-me por tu), 복수 os senhores·vamos·eles, 「a sério?」「fixe」「pronto」「afinal」
+expressions: a sério?; fixe; pronto; afinal; desculpe; desculpa
+B | Desculpe, {o senhor|a senhora} está no meu lugar. É o 32, à janela. | 실례지만 제 자리에 앉아 계세요. 32번 창가요. | desculpe = 실례합니다(존칭), à janela = 창가 | emotion=polite | tags=form:o-senhor | say=Desculpe, {o senhor|a senhora} está no meu lugar. É o trinta e dois, à janela.
+A | A sério? O meu também é o 32, à janela. | 정말요? 제 것도 32번 창가인데요. | a sério? = 정말? | emotion=surprised | tags=expr:a sério? | say=A sério? O meu também é o trinta e dois, à janela.
+B | Que estranho. Este é o comboio das dez para o Porto, não é? | 이상하네요. 이거 10시 포르투행 기차 맞죠? | comboio = 기차(유럽판, 상한 밖 낱말) | emotion=worried | tags=form:comboio
+A | É, sim. Eu vou para o Porto. A senhora também? | 네, 맞아요. 저 포르투 가요. 손님도요? | a senhora = (여성에게) 당신(존칭) | emotion=polite | tags=form:o-senhor
+B | A senhora?! // Tenho 22 anos. Pode tratar-me por tu. | 손님?! 저 스물두 살이에요. 그냥 편하게 말해요. | tratar por tu = 반말로 부르다 | emotion=tsukkomi+teasing | tags=form:tratar-por-tu | say=A senhora?! // Tenho vinte e dois anos. Pode tratar-me por tu.
+A | Desculpa! Então… tu também vais para o Porto? | 미안! 그럼… 너도 포르투 가? | desculpa = 미안(반말), desculpe 와 짝 | emotion=flustered | tags=form:tu
+B | Vou ver os meus pais. Eles vivem lá. | 부모님 보러 가. 거기 사시거든. | vivem = 그들이 산다(eles 어미 -em) | emotion=cheerful | tags=form:eles
+A | Então eu fico deste lado e tu ficas à janela. | 그럼 내가 이쪽에 앉을게, 넌 창가에 앉아. | deste lado = 이쪽에(de + este) | emotion=gentle | tags=form:tu
+B | Fico à janela… mas tu podes ver o mar comigo. | 창가엔 내가 앉을게… 근데 바다는 나랑 같이 봐도 돼. | comigo = 나와 함께 | emotion=shy | tags=heart
+A | Fixe. Nós temos três horas de viagem, não é? | 좋아. 우리 세 시간 가는 거 맞지? | fixe = 좋다, 멋지다 / temos = 우리가 가지다(nós) | emotion=cheerful | tags=expr:fixe,form:nos
+C | Bom dia. Os senhores vão para onde? | 안녕하세요. 두 분 어디까지 가세요? | os senhores vão = 손님들 가세요(존칭 복수 = 3인칭 복수) | emotion=polite | tags=form:os-senhores
+A | Vamos os dois para o Porto. | 둘 다 포르투 가요. | vamos os dois = 우리 둘 다 간다 | emotion=cheerful | tags=form:nos
+C | Para o Porto? // Este vai para Faro. O do Porto partiu há cinco minutos. | 포르투요? 이건 파루행이에요. 포르투행은 5분 전에 떠났어요. | há cinco minutos = 5분 전에 | emotion=surprised+polite | tags=twist
+B | Pronto… Afinal vamos ver o mar juntos. // Só que no Algarve. | 뭐… 결국 바다는 같이 보네. 알가르브 바다긴 하지만. | afinal = 결국 / pronto = 뭐, 됐어 | emotion=amused+gentle | tags=expr:pronto,expr:afinal

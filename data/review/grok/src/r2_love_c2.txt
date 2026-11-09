@@ -1,0 +1,23 @@
+=== r2_love_c2
+level: R2
+kind: chat
+title: 잘못 보낸 음성 메시지
+emoji: 🌊
+scene: 바다가 거친 밤, Beatriz 가 먼저 {name} 에게 메시지를 보낸다. 내일 서핑은 취소.
+cast: B: Beatriz
+register: chat
+twist: 7 slip
+goal: 채팅 말투, 부가의문 pois não?, 완료과거 ouviste·ouvi
+expressions: que chatice; sei lá; se calhar; pois não?; então
+B | Estás acordad{o|a}? | 깨어 있어? | acordado/a = 깨어 있는 | emotion=gentle | tags=
+A | Estou. Não consigo dormir. | 응. 잠이 안 와. | não consigo = ~할 수가 없다(conseguir) | emotion=neutral | tags=
+B | Amanhã não dá para ir ao mar. Está muito mau. | 내일 바다 못 가. 너무 험해. | não dá para = ~할 수가 없다 | emotion=sad | tags=
+A | Que chatice. Então o que fazes amanhã? | 아 짜증 나겠다. 그럼 내일 뭐 해? | que chatice = 아 짜증 나, 아쉽다 | emotion=gentle | tags=expr:que chatice,expr:então
+B | Sei lá. Se calhar fico em casa a ver filmes sozinha. | 몰라. 어쩌면 집에서 혼자 영화나 볼래. | sei lá = 몰라 / se calhar = 어쩌면 | emotion=sad | tags=expr:sei lá,expr:se calhar
+B | Espera, vou mandar uma mensagem de voz à Inês. | 잠깐, Inês 한테 음성 메시지 하나 보낼게. | mensagem de voz = 음성 메시지(mensagem 상한 밖) | emotion=cheerful | tags=new:mensagem
+B | Inês, acho que gosto d{ele|ela}... // e el{e|a} não percebe nada! 🎤 | Inês, 나 걔 좋아하는 것 같아… 근데 걔는 하나도 몰라! 🎤 | percebe = 알아차리다(perceber) | emotion=shy+annoyed | tags=twist,ui:voice | say=Inês, acho que gosto d{ele|ela}... // e el{e|a} não percebe nada!
+A | Beatriz... acho que isso não foi para a Inês. | Beatriz… 그거 Inês 한테 간 거 아닌 것 같은데. | foi para = ~에게 갔다(ir 완료과거) | emotion=flustered | tags=form:perfeito
+B | NÃO. Esquece isso! // Não ouviste nada, pois não? | 안 돼. 잊어! 아무것도 못 들었지, 그치? | pois não? = 그렇지?(부정문 뒤 확인) | emotion=shout+flustered | tags=expr:pois não?,form:perfeito
+A | Ouvi. Duas vezes. 😏 | 들었지. 두 번. 😏 | ouvi = 들었다(ouvir 완료과거) | emotion=teasing | tags=form:perfeito | say=Ouvi. Duas vezes.
+B | ... E então? | …그래서? | e então? = 그래서? | emotion=shy | tags=expr:então
+A | Então amanhã não vês filmes sozinha. | 그럼 내일은 혼자 영화 안 보는 거지. | vês = 너는 본다(ver 현재) | emotion=gentle | tags=heart

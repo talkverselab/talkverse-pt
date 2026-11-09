@@ -1,0 +1,25 @@
+=== r5_work_b1
+level: R5
+kind: long
+title: 케이크 도둑을 찾아라
+emoji: 🎂
+scene: 사무실. 상사 Marta 가 조카 생일 케이크가 사라졌다며 학습자의 의자 위 부스러기를 노려본다.
+cast: B: Marta
+register: polite
+twist: 11 reveal
+goal: 새 문법 없이 657~2,000위 어휘(escritório·sobrinho·prova·inocente·câmara·segurança·gravar·ladrão·guardar) 를 직장 대화에서 쓰기
+expressions: que chatice; coitado; a sério?; quer dizer; se calhar; afinal; pronto; de certeza
+B | {name}, tem um minuto? // Alguém comeu o bolo que eu guardei na copa. | {name} 씨, 잠깐 시간 돼요? 누가 제가 탕비실에 넣어 둔 케이크를 먹었어요. | guardar = 보관하다, 넣어 두다 | emotion=polite+annoyed | tags=vocab:guardar,vocab:escritório
+A | O bolo de anos? Que chatice. Era para quem? | 그 생일 케이크요? 어떡해요. 누구 주려던 거였어요? | bolo de anos = 생일 케이크 · que chatice = 이런, 짜증 나게 | emotion=worried | tags=expr:que chatice
+B | Para o meu sobrinho. Faz seis anos hoje e o almoço é às duas. | 우리 조카 거요. 오늘 여섯 살 되는데 점심이 두 시예요. | sobrinho = 조카 | emotion=sad | tags=vocab:sobrinho,vocab:almoço
+A | Coitado do miúdo. // Mas porque é que está a olhar para mim assim? | 애가 불쌍하네요. 근데 왜 저를 그렇게 보세요? | coitado = 불쌍해라 | emotion=gentle+flustered | tags=expr:coitado
+B | Porque há migalhas de bolo na sua cadeira, {name}. | {name} 씨 의자에 케이크 부스러기가 있으니까요. | migalha = 부스러기(상한 밖 낱말) · cadeira = 의자 | emotion=stiff | tags=vocab:cadeira
+A | Isso não é prova nenhuma! Sou inocente, juro. Eu nem como doces. | 그건 아무 증거도 안 돼요! 저 결백해요, 맹세해요. 저 단것 먹지도 않아요. | prova = 증거 · inocente = 결백한 · como = 내가 먹는다(comeu ↔ como) | emotion=shout | tags=vocab:prova,vocab:inocente
+B | A sério? Na semana passada comeu três gelados na reunião de equipa. | 정말요? 지난주 팀 회의 때 아이스크림 세 개 먹었잖아요. | gelado = 아이스크림 · reunião de equipa = 팀 회의 | emotion=tsukkomi | tags=expr:a sério,vocab:reunião,vocab:equipa
+A | Quer dizer... gelado é diferente. // A câmara de segurança grava a cozinha, não grava? | 그러니까… 아이스크림은 다르죠. 보안 카메라가 부엌 찍지 않아요? | câmara de segurança = 보안 카메라 · gravar = 녹화하다 | emotion=flustered+excited | tags=expr:quer dizer,vocab:câmara,vocab:gravar
+B | Grava, sim. Vamos ver o vídeo agora, e acabou-se a mentira. | 찍죠. 지금 영상 봐요. 거짓말은 거기서 끝이에요. | acabou-se = 끝났다 · mentira = 거짓말 | emotion=annoyed | tags=vocab:mentira,vocab:vídeo
+A | Está bem. Se calhar vai pedir-me desculpa daqui a cinco minutos. | 좋아요. 아마 5분 뒤엔 저한테 사과하시게 될걸요. | se calhar = 아마, 어쩌면 | emotion=teasing | tags=expr:se calhar
+B | Espere... esta pessoa sou eu. // Às nove tirei o bolo da copa e levei-o para o carro. | 잠깐만요… 이 사람 저네요. 아홉 시에 제가 케이크를 탕비실에서 꺼내서 차에 갖다 놨어요. | tirar = 꺼내다 · levei-o = 그것을 가져갔다 | emotion=surprised+flustered | tags=vocab:levar,twist
+A | Para o carro? Afinal o bolo está inteiro e o ladrão é a chefe. | 차에요? 알고 보니 케이크는 멀쩡하고 도둑은 팀장님이네요. | afinal = 알고 보니 · inteiro = 멀쩡한 · ladrão = 도둑 · chefe = 상사 | emotion=teasing | tags=expr:afinal,vocab:ladrão
+B | Pronto, peço desculpa. No carro estava mais fresco. // Mas então, as migalhas na sua cadeira? | 알았어요, 미안해요. 차가 더 시원했거든요. 그럼 의자에 있던 부스러기는요? | pronto = 됐어요, 알았어요 · estava = ~였다(está ↔ estava) · fresco = 시원한 | emotion=flustered+teasing | tags=expr:pronto,vocab:fresco
+A | Ah, essas... são do pão do pequeno-almoço. De certeza. | 아, 그건… 아침에 먹은 빵이에요. 확실해요. | de certeza = 확실히 | emotion=flustered | tags=expr:de certeza

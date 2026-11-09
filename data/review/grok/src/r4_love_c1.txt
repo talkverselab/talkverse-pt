@@ -1,0 +1,25 @@
+=== r4_love_c1
+level: R4
+kind: chat
+title: 그 메시지는 고양이가
+emoji: 💬
+scene: 밤 11시 40분, Inês 가 먼저 「가정법」 질문을 보낸다. 들뜬 다음 메시지는 엉뚱한 방으로 간다.
+cast: B: Inês
+register: chat
+twist: 7 slip
+goal: 접속법 과거(se eu pedisse·como se), 조건법(dirias·gostarias), 미래 접속법(se fores·como quiseres)으로 조심스러운 데이트 신청
+expressions: olha; a sério?; pronto; nem pensar; fixe
+B | Olha, uma pergunta. // Se eu te pedisse para jantar comigo amanhã, o que dirias? | 있잖아, 하나 물어볼게. 내가 내일 같이 저녁 먹자고 하면, 뭐라고 할 거야? | se eu te pedisse = 내가 너한테 청한다면(접속법 과거) · dirias = 말하겠어?(조건법) | emotion=cheerful+shy | tags=expr:olha,form:conjuntivo-imperfeito,form:condicional
+A | Diria que sim. Mas porquê «se»? Estás a perguntar a sério? | 좋다고 하겠지. 근데 왜 「만약」이야? 진짜로 묻는 거야? | diria = 말하겠지(조건법) · a sério = 진지하게 | emotion=surprised | tags=form:condicional,expr:a sério?,form:estar a
+B | Pronto, é para não ficar com vergonha caso digas que não. | 그게, 네가 싫다고 할 경우에 안 창피하려고. | caso + 접속법 = ~할 경우에 · ficar com vergonha = 창피해지다 | emotion=flustered | tags=expr:pronto,form:conjuntivo
+A | Nem pensar. Mas só vou se fores tu a escolher o sítio. | 그럴 리가. 근데 장소는 네가 고르는 조건으로만 갈래. | se fores tu = 네가 한다면(미래 접속법) | emotion=teasing | tags=expr:nem pensar,form:futuro-conjuntivo
+B | Fixe! Há um sítio perto do rio onde cantam fado. Achas que gostarias? | 좋아! 강 근처에 파두 부르는 데가 있어. 네 마음에 들 것 같아? | gostarias = 좋아하겠어?(조건법) · fado = 포르투갈 전통 노래 | emotion=excited | tags=expr:fixe,form:condicional
+A | Gostaria muito. Nunca ouvi fado ao vivo. | 엄청 좋을 것 같아. 파두를 라이브로 들어 본 적이 없거든. | ao vivo = 라이브로, 현장에서 | emotion=cheerful | tags=form:condicional
+B | ELE DISSE QUE SIM!!! // Ajuda, o que é que eu visto? Preciso que me digas já!! | 걔가 좋대!!! 도와줘, 나 뭐 입지? 지금 당장 말해 줘!! | visto = 내가 입다(vestir, 상한 밖 낱말) · preciso que + 접속법 = ~해 줘야 해 | emotion=shout+excited | tags=twist,form:conjuntivo
+B | Espera. | 잠깐. | espera = 잠깐 | emotion=flustered | tags=
+B | Isso não era para ti. Era para a Beatriz. Esquece o que viste. | 그거 너한테 보낸 거 아니야. 베아트리스한테 보낸 거야. 본 거 잊어. | esquece = 잊어(명령) | emotion=flustered | tags=
+A | Tarde demais. Já li tudo, e mais de uma vez. | 너무 늦었어. 벌써 다 읽었어, 그것도 여러 번. | tarde demais = 너무 늦었다 | emotion=amused | tags=
+B | Que vergonha... // Pronto, é verdade. Há semanas que queria que fosses tu a pedir. | 아 창피해… 그래, 맞아. 몇 주째 네가 먼저 말해 주길 바랐어. | queria que fosses tu = 네가 (해) 주길 바랐어(접속법 과거) | emotion=flustered+shy | tags=expr:pronto,form:conjuntivo-imperfeito
+A | Semanas? E eu a pensar que tu nem olhavas para mim. | 몇 주? 난 네가 날 쳐다보지도 않는 줄 알았는데. | eu a pensar que = 난 ~인 줄 알았다 | emotion=surprised | tags=form:estar a
+A | Quanto à roupa: vem como quiseres. Vais estar bonita de qualquer maneira. | 옷은 말이야, 입고 싶은 대로 와. 어떻게 와도 예쁠 거야. | como quiseres = 네가 원하는 대로(미래 접속법) | emotion=gentle | tags=heart,form:futuro-conjuntivo
+B | ...Esta também vou mostrar à Beatriz. | …이것도 베아트리스한테 보여 줄 거야. | esta = 이것(이 메시지) | emotion=shy | tags=

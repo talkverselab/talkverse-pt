@@ -1,0 +1,19 @@
+=== r1_love_c1
+level: R1
+kind: chat
+title: 잘못 보낸 고백
+emoji: 📱
+scene: 밤 10시 47분, Inês 가 먼저 메시지를 보낸다. 다정한 말이 이어지다가…
+cast: B: Inês
+register: chat
+twist: 7 slip
+goal: 채팅 맞장구 「a sério?」「então」, pensar em ti, 완료과거 disseste
+expressions: a sério?; então
+B | Olá! Estás aí? | 안녕! 있어? | Estás aí? = 거기 있어?(채팅에서 '있어?') | emotion=cheerful | tags=form:estar
+A | Estou, sim. Está tudo bem? | 응, 있어. 별일 없어? | Está tudo bem? = 다 괜찮아?(estás ↔ estou ↔ está) | emotion=neutral | tags=form:answer-verb,form:estar
+B | Nada... só quero falar contigo. | 아무것도… 그냥 너랑 얘기하고 싶어. | contigo = 너와 함께 | emotion=shy | tags=
+A | A sério? Queres? Então fala! | 진짜? 하고 싶어? 그럼 말해! | a sério? = 진짜?, queres? = 원해?(quero ↔ queres), então = 그럼 | emotion=excited | tags=expr:a sério?,expr:então,form:querer
+B | Penso em ti o dia todo. 🙈 | 하루 종일 네 생각 해. 🙈 | pensar em = ~을 생각하다 | emotion=shy | tags=form:pensar-em | say=Penso em ti o dia todo.
+A | Eu também penso em ti. Estou corad{o|a}! 😳 | 나도 네 생각 해. 얼굴 빨개졌어! 😳 | corado/corada = 얼굴이 빨개진(말하는 사람 성별에 맞춤) | emotion=shy | tags=expr:também,form:gender-adj | say=Eu também penso em ti. Estou corad{o|a}!
+B | Ah! Desculpa, isto é para o Tiago! | 앗! 미안, 이거 Tiago 한테 보낸 거야! | isto é para… = 이건 ~한테 가는 거야 | emotion=flustered | tags=twist
+B | Espera. // Disseste que também pensas em mim? | 잠깐. 너도 내 생각 한다고 했어? | disseste = 네가 말했다(dizer 완료과거) | emotion=surprised+teasing | tags=form:perfeito

@@ -1,0 +1,19 @@
+=== r1_love_a2
+level: R1
+kind: short
+title: 엄마가 오는 밤
+emoji: 💌
+scene: Inês 가 다급하게 문을 두드린다. 오늘 밤 엄마가 오는데 문제가 하나 있다.
+cast: B: Inês
+register: casual
+twist: 7 reveal
+goal: precisar de·achar que, 듣는 사람 성별에 맞춘 coitado/coitada, 「pronto」
+expressions: então; fixe; pois; coitado; pronto
+B | Preciso de ti, {name}. Agora! | 네가 필요해, {name}. 지금! | precisar de = ~이 필요하다 | emotion=worried | tags=form:precisar de
+A | O que foi? Precisas de quê? | 무슨 일이야? 뭐가 필요해? | precisas de = 너는 ~이 필요하다(preciso ↔ precisas) | emotion=worried | tags=form:precisar de
+B | A minha mãe vem cá hoje à noite. | 우리 엄마가 오늘 밤에 여기 와. | vem cá = 여기 온다(vir) | emotion=worried | tags=form:vir
+A | E então? Eu acho a tua mãe fixe. | 그래서? 난 너희 엄마 좋던데. | achar = ~라고 생각하다(acho), e então? = 그래서? | emotion=amused | tags=expr:então,expr:fixe,form:achar
+B | Pois, mas ela acha que tenho namorad{o|a}. | 응, 근데 엄마는 내가 {남자친구|여자친구}가 있는 줄 알아. | namorado/namorada = 남자친구/여자친구(상한 밖 낱말) | emotion=flustered | tags=expr:pois,form:achar que
+A | Ah, tens? Coitad{o|a}! Quem é? | 아, 있어? 불쌍한 사람! 누군데? | tens = 너는 가지고 있다(tenho ↔ tens), coitado/coitada = 불쌍해라(그 사람 성별에 맞춤) | emotion=teasing | tags=expr:coitado,form:ter
+B | És tu. // Disse o teu nome sem pensar. | 너야. 생각 없이 네 이름을 말해 버렸어. | disse = 내가 말했다(dizer 완료과거) | emotion=flustered+shy | tags=twist,form:perfeito
+A | Pronto. E achas que amanhã também posso ser? | 알았어. 그럼 내일도 내가 해도 될까? | achas que = 너는 ~라고 생각해?(acho·achas·acha), posso ser = 내가 ~이어도 돼(poder + 원형) | emotion=gentle | tags=expr:pronto,form:poder,form:achar que

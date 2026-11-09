@@ -1,0 +1,25 @@
+=== r5_travel_b1
+level: R5
+kind: long
+title: 네 번째 계획
+emoji: 🚆
+scene: 기차역. 계획을 수시로 바꾸는 Beatriz 와 포르투행 기차를 타러 뛰어왔다.
+cast: B: Beatriz
+register: casual
+twist: 11 reveal
+goal: 새 문법 없이 657~2,000위 어휘(despachar·mala·passaporte·garrafa·bilhete·hotel·ponte·plano·prometer·entrada·máquina·data·autocarro·maluco)를 여행 대화에서 쓰기
+expressions: pá; fixe; epá; a sério; está bem; vá lá; mesmo
+B | Despacha-te, {name}! O comboio para o Porto sai daqui a dez minutos. | 서둘러, {name}! 포르투 가는 기차 10분 뒤에 출발해. | despachar-se = 서두르다 | emotion=excited | tags=vocab:despachar,vocab:comboio
+A | Calma, pá. Tenho a mala, o passaporte e a garrafa de água. Tu tens os bilhetes? | 진정해. 캐리어, 여권, 물병 다 있어. 표는 네가 갖고 있지? | mala = 여행 가방 · passaporte = 여권 · garrafa = 병 · tens = (너는) 갖고 있다 | emotion=amused | tags=expr:pá,vocab:mala,vocab:passaporte,vocab:garrafa,form:ter
+B | Tenho! Comprei-os ontem no telemóvel. Olha, lugares à janela. | 있지! 어제 폰으로 샀어. 봐, 창가 자리야. | bilhete = 표 · telemóvel = 휴대폰 · tenho = (나) 갖고 있어 | emotion=cheerful | tags=vocab:bilhete,vocab:telemóvel,form:ter
+A | Fixe. E no Porto ficamos naquele hotel perto da ponte, certo? | 좋다. 그리고 포르투에선 다리 근처 그 호텔에 묵는 거지? | fixe = 좋다, 멋지다 · ponte = 다리 | emotion=cheerful | tags=expr:fixe,vocab:hotel,vocab:ponte
+B | Epá, mudei de ideias. Primeiro vamos à praia, amanhã há ondas enormes! | 아 참, 생각 바꿨어. 먼저 바다 가자, 내일 파도 엄청 커! | onda = 파도(상한 밖 낱말) · enorme = 엄청 큰 | emotion=excited | tags=expr:epá,vocab:praia,vocab:enorme
+A | Outra vez? Na semana passada disseste o mesmo e mudaste o plano três vezes. | 또? 지난주에도 똑같이 말하고 계획 세 번 바꿨잖아. | plano = 계획 · disseste = (너는) 말했다 | emotion=tsukkomi | tags=vocab:plano,form:dizer
+B | Mas desta vez é a sério. Prometo, é o último plano. | 근데 이번엔 진짜야. 약속해, 이게 마지막 계획이야. | a sério = 진짜로 · prometer = 약속하다 | emotion=teasing | tags=expr:a sério,vocab:prometer
+A | Está bem. Onde é que mostramos os bilhetes? Não vejo ninguém na entrada. | 알았어. 표는 어디서 보여 줘? 입구에 아무도 없는데. | entrada = 입구 | emotion=worried | tags=expr:está bem,vocab:entrada
+B | Na máquina ao lado da porta. Pões o telemóvel em cima e já está. | 문 옆 기계에. 폰을 위에 올려놓으면 끝이야. | máquina = 기계 · em cima = 위에 | emotion=cheerful | tags=vocab:máquina
+A | A máquina diz que não. Vês? Aparece uma data estranha... dez do doze? | 기계가 안 된대. 보여? 이상한 날짜가 떠… 12월 10일? | data = 날짜 · dez do doze = 12월 10일(날짜 읽기) · vês? = 보여?(vejo ↔ vês) | emotion=worried | tags=vocab:data,form:ver
+B | Do doze?! // Ai... comprei os bilhetes para o mês que vem. | 12월?! 아… 표를 다음 달 걸로 샀네. | o mês que vem = 다음 달 | emotion=surprised+flustered | tags=twist
+A | Então a mala, o passaporte, a garrafa... tudo para nada? | 그럼 캐리어, 여권, 물병… 다 헛수고야? | para nada = 헛되이 | emotion=sad | tags=expr:então
+B | Nada disso! Há um autocarro para a praia às onze. // Vá lá, novo plano! | 무슨 소리! 11시에 바다 가는 버스 있어. 자, 새 계획이야! | autocarro = 버스 · vá lá = 자, 어서 | emotion=excited+cheerful | tags=expr:vá lá,vocab:autocarro
+A | Quarto plano em dez minutos. És mesmo maluca, sabes? | 10분 만에 네 번째 계획이네. 너 진짜 미쳤어, 알지? | maluco/a = 미친, 정신없는 · mesmo = 진짜 | emotion=amused | tags=expr:mesmo,vocab:maluco

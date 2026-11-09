@@ -1,0 +1,19 @@
+=== r1_life_a2
+level: R1
+kind: short
+title: 세상이 끝난 날
+emoji: ⚽
+scene: 거실 불이 꺼진 채 Duarte 가 소파에 웅크리고 있다. 무슨 일이 생긴 걸까.
+cast: B: Duarte
+register: casual
+twist: 8 reveal
+goal: 완료과거 morreu·perdeu, 접어 deixa-me, 달래는 말 「pronto, pronto」
+expressions: pá; pronto
+A | Duarte? Estás bem? O que se passa? | Duarte? 괜찮아? 무슨 일이야? | estás bem? = 너 괜찮아?(estar) | emotion=worried | tags=form:estar
+B | Não estou. Deixa-me, pá. | 안 괜찮아. 내버려 둬. | não estou = 안 괜찮아(동사로 답한다), deixa-me = 날 내버려 둬(접어는 동사 뒤) | emotion=sad | tags=form:answer-verb,form:clitic,expr:pá
+A | Morreu alguém? Fala comigo. | 누가 죽었어? 말 좀 해 봐. | morreu = 죽었다(morrer 완료과거) | emotion=worried | tags=form:perfeito
+B | Morri eu. O meu clube perdeu hoje. | 내가 죽었어. 우리 팀이 오늘 졌어. | morri = 내가 죽었다(morreu ↔ morri), clube = 클럽, 팀(상한 밖 낱말), perdeu = 졌다 | emotion=sad | tags=form:perfeito
+A | Ah... é só isso? Pronto, pronto. Está tudo bem. | 아… 그게 다야? 자, 자. 다 괜찮아. | pronto, pronto = 자자, 됐어(달랠 때), está tudo bem = 다 괜찮다 | emotion=amused | tags=expr:pronto,form:estar
+B | Só isso?! Estou a falar da minha vida, pá! | 그게 다라니?! 내 인생 얘기라고! | estar a falar de = ~에 대해 말하고 있다, a minha vida = 내 인생 | emotion=shout | tags=expr:pá,form:estar-a
+A | Desculpa. Anda cá, eu fico contigo. | 미안. 이리 와, 내가 옆에 있을게. | fico contigo = 너랑 같이 있을게(ficar) | emotion=gentle | tags=form:ficar
+B | Obrigado... // Espera. Estás animad{o|a}? Tu és do outro clube! | 고마워… 잠깐. 왜 신났어? 너 상대 팀 편이잖아! | animado/animada = 신난(듣는 사람 성별에 맞춤), ser de = ~ 편이다(de + o = do) | emotion=gentle+tsukkomi | tags=twist,form:contraction,form:gender-adj

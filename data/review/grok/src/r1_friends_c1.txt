@@ -1,0 +1,19 @@
+=== r1_friends_c1
+level: R1
+kind: chat
+title: 계획은 계속 바뀐다
+emoji: 🏄
+scene: 아침 8시, 아직 침대에 있는데 Beatriz 의 메시지가 쏟아진다.
+cast: B: Beatriz
+register: chat
+twist: 7 chaos
+goal: vir·querer·saber 현재 tu/eu 활용, 시간 말 à tarde·à noite, 「fixe」「tá bem」
+expressions: fixe; tá bem; então
+B | Bom dia! Estás acordad{o|a}? Hoje vens comigo à praia! | 좋은 아침! 깼어? 오늘 나랑 바다 가는 거야! | acordado/acordada = 깨어 있는(듣는 사람 성별에 맞춤), vens = 너 와(vir), praia = 해변(상한 밖 낱말) | emotion=excited | tags=form:vir,form:gender-adj
+A | Quero! Fixe! A que horas? | 갈래! 좋아! 몇 시에? | quero = 원해(querer, 초대에 '응!'), fixe = 좋아, 멋져 | emotion=cheerful | tags=expr:fixe,form:querer
+B | Agora! // Não, espera... à tarde. | 지금! 아니, 잠깐… 오후에. | à tarde = 오후에 | emotion=excited+flustered | tags=
+A | Tá bem. Então à tarde. | 알았어. 그럼 오후에. | tá bem = 알았어(está bem 의 구어) | emotion=neutral | tags=expr:tá bem,expr:então
+B | Ou amanhã! Não... hoje à noite! | 아니면 내일! 아냐… 오늘 밤! | à noite = 밤에 | emotion=excited | tags=
+A | Beatriz... estás bem? Sabes o que queres? | Beatriz… 너 괜찮아? 뭘 원하는지 알긴 해? | sabes = 너는 안다(sei ↔ sabes), queres = 네가 원한다(quero ↔ queres) | emotion=tsukkomi | tags=form:querer,form:estar
+B | Sei! E já estou na tua casa. 😎 | 알지! 그리고 나 벌써 너희 집이야. 😎 | na tua casa = 너희 집에(em + a) | emotion=teasing | tags=twist,form:contraction | say=Sei! E já estou na tua casa.
+B | O Duarte está comigo. Ele também vem! | Duarte 도 나랑 있어. 걔도 간대! | está = 그가 있다(estou·estás·está), vem = 그가 온다(vens ↔ vem) | emotion=amused | tags=form:estar,form:vir

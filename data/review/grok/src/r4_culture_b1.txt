@@ -1,0 +1,25 @@
+=== r4_culture_b1
+level: R4
+kind: long
+title: 사라진 두아르트, 아주머니와 춤을
+emoji: 🎉
+scene: 6월 성 안토니오 축제의 밤, 골목은 사람으로 꽉 찼다. Beatriz 는 계획을 또 바꾸고, Duarte 는 연락이 끊겼다.
+cast: B: Beatriz, C: Duarte
+register: casual
+twist: 10 chaos
+goal: antes que·quero que + 접속법, 추측의 미래(estará·terá ido), 3인칭 접속법 명령(ele que se desenrasque), 미래 접속법(se aparecer)
+expressions: não faço ideia; se calhar; olha; pois; desenrascar; nem pensar; quer dizer; giro
+B | Anda, depressa! Quero chegar antes que a festa comece a sério! | 가자, 빨리! 축제 제대로 시작하기 전에 도착하고 싶어! | antes que + 접속법 = ~하기 전에 | emotion=excited | tags=form:conjuntivo
+A | Calma, Beatriz. Há gente por todo o lado. Onde é que está o Duarte? | 진정해, 베아트리스. 사방이 사람이야. 두아르트는 어디 있어? | por todo o lado = 사방에 | emotion=worried | tags=
+B | Não faço ideia. Disse que estaria perto da igreja, e há uma hora que não diz nada. | 몰라. 성당 근처에 있겠다더니 한 시간째 아무 말이 없어. | estaria = 있을 거라고(과거에서 본 미래, 조건법) · não faço ideia = 전혀 모르겠다 | emotion=annoyed | tags=expr:não faço ideia,form:condicional
+A | Estará perdido? Ou terá ido comer sardinhas sem nós? | 길 잃은 걸까? 아니면 우리 빼고 정어리 먹으러 갔나? | estará·terá ido = ~일까, ~했을까(추측의 미래) · sardinha = 정어리(상한 밖 낱말) | emotion=amused | tags=form:futuro,form:futuro-perfeito
+B | Se calhar as duas coisas. Olha, esquece a igreja: primeiro vamos ver as marchas! | 아마 둘 다겠지. 있잖아, 성당은 됐고, 먼저 행진 보러 가자! | marcha = 축제 거리 행진(상한 밖 낱말) · se calhar = 아마 | emotion=excited | tags=expr:se calhar,expr:olha
+A | Outra vez? Já mudaste de ideias não sei quantas vezes esta noite. | 또? 오늘 밤에만 마음 바꾼 게 몇 번째인지 모르겠다. | mudar de ideias = 마음을 바꾸다 | emotion=tsukkomi | tags=
+B | Pois, mas desta vez é a sério. Quero que vejas isto pelo menos uma vez na vida. | 그래, 근데 이번엔 진짜야. 이건 살면서 한 번은 꼭 봤으면 해. | quero que + 접속법 = 네가 ~하길 바라 | emotion=cheerful | tags=expr:pois,form:conjuntivo
+A | Está bem. Mas se o Duarte aparecer, quem lhe diz onde estamos? | 알았어. 근데 두아르트가 나타나면 우리 어디 있는지 누가 말해 줘? | se aparecer = 나타나면(미래 접속법) | emotion=neutral | tags=form:futuro-conjuntivo
+B | Ele que se desenrasque. Já não é nenhuma criança. | 알아서 하라고 해. 애도 아니고. | ele que se desenrasque = 걔가 알아서 하라지(접속법) · desenrascar = 어떻게든 해내다 | emotion=teasing | tags=expr:desenrascar,form:conjuntivo
+A | Espera... aquele ali, a dançar com a Dona Fernanda ao pé das sardinhas, não é o Duarte? | 잠깐… 저기 정어리 굽는 데 옆에서 페르난다 아주머니랑 춤추는 사람, 두아르트 아니야? | a dançar = 춤추면서 · ao pé de = ~ 옆에 | emotion=surprised | tags=twist,form:estar-a
+C | {name}! Beatriz! Fiquei sem bateria! A Dona Fernanda não me larga. Venham, que falta gente! | {name}! 베아트리스! 배터리 나갔어! 페르난다 아주머니가 날 안 놔줘. 와, 사람 모자라! | ficar sem bateria = 배터리가 나가다(상한 밖 낱말) · venham = 와(너희, 접속법형 명령) | emotion=shout | tags=form:conjuntivo
+B | Nem pensar! ... // Quer dizer, até seria giro. Anda, {name}! | 말도 안 돼! … 아니 근데, 재밌을 것 같기도. 가자, {name}! | seria giro = 재밌겠다(조건법) · quer dizer = 그러니까, 아니 | emotion=shout+amused | tags=expr:nem pensar,expr:quer dizer,expr:giro,form:condicional
+A | Se alguém tirar uma fotografia, eu mudo de país. | 누가 사진 찍기만 해 봐, 나 나라 옮긴다. | se alguém tirar = 누가 찍으면(미래 접속법) | emotion=tsukkomi | tags=form:futuro-conjuntivo
+C | Tarde demais! A filha da Dona Fernanda está a filmar desde que chegaste! | 이미 늦었어! 페르난다 아주머니 딸이 너 온 순간부터 찍고 있어! | desde que chegaste = 네가 온 뒤로 계속 · filmar = 영상 찍다 | emotion=amused | tags=form:estar-a

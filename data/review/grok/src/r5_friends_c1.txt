@@ -1,0 +1,25 @@
+=== r5_friends_c1
+level: R5
+kind: chat
+title: 고양이가 아니라 할머니
+emoji: 🎨
+scene: 밤 1:1 채팅. Inês 가 Tiago 카페에 걸 그림을 막 끝내고 학습자에게 사진을 보낸다.
+cast: B: Inês
+register: chat
+twist: 11 emotion
+goal: 새 문법 없이 657~2,000위 어휘(quadro·opinião·foto·enviar·verdade·retrato·avó·sorriso·cor·giro·mentira·rir·emprego·arte)를 채팅에서 쓰기
+expressions: epá; pois; não faz mal; ainda bem; a sério?; pronto
+B | Estás acordad{o|a}? Acabei o quadro para o café do Tiago e preciso da tua opinião. | 깨어 있어? Tiago 카페에 걸 그림 다 그렸는데 네 의견이 필요해. | quadro = 그림 · opinião = 의견 | emotion=excited | tags=vocab:quadro,vocab:opinião
+A | Manda lá! Prometo dizer a verdade. | 보내 봐! 솔직하게 말할게. | manda lá = 보내 봐 | emotion=cheerful | tags=vocab:prometer
+B | Pronto, foto enviada. Sê simpátic{o|a}, por favor. | 자, 사진 보냈어. 착하게 말해 줘, 제발. | enviar = 보내다 · simpático = 친절한 | emotion=shy | tags=expr:pronto,vocab:enviar,vocab:simpático
+A | Epá... é um gato a andar de bicicleta? Ou um cão? | 어… 자전거 타는 고양이야? 아니면 개? | bicicleta = 자전거(상한 밖 낱말) · gato = 고양이 | emotion=surprised | tags=expr:epá,vocab:gato
+B | É um retrato da minha avó, {name}. | 우리 할머니 초상화거든, {name}. | retrato = 초상화 · avó = 할머니 | emotion=tsukkomi | tags=vocab:retrato,vocab:avó
+A | Ah. Pois... a tua avó tem um sorriso lindo. E as cores são giras! | 아. 그렇구나… 할머니 미소가 예쁘시다. 그리고 색깔도 예뻐! | pois = 그렇구나(얼버무림) · sorriso = 미소 · giro = 예쁜 | emotion=flustered | tags=expr:pois,vocab:sorriso,vocab:cor,vocab:giro
+B | Mentira! Mas não faz mal, ela também se ia rir. // Vens ao café no sábado? | 거짓말! 근데 괜찮아, 할머니도 웃으셨을 거야. 토요일에 카페 올 거지? | mentira = 거짓말 · não faz mal = 괜찮아 | emotion=amused+cheerful | tags=expr:não faz mal,vocab:mentira,vocab:rir
+A | Claro que vou. Quero ver o gato ao vivo. | 당연히 가지. 고양이 실물로 보고 싶어. | ao vivo = 직접, 실물로 | emotion=teasing | tags=expr:claro
+B | Ainda bem. Vai ser o meu último sábado cá. | 다행이다. 내가 여기서 보내는 마지막 토요일이거든. | ainda bem = 다행이다 | emotion=sad | tags=expr:ainda bem
+A | Último? Como assim? | 마지막? 무슨 말이야? | como assim? = 무슨 뜻이야? | emotion=worried | tags=
+B | Consegui um emprego numa escola de arte lá fora. Parto no domingo. | 외국 미술 학교에 일자리 구했어. 일요일에 떠나. | emprego = 일자리 · arte = 미술 · lá fora = 외국에 | emotion=sad | tags=vocab:emprego,vocab:arte,twist
+A | O quê?! A sério? // E só me dizes isso agora? | 뭐?! 진짜? 근데 그걸 지금 말해? | a sério? = 진짜? | emotion=shout+annoyed | tags=expr:a sério
+B | Tinha medo de chorar. // Pronto, já estou a chorar. | 울까 봐 무서웠어. 봐, 벌써 울고 있잖아. | medo = 두려움 · chorar = 울다 | emotion=shy+sad | tags=expr:pronto
+A | Então no sábado compro o gato de bicicleta. // E não digo nada à tua avó. | 그럼 토요일에 자전거 탄 고양이 내가 살게. 할머니한텐 비밀로 하고. | comprar = 사다 | emotion=gentle+teasing | tags=

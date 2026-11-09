@@ -1,0 +1,23 @@
+=== r2_love_c1
+level: R2
+kind: chat
+title: 그 강아지 누구 거야
+emoji: 🐶
+scene: 데이팅앱 매칭 직후. Inês 가 먼저 말을 건다 — {name} 프로필 사진 속 강아지 얘기로.
+cast: B: Inês
+register: chat
+twist: 9 reveal
+goal: 데이팅앱 첫 채팅과 약속 잡기, 완료과거 gostei·gostaste·fui·li, 반과거 era·tinha·estava
+expressions: olha; a sério?; então; pois; bué; ainda bem; se calhar
+B | Olá! Gostei muito da tua fotografia com o cão. 🐶 | 안녕! 강아지랑 찍은 네 사진 너무 좋더라. 🐶 | gostei de = ~가 좋았다(gostar 완료과거) | emotion=cheerful | tags=form:perfeito
+A | Obrigad{o|a}! Mas olha, o cão não é meu. | 고마워! 근데 있잖아, 그 강아지 내 거 아니야. | olha = 있잖아, 봐(말 꺼낼 때) | emotion=amused | tags=expr:olha
+B | A sério? Então de quem é? | 진짜? 그럼 누구 건데? | de quem = 누구의 | emotion=surprised | tags=expr:a sério?,expr:então
+A | É da minha vizinha. Fui com ele à praia no sábado. | 옆집 사람 거야. 토요일에 데리고 바닷가 갔었어. | fui = 갔다(ir 완료과거) · vizinha = 이웃(여자) | emotion=neutral | tags=form:perfeito
+B | Ah... então não vives com ele? Que pena. | 아… 그럼 같이 사는 거 아니야? 아쉽다. | que pena = 아쉽다 | emotion=sad | tags=
+A | Pois. Desculpa, era a melhor fotografia que eu tinha. | 그러게. 미안, 내가 가진 사진 중에 제일 잘 나온 거였어. | era·tinha = ~였다·가지고 있었다(반과거) | emotion=flustered | tags=expr:pois,form:imperfeito
+B | Eu percebo. Na minha, eu estava com a minha irmã e cortei-a. 😅 | 이해해. 내 사진은 언니랑 찍은 건데 언니를 잘라냈거든. 😅 | estava = 있었다(반과거) · cortei-a = 그녀를 잘랐다 | emotion=amused | tags=form:imperfeito,form:perfeito
+A | Então gostaste do cão, não de mim? 😏 | 그럼 나 말고 강아지가 좋았던 거야? 😏 | gostaste = 네가 좋아했다(gostei ↔ gostaste) | emotion=teasing | tags=expr:então,form:perfeito
+B | Primeiro do cão, sim. // Depois li o teu perfil e ri-me bué. | 처음엔 강아지, 맞아. 그다음에 네 프로필 읽고 엄청 웃었어. | li = 읽었다 · ri-me = 웃었다(rir-se) · bué = 엄청 | emotion=teasing+cheerful | tags=twist,expr:bué,form:perfeito
+A | Ainda bem! E o que é que te fez rir? | 다행이다! 뭐가 그렇게 웃겼는데? | ainda bem = 다행이다 · te fez rir = 너를 웃게 했다 | emotion=cheerful | tags=expr:ainda bem
+B | «Faço o melhor café da cidade.» // Se calhar tenho de provar. Amanhã? | 「동네에서 커피 제일 잘 내림.」 아무래도 내가 직접 마셔 봐야겠네. 내일? | se calhar = 아무래도, 어쩌면 · provar = 맛보다 | emotion=amused+shy | tags=expr:se calhar,heart
+A | Combinado! Às cinco? // E levo o cão, a vizinha deixa. | 좋아! 다섯 시? 강아지도 데려갈게, 옆집이 허락해 줘. | combinado = 좋아, 그렇게 하자 · deixa = 허락한다 | emotion=excited+amused | tags=

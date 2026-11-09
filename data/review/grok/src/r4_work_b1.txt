@@ -1,0 +1,26 @@
+=== r4_work_b1
+level: R4
+kind: long
+title: 넥타이 맨 재앙
+emoji: 🎙️
+scene: 화상 회의 끝자락. 상사 Marta 가 제안서에 대한 의견을 묻는다. 쉬는 시간에 마이크가 켜져 있던 줄은 모른다.
+cast: B: Marta
+register: polite
+twist: 11 chaos
+goal: 완곡 표현과 접속법(embora·talvez·caso), 인칭 부정사, 미래형 추측
+expressions: com todo o respeito; a sério?; quer dizer; pelo contrário; não faço ideia
+B | Antes de terminarmos, gostava de saber a sua opinião sobre a proposta, {name}. | 마치기 전에 제안서에 대한 {name} 씨 의견을 듣고 싶어요. | antes de terminarmos = 우리가 마치기 전에(인칭 부정사) | emotion=polite | tags=form:infinitivo-pessoal
+A | Com todo o respeito, acho que seria preferível adiarmos a decisão até termos mais dados. | 외람되지만, 자료가 더 모일 때까지 결정을 미루는 편이 나을 것 같습니다. | com todo o respeito = 외람되지만 | emotion=stiff | tags=expr:com todo o respeito,form:condicional
+B | Compreendo, mas o cliente está à espera de uma resposta até sexta-feira. | 이해합니다. 그런데 고객이 금요일까지 답을 기다리고 있어요. | estar à espera de = ~을 기다리고 있다 | emotion=polite | tags=expr:estar à espera
+A | Nesse caso, talvez pudéssemos propor uma fase de teste, sem nos comprometermos já. | 그렇다면 당장 확약하지 말고 시범 단계를 제안해 볼 수도 있겠습니다. | talvez + 접속법 = 어쩌면 ~할지도 | emotion=polite | tags=form:conjuntivo-imperfeito
+B | Não me parece disparate nenhum. Mas há algum risco que me está a escapar? | 전혀 엉뚱한 말이 아니네요. 그런데 제가 놓치고 있는 위험이 있나요? | escapar = 놓치다, 빠져나가다 | emotion=polite | tags=
+A | Há um pormenor, sim. Receio que o orçamento não chegue, caso o prazo derrape. | 작은 문제가 하나 있습니다. 기한이 밀리면 예산이 모자랄까 걱정입니다. | receio que + 접속법 = ~일까 걱정이다 | emotion=worried | tags=form:conjuntivo
+B | Curioso. Ainda esta manhã alguém disse exatamente o mesmo, de forma bem menos educada. | 재미있네요. 오늘 아침에도 누가 똑같은 말을 했거든요, 훨씬 덜 공손하게. | bem menos = 훨씬 덜 | emotion=teasing | tags=expr:bem menos
+A | A sério? Quem terá sido? | 정말요? 누구였을까요? | terá sido = ~였을까(미래완료로 추측) | emotion=flustered | tags=expr:a sério,form:futuro-perfeito
+B | Não sei. Só ouvi uma voz a dizer que a proposta era «um desastre de gravata». | 모르겠어요. 제안서가 「넥타이 맨 재앙」이라는 목소리만 들었어요. | uma voz a dizer = 말하는 목소리 | emotion=teasing | tags=form:estar-a | say=Não sei. Só ouvi uma voz a dizer que a proposta era um desastre de gravata.
+A | Que expressão tão... criativa. Não faço ideia de quem possa ter dito tal coisa. | 참… 창의적인 표현이네요. 누가 그런 말을 했는지 전혀 모르겠습니다. | não faço ideia = 전혀 모르겠다 | emotion=flustered | tags=expr:não faço ideia,form:conjuntivo
+B | Pois. O seu microfone ficou ligado durante a pausa. Ouvimos todos. | 그렇군요. 쉬는 시간에 마이크가 켜져 있었어요. 다 들었습니다. | ficou ligado = 켜진 채로 있었다 | emotion=polite | tags=twist
+A | Todos? Incluindo o cliente? | 다요? 고객도요? | incluindo = ~을 포함해 | emotion=worried | tags=
+B | Sobretudo o cliente. E, por incrível que pareça, adorou a expressão. | 특히 고객이요. 그리고 믿기 어렵겠지만, 그 표현을 아주 좋아했어요. | por incrível que pareça = 믿기 어렵겠지만 | emotion=amused | tags=expr:por incrível que pareça
+A | Quer dizer que não vou ser despedid{o|a}? | 그럼 저 해고되는 건 아니라는 말씀인가요? | quer dizer = 그러니까, ~라는 말이다 | emotion=stiff | tags=expr:quer dizer
+B | Pelo contrário. Quer que seja {o|a} {name} a apresentar o desastre. De gravata. | 오히려요. 그 재앙을 {name} 씨가 발표하길 바란답니다. 넥타이 매고. | pelo contrário = 오히려 | emotion=amused | tags=expr:pelo contrário

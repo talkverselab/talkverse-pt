@@ -1,0 +1,25 @@
+=== r3_friends_b1
+level: R3
+kind: long
+title: 주인공이 먼저 온 깜짝 파티
+emoji: 🎉
+scene: 셰어하우스. Duarte·Inês 와 함께 Beatriz 깜짝 생일 파티를 준비하는데, 먹을 걸 산 사람이 아무도 없다.
+cast: B: Duarte, C: Inês, D: Beatriz
+register: casual
+twist: 12 chaos
+goal: 복수 vocês·nós 어미(trataram·escondemos·somos), 「pronto」「não faz mal」「pois é」「quer dizer」
+expressions: então; pronto; não faz mal; pois é; quer dizer
+B | Então, pessoal, a Beatriz chega às oito. Vocês trataram de tudo? | 자, 얘들아, Beatriz 8시에 와. 너희 다 준비했지? | vocês trataram = 너희가 처리했다(vocês = 3인칭 복수 어미) | emotion=excited | tags=expr:então,form:voces
+C | Eu tratei da música. E chamei umas pessoas do trabalho dela. | 난 음악 맡았어. 그리고 걔 회사 사람들도 몇 명 불렀어. | tratar de = ~을 맡다, 처리하다 | emotion=cheerful | tags=form:tratar-de
+A | Eu trouxe as flores e os copos. E tu, Duarte? | 난 꽃이랑 컵 가져왔어. 넌, Duarte? | trouxe = 가져왔다(trazer 완료과거) | emotion=cheerful | tags=form:trazer
+B | Eu? Eu estava a ver o jogo… Pensei que vocês iam comprar as coisas para comer. | 나? 난 경기 보고 있었는데… 먹을 건 너희가 사는 줄 알았지. | vocês iam comprar = 너희가 살 거였다 | emotion=flustered | tags=form:voces
+C | Nós?! Duarte, tu disseste que tratavas tu disso! | 우리가?! Duarte, 그건 네가 한다며! | tratavas tu disso = 네가 그걸 맡는다고 | emotion=tsukkomi | tags=form:nos
+A | Pronto, não faz mal. Temos quanto tempo? | 됐어, 괜찮아. 시간 얼마나 남았어? | não faz mal = 괜찮아, 상관없어 | emotion=worried | tags=expr:pronto,expr:não faz mal
+B | Uma hora. Eu vou já buscar qualquer coisa. Vocês ficam aqui e escondem as flores. | 한 시간. 내가 당장 뭐라도 사 올게. 너희는 여기서 꽃 숨겨. | vocês ficam / escondem = 너희가 남다 / 숨기다 | emotion=excited | tags=form:voces
+C | Escondemos onde? A casa é um quarto e meio! | 어디다 숨겨? 집이 방 한 칸 반인데! | escondemos = 우리가 숨기다(nós 어미 -mos) | emotion=tsukkomi | tags=form:nos
+A | Espera… alguém está a abrir a porta. | 잠깐… 누가 문 열고 있어. | estar a + 동사원형 = ~하는 중 | emotion=worried | tags=form:estar-a
+D | Olá! Mudei de planos, cheguei mais cedo! | 안녕! 계획 바꿨어, 일찍 왔지! | mudar de planos = 계획을 바꾸다 | emotion=excited | tags=
+C | Beatriz?! Ainda são sete horas! | Beatriz?! 아직 7시밖에 안 됐는데! | ainda são … horas = 아직 ~시다 | emotion=surprised | tags=
+D | Pois é! O Duarte contou-me tudo ontem. // Trouxe pizas… e os meus amigos do surf. Somos seis! | 그렇지! Duarte 가 어제 다 말해 줬어. 피자 가져왔어… 그리고 서핑 친구들도. 우리 여섯 명이야! | contou-me = 나한테 말했다 · somos = 우리는 ~이다(ser, nós) / pois é = 그렇지, 맞아 | emotion=excited+cheerful | tags=twist,expr:pois é,form:nos
+A | Temos flores, copos e uma surpresa. // Quer dizer… tínhamos. | 꽃이랑 컵이랑 깜짝 파티가 있어. 아니… 있었어. | surpresa = 깜짝 선물·파티(상한 밖 낱말) / quer dizer = 아니 그러니까 | emotion=amused+tsukkomi | tags=expr:quer dizer
+B | Pessoal, cheguei! Só consegui um doce… // Beatriz?! Pronto, fui eu que contei. | 얘들아, 나 왔어! 디저트 하나밖에 못 샀어… Beatriz?! 그래, 내가 말했어. | consegui = 구했다(conseguir) · fui eu que = 내가 한 거야 | emotion=excited+flustered | tags=form:conseguir,expr:pronto

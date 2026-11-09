@@ -1,0 +1,19 @@
+=== r1_life_a1
+level: R1
+kind: short
+title: 엄마랑 통화 중
+emoji: 📞
+scene: 새벽, 셰어하우스 거실. 룸메이트 Duarte 가 누군가와 속삭이며 통화하고 있다. 거실은 어젯밤 그대로 엉망이다.
+cast: B: Duarte
+register: casual
+twist: 6 chaos
+goal: estar a + 원형(진행), 완료과거 ouvi·ouviste, 통화 말 「já vou」, 「pá」「pois」「vá lá」로 얼버무리기
+expressions: pá; pois; pois é; vá lá
+A | Duarte? Estás a falar com quem? | Duarte? 누구랑 얘기해? | estar a falar = 말하고 있다(유럽판 진행형) | emotion=annoyed | tags=form:estar-a
+B | Com ninguém, pá! Estás cansad{o|a}, vai dormir. | 아무도 아냐! 너 피곤해서 그래, 가서 자. | pá = 야(친구끼리 추임새), cansado/cansada = 피곤한(듣는 사람 성별에 맞춤) | emotion=flustered | tags=expr:pá,form:gender-adj
+A | Eu ouvi «sim, mãe, já vou». | 「응, 엄마, 지금 가」 들었는데. | ouvi = 들었다(ouvir 완료과거) · já vou = 지금 가(통화 말) | emotion=teasing | tags=form:perfeito
+B | Pois... ouviste bem. Estou a falar com a minha mãe. | 그게… 제대로 들었어. 엄마랑 통화 중이야. | pois = 그게, 응(얼버무릴 때), ouviste = 네가 들었다(ouvi ↔ ouviste) | emotion=stiff | tags=expr:pois,form:estar-a,form:perfeito
+A | Com a tua mãe? Ela fala a esta hora? | 너희 엄마랑? 엄마가 이 시간에 통화를 해? | ela fala = 그녀가 말한다(falo·falas·fala) | emotion=surprised | tags=form:falar
+B | Fala. // Ela está no carro... e já está à porta! | 하지. 엄마 차에 계셔… 그리고 벌써 문 앞이야! | está à porta = 문 앞에 있다(estou·estás·está) · carro = 차 | emotion=stiff+worried | tags=twist,form:estar
+A | À porta?! Agora? E a sala está assim! | 문 앞?! 지금? 거실 이 꼴인데! | sala = 거실 | emotion=shout | tags=form:estar
+B | Pois é. Ajuda-me, vá lá! Ela acha que sou arrumado. | 그러니까. 좀 도와줘, 제발! 엄마는 내가 깔끔한 줄 알아. | ajuda-me = 도와줘(접어는 동사 뒤) · arrumado = 깔끔한 | emotion=flustered | tags=expr:pois é,expr:vá lá

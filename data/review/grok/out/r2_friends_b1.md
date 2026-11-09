@@ -1,0 +1,23 @@
+=== r2_friends_b1
+level: R2
+kind: chat
+title: 잘못 보낸 파티
+emoji: 🎂
+scene: 단톡방. Duarte 에게만 보내려던 메시지를 Beatriz 도 있는 방에 보내 버렸다.
+cast: B: Duarte, C: Beatriz
+register: chat
+twist: 10 chaos
+goal: 채팅 말투, 부가의문 「pois não?」, 과거형 sabia·disseste
+expressions: pá; pois não?; não ligues; aliás; tá bem
+A | Duarte, a festa da Beatriz é às oito, certo? | Duarte, Beatriz 파티 8시 맞지? | certo? = 맞지? | emotion=cheerful | tags= | say=Duarte, a festa da Beatriz é às oito, certo?
+B | Pá... a Beatriz está neste grupo. | 야… Beatriz도 이 방에 있어. | pá = 야 | emotion=worried | tags=expr:pá
+A | O quê?! // Já apaguei. Ela não viu, pois não? | 뭐?! 바로 지웠어. 걔 못 봤지, 그치? | pois não? = 그렇지 않지? | emotion=surprised+worried | tags=expr:pois não
+C | Que festa? 👀 | 무슨 파티? 👀 | | emotion=teasing | tags= | say=Que festa?
+A | Festa? Qual festa? Foi o corretor! | 파티? 무슨 파티? 자동 수정이 그랬어! | corretor = 자동 수정 | emotion=flustered | tags=
+C | O corretor escreveu «às oito»? | 자동 수정이 「8시에」라고 썼어? | escreveu = 썼다 (escrever 과거) | emotion=teasing | tags=form:perfeito | say=O corretor escreveu às oito?
+B | Beatriz, não ligues. {O|A} {name} está cansad{o|a}. | Beatriz, 신경 쓰지 마. {name} 피곤해서 그래. | não ligues = 신경 쓰지 마, cansad{o|a} = 피곤한 (A 성별) | emotion=polite | tags=expr:não ligues,form:gender-adj
+C | Tá bem. Então eu levo o bolo. | 알았어. 그럼 케이크는 내가 가져갈게. | tá bem = 알았어 | emotion=amused | tags=expr:tá bem
+A | Espera... tu sabias? | 잠깐… 너 알고 있었어? | sabias = 알고 있었다 (saber 반과거) | emotion=surprised | tags=form:imperfeito
+C | Sabia, pois. // Aliás, a festa é para ti. | 알았지. 그보다, 그 파티 너 위한 거야. | aliás = 그보다 | emotion=amused+teasing | tags=expr:aliás,twist
+A | Para mim?! Mas eu faço anos em março! | 나를?! 나 생일 3월인데! | fazer anos = 생일이다 | emotion=shout | tags=expr:fazer anos | say=Para mim?! Mas eu faço anos em março!
+B | Beatriz... tu disseste que era hoje. | Beatriz… 네가 오늘이라며. | disseste = 네가 말했다 (dizer 과거) | emotion=annoyed | tags=form:perfeito

@@ -1,0 +1,25 @@
+=== r5_life_b1
+level: R5
+kind: long
+title: 새벽 여섯 시의 소음
+emoji: 🫧
+scene: 셰어하우스. 매일 새벽 여섯 시, 벽 너머에서 쿵쿵 소리가 나서 잠을 못 잔 학습자가 룸메이트 Duarte 를 추궁한다.
+cast: B: Duarte, C: Dona Fernanda
+register: mixed
+twist: 11 reveal
+goal: 새 문법 없이 657~2,000위 어휘(barulho·vento·parede·pássaro·máquina de lavar·roupa·luz·barato·acordar)를 집·이웃 대화에서 쓰기
+expressions: pá; se calhar; olha; pois; afinal
+A | Duarte, ouviste aquele barulho? Outra vez, às seis da manhã. | Duarte, 그 소리 들었어? 또야, 새벽 여섯 시에. | barulho = 소음 | emotion=annoyed | tags=vocab:barulho
+B | Que barulho? Eu estava a dormir. Deve ser o vento. | 무슨 소리? 난 자고 있었는데. 바람이겠지. | vento = 바람 | emotion=stiff | tags=vocab:vento
+A | O vento não bate assim, pá. Parecia uma máquina dentro da parede. | 바람은 그렇게 안 쳐. 벽 안에 기계가 있는 것 같았어. | bater = 치다, 두드리다 · parede = 벽 | emotion=tsukkomi | tags=expr:pá,vocab:parede
+B | Se calhar são os pássaros. // Olha, vou fazer o pequeno-almoço. | 아마 새들이겠지. 저기, 나 아침 만들게. | se calhar = 아마 · pássaro = 새 | emotion=flustered+stiff | tags=expr:se calhar,expr:olha,vocab:pássaro
+A | Tu fazes o pequeno-almoço? E porque é que a máquina de lavar está cheia de roupa molhada? | 네가 아침을 한다고? 그리고 세탁기에 젖은 빨래는 왜 가득한데? | fazes = 네가 한다(fazer) · máquina de lavar = 세탁기 · molhado = 젖은(상한 밖 낱말) | emotion=teasing | tags=vocab:máquina,vocab:roupa
+B | Isso é de ontem à noite! Juro. Não lavo roupa às seis, não sou maluco. | 그건 어젯밤 거야! 맹세해. 여섯 시에 빨래 안 해, 나 미친 거 아니야. | lavo = 내가 빤다(lavar) · maluco = 미친 | emotion=shout | tags=vocab:lavar
+C | Bom dia, meninos. Desculpem, está tudo bem? Ouvi gritos. | 좋은 아침이에요, 학생들. 미안한데, 별일 없어요? 소리 지르는 게 들려서요. | desculpem = 미안해요(여러 명에게) · ouvi = 들었다(ouviste ↔ ouvi) | emotion=polite | tags=vocab:grito
+A | Bom dia, Dona Fernanda. A senhora também acordou com aquele barulho às seis? | 안녕하세요, 페르난다 아주머니. 아주머니도 여섯 시에 그 소리에 깨셨어요? | a senhora = 아주머니(존칭, 3인칭 동사) | emotion=polite | tags=vocab:acordar
+C | Acordei? Não, eu às seis já estou a pé. Porquê? | 깼냐고요? 아뇨, 난 여섯 시면 벌써 일어나 있어요. 왜요? | estar a pé = 일어나 있다 · acordei = 깼다(acordou ↔ acordei) | emotion=surprised | tags=vocab:acordar
+B | Há um barulho horrível todas as manhãs. {O|A} {name} acha que sou eu. | 매일 아침 끔찍한 소리가 나요. {name}은 저라고 생각하고요. | horrível = 끔찍한 · acha que = ~라고 생각한다 | emotion=annoyed | tags=
+C | Ah… às seis? // Então é a minha máquina. Ponho-a a lavar cedo porque a luz é mais barata. | 아… 여섯 시요? 그럼 우리 집 세탁기예요. 전기가 싸서 일찍 돌리거든요. | ponho-a a lavar = 그걸 돌려 둔다 · luz = 전기(요금) · barato = 싼 | emotion=surprised+flustered | tags=twist,vocab:luz,vocab:barato
+A | A da senhora? E o barulho chega ao nosso quarto? | 아주머니 거요? 그 소리가 우리 방까지 와요? | chega a = ~까지 닿다 | emotion=surprised | tags=
+C | Pois, a máquina está junto à vossa parede. Desculpem, a partir de amanhã ponho às oito. | 그러게요, 세탁기가 학생들 벽 바로 옆이에요. 미안해요, 내일부터는 여덟 시에 돌릴게요. | junto a = ~ 바로 옆 · a partir de amanhã = 내일부터 | emotion=polite | tags=expr:pois,vocab:parede
+A | Obrigad{o|a}! // E desculpa, Duarte. Afinal não eras tu. Achei mesmo que eras. | 감사해요! 그리고 미안, Duarte. 알고 보니 너 아니었네. 진짜 너인 줄 알았어. | afinal = 알고 보니 · eras = 너는 ~였다(반과거) · achei = 내가 생각했다(acha ↔ achei) | emotion=cheerful+gentle | tags=expr:afinal

@@ -1,0 +1,17 @@
+=== r0_friends_a1
+level: R0
+kind: short
+title: 한 번 더
+emoji: 🎸
+scene: 밤, 셰어하우스 옥상. Tiago 가 기타를 들고 와서 천천히 노래 한 곡을 시작한다.
+cast: B: Tiago
+register: casual
+twist: 6 ignore
+goal: 느긋한 친구에게 짧게 반응하기 — 「olha」「a sério?」「fixe」
+expressions: olha; a sério?; pá; fixe; então
+A | Tiago, estás a fazer o quê? | Tiago, 뭐 해? | estás a fazer o quê? = 뭐 하고 있어? | emotion=amused | tags=form:estar a
+B | Olha... faço uma coisa para ti. | 있잖아… 너 주려고 뭐 만드는 중이야. | faço = (내가) 만들다 · coisa = 것 | emotion=gentle | tags=expr:olha,form:fazer
+A | Para mim? És mesmo fixe! | 나한테? 너 진짜 멋지다! | és = (너는) ~이다 · fixe = 멋지다 | emotion=surprised | tags=expr:fixe,form:ser
+B | Sim. É só para ti, pá. | 응. 너만을 위한 거야. | é para ti = 너를 위한 거야 · só = 오직, ~만 | emotion=gentle | tags=expr:pá,form:ser
+A | Fixe! Então... já posso falar? | 멋지다! 그럼… 이제 말해도 돼? | já posso falar? = 이제 말해도 돼? | emotion=teasing | tags=expr:fixe,expr:então
+B | Ainda não podes. Mais uma vez. | 아직 안 돼. 한 번 더. | podes = (너는) ~할 수 있다 · mais uma vez = 한 번 더 | emotion=amused | tags=twist,form:poder

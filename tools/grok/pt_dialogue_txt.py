@@ -90,7 +90,7 @@ def apply(ep, head, turns):
         says = [x.strip() for x in t['say'].split('//')] if t['say'] else []
         if len(parts) != len(emos) or (says and len(says) != len(parts)):
             return f"감정 {len(emos)}개 ↔ // 조각 {len(parts)}개(say {len(says)}) 「{t['tl']}」"
-        o['tl'], o['ko'], o['note'] = ' '.join(parts), t['ko'], t['note']
+        o['tl'], o['ko'], o['note'] = ' '.join(parts), re.sub(r'\s*//\s*', ' ', t['ko']), re.sub(r'\s*//\s*', ' ', t['note'])
         o['tags'] = [x.strip() for x in t['tags'].split(',') if x.strip()]
         o.pop('segs', None)
         o.pop('emotion', None)

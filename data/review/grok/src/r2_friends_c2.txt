@@ -1,0 +1,23 @@
+=== r2_friends_c2
+level: R2
+kind: chat
+title: 5분마다 바뀌는 주말 여행
+emoji: 🧳
+scene: 셋이 있는 단톡방. Beatriz 가 주말 여행 계획을 꺼내자마자 바꾸고 또 바꾼다.
+cast: B: Beatriz, C: Duarte
+register: chat
+twist: 11 chaos
+goal: 채팅 말투, 완료과거 disseste·mudaste·paguei, 반과거 era
+expressions: fixe; olha; pá; pronto; tá bem; de certeza
+B | Fim de semana no mar, em Peniche! Quem quer? 🏄‍♀️ | 주말에 바다 가자, 페니시! 갈 사람? 🏄‍♀️ | fim de semana = 주말 | emotion=excited | tags= | say=Fim de semana no mar, em Peniche! Quem quer?
+C | Eu! Mas há jogo às oito da noite. | 나! 근데 밤 8시에 경기 있어. | há jogo = 경기가 있다 | emotion=cheerful | tags=
+A | Eu também quero. Levo o carro? | 나도 갈래. 내가 차 가져갈까? | levo = 가져간다(levar) | emotion=cheerful | tags=
+B | Espera, mudei de ideia. Lisboa é mais fixe! | 잠깐, 마음 바뀌었어. 리스본이 더 좋아! | fixe = 좋은, 멋진 / mudar de ideia = 마음을 바꾸다 | emotion=excited | tags=expr:fixe,form:perfeito
+A | Lisboa? Ontem disseste que Lisboa era cara demais. | 리스본? 어제는 리스본 너무 비싸다며. | disseste = 네가 말했다 / era = ~였다(반과거) | emotion=tsukkomi | tags=form:perfeito,form:imperfeito
+B | Pois, mas... // não, olha: Porto! Tem tudo e é perto do rio! | 그건 그런데… 아니, 있잖아: 포르투! 다 있고 강 바로 옆이야! | perto de = ~ 가까이 | emotion=flustered+excited | tags=expr:olha
+C | Beatriz, já mudaste três vezes em cinco minutos, pá. | Beatriz, 너 5분 만에 벌써 세 번 바꿨어. | pá = 야(친구끼리 추임새) / mudaste = 네가 바꿨다 | emotion=tsukkomi | tags=expr:pá,form:perfeito
+A | Pronto. Escolhe uma coisa e eu encontro uma casa. | 됐어. 하나만 골라, 집은 내가 찾을게. | pronto = 됐어, 자(정리할 때) | emotion=annoyed | tags=expr:pronto
+B | Tá bem, tá bem. Porto. De certeza. | 알았어, 알았어. 포르투. 확실히. | de certeza = 확실히 | emotion=amused | tags=expr:tá bem,expr:de certeza
+A | Já está! Duas noites, uma casa ao pé do rio. 🙌 | 끝! 이틀 밤, 강 바로 옆 집. 🙌 | já está = 됐다, 끝났다 / ao pé de = ~ 바로 옆 | emotion=excited | tags= | say=Já está! Duas noites, uma casa ao pé do rio.
+B | Boa! // Ah... esqueci-me de dizer. Ontem paguei dois dias em Peniche. | 좋아! 아… 말하는 걸 깜빡했다. 어제 페니시에 이틀 치 결제했어. | esqueci-me de = ~하는 걸 잊었다 / paguei = 냈다(pagar 완료과거) | emotion=cheerful+flustered | tags=form:perfeito,twist
+C | E eu? Há jogo, pá! | 나는? 경기 있다고! | E eu? = 나는? | emotion=shout | tags=expr:pá

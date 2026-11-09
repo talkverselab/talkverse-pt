@@ -1,0 +1,17 @@
+=== r0_love_a2
+level: R0
+kind: short
+title: 오래 봤어
+emoji: 🎉
+scene: 친구 집 파티. 구석에 있던 학습자에게 Inês 가 먼저 다가온다. 어디서 본 얼굴인데.
+cast: B: Inês
+register: casual
+twist: 5 reveal
+goal: 다가오는 말에 짧게 답하기 — 「então」「a sério?」「pois」
+expressions: então; a sério?; pois
+B | Então, tu não falas comigo? | 뭐야, 나랑은 말 안 해? | falas comigo = 나랑 말해 | emotion=teasing | tags=expr:então,form:falar
+A | Eu? Falo, falo! | 나? 해, 하지! | falo = 나는 말한다 | emotion=flustered | tags=form:falar
+B | Há muito tempo que te vejo. | 너 오래전부터 봐 왔어. | há muito tempo que = 오래전부터 | emotion=shy | tags=heart,form:ver
+A | A sério? Mas quem és tu? | 진짜? 근데 너 누구야? | quem és tu? = 너 누구야? (sou ↔ és) | emotion=surprised | tags=expr:a sério?,form:ser
+B | Pois... sou a tua vizinha. | 그게… 나 너네 옆집이야. | vizinha = 이웃 (여) (상한 밖 낱말) | emotion=amused | tags=twist,expr:pois
+A | Ah... então já sabes tudo. | 아… 그럼 다 알겠네. | já sabes tudo = 이미 다 알아 | emotion=worried | tags=expr:então,form:saber

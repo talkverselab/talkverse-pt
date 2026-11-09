@@ -1,0 +1,17 @@
+=== r0_love_c1
+level: R0
+kind: chat
+title: 지금 와
+emoji: 📱
+scene: 밤 11시 40분, Inês 가 먼저 메시지를 보낸다. 다급한 「지금 와」의 진짜 이유는 따로 있다.
+cast: B: Inês
+register: chat
+twist: 5 chaos
+goal: 짧은 채팅 덩어리로 답하기 — 「tudo bem?」「a sério?」「pronto」
+expressions: tudo bem?; a sério?; é que
+B | Olá! Estás em casa? | 안녕! 집이야? | Estás em casa? = 집에 있어? | emotion=cheerful | tags=form:estar
+A | Estou. Queres o quê? | 응. 뭐 필요해? | queres = (너는) 원하다 (queria 와 같은 querer) | emotion=neutral | tags=expr:tudo bem?,form:querer
+B | Vem à minha casa. Agora! | 우리 집으로 와. 지금! | vem = 와(tu 에게 하는 말) | emotion=excited | tags=form:vir
+A | A sério? // Vou já! | 진짜? 바로 갈게! | a sério? = 진짜?, vou já = 금방 갈게 | emotion=surprised+excited | tags=expr:a sério?
+B | É que há uma barata aqui! | 그게, 여기 바퀴벌레가 있거든! | barata = 바퀴벌레 (상한 밖 낱말) | emotion=shout | tags=twist,expr:pronto
+B | E... também te queria ver. | 그리고… 너도 보고 싶었어. | te queria ver = 너를 보고 싶었어(부드러운 반과거) | emotion=shy | tags=heart,expr:pronto
