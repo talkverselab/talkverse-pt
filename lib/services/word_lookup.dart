@@ -1,8 +1,9 @@
+import '../core/embed_env.dart';
 import 'dart:convert';
 
 import 'package:flutter/services.dart' show rootBundle;
 
-import '../main.dart';
+import '../embed.dart';
 
 /// 단어장 한 항목 — 레마 칩·단어 시트용(2026-11-04).
 /// 포르투갈어앱의 단어장 = 번들 `assets/data/vocab/travel_words.json`(주제별 단어, `{ko, tx, rd, ic}`) + DB `words`(빈도 단어, 지금은 비어 있음).
@@ -30,7 +31,7 @@ class WordLookup {
   Future<void> _load() async {
     final out = <String, WordEntry>{};
     try {
-      final j = json.decode(await rootBundle.loadString('assets/data/vocab/travel_words.json')) as Map<String, dynamic>;
+      final j = json.decode(await rootBundle.loadString(assetPath('assets/data/vocab/travel_words.json'))) as Map<String, dynamic>;
       for (final th in (j['themes'] as List? ?? const [])) {
         for (final sec in ((th as Map)['sections'] as List? ?? const [])) {
           for (final w in ((sec as Map)['words'] as List? ?? const [])) {

@@ -1,3 +1,4 @@
+import '../core/embed_env.dart';
 import 'dart:convert';
 
 import 'package:csv/csv.dart';
@@ -55,7 +56,7 @@ class _WordFreqScreenState extends State<WordFreqScreen> {
   }
 
   Future<void> _load() async {
-    final raw = await rootBundle.loadString('assets/data/freq/cliff_pt_PT.csv');
+    final raw = await rootBundle.loadString(assetPath('assets/data/freq/cliff_pt_PT.csv'));
     final rows = const CsvToListConverter(eol: '\n', shouldParseNumbers: false).convert(raw);
     final words = <CliffWord>[];
     for (var i = 1; i < rows.length; i++) {
@@ -65,7 +66,7 @@ class _WordFreqScreenState extends State<WordFreqScreen> {
     }
     final conv = <CliffWord>[];
     try {
-      final j = json.decode(await rootBundle.loadString('assets/data/freq/conv_words_pt.json')) as Map<String, dynamic>;
+      final j = json.decode(await rootBundle.loadString(assetPath('assets/data/freq/conv_words_pt.json'))) as Map<String, dynamic>;
       var n = 0;
       for (final w in (j['words'] as List).cast<Map<String, dynamic>>()) {
         conv.add(CliffWord(rank: ++n, word: w['word'] as String, region: 'C', ko: (w['ko'] as String?) ?? ''));

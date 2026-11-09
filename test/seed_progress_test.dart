@@ -2,6 +2,7 @@ import 'package:drift/drift.dart' hide isNull;
 import 'package:drift/native.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:portuguese_universe/data/db/app_database.dart';
+import 'package:portuguese_universe/core/prefs.dart';
 import 'package:portuguese_universe/data/db/seed_loader.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -29,7 +30,7 @@ void main() {
         ));
 
     // 번호가 달라진 상황을 만든다
-    (await SharedPreferences.getInstance()).setInt('db_version', -1);
+    (await Prefs.getInstance()).setInt('db_version', -1);
     await seed.seedIfNeeded();
 
     final after = await db.select(db.turns).get();

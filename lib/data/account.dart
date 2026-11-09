@@ -1,3 +1,4 @@
+import '../core/embed_env.dart';
 import 'dart:convert';
 import 'dart:math';
 
@@ -17,7 +18,7 @@ import '../core/platform.dart';
 class Account {
   Account._();
   static const base = 'https://auth.talkverse.uk';
-  static const clientId = 'pt';
+  static String get clientId => embedded ? 'talkverse' : 'pt'; // 통합 앱은 Talkverse ID 클라이언트 talkverse(2026-11-09)
   static const scheme = 'talkverse.pt';
   static const _redirect = '$scheme://auth';
 
@@ -172,7 +173,10 @@ class Account {
     _access = null;
     user.value = null;
     entitlements.value = const [];
-    await _store.deleteAll();
+    // 우리 키만 지운다 — 통합 앱에서는 키체인을 다른 언어 패키지와 같이 쓴다(2026-11-09). tv_* 는 Talkverse 계정 공용 키.
+    for (final k in const ['tv_refresh', 'tv_user', 'tv_ent']) {
+      await _store.delete(key: k);
+    }
   }
 
   static String get _device => 'pt ${isIOS ? 'ios' : isAndroid ? 'android' : 'other'}';

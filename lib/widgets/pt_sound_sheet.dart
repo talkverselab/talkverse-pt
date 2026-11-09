@@ -1,3 +1,4 @@
+import '../core/embed_env.dart';
 import 'dart:async';
 
 import 'package:flutter/material.dart';
@@ -96,7 +97,7 @@ class _SheetState extends State<_Sheet> {
               if (_chart)
                 ClipRRect(
                   borderRadius: BorderRadius.circular(8),
-                  child: Container(color: Colors.white, padding: const EdgeInsets.all(8), child: Image.asset('assets/images/ipa/places_of_articulation.png', fit: BoxFit.contain)),
+                  child: Container(color: Colors.white, padding: const EdgeInsets.all(8), child: Image.asset(assetPath('assets/images/ipa/places_of_articulation.png'), fit: BoxFit.contain)),
                 ),
             ],
             const SizedBox(height: 12),

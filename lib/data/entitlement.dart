@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shared_preferences/shared_preferences.dart';
+import '../core/prefs.dart';
 
 import 'account.dart';
 import 'purchase.dart';
@@ -14,10 +14,10 @@ class Entitlement {
   static bool _local = false;
   static bool get premium => _local || Account.has(lang) || Purchase.owns(lang);
 
-  static Future<void> load() async => _local = (await SharedPreferences.getInstance()).getBool('premium') ?? false;
+  static Future<void> load() async => _local = (await Prefs.getInstance()).getBool('premium') ?? false;
   static Future<void> set(bool v) async {
     _local = v;
-    (await SharedPreferences.getInstance()).setBool('premium', v);
+    (await Prefs.getInstance()).setBool('premium', v);
   }
 
   /// 잠금 안내 + 평생 이용권 구매·복원 시트.
