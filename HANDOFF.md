@@ -9,6 +9,9 @@
 - 절벽 단어 뜻: `data/freq/ko_fill_pt_PT.csv` 로 373어 채움(활용형 「(너) 간다 · ir」, 이름 「(이름) …」), 뜻이 「-」인 81어(말뭉치 잡음·외국 이름 조각)는 목록에서 숨김 — 순위 번호는 그대로.
 - **11-10 00:20 멈춤(사용자 지시 "uk 세션 외 모든 세션 지금 작업만 마무리하고 작업 끄고 탭 닫고 대기")**: Grok 재작성 15/32 받음(`data/review/grok/out/`, 아직 원본에 안 넣음·리뷰 전). 3분 넘겨 중지된 편 r1_love_c1·r2_friends_c2 와 나머지 17편은 `zsh tools/grok/rewrite_all.sh` 다시 돌리면 이어서 함(있는 편은 건너뜀). 9260 의 Grok 탭은 닫음(크롬·PC 예약 작업은 둠).
 - **Grok 답 3분 한도(사용자 지시 11-10 "그록 3분만, 넘어가면 대화방 중지")**: `grok_text.py` 기본 `--wait 180`, 넘으면 중지 단추(없으면 Esc) 누르고 저장 없이 rc=4.
+- **11-10 세션 종료(허브 지시 "M6 꽉 참 — 마무리·캐시 삭제·세션 닫기")**: `flutter clean`·android/.gradle·__pycache__ 지움(약 3.7GB). 6cdd9d7(앱 연결·단어 뜻)은 push 했지만 [skip ci] 커밋이 맨 위라 **CI 빌드·Zealot·TestFlight 는 아직 안 함** — 다음 앱 변경 push 때 Android+iOS 함께. 지울 후보: `~/tts_work/pt`(32MB, 실패 판정 시험 음성 — R2·D1 에 올라가 있음; 사용자가 원인 답하기 전엔 둠).
+- **DB 업로드 점검(11-10 uk 전달 "모든 자산 db 에")**: pt 음성 4편 102줄 = D1 `audio_lines` 와 일치, 단어 2,552 = `art_words`(uk), 장면 컷은 아직 없음. 회화 글을 담을 D1 표는 없음(앱 묶음으로 나감) — 표가 필요하면 uk·사용자 결정. Supabase 커넥터는 재로그인 필요해서 못 봄.
+- **다음 할 일**: ① Grok 한도(11/16 초기화) 뒤 `zsh tools/grok/rewrite_all.sh` 로 남은 17편 → 32편 리뷰(브라질 말·문법 단계·{o|a}) → `pt_dialogue_txt.py import` → `build_dialogues.py` → `make_plan.py`·`check_inflection.py` → pubspec 빌드 번호 올려 push → CI APK SHA-1 확인·Zealot·PC 백업 + `tools/ios_release.sh`. ② 사용자 답 대기: 음성 실패 원인, A9·B10, 단어 잡음 이름이 옛 커밋·`pt_PT_top5000_lemma.csv` 에 남은 것 정리 여부.
 
 ## ▶ 다음 세션이 바로 할 일(2026-11-08 세션 종료 시점)
 1. **Grok 완전 재작성**(11-09 재개 — **한자 세션 대행 중단**: 자기 크롬을 M4 에서 켜고 `ssh macmini4` 로 `/usr/bin/python3 ~/talkverse-uk/tools/grok_cookie_sync.py 9231 <자기 포트>` 로 쿠키 동기화, 도구는 M6 `~/Hanja/tools/grok_req.py`·`grok_cdp.py` 를 복사해 씀, uk 의 방·9231 탭은 건드리지 않음 — `~/logs/rc/RELAY_grok_20261109.md`, 요청문 작성법 `~/talkverse/GROK_PROMPT_GUIDE.md`): 회화 32편(`data/dialogues_src/pt-PT/*.json`)을 편마다 새 방에서 「모든 줄 새로」 → 리뷰 → `build_dialogues.py`(원본 전부 한 번에) → `make_plan.py` → REVIEW_pt 갱신 요청.
