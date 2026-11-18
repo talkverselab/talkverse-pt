@@ -36,113 +36,117 @@
  "turns": [
   {
    "speaker": "B",
-   "tl": "Estás em casa?",
-   "ko": "집이야?",
-   "note": "estás em casa? = 집에 있어?",
+   "tl": "Estás em casa agora?",
+   "ko": "지금 집이야?",
+   "note": "estás em casa = 집에 있어",
    "tags": [
     "form:estar"
    ],
-   "emotion": "cheerful",
    "ui": "bubble",
    "at": "10:02",
+   "emotion": "cheerful",
    "num": 1,
-   "rd": "이쉬따즈 앵 까자?"
+   "rd": "이쉬따즈 앵 까자 아고라?"
   },
   {
    "speaker": "A",
-   "tl": "Estou. Porquê?",
-   "ko": "응. 왜?",
+   "tl": "Estou sim. Porquê?",
+   "ko": "응, 있어. 왜?",
    "note": "estou = (나) 있어",
    "tags": [
     "form:estar"
    ],
-   "emotion": "neutral",
    "ui": "bubble",
    "at": "10:03",
+   "emotion": "neutral",
    "num": 2,
-   "rd": "이쉬또우. 뽀르께?"
+   "rd": "이쉬또우 씽. 뽀르께?"
   },
   {
    "speaker": "B",
-   "tl": "Vou já. Tenho uma coisa para ti.",
-   "ko": "지금 갈게. 너 줄 거 있어.",
-   "note": "vou já = 바로 갈게",
+   "tl": "Já vou aí. Tenho para ti.",
+   "ko": "바로 갈게. 너 줄게 있어.",
+   "note": "já vou = 바로 가다 · tenho = 가지고 있다",
    "tags": [
+    "expr:já",
     "form:ir",
     "form:ter"
    ],
-   "emotion": "excited",
    "ui": "bubble",
    "at": "10:03",
+   "emotion": "excited",
    "num": 3,
-   "rd": "보우 자. 뗑유 우마 꼬이자 빠라 띠."
+   "rd": "자 보우 아이. 뗑유 빠라 띠."
   },
   {
    "speaker": "A",
-   "tl": "Para mim? Tens o quê?",
-   "ko": "나한테? 뭔데?",
-   "note": "tens = (너는) 가지고 있다 · o quê? = 뭐?",
+   "tl": "Para mim? O que é?",
+   "ko": "나한테? 뭐야?",
+   "note": "o que é = 뭐야",
    "tags": [
-    "form:ter"
+    "form:ser"
    ],
-   "emotion": "surprised",
    "ui": "bubble",
    "at": "10:03",
+   "emotion": "surprised",
    "num": 4,
-   "rd": "빠라 밍? 뗑즈 우 께?"
+   "rd": "빠라 밍? 우 끄 에?"
   },
   {
    "speaker": "B",
-   "tl": "A tua chave. Ficou cá ontem.",
-   "ko": "네 열쇠. 어제 우리 집에 두고 갔어.",
-   "note": "chave = 열쇠(상한 밖 낱말) · ficou = 남았다",
+   "tl": "A tua chave. Ontem cá.",
+   "ko": "네 열쇠. 어제 여기.",
+   "note": "chave = 열쇠 · cá = 여기",
    "tags": [
     "twist",
     "form:ficar"
    ],
-   "emotion": "teasing",
    "ui": "bubble",
    "at": "10:04",
+   "emotion": "teasing",
    "num": 5,
-   "rd": "아 뚜아 샤브. 피꼬우 까 온뗑."
+   "rd": "아 뚜아 샤브. 온뗑 까."
   },
   {
    "speaker": "A",
-   "tl": "A minha chave? Então a porta...",
-   "ko": "내 열쇠? 그럼 문은…",
-   "note": "então = 그럼",
+   "tl": "A chave?! A porta...",
+   "ko": "열쇠?! 문은...",
+   "note": "a chave = 열쇠",
    "tags": [
-    "expr:então"
+    "form:ser"
    ],
-   "emotion": "worried",
    "ui": "bubble",
    "at": "10:04",
+   "emotion": "worried",
    "num": 6,
-   "rd": "아 밍야 샤브? 엔따웅 아 뽀르따..."
+   "rd": "아 샤브?! 아 뽀르따..."
   },
   {
    "speaker": "B",
-   "tl": "Está aberta desde ontem? 😂",
-   "ko": "어제부터 열려 있었던 거야? 😂",
+   "tl": "Está aberta desde ontem. 😂",
+   "ko": "어제부터 열려 있어. 😂",
    "note": "está aberta = 열려 있다",
    "tags": [
     "form:estar"
    ],
-   "emotion": "amused",
    "ui": "bubble",
    "at": "10:05",
+   "emotion": "amused",
    "num": 7,
-   "rd": "이쉬따 아베르따 데쥬드 온뗑? 😂"
+   "rd": "이쉬따 아베르따 데쥬드 온뗑. 😂"
   },
   {
    "speaker": "A",
    "tl": "Pois é! Vem já, vá lá!",
    "ko": "그러게! 빨리 와, 제발!",
-   "note": "pois é = 그러게 · vá lá = 제발, 어서",
+   "note": "pois é = 그러게 · vá lá = 제발 · já = 바로",
    "tags": [
     "expr:pois é",
-    "expr:vá lá"
+    "expr:vá lá",
+    "expr:já"
    ],
+   "ui": "bubble",
+   "at": "10:05",
    "segs": [
     [
      "flustered",
@@ -153,8 +157,6 @@
      " Vem já, vá lá!"
     ]
    ],
-   "ui": "bubble",
-   "at": "10:05",
    "num": 8,
    "rd": "뽀이즈 에! 벵 자, 바 라!"
   }

@@ -37,80 +37,81 @@
  "turns": [
   {
    "speaker": "A",
-   "tl": "Tiago, estás a fazer o quê?",
-   "ko": "Tiago, 뭐 해?",
-   "note": "estás a fazer o quê? = 뭐 하고 있어?",
+   "tl": "Tiago, o que estás a fazer?",
+   "ko": "Tiago, 뭐 하고 있어?",
+   "note": "estás a fazer = 하고 있다",
    "tags": [
     "form:estar a"
    ],
    "emotion": "amused",
    "num": 1,
-   "rd": "띠아구, 이쉬따즈 아 파제르 우 께?"
+   "rd": "띠아구, 우 끄 이쉬따즈 아 파제르?"
   },
   {
    "speaker": "B",
-   "tl": "Olha... faço uma coisa para ti.",
-   "ko": "있잖아… 너 주려고 뭐 만드는 중이야.",
-   "note": "faço = (내가) 만들다 · coisa = 것",
+   "tl": "Olha, faço isto para ti.",
+   "ko": "봐, 이거 너 주려고 해.",
+   "note": "olha = 봐 · faço = (내가) 하다",
    "tags": [
     "expr:olha",
     "form:fazer"
    ],
    "emotion": "gentle",
    "num": 2,
-   "rd": "올랴... 파쑤 우마 꼬이자 빠라 띠."
+   "rd": "올랴, 파쑤 이쉬뚜 빠라 띠."
   },
   {
    "speaker": "A",
-   "tl": "Para mim? És mesmo fixe!",
-   "ko": "나한테? 너 진짜 멋지다!",
-   "note": "és = (너는) ~이다 · fixe = 멋지다",
+   "tl": "Para mim? A sério?",
+   "ko": "나한테? 진짜?",
+   "note": "a sério? = 진짜?",
    "tags": [
-    "expr:fixe",
-    "form:ser"
+    "expr:a sério?"
    ],
    "emotion": "surprised",
    "num": 3,
-   "rd": "빠라 밍? 에쉬 메쥬무 피쉬!"
+   "rd": "빠라 밍? 아 쎄리우?"
   },
   {
    "speaker": "B",
-   "tl": "Sim. É só para ti, pá.",
-   "ko": "응. 너만을 위한 거야.",
-   "note": "é para ti = 너를 위한 거야 · só = 오직, ~만",
+   "tl": "Sim, pá. É fixe, não?",
+   "ko": "응, 야. 멋지잖아?",
+   "note": "pá = 야 · é = 이다 · fixe = 멋지다",
    "tags": [
     "expr:pá",
+    "expr:fixe",
     "form:ser"
    ],
    "emotion": "gentle",
    "num": 4,
-   "rd": "씽. 에 쏘 빠라 띠, 빠."
+   "rd": "씽, 빠. 에 피쉬, 나웅?"
   },
   {
    "speaker": "A",
-   "tl": "Fixe! Então... já posso falar?",
-   "ko": "멋지다! 그럼… 이제 말해도 돼?",
-   "note": "já posso falar? = 이제 말해도 돼?",
+   "tl": "Fixe! Então já posso?",
+   "ko": "멋지다! 그럼 이제 돼?",
+   "note": "então = 그럼 · já posso = 이제 해도 돼?",
    "tags": [
     "expr:fixe",
-    "expr:então"
+    "expr:então",
+    "form:poder"
    ],
    "emotion": "teasing",
    "num": 5,
-   "rd": "피쉬! 엔따웅... 자 뽀쑤 팔라르?"
+   "rd": "피쉬! 엔따웅 자 뽀쑤?"
   },
   {
    "speaker": "B",
-   "tl": "Ainda não podes. Mais uma vez.",
-   "ko": "아직 안 돼. 한 번 더.",
-   "note": "podes = (너는) ~할 수 있다 · mais uma vez = 한 번 더",
+   "tl": "Não podes. Mais uma.",
+   "ko": "안 돼. 한 번 더.",
+   "note": "podes = (너는) 할 수 있다 · mais uma = 한 번 더",
    "tags": [
     "twist",
     "form:poder"
    ],
    "emotion": "amused",
    "num": 6,
-   "rd": "아인다 나웅 뽀드쉬. 마이즈 우마 베쉬."
+   "rd": "나웅 뽀드쉬. 마이즈 우마."
   }
  ]
 }

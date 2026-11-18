@@ -39,7 +39,7 @@
    "speaker": "A",
    "tl": "Duarte? Estás a falar com quem?",
    "ko": "Duarte? 누구랑 얘기해?",
-   "note": "estar a falar = 말하고 있다(유럽판 진행형)",
+   "note": "estás a falar = 말하고 있다",
    "tags": [
     "form:estar-a"
    ],
@@ -49,22 +49,22 @@
   },
   {
    "speaker": "B",
-   "tl": "Com ninguém, pá! Estás cansada, vai dormir.",
-   "ko": "아무도 아냐! 너 피곤해서 그래, 가서 자.",
-   "note": "pá = 야(친구끼리 추임새), cansado/cansada = 피곤한(듣는 사람 성별에 맞춤)",
+   "tl": "Com ninguém, pá! Estás cansada, vai.",
+   "ko": "아무도 아냐! 너 피곤해서 그래, 가.",
+   "note": "pá = 야 · cansada = 피곤한",
    "tags": [
     "expr:pá",
     "form:gender-adj"
    ],
    "emotion": "flustered",
    "num": 2,
-   "rd": "꽁 닝겡, 빠! 이쉬따쉬 깐싸다, 바이 두르미르."
+   "rd": "꽁 닝겡, 빠! 이쉬따쉬 깐싸다, 바이."
   },
   {
    "speaker": "A",
    "tl": "Eu ouvi «sim, mãe, já vou».",
    "ko": "「응, 엄마, 지금 가」 들었는데.",
-   "note": "ouvi = 들었다(ouvir 완료과거) · já vou = 지금 가(통화 말)",
+   "note": "ouvi = 들었다 · já vou = 지금 가",
    "tags": [
     "form:perfeito"
    ],
@@ -74,9 +74,9 @@
   },
   {
    "speaker": "B",
-   "tl": "Pois... ouviste bem. Estou a falar com a minha mãe.",
+   "tl": "Pois... ouviste bem. Estou a falar com a mãe.",
    "ko": "그게… 제대로 들었어. 엄마랑 통화 중이야.",
-   "note": "pois = 그게, 응(얼버무릴 때), ouviste = 네가 들었다(ouvi ↔ ouviste)",
+   "note": "pois = 그게 · ouviste = (너) 들었다",
    "tags": [
     "expr:pois",
     "form:estar-a",
@@ -84,25 +84,25 @@
    ],
    "emotion": "stiff",
    "num": 4,
-   "rd": "뽀이쉬... 오우비쉬뜨 벵. 이쉬또우 아 팔라르 꽁 아 밍야 마잉."
+   "rd": "뽀이쉬... 오우비쉬뜨 벵. 이쉬또우 아 팔라르 꽁 아 마잉."
   },
   {
    "speaker": "A",
-   "tl": "Com a tua mãe? Ela fala a esta hora?",
-   "ko": "너희 엄마랑? 엄마가 이 시간에 통화를 해?",
-   "note": "ela fala = 그녀가 말한다(falo·falas·fala)",
+   "tl": "Com a tua mãe? Ela fala agora?",
+   "ko": "너희 엄마랑? 엄마가 지금 말해?",
+   "note": "ela fala = (그녀) 말해",
    "tags": [
     "form:falar"
    ],
    "emotion": "surprised",
    "num": 5,
-   "rd": "꽁 아 뚜아 마잉? 엘라 팔라 아 에쉬따 오라?"
+   "rd": "꽁 아 뚜아 마잉? 엘라 팔라 아고라?"
   },
   {
    "speaker": "B",
-   "tl": "Fala. Ela está no carro... e já está à porta!",
+   "tl": "Fala. Ela está no carro... e já à porta!",
    "ko": "하지. 엄마 차에 계셔… 그리고 벌써 문 앞이야!",
-   "note": "está à porta = 문 앞에 있다(estou·estás·está) · carro = 차",
+   "note": "está = (그녀) 있다 · à porta = 문 앞에",
    "tags": [
     "twist",
     "form:estar"
@@ -114,29 +114,29 @@
     ],
     [
      "worried",
-     " Ela está no carro... e já está à porta!"
+     " Ela está no carro... e já à porta!"
     ]
    ],
    "num": 6,
-   "rd": "팔라. 엘라 이쉬따 누 까후... 이 자 이쉬따 아 뽀르따!"
+   "rd": "팔라. 엘라 이쉬따 누 까후... 이 자 아 뽀르따!"
   },
   {
    "speaker": "A",
-   "tl": "À porta?! Agora? E a sala está assim!",
+   "tl": "À porta?! Agora? A sala está assim!",
    "ko": "문 앞?! 지금? 거실 이 꼴인데!",
-   "note": "sala = 거실",
+   "note": "está = 상태다 · sala = 거실",
    "tags": [
     "form:estar"
    ],
    "emotion": "shout",
    "num": 7,
-   "rd": "아 뽀르따?! 아고라? 이 아 쌀라 이쉬따 아씽!"
+   "rd": "아 뽀르따?! 아고라? 아 쌀라 이쉬따 아씽!"
   },
   {
    "speaker": "B",
    "tl": "Pois é. Ajuda-me, vá lá! Ela acha que sou arrumado.",
    "ko": "그러니까. 좀 도와줘, 제발! 엄마는 내가 깔끔한 줄 알아.",
-   "note": "ajuda-me = 도와줘(접어는 동사 뒤) · arrumado = 깔끔한",
+   "note": "pois é = 그러니까 · vá lá = 제발 · ajuda-me = 도와줘",
    "tags": [
     "expr:pois é",
     "expr:vá lá"

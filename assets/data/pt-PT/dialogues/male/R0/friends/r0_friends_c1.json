@@ -37,47 +37,46 @@
  "turns": [
   {
    "speaker": "B",
-   "tl": "Epá, estás a ver isto?!",
-   "ko": "야, 이거 보고 있어?!",
-   "note": "estás a ver = 보고 있어 (estar a + 원형)",
+   "tl": "Epá, estás a ver?!",
+   "ko": "야, 보고 있어?!",
+   "note": "estás a ver = 보고 있다",
    "tags": [
     "expr:epá",
     "form:estar a"
    ],
-   "emotion": "excited",
    "ui": "bubble",
    "at": "21:03",
+   "emotion": "excited",
    "num": 1,
-   "rd": "에빠, 이쉬따즈 아 베르 이쉬뚜?!"
+   "rd": "에빠, 이쉬따즈 아 베르?!"
   },
   {
    "speaker": "A",
    "tl": "Ver o quê, pá?",
-   "ko": "뭘 봐, 인마?",
-   "note": "o quê? = 뭐?",
+   "ko": "뭘 봐, 야?",
+   "note": "o quê = 뭐 · pá = 야",
    "tags": [
     "expr:pá"
    ],
-   "emotion": "neutral",
    "ui": "bubble",
    "at": "21:03",
+   "emotion": "neutral",
    "num": 2,
    "rd": "베르 우 께, 빠?"
   },
   {
    "speaker": "B",
-   "tl": "Olha! Vês? Agora, agora!",
-   "ko": "봐! 보여? 지금, 지금!",
-   "note": "olha = 봐 · vês? = (너) 보여?",
+   "tl": "Isto! Vês o gajo?",
+   "ko": "이거! 그 놈 보여?",
+   "note": "vês = (너) 보다",
    "tags": [
-    "expr:olha",
     "form:ver"
    ],
-   "emotion": "shout",
    "ui": "bubble",
    "at": "21:03",
+   "emotion": "shout",
    "num": 3,
-   "rd": "올랴! 베쉬? 아고라, 아고라!"
+   "rd": "이쉬뚜! 베즈 우 가주?"
   },
   {
    "speaker": "A",
@@ -85,8 +84,11 @@
    "ko": "알았어, 알았어… 보고 있어.",
    "note": "tá bem = 알았어",
    "tags": [
-    "expr:tá bem"
+    "expr:tá bem",
+    "form:estar a"
    ],
+   "ui": "bubble",
+   "at": "21:04",
    "segs": [
     [
      "annoyed",
@@ -97,40 +99,38 @@
      " estou a ver."
     ]
    ],
-   "ui": "bubble",
-   "at": "21:04",
    "num": 4,
    "rd": "따 벵, 따 벵... 이쉬또우 아 베르."
   },
   {
    "speaker": "B",
    "tl": "É o meu pai, pá! Lá!",
-   "ko": "우리 아빠야! 저기!",
-   "note": "o meu pai = 우리 아빠",
+   "ko": "우리 아빠야, 야! 저기!",
+   "note": "o meu pai = 우리 아빠 · pá = 야",
    "tags": [
     "twist",
     "expr:pá"
    ],
-   "emotion": "shout",
    "ui": "bubble",
    "at": "21:04",
+   "emotion": "shout",
    "num": 5,
    "rd": "에 우 메우 빠이, 빠! 라!"
   },
   {
    "speaker": "A",
-   "tl": "A sério?! Ele está a... dançar?",
-   "ko": "진짜?! 아빠가… 춤추는 거야?",
-   "note": "dançar = 춤추다 (상한 밖 낱말)",
+   "tl": "A sério?! Está a dançar?",
+   "ko": "진짜?! 춤추고 있어?",
+   "note": "a sério? = 진짜? · dançar = 춤추다",
    "tags": [
     "expr:a sério?",
     "form:estar a"
    ],
-   "emotion": "surprised",
    "ui": "bubble",
    "at": "21:04",
+   "emotion": "surprised",
    "num": 6,
-   "rd": "아 쎄리우?! 엘르 이쉬따 아... 단싸르?"
+   "rd": "아 쎄리우?! 이쉬따 아 단싸르?"
   }
  ]
 }

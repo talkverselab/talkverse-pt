@@ -17,12 +17,12 @@
   "goal":"짧은 채팅 덩어리로 답하기 — 「tudo bem?」「a sério?」「pronto」",
   "expressions":["tudo bem?", "a sério?", "é que"],
   "turns":[
-   {"speaker": "B", "tl": "Olá! Estás em casa?", "ko": "안녕! 집이야?", "note": "Estás em casa? = 집에 있어?", "tags": ["form:estar"], "emotion": "cheerful", "ui": "bubble", "at": "23:41"},
-   {"speaker": "A", "tl": "Estou. Queres o quê?", "ko": "응. 뭐 필요해?", "note": "queres = (너는) 원하다 (queria 와 같은 querer)", "tags": ["expr:tudo bem?", "form:querer"], "emotion": "neutral", "ui": "bubble", "at": "23:41"},
-   {"speaker": "B", "tl": "Vem à minha casa. Agora!", "ko": "우리 집으로 와. 지금!", "note": "vem = 와(tu 에게 하는 말)", "tags": ["form:vir"], "emotion": "excited", "ui": "bubble", "at": "23:42"},
-   {"speaker": "A", "tl": "A sério? Vou já!", "ko": "진짜? 바로 갈게!", "note": "a sério? = 진짜?, vou já = 금방 갈게", "tags": ["expr:a sério?"], "segs": [["surprised", "A sério?"], ["excited", " Vou já!"]], "ui": "bubble", "at": "23:42"},
-   {"speaker": "B", "tl": "É que há uma barata aqui!", "ko": "그게, 여기 바퀴벌레가 있거든!", "note": "barata = 바퀴벌레 (상한 밖 낱말)", "tags": ["twist", "expr:pronto"], "emotion": "shout", "ui": "bubble", "at": "23:42"},
-   {"speaker": "B", "tl": "E... também te queria ver.", "ko": "그리고… 너도 보고 싶었어.", "note": "te queria ver = 너를 보고 싶었어(부드러운 반과거)", "tags": ["heart", "expr:pronto"], "emotion": "shy", "ui": "bubble", "at": "23:43"}
+   {"speaker": "B", "tl": "Tudo bem? Estás em casa?", "ko": "괜찮아? 집이야?", "note": "tudo bem? = 괜찮아 · estás = (너) 있어", "tags": ["expr:tudo bem?", "form:estar"], "ui": "bubble", "at": "23:41", "emotion": "cheerful"},
+   {"speaker": "A", "tl": "Estou sim. Porquê?", "ko": "응, 있어. 왜?", "note": "estou = (나) 있어", "tags": ["form:estar"], "ui": "bubble", "at": "23:41", "emotion": "neutral"},
+   {"speaker": "B", "tl": "Vem cá agora. Já!", "ko": "지금 와. 바로!", "note": "vem = 와 · já = 바로", "tags": ["form:vir"], "ui": "bubble", "at": "23:42", "emotion": "excited"},
+   {"speaker": "A", "tl": "A sério? Vou já.", "ko": "진짜? 바로 갈게.", "note": "a sério? = 진짜 · vou = (나) 가다", "tags": ["expr:a sério?"], "ui": "bubble", "at": "23:42", "segs": [["surprised", "A sério?"], ["excited", " Vou já."]]},
+   {"speaker": "B", "tl": "É que há uma barata!", "ko": "그게, 바퀴벌레 있어!", "note": "é que = 그게 · há = 있다 · barata = 바퀴벌레", "tags": ["twist", "expr:é que"], "ui": "bubble", "at": "23:42", "emotion": "shout"},
+   {"speaker": "B", "tl": "Mas também quero ver-te.", "ko": "근데 너도 보고 싶어.", "note": "quero = (나) 원하다 · ver-te = 너를 보다", "tags": ["heart"], "ui": "bubble", "at": "23:43", "emotion": "shy"}
   ]},
  {"id":"r0_friends_c1",
   "region":"R0",
@@ -42,12 +42,12 @@
   "goal":"짧은 채팅으로 받아치기 — 「epá」「pá」「tá bem」「a sério?」",
   "expressions":["epá", "pá", "tá bem", "a sério?"],
   "turns":[
-   {"speaker": "B", "tl": "Epá, estás a ver isto?!", "ko": "야, 이거 보고 있어?!", "note": "estás a ver = 보고 있어 (estar a + 원형)", "tags": ["expr:epá", "form:estar a"], "emotion": "excited", "ui": "bubble", "at": "21:03"},
-   {"speaker": "A", "tl": "Ver o quê, pá?", "ko": "뭘 봐, 인마?", "note": "o quê? = 뭐?", "tags": ["expr:pá"], "emotion": "neutral", "ui": "bubble", "at": "21:03"},
-   {"speaker": "B", "tl": "Olha! Vês? Agora, agora!", "ko": "봐! 보여? 지금, 지금!", "note": "olha = 봐 · vês? = (너) 보여?", "tags": ["expr:olha", "form:ver"], "emotion": "shout", "ui": "bubble", "at": "21:03"},
-   {"speaker": "A", "tl": "Tá bem, tá bem... estou a ver.", "ko": "알았어, 알았어… 보고 있어.", "note": "tá bem = 알았어", "tags": ["expr:tá bem"], "segs": [["annoyed", "Tá bem, tá bem..."], ["neutral", " estou a ver."]], "ui": "bubble", "at": "21:04"},
-   {"speaker": "B", "tl": "É o meu pai, pá! Lá!", "ko": "우리 아빠야! 저기!", "note": "o meu pai = 우리 아빠", "tags": ["twist", "expr:pá"], "emotion": "shout", "ui": "bubble", "at": "21:04"},
-   {"speaker": "A", "tl": "A sério?! Ele está a... dançar?", "ko": "진짜?! 아빠가… 춤추는 거야?", "note": "dançar = 춤추다 (상한 밖 낱말)", "tags": ["expr:a sério?", "form:estar a"], "emotion": "surprised", "ui": "bubble", "at": "21:04"}
+   {"speaker": "B", "tl": "Epá, estás a ver?!", "ko": "야, 보고 있어?!", "note": "estás a ver = 보고 있다", "tags": ["expr:epá", "form:estar a"], "ui": "bubble", "at": "21:03", "emotion": "excited"},
+   {"speaker": "A", "tl": "Ver o quê, pá?", "ko": "뭘 봐, 야?", "note": "o quê = 뭐 · pá = 야", "tags": ["expr:pá"], "ui": "bubble", "at": "21:03", "emotion": "neutral"},
+   {"speaker": "B", "tl": "Isto! Vês o gajo?", "ko": "이거! 그 놈 보여?", "note": "vês = (너) 보다", "tags": ["form:ver"], "ui": "bubble", "at": "21:03", "emotion": "shout"},
+   {"speaker": "A", "tl": "Tá bem, tá bem... estou a ver.", "ko": "알았어, 알았어… 보고 있어.", "note": "tá bem = 알았어", "tags": ["expr:tá bem", "form:estar a"], "ui": "bubble", "at": "21:04", "segs": [["annoyed", "Tá bem, tá bem..."], ["neutral", " estou a ver."]]},
+   {"speaker": "B", "tl": "É o meu pai, pá! Lá!", "ko": "우리 아빠야, 야! 저기!", "note": "o meu pai = 우리 아빠 · pá = 야", "tags": ["twist", "expr:pá"], "ui": "bubble", "at": "21:04", "emotion": "shout"},
+   {"speaker": "A", "tl": "A sério?! Está a dançar?", "ko": "진짜?! 춤추고 있어?", "note": "a sério? = 진짜? · dançar = 춤추다", "tags": ["expr:a sério?", "form:estar a"], "ui": "bubble", "at": "21:04", "emotion": "surprised"}
   ]},
  {"id":"r0_love_a1",
   "region":"R0",
@@ -67,12 +67,12 @@
   "goal":"처음 말을 걸어 오는 사람에게 짧게 답하기 — 「olha」「a sério?」「vá lá」",
   "expressions":["olha", "a sério?", "então", "vá lá"],
   "turns":[
-   {"speaker": "B", "tl": "Olha, tu és {o|a} {name}?", "ko": "저기, 네가 {name}이지?", "note": "és = 너는 ~이다 (ser)", "tags": ["expr:olha", "form:ser"], "emotion": "cheerful"},
-   {"speaker": "A", "tl": "Sim, sou eu. Porquê?", "ko": "응, 나야. 왜?", "note": "porquê? = 왜?", "tags": ["form:ser"], "emotion": "surprised"},
-   {"speaker": "B", "tl": "A Inês fala muito de ti.", "ko": "Inês가 네 얘기 엄청 해.", "note": "fala de ti = 네 얘기를 해", "tags": ["form:falar"], "emotion": "teasing"},
-   {"speaker": "A", "tl": "A sério? E diz o quê?", "ko": "진짜? 뭐라고 하는데?", "note": "diz = 말해 (dizer)", "tags": ["expr:a sério?"], "emotion": "flustered"},
-   {"speaker": "B", "tl": "Nada. Eu é que falo de ti.", "ko": "아무 말도. 사실 네 얘기 하는 건 나야.", "note": "eu é que falo = 말하는 건 나야(fala → falo)", "tags": ["twist", "form:falar"], "segs": [["amused", "Nada."], ["shy", " Eu é que falo de ti."]]},
-   {"speaker": "B", "tl": "Então... vens comigo? Vá lá.", "ko": "그럼… 나랑 갈래? 응?", "note": "vens comigo? = 나랑 갈래?, vá lá = 에이, 가자", "tags": ["heart", "expr:então", "expr:vá lá"], "emotion": "gentle"}
+   {"speaker": "B", "tl": "Olha, tu és {o|a} {name}?", "ko": "저기, 네가 {name}이지?", "note": "és = 너는 ~이다 · olha = 저기", "tags": ["expr:olha", "form:ser"], "emotion": "cheerful"},
+   {"speaker": "A", "tl": "Sou eu, sim. Porquê?", "ko": "나야, 응. 왜?", "note": "sou = (나) ~이다 · porquê = 왜", "tags": ["form:ser"], "emotion": "surprised"},
+   {"speaker": "B", "tl": "A Inês fala bué de ti.", "ko": "Inês가 너 얘기 엄청 해.", "note": "fala de ti = 너 얘기를 해 · bué = 엄청", "tags": ["form:falar"], "emotion": "teasing"},
+   {"speaker": "A", "tl": "A sério? Diz o quê?", "ko": "진짜? 뭐라고 해?", "note": "a sério? = 진짜? · diz = 말해", "tags": ["expr:a sério?", "form:dizer"], "emotion": "flustered"},
+   {"speaker": "B", "tl": "Nada. Eu falo de ti.", "ko": "아무 말. 사실 내가 너 얘기 해.", "note": "eu falo = 내가 말해 · nada = 아무것도", "tags": ["twist", "form:falar"], "segs": [["amused", "Nada."], ["shy", " Eu falo de ti."]]},
+   {"speaker": "B", "tl": "Então, vens? Vá lá.", "ko": "그럼, 갈래? 가자.", "note": "então = 그럼 · vens = (너) 오다 · vá lá = 가자", "tags": ["heart", "expr:então", "expr:vá lá"], "emotion": "gentle"}
   ]},
  {"id":"r0_life_a1",
   "region":"R0",
@@ -92,12 +92,12 @@
   "goal":"놀란 말에 짧게 받아치기 — 「epá」「pois é」",
   "expressions":["epá", "pois é"],
   "turns":[
-   {"speaker": "B", "tl": "Epá! Quem fez isto?", "ko": "헐! 이거 누가 했어?", "note": "quem fez? = 누가 했어?", "tags": ["expr:epá", "form:fazer"], "emotion": "surprised"},
-   {"speaker": "A", "tl": "Eu? Não fiz nada.", "ko": "나? 아무것도 안 했어.", "note": "fiz = (내가) 했다 · nada = 아무것도", "tags": ["form:fazer"], "emotion": "neutral"},
-   {"speaker": "B", "tl": "A casa está muito bem!", "ko": "집이 완전 멀쩡해!", "note": "está muito bem = 아주 좋아", "tags": ["form:estar"], "emotion": "shout"},
-   {"speaker": "A", "tl": "Pois é. Não fui eu.", "ko": "그러게. 난 아니야.", "note": "pois é = 그러게, fui = 내가 ~였다 (ser)", "tags": ["expr:pois é"], "emotion": "tsukkomi"},
-   {"speaker": "B", "tl": "Foi a Inês? A Beatriz?", "ko": "Inês야? Beatriz야?", "note": "foi = ~였어 (ser)", "tags": ["form:ser"], "emotion": "worried"},
-   {"speaker": "A", "tl": "Foi o teu pai. Ainda está aqui.", "ko": "너네 아빠. 아직 여기 계셔.", "note": "o teu pai = 너네 아빠, ainda = 아직", "tags": ["twist"], "segs": [["neutral", "Foi o teu pai."], ["worried", " Ainda está aqui."]]}
+   {"speaker": "B", "tl": "Epá! Quem limpou isto?", "ko": "헐! 이거 누가 치웠어?", "note": "quem limpou = 누가 치웠어 · epá = 헐", "tags": ["expr:epá", "form:limpar"], "emotion": "surprised"},
+   {"speaker": "A", "tl": "Eu não. Não fiz.", "ko": "나 아냐. 안 했어.", "note": "fiz = (내가) 했다", "tags": ["form:fazer"], "emotion": "neutral"},
+   {"speaker": "B", "tl": "Está tão limpa!", "ko": "너무 깨끗해!", "note": "está = 상태다 · limpa = 깨끗한", "tags": ["form:estar"], "emotion": "shout"},
+   {"speaker": "A", "tl": "Pois é. Não fui eu.", "ko": "그러게. 난 아니야.", "note": "pois é = 그러게 · fui = (내가) ~였다", "tags": ["expr:pois é", "form:ser"], "emotion": "tsukkomi"},
+   {"speaker": "B", "tl": "Foi a Inês então?", "ko": "그럼 Inês야?", "note": "foi = ~였다", "tags": ["form:ser"], "emotion": "worried"},
+   {"speaker": "A", "tl": "Foi o teu pai. Ainda está cá.", "ko": "너네 아빠야. 아직 여기 있어.", "note": "o teu pai = 너네 아빠 · ainda = 아직", "tags": ["twist"], "segs": [["neutral", "Foi o teu pai."], ["worried", " Ainda está cá."]]}
   ]},
  {"id":"r0_love_c2",
   "region":"R0",
@@ -117,12 +117,12 @@
   "goal":"약속이 바뀔 때 짧게 답하기 — 「afinal」「não faz mal」「fixe」「quer dizer」",
   "expressions":["afinal", "não faz mal", "fixe", "então", "quer dizer", "pronto"],
   "turns":[
-   {"speaker": "B", "tl": "Afinal não posso ir!", "ko": "나 결국 못 가!", "note": "afinal = 결국, 알고 보니", "tags": ["expr:afinal", "form:poder"], "emotion": "worried", "ui": "bubble", "at": "19:10"},
-   {"speaker": "A", "tl": "Tudo bem. Não faz mal.", "ko": "괜찮아. 신경 쓰지 마.", "note": "não faz mal = 괜찮아", "tags": ["expr:não faz mal"], "emotion": "gentle", "ui": "bubble", "at": "19:11"},
-   {"speaker": "B", "tl": "Vou para a praia, pá!", "ko": "나 바다 간다!", "note": "praia = 해변 (상한 밖 낱말)", "tags": ["form:ir"], "emotion": "excited", "ui": "bubble", "at": "19:11"},
-   {"speaker": "A", "tl": "Fixe! Então quando podes?", "ko": "좋네! 그럼 언제 돼?", "note": "fixe = 좋다 · podes = (너는) ~할 수 있다(posso ↔ podes)", "tags": ["expr:fixe", "expr:então", "form:poder"], "emotion": "cheerful", "ui": "bubble", "at": "19:12"},
-   {"speaker": "B", "tl": "Para ti, tenho sempre tempo.", "ko": "너한텐 시간 늘 있어.", "note": "tenho sempre tempo = 시간은 늘 있어", "tags": ["heart"], "emotion": "gentle", "ui": "bubble", "at": "19:12"},
-   {"speaker": "B", "tl": "Quer dizer... para todos! Pronto.", "ko": "아니 그러니까… 다들한테! 됐지.", "note": "quer dizer = 그러니까, 내 말은", "tags": ["twist", "expr:quer dizer", "expr:pronto"], "emotion": "flustered", "ui": "bubble", "at": "19:12"}
+   {"speaker": "B", "tl": "Afinal não posso hoje!", "ko": "나 결국 오늘 못 가!", "note": "afinal = 결국 · posso = (나) 할 수 있다", "tags": ["expr:afinal", "form:poder"], "ui": "bubble", "at": "19:10", "emotion": "worried"},
+   {"speaker": "A", "tl": "Tudo bem. Não faz mal.", "ko": "괜찮아. 신경 쓰지 마.", "note": "não faz mal = 괜찮아", "tags": ["expr:não faz mal"], "ui": "bubble", "at": "19:11", "emotion": "gentle"},
+   {"speaker": "B", "tl": "Vou para a praia agora!", "ko": "나 지금 바다 간다!", "note": "vou = (나) 가다 · praia = 해변", "tags": ["form:ir"], "ui": "bubble", "at": "19:11", "emotion": "excited"},
+   {"speaker": "A", "tl": "Fixe! Então quando podes?", "ko": "좋네! 그럼 언제 돼?", "note": "fixe = 좋다 · então = 그럼 · podes = (너) 할 수 있다", "tags": ["expr:fixe", "expr:então", "form:poder"], "ui": "bubble", "at": "19:12", "emotion": "cheerful"},
+   {"speaker": "B", "tl": "Para ti tenho sempre tempo.", "ko": "너한텐 시간 늘 있어.", "note": "tenho = (나) 가지다 · sempre = 항상", "tags": ["heart"], "ui": "bubble", "at": "19:12", "emotion": "gentle"},
+   {"speaker": "B", "tl": "Quer dizer... para todos! Pronto.", "ko": "아니 그러니까… 다들한테! 됐지.", "note": "quer dizer = 그러니까 · pronto = 됐지", "tags": ["twist", "expr:quer dizer", "expr:pronto"], "ui": "bubble", "at": "19:12", "emotion": "flustered"}
   ]},
  {"id":"r0_friends_a1",
   "region":"R0",
@@ -142,12 +142,12 @@
   "goal":"느긋한 친구에게 짧게 반응하기 — 「olha」「a sério?」「fixe」",
   "expressions":["olha", "a sério?", "pá", "fixe", "então"],
   "turns":[
-   {"speaker": "A", "tl": "Tiago, estás a fazer o quê?", "ko": "Tiago, 뭐 해?", "note": "estás a fazer o quê? = 뭐 하고 있어?", "tags": ["form:estar a"], "emotion": "amused"},
-   {"speaker": "B", "tl": "Olha... faço uma coisa para ti.", "ko": "있잖아… 너 주려고 뭐 만드는 중이야.", "note": "faço = (내가) 만들다 · coisa = 것", "tags": ["expr:olha", "form:fazer"], "emotion": "gentle"},
-   {"speaker": "A", "tl": "Para mim? És mesmo fixe!", "ko": "나한테? 너 진짜 멋지다!", "note": "és = (너는) ~이다 · fixe = 멋지다", "tags": ["expr:fixe", "form:ser"], "emotion": "surprised"},
-   {"speaker": "B", "tl": "Sim. É só para ti, pá.", "ko": "응. 너만을 위한 거야.", "note": "é para ti = 너를 위한 거야 · só = 오직, ~만", "tags": ["expr:pá", "form:ser"], "emotion": "gentle"},
-   {"speaker": "A", "tl": "Fixe! Então... já posso falar?", "ko": "멋지다! 그럼… 이제 말해도 돼?", "note": "já posso falar? = 이제 말해도 돼?", "tags": ["expr:fixe", "expr:então"], "emotion": "teasing"},
-   {"speaker": "B", "tl": "Ainda não podes. Mais uma vez.", "ko": "아직 안 돼. 한 번 더.", "note": "podes = (너는) ~할 수 있다 · mais uma vez = 한 번 더", "tags": ["twist", "form:poder"], "emotion": "amused"}
+   {"speaker": "A", "tl": "Tiago, o que estás a fazer?", "ko": "Tiago, 뭐 하고 있어?", "note": "estás a fazer = 하고 있다", "tags": ["form:estar a"], "emotion": "amused"},
+   {"speaker": "B", "tl": "Olha, faço isto para ti.", "ko": "봐, 이거 너 주려고 해.", "note": "olha = 봐 · faço = (내가) 하다", "tags": ["expr:olha", "form:fazer"], "emotion": "gentle"},
+   {"speaker": "A", "tl": "Para mim? A sério?", "ko": "나한테? 진짜?", "note": "a sério? = 진짜?", "tags": ["expr:a sério?"], "emotion": "surprised"},
+   {"speaker": "B", "tl": "Sim, pá. É fixe, não?", "ko": "응, 야. 멋지잖아?", "note": "pá = 야 · é = 이다 · fixe = 멋지다", "tags": ["expr:pá", "expr:fixe", "form:ser"], "emotion": "gentle"},
+   {"speaker": "A", "tl": "Fixe! Então já posso?", "ko": "멋지다! 그럼 이제 돼?", "note": "então = 그럼 · já posso = 이제 해도 돼?", "tags": ["expr:fixe", "expr:então", "form:poder"], "emotion": "teasing"},
+   {"speaker": "B", "tl": "Não podes. Mais uma.", "ko": "안 돼. 한 번 더.", "note": "podes = (너는) 할 수 있다 · mais uma = 한 번 더", "tags": ["twist", "form:poder"], "emotion": "amused"}
   ]},
  {"id":"r0_life_c1",
   "region":"R0",
@@ -167,14 +167,14 @@
   "goal":"채팅으로 집이야?·바로 갈게 주고받기, 놀라고 받아치기 — 「pois é」「vá lá」",
   "expressions":["pois é", "vá lá", "já"],
   "turns":[
-   {"speaker": "B", "tl": "Estás em casa?", "ko": "집이야?", "note": "estás em casa? = 집에 있어?", "tags": ["form:estar"], "emotion": "cheerful", "ui": "bubble", "at": "10:02"},
-   {"speaker": "A", "tl": "Estou. Porquê?", "ko": "응. 왜?", "note": "estou = (나) 있어", "tags": ["form:estar"], "emotion": "neutral", "ui": "bubble", "at": "10:03"},
-   {"speaker": "B", "tl": "Vou já. Tenho uma coisa para ti.", "ko": "지금 갈게. 너 줄 거 있어.", "note": "vou já = 바로 갈게", "tags": ["form:ir", "form:ter"], "emotion": "excited", "ui": "bubble", "at": "10:03"},
-   {"speaker": "A", "tl": "Para mim? Tens o quê?", "ko": "나한테? 뭔데?", "note": "tens = (너는) 가지고 있다 · o quê? = 뭐?", "tags": ["form:ter"], "emotion": "surprised", "ui": "bubble", "at": "10:03"},
-   {"speaker": "B", "tl": "A tua chave. Ficou cá ontem.", "ko": "네 열쇠. 어제 우리 집에 두고 갔어.", "note": "chave = 열쇠(상한 밖 낱말) · ficou = 남았다", "tags": ["twist", "form:ficar"], "emotion": "teasing", "ui": "bubble", "at": "10:04"},
-   {"speaker": "A", "tl": "A minha chave? Então a porta...", "ko": "내 열쇠? 그럼 문은…", "note": "então = 그럼", "tags": ["expr:então"], "emotion": "worried", "ui": "bubble", "at": "10:04"},
-   {"speaker": "B", "tl": "Está aberta desde ontem? 😂", "ko": "어제부터 열려 있었던 거야? 😂", "note": "está aberta = 열려 있다", "tags": ["form:estar"], "emotion": "amused", "ui": "bubble", "at": "10:05"},
-   {"speaker": "A", "tl": "Pois é! Vem já, vá lá!", "ko": "그러게! 빨리 와, 제발!", "note": "pois é = 그러게 · vá lá = 제발, 어서", "tags": ["expr:pois é", "expr:vá lá"], "segs": [["flustered", "Pois é!"], ["shout", " Vem já, vá lá!"]], "ui": "bubble", "at": "10:05"}
+   {"speaker": "B", "tl": "Estás em casa agora?", "ko": "지금 집이야?", "note": "estás em casa = 집에 있어", "tags": ["form:estar"], "ui": "bubble", "at": "10:02", "emotion": "cheerful"},
+   {"speaker": "A", "tl": "Estou sim. Porquê?", "ko": "응, 있어. 왜?", "note": "estou = (나) 있어", "tags": ["form:estar"], "ui": "bubble", "at": "10:03", "emotion": "neutral"},
+   {"speaker": "B", "tl": "Já vou aí. Tenho para ti.", "ko": "바로 갈게. 너 줄게 있어.", "note": "já vou = 바로 가다 · tenho = 가지고 있다", "tags": ["expr:já", "form:ir", "form:ter"], "ui": "bubble", "at": "10:03", "emotion": "excited"},
+   {"speaker": "A", "tl": "Para mim? O que é?", "ko": "나한테? 뭐야?", "note": "o que é = 뭐야", "tags": ["form:ser"], "ui": "bubble", "at": "10:03", "emotion": "surprised"},
+   {"speaker": "B", "tl": "A tua chave. Ontem cá.", "ko": "네 열쇠. 어제 여기.", "note": "chave = 열쇠 · cá = 여기", "tags": ["twist", "form:ficar"], "ui": "bubble", "at": "10:04", "emotion": "teasing"},
+   {"speaker": "A", "tl": "A chave?! A porta...", "ko": "열쇠?! 문은...", "note": "a chave = 열쇠", "tags": ["form:ser"], "ui": "bubble", "at": "10:04", "emotion": "worried"},
+   {"speaker": "B", "tl": "Está aberta desde ontem. 😂", "ko": "어제부터 열려 있어. 😂", "note": "está aberta = 열려 있다", "tags": ["form:estar"], "ui": "bubble", "at": "10:05", "emotion": "amused"},
+   {"speaker": "A", "tl": "Pois é! Vem já, vá lá!", "ko": "그러게! 빨리 와, 제발!", "note": "pois é = 그러게 · vá lá = 제발 · já = 바로", "tags": ["expr:pois é", "expr:vá lá", "expr:já"], "ui": "bubble", "at": "10:05", "segs": [["flustered", "Pois é!"], ["shout", " Vem já, vá lá!"]]}
   ]},
  {"id":"r0_love_a2",
   "region":"R0",
@@ -194,11 +194,11 @@
   "goal":"다가오는 말에 짧게 답하기 — 「então」「a sério?」「pois」",
   "expressions":["então", "a sério?", "pois"],
   "turns":[
-   {"speaker": "B", "tl": "Então, tu não falas comigo?", "ko": "뭐야, 나랑은 말 안 해?", "note": "falas comigo = 나랑 말해", "tags": ["expr:então", "form:falar"], "emotion": "teasing"},
-   {"speaker": "A", "tl": "Eu? Falo, falo!", "ko": "나? 해, 하지!", "note": "falo = 나는 말한다", "tags": ["form:falar"], "emotion": "flustered"},
-   {"speaker": "B", "tl": "Há muito tempo que te vejo.", "ko": "너 오래전부터 봐 왔어.", "note": "há muito tempo que = 오래전부터", "tags": ["heart", "form:ver"], "emotion": "shy"},
-   {"speaker": "A", "tl": "A sério? Mas quem és tu?", "ko": "진짜? 근데 너 누구야?", "note": "quem és tu? = 너 누구야? (sou ↔ és)", "tags": ["expr:a sério?", "form:ser"], "emotion": "surprised"},
-   {"speaker": "B", "tl": "Pois... sou a tua vizinha.", "ko": "그게… 나 너네 옆집이야.", "note": "vizinha = 이웃 (여) (상한 밖 낱말)", "tags": ["twist", "expr:pois"], "emotion": "amused"},
-   {"speaker": "A", "tl": "Ah... então já sabes tudo.", "ko": "아… 그럼 다 알겠네.", "note": "já sabes tudo = 이미 다 알아", "tags": ["expr:então", "form:saber"], "emotion": "worried"}
+   {"speaker": "B", "tl": "Então, não falas comigo?", "ko": "뭐야, 나랑 말 안 해?", "note": "então = 뭐야 · falas = (너) 말해", "tags": ["expr:então", "form:falar"], "emotion": "teasing"},
+   {"speaker": "A", "tl": "Eu falo! Falo sim.", "ko": "나 해! 해, 하지.", "note": "falo = (나) 말해", "tags": ["form:falar"], "emotion": "flustered"},
+   {"speaker": "B", "tl": "Vejo-te há tempo.", "ko": "너 오래전부터 봐.", "note": "vejo-te = 너를 봐 · há tempo = 오래전부터", "tags": ["heart", "form:ver"], "emotion": "shy"},
+   {"speaker": "A", "tl": "A sério? Quem és tu?", "ko": "진짜? 너 누구야?", "note": "a sério? = 진짜? · és = (너) ~이다", "tags": ["expr:a sério?", "form:ser"], "emotion": "surprised"},
+   {"speaker": "B", "tl": "Pois, sou a vizinha.", "ko": "그게, 나 옆집이야.", "note": "pois = 그게 · vizinha = 이웃(여)", "tags": ["twist", "expr:pois"], "emotion": "amused"},
+   {"speaker": "A", "tl": "Ah... então sabes tudo.", "ko": "아… 그럼 다 아네.", "note": "então = 그럼 · sabes = (너) 알아", "tags": ["expr:então", "form:saber"], "emotion": "worried"}
   ]}
 ]

@@ -15,17 +15,17 @@
   "flags":["romance"],
   "goal":"처음 보는 또래와 tu 로 말 걸기, 「pois é」「afinal」 맞장구",
   "expressions":["pois é", "então", "afinal", "só"],
+  "cast":{"B": "ines"},
   "turns":[
-   {"speaker": "B", "tl": "Olá! Estás sozinh{o|a}?", "ko": "안녕! 혼자야?", "note": "sozinho/sozinha = 혼자(듣는 사람 성별에 맞춤)", "tags": ["form:estar"], "emotion": "teasing"},
-   {"speaker": "A", "tl": "Estou, sim. Porquê?", "ko": "응, 혼자야. 왜?", "note": "Estou, sim = 응 그래(동사를 되풀이해 답한다)", "tags": ["form:answer-verb"], "emotion": "neutral"},
-   {"speaker": "B", "tl": "Porque estás a ler o menu há meia hora.", "ko": "메뉴를 30분째 읽고 있으니까.", "note": "estar a + 동사원형 = ~하고 있다(유럽판 진행형)", "tags": ["form:estar-a"], "emotion": "teasing"},
-   {"speaker": "A", "tl": "Pois é... não percebo nada. Está tudo em português!", "ko": "그러게… 하나도 모르겠어. 전부 포르투갈어야!", "note": "pois é = 그러게, 맞아, está = (그것이) ~이다(estou·estás·está)", "tags": ["expr:pois é", "form:estar"], "emotion": "flustered"},
-   {"speaker": "B", "tl": "Não percebes? Então eu ajudo. O que queres?", "ko": "모르겠어? 그럼 내가 도와줄게. 뭐 먹을래?", "note": "percebes = 너는 이해한다(percebo ↔ percebes), O que queres? = 뭐 원해?", "tags": ["expr:então", "form:perceber"], "emotion": "gentle"},
-   {"speaker": "A", "tl": "Quero um café. E o teu nome.", "ko": "커피 한 잔. 그리고 네 이름.", "note": "quero = 원해(queres ↔ quero)", "tags": ["twist", "form:querer"], "emotion": "shy"},
-   {"speaker": "B", "tl": "Ah! Afinal sabes falar! Que atrevid{o|a}!", "ko": "어머! 알고 보니 말 할 줄 아네! 대담한데!", "note": "afinal = 알고 보니, atrevido/atrevida = 대담한, 뻔뻔한(듣는 사람 성별에 맞춤)", "tags": ["expr:afinal", "form:gender-adj"], "emotion": "surprised"},
-   {"speaker": "A", "tl": "Só sei essa frase. Treinei em casa.", "ko": "그 문장만 알아. 집에서 연습했어.", "note": "só = ~만, sei = 나는 안다(sabes ↔ sei)", "tags": ["expr:só", "form:saber"], "emotion": "shy"}
-  ],
-  "cast":{"B": "ines"}},
+   {"speaker": "B", "tl": "Olá! Estás sozinh{o|a} aí?", "ko": "안녕! 거기 혼자야?", "note": "sozinh{o|a} = 혼자 (A 성별)", "tags": ["form:estar"], "emotion": "teasing"},
+   {"speaker": "A", "tl": "Estou, sim. Porquê perguntas?", "ko": "응, 혼자야. 왜 물어?", "note": "Estou, sim = 응 그래 (동사 반복 답)", "tags": ["form:answer-verb"], "emotion": "neutral"},
+   {"speaker": "B", "tl": "Porque estás a olhar o menu há tanto tempo.", "ko": "메뉴를 그렇게 오래 보고 있으니까.", "note": "estás a olhar = 보고 있다 (estar a)", "tags": ["form:estar-a"], "emotion": "teasing"},
+   {"speaker": "A", "tl": "Pois é... não percebo nada disto. Está tudo em português!", "ko": "그러게… 이것 하나도 모르겠어. 전부 포르투갈어야!", "note": "pois é = 그러게, está = 그것은 ~이다", "tags": ["expr:pois é", "form:estar"], "emotion": "flustered"},
+   {"speaker": "B", "tl": "Não percebes? Então eu explico. O que queres?", "ko": "모르겠어? 그럼 내가 설명해 줄게. 뭐 원해?", "note": "percebes = 너는 이해한다, queres = 너는 원한다", "tags": ["expr:então", "form:perceber"], "emotion": "gentle"},
+   {"speaker": "A", "tl": "Quero um café. E o teu nome.", "ko": "커피 하나. 그리고 네 이름.", "note": "quero = 나는 원한다 (queres ↔ quero)", "tags": ["twist", "form:querer"], "emotion": "shy"},
+   {"speaker": "B", "tl": "Ah! Afinal falas! Que atrevid{o|a}!", "ko": "어머! 알고 보니 말하네! 대담한데!", "note": "afinal = 알고 보니, atrevid{o|a} = 대담한 (A 성별)", "tags": ["expr:afinal", "form:gender-adj"], "emotion": "surprised"},
+   {"speaker": "A", "tl": "Só sei essa. Treinei em casa.", "ko": "그거만 알아. 집에서 연습했어.", "note": "só = ~만, sei = 나는 안다", "tags": ["expr:só", "form:saber"], "emotion": "shy"}
+  ]},
  {"id":"r2_friends_b1",
   "region":"R2",
   "island":"friends",
@@ -42,21 +42,21 @@
   "flags":[],
   "goal":"채팅 말투, 부가의문 「pois não?」, 과거형 sabia·disseste",
   "expressions":["pá", "pois não?", "não ligues", "aliás", "tá bem"],
+  "cast":{"B": "duarte", "C": "beatriz"},
   "turns":[
-   {"speaker": "A", "tl": "Duarte, a festa da Beatriz é às oito, certo?", "ko": "Duarte, Beatriz 파티 8시 맞지?", "note": "certo? = 맞지?", "tags": ["expr:certo"], "ui": "bubble", "at": "21:02", "emotion": "cheerful"},
-   {"speaker": "B", "tl": "Pá... a Beatriz está neste grupo.", "ko": "야… Beatriz 도 이 방에 있어.", "note": "pá = 야, 이봐(친구끼리 추임새)", "tags": ["expr:pá"], "ui": "bubble", "at": "21:02", "emotion": "worried"},
-   {"speaker": "A", "tl": "O quê?! Já apaguei. Ela não viu, pois não?", "ko": "뭐?! 바로 지웠어. 걔 못 봤지, 그치?", "note": "pois não? = 그렇지 않지?(부정문 뒤 확인)", "tags": ["expr:pois não"], "ui": "bubble", "at": "21:03", "segs": [["surprised", "O quê?!"], ["worried", "Já apaguei. Ela não viu, pois não?"]]},
-   {"speaker": "C", "tl": "Que festa? 👀", "ko": "무슨 파티? 👀", "note": "Que festa? = 무슨 파티?", "tags": [], "ui": "bubble", "at": "21:03", "segs": [["teasing", "Que festa? 👀", "Que festa?"]]},
+   {"speaker": "A", "tl": "Duarte, a festa da Beatriz é às oito, certo?", "ko": "Duarte, Beatriz 파티 8시 맞지?", "note": "certo? = 맞지?", "tags": [], "ui": "bubble", "at": "21:02", "segs": [["cheerful", "Duarte, a festa da Beatriz é às oito, certo?"]]},
+   {"speaker": "B", "tl": "Pá... a Beatriz está neste grupo.", "ko": "야… Beatriz도 이 방에 있어.", "note": "pá = 야", "tags": ["expr:pá"], "ui": "bubble", "at": "21:02", "emotion": "worried"},
+   {"speaker": "A", "tl": "O quê?! Já apaguei. Ela não viu, pois não?", "ko": "뭐?! 바로 지웠어. 걔 못 봤지, 그치?", "note": "pois não? = 그렇지 않지?", "tags": ["expr:pois não"], "ui": "bubble", "at": "21:03", "segs": [["surprised", "O quê?!"], ["worried", " Já apaguei. Ela não viu, pois não?"]]},
+   {"speaker": "C", "tl": "Que festa? 👀", "ko": "무슨 파티? 👀", "note": "", "tags": [], "ui": "bubble", "at": "21:03", "segs": [["teasing", "Que festa? 👀", "Que festa?"]]},
    {"speaker": "A", "tl": "Festa? Qual festa? Foi o corretor!", "ko": "파티? 무슨 파티? 자동 수정이 그랬어!", "note": "corretor = 자동 수정", "tags": [], "ui": "bubble", "at": "21:04", "emotion": "flustered"},
-   {"speaker": "C", "tl": "O corretor escreveu «às oito»?", "ko": "자동 수정이 「8시에」라고 썼어?", "note": "escreveu = 썼다(escrever 과거)", "tags": ["form:perfeito"], "ui": "bubble", "at": "21:04", "segs": [["teasing", "O corretor escreveu «às oito»?", "O corretor escreveu às oito?"]]},
-   {"speaker": "B", "tl": "Beatriz, não ligues. {O|A} {name} está cansad{o|a}.", "ko": "Beatriz, 신경 쓰지 마. {name} 피곤해서 그래.", "note": "não ligues = 신경 쓰지 마", "tags": ["expr:não ligues"], "ui": "bubble", "at": "21:05", "emotion": "polite"},
-   {"speaker": "C", "tl": "Tá bem. Então eu levo o bolo.", "ko": "알았어. 그럼 케이크는 내가 가져갈게.", "note": "tá bem = 알았어(está bem 의 구어)", "tags": ["expr:tá bem"], "ui": "bubble", "at": "21:05", "emotion": "amused"},
-   {"speaker": "A", "tl": "Espera... tu sabias?", "ko": "잠깐… 너 알고 있었어?", "note": "sabias = 알고 있었다(saber 반과거)", "tags": ["form:imperfeito"], "ui": "bubble", "at": "21:06", "emotion": "surprised"},
-   {"speaker": "C", "tl": "Sabia, pois. Aliás, a festa é para ti.", "ko": "알았지. 그보다, 그 파티 너 위한 거야.", "note": "aliás = 그보다, 게다가", "tags": ["expr:aliás", "twist"], "ui": "bubble", "at": "21:06", "segs": [["amused", "Sabia, pois."], ["teasing", "Aliás, a festa é para ti."]]},
-   {"speaker": "A", "tl": "Para mim?! Mas eu faço anos em março!", "ko": "나를?! 나 생일 3월인데!", "note": "fazer anos = 생일이다", "tags": ["expr:fazer anos"], "ui": "bubble", "at": "21:07", "emotion": "shout"},
-   {"speaker": "B", "tl": "Beatriz... tu disseste que era hoje.", "ko": "Beatriz… 네가 오늘이라며.", "note": "disseste = 네가 말했다(dizer 과거)", "tags": ["form:perfeito"], "ui": "bubble", "at": "21:07", "stamp": "😂", "emotion": "annoyed"}
-  ],
-  "cast":{"B": "duarte", "C": "beatriz"}},
+   {"speaker": "C", "tl": "O corretor escreveu «às oito»?", "ko": "자동 수정이 「8시에」라고 썼어?", "note": "escreveu = 썼다 (escrever 과거)", "tags": ["form:perfeito"], "ui": "bubble", "at": "21:04", "segs": [["teasing", "O corretor escreveu «às oito»?", "O corretor escreveu às oito?"]]},
+   {"speaker": "B", "tl": "Beatriz, não ligues. {O|A} {name} está cansad{o|a}.", "ko": "Beatriz, 신경 쓰지 마. {name} 피곤해서 그래.", "note": "não ligues = 신경 쓰지 마, cansad{o|a} = 피곤한 (A 성별)", "tags": ["expr:não ligues", "form:gender-adj"], "ui": "bubble", "at": "21:05", "emotion": "polite"},
+   {"speaker": "C", "tl": "Tá bem. Então eu levo o bolo.", "ko": "알았어. 그럼 케이크는 내가 가져갈게.", "note": "tá bem = 알았어", "tags": ["expr:tá bem"], "ui": "bubble", "at": "21:05", "emotion": "amused"},
+   {"speaker": "A", "tl": "Espera... tu sabias?", "ko": "잠깐… 너 알고 있었어?", "note": "sabias = 알고 있었다 (saber 반과거)", "tags": ["form:imperfeito"], "ui": "bubble", "at": "21:06", "emotion": "surprised"},
+   {"speaker": "C", "tl": "Sabia, pois. Aliás, a festa é para ti.", "ko": "알았지. 그보다, 그 파티 너 위한 거야.", "note": "aliás = 그보다", "tags": ["expr:aliás", "twist"], "ui": "bubble", "at": "21:06", "segs": [["amused", "Sabia, pois."], ["teasing", " Aliás, a festa é para ti."]]},
+   {"speaker": "A", "tl": "Para mim?! Mas eu faço anos em março!", "ko": "나를?! 나 생일 3월인데!", "note": "fazer anos = 생일이다", "tags": ["expr:fazer anos"], "ui": "bubble", "at": "21:07", "segs": [["shout", "Para mim?! Mas eu faço anos em março!"]]},
+   {"speaker": "B", "tl": "Beatriz... tu disseste que era hoje.", "ko": "Beatriz… 네가 오늘이라며.", "note": "disseste = 네가 말했다 (dizer 과거)", "tags": ["form:perfeito"], "ui": "bubble", "at": "21:07", "stamp": "😂", "emotion": "annoyed"}
+  ]},
  {"id":"r4_life_b1",
   "region":"R4",
   "island":"life",
@@ -73,6 +73,7 @@
   "flags":[],
   "goal":"관공서 존칭(3인칭), 「com certeza」「olhe」「espere lá」「não me diga」, 상대 성별에 맞춘 coitado/coitada",
   "expressions":["com certeza", "olhe", "coitado", "espere lá", "pois", "se calhar"],
+  "cast":{"B": "fernanda"},
   "turns":[
    {"speaker": "B", "tl": "Senha 147? Faça favor, sente-se. Em que posso ajudar?", "ko": "147번 번호표요? 앉으세요. 뭘 도와드릴까요?", "note": "senha = 번호표", "tags": ["expr:faça favor"], "segs": [["polite", "Senha 147? Faça favor, sente-se. Em que posso ajudar?", "Senha cento e quarenta e sete? Faça favor, sente-se. Em que posso ajudar?"]]},
    {"speaker": "A", "tl": "Bom dia. Preciso de um número de contribuinte para alugar um apartamento.", "ko": "안녕하세요. 아파트를 빌리려고 납세자 번호가 필요해요.", "note": "precisar de = ~이 필요하다", "tags": ["form:precisar de"], "emotion": "stiff"},
@@ -90,8 +91,7 @@
    {"speaker": "A", "tl": "Desde o ano passado?! E ninguém me disse nada?", "ko": "작년부터요?! 근데 아무도 말을 안 해 줬다고요?", "note": "me disse = 나에게 말했다", "tags": ["form:perfeito"], "emotion": "shout"},
    {"speaker": "B", "tl": "Se calhar disseram. Mandaram-lhe uma carta, em português. Coitad{o|a}.", "ko": "아마 말했겠죠. 편지를 보냈네요, 포르투갈어로요. 어쩌나.", "note": "se calhar = 아마 · mandaram-lhe = 당신께 보냈다", "tags": ["expr:se calhar", "expr:coitado"], "emotion": "teasing"},
    {"speaker": "A", "tl": "Acho que acabei de arranjar casa. E de perder duas semanas.", "ko": "저 방금 집 구한 것 같네요. 그리고 2주를 날린 것 같고요.", "note": "acabar de + 동사원형 = 방금 ~했다", "tags": ["form:acabar-de"], "segs": [["amused", "Acho que acabei de arranjar casa."], ["tsukkomi", " E de perder duas semanas."]]}
-  ],
-  "cast":{"B": "fernanda"}},
+  ]},
  {"id":"r4_work_b1",
   "region":"R4",
   "island":"work",
@@ -108,6 +108,7 @@
   "flags":[],
   "goal":"완곡 표현과 접속법(embora·talvez·caso), 인칭 부정사, 미래형 추측",
   "expressions":["com todo o respeito", "a sério?", "quer dizer", "pelo contrário", "não faço ideia"],
+  "cast":{"B": "marta"},
   "turns":[
    {"speaker": "B", "tl": "Antes de terminarmos, gostava de saber a sua opinião sobre a proposta, {name}.", "ko": "마치기 전에 제안서에 대한 {name} 씨 의견을 듣고 싶어요.", "note": "antes de terminarmos = 우리가 마치기 전에(인칭 부정사)", "tags": ["form:infinitivo-pessoal"], "emotion": "polite"},
    {"speaker": "A", "tl": "Com todo o respeito, acho que seria preferível adiarmos a decisão até termos mais dados.", "ko": "외람되지만, 자료가 더 모일 때까지 결정을 미루는 편이 나을 것 같습니다.", "note": "com todo o respeito = 외람되지만", "tags": ["expr:com todo o respeito", "form:condicional"], "emotion": "stiff"},
@@ -124,6 +125,5 @@
    {"speaker": "B", "tl": "Sobretudo o cliente. E, por incrível que pareça, adorou a expressão.", "ko": "특히 고객이요. 그리고 믿기 어렵겠지만, 그 표현을 아주 좋아했어요.", "note": "por incrível que pareça = 믿기 어렵겠지만", "tags": ["expr:por incrível que pareça"], "emotion": "amused"},
    {"speaker": "A", "tl": "Quer dizer que não vou ser despedid{o|a}?", "ko": "그럼 저 해고되는 건 아니라는 말씀인가요?", "note": "quer dizer = 그러니까, ~라는 말이다", "tags": ["expr:quer dizer"], "emotion": "stiff"},
    {"speaker": "B", "tl": "Pelo contrário. Quer que seja {o|a} {name} a apresentar o desastre. De gravata.", "ko": "오히려요. 그 재앙을 {name} 씨가 발표하길 바란답니다. 넥타이 매고.", "note": "pelo contrário = 오히려", "tags": ["expr:pelo contrário"], "emotion": "amused"}
-  ],
-  "cast":{"B": "marta"}}
+  ]}
 ]

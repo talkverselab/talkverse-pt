@@ -35,21 +35,22 @@
  "turns": [
   {
    "speaker": "A",
-   "tl": "Duarte? Estás bem? O que se passa?",
-   "ko": "Duarte? 괜찮아? 무슨 일이야?",
-   "note": "estás bem? = 너 괜찮아?(estar)",
+   "tl": "Duarte, pá. Estás bem? Há algo?",
+   "ko": "Duarte, 야. 괜찮아? 뭔가 있어?",
+   "note": "estás = 너는 (estar), há = 있다",
    "tags": [
-    "form:estar"
+    "form:estar",
+    "expr:pá"
    ],
    "emotion": "worried",
    "num": 1,
-   "rd": "두아르뜨? 이쉬따쉬 벵? 우 끄 쓰 빠싸?"
+   "rd": "두아르뜨, 빠. 이쉬따쉬 벵? 아 알구?"
   },
   {
    "speaker": "B",
-   "tl": "Não estou. Deixa-me, pá.",
-   "ko": "안 괜찮아. 내버려 둬.",
-   "note": "não estou = 안 괜찮아(동사로 답한다), deixa-me = 날 내버려 둬(접어는 동사 뒤)",
+   "tl": "Não estou. Deixa-me em paz, pá.",
+   "ko": "안 괜찮아. 제발 내버려 둬, 야.",
+   "note": "não estou = 안 괜찮아 (동사로 답), deixa-me = 날 내버려 둬 (접어 뒤)",
    "tags": [
     "form:answer-verb",
     "form:clitic",
@@ -57,79 +58,79 @@
    ],
    "emotion": "sad",
    "num": 2,
-   "rd": "나웅 이쉬또우. 데이샤 므, 빠."
+   "rd": "나웅 이쉬또우. 데이샤 므 앵 빠쉬, 빠."
   },
   {
    "speaker": "A",
-   "tl": "Morreu alguém? Fala comigo.",
-   "ko": "누가 죽었어? 말 좀 해 봐.",
-   "note": "morreu = 죽었다(morrer 완료과거)",
+   "tl": "Morreu alguém? Fala comigo já.",
+   "ko": "누가 죽었어? 지금 말해.",
+   "note": "morreu = 죽었다 (morrer 완료과거)",
    "tags": [
     "form:perfeito"
    ],
    "emotion": "worried",
    "num": 3,
-   "rd": "무헤우 알겡? 팔라 꾸미구."
+   "rd": "무헤우 알겡? 팔라 꾸미구 자."
   },
   {
    "speaker": "B",
-   "tl": "Morri eu. O meu clube perdeu hoje.",
-   "ko": "내가 죽었어. 우리 팀이 오늘 졌어.",
-   "note": "morri = 내가 죽었다(morreu ↔ morri), clube = 클럽, 팀(상한 밖 낱말), perdeu = 졌다",
+   "tl": "Eu morri. O clube perdeu o jogo.",
+   "ko": "내가 죽었어. 팀이 경기를 졌어.",
+   "note": "morri = 내가 죽었다 (1인칭), perdeu = 졌다 (perder)",
    "tags": [
     "form:perfeito"
    ],
    "emotion": "sad",
    "num": 4,
-   "rd": "무히 에우. 우 메우 끌루브 쁘르데우 오즈."
+   "rd": "에우 무히. 우 끌루브 쁘르데우 우 조구."
   },
   {
    "speaker": "A",
-   "tl": "Ah... é só isso? Pronto, pronto. Está tudo bem.",
-   "ko": "아… 그게 다야? 자, 자. 다 괜찮아.",
-   "note": "pronto, pronto = 자자, 됐어(달랠 때), está tudo bem = 다 괜찮다",
+   "tl": "Só o jogo? Pronto, pronto. Está tudo bem.",
+   "ko": "경기뿐이야? 자 자. 다 괜찮아.",
+   "note": "pronto, pronto = 자자 (달래기), está = 있다/괜찮아",
    "tags": [
     "expr:pronto",
     "form:estar"
    ],
    "emotion": "amused",
    "num": 5,
-   "rd": "아... 에 쏘 이쑤? 프론뚜, 프론뚜. 이쉬따 뚜두 벵."
+   "rd": "쏘 우 조구? 프론뚜, 프론뚜. 이쉬따 뚜두 벵."
   },
   {
    "speaker": "B",
-   "tl": "Só isso?! Estou a falar da minha vida, pá!",
-   "ko": "그게 다라니?! 내 인생 얘기라고!",
-   "note": "estar a falar de = ~에 대해 말하고 있다, a minha vida = 내 인생",
+   "tl": "O jogo?! Estou a falar da vida, pá!",
+   "ko": "경기라고?! 인생 얘기라고, 야!",
+   "note": "estou a falar = 말하고 있다 (estar a)",
    "tags": [
     "expr:pá",
     "form:estar-a"
    ],
    "emotion": "shout",
    "num": 6,
-   "rd": "쏘 이쑤?! 이쉬또우 아 팔라르 다 밍야 비다, 빠!"
+   "rd": "우 조구?! 이쉬또우 아 팔라르 다 비다, 빠!"
   },
   {
    "speaker": "A",
-   "tl": "Desculpa. Anda cá, eu fico contigo.",
-   "ko": "미안. 이리 와, 내가 옆에 있을게.",
-   "note": "fico contigo = 너랑 같이 있을게(ficar)",
+   "tl": "Desculpa. Vem cá. Eu fico contigo.",
+   "ko": "미안. 이리 와. 내가 너랑 있을게.",
+   "note": "fico = 남을게 (ficar)",
    "tags": [
     "form:ficar"
    ],
    "emotion": "gentle",
    "num": 7,
-   "rd": "드쉬꿀빠. 안다 까, 에우 피꾸 꼰띠구."
+   "rd": "드쉬꿀빠. 벵 까. 에우 피꾸 꼰띠구."
   },
   {
    "speaker": "B",
    "tl": "Obrigado... Espera. Estás animado? Tu és do outro clube!",
-   "ko": "고마워… 잠깐. 왜 신났어? 너 상대 팀 편이잖아!",
-   "note": "animado/animada = 신난(듣는 사람 성별에 맞춤), ser de = ~ 편이다(de + o = do)",
+   "ko": "고마워… 잠깐. 신났어? 너 상대 팀이야!",
+   "note": "animado = 신난 (A 성별), do = de+o 축약",
    "tags": [
     "twist",
-    "form:contraction",
-    "form:gender-adj"
+    "form:gender-adj",
+    "form:contraction"
    ],
    "segs": [
     [

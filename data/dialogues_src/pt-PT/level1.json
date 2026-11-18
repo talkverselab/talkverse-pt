@@ -17,14 +17,14 @@
   "goal":"estar a + 원형(진행), 완료과거 ouvi·ouviste, 통화 말 「já vou」, 「pá」「pois」「vá lá」로 얼버무리기",
   "expressions":["pá", "pois", "pois é", "vá lá"],
   "turns":[
-   {"speaker": "A", "tl": "Duarte? Estás a falar com quem?", "ko": "Duarte? 누구랑 얘기해?", "note": "estar a falar = 말하고 있다(유럽판 진행형)", "tags": ["form:estar-a"], "emotion": "annoyed"},
-   {"speaker": "B", "tl": "Com ninguém, pá! Estás cansad{o|a}, vai dormir.", "ko": "아무도 아냐! 너 피곤해서 그래, 가서 자.", "note": "pá = 야(친구끼리 추임새), cansado/cansada = 피곤한(듣는 사람 성별에 맞춤)", "tags": ["expr:pá", "form:gender-adj"], "emotion": "flustered"},
-   {"speaker": "A", "tl": "Eu ouvi «sim, mãe, já vou».", "ko": "「응, 엄마, 지금 가」 들었는데.", "note": "ouvi = 들었다(ouvir 완료과거) · já vou = 지금 가(통화 말)", "tags": ["form:perfeito"], "emotion": "teasing"},
-   {"speaker": "B", "tl": "Pois... ouviste bem. Estou a falar com a minha mãe.", "ko": "그게… 제대로 들었어. 엄마랑 통화 중이야.", "note": "pois = 그게, 응(얼버무릴 때), ouviste = 네가 들었다(ouvi ↔ ouviste)", "tags": ["expr:pois", "form:estar-a", "form:perfeito"], "emotion": "stiff"},
-   {"speaker": "A", "tl": "Com a tua mãe? Ela fala a esta hora?", "ko": "너희 엄마랑? 엄마가 이 시간에 통화를 해?", "note": "ela fala = 그녀가 말한다(falo·falas·fala)", "tags": ["form:falar"], "emotion": "surprised"},
-   {"speaker": "B", "tl": "Fala. Ela está no carro... e já está à porta!", "ko": "하지. 엄마 차에 계셔… 그리고 벌써 문 앞이야!", "note": "está à porta = 문 앞에 있다(estou·estás·está) · carro = 차", "tags": ["twist", "form:estar"], "segs": [["stiff", "Fala."], ["worried", " Ela está no carro... e já está à porta!"]]},
-   {"speaker": "A", "tl": "À porta?! Agora? E a sala está assim!", "ko": "문 앞?! 지금? 거실 이 꼴인데!", "note": "sala = 거실", "tags": ["form:estar"], "emotion": "shout"},
-   {"speaker": "B", "tl": "Pois é. Ajuda-me, vá lá! Ela acha que sou arrumado.", "ko": "그러니까. 좀 도와줘, 제발! 엄마는 내가 깔끔한 줄 알아.", "note": "ajuda-me = 도와줘(접어는 동사 뒤) · arrumado = 깔끔한", "tags": ["expr:pois é", "expr:vá lá"], "emotion": "flustered"}
+   {"speaker": "A", "tl": "Duarte? Estás a falar com quem?", "ko": "Duarte? 누구랑 얘기해?", "note": "estás a falar = 말하고 있다", "tags": ["form:estar-a"], "emotion": "annoyed"},
+   {"speaker": "B", "tl": "Com ninguém, pá! Estás cansad{o|a}, vai.", "ko": "아무도 아냐! 너 피곤해서 그래, 가.", "note": "pá = 야 · cansad{o|a} = 피곤한", "tags": ["expr:pá", "form:gender-adj"], "emotion": "flustered"},
+   {"speaker": "A", "tl": "Eu ouvi «sim, mãe, já vou».", "ko": "「응, 엄마, 지금 가」 들었는데.", "note": "ouvi = 들었다 · já vou = 지금 가", "tags": ["form:perfeito"], "emotion": "teasing"},
+   {"speaker": "B", "tl": "Pois... ouviste bem. Estou a falar com a mãe.", "ko": "그게… 제대로 들었어. 엄마랑 통화 중이야.", "note": "pois = 그게 · ouviste = (너) 들었다", "tags": ["expr:pois", "form:estar-a", "form:perfeito"], "emotion": "stiff"},
+   {"speaker": "A", "tl": "Com a tua mãe? Ela fala agora?", "ko": "너희 엄마랑? 엄마가 지금 말해?", "note": "ela fala = (그녀) 말해", "tags": ["form:falar"], "emotion": "surprised"},
+   {"speaker": "B", "tl": "Fala. Ela está no carro... e já à porta!", "ko": "하지. 엄마 차에 계셔… 그리고 벌써 문 앞이야!", "note": "está = (그녀) 있다 · à porta = 문 앞에", "tags": ["twist", "form:estar"], "segs": [["stiff", "Fala."], ["worried", " Ela está no carro... e já à porta!"]]},
+   {"speaker": "A", "tl": "À porta?! Agora? A sala está assim!", "ko": "문 앞?! 지금? 거실 이 꼴인데!", "note": "está = 상태다 · sala = 거실", "tags": ["form:estar"], "emotion": "shout"},
+   {"speaker": "B", "tl": "Pois é. Ajuda-me, vá lá! Ela acha que sou arrumado.", "ko": "그러니까. 좀 도와줘, 제발! 엄마는 내가 깔끔한 줄 알아.", "note": "pois é = 그러니까 · vá lá = 제발 · ajuda-me = 도와줘", "tags": ["expr:pois é", "expr:vá lá"], "emotion": "flustered"}
   ]},
  {"id":"r1_love_c1",
   "region":"R1",
@@ -71,14 +71,14 @@
   "goal":"vir·querer·saber 현재 tu/eu 활용, 시간 말 à tarde·à noite, 「fixe」「tá bem」",
   "expressions":["fixe", "tá bem", "então"],
   "turns":[
-   {"speaker": "B", "tl": "Bom dia! Estás acordad{o|a}? Hoje vens comigo à praia!", "ko": "좋은 아침! 깼어? 오늘 나랑 바다 가는 거야!", "note": "acordado/acordada = 깨어 있는(듣는 사람 성별에 맞춤), vens = 너 와(vir), praia = 해변(상한 밖 낱말)", "tags": ["form:vir", "form:gender-adj"], "emotion": "excited", "ui": "bubble", "at": "08:02"},
-   {"speaker": "A", "tl": "Quero! Fixe! A que horas?", "ko": "갈래! 좋아! 몇 시에?", "note": "quero = 원해(querer, 초대에 '응!'), fixe = 좋아, 멋져", "tags": ["expr:fixe", "form:querer"], "emotion": "cheerful", "ui": "bubble", "at": "08:05"},
-   {"speaker": "B", "tl": "Agora! Não, espera... à tarde.", "ko": "지금! 아니, 잠깐… 오후에.", "note": "à tarde = 오후에", "tags": [], "segs": [["excited", "Agora!"], ["flustered", " Não, espera... à tarde."]], "ui": "bubble", "at": "08:05"},
-   {"speaker": "A", "tl": "Tá bem. Então à tarde.", "ko": "알았어. 그럼 오후에.", "note": "tá bem = 알았어(está bem 의 구어)", "tags": ["expr:tá bem", "expr:então"], "emotion": "neutral", "ui": "bubble", "at": "08:06"},
-   {"speaker": "B", "tl": "Ou amanhã! Não... hoje à noite!", "ko": "아니면 내일! 아냐… 오늘 밤!", "note": "à noite = 밤에", "tags": [], "emotion": "excited", "ui": "bubble", "at": "08:10"},
-   {"speaker": "A", "tl": "Beatriz... estás bem? Sabes o que queres?", "ko": "Beatriz… 너 괜찮아? 뭘 원하는지 알긴 해?", "note": "sabes = 너는 안다(sei ↔ sabes), queres = 네가 원한다(quero ↔ queres)", "tags": ["form:querer", "form:estar"], "emotion": "tsukkomi", "ui": "bubble", "at": "08:11"},
-   {"speaker": "B", "tl": "Sei! E já estou na tua casa. 😎", "ko": "알지! 그리고 나 벌써 너희 집이야. 😎", "note": "na tua casa = 너희 집에(em + a)", "tags": ["twist", "form:contraction"], "segs": [["teasing", "Sei! E já estou na tua casa. 😎", "Sei! E já estou na tua casa."]], "ui": "bubble", "at": "08:11"},
-   {"speaker": "B", "tl": "O Duarte está comigo. Ele também vem!", "ko": "Duarte 도 나랑 있어. 걔도 간대!", "note": "está = 그가 있다(estou·estás·está), vem = 그가 온다(vens ↔ vem)", "tags": ["form:estar", "form:vir"], "emotion": "amused", "ui": "bubble", "at": "08:12"}
+   {"speaker": "B", "tl": "Bom dia! Estás acordad{o|a}? Vens hoje à praia?", "ko": "좋은 아침! 깼어? 오늘 바다 갈 거야?", "note": "acordad{o|a} = 깨어 있는 · vens = (너) 오다 · praia = 해변", "tags": ["form:vir", "form:gender-adj"], "ui": "bubble", "at": "08:02", "emotion": "excited"},
+   {"speaker": "A", "tl": "Quero sim! Fixe! A que horas?", "ko": "갈래! 좋아! 몇 시에?", "note": "quero = (나) 원하다 · fixe = 좋다", "tags": ["expr:fixe", "form:querer"], "ui": "bubble", "at": "08:05", "emotion": "cheerful"},
+   {"speaker": "B", "tl": "Agora já! Não, à tarde.", "ko": "지금 바로! 아니, 오후에.", "note": "à tarde = 오후에", "tags": [], "ui": "bubble", "at": "08:05", "segs": [["excited", "Agora já!"], ["flustered", " Não, à tarde."]]},
+   {"speaker": "A", "tl": "Tá bem. Então à tarde.", "ko": "알았어. 그럼 오후에.", "note": "tá bem = 알았어 · então = 그럼", "tags": ["expr:tá bem", "expr:então"], "ui": "bubble", "at": "08:06", "emotion": "neutral"},
+   {"speaker": "B", "tl": "Ou não... hoje à noite!", "ko": "아니면… 오늘 밤에!", "note": "à noite = 밤에", "tags": [], "ui": "bubble", "at": "08:10", "emotion": "excited"},
+   {"speaker": "A", "tl": "Sabes o que queres? Estás bem?", "ko": "뭘 원하는지 알아? 괜찮아?", "note": "sabes = (너) 안다 · queres = (너) 원하다", "tags": ["form:saber", "form:querer", "form:estar"], "ui": "bubble", "at": "08:11", "emotion": "tsukkomi"},
+   {"speaker": "B", "tl": "Sei! Já estou na tua casa. 😎", "ko": "알지! 벌써 너희 집이야. 😎", "note": "sei = (나) 안다 · estou = (나) 있다", "tags": ["twist", "form:saber", "form:estar"], "ui": "bubble", "at": "08:11", "emotion": "teasing"},
+   {"speaker": "B", "tl": "O Duarte vem comigo também!", "ko": "Duarte도 나랑 같이 가!", "note": "vem = (그) 오다", "tags": ["form:vir"], "ui": "bubble", "at": "08:12", "emotion": "amused"}
   ]},
  {"id":"r1_love_a2",
   "region":"R1",
@@ -98,14 +98,14 @@
   "goal":"precisar de·achar que, 듣는 사람 성별에 맞춘 coitado/coitada, 「pronto」",
   "expressions":["então", "fixe", "pois", "coitado", "pronto"],
   "turns":[
-   {"speaker": "B", "tl": "Preciso de ti, {name}. Agora!", "ko": "네가 필요해, {name}. 지금!", "note": "precisar de = ~이 필요하다", "tags": ["form:precisar de"], "emotion": "worried"},
-   {"speaker": "A", "tl": "O que foi? Precisas de quê?", "ko": "무슨 일이야? 뭐가 필요해?", "note": "precisas de = 너는 ~이 필요하다(preciso ↔ precisas)", "tags": ["form:precisar de"], "emotion": "worried"},
-   {"speaker": "B", "tl": "A minha mãe vem cá hoje à noite.", "ko": "우리 엄마가 오늘 밤에 여기 와.", "note": "vem cá = 여기 온다(vir)", "tags": ["form:vir"], "emotion": "worried"},
-   {"speaker": "A", "tl": "E então? Eu acho a tua mãe fixe.", "ko": "그래서? 난 너희 엄마 좋던데.", "note": "achar = ~라고 생각하다(acho), e então? = 그래서?", "tags": ["expr:então", "expr:fixe", "form:achar"], "emotion": "amused"},
-   {"speaker": "B", "tl": "Pois, mas ela acha que tenho namorad{o|a}.", "ko": "응, 근데 엄마는 내가 {남자친구|여자친구}가 있는 줄 알아.", "note": "namorado/namorada = 남자친구/여자친구(상한 밖 낱말)", "tags": ["expr:pois", "form:achar que"], "emotion": "flustered"},
-   {"speaker": "A", "tl": "Ah, tens? Coitad{o|a}! Quem é?", "ko": "아, 있어? 불쌍한 사람! 누군데?", "note": "tens = 너는 가지고 있다(tenho ↔ tens), coitado/coitada = 불쌍해라(그 사람 성별에 맞춤)", "tags": ["expr:coitado", "form:ter"], "emotion": "teasing"},
-   {"speaker": "B", "tl": "És tu. Disse o teu nome sem pensar.", "ko": "너야. 생각 없이 네 이름을 말해 버렸어.", "note": "disse = 내가 말했다(dizer 완료과거)", "tags": ["twist", "form:perfeito"], "segs": [["flustered", "És tu."], ["shy", " Disse o teu nome sem pensar."]]},
-   {"speaker": "A", "tl": "Pronto. E achas que amanhã também posso ser?", "ko": "알았어. 그럼 내일도 내가 해도 될까?", "note": "achas que = 너는 ~라고 생각해?(acho·achas·acha), posso ser = 내가 ~이어도 돼(poder + 원형)", "tags": ["expr:pronto", "form:poder", "form:achar que"], "emotion": "gentle"}
+   {"speaker": "B", "tl": "Preciso de ti agora, {name}. Vem!", "ko": "지금 네가 필요해, {name}. 와!", "note": "preciso de = 나는 ~이 필요하다", "tags": ["form:precisar de"], "emotion": "worried"},
+   {"speaker": "A", "tl": "O que se passa? Precisas de quê?", "ko": "무슨 일이야? 뭐가 필요해?", "note": "precisas de = 너는 ~이 필요하다 (preciso ↔ precisas)", "tags": ["form:precisar de"], "emotion": "worried"},
+   {"speaker": "B", "tl": "A minha mãe chega cá esta noite.", "ko": "우리 엄마가 오늘 밤 여기 도착해.", "note": "chega cá = 여기 도착한다 (chegar)", "tags": ["form:chegar"], "emotion": "worried"},
+   {"speaker": "A", "tl": "E então? Eu acho a tua mãe fixe.", "ko": "그래서? 난 너희 엄마 괜찮다고 생각해.", "note": "acho = 나는 ~라고 생각한다, e então? = 그래서?", "tags": ["expr:então", "expr:fixe", "form:achar"], "emotion": "amused"},
+   {"speaker": "B", "tl": "Pois, mas ela acha que tenho namorad{o|a}.", "ko": "응, 근데 엄마는 내가 {남친|여친} 있는 줄 알아.", "note": "acha que = 그녀는 ~라고 생각한다, namorad{o|a} = 연인 (성별)", "tags": ["expr:pois", "form:achar que"], "emotion": "flustered"},
+   {"speaker": "A", "tl": "Tens mesmo? Coitad{o|a}! Quem é?", "ko": "진짜 있어? 불쌍해라! 누군데?", "note": "tens = 너는 가지고 있다 (tenho ↔ tens), coitad{o|a} = 불쌍한 (상대 성별)", "tags": ["expr:coitado", "form:ter"], "emotion": "teasing"},
+   {"speaker": "B", "tl": "És tu. Eu disse o teu nome sem pensar.", "ko": "너야. 생각 없이 네 이름을 말해 버렸어.", "note": "disse = 내가 말했다 (dizer 완료과거)", "tags": ["twist", "form:perfeito"], "segs": [["flustered", "És tu."], ["shy", " Eu disse o teu nome sem pensar."]]},
+   {"speaker": "A", "tl": "Pronto. Achas que amanhã também posso ser?", "ko": "알았어. 내일도 내가 해도 된다고 생각해?", "note": "achas que = 너는 ~라고 생각해? (acho ↔ achas), posso = 나는 ~할 수 있다", "tags": ["expr:pronto", "form:achar que", "form:poder"], "emotion": "gentle"}
   ]},
  {"id":"r1_life_a2",
   "region":"R1",
@@ -125,14 +125,14 @@
   "goal":"완료과거 morreu·perdeu, 접어 deixa-me, 달래는 말 「pronto, pronto」",
   "expressions":["pá", "pronto"],
   "turns":[
-   {"speaker": "A", "tl": "Duarte? Estás bem? O que se passa?", "ko": "Duarte? 괜찮아? 무슨 일이야?", "note": "estás bem? = 너 괜찮아?(estar)", "tags": ["form:estar"], "emotion": "worried"},
-   {"speaker": "B", "tl": "Não estou. Deixa-me, pá.", "ko": "안 괜찮아. 내버려 둬.", "note": "não estou = 안 괜찮아(동사로 답한다), deixa-me = 날 내버려 둬(접어는 동사 뒤)", "tags": ["form:answer-verb", "form:clitic", "expr:pá"], "emotion": "sad"},
-   {"speaker": "A", "tl": "Morreu alguém? Fala comigo.", "ko": "누가 죽었어? 말 좀 해 봐.", "note": "morreu = 죽었다(morrer 완료과거)", "tags": ["form:perfeito"], "emotion": "worried"},
-   {"speaker": "B", "tl": "Morri eu. O meu clube perdeu hoje.", "ko": "내가 죽었어. 우리 팀이 오늘 졌어.", "note": "morri = 내가 죽었다(morreu ↔ morri), clube = 클럽, 팀(상한 밖 낱말), perdeu = 졌다", "tags": ["form:perfeito"], "emotion": "sad"},
-   {"speaker": "A", "tl": "Ah... é só isso? Pronto, pronto. Está tudo bem.", "ko": "아… 그게 다야? 자, 자. 다 괜찮아.", "note": "pronto, pronto = 자자, 됐어(달랠 때), está tudo bem = 다 괜찮다", "tags": ["expr:pronto", "form:estar"], "emotion": "amused"},
-   {"speaker": "B", "tl": "Só isso?! Estou a falar da minha vida, pá!", "ko": "그게 다라니?! 내 인생 얘기라고!", "note": "estar a falar de = ~에 대해 말하고 있다, a minha vida = 내 인생", "tags": ["expr:pá", "form:estar-a"], "emotion": "shout"},
-   {"speaker": "A", "tl": "Desculpa. Anda cá, eu fico contigo.", "ko": "미안. 이리 와, 내가 옆에 있을게.", "note": "fico contigo = 너랑 같이 있을게(ficar)", "tags": ["form:ficar"], "emotion": "gentle"},
-   {"speaker": "B", "tl": "Obrigado... Espera. Estás animad{o|a}? Tu és do outro clube!", "ko": "고마워… 잠깐. 왜 신났어? 너 상대 팀 편이잖아!", "note": "animado/animada = 신난(듣는 사람 성별에 맞춤), ser de = ~ 편이다(de + o = do)", "tags": ["twist", "form:contraction", "form:gender-adj"], "segs": [["gentle", "Obrigado..."], ["tsukkomi", " Espera. Estás animad{o|a}? Tu és do outro clube!"]]}
+   {"speaker": "A", "tl": "Duarte, pá. Estás bem? Há algo?", "ko": "Duarte, 야. 괜찮아? 뭔가 있어?", "note": "estás = 너는 (estar), há = 있다", "tags": ["form:estar", "expr:pá"], "emotion": "worried"},
+   {"speaker": "B", "tl": "Não estou. Deixa-me em paz, pá.", "ko": "안 괜찮아. 제발 내버려 둬, 야.", "note": "não estou = 안 괜찮아 (동사로 답), deixa-me = 날 내버려 둬 (접어 뒤)", "tags": ["form:answer-verb", "form:clitic", "expr:pá"], "emotion": "sad"},
+   {"speaker": "A", "tl": "Morreu alguém? Fala comigo já.", "ko": "누가 죽었어? 지금 말해.", "note": "morreu = 죽었다 (morrer 완료과거)", "tags": ["form:perfeito"], "emotion": "worried"},
+   {"speaker": "B", "tl": "Eu morri. O clube perdeu o jogo.", "ko": "내가 죽었어. 팀이 경기를 졌어.", "note": "morri = 내가 죽었다 (1인칭), perdeu = 졌다 (perder)", "tags": ["form:perfeito"], "emotion": "sad"},
+   {"speaker": "A", "tl": "Só o jogo? Pronto, pronto. Está tudo bem.", "ko": "경기뿐이야? 자 자. 다 괜찮아.", "note": "pronto, pronto = 자자 (달래기), está = 있다/괜찮아", "tags": ["expr:pronto", "form:estar"], "emotion": "amused"},
+   {"speaker": "B", "tl": "O jogo?! Estou a falar da vida, pá!", "ko": "경기라고?! 인생 얘기라고, 야!", "note": "estou a falar = 말하고 있다 (estar a)", "tags": ["expr:pá", "form:estar-a"], "emotion": "shout"},
+   {"speaker": "A", "tl": "Desculpa. Vem cá. Eu fico contigo.", "ko": "미안. 이리 와. 내가 너랑 있을게.", "note": "fico = 남을게 (ficar)", "tags": ["form:ficar"], "emotion": "gentle"},
+   {"speaker": "B", "tl": "Obrigad{o|a}... Espera. Estás animad{o|a}? Tu és do outro clube!", "ko": "고마워… 잠깐. 신났어? 너 상대 팀이야!", "note": "animad{o|a} = 신난 (A 성별), do = de+o 축약", "tags": ["twist", "form:gender-adj", "form:contraction"], "segs": [["gentle", "Obrigad{o|a}..."], ["tsukkomi", " Espera. Estás animad{o|a}? Tu és do outro clube!"]]}
   ]},
  {"id":"r1_love_a3",
   "region":"R1",
@@ -152,13 +152,13 @@
   "goal":"ser 현재 eu/tu(sou·és), poder·querer 로 부탁하기, 「olha」「a sério?」",
   "expressions":["olha", "claro", "a sério?", "pronto"],
   "turns":[
-   {"speaker": "B", "tl": "Olá! Tu és {o|a} {name}, certo? Do lado?", "ko": "안녕! 너 {name} 맞지? 옆집?", "note": "do lado = 옆집의(de + o lado)", "tags": ["form:ser"], "emotion": "excited"},
-   {"speaker": "A", "tl": "Sou, sim. E tu és a Beatriz.", "ko": "응, 맞아. 그리고 넌 Beatriz 지.", "note": "sou = 나는 ~이다(ser)", "tags": ["form:ser", "form:answer-verb"], "emotion": "cheerful"},
-   {"speaker": "B", "tl": "Sou! Olha, estás ocupad{o|a}? Posso pedir uma coisa?", "ko": "응! 있잖아, 바빠? 하나 부탁해도 돼?", "note": "olha = 있잖아, ocupado/ocupada = 바쁜(듣는 사람 성별에 맞춤)", "tags": ["expr:olha", "form:poder", "form:gender-adj"], "emotion": "excited"},
-   {"speaker": "A", "tl": "Não estou. Claro, o que precisas?", "ko": "안 바빠. 물론, 뭐 필요해?", "note": "não estou = 안 그래(estás ↔ estou), claro = 물론", "tags": ["expr:claro", "form:answer-verb"], "emotion": "cheerful"},
-   {"speaker": "B", "tl": "Vens comigo... ah... não. Esquece.", "ko": "나랑 같이… 아… 아냐. 잊어.", "note": "esquece = 잊어(상한 밖 낱말, tu 에게 하는 말)", "tags": ["twist"], "segs": [["excited", "Vens comigo..."], ["shy", " ah... não. Esquece."]]},
-   {"speaker": "A", "tl": "Tu, sem palavras? A sério? Isso é novo.", "ko": "네가 말이 막혀? 진짜? 처음 보네.", "note": "isso é novo = 그거 새롭다(sou·és·é)", "tags": ["expr:a sério?", "form:ser"], "emotion": "teasing"},
-   {"speaker": "B", "tl": "Pronto! Queres sair comigo amanhã à noite?", "ko": "됐어! 내일 밤에 나랑 나갈래?", "note": "sair com = ~와 데이트하다, 나가다", "tags": ["expr:pronto", "form:querer"], "segs": [["shout", "Pronto!"], ["shy", " Queres sair comigo amanhã à noite?"]]},
-   {"speaker": "A", "tl": "Quero. E eu a pensar que era só eu.", "ko": "좋아. 나만 그런 줄 알았는데.", "note": "eu a pensar que… = 난 ~인 줄 알았는데", "tags": [], "emotion": "gentle"}
+   {"speaker": "B", "tl": "Olá! Tu és {o|a} {name}, certo? Do lado?", "ko": "안녕! 너 {name} 맞지? 옆집?", "note": "és = 너는 ~이다 (ser), do lado = 옆의", "tags": ["form:ser"], "emotion": "excited"},
+   {"speaker": "A", "tl": "Sou, sim. E tu és a Beatriz.", "ko": "응, 맞아. 그리고 넌 Beatriz지.", "note": "sou = 나는 ~이다 (ser)", "tags": ["form:ser", "form:answer-verb"], "emotion": "cheerful"},
+   {"speaker": "B", "tl": "Sou! Olha, estás ocupad{o|a}? Posso pedir uma coisa?", "ko": "응! 있잖아, 바빠? 하나 부탁해도 돼?", "note": "olha = 있잖아, ocupad{o|a} = 바쁜 (A 성별), posso = 나는 ~할 수 있다", "tags": ["expr:olha", "form:poder", "form:gender-adj"], "emotion": "excited"},
+   {"speaker": "A", "tl": "Não estou. Claro, o que precisas?", "ko": "안 바빠. 물론, 뭐 필요해?", "note": "não estou = 안 그래 (estás ↔ estou), claro = 물론", "tags": ["expr:claro", "form:answer-verb"], "emotion": "cheerful"},
+   {"speaker": "B", "tl": "Vens comigo... ah... não. Esquece.", "ko": "나랑 같이… 아… 아냐. 잊어.", "note": "esquece = 잊어 (tu 명령)", "tags": ["twist"], "segs": [["excited", "Vens comigo..."], ["shy", " ah... não. Esquece."]]},
+   {"speaker": "A", "tl": "Tu sem palavras? A sério? Isso é novo.", "ko": "네가 말 막혀? 진짜? 처음이네.", "note": "é = 그것은 ~이다 (sou·és·é), a sério? = 진짜?", "tags": ["expr:a sério?", "form:ser"], "emotion": "teasing"},
+   {"speaker": "B", "tl": "Pronto! Queres sair comigo amanhã à noite?", "ko": "됐어! 내일 밤에 나랑 나갈래?", "note": "queres = 너는 원한다, pronto = 됐어", "tags": ["expr:pronto", "form:querer"], "segs": [["shout", "Pronto!"], ["shy", " Queres sair comigo amanhã à noite?"]]},
+   {"speaker": "A", "tl": "Quero. E eu a pensar que era só eu.", "ko": "좋아. 나만 그런 줄 알았는데.", "note": "quero = 나는 원한다 (queres ↔ quero)", "tags": ["form:querer"], "emotion": "gentle"}
   ]}
 ]

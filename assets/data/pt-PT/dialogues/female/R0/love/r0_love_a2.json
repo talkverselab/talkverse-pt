@@ -37,80 +37,80 @@
  "turns": [
   {
    "speaker": "B",
-   "tl": "Então, tu não falas comigo?",
-   "ko": "뭐야, 나랑은 말 안 해?",
-   "note": "falas comigo = 나랑 말해",
+   "tl": "Então, não falas comigo?",
+   "ko": "뭐야, 나랑 말 안 해?",
+   "note": "então = 뭐야 · falas = (너) 말해",
    "tags": [
     "expr:então",
     "form:falar"
    ],
    "emotion": "teasing",
    "num": 1,
-   "rd": "엔따웅, 뚜 나웅 팔라쉬 꾸미구?"
+   "rd": "엔따웅, 나웅 팔라쉬 꾸미구?"
   },
   {
    "speaker": "A",
-   "tl": "Eu? Falo, falo!",
-   "ko": "나? 해, 하지!",
-   "note": "falo = 나는 말한다",
+   "tl": "Eu falo! Falo sim.",
+   "ko": "나 해! 해, 하지.",
+   "note": "falo = (나) 말해",
    "tags": [
     "form:falar"
    ],
    "emotion": "flustered",
    "num": 2,
-   "rd": "에우? 팔루, 팔루!"
+   "rd": "에우 팔루! 팔루 씽."
   },
   {
    "speaker": "B",
-   "tl": "Há muito tempo que te vejo.",
-   "ko": "너 오래전부터 봐 왔어.",
-   "note": "há muito tempo que = 오래전부터",
+   "tl": "Vejo-te há tempo.",
+   "ko": "너 오래전부터 봐.",
+   "note": "vejo-te = 너를 봐 · há tempo = 오래전부터",
    "tags": [
     "heart",
     "form:ver"
    ],
    "emotion": "shy",
    "num": 3,
-   "rd": "아 무이뚜 뗌뿌 끄 뜨 베주."
+   "rd": "베주 뜨 아 뗌뿌."
   },
   {
    "speaker": "A",
-   "tl": "A sério? Mas quem és tu?",
-   "ko": "진짜? 근데 너 누구야?",
-   "note": "quem és tu? = 너 누구야? (sou ↔ és)",
+   "tl": "A sério? Quem és tu?",
+   "ko": "진짜? 너 누구야?",
+   "note": "a sério? = 진짜? · és = (너) ~이다",
    "tags": [
     "expr:a sério?",
     "form:ser"
    ],
    "emotion": "surprised",
    "num": 4,
-   "rd": "아 쎄리우? 마쉬 껭 에쉬 뚜?"
+   "rd": "아 쎄리우? 껭 에쉬 뚜?"
   },
   {
    "speaker": "B",
-   "tl": "Pois... sou a tua vizinha.",
-   "ko": "그게… 나 너네 옆집이야.",
-   "note": "vizinha = 이웃 (여) (상한 밖 낱말)",
+   "tl": "Pois, sou a vizinha.",
+   "ko": "그게, 나 옆집이야.",
+   "note": "pois = 그게 · vizinha = 이웃(여)",
    "tags": [
     "twist",
     "expr:pois"
    ],
    "emotion": "amused",
    "num": 5,
-   "rd": "뽀이쉬... 쏘우 아 뚜아 비징야."
+   "rd": "뽀이쉬, 쏘우 아 비징야."
   },
   {
    "speaker": "A",
-   "tl": "Ah... então já sabes tudo.",
-   "ko": "아… 그럼 다 알겠네.",
-   "note": "já sabes tudo = 이미 다 알아",
+   "tl": "Ah... então sabes tudo.",
+   "ko": "아… 그럼 다 아네.",
+   "note": "então = 그럼 · sabes = (너) 알아",
    "tags": [
     "expr:então",
     "form:saber"
    ],
    "emotion": "worried",
    "num": 6,
-   "rd": "아... 엔따웅 자 싸브쉬 뚜두."
+   "rd": "아... 엔따웅 싸브쉬 뚜두."
   }
  ]
 }

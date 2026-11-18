@@ -36,132 +36,127 @@
  "turns": [
   {
    "speaker": "B",
-   "tl": "Bom dia! Estás acordado? Hoje vens comigo à praia!",
-   "ko": "좋은 아침! 깼어? 오늘 나랑 바다 가는 거야!",
-   "note": "acordado/acordada = 깨어 있는(듣는 사람 성별에 맞춤), vens = 너 와(vir), praia = 해변(상한 밖 낱말)",
+   "tl": "Bom dia! Estás acordado? Vens hoje à praia?",
+   "ko": "좋은 아침! 깼어? 오늘 바다 갈 거야?",
+   "note": "acordado = 깨어 있는 · vens = (너) 오다 · praia = 해변",
    "tags": [
     "form:vir",
     "form:gender-adj"
    ],
-   "emotion": "excited",
    "ui": "bubble",
    "at": "08:02",
+   "emotion": "excited",
    "num": 1,
-   "rd": "봉 디아! 이쉬따즈 아꾸르다두? 오즈 벵쉬 꾸미구 아 프라이아!"
+   "rd": "봉 디아! 이쉬따즈 아꾸르다두? 벵즈 오즈 아 프라이아?"
   },
   {
    "speaker": "A",
-   "tl": "Quero! Fixe! A que horas?",
+   "tl": "Quero sim! Fixe! A que horas?",
    "ko": "갈래! 좋아! 몇 시에?",
-   "note": "quero = 원해(querer, 초대에 '응!'), fixe = 좋아, 멋져",
+   "note": "quero = (나) 원하다 · fixe = 좋다",
    "tags": [
     "expr:fixe",
     "form:querer"
    ],
-   "emotion": "cheerful",
    "ui": "bubble",
    "at": "08:05",
+   "emotion": "cheerful",
    "num": 2,
-   "rd": "께루! 피쉬! 아 끄 오라쉬?"
+   "rd": "께루 씽! 피쉬! 아 끄 오라쉬?"
   },
   {
    "speaker": "B",
-   "tl": "Agora! Não, espera... à tarde.",
-   "ko": "지금! 아니, 잠깐… 오후에.",
+   "tl": "Agora já! Não, à tarde.",
+   "ko": "지금 바로! 아니, 오후에.",
    "note": "à tarde = 오후에",
    "tags": [],
+   "ui": "bubble",
+   "at": "08:05",
    "segs": [
     [
      "excited",
-     "Agora!"
+     "Agora já!"
     ],
     [
      "flustered",
-     " Não, espera... à tarde."
+     " Não, à tarde."
     ]
    ],
-   "ui": "bubble",
-   "at": "08:05",
    "num": 3,
-   "rd": "아고라! 나웅, 이쉬뻬라... 아 따르드."
+   "rd": "아고라 자! 나웅, 아 따르드."
   },
   {
    "speaker": "A",
    "tl": "Tá bem. Então à tarde.",
    "ko": "알았어. 그럼 오후에.",
-   "note": "tá bem = 알았어(está bem 의 구어)",
+   "note": "tá bem = 알았어 · então = 그럼",
    "tags": [
     "expr:tá bem",
     "expr:então"
    ],
-   "emotion": "neutral",
    "ui": "bubble",
    "at": "08:06",
+   "emotion": "neutral",
    "num": 4,
    "rd": "따 벵. 엔따웅 아 따르드."
   },
   {
    "speaker": "B",
-   "tl": "Ou amanhã! Não... hoje à noite!",
-   "ko": "아니면 내일! 아냐… 오늘 밤!",
+   "tl": "Ou não... hoje à noite!",
+   "ko": "아니면… 오늘 밤에!",
    "note": "à noite = 밤에",
    "tags": [],
-   "emotion": "excited",
    "ui": "bubble",
    "at": "08:10",
+   "emotion": "excited",
    "num": 5,
-   "rd": "오우 아망양! 나웅... 오즈 아 노이뜨!"
+   "rd": "오우 나웅... 오즈 아 노이뜨!"
   },
   {
    "speaker": "A",
-   "tl": "Beatriz... estás bem? Sabes o que queres?",
-   "ko": "Beatriz… 너 괜찮아? 뭘 원하는지 알긴 해?",
-   "note": "sabes = 너는 안다(sei ↔ sabes), queres = 네가 원한다(quero ↔ queres)",
+   "tl": "Sabes o que queres? Estás bem?",
+   "ko": "뭘 원하는지 알아? 괜찮아?",
+   "note": "sabes = (너) 안다 · queres = (너) 원하다",
    "tags": [
+    "form:saber",
     "form:querer",
     "form:estar"
    ],
-   "emotion": "tsukkomi",
    "ui": "bubble",
    "at": "08:11",
+   "emotion": "tsukkomi",
    "num": 6,
-   "rd": "베아트리쉬... 이쉬따쉬 벵? 싸브즈 우 끄 께르쉬?"
+   "rd": "싸브즈 우 끄 께르쉬? 이쉬따쉬 벵?"
   },
   {
    "speaker": "B",
-   "tl": "Sei! E já estou na tua casa. 😎",
-   "ko": "알지! 그리고 나 벌써 너희 집이야. 😎",
-   "note": "na tua casa = 너희 집에(em + a)",
+   "tl": "Sei! Já estou na tua casa. 😎",
+   "ko": "알지! 벌써 너희 집이야. 😎",
+   "note": "sei = (나) 안다 · estou = (나) 있다",
    "tags": [
     "twist",
-    "form:contraction"
-   ],
-   "segs": [
-    [
-     "teasing",
-     "Sei! E já estou na tua casa. 😎",
-     "Sei! E já estou na tua casa."
-    ]
+    "form:saber",
+    "form:estar"
    ],
    "ui": "bubble",
    "at": "08:11",
+   "emotion": "teasing",
    "num": 7,
-   "rd": "쎄이! 이 자 이쉬또우 나 뚜아 까자. 😎"
+   "rd": "쎄이! 자 이쉬또우 나 뚜아 까자. 😎"
   },
   {
    "speaker": "B",
-   "tl": "O Duarte está comigo. Ele também vem!",
-   "ko": "Duarte 도 나랑 있어. 걔도 간대!",
-   "note": "está = 그가 있다(estou·estás·está), vem = 그가 온다(vens ↔ vem)",
+   "tl": "O Duarte vem comigo também!",
+   "ko": "Duarte도 나랑 같이 가!",
+   "note": "vem = (그) 오다",
    "tags": [
-    "form:estar",
     "form:vir"
    ],
-   "emotion": "amused",
    "ui": "bubble",
    "at": "08:12",
+   "emotion": "amused",
    "num": 8,
-   "rd": "우 두아르뜨 이쉬따 꾸미구. 엘르 땀벵 벵!"
+   "rd": "우 두아르뜨 벵 꾸미구 땀벵!"
   }
  ]
 }

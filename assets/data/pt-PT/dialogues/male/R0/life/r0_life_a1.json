@@ -34,48 +34,49 @@
  "turns": [
   {
    "speaker": "B",
-   "tl": "Epá! Quem fez isto?",
-   "ko": "헐! 이거 누가 했어?",
-   "note": "quem fez? = 누가 했어?",
+   "tl": "Epá! Quem limpou isto?",
+   "ko": "헐! 이거 누가 치웠어?",
+   "note": "quem limpou = 누가 치웠어 · epá = 헐",
    "tags": [
     "expr:epá",
-    "form:fazer"
+    "form:limpar"
    ],
    "emotion": "surprised",
    "num": 1,
-   "rd": "에빠! 껭 페즈 이쉬뚜?"
+   "rd": "에빠! 껭 림뽀우 이쉬뚜?"
   },
   {
    "speaker": "A",
-   "tl": "Eu? Não fiz nada.",
-   "ko": "나? 아무것도 안 했어.",
-   "note": "fiz = (내가) 했다 · nada = 아무것도",
+   "tl": "Eu não. Não fiz.",
+   "ko": "나 아냐. 안 했어.",
+   "note": "fiz = (내가) 했다",
    "tags": [
     "form:fazer"
    ],
    "emotion": "neutral",
    "num": 2,
-   "rd": "에우? 나웅 피쉬 나다."
+   "rd": "에우 나웅. 나웅 피쉬."
   },
   {
    "speaker": "B",
-   "tl": "A casa está muito bem!",
-   "ko": "집이 완전 멀쩡해!",
-   "note": "está muito bem = 아주 좋아",
+   "tl": "Está tão limpa!",
+   "ko": "너무 깨끗해!",
+   "note": "está = 상태다 · limpa = 깨끗한",
    "tags": [
     "form:estar"
    ],
    "emotion": "shout",
    "num": 3,
-   "rd": "아 까자 이쉬따 무이뚜 벵!"
+   "rd": "이쉬따 따웅 림빠!"
   },
   {
    "speaker": "A",
    "tl": "Pois é. Não fui eu.",
    "ko": "그러게. 난 아니야.",
-   "note": "pois é = 그러게, fui = 내가 ~였다 (ser)",
+   "note": "pois é = 그러게 · fui = (내가) ~였다",
    "tags": [
-    "expr:pois é"
+    "expr:pois é",
+    "form:ser"
    ],
    "emotion": "tsukkomi",
    "num": 4,
@@ -83,21 +84,21 @@
   },
   {
    "speaker": "B",
-   "tl": "Foi a Inês? A Beatriz?",
-   "ko": "Inês야? Beatriz야?",
-   "note": "foi = ~였어 (ser)",
+   "tl": "Foi a Inês então?",
+   "ko": "그럼 Inês야?",
+   "note": "foi = ~였다",
    "tags": [
     "form:ser"
    ],
    "emotion": "worried",
    "num": 5,
-   "rd": "포이 아 이네쉬? 아 베아트리쉬?"
+   "rd": "포이 아 이네즈 엔따웅?"
   },
   {
    "speaker": "A",
-   "tl": "Foi o teu pai. Ainda está aqui.",
-   "ko": "너네 아빠. 아직 여기 계셔.",
-   "note": "o teu pai = 너네 아빠, ainda = 아직",
+   "tl": "Foi o teu pai. Ainda está cá.",
+   "ko": "너네 아빠야. 아직 여기 있어.",
+   "note": "o teu pai = 너네 아빠 · ainda = 아직",
    "tags": [
     "twist"
    ],
@@ -108,11 +109,11 @@
     ],
     [
      "worried",
-     " Ainda está aqui."
+     " Ainda está cá."
     ]
    ],
    "num": 6,
-   "rd": "포이 우 떼우 빠이. 아인다 이쉬따 아끼."
+   "rd": "포이 우 떼우 빠이. 아인다 이쉬따 까."
   }
  ]
 }

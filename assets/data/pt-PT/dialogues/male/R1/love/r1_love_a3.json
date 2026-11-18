@@ -41,7 +41,7 @@
    "speaker": "B",
    "tl": "Olá! Tu és o {name}, certo? Do lado?",
    "ko": "안녕! 너 {name} 맞지? 옆집?",
-   "note": "do lado = 옆집의(de + o lado)",
+   "note": "és = 너는 ~이다 (ser), do lado = 옆의",
    "tags": [
     "form:ser"
    ],
@@ -52,8 +52,8 @@
   {
    "speaker": "A",
    "tl": "Sou, sim. E tu és a Beatriz.",
-   "ko": "응, 맞아. 그리고 넌 Beatriz 지.",
-   "note": "sou = 나는 ~이다(ser)",
+   "ko": "응, 맞아. 그리고 넌 Beatriz지.",
+   "note": "sou = 나는 ~이다 (ser)",
    "tags": [
     "form:ser",
     "form:answer-verb"
@@ -66,7 +66,7 @@
    "speaker": "B",
    "tl": "Sou! Olha, estás ocupado? Posso pedir uma coisa?",
    "ko": "응! 있잖아, 바빠? 하나 부탁해도 돼?",
-   "note": "olha = 있잖아, ocupado/ocupada = 바쁜(듣는 사람 성별에 맞춤)",
+   "note": "olha = 있잖아, ocupado = 바쁜 (A 성별), posso = 나는 ~할 수 있다",
    "tags": [
     "expr:olha",
     "form:poder",
@@ -80,7 +80,7 @@
    "speaker": "A",
    "tl": "Não estou. Claro, o que precisas?",
    "ko": "안 바빠. 물론, 뭐 필요해?",
-   "note": "não estou = 안 그래(estás ↔ estou), claro = 물론",
+   "note": "não estou = 안 그래 (estás ↔ estou), claro = 물론",
    "tags": [
     "expr:claro",
     "form:answer-verb"
@@ -93,7 +93,7 @@
    "speaker": "B",
    "tl": "Vens comigo... ah... não. Esquece.",
    "ko": "나랑 같이… 아… 아냐. 잊어.",
-   "note": "esquece = 잊어(상한 밖 낱말, tu 에게 하는 말)",
+   "note": "esquece = 잊어 (tu 명령)",
    "tags": [
     "twist"
    ],
@@ -112,22 +112,22 @@
   },
   {
    "speaker": "A",
-   "tl": "Tu, sem palavras? A sério? Isso é novo.",
-   "ko": "네가 말이 막혀? 진짜? 처음 보네.",
-   "note": "isso é novo = 그거 새롭다(sou·és·é)",
+   "tl": "Tu sem palavras? A sério? Isso é novo.",
+   "ko": "네가 말 막혀? 진짜? 처음이네.",
+   "note": "é = 그것은 ~이다 (sou·és·é), a sério? = 진짜?",
    "tags": [
     "expr:a sério?",
     "form:ser"
    ],
    "emotion": "teasing",
    "num": 6,
-   "rd": "뚜, 쎙 빨라브라쉬? 아 쎄리우? 이쑤 에 노부."
+   "rd": "뚜 쎙 빨라브라쉬? 아 쎄리우? 이쑤 에 노부."
   },
   {
    "speaker": "B",
    "tl": "Pronto! Queres sair comigo amanhã à noite?",
    "ko": "됐어! 내일 밤에 나랑 나갈래?",
-   "note": "sair com = ~와 데이트하다, 나가다",
+   "note": "queres = 너는 원한다, pronto = 됐어",
    "tags": [
     "expr:pronto",
     "form:querer"
@@ -149,8 +149,10 @@
    "speaker": "A",
    "tl": "Quero. E eu a pensar que era só eu.",
    "ko": "좋아. 나만 그런 줄 알았는데.",
-   "note": "eu a pensar que… = 난 ~인 줄 알았는데",
-   "tags": [],
+   "note": "quero = 나는 원한다 (queres ↔ quero)",
+   "tags": [
+    "form:querer"
+   ],
    "emotion": "gentle",
    "num": 8,
    "rd": "께루. 이 에우 아 뻰싸르 끄 에라 쏘 에우."

@@ -41,18 +41,18 @@
  "turns": [
   {
    "speaker": "B",
-   "tl": "Afinal não posso ir!",
-   "ko": "나 결국 못 가!",
-   "note": "afinal = 결국, 알고 보니",
+   "tl": "Afinal não posso hoje!",
+   "ko": "나 결국 오늘 못 가!",
+   "note": "afinal = 결국 · posso = (나) 할 수 있다",
    "tags": [
     "expr:afinal",
     "form:poder"
    ],
-   "emotion": "worried",
    "ui": "bubble",
    "at": "19:10",
+   "emotion": "worried",
    "num": 1,
-   "rd": "아피날 나웅 뽀쑤 이르!"
+   "rd": "아피날 나웅 뽀쑤 오즈!"
   },
   {
    "speaker": "A",
@@ -62,69 +62,69 @@
    "tags": [
     "expr:não faz mal"
    ],
-   "emotion": "gentle",
    "ui": "bubble",
    "at": "19:11",
+   "emotion": "gentle",
    "num": 2,
    "rd": "뚜두 벵. 나웅 파쉬 말."
   },
   {
    "speaker": "B",
-   "tl": "Vou para a praia, pá!",
-   "ko": "나 바다 간다!",
-   "note": "praia = 해변 (상한 밖 낱말)",
+   "tl": "Vou para a praia agora!",
+   "ko": "나 지금 바다 간다!",
+   "note": "vou = (나) 가다 · praia = 해변",
    "tags": [
     "form:ir"
    ],
-   "emotion": "excited",
    "ui": "bubble",
    "at": "19:11",
+   "emotion": "excited",
    "num": 3,
-   "rd": "보우 빠라 아 프라이아, 빠!"
+   "rd": "보우 빠라 아 프라이아 아고라!"
   },
   {
    "speaker": "A",
    "tl": "Fixe! Então quando podes?",
    "ko": "좋네! 그럼 언제 돼?",
-   "note": "fixe = 좋다 · podes = (너는) ~할 수 있다(posso ↔ podes)",
+   "note": "fixe = 좋다 · então = 그럼 · podes = (너) 할 수 있다",
    "tags": [
     "expr:fixe",
     "expr:então",
     "form:poder"
    ],
-   "emotion": "cheerful",
    "ui": "bubble",
    "at": "19:12",
+   "emotion": "cheerful",
    "num": 4,
    "rd": "피쉬! 엔따웅 꽌두 뽀드쉬?"
   },
   {
    "speaker": "B",
-   "tl": "Para ti, tenho sempre tempo.",
+   "tl": "Para ti tenho sempre tempo.",
    "ko": "너한텐 시간 늘 있어.",
-   "note": "tenho sempre tempo = 시간은 늘 있어",
+   "note": "tenho = (나) 가지다 · sempre = 항상",
    "tags": [
     "heart"
    ],
-   "emotion": "gentle",
    "ui": "bubble",
    "at": "19:12",
+   "emotion": "gentle",
    "num": 5,
-   "rd": "빠라 띠, 뗑유 쎔프르 뗌뿌."
+   "rd": "빠라 띠 뗑유 쎔프르 뗌뿌."
   },
   {
    "speaker": "B",
    "tl": "Quer dizer... para todos! Pronto.",
    "ko": "아니 그러니까… 다들한테! 됐지.",
-   "note": "quer dizer = 그러니까, 내 말은",
+   "note": "quer dizer = 그러니까 · pronto = 됐지",
    "tags": [
     "twist",
     "expr:quer dizer",
     "expr:pronto"
    ],
-   "emotion": "flustered",
    "ui": "bubble",
    "at": "19:12",
+   "emotion": "flustered",
    "num": 6,
    "rd": "께르 디제르... 빠라 또두쉬! 프론뚜."
   }

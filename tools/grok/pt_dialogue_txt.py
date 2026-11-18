@@ -59,7 +59,7 @@ def parse(text):
         if not line or line.startswith('==='):
             continue
         if re.match(r'^[A-D]\s*\|', line):
-            c = [x.strip() for x in re.split(r'\s\|\s', line)]  # {o|a} 의 | 는 공백이 없어 칸 구분이 아님
+            c = [x.strip() for x in re.split(r'(?<=\s)\|(?=\s)', line)]  # {o|a} 의 | 는 공백이 없어 칸 구분이 아님
             if len(c) < 5:
                 raise ValueError('칸 부족: ' + line)
             kv = {}
