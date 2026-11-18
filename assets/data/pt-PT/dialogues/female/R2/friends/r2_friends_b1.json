@@ -145,7 +145,7 @@
    "speaker": "B",
    "tl": "Beatriz, não ligues. A {name} está cansada.",
    "ko": "Beatriz, 신경 쓰지 마. {name} 피곤해서 그래.",
-   "note": "não ligues = 신경 쓰지 마, cansada = 피곤한 (A 성별)",
+   "note": "não ligues = 신경 쓰지 마, cansada = 피곤한",
    "tags": [
     "expr:não ligues",
     "form:gender-adj"

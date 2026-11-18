@@ -132,7 +132,7 @@
    {"speaker": "A", "tl": "Só o jogo? Pronto, pronto. Está tudo bem.", "ko": "경기뿐이야? 자 자. 다 괜찮아.", "note": "pronto, pronto = 자자 (달래기), está = 있다/괜찮아", "tags": ["expr:pronto", "form:estar"], "emotion": "amused"},
    {"speaker": "B", "tl": "O jogo?! Estou a falar da vida, pá!", "ko": "경기라고?! 인생 얘기라고, 야!", "note": "estou a falar = 말하고 있다 (estar a)", "tags": ["expr:pá", "form:estar-a"], "emotion": "shout"},
    {"speaker": "A", "tl": "Desculpa. Vem cá. Eu fico contigo.", "ko": "미안. 이리 와. 내가 너랑 있을게.", "note": "fico = 남을게 (ficar)", "tags": ["form:ficar"], "emotion": "gentle"},
-   {"speaker": "B", "tl": "Obrigad{o|a}... Espera. Estás animad{o|a}? Tu és do outro clube!", "ko": "고마워… 잠깐. 신났어? 너 상대 팀이야!", "note": "animad{o|a} = 신난 (A 성별), do = de+o 축약", "tags": ["twist", "form:gender-adj", "form:contraction"], "segs": [["gentle", "Obrigad{o|a}..."], ["tsukkomi", " Espera. Estás animad{o|a}? Tu és do outro clube!"]]}
+   {"speaker": "B", "tl": "Obrigad{o|a}... Espera. Estás animad{o|a}? Tu és do outro clube!", "ko": "고마워… 잠깐. 신났어? 너 상대 팀이야!", "note": "animad{o|a} = 신난, do = de+o 축약", "tags": ["twist", "form:gender-adj", "form:contraction"], "segs": [["gentle", "Obrigad{o|a}..."], ["tsukkomi", " Espera. Estás animad{o|a}? Tu és do outro clube!"]]}
   ]},
  {"id":"r1_love_a3",
   "region":"R1",
@@ -154,7 +154,7 @@
   "turns":[
    {"speaker": "B", "tl": "Olá! Tu és {o|a} {name}, certo? Do lado?", "ko": "안녕! 너 {name} 맞지? 옆집?", "note": "és = 너는 ~이다 (ser), do lado = 옆의", "tags": ["form:ser"], "emotion": "excited"},
    {"speaker": "A", "tl": "Sou, sim. E tu és a Beatriz.", "ko": "응, 맞아. 그리고 넌 Beatriz지.", "note": "sou = 나는 ~이다 (ser)", "tags": ["form:ser", "form:answer-verb"], "emotion": "cheerful"},
-   {"speaker": "B", "tl": "Sou! Olha, estás ocupad{o|a}? Posso pedir uma coisa?", "ko": "응! 있잖아, 바빠? 하나 부탁해도 돼?", "note": "olha = 있잖아, ocupad{o|a} = 바쁜 (A 성별), posso = 나는 ~할 수 있다", "tags": ["expr:olha", "form:poder", "form:gender-adj"], "emotion": "excited"},
+   {"speaker": "B", "tl": "Sou! Olha, estás ocupad{o|a}? Posso pedir uma coisa?", "ko": "응! 있잖아, 바빠? 하나 부탁해도 돼?", "note": "olha = 있잖아, ocupad{o|a} = 바쁜, posso = 나는 ~할 수 있다", "tags": ["expr:olha", "form:poder", "form:gender-adj"], "emotion": "excited"},
    {"speaker": "A", "tl": "Não estou. Claro, o que precisas?", "ko": "안 바빠. 물론, 뭐 필요해?", "note": "não estou = 안 그래 (estás ↔ estou), claro = 물론", "tags": ["expr:claro", "form:answer-verb"], "emotion": "cheerful"},
    {"speaker": "B", "tl": "Vens comigo... ah... não. Esquece.", "ko": "나랑 같이… 아… 아냐. 잊어.", "note": "esquece = 잊어 (tu 명령)", "tags": ["twist"], "segs": [["excited", "Vens comigo..."], ["shy", " ah... não. Esquece."]]},
    {"speaker": "A", "tl": "Tu sem palavras? A sério? Isso é novo.", "ko": "네가 말 막혀? 진짜? 처음이네.", "note": "é = 그것은 ~이다 (sou·és·é), a sério? = 진짜?", "tags": ["expr:a sério?", "form:ser"], "emotion": "teasing"},

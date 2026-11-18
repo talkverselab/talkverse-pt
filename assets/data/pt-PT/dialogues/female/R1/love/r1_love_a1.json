@@ -41,7 +41,7 @@
    "speaker": "B",
    "tl": "Olá! Estás sozinha aí?",
    "ko": "안녕! 거기 혼자야?",
-   "note": "sozinha = 혼자 (A 성별)",
+   "note": "sozinha = 혼자",
    "tags": [
     "form:estar"
    ],
@@ -116,7 +116,7 @@
    "speaker": "B",
    "tl": "Ah! Afinal falas! Que atrevida!",
    "ko": "어머! 알고 보니 말하네! 대담한데!",
-   "note": "afinal = 알고 보니, atrevida = 대담한 (A 성별)",
+   "note": "afinal = 알고 보니, atrevida = 대담한",
    "tags": [
     "expr:afinal",
     "form:gender-adj"

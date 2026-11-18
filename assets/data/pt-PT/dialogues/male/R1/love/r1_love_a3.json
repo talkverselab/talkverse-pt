@@ -66,7 +66,7 @@
    "speaker": "B",
    "tl": "Sou! Olha, estás ocupado? Posso pedir uma coisa?",
    "ko": "응! 있잖아, 바빠? 하나 부탁해도 돼?",
-   "note": "olha = 있잖아, ocupado = 바쁜 (A 성별), posso = 나는 ~할 수 있다",
+   "note": "olha = 있잖아, ocupado = 바쁜, posso = 나는 ~할 수 있다",
    "tags": [
     "expr:olha",
     "form:poder",
