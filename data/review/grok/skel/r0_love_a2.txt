@@ -1,0 +1,17 @@
+=== r0_love_a2
+level: R0
+kind: short
+title: 오래 봤어
+emoji: 🎉
+scene: 친구 집 파티. 구석에 있던 학습자에게 Inês 가 먼저 다가온다. 어디서 본 얼굴인데.
+cast: B: Inês
+register: casual
+twist: 5 reveal
+goal: 다가오는 말에 짧게 답하기 — 「então」「a sério?」「pois」
+expressions: então; a sério?; pois
+B | ___ | ___ | ___ | emotion=teasing | tags=expr:então,form:falar
+A | ___ | ___ | ___ | emotion=flustered | tags=form:falar
+B | ___ | ___ | ___ | emotion=shy | tags=heart,form:ver
+A | ___ | ___ | ___ | emotion=surprised | tags=expr:a sério?,form:ser
+B | ___ | ___ | ___ | emotion=amused | tags=twist,expr:pois
+A | ___ | ___ | ___ | emotion=worried | tags=expr:então,form:saber

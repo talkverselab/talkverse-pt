@@ -65,12 +65,13 @@ def main():
             time.sleep(4 + 2 * len(remote))
         model = c.ev("[...document.querySelectorAll('button')].map(b=>b.getAttribute('aria-label')||'').find(x=>/^모델/.test(x))||''")
         print(model)
-        if text is not None and '전문가' not in model:  # 사용자 지시: 전문가 모드로만(2026-11-09)
-            raise SystemExit('Grok 모델이 전문가가 아님: ' + model)
+        if text is not None and '빠른' not in model:  # 사용자 지시 2026-11-18: 「빠른」 모드(11-09 「전문가」 지시를 바꿈)
+            raise SystemExit('Grok 모델이 빠른이 아님: ' + model)
         if text is None:
             r = c.ev(REPLY) or ''
             open(out, 'w', encoding='utf-8').write(r + '\n'); print('저장', out, len(r), '자'); return
         n0 = c.ev("document.querySelectorAll('.message-bubble, [class*=message-bubble]').length") or 0
+        r0 = c.ev(REPLY) or ''  # 보내기 전 마지막 답 — 말풍선 수는 방이 길어지면 늘지 않아(화면이 옛 말풍선을 덜 그림) 이것과 견준다(11-18)
         lim0 = c.ev("(document.body.innerText.match(/한도에 도달|limit reached/g)||[]).length")
         c.ev("(()=>{const e=%s;e.focus();return 1})()" % G.FIND)
         c.call('Input.insertText', text=text)
@@ -90,9 +91,10 @@ def main():
             n = c.ev("document.querySelectorAll('.message-bubble, [class*=message-bubble]').length") or 0
             cur = c.ev(REPLY) or ''
             busy = c.ev("/생각 중|Thinking|Generating|생성 중/.test(document.body.innerText.slice(-300))")
-            if n >= n0 + 2 and len(cur) > 60 and cur == last and not busy:
+            # 화면 글자의 「생각 중·생성 중」은 대사(한국어 칸)에도 나올 수 있다 — 답이 24초 그대로면 그것과 상관없이 끝(11-18 r2_love_c1·c2)
+            if (n >= n0 + 2 or (cur and cur != r0)) and len(cur) > 60 and cur == last:
                 same += 1
-                if same >= 2:
+                if (same >= 2 and not busy) or same >= 3:
                     done = True
                     break
             else:

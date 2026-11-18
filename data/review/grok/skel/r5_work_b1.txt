@@ -1,0 +1,25 @@
+=== r5_work_b1
+level: R5
+kind: long
+title: 케이크 도둑을 찾아라
+emoji: 🎂
+scene: 사무실. 상사 Marta 가 조카 생일 케이크가 사라졌다며 학습자의 의자 위 부스러기를 노려본다.
+cast: B: Marta
+register: polite
+twist: 11 reveal
+goal: 새 문법 없이 657~2,000위 어휘(escritório·sobrinho·prova·inocente·câmara·segurança·gravar·ladrão·guardar) 를 직장 대화에서 쓰기
+expressions: que chatice; coitado; a sério?; quer dizer; se calhar; afinal; pronto; de certeza
+B | ___ | ___ | ___ | emotion=polite+annoyed | tags=vocab:guardar,vocab:escritório
+A | ___ | ___ | ___ | emotion=worried | tags=expr:que chatice
+B | ___ | ___ | ___ | emotion=sad | tags=vocab:sobrinho,vocab:almoço
+A | ___ | ___ | ___ | emotion=gentle+flustered | tags=expr:coitado
+B | ___ | ___ | ___ | emotion=stiff | tags=vocab:cadeira
+A | ___ | ___ | ___ | emotion=shout | tags=vocab:prova,vocab:inocente
+B | ___ | ___ | ___ | emotion=tsukkomi | tags=expr:a sério,vocab:reunião,vocab:equipa
+A | ___ | ___ | ___ | emotion=flustered+excited | tags=expr:quer dizer,vocab:câmara,vocab:gravar
+B | ___ | ___ | ___ | emotion=annoyed | tags=vocab:mentira,vocab:vídeo
+A | ___ | ___ | ___ | emotion=teasing | tags=expr:se calhar
+B | ___ | ___ | ___ | emotion=surprised+flustered | tags=vocab:levar,twist
+A | ___ | ___ | ___ | emotion=teasing | tags=expr:afinal,vocab:ladrão
+B | ___ | ___ | ___ | emotion=flustered+teasing | tags=expr:pronto,vocab:fresco
+A | ___ | ___ | ___ | emotion=flustered | tags=expr:de certeza

@@ -1,0 +1,19 @@
+=== r1_love_a3
+level: R1
+kind: short
+title: 말 빠른 애가 말을 잃었다
+emoji: 🌙
+scene: 계단에서 마주친 옆집 Beatriz. 늘 말이 빠른 그녀가 오늘은 뭔가 이상하다.
+cast: B: Beatriz
+register: casual
+twist: 5 emotion
+goal: ser 현재 eu/tu(sou·és), poder·querer 로 부탁하기, 「olha」「a sério?」
+expressions: olha; claro; a sério?; pronto
+B | ___ | ___ | ___ | emotion=excited | tags=form:ser
+A | ___ | ___ | ___ | emotion=cheerful | tags=form:ser,form:answer-verb
+B | ___ | ___ | ___ | emotion=excited | tags=expr:olha,form:poder,form:gender-adj
+A | ___ | ___ | ___ | emotion=cheerful | tags=expr:claro,form:answer-verb
+B | ___ | ___ | ___ | emotion=excited+shy | tags=twist
+A | ___ | ___ | ___ | emotion=teasing | tags=expr:a sério?,form:ser
+B | ___ | ___ | ___ | emotion=shout+shy | tags=expr:pronto,form:querer
+A | ___ | ___ | ___ | emotion=gentle | tags=form:querer

@@ -1,0 +1,17 @@
+=== r0_life_a1
+level: R0
+kind: short
+title: 누가 했어?
+emoji: 🧹
+scene: 아침, 셰어하우스 거실. Duarte 가 눈을 비비며 나왔다가 그대로 굳는다. 집이 너무 깨끗하다.
+cast: B: Duarte
+register: casual
+twist: 6 chaos
+goal: 놀란 말에 짧게 받아치기 — 「epá」「pois é」
+expressions: epá; pois é
+B | ___ | ___ | ___ | emotion=surprised | tags=expr:epá,form:limpar
+A | ___ | ___ | ___ | emotion=neutral | tags=form:fazer
+B | ___ | ___ | ___ | emotion=shout | tags=form:estar
+A | ___ | ___ | ___ | emotion=tsukkomi | tags=expr:pois é,form:ser
+B | ___ | ___ | ___ | emotion=worried | tags=form:ser
+A | ___ | ___ | ___ | emotion=neutral+worried | tags=twist

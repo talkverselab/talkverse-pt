@@ -1,0 +1,25 @@
+=== r4_love_c1
+level: R4
+kind: chat
+title: 그 메시지는 고양이가
+emoji: 💬
+scene: 밤 11시 40분, Inês 가 먼저 「가정법」 질문을 보낸다. 들뜬 다음 메시지는 엉뚱한 방으로 간다.
+cast: B: Inês
+register: chat
+twist: 7 slip
+goal: 접속법 과거(se eu pedisse·como se), 조건법(dirias·gostarias), 미래 접속법(se fores·como quiseres)으로 조심스러운 데이트 신청
+expressions: olha; a sério?; pronto; nem pensar; fixe
+B | ___ | ___ | ___ | emotion=cheerful+shy | tags=expr:olha,form:conjuntivo-imperfeito,form:condicional
+A | ___ | ___ | ___ | emotion=surprised | tags=form:condicional,expr:a sério?,form:estar a
+B | ___ | ___ | ___ | emotion=flustered | tags=expr:pronto,form:conjuntivo
+A | ___ | ___ | ___ | emotion=teasing | tags=expr:nem pensar,form:futuro-conjuntivo
+B | ___ | ___ | ___ | emotion=excited | tags=expr:fixe,form:condicional
+A | ___ | ___ | ___ | emotion=cheerful | tags=form:condicional
+B | ___ | ___ | ___ | emotion=shout+excited | tags=twist,form:conjuntivo
+B | ___ | ___ | ___ | emotion=flustered | tags=
+B | ___ | ___ | ___ | emotion=flustered | tags=
+A | ___ | ___ | ___ | emotion=amused | tags=
+B | ___ | ___ | ___ | emotion=flustered+shy | tags=expr:pronto,form:conjuntivo-imperfeito
+A | ___ | ___ | ___ | emotion=surprised | tags=form:estar a
+A | ___ | ___ | ___ | emotion=gentle | tags=heart,form:futuro-conjuntivo
+B | ___ | ___ | ___ | emotion=shy | tags=

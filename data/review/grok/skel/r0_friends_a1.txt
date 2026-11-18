@@ -1,0 +1,17 @@
+=== r0_friends_a1
+level: R0
+kind: short
+title: 한 번 더
+emoji: 🎸
+scene: 밤, 셰어하우스 옥상. Tiago 가 기타를 들고 와서 천천히 노래 한 곡을 시작한다.
+cast: B: Tiago
+register: casual
+twist: 6 ignore
+goal: 느긋한 친구에게 짧게 반응하기 — 「olha」「a sério?」「fixe」
+expressions: olha; a sério?; pá; fixe; então
+A | ___ | ___ | ___ | emotion=amused | tags=form:estar a
+B | ___ | ___ | ___ | emotion=gentle | tags=expr:olha,form:fazer
+A | ___ | ___ | ___ | emotion=surprised | tags=expr:a sério?
+B | ___ | ___ | ___ | emotion=gentle | tags=expr:pá,expr:fixe,form:ser
+A | ___ | ___ | ___ | emotion=teasing | tags=expr:fixe,expr:então,form:poder
+B | ___ | ___ | ___ | emotion=amused | tags=twist,form:poder

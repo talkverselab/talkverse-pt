@@ -38,9 +38,9 @@
  "turns": [
   {
    "speaker": "B",
-   "tl": "Estás acordada? Acabei o quadro para o café do Tiago e preciso da tua opinião.",
-   "ko": "깨어 있어? Tiago 카페에 걸 그림 다 그렸는데 네 의견이 필요해.",
-   "note": "quadro = 그림 · opinião = 의견",
+   "tl": "Acabei o quadro! Qual é a tua opinião?",
+   "ko": "그림 끝냈어! 네 의견은 어때?",
+   "note": "quadro = 그림",
    "tags": [
     "vocab:quadro",
     "vocab:opinião"
@@ -49,13 +49,13 @@
    "at": "22:10",
    "emotion": "excited",
    "num": 1,
-   "rd": "이쉬따즈 아꾸르다다? 아까베이 우 꽈드루 빠라 우 까페 두 띠아구 이 프르씨주 다 뚜아 오삐니아웅."
+   "rd": "아까베이 우 꽈드루! 꽐 에 아 뚜아 오삐니아웅?"
   },
   {
    "speaker": "A",
-   "tl": "Manda lá! Prometo dizer a verdade.",
-   "ko": "보내 봐! 솔직하게 말할게.",
-   "note": "manda lá = 보내 봐",
+   "tl": "Prometi que ia ver já. Manda a foto.",
+   "ko": "보겠다고 약속했잖아. 사진 보내.",
+   "note": "prometer = 약속하다",
    "tags": [
     "vocab:prometer"
    ],
@@ -63,13 +63,13 @@
    "at": "22:11",
    "emotion": "cheerful",
    "num": 2,
-   "rd": "만다 라! 프루메뚜 디제르 아 브르다드."
+   "rd": "프루므띠 끄 이아 베르 자. 만다 아 포뚜."
   },
   {
    "speaker": "B",
-   "tl": "Pronto, foto enviada. Sê simpática, por favor.",
-   "ko": "자, 사진 보냈어. 착하게 말해 줘, 제발.",
-   "note": "enviar = 보내다 · simpático = 친절한",
+   "tl": "Pronto, vou enviar agora. É simpático?",
+   "ko": "됐어, 지금 보낼게. 귀엽지?",
+   "note": "enviar = 보내다",
    "tags": [
     "expr:pronto",
     "vocab:enviar",
@@ -79,13 +79,13 @@
    "at": "22:12",
    "emotion": "shy",
    "num": 3,
-   "rd": "프론뚜, 포뚜 엔비아다. 쎄 씸빠띠까, 뽀르 파보르."
+   "rd": "프론뚜, 보우 엔비아르 아고라. 에 씸빠띠꾸?"
   },
   {
    "speaker": "A",
-   "tl": "Epá... é um gato a andar de bicicleta? Ou um cão?",
-   "ko": "어… 자전거 타는 고양이야? 아니면 개?",
-   "note": "bicicleta = 자전거(상한 밖 낱말) · gato = 고양이",
+   "tl": "Epá, parece um gato ou quê?",
+   "ko": "에파, 고양이 같아 아니면 뭐야?",
+   "note": "gato = 고양이",
    "tags": [
     "expr:epá",
     "vocab:gato"
@@ -94,13 +94,13 @@
    "at": "22:14",
    "emotion": "surprised",
    "num": 4,
-   "rd": "에빠... 에 웅 가뚜 아 안다르 드 비씨끌레따? 오우 웅 까웅?"
+   "rd": "에빠, 빠레쓰 웅 가뚜 오우 께?"
   },
   {
    "speaker": "B",
-   "tl": "É um retrato da minha avó, {name}.",
-   "ko": "우리 할머니 초상화거든, {name}.",
-   "note": "retrato = 초상화 · avó = 할머니",
+   "tl": "É um retrato da minha avó, pá!",
+   "ko": "내 할머니 초상화야, 야!",
+   "note": "retrato = 초상화",
    "tags": [
     "vocab:retrato",
     "vocab:avó"
@@ -109,13 +109,13 @@
    "at": "22:14",
    "emotion": "tsukkomi",
    "num": 5,
-   "rd": "에 웅 흐트라뚜 다 밍야 아보, {name}."
+   "rd": "에 웅 흐트라뚜 다 밍야 아보, 빠!"
   },
   {
    "speaker": "A",
-   "tl": "Ah. Pois... a tua avó tem um sorriso lindo. E as cores são giras!",
-   "ko": "아. 그렇구나… 할머니 미소가 예쁘시다. 그리고 색깔도 예뻐!",
-   "note": "pois = 그렇구나(얼버무림) · sorriso = 미소 · giro = 예쁜",
+   "tl": "Pois, o sorriso dela... a cor é giro.",
+   "ko": "그렇지, 그 미소... 색깔이 멋져.",
+   "note": "sorriso = 미소",
    "tags": [
     "expr:pois",
     "vocab:sorriso",
@@ -126,13 +126,13 @@
    "at": "22:15",
    "emotion": "flustered",
    "num": 6,
-   "rd": "아. 뽀이쉬... 아 뚜아 아보 땡 웅 쑤히주 린두. 이 아쉬 꼬르쉬 싸웅 지라쉬!"
+   "rd": "뽀이쉬, 우 쑤히주 델라... 아 꼬르 에 지루."
   },
   {
    "speaker": "B",
-   "tl": "Mentira! Mas não faz mal, ela também se ia rir. Vens ao café no sábado?",
-   "ko": "거짓말! 근데 괜찮아, 할머니도 웃으셨을 거야. 토요일에 카페 올 거지?",
-   "note": "mentira = 거짓말 · não faz mal = 괜찮아",
+   "tl": "Não faz mal se for mentira, posso rir.",
+   "ko": "거짓말해도 상관없어, 웃을 수 있어.",
+   "note": "mentira = 거짓말",
    "tags": [
     "expr:não faz mal",
     "vocab:mentira",
@@ -140,24 +140,15 @@
    ],
    "ui": "bubble",
    "at": "22:15",
-   "segs": [
-    [
-     "amused",
-     "Mentira! Mas não faz mal, ela também se ia rir."
-    ],
-    [
-     "cheerful",
-     "Vens ao café no sábado?"
-    ]
-   ],
+   "emotion": "amused",
    "num": 7,
-   "rd": "멘띠라! 마쉬 나웅 파쉬 말, 엘라 땀벵 쓰 이아 히르. 벵즈 아우 까페 누 싸바두?"
+   "rd": "나웅 파쉬 말 쓰 포르 멘띠라, 뽀쑤 히르."
   },
   {
    "speaker": "A",
-   "tl": "Claro que vou. Quero ver o gato ao vivo.",
-   "ko": "당연히 가지. 고양이 실물로 보고 싶어.",
-   "note": "ao vivo = 직접, 실물로",
+   "tl": "Claro que é a verdade, juro.",
+   "ko": "당연히 진실이야, 맹세해.",
+   "note": "",
    "tags": [
     "expr:claro"
    ],
@@ -165,13 +156,13 @@
    "at": "22:16",
    "emotion": "teasing",
    "num": 8,
-   "rd": "끌라루 끄 보우. 께루 베르 우 가뚜 아우 비부."
+   "rd": "끌라루 끄 에 아 브르다드, 주루."
   },
   {
    "speaker": "B",
-   "tl": "Ainda bem. Vai ser o meu último sábado cá.",
-   "ko": "다행이다. 내가 여기서 보내는 마지막 토요일이거든.",
-   "note": "ainda bem = 다행이다",
+   "tl": "Ainda bem que gostas mesmo.",
+   "ko": "진짜 좋아해서 다행이야.",
+   "note": "",
    "tags": [
     "expr:ainda bem"
    ],
@@ -179,25 +170,25 @@
    "at": "22:20",
    "emotion": "sad",
    "num": 9,
-   "rd": "아인다 벵. 바이 쎄르 우 메우 울띠무 싸바두 까."
+   "rd": "아인다 벵 끄 고쉬따쉬 메쥬무."
   },
   {
    "speaker": "A",
-   "tl": "Último? Como assim?",
-   "ko": "마지막? 무슨 말이야?",
-   "note": "como assim? = 무슨 뜻이야?",
+   "tl": "Estás bem? Pareces triste.",
+   "ko": "괜찮아? 슬퍼 보여.",
+   "note": "",
    "tags": [],
    "ui": "bubble",
    "at": "22:20",
    "emotion": "worried",
    "num": 10,
-   "rd": "울띠무? 꼬무 아씽?"
+   "rd": "이쉬따쉬 벵? 빠레쓰쉬 트리쉬뜨."
   },
   {
    "speaker": "B",
-   "tl": "Consegui um emprego numa escola de arte lá fora. Parto no domingo.",
-   "ko": "외국 미술 학교에 일자리 구했어. 일요일에 떠나.",
-   "note": "emprego = 일자리 · arte = 미술 · lá fora = 외국에",
+   "tl": "O emprego na arte... a avó queria tanto.",
+   "ko": "예술 쪽 일... 할머니가 그렇게 원했어.",
+   "note": "emprego = 일자리",
    "tags": [
     "vocab:emprego",
     "vocab:arte",
@@ -207,13 +198,13 @@
    "at": "22:22",
    "emotion": "sad",
    "num": 11,
-   "rd": "꼰쓰기 웅 엠프레구 누마 이쉬꼴라 드 아르뜨 라 포라. 빠르뚜 누 두밍구."
+   "rd": "우 엠프레구 나 아르뜨... 아 아보 께리아 딴뚜."
   },
   {
    "speaker": "A",
-   "tl": "O quê?! A sério? E só me dizes isso agora?",
-   "ko": "뭐?! 진짜? 근데 그걸 지금 말해?",
-   "note": "a sério? = 진짜?",
+   "tl": "A sério? Não me tinhas dito!",
+   "ko": "진짜? 나한테 말 안 했잖아!",
+   "note": "",
    "tags": [
     "expr:a sério"
    ],
@@ -222,21 +213,21 @@
    "segs": [
     [
      "shout",
-     "O quê?! A sério?"
+     "A sério?"
     ],
     [
      "annoyed",
-     "E só me dizes isso agora?"
+     " Não me tinhas dito!"
     ]
    ],
    "num": 12,
-   "rd": "우 께?! 아 쎄리우? 이 쏘 므 디즈즈 이쑤 아고라?"
+   "rd": "아 쎄리우? 나웅 므 띵야쉬 디뚜!"
   },
   {
    "speaker": "B",
-   "tl": "Tinha medo de chorar. Pronto, já estou a chorar.",
-   "ko": "울까 봐 무서웠어. 봐, 벌써 울고 있잖아.",
-   "note": "medo = 두려움 · chorar = 울다",
+   "tl": "Pronto, desculpa. É difícil falar.",
+   "ko": "됐어, 미안. 말하기 어려워.",
+   "note": "",
    "tags": [
     "expr:pronto"
    ],
@@ -245,36 +236,36 @@
    "segs": [
     [
      "shy",
-     "Tinha medo de chorar."
+     "Pronto, desculpa."
     ],
     [
      "sad",
-     "Pronto, já estou a chorar."
+     " É difícil falar."
     ]
    ],
    "num": 13,
-   "rd": "띵야 메두 드 슈라르. 프론뚜, 자 이쉬또우 아 슈라르."
+   "rd": "프론뚜, 드쉬꿀빠. 에 디피씰 팔라르."
   },
   {
    "speaker": "A",
-   "tl": "Então no sábado compro o gato de bicicleta. E não digo nada à tua avó.",
-   "ko": "그럼 토요일에 자전거 탄 고양이 내가 살게. 할머니한텐 비밀로 하고.",
-   "note": "comprar = 사다",
+   "tl": "A foto está linda. A avó ia adorar.",
+   "ko": "사진 예뻐. 할머니가 좋아하셨을 거야.",
+   "note": "",
    "tags": [],
    "ui": "bubble",
    "at": "22:25",
    "segs": [
     [
      "gentle",
-     "Então no sábado compro o gato de bicicleta."
+     "A foto está linda."
     ],
     [
      "teasing",
-     "E não digo nada à tua avó."
+     " A avó ia adorar."
     ]
    ],
    "num": 14,
-   "rd": "엔따웅 누 싸바두 꽁프루 우 가뚜 드 비씨끌레따. 이 나웅 디구 나다 아 뚜아 아보."
+   "rd": "아 포뚜 이쉬따 린다. 아 아보 이아 아두라르."
   }
  ]
 }

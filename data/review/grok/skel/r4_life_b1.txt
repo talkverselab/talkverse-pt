@@ -1,0 +1,27 @@
+=== r4_life_b1
+level: R4
+kind: long
+title: 번호 없인 집 없고 집 없인 번호 없고
+emoji: 🏢
+scene: 관공서 창구. 집을 구하려면 세금 번호가, 세금 번호를 받으려면 주소가 필요하다.
+cast: B: Dona Fernanda
+register: polite
+twist: 13 reveal
+goal: 관공서 존칭(3인칭), 「com certeza」「olhe」「espere lá」「não me diga」, 상대 성별에 맞춘 coitado/coitada
+expressions: com certeza; olhe; coitado; espere lá; pois; se calhar
+B | ___ | ___ | ___ | emotion=polite | tags=expr:faça favor
+A | ___ | ___ | ___ | emotion=stiff | tags=form:precisar de
+B | ___ | ___ | ___ | emotion=polite | tags=expr:com certeza
+A | ___ | ___ | ___ | emotion=worried | tags=form:infinitivo-pessoal
+B | ___ | ___ | ___ | emotion=polite | tags=expr:pois,form:lhe
+A | ___ | ___ | ___ | emotion=flustered | tags=expr:como é que
+B | ___ | ___ | ___ | emotion=amused | tags=expr:olhe
+A | ___ | ___ | ___ | emotion=shout | tags=form:andar-a
+B | ___ | ___ | ___ | emotion=gentle | tags=expr:coitado,form:conjuntivo
+A | ___ | ___ | ___ | emotion=annoyed+sad | tags=form:dormir
+B | ___ | ___ | ___ | emotion=surprised | tags=expr:espere lá,form:clitic
+A | ___ | ___ | ___ | emotion=worried | tags=expr:não me diga,form:conjuntivo
+B | ___ | ___ | ___ | emotion=surprised+amused | tags=twist,form:o-senhor
+A | ___ | ___ | ___ | emotion=shout | tags=form:perfeito
+B | ___ | ___ | ___ | emotion=teasing | tags=expr:se calhar,expr:coitado
+A | ___ | ___ | ___ | emotion=amused+tsukkomi | tags=form:acabar-de

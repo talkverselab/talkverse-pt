@@ -1,0 +1,26 @@
+=== r4_work_b1
+level: R4
+kind: long
+title: 넥타이 맨 재앙
+emoji: 🎙️
+scene: 화상 회의 끝자락. 상사 Marta 가 제안서에 대한 의견을 묻는다. 쉬는 시간에 마이크가 켜져 있던 줄은 모른다.
+cast: B: Marta
+register: polite
+twist: 11 chaos
+goal: 완곡 표현과 접속법(embora·talvez·caso), 인칭 부정사, 미래형 추측
+expressions: com todo o respeito; a sério?; quer dizer; pelo contrário; não faço ideia
+B | ___ | ___ | ___ | emotion=polite | tags=form:infinitivo-pessoal
+A | ___ | ___ | ___ | emotion=stiff | tags=expr:com todo o respeito,form:condicional
+B | ___ | ___ | ___ | emotion=polite | tags=expr:estar à espera
+A | ___ | ___ | ___ | emotion=polite | tags=form:conjuntivo-imperfeito
+B | ___ | ___ | ___ | emotion=polite | tags=
+A | ___ | ___ | ___ | emotion=worried | tags=form:conjuntivo
+B | ___ | ___ | ___ | emotion=teasing | tags=expr:bem menos
+A | ___ | ___ | ___ | emotion=flustered | tags=expr:a sério,form:futuro-perfeito
+B | ___ | ___ | ___ | emotion=teasing | tags=form:estar-a
+A | ___ | ___ | ___ | emotion=flustered | tags=expr:não faço ideia,form:conjuntivo
+B | ___ | ___ | ___ | emotion=polite | tags=twist
+A | ___ | ___ | ___ | emotion=worried | tags=
+B | ___ | ___ | ___ | emotion=amused | tags=expr:por incrível que pareça
+A | ___ | ___ | ___ | emotion=stiff | tags=expr:quer dizer
+B | ___ | ___ | ___ | emotion=amused | tags=expr:pelo contrário

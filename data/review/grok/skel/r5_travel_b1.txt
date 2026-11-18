@@ -1,0 +1,25 @@
+=== r5_travel_b1
+level: R5
+kind: long
+title: 네 번째 계획
+emoji: 🚆
+scene: 기차역. 계획을 수시로 바꾸는 Beatriz 와 포르투행 기차를 타러 뛰어왔다.
+cast: B: Beatriz
+register: casual
+twist: 11 reveal
+goal: 새 문법 없이 657~2,000위 어휘(despachar·mala·passaporte·garrafa·bilhete·hotel·ponte·plano·prometer·entrada·máquina·data·autocarro·maluco)를 여행 대화에서 쓰기
+expressions: pá; fixe; epá; a sério; está bem; vá lá; mesmo
+B | ___ | ___ | ___ | emotion=excited | tags=vocab:despachar,vocab:comboio
+A | ___ | ___ | ___ | emotion=amused | tags=expr:pá,vocab:mala,vocab:passaporte,vocab:garrafa,form:ter
+B | ___ | ___ | ___ | emotion=cheerful | tags=vocab:bilhete,vocab:telemóvel,form:ter
+A | ___ | ___ | ___ | emotion=cheerful | tags=expr:fixe,vocab:hotel,vocab:ponte
+B | ___ | ___ | ___ | emotion=excited | tags=expr:epá,vocab:praia,vocab:enorme
+A | ___ | ___ | ___ | emotion=tsukkomi | tags=vocab:plano,form:dizer
+B | ___ | ___ | ___ | emotion=teasing | tags=expr:a sério,vocab:prometer
+A | ___ | ___ | ___ | emotion=worried | tags=expr:está bem,vocab:entrada
+B | ___ | ___ | ___ | emotion=cheerful | tags=vocab:máquina
+A | ___ | ___ | ___ | emotion=worried | tags=vocab:data,form:ver
+B | ___ | ___ | ___ | emotion=surprised+flustered | tags=twist
+A | ___ | ___ | ___ | emotion=sad | tags=expr:então
+B | ___ | ___ | ___ | emotion=excited+cheerful | tags=expr:vá lá,vocab:autocarro
+A | ___ | ___ | ___ | emotion=amused | tags=expr:mesmo,vocab:maluco

@@ -1,0 +1,19 @@
+=== r1_love_a2
+level: R1
+kind: short
+title: 엄마가 오는 밤
+emoji: 💌
+scene: Inês 가 다급하게 문을 두드린다. 오늘 밤 엄마가 오는데 문제가 하나 있다.
+cast: B: Inês
+register: casual
+twist: 7 reveal
+goal: precisar de·achar que, 듣는 사람 성별에 맞춘 coitado/coitada, 「pronto」
+expressions: então; fixe; pois; coitado; pronto
+B | ___ | ___ | ___ | emotion=worried | tags=form:precisar de
+A | ___ | ___ | ___ | emotion=worried | tags=form:precisar de
+B | ___ | ___ | ___ | emotion=worried | tags=form:chegar
+A | ___ | ___ | ___ | emotion=amused | tags=expr:então,expr:fixe,form:achar
+B | ___ | ___ | ___ | emotion=flustered | tags=expr:pois,form:achar que
+A | ___ | ___ | ___ | emotion=teasing | tags=expr:coitado,form:ter
+B | ___ | ___ | ___ | emotion=flustered+shy | tags=twist,form:perfeito
+A | ___ | ___ | ___ | emotion=gentle | tags=expr:pronto,form:achar que,form:poder

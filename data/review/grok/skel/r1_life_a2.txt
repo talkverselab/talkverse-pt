@@ -1,0 +1,19 @@
+=== r1_life_a2
+level: R1
+kind: short
+title: 세상이 끝난 날
+emoji: ⚽
+scene: 거실 불이 꺼진 채 Duarte 가 소파에 웅크리고 있다. 무슨 일이 생긴 걸까.
+cast: B: Duarte
+register: casual
+twist: 8 reveal
+goal: 완료과거 morreu·perdeu, 접어 deixa-me, 달래는 말 「pronto, pronto」
+expressions: pá; pronto
+A | ___ | ___ | ___ | emotion=worried | tags=form:estar,expr:pá
+B | ___ | ___ | ___ | emotion=sad | tags=form:answer-verb,form:clitic,expr:pá
+A | ___ | ___ | ___ | emotion=worried | tags=form:perfeito
+B | ___ | ___ | ___ | emotion=sad | tags=form:perfeito
+A | ___ | ___ | ___ | emotion=amused | tags=expr:pronto,form:estar
+B | ___ | ___ | ___ | emotion=shout | tags=expr:pá,form:estar-a
+A | ___ | ___ | ___ | emotion=gentle | tags=form:ficar
+B | ___ | ___ | ___ | emotion=gentle+tsukkomi | tags=twist,form:gender-adj,form:contraction

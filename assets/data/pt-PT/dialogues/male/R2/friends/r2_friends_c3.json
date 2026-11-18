@@ -39,191 +39,191 @@
  "turns": [
   {
    "speaker": "A",
-   "tl": "Duarte, viste o meu bolo? Estava aqui em casa.",
-   "ko": "Duarte, 내 케이크 봤어? 집에 있었는데.",
-   "note": "bolo = 케이크(상한 밖) / viste = 봤어(ver 완료과거)",
+   "tl": "O bolo estava aqui. Viste-o?",
+   "ko": "케이크 여기 있었는데. 봤어?",
+   "note": "bolo = 케이크; estava = 있었다",
    "tags": [
     "form:perfeito",
     "form:imperfeito",
     "new:bolo"
    ],
-   "emotion": "worried",
    "ui": "bubble",
    "at": "23:40",
+   "emotion": "worried",
    "num": 1,
-   "rd": "두아르뜨, 비쉬뜨 우 메우 볼루? 이쉬따바 아끼 앵 까자."
+   "rd": "우 볼루 이쉬따바 아끼. 비쉬뜨 우?"
   },
   {
    "speaker": "B",
-   "tl": "Que bolo? Estou a ver o jogo.",
-   "ko": "무슨 케이크? 나 경기 보는 중.",
-   "note": "estou a ver = 보고 있다(estar a + 원형)",
+   "tl": "Não sei.",
+   "ko": "몰라.",
+   "note": "",
    "tags": [],
-   "emotion": "stiff",
    "ui": "bubble",
    "at": "23:41",
+   "emotion": "stiff",
    "num": 2,
-   "rd": "끄 볼루? 이쉬또우 아 베르 우 조구."
+   "rd": "나웅 쎄이."
   },
   {
    "speaker": "A",
-   "tl": "O de chocolate. Estava na cozinha, numa caixa branca.",
-   "ko": "초콜릿 케이크. 부엌에 하얀 상자에 있었어.",
-   "note": "o de chocolate = 초콜릿 거 · caixa = 상자",
+   "tl": "Era o meu bolo.",
+   "ko": "내 케이크였어.",
+   "note": "era = ~였다",
    "tags": [
     "form:imperfeito"
    ],
-   "emotion": "annoyed",
    "ui": "bubble",
    "at": "23:41",
+   "emotion": "annoyed",
    "num": 3,
-   "rd": "우 드 슈꿀라뜨. 이쉬따바 나 꾸징야, 누마 까이샤 브랑까."
+   "rd": "에라 우 메우 볼루."
   },
   {
    "speaker": "B",
-   "tl": "Ah, esse. Pois, era muito bom.",
-   "ko": "아, 그거. 그래, 맛있었지.",
-   "note": "era = ~였다(ser 반과거)",
+   "tl": "Pois, estava bom.",
+   "ko": "그래, 맛있었어.",
+   "note": "pois = 그래; estava = 있었다",
    "tags": [
     "expr:pois",
     "form:imperfeito"
    ],
-   "emotion": "teasing",
    "ui": "bubble",
    "at": "23:42",
+   "emotion": "teasing",
    "num": 4,
-   "rd": "아, 에쓰. 뽀이쉬, 에라 무이뚜 봉."
+   "rd": "뽀이쉬, 이쉬따바 봉."
   },
   {
    "speaker": "A",
-   "tl": "ERA?! Duarte, comeste o meu bolo?",
-   "ko": "맛있었지?! Duarte, 너 내 케이크 먹었어?",
-   "note": "comeste = 네가 먹었다(comer 완료과거)",
+   "tl": "Comeste o bolo?",
+   "ko": "케이크 먹었어?",
+   "note": "comeste = 네가 먹었다",
    "tags": [
     "form:perfeito"
    ],
-   "emotion": "shout",
    "ui": "bubble",
    "at": "23:42",
+   "emotion": "shout",
    "num": 5,
-   "rd": "에라?! 두아르뜨, 꾸메쉬뜨 우 메우 볼루?"
+   "rd": "꾸메쉬뜨 우 볼루?"
   },
   {
    "speaker": "B",
-   "tl": "Só um bocado. Epá, que jogo!",
-   "ko": "조금만. 와, 경기 미쳤다!",
-   "note": "um bocado = 조금 / epá = 와, 이야",
+   "tl": "Um bocado. Epá, estava mesmo bom.",
+   "ko": "조금. 아, 진짜 맛있었어.",
+   "note": "um bocado = 조금; epá = 아",
    "tags": [
     "expr:um bocado",
     "expr:epá"
    ],
+   "ui": "bubble",
+   "at": "23:43",
    "segs": [
     [
      "flustered",
-     "Só um bocado."
+     "Um bocado."
     ],
     [
      "excited",
-     " Epá, que jogo!"
+     " Epá, estava mesmo bom."
     ]
    ],
-   "ui": "bubble",
-   "at": "23:43",
    "num": 6,
-   "rd": "쏘 웅 부까두. 에빠, 끄 조구!"
+   "rd": "웅 부까두. 에빠, 이쉬따바 메쥬무 봉."
   },
   {
    "speaker": "A",
-   "tl": "Não quero saber do jogo. Um bocado quanto?",
-   "ko": "경기 알 바 아니고. 조금이 얼마만큼인데?",
-   "note": "não quero saber de = ~ 알 바 아니다",
+   "tl": "Não acredito.",
+   "ko": "믿을 수가 없어.",
+   "note": "",
    "tags": [],
-   "emotion": "annoyed",
    "ui": "bubble",
    "at": "23:43",
+   "emotion": "annoyed",
    "num": 7,
-   "rd": "나웅 께루 싸베르 두 조구. 웅 부까두 꽌뚜?"
+   "rd": "나웅 아크르디뚜."
   },
   {
    "speaker": "B",
-   "tl": "Um bocado grande. Quer dizer... metade.",
-   "ko": "큰 조금. 그러니까… 반.",
-   "note": "quer dizer = 그러니까, 다시 말해 · metade = 반",
+   "tl": "Quer dizer, só um pedaço.",
+   "ko": "그러니까, 한 조각만.",
+   "note": "quer dizer = 그러니까",
    "tags": [
     "expr:quer dizer"
    ],
-   "emotion": "flustered",
    "ui": "bubble",
    "at": "23:44",
+   "emotion": "flustered",
    "num": 8,
-   "rd": "웅 부까두 그란드. 께르 디제르... 므따드."
+   "rd": "께르 디제르, 쏘 웅 쁘다쑤."
   },
   {
    "speaker": "A",
-   "tl": "Metade?! Olha que esse bolo era para os anos da Inês!",
-   "ko": "반?! 그 케이크 Inês 생일 거였다고!",
-   "note": "olha que = 알아둬(강조) · os anos = 생일",
+   "tl": "Olha, era para hoje.",
+   "ko": "봐, 오늘 거였어.",
+   "note": "olha = 봐",
    "tags": [
     "expr:olha"
    ],
-   "emotion": "shout",
    "ui": "bubble",
    "at": "23:45",
+   "emotion": "shout",
    "num": 9,
-   "rd": "므따드?! 올랴 끄 에쓰 볼루 에라 빠라 우즈 아누쉬 다 이네쉬!"
+   "rd": "올랴, 에라 빠라 오즈."
   },
   {
    "speaker": "B",
-   "tl": "Da Inês? Epá... pensei que era o bolo que a minha mãe me mandou.",
-   "ko": "Inês 거? 이런… 우리 엄마가 보내 준 케이크인 줄 알았어.",
-   "note": "pensei que = ~인 줄 알았다 · me mandou = 나한테 보냈다(접어 앞)",
+   "tl": "Epá, pensei que era teu. Não, mandei mensagem.",
+   "ko": "아, 네 거인 줄 알았어. 아니, 메시지 보냈어.",
+   "note": "epá = 아; pensei = 내가 생각했다",
    "tags": [
     "twist",
     "expr:epá",
     "form:perfeito"
    ],
+   "ui": "bubble",
+   "at": "23:45",
    "segs": [
     [
      "surprised",
-     "Da Inês?"
+     "Epá, pensei que era teu."
     ],
     [
      "flustered",
-     " Epá... pensei que era o bolo que a minha mãe me mandou."
+     " Não, mandei mensagem."
     ]
    ],
-   "ui": "bubble",
-   "at": "23:45",
    "num": 10,
-   "rd": "다 이네쉬? 에빠... 뻰쎄이 끄 에라 우 볼루 끄 아 밍야 마잉 므 만도우."
+   "rd": "에빠, 뻰쎄이 끄 에라 떼우. 나웅, 만데이 멘싸젱."
   },
   {
    "speaker": "A",
-   "tl": "O da tua mãe está no teu quarto desde sábado, pá. Não viste?",
-   "ko": "너희 엄마 케이크는 토요일부터 네 방에 있잖아. 못 봤어?",
-   "note": "o da tua mãe = 너희 엄마 거 · não viste? = 못 봤어?",
+   "tl": "Mandaste o quê?",
+   "ko": "뭘 보냈다고?",
+   "note": "mandaste = 네가 보냈다",
    "tags": [
     "form:perfeito"
    ],
-   "emotion": "tsukkomi",
    "ui": "bubble",
    "at": "23:46",
+   "emotion": "tsukkomi",
    "num": 11,
-   "rd": "우 다 뚜아 마잉 이쉬따 누 떼우 꽈르뚜 데쥬드 싸바두, 빠. 나웅 비쉬뜨?"
+   "rd": "만다쉬뜨 우 께?"
   },
   {
    "speaker": "B",
-   "tl": "Pronto. Amanhã a Inês come o da minha mãe. Ela nem vai saber.",
-   "ko": "됐어. 내일 Inês 는 우리 엄마 케이크 먹으면 돼. 걔는 모를 거야.",
-   "note": "come = (그녀가) 먹는다(como·comes·come) · nem vai saber = 알지도 못할 거야",
+   "tl": "Pronto, compro outro.",
+   "ko": "됐다, 다른 거 살게.",
+   "note": "pronto = 됐다",
    "tags": [
     "expr:pronto"
    ],
-   "emotion": "teasing",
    "ui": "bubble",
    "at": "23:46",
+   "emotion": "teasing",
    "num": 12,
-   "rd": "프론뚜. 아망양 아 이네쉬 꼬므 우 다 밍야 마잉. 엘라 넹 바이 싸베르."
+   "rd": "프론뚜, 꽁프루 오우트루."
   }
  ]
 }

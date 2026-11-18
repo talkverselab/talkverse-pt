@@ -39,22 +39,22 @@
  "turns": [
   {
    "speaker": "B",
-   "tl": "Despacha-te, {name}! O comboio para o Porto sai daqui a dez minutos.",
-   "ko": "서둘러, {name}! 포르투 가는 기차 10분 뒤에 출발해.",
-   "note": "despachar-se = 서두르다",
+   "tl": "Vamos despachar! O comboio parte já.",
+   "ko": "서두르자! 기차 곧 출발해.",
+   "note": "despachar = 서두르다",
    "tags": [
     "vocab:despachar",
     "vocab:comboio"
    ],
    "emotion": "excited",
    "num": 1,
-   "rd": "드쉬빠샤 뜨, {name}! 우 꽁보이우 빠라 우 뽀르뚜 싸이 다끼 아 데쉬 미누뚜쉬."
+   "rd": "바무쉬 드쉬빠샤르! 우 꽁보이우 빠르뜨 자."
   },
   {
    "speaker": "A",
-   "tl": "Calma, pá. Tenho a mala, o passaporte e a garrafa de água. Tu tens os bilhetes?",
-   "ko": "진정해. 캐리어, 여권, 물병 다 있어. 표는 네가 갖고 있지?",
-   "note": "mala = 여행 가방 · passaporte = 여권 · garrafa = 병 · tens = (너는) 갖고 있다",
+   "tl": "Pá, a mala, o passaporte e a garrafa... tenho tudo.",
+   "ko": "야, 가방, 여권, 물병... 다 있어.",
+   "note": "mala = 가방",
    "tags": [
     "expr:pá",
     "vocab:mala",
@@ -64,13 +64,13 @@
    ],
    "emotion": "amused",
    "num": 2,
-   "rd": "깔마, 빠. 뗑유 아 말라, 우 빠싸뽀르뜨 이 아 가하파 드 아과. 뚜 뗑즈 우쉬 빌례뜨쉬?"
+   "rd": "빠, 아 말라, 우 빠싸뽀르뜨 이 아 가하파... 뗑유 뚜두."
   },
   {
    "speaker": "B",
-   "tl": "Tenho! Comprei-os ontem no telemóvel. Olha, lugares à janela.",
-   "ko": "있지! 어제 폰으로 샀어. 봐, 창가 자리야.",
-   "note": "bilhete = 표 · telemóvel = 휴대폰 · tenho = (나) 갖고 있어",
+   "tl": "O bilhete está no telemóvel. Tenho a certeza.",
+   "ko": "표는 휴대폰에 있어. 확실해.",
+   "note": "bilhete = 표",
    "tags": [
     "vocab:bilhete",
     "vocab:telemóvel",
@@ -78,13 +78,13 @@
    ],
    "emotion": "cheerful",
    "num": 3,
-   "rd": "뗑유! 꽁프레이 우즈 온뗑 누 뜰르모벨. 올랴, 루가르즈 아 자넬라."
+   "rd": "우 빌례뜨 이쉬따 누 뜰르모벨. 뗑유 아 쓰르떼자."
   },
   {
    "speaker": "A",
-   "tl": "Fixe. E no Porto ficamos naquele hotel perto da ponte, certo?",
-   "ko": "좋다. 그리고 포르투에선 다리 근처 그 호텔에 묵는 거지?",
-   "note": "fixe = 좋다, 멋지다 · ponte = 다리",
+   "tl": "Fixe, o hotel fica perto da ponte.",
+   "ko": "좋아, 호텔이 다리 근처에 있어.",
+   "note": "hotel = 호텔",
    "tags": [
     "expr:fixe",
     "vocab:hotel",
@@ -92,13 +92,13 @@
    ],
    "emotion": "cheerful",
    "num": 4,
-   "rd": "피쉬. 이 누 뽀르뚜 피까무쉬 나껠르 오뗄 뻬르뚜 다 뽄뜨, 쎄르뚜?"
+   "rd": "피쉬, 우 오뗄 피까 뻬르뚜 다 뽄뜨."
   },
   {
    "speaker": "B",
-   "tl": "Epá, mudei de ideias. Primeiro vamos à praia, amanhã há ondas enormes!",
-   "ko": "아 참, 생각 바꿨어. 먼저 바다 가자, 내일 파도 엄청 커!",
-   "note": "onda = 파도(상한 밖 낱말) · enorme = 엄청 큰",
+   "tl": "Epá, e a praia é enorme! Vamos lá.",
+   "ko": "에파, 그리고 바다가 엄청 커! 가자.",
+   "note": "praia = 바다",
    "tags": [
     "expr:epá",
     "vocab:praia",
@@ -106,38 +106,38 @@
    ],
    "emotion": "excited",
    "num": 5,
-   "rd": "에빠, 무데이 드 이데이아쉬. 프리메이루 바무즈 아 프라이아, 아망양 아 옹다즈 에노르므쉬!"
+   "rd": "에빠, 이 아 프라이아 에 에노르므! 바무쉬 라."
   },
   {
    "speaker": "A",
-   "tl": "Outra vez? Na semana passada disseste o mesmo e mudaste o plano três vezes.",
-   "ko": "또? 지난주에도 똑같이 말하고 계획 세 번 바꿨잖아.",
-   "note": "plano = 계획 · disseste = (너는) 말했다",
+   "tl": "Este é o quarto plano que dizes hoje.",
+   "ko": "오늘 네가 말한 네 번째 계획이야.",
+   "note": "plano = 계획",
    "tags": [
     "vocab:plano",
     "form:dizer"
    ],
    "emotion": "tsukkomi",
    "num": 6,
-   "rd": "오우트라 베쉬? 나 쓰마나 빠싸다 디쎄쉬뜨 우 메쥬무 이 무다쉬뜨 우 쁠라누 트레쉬 베즈쉬."
+   "rd": "에쉬뜨 에 우 꽈르뚜 쁠라누 끄 디즈즈 오즈."
   },
   {
    "speaker": "B",
-   "tl": "Mas desta vez é a sério. Prometo, é o último plano.",
-   "ko": "근데 이번엔 진짜야. 약속해, 이게 마지막 계획이야.",
-   "note": "a sério = 진짜로 · prometer = 약속하다",
+   "tl": "A sério? Eu prometi que era o último.",
+   "ko": "진짜? 마지막이라고 약속했잖아.",
+   "note": "prometer = 약속하다",
    "tags": [
     "expr:a sério",
     "vocab:prometer"
    ],
    "emotion": "teasing",
    "num": 7,
-   "rd": "마쉬 데쉬따 베즈 에 아 쎄리우. 프루메뚜, 에 우 울띠무 쁠라누."
+   "rd": "아 쎄리우? 에우 프루므띠 끄 에라 우 울띠무."
   },
   {
    "speaker": "A",
-   "tl": "Está bem. Onde é que mostramos os bilhetes? Não vejo ninguém na entrada.",
-   "ko": "알았어. 표는 어디서 보여 줘? 입구에 아무도 없는데.",
+   "tl": "Está bem, mas a entrada do comboio fecha.",
+   "ko": "알겠어, 근데 기차 입구 닫혀.",
    "note": "entrada = 입구",
    "tags": [
     "expr:está bem",
@@ -145,100 +145,91 @@
    ],
    "emotion": "worried",
    "num": 8,
-   "rd": "이쉬따 벵. 옹드 에 끄 무쉬트라무즈 우쉬 빌례뜨쉬? 나웅 베주 닝겡 나 엔트라다."
+   "rd": "이쉬따 벵, 마즈 아 엔트라다 두 꽁보이우 페샤."
   },
   {
    "speaker": "B",
-   "tl": "Na máquina ao lado da porta. Pões o telemóvel em cima e já está.",
-   "ko": "문 옆 기계에. 폰을 위에 올려놓으면 끝이야.",
-   "note": "máquina = 기계 · em cima = 위에",
+   "tl": "A máquina de bilhetes está ali. Rápido!",
+   "ko": "발권기가 저기 있어. 빨리!",
+   "note": "máquina = 기계",
    "tags": [
     "vocab:máquina"
    ],
    "emotion": "cheerful",
    "num": 9,
-   "rd": "나 마끼나 아우 라두 다 뽀르따. 뽀잉즈 우 뜰르모벨 앵 씨마 이 자 이쉬따."
+   "rd": "아 마끼나 드 빌례뜨즈 이쉬따 알리. 하삐두!"
   },
   {
    "speaker": "A",
-   "tl": "A máquina diz que não. Vês? Aparece uma data estranha... dez do doze?",
-   "ko": "기계가 안 된대. 보여? 이상한 날짜가 떠… 12월 10일?",
-   "note": "data = 날짜 · dez do doze = 12월 10일(날짜 읽기) · vês? = 보여?(vejo ↔ vês)",
+   "tl": "Espera, vou ver a data no bilhete.",
+   "ko": "잠깐, 표에 날짜 확인할게.",
+   "note": "data = 날짜",
    "tags": [
     "vocab:data",
     "form:ver"
    ],
    "emotion": "worried",
    "num": 10,
-   "rd": "아 마끼나 디쉬 끄 나웅. 베쉬? 아빠레쓰 우마 다따 이쉬트랑야... 데쉬 두 도즈?"
+   "rd": "이쉬뻬라, 보우 베르 아 다따 누 빌례뜨."
   },
   {
    "speaker": "B",
-   "tl": "Do doze?! Ai... comprei os bilhetes para o mês que vem.",
-   "ko": "12월?! 아… 표를 다음 달 걸로 샀네.",
-   "note": "o mês que vem = 다음 달",
+   "tl": "Oh não... o comboio é amanhã!",
+   "ko": "아 안 돼... 기차가 내일이야!",
+   "note": "",
    "tags": [
     "twist"
    ],
    "segs": [
     [
      "surprised",
-     "Do doze?!"
+     "Oh não..."
     ],
     [
      "flustered",
-     "Ai... comprei os bilhetes para o mês que vem."
+     " o comboio é amanhã!"
     ]
    ],
    "num": 11,
-   "rd": "두 도즈?! 아이... 꽁프레이 우쉬 빌례뜨쉬 빠라 우 메쉬 끄 벵."
+   "rd": "오 나웅... 우 꽁보이우 에 아망양!"
   },
   {
    "speaker": "A",
-   "tl": "Então a mala, o passaporte, a garrafa... tudo para nada?",
-   "ko": "그럼 캐리어, 여권, 물병… 다 헛수고야?",
-   "note": "para nada = 헛되이",
+   "tl": "Então perdemos? Que chatice.",
+   "ko": "그럼 놓친 거야? 짜증 나.",
+   "note": "",
    "tags": [
     "expr:então"
    ],
    "emotion": "sad",
    "num": 12,
-   "rd": "엔따웅 아 말라, 우 빠싸뽀르뜨, 아 가하파... 뚜두 빠라 나다?"
+   "rd": "엔따웅 쁘르데무쉬? 끄 샤띠쓰."
   },
   {
    "speaker": "B",
-   "tl": "Nada disso! Há um autocarro para a praia às onze. Vá lá, novo plano!",
-   "ko": "무슨 소리! 11시에 바다 가는 버스 있어. 자, 새 계획이야!",
-   "note": "autocarro = 버스 · vá lá = 자, 어서",
+   "tl": "Vá lá, há um autocarro daqui a pouco.",
+   "ko": "에이, 곧 버스 있어.",
+   "note": "autocarro = 버스",
    "tags": [
     "expr:vá lá",
     "vocab:autocarro"
    ],
-   "segs": [
-    [
-     "excited",
-     "Nada disso! Há um autocarro para a praia às onze."
-    ],
-    [
-     "cheerful",
-     "Vá lá, novo plano!"
-    ]
-   ],
+   "emotion": "excited",
    "num": 13,
-   "rd": "나다 디쑤! 아 웅 아우뚜까후 빠라 아 프라이아 아즈 온즈. 바 라, 노부 쁠라누!"
+   "rd": "바 라, 아 웅 아우뚜까후 다끼 아 뽀우꾸."
   },
   {
    "speaker": "A",
-   "tl": "Quarto plano em dez minutos. És mesmo maluca, sabes?",
-   "ko": "10분 만에 네 번째 계획이네. 너 진짜 미쳤어, 알지?",
-   "note": "maluco/a = 미친, 정신없는 · mesmo = 진짜",
+   "tl": "Mesmo maluco, este plano também.",
+   "ko": "진짜 미친 거야, 이 계획도.",
+   "note": "maluco = 미친",
    "tags": [
     "expr:mesmo",
     "vocab:maluco"
    ],
    "emotion": "amused",
    "num": 14,
-   "rd": "꽈르뚜 쁠라누 앵 데쉬 미누뚜쉬. 에쉬 메쥬무 말루까, 싸브쉬?"
+   "rd": "메쥬무 말루꾸, 에쉬뜨 쁠라누 땀벵."
   }
  ]
 }

@@ -40,9 +40,9 @@
  "turns": [
   {
    "speaker": "B",
-   "tl": "{name}, tem um minuto? Alguém comeu o bolo que eu guardei na copa.",
-   "ko": "{name} 씨, 잠깐 시간 돼요? 누가 제가 탕비실에 넣어 둔 케이크를 먹었어요.",
-   "note": "guardar = 보관하다, 넣어 두다",
+   "tl": "Alguém guardou o bolo no escritório? Desapareceu.",
+   "ko": "누가 사무실에 케이크를 보관했어요? 사라졌어요.",
+   "note": "guardar = 보관하다",
    "tags": [
     "vocab:guardar",
     "vocab:escritório"
@@ -50,32 +50,32 @@
    "segs": [
     [
      "polite",
-     "{name}, tem um minuto?"
+     "Alguém guardou o bolo no escritório?"
     ],
     [
      "annoyed",
-     "Alguém comeu o bolo que eu guardei na copa."
+     " Desapareceu."
     ]
    ],
    "num": 1,
-   "rd": "{name}, 땡 웅 미누뚜? 알겡 꾸메우 우 볼루 끄 에우 과르데이 나 꼬빠."
+   "rd": "알겡 과르도우 우 볼루 누 이쉬크리또리우? 드자빠르쎄우."
   },
   {
    "speaker": "A",
-   "tl": "O bolo de anos? Que chatice. Era para quem?",
-   "ko": "그 생일 케이크요? 어떡해요. 누구 주려던 거였어요?",
-   "note": "bolo de anos = 생일 케이크 · que chatice = 이런, 짜증 나게",
+   "tl": "Que chatice. Eu não vi nada.",
+   "ko": "짜증 나네요. 저는 아무것도 못 봤어요.",
+   "note": "",
    "tags": [
     "expr:que chatice"
    ],
    "emotion": "worried",
    "num": 2,
-   "rd": "우 볼루 드 아누쉬? 끄 샤띠쓰. 에라 빠라 껭?"
+   "rd": "끄 샤띠쓰. 에우 나웅 비 나다."
   },
   {
    "speaker": "B",
-   "tl": "Para o meu sobrinho. Faz seis anos hoje e o almoço é às duas.",
-   "ko": "우리 조카 거요. 오늘 여섯 살 되는데 점심이 두 시예요.",
+   "tl": "Era para o aniversário do meu sobrinho, ao almoço.",
+   "ko": "조카 생일 점심용이었어요.",
    "note": "sobrinho = 조카",
    "tags": [
     "vocab:sobrinho",
@@ -83,59 +83,59 @@
    ],
    "emotion": "sad",
    "num": 3,
-   "rd": "빠라 우 메우 쑤브링유. 파쉬 쎄이즈 아누즈 오즈 이 우 알모쑤 에 아쉬 두아쉬."
+   "rd": "에라 빠라 우 아니브르싸리우 두 메우 쑤브링유, 아우 알모쑤."
   },
   {
    "speaker": "A",
-   "tl": "Coitado do miúdo. Mas porque é que está a olhar para mim assim?",
-   "ko": "애가 불쌍하네요. 근데 왜 저를 그렇게 보세요?",
-   "note": "coitado = 불쌍해라",
+   "tl": "Coitado do menino. Eu juro que não fui.",
+   "ko": "불쌍한 아이. 제가 한 거 아니에요, 맹세해요.",
+   "note": "",
    "tags": [
     "expr:coitado"
    ],
    "segs": [
     [
      "gentle",
-     "Coitado do miúdo."
+     "Coitado do menino."
     ],
     [
      "flustered",
-     "Mas porque é que está a olhar para mim assim?"
+     " Eu juro que não fui."
     ]
    ],
    "num": 4,
-   "rd": "꼬이따두 두 미우두. 마쉬 뿌르끄 에 끄 이쉬따 아 올랴르 빠라 밍 아씽?"
+   "rd": "꼬이따두 두 므니누. 에우 주루 끄 나웅 푸이."
   },
   {
    "speaker": "B",
-   "tl": "Porque há migalhas de bolo na sua cadeira, {name}.",
-   "ko": "{name} 씨 의자에 케이크 부스러기가 있으니까요.",
-   "note": "migalha = 부스러기(상한 밖 낱말) · cadeira = 의자",
+   "tl": "Há migalhas na sua cadeira.",
+   "ko": "당신 의자에 부스러기가 있어요.",
+   "note": "cadeira = 의자",
    "tags": [
     "vocab:cadeira"
    ],
    "emotion": "stiff",
    "num": 5,
-   "rd": "뿌르끄 아 미갈랴쉬 드 볼루 나 쑤아 까데이라, {name}."
+   "rd": "아 미갈랴쉬 나 쑤아 까데이라."
   },
   {
    "speaker": "A",
-   "tl": "Isso não é prova nenhuma! Sou inocente, juro. Eu nem como doces.",
-   "ko": "그건 아무 증거도 안 돼요! 저 결백해요, 맹세해요. 저 단것 먹지도 않아요.",
-   "note": "prova = 증거 · inocente = 결백한 · como = 내가 먹는다(comeu ↔ como)",
+   "tl": "Isso não é prova! Sou inocente!",
+   "ko": "그건 증거가 아니에요! 저는 무죄예요!",
+   "note": "prova = 증거",
    "tags": [
     "vocab:prova",
     "vocab:inocente"
    ],
    "emotion": "shout",
    "num": 6,
-   "rd": "이쑤 나웅 에 프로바 넹유마! 쏘우 이누쎈뜨, 주루. 에우 넹 꼬무 도쓰쉬."
+   "rd": "이쑤 나웅 에 프로바! 쏘우 이누쎈뜨!"
   },
   {
    "speaker": "B",
-   "tl": "A sério? Na semana passada comeu três gelados na reunião de equipa.",
-   "ko": "정말요? 지난주 팀 회의 때 아이스크림 세 개 먹었잖아요.",
-   "note": "gelado = 아이스크림 · reunião de equipa = 팀 회의",
+   "tl": "A sério? Estávamos todos na reunião da equipa.",
+   "ko": "진짜요? 우리 모두 팀 회의에 있었어요.",
+   "note": "",
    "tags": [
     "expr:a sério",
     "vocab:reunião",
@@ -143,61 +143,52 @@
    ],
    "emotion": "tsukkomi",
    "num": 7,
-   "rd": "아 쎄리우? 나 쓰마나 빠싸다 꾸메우 트레쉬 즐라두쉬 나 헤우니아웅 드 에끼빠."
+   "rd": "아 쎄리우? 이쉬따바무쉬 또두쉬 나 헤우니아웅 다 에끼빠."
   },
   {
    "speaker": "A",
-   "tl": "Quer dizer... gelado é diferente. A câmara de segurança grava a cozinha, não grava?",
-   "ko": "그러니까… 아이스크림은 다르죠. 보안 카메라가 부엌 찍지 않아요?",
-   "note": "câmara de segurança = 보안 카메라 · gravar = 녹화하다",
+   "tl": "Quer dizer, a câmara de segurança pode gravar.",
+   "ko": "그러니까, 보안 카메라가 녹화할 수 있어요.",
+   "note": "câmara = 카메라",
    "tags": [
     "expr:quer dizer",
     "vocab:câmara",
     "vocab:gravar"
    ],
-   "segs": [
-    [
-     "flustered",
-     "Quer dizer... gelado é diferente."
-    ],
-    [
-     "excited",
-     "A câmara de segurança grava a cozinha, não grava?"
-    ]
-   ],
+   "emotion": "flustered",
    "num": 8,
-   "rd": "께르 디제르... 즐라두 에 디프렌뜨. 아 까마라 드 쓰구란싸 그라바 아 꾸징야, 나웅 그라바?"
+   "rd": "께르 디제르, 아 까마라 드 쓰구란싸 뽀드 그라바르."
   },
   {
    "speaker": "B",
-   "tl": "Grava, sim. Vamos ver o vídeo agora, e acabou-se a mentira.",
-   "ko": "찍죠. 지금 영상 봐요. 거짓말은 거기서 끝이에요.",
-   "note": "acabou-se = 끝났다 · mentira = 거짓말",
+   "tl": "Não me venha com mentiras. O vídeo mostra tudo.",
+   "ko": "거짓말하지 마세요. 영상이 다 보여요.",
+   "note": "mentira = 거짓말",
    "tags": [
     "vocab:mentira",
     "vocab:vídeo"
    ],
    "emotion": "annoyed",
    "num": 9,
-   "rd": "그라바, 씽. 바무쉬 베르 우 비데우 아고라, 이 아까보우 쓰 아 멘띠라."
+   "rd": "나웅 므 벵야 꽁 멘띠라쉬. 우 비데우 모쉬트라 뚜두."
   },
   {
    "speaker": "A",
-   "tl": "Está bem. Se calhar vai pedir-me desculpa daqui a cinco minutos.",
-   "ko": "좋아요. 아마 5분 뒤엔 저한테 사과하시게 될걸요.",
-   "note": "se calhar = 아마, 어쩌면",
+   "tl": "Se calhar foi outra pessoa.",
+   "ko": "다른 사람일지도 몰라요.",
+   "note": "",
    "tags": [
     "expr:se calhar"
    ],
    "emotion": "teasing",
    "num": 10,
-   "rd": "이쉬따 벵. 쓰 깔랴르 바이 쁘디르 므 드쉬꿀빠 다끼 아 씽꾸 미누뚜쉬."
+   "rd": "쓰 깔랴르 포이 오우트라 뻬쏘아."
   },
   {
    "speaker": "B",
-   "tl": "Espere... esta pessoa sou eu. Às nove tirei o bolo da copa e levei-o para o carro.",
-   "ko": "잠깐만요… 이 사람 저네요. 아홉 시에 제가 케이크를 탕비실에서 꺼내서 차에 갖다 놨어요.",
-   "note": "tirar = 꺼내다 · levei-o = 그것을 가져갔다",
+   "tl": "Espera... eu levei o bolo para casa ontem!",
+   "ko": "잠깐... 제가 어제 케이크를 집에 가져갔어요!",
+   "note": "levar = 가져가다",
    "tags": [
     "vocab:levar",
     "twist"
@@ -205,34 +196,34 @@
    "segs": [
     [
      "surprised",
-     "Espere... esta pessoa sou eu."
+     "Espera..."
     ],
     [
      "flustered",
-     " Às nove tirei o bolo da copa e levei-o para o carro."
+     " eu levei o bolo para casa ontem!"
     ]
    ],
    "num": 11,
-   "rd": "이쉬뻬르... 에쉬따 뻬쏘아 쏘우 에우. 아쉬 노브 띠레이 우 볼루 다 꼬빠 이 르베이 우 빠라 우 까후."
+   "rd": "이쉬뻬라... 에우 르베이 우 볼루 빠라 까자 온뗑!"
   },
   {
    "speaker": "A",
-   "tl": "Para o carro? Afinal o bolo está inteiro e o ladrão é a chefe.",
-   "ko": "차에요? 알고 보니 케이크는 멀쩡하고 도둑은 팀장님이네요.",
-   "note": "afinal = 알고 보니 · inteiro = 멀쩡한 · ladrão = 도둑 · chefe = 상사",
+   "tl": "Afinal a senhora é a ladra.",
+   "ko": "결국 부인이 도둑이시네요.",
+   "note": "ladrão = 도둑",
    "tags": [
     "expr:afinal",
     "vocab:ladrão"
    ],
    "emotion": "teasing",
    "num": 12,
-   "rd": "빠라 우 까후? 아피날 우 볼루 이쉬따 인떼이루 이 우 라드라웅 에 아 셰프."
+   "rd": "아피날 아 쎙요라 에 아 라드라."
   },
   {
    "speaker": "B",
-   "tl": "Pronto, peço desculpa. No carro estava mais fresco. Mas então, as migalhas na sua cadeira?",
-   "ko": "알았어요, 미안해요. 차가 더 시원했거든요. 그럼 의자에 있던 부스러기는요?",
-   "note": "pronto = 됐어요, 알았어요 · estava = ~였다(está ↔ estava) · fresco = 시원한",
+   "tl": "Pronto, desculpe. Ainda está fresco em casa.",
+   "ko": "됐어요, 미안해요. 아직 집에 신선해요.",
+   "note": "fresco = 신선한",
    "tags": [
     "expr:pronto",
     "vocab:fresco"
@@ -240,27 +231,27 @@
    "segs": [
     [
      "flustered",
-     "Pronto, peço desculpa. No carro estava mais fresco."
+     "Pronto, desculpe."
     ],
     [
      "teasing",
-     " Mas então, as migalhas na sua cadeira?"
+     " Ainda está fresco em casa."
     ]
    ],
    "num": 13,
-   "rd": "프론뚜, 뻬쑤 드쉬꿀빠. 누 까후 이쉬따바 마이쉬 프레쉬꾸. 마즈 엔따웅, 아쉬 미갈랴쉬 나 쑤아 까데이라?"
+   "rd": "프론뚜, 드쉬꿀쁘. 아인다 이쉬따 프레쉬꾸 앵 까자."
   },
   {
    "speaker": "A",
-   "tl": "Ah, essas... são do pão do pequeno-almoço. De certeza.",
-   "ko": "아, 그건… 아침에 먹은 빵이에요. 확실해요.",
-   "note": "de certeza = 확실히",
+   "tl": "De certeza que não comeu já?",
+   "ko": "이미 안 드신 거 확실해요?",
+   "note": "",
    "tags": [
     "expr:de certeza"
    ],
    "emotion": "flustered",
    "num": 14,
-   "rd": "아, 이싸쉬... 싸웅 두 빠웅 두 쁘께누 알모쑤. 드 쓰르떼자."
+   "rd": "드 쓰르떼자 끄 나웅 꾸메우 자?"
   }
  ]
 }

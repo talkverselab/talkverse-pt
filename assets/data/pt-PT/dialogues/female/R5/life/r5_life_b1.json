@@ -39,46 +39,46 @@
  "turns": [
   {
    "speaker": "A",
-   "tl": "Duarte, ouviste aquele barulho? Outra vez, às seis da manhã.",
-   "ko": "Duarte, 그 소리 들었어? 또야, 새벽 여섯 시에.",
+   "tl": "Este barulho todos os dias às seis... não aguento.",
+   "ko": "매일 여섯 시에 이 소음... 못 참겠어.",
    "note": "barulho = 소음",
    "tags": [
     "vocab:barulho"
    ],
    "emotion": "annoyed",
    "num": 1,
-   "rd": "두아르뜨, 오우비쉬뜨 아껠르 바룰류? 오우트라 베쉬, 아쉬 쎄이쉬 다 망양."
+   "rd": "에쉬뜨 바룰류 또두즈 우쉬 디아즈 아쉬 쎄이쉬... 나웅 아겐뚜."
   },
   {
    "speaker": "B",
-   "tl": "Que barulho? Eu estava a dormir. Deve ser o vento.",
-   "ko": "무슨 소리? 난 자고 있었는데. 바람이겠지.",
+   "tl": "Deve ser o vento. Bate na janela.",
+   "ko": "바람일 거야. 창문에 부딪히는.",
    "note": "vento = 바람",
    "tags": [
     "vocab:vento"
    ],
    "emotion": "stiff",
    "num": 2,
-   "rd": "끄 바룰류? 에우 이쉬따바 아 두르미르. 데브 쎄르 우 벤뚜."
+   "rd": "데브 쎄르 우 벤뚜. 바뜨 나 자넬라."
   },
   {
    "speaker": "A",
-   "tl": "O vento não bate assim, pá. Parecia uma máquina dentro da parede.",
-   "ko": "바람은 그렇게 안 쳐. 벽 안에 기계가 있는 것 같았어.",
-   "note": "bater = 치다, 두드리다 · parede = 벽",
+   "tl": "Pá, o vento não faz isso na parede.",
+   "ko": "야, 바람이 벽에 그렇게 안 해.",
+   "note": "parede = 벽",
    "tags": [
     "expr:pá",
     "vocab:parede"
    ],
    "emotion": "tsukkomi",
    "num": 3,
-   "rd": "우 벤뚜 나웅 바뜨 아씽, 빠. 빠레씨아 우마 마끼나 덴트루 다 빠레드."
+   "rd": "빠, 우 벤뚜 나웅 파즈 이쑤 나 빠레드."
   },
   {
    "speaker": "B",
-   "tl": "Se calhar são os pássaros. Olha, vou fazer o pequeno-almoço.",
-   "ko": "아마 새들이겠지. 저기, 나 아침 만들게.",
-   "note": "se calhar = 아마 · pássaro = 새",
+   "tl": "Se calhar é um pássaro. Olha, às vezes cantam cedo.",
+   "ko": "새일지도. 봐, 가끔 일찍 울어.",
+   "note": "pássaro = 새",
    "tags": [
     "expr:se calhar",
     "expr:olha",
@@ -87,153 +87,144 @@
    "segs": [
     [
      "flustered",
-     "Se calhar são os pássaros."
+     "Se calhar é um pássaro."
     ],
     [
      "stiff",
-     " Olha, vou fazer o pequeno-almoço."
+     " Olha, às vezes cantam cedo."
     ]
    ],
    "num": 4,
-   "rd": "쓰 깔랴르 싸웅 우쉬 빠싸루쉬. 올랴, 보우 파제르 우 쁘께누 알모쑤."
+   "rd": "쓰 깔랴르 에 웅 빠싸루. 올랴, 아쉬 베즈쉬 깐따웅 쎄두."
   },
   {
    "speaker": "A",
-   "tl": "Tu fazes o pequeno-almoço? E porque é que a máquina de lavar está cheia de roupa molhada?",
-   "ko": "네가 아침을 한다고? 그리고 세탁기에 젖은 빨래는 왜 가득한데?",
-   "note": "fazes = 네가 한다(fazer) · máquina de lavar = 세탁기 · molhado = 젖은(상한 밖 낱말)",
+   "tl": "Ou a máquina a lavar a roupa às seis.",
+   "ko": "아니면 여섯 시에 옷 빠는 세탁기.",
+   "note": "máquina = 기계",
    "tags": [
     "vocab:máquina",
     "vocab:roupa"
    ],
    "emotion": "teasing",
    "num": 5,
-   "rd": "뚜 파즈즈 우 쁘께누 알모쑤? 이 뿌르끄 에 끄 아 마끼나 드 라바르 이쉬따 셰이아 드 호우빠 물랴다?"
+   "rd": "오우 아 마끼나 아 라바르 아 호우빠 아쉬 쎄이쉬."
   },
   {
    "speaker": "B",
-   "tl": "Isso é de ontem à noite! Juro. Não lavo roupa às seis, não sou maluco.",
-   "ko": "그건 어젯밤 거야! 맹세해. 여섯 시에 빨래 안 해, 나 미친 거 아니야.",
-   "note": "lavo = 내가 빤다(lavar) · maluco = 미친",
+   "tl": "Eu não lavo nada de madrugada!",
+   "ko": "나는 새벽에 아무것도 안 빨아!",
+   "note": "lavar = 빨다",
    "tags": [
     "vocab:lavar"
    ],
    "emotion": "shout",
    "num": 6,
-   "rd": "이쑤 에 드 온뗑 아 노이뜨! 주루. 나웅 라부 호우빠 아쉬 쎄이쉬, 나웅 쏘우 말루꾸."
+   "rd": "에우 나웅 라부 나다 드 마드루가다!"
   },
   {
    "speaker": "C",
-   "tl": "Bom dia, meninos. Desculpem, está tudo bem? Ouvi gritos.",
-   "ko": "좋은 아침이에요, 학생들. 미안한데, 별일 없어요? 소리 지르는 게 들려서요.",
-   "note": "desculpem = 미안해요(여러 명에게) · ouvi = 들었다(ouviste ↔ ouvi)",
+   "tl": "Desculpem o grito. Ouvi barulho.",
+   "ko": "소리 질러서 미안해요. 소음이 들려서.",
+   "note": "grito = 고함",
    "tags": [
     "vocab:grito"
    ],
    "emotion": "polite",
    "num": 7,
-   "rd": "봉 디아, 므니누쉬. 드쉬꿀뼁, 이쉬따 뚜두 벵? 오우비 그리뚜쉬."
+   "rd": "드쉬꿀뼁 우 그리뚜. 오우비 바룰류."
   },
   {
    "speaker": "A",
-   "tl": "Bom dia, Dona Fernanda. A senhora também acordou com aquele barulho às seis?",
-   "ko": "안녕하세요, 페르난다 아주머니. 아주머니도 여섯 시에 그 소리에 깨셨어요?",
-   "note": "a senhora = 아주머니(존칭, 3인칭 동사)",
+   "tl": "A senhora também acorda com isto?",
+   "ko": "부인도 이걸로 깨세요?",
+   "note": "acordar = 깨다",
    "tags": [
     "vocab:acordar"
    ],
    "emotion": "polite",
    "num": 8,
-   "rd": "봉 디아, 도나 프르난다. 아 쎙요라 땀벵 아꾸르도우 꽁 아껠르 바룰류 아쉬 쎄이쉬?"
+   "rd": "아 쎙요라 땀벵 아꼬르다 꽁 이쉬뚜?"
   },
   {
    "speaker": "C",
-   "tl": "Acordei? Não, eu às seis já estou a pé. Porquê?",
-   "ko": "깼냐고요? 아뇨, 난 여섯 시면 벌써 일어나 있어요. 왜요?",
-   "note": "estar a pé = 일어나 있다 · acordei = 깼다(acordou ↔ acordei)",
+   "tl": "Eu acordo sempre às seis, sim.",
+   "ko": "저는 항상 여섯 시에 깨요, 네.",
+   "note": "acordar = 깨다",
    "tags": [
     "vocab:acordar"
    ],
    "emotion": "surprised",
    "num": 9,
-   "rd": "아꾸르데이? 나웅, 에우 아쉬 쎄이쉬 자 이쉬또우 아 뻬. 뽀르께?"
+   "rd": "에우 아꼬르두 쎔프르 아쉬 쎄이쉬, 씽."
   },
   {
    "speaker": "B",
-   "tl": "Há um barulho horrível todas as manhãs. A {name} acha que sou eu.",
-   "ko": "매일 아침 끔찍한 소리가 나요. {name}은 저라고 생각하고요.",
-   "note": "horrível = 끔찍한 · acha que = ~라고 생각한다",
+   "tl": "Então é ela! Sabia.",
+   "ko": "그럼 저 사람이야! 알았어.",
+   "note": "",
    "tags": [],
    "emotion": "annoyed",
    "num": 10,
-   "rd": "아 웅 바룰류 오히벨 또다즈 아쉬 망양쉬. 아 {name} 아샤 끄 쏘우 에우."
+   "rd": "엔따웅 에 엘라! 싸비아."
   },
   {
    "speaker": "C",
-   "tl": "Ah… às seis? Então é a minha máquina. Ponho-a a lavar cedo porque a luz é mais barata.",
-   "ko": "아… 여섯 시요? 그럼 우리 집 세탁기예요. 전기가 싸서 일찍 돌리거든요.",
-   "note": "ponho-a a lavar = 그걸 돌려 둔다 · luz = 전기(요금) · barato = 싼",
+   "tl": "É a luz barata que pisca e faz barulho.",
+   "ko": "깜빡이며 소음 내는 싼 조명이에요.",
+   "note": "luz = 조명",
    "tags": [
     "twist",
     "vocab:luz",
     "vocab:barato"
    ],
-   "segs": [
-    [
-     "surprised",
-     "Ah… às seis?"
-    ],
-    [
-     "flustered",
-     " Então é a minha máquina. Ponho-a a lavar cedo porque a luz é mais barata."
-    ]
-   ],
+   "emotion": "surprised",
    "num": 11,
-   "rd": "아… 아쉬 쎄이쉬? 엔따웅 에 아 밍야 마끼나. 뽕유 아 아 라바르 쎄두 뿌르끄 아 루즈 에 마이쉬 바라따."
+   "rd": "에 아 루쉬 바라따 끄 삐쉬까 이 파쉬 바룰류."
   },
   {
    "speaker": "A",
-   "tl": "A da senhora? E o barulho chega ao nosso quarto?",
-   "ko": "아주머니 거요? 그 소리가 우리 방까지 와요?",
-   "note": "chega a = ~까지 닿다",
+   "tl": "A luz? A sério que é isso?",
+   "ko": "조명? 진짜 그거예요?",
+   "note": "",
    "tags": [],
    "emotion": "surprised",
    "num": 12,
-   "rd": "아 다 쎙요라? 이 우 바룰류 셰가 아우 노쑤 꽈르뚜?"
+   "rd": "아 루쉬? 아 쎄리우 끄 에 이쑤?"
   },
   {
    "speaker": "C",
-   "tl": "Pois, a máquina está junto à vossa parede. Desculpem, a partir de amanhã ponho às oito.",
-   "ko": "그러게요, 세탁기가 학생들 벽 바로 옆이에요. 미안해요, 내일부터는 여덟 시에 돌릴게요.",
-   "note": "junto a = ~ 바로 옆 · a partir de amanhã = 내일부터",
+   "tl": "Pois, a da parede do corredor. Desculpem.",
+   "ko": "그렇지, 복도 벽의 그거요. 미안해요.",
+   "note": "parede = 벽",
    "tags": [
     "expr:pois",
     "vocab:parede"
    ],
    "emotion": "polite",
    "num": 13,
-   "rd": "뽀이쉬, 아 마끼나 이쉬따 준뚜 아 보싸 빠레드. 드쉬꿀뼁, 아 빠르띠르 드 아망양 뽕유 아즈 오이뚜."
+   "rd": "뽀이쉬, 아 다 빠레드 두 꾸흐도르. 드쉬꿀뼁."
   },
   {
    "speaker": "A",
-   "tl": "Obrigada! E desculpa, Duarte. Afinal não eras tu. Achei mesmo que eras.",
-   "ko": "감사해요! 그리고 미안, Duarte. 알고 보니 너 아니었네. 진짜 너인 줄 알았어.",
-   "note": "afinal = 알고 보니 · eras = 너는 ~였다(반과거) · achei = 내가 생각했다(acha ↔ achei)",
+   "tl": "Afinal era só a luz. Podemos mudar.",
+   "ko": "결국 그냥 조명이었네. 바꿀 수 있어.",
+   "note": "",
    "tags": [
     "expr:afinal"
    ],
    "segs": [
     [
      "cheerful",
-     "Obrigada!"
+     "Afinal era só a luz."
     ],
     [
      "gentle",
-     " E desculpa, Duarte. Afinal não eras tu. Achei mesmo que eras."
+     " Podemos mudar."
     ]
    ],
    "num": 14,
-   "rd": "오브리가다! 이 드쉬꿀빠, 두아르뜨. 아피날 나웅 에라쉬 뚜. 아셰이 메쥬무 끄 에라쉬."
+   "rd": "아피날 에라 쏘 아 루쉬. 뿌데무쉬 무다르."
   }
  ]
 }

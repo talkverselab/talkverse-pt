@@ -1,0 +1,19 @@
+=== r1_friends_c1
+level: R1
+kind: chat
+title: 계획은 계속 바뀐다
+emoji: 🏄
+scene: 아침 8시, 아직 침대에 있는데 Beatriz 의 메시지가 쏟아진다.
+cast: B: Beatriz
+register: chat
+twist: 7 chaos
+goal: vir·querer·saber 현재 tu/eu 활용, 시간 말 à tarde·à noite, 「fixe」「tá bem」
+expressions: fixe; tá bem; então
+B | ___ | ___ | ___ | emotion=excited | tags=form:vir,form:gender-adj
+A | ___ | ___ | ___ | emotion=cheerful | tags=expr:fixe,form:querer
+B | ___ | ___ | ___ | emotion=excited+flustered | tags=
+A | ___ | ___ | ___ | emotion=neutral | tags=expr:tá bem,expr:então
+B | ___ | ___ | ___ | emotion=excited | tags=
+A | ___ | ___ | ___ | emotion=tsukkomi | tags=form:saber,form:querer,form:estar
+B | ___ | ___ | ___ | emotion=teasing | tags=twist,form:saber,form:estar
+B | ___ | ___ | ___ | emotion=amused | tags=form:vir

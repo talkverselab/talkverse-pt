@@ -1,0 +1,23 @@
+=== r2_friends_c2
+level: R2
+kind: chat
+title: 5분마다 바뀌는 주말 여행
+emoji: 🧳
+scene: 셋이 있는 단톡방. Beatriz 가 주말 여행 계획을 꺼내자마자 바꾸고 또 바꾼다.
+cast: B: Beatriz, C: Duarte
+register: chat
+twist: 11 chaos
+goal: 채팅 말투, 완료과거 disseste·mudaste·paguei, 반과거 era
+expressions: fixe; olha; pá; pronto; tá bem; de certeza
+B | ___ | ___ | ___ | emotion=excited | tags=
+C | ___ | ___ | ___ | emotion=cheerful | tags=
+A | ___ | ___ | ___ | emotion=cheerful | tags=
+B | ___ | ___ | ___ | emotion=excited | tags=expr:fixe,form:perfeito
+A | ___ | ___ | ___ | emotion=tsukkomi | tags=form:perfeito,form:imperfeito
+B | ___ | ___ | ___ | emotion=flustered+excited | tags=expr:olha
+C | ___ | ___ | ___ | emotion=tsukkomi | tags=expr:pá,form:perfeito
+A | ___ | ___ | ___ | emotion=annoyed | tags=expr:pronto
+B | ___ | ___ | ___ | emotion=amused | tags=expr:tá bem,expr:de certeza
+A | ___ | ___ | ___ | emotion=excited | tags=
+B | ___ | ___ | ___ | emotion=cheerful+flustered | tags=form:perfeito,twist
+C | ___ | ___ | ___ | emotion=shout | tags=expr:pá

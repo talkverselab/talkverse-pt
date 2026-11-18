@@ -1,0 +1,25 @@
+=== r3_friends_b1
+level: R3
+kind: long
+title: 주인공이 먼저 온 깜짝 파티
+emoji: 🎉
+scene: 셰어하우스. Duarte·Inês 와 함께 Beatriz 깜짝 생일 파티를 준비하는데, 먹을 걸 산 사람이 아무도 없다.
+cast: B: Duarte, C: Inês, D: Beatriz
+register: casual
+twist: 12 chaos
+goal: 복수 vocês·nós 어미(trataram·escondemos·somos), 「pronto」「não faz mal」「pois é」「quer dizer」
+expressions: então; pronto; não faz mal; pois é; quer dizer
+B | ___ | ___ | ___ | emotion=excited | tags=expr:então,form:voces
+C | ___ | ___ | ___ | emotion=cheerful | tags=form:tratar-de
+A | ___ | ___ | ___ | emotion=cheerful | tags=form:trazer
+B | ___ | ___ | ___ | emotion=flustered | tags=form:voces
+C | ___ | ___ | ___ | emotion=tsukkomi | tags=form:nos
+A | ___ | ___ | ___ | emotion=worried | tags=expr:pronto,expr:não faz mal
+B | ___ | ___ | ___ | emotion=excited | tags=form:voces
+C | ___ | ___ | ___ | emotion=tsukkomi | tags=form:nos
+A | ___ | ___ | ___ | emotion=worried | tags=form:estar-a
+D | ___ | ___ | ___ | emotion=excited | tags=
+C | ___ | ___ | ___ | emotion=surprised | tags=
+D | ___ | ___ | ___ | emotion=excited+cheerful | tags=twist,expr:pois é,form:nos
+A | ___ | ___ | ___ | emotion=amused+tsukkomi | tags=expr:quer dizer
+B | ___ | ___ | ___ | emotion=excited+flustered | tags=form:conseguir,expr:pronto

@@ -1,0 +1,19 @@
+=== r1_love_c1
+level: R1
+kind: chat
+title: 잘못 보낸 고백
+emoji: 📱
+scene: 밤 10시 47분, Inês 가 먼저 메시지를 보낸다. 다정한 말이 이어지다가…
+cast: B: Inês
+register: chat
+twist: 7 slip
+goal: 채팅 맞장구 「a sério?」「então」, pensar em ti, 완료과거 disseste
+expressions: a sério?; então
+B | ___ | ___ | ___ | emotion=cheerful | tags=form:estar
+A | ___ | ___ | ___ | emotion=neutral | tags=form:answer-verb,form:estar
+B | ___ | ___ | ___ | emotion=shy | tags=
+A | ___ | ___ | ___ | emotion=excited | tags=expr:a sério?,expr:então,form:querer
+B | ___ | ___ | ___ | emotion=shy | tags=form:pensar-em
+A | ___ | ___ | ___ | emotion=shy | tags=expr:também,form:gender-adj
+B | ___ | ___ | ___ | emotion=flustered | tags=twist
+B | ___ | ___ | ___ | emotion=surprised+teasing | tags=form:perfeito

@@ -1,0 +1,19 @@
+=== r1_life_a1
+level: R1
+kind: short
+title: 엄마랑 통화 중
+emoji: 📞
+scene: 새벽, 셰어하우스 거실. 룸메이트 Duarte 가 누군가와 속삭이며 통화하고 있다. 거실은 어젯밤 그대로 엉망이다.
+cast: B: Duarte
+register: casual
+twist: 6 chaos
+goal: estar a + 원형(진행), 완료과거 ouvi·ouviste, 통화 말 「já vou」, 「pá」「pois」「vá lá」로 얼버무리기
+expressions: pá; pois; pois é; vá lá
+A | ___ | ___ | ___ | emotion=annoyed | tags=form:estar-a
+B | ___ | ___ | ___ | emotion=flustered | tags=expr:pá,form:gender-adj
+A | ___ | ___ | ___ | emotion=teasing | tags=form:perfeito
+B | ___ | ___ | ___ | emotion=stiff | tags=expr:pois,form:estar-a,form:perfeito
+A | ___ | ___ | ___ | emotion=surprised | tags=form:falar
+B | ___ | ___ | ___ | emotion=stiff+worried | tags=twist,form:estar
+A | ___ | ___ | ___ | emotion=shout | tags=form:estar
+B | ___ | ___ | ___ | emotion=flustered | tags=expr:pois é,expr:vá lá

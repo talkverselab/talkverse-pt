@@ -1,0 +1,19 @@
+=== r1_love_a1
+level: R1
+kind: short
+title: 그 문장만
+emoji: ☕
+scene: 리스본 카페. 메뉴판 앞에서 30분째 굳어 있는 학습자에게 Inês 가 먼저 말을 건다.
+cast: B: Inês
+register: casual
+twist: 6 emotion
+goal: 처음 보는 또래와 tu 로 말 걸기, 「pois é」「afinal」 맞장구
+expressions: pois é; então; afinal; só
+B | ___ | ___ | ___ | emotion=teasing | tags=form:estar
+A | ___ | ___ | ___ | emotion=neutral | tags=form:answer-verb
+B | ___ | ___ | ___ | emotion=teasing | tags=form:estar-a
+A | ___ | ___ | ___ | emotion=flustered | tags=expr:pois é,form:estar
+B | ___ | ___ | ___ | emotion=gentle | tags=expr:então,form:perceber
+A | ___ | ___ | ___ | emotion=shy | tags=twist,form:querer
+B | ___ | ___ | ___ | emotion=surprised | tags=expr:afinal,form:gender-adj
+A | ___ | ___ | ___ | emotion=shy | tags=expr:só,form:saber

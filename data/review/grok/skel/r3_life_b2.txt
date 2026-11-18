@@ -1,0 +1,25 @@
+=== r3_life_b2
+level: R3
+kind: long
+title: 다 「네」라고 했을 뿐인데
+emoji: ☕
+scene: 처음 들어간 동네 카페. 바리스타 Tiago 가 존칭으로 이것저것 권하는데, 말이 빨라 무조건 「네」만 한다.
+cast: B: Tiago
+register: polite
+twist: 13 chaos
+goal: 카페 주문 존칭(o senhor/a senhora + 3인칭 단수), 복수 nós·eles 어미, 「se faz favor」「pode ser」「quanto é que eu pago?」
+expressions: se faz favor; pode ser; claro; quer dizer; pronto; pois
+B | ___ | ___ | ___ | emotion=polite | tags=form:o-senhor
+A | ___ | ___ | ___ | emotion=stiff | tags=expr:se faz favor
+B | ___ | ___ | ___ | emotion=polite | tags=expr:claro
+A | ___ | ___ | ___ | emotion=stiff | tags=expr:pode ser
+B | ___ | ___ | ___ | emotion=cheerful | tags=form:nos
+A | ___ | ___ | ___ | emotion=flustered | tags=expr:pode ser
+B | ___ | ___ | ___ | emotion=teasing | tags=form:eles
+A | ___ | ___ | ___ | emotion=flustered | tags=expr:claro,form:comer
+B | ___ | ___ | ___ | emotion=excited | tags=form:nos,form:eles
+A | ___ | ___ | ___ | emotion=flustered | tags=expr:quer dizer
+B | ___ | ___ | ___ | emotion=cheerful | tags=expr:pronto,form:o-senhor
+A | ___ | ___ | ___ | emotion=flustered | tags=expr:se faz favor
+B | ___ | ___ | ___ | emotion=polite+teasing | tags=twist,form:eles
+A | ___ | ___ | ___ | emotion=tsukkomi | tags=expr:pois

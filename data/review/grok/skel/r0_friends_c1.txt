@@ -1,0 +1,17 @@
+=== r0_friends_c1
+level: R0
+kind: chat
+title: 봤어?!
+emoji: ⚽
+scene: 밤 9시, 축구 중계를 보던 Duarte 가 다급하게 메시지를 보낸다. 화면에 잡힌 건 선수가 아니다.
+cast: B: Duarte
+register: chat
+twist: 5 chaos
+goal: 짧은 채팅으로 받아치기 — 「epá」「pá」「tá bem」「a sério?」
+expressions: epá; pá; tá bem; a sério?
+B | ___ | ___ | ___ | emotion=excited | tags=expr:epá,form:estar a
+A | ___ | ___ | ___ | emotion=neutral | tags=expr:pá
+B | ___ | ___ | ___ | emotion=shout | tags=form:ver
+A | ___ | ___ | ___ | emotion=annoyed+neutral | tags=expr:tá bem,form:estar a
+B | ___ | ___ | ___ | emotion=shout | tags=twist,expr:pá
+A | ___ | ___ | ___ | emotion=surprised | tags=expr:a sério?,form:estar a

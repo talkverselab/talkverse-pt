@@ -1,0 +1,25 @@
+=== r3_travel_b1
+level: R3
+kind: long
+title: 32번 창가 자리
+emoji: 🚆
+scene: 리스본발 기차. 창가 32번 자리에 앉아 있는데, 같은 표를 든 Inês 가 다가온다.
+cast: B: Inês, C: Dona Fernanda
+register: mixed
+twist: 13 reveal
+goal: 낯선 사이 존칭 → 반말 전환(pode tratar-me por tu), 복수 os senhores·vamos·eles, 「a sério?」「fixe」「pronto」「afinal」
+expressions: a sério?; fixe; pronto; afinal; desculpe; desculpa
+B | ___ | ___ | ___ | emotion=polite | tags=form:o-senhor
+A | ___ | ___ | ___ | emotion=surprised | tags=expr:a sério?
+B | ___ | ___ | ___ | emotion=worried | tags=form:comboio
+A | ___ | ___ | ___ | emotion=polite | tags=form:o-senhor
+B | ___ | ___ | ___ | emotion=tsukkomi+teasing | tags=form:tratar-por-tu
+A | ___ | ___ | ___ | emotion=flustered | tags=form:tu
+B | ___ | ___ | ___ | emotion=cheerful | tags=form:eles
+A | ___ | ___ | ___ | emotion=gentle | tags=form:tu
+B | ___ | ___ | ___ | emotion=shy | tags=heart
+A | ___ | ___ | ___ | emotion=cheerful | tags=expr:fixe,form:nos
+C | ___ | ___ | ___ | emotion=polite | tags=form:os-senhores
+A | ___ | ___ | ___ | emotion=cheerful | tags=form:nos
+C | ___ | ___ | ___ | emotion=surprised+polite | tags=twist
+B | ___ | ___ | ___ | emotion=amused+gentle | tags=expr:pronto,expr:afinal

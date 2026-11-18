@@ -1,0 +1,25 @@
+=== r5_friends_c1
+level: R5
+kind: chat
+title: 고양이가 아니라 할머니
+emoji: 🎨
+scene: 밤 1:1 채팅. Inês 가 Tiago 카페에 걸 그림을 막 끝내고 학습자에게 사진을 보낸다.
+cast: B: Inês
+register: chat
+twist: 11 emotion
+goal: 새 문법 없이 657~2,000위 어휘(quadro·opinião·foto·enviar·verdade·retrato·avó·sorriso·cor·giro·mentira·rir·emprego·arte)를 채팅에서 쓰기
+expressions: epá; pois; não faz mal; ainda bem; a sério?; pronto
+B | ___ | ___ | ___ | emotion=excited | tags=vocab:quadro,vocab:opinião
+A | ___ | ___ | ___ | emotion=cheerful | tags=vocab:prometer
+B | ___ | ___ | ___ | emotion=shy | tags=expr:pronto,vocab:enviar,vocab:simpático
+A | ___ | ___ | ___ | emotion=surprised | tags=expr:epá,vocab:gato
+B | ___ | ___ | ___ | emotion=tsukkomi | tags=vocab:retrato,vocab:avó
+A | ___ | ___ | ___ | emotion=flustered | tags=expr:pois,vocab:sorriso,vocab:cor,vocab:giro
+B | ___ | ___ | ___ | emotion=amused+cheerful | tags=expr:não faz mal,vocab:mentira,vocab:rir
+A | ___ | ___ | ___ | emotion=teasing | tags=expr:claro
+B | ___ | ___ | ___ | emotion=sad | tags=expr:ainda bem
+A | ___ | ___ | ___ | emotion=worried | tags=
+B | ___ | ___ | ___ | emotion=sad | tags=vocab:emprego,vocab:arte,twist
+A | ___ | ___ | ___ | emotion=shout+annoyed | tags=expr:a sério
+B | ___ | ___ | ___ | emotion=shy+sad | tags=expr:pronto
+A | ___ | ___ | ___ | emotion=gentle+teasing | tags=

@@ -13,6 +13,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 SRC = sorted(glob.glob(str(ROOT / 'data/dialogues_src/pt-PT/*.json')))
 TXT = ROOT / 'data/review/grok/src'
+SKEL = ROOT / 'data/review/grok/skel'  # 대사·한국어 칸을 비운 뼈대(사용자 지시 11-18 — 대사째 주면 Grok 이 초안 문장을 베낌)
 OUT = ROOT / 'data/review/grok/out'
 EMO = set('neutral polite stiff cheerful amused teasing excited surprised shout tsukkomi annoyed sad worried flustered shy gentle'.split())
 SENT = re.compile(r'(?<=[.!?…»])\s+(?=\S)')
@@ -28,8 +29,9 @@ def sentences(tl):
     return out
 
 
-def export():
-    TXT.mkdir(parents=True, exist_ok=True)
+def export(skel=False):
+    dst = SKEL if skel else TXT
+    dst.mkdir(parents=True, exist_ok=True)
     n = 0
     for f in SRC:
         for ep in json.load(open(f, encoding='utf-8')):
@@ -44,10 +46,14 @@ def export():
                     tl = ' // '.join(x[1].strip() for x in t['segs'])
                     if any(len(x) > 2 for x in t['segs']):
                         say = ' | say=' + ' // '.join((x[2] if len(x) > 2 else x[1]).strip() for x in t['segs'])
-                L.append(f"{t['speaker']} | {tl} | {t['ko']} | {t['note']} | emotion={emo} | tags={','.join(t.get('tags', []))}{say}")
-            (TXT / f"{ep['id']}.txt").write_text('\n'.join(L) + '\n', encoding='utf-8')
+                if skel:  # note 도 비운다 — 초안 문장 조각이 들어 있어 베끼게 됨. 낱말 배치는 머리 줄 goal·expressions 와 tags 로
+                    tl, ko, note, say = '___', '___', '___', ''
+                else:
+                    ko, note = t['ko'], t['note']
+                L.append(f"{t['speaker']} | {tl} | {ko} | {note} | emotion={emo} | tags={','.join(t.get('tags', []))}{say}")
+            (dst / f"{ep['id']}.txt").write_text('\n'.join(L) + '\n', encoding='utf-8')
             n += 1
-    print(f'{n}편 → {TXT}')
+    print(f'{n}편 → {dst}')
 
 
 def parse(text):
@@ -88,6 +94,13 @@ def apply(ep, head, turns):
             return f"감정 값 이상 「{t['emo']}」"
         parts = [x.strip() for x in t['tl'].split('//')]
         says = [x.strip() for x in t['say'].split('//')] if t['say'] else []
+        if len(parts) == 1 and len(emos) > 1 and not says:
+            # 형식만 맞춤(낱말은 그대로, 11-18): 뼈대의 감정 x+y 를 Grok 이 한 조각으로 썼다 → 문장 수가 같으면 문장 경계로, 아니면 첫 감정
+            ss = sentences(parts[0])
+            if len(ss) == len(emos):
+                parts = [x.strip() for x in ss]
+            else:
+                emos = emos[:1]
         if len(parts) != len(emos) or (says and len(says) != len(parts)):
             return f"감정 {len(emos)}개 ↔ // 조각 {len(parts)}개(say {len(says)}) 「{t['tl']}」"
         o['tl'], o['ko'], o['note'] = ' '.join(parts), re.sub(r'\s*//\s*', ' ', t['ko']), re.sub(r'\s*//\s*', ' ', t['note'])
@@ -143,7 +156,7 @@ def do_import(ids):
 
 if __name__ == '__main__':
     if sys.argv[1:2] == ['export']:
-        export()
+        export('--skeleton' in sys.argv)
     elif sys.argv[1:2] == ['import']:
         do_import(set(sys.argv[2:]))
     else:

@@ -1,0 +1,25 @@
+=== r5_life_b1
+level: R5
+kind: long
+title: 새벽 여섯 시의 소음
+emoji: 🫧
+scene: 셰어하우스. 매일 새벽 여섯 시, 벽 너머에서 쿵쿵 소리가 나서 잠을 못 잔 학습자가 룸메이트 Duarte 를 추궁한다.
+cast: B: Duarte, C: Dona Fernanda
+register: mixed
+twist: 11 reveal
+goal: 새 문법 없이 657~2,000위 어휘(barulho·vento·parede·pássaro·máquina de lavar·roupa·luz·barato·acordar)를 집·이웃 대화에서 쓰기
+expressions: pá; se calhar; olha; pois; afinal
+A | ___ | ___ | ___ | emotion=annoyed | tags=vocab:barulho
+B | ___ | ___ | ___ | emotion=stiff | tags=vocab:vento
+A | ___ | ___ | ___ | emotion=tsukkomi | tags=expr:pá,vocab:parede
+B | ___ | ___ | ___ | emotion=flustered+stiff | tags=expr:se calhar,expr:olha,vocab:pássaro
+A | ___ | ___ | ___ | emotion=teasing | tags=vocab:máquina,vocab:roupa
+B | ___ | ___ | ___ | emotion=shout | tags=vocab:lavar
+C | ___ | ___ | ___ | emotion=polite | tags=vocab:grito
+A | ___ | ___ | ___ | emotion=polite | tags=vocab:acordar
+C | ___ | ___ | ___ | emotion=surprised | tags=vocab:acordar
+B | ___ | ___ | ___ | emotion=annoyed | tags=
+C | ___ | ___ | ___ | emotion=surprised+flustered | tags=twist,vocab:luz,vocab:barato
+A | ___ | ___ | ___ | emotion=surprised | tags=
+C | ___ | ___ | ___ | emotion=polite | tags=expr:pois,vocab:parede
+A | ___ | ___ | ___ | emotion=cheerful+gentle | tags=expr:afinal

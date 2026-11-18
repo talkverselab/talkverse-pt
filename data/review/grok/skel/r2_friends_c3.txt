@@ -1,0 +1,23 @@
+=== r2_friends_c3
+level: R2
+kind: chat
+title: 내 케이크 어디 갔어
+emoji: 🎂
+scene: 밤늦게 룸메이트 Duarte 와 채팅. 집에 두고 나간 초콜릿 케이크가 사라졌다.
+cast: B: Duarte
+register: chat
+twist: 10 chaos
+goal: 채팅 말투, 완료과거 viste·comeste·pensei·mandou, 반과거 estava·era
+expressions: pois; um bocado; epá; quer dizer; olha; pronto
+A | ___ | ___ | ___ | emotion=worried | tags=form:perfeito,form:imperfeito,new:bolo
+B | ___ | ___ | ___ | emotion=stiff | tags=
+A | ___ | ___ | ___ | emotion=annoyed | tags=form:imperfeito
+B | ___ | ___ | ___ | emotion=teasing | tags=expr:pois,form:imperfeito
+A | ___ | ___ | ___ | emotion=shout | tags=form:perfeito
+B | ___ | ___ | ___ | emotion=flustered+excited | tags=expr:um bocado,expr:epá
+A | ___ | ___ | ___ | emotion=annoyed | tags=
+B | ___ | ___ | ___ | emotion=flustered | tags=expr:quer dizer
+A | ___ | ___ | ___ | emotion=shout | tags=expr:olha
+B | ___ | ___ | ___ | emotion=surprised+flustered | tags=twist,expr:epá,form:perfeito
+A | ___ | ___ | ___ | emotion=tsukkomi | tags=form:perfeito
+B | ___ | ___ | ___ | emotion=teasing | tags=expr:pronto

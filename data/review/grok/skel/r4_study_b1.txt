@@ -1,0 +1,25 @@
+=== r4_study_b1
+level: R4
+kind: long
+title: 누구의 시험인가
+emoji: 📚
+scene: 시험 전날 밤, 룸메이트 Duarte 가 저녁 당번 일주일을 걸고 과외를 부탁한다. 책은 아직 펴지도 않았다.
+cast: B: Duarte
+register: casual
+twist: 10 reveal
+goal: 미래 접속법(se me ajudares·se perceberes), como se + 접속법 과거, 인칭 부정사(até acabarmos·para tu ficares), 조건법(teria de)
+expressions: pois; pronto; vá lá; está bem
+B | ___ | ___ | ___ | emotion=cheerful | tags=form:futuro-conjuntivo
+A | ___ | ___ | ___ | emotion=teasing | tags=form:conjuntivo
+B | ___ | ___ | ___ | emotion=flustered | tags=form:estar-a
+A | ___ | ___ | ___ | emotion=tsukkomi | tags=
+B | ___ | ___ | ___ | emotion=worried | tags=expr:pois,form:conjuntivo-imperfeito
+A | ___ | ___ | ___ | emotion=annoyed | tags=expr:está bem,form:infinitivo-pessoal
+B | ___ | ___ | ___ | emotion=cheerful | tags=expr:pronto,form:condicional
+A | ___ | ___ | ___ | emotion=neutral | tags=form:futuro-conjuntivo
+A | ___ | ___ | ___ | emotion=gentle | tags=expr:vá lá,form:conjuntivo-imperfeito
+B | ___ | ___ | ___ | emotion=cheerful | tags=twist
+A | ___ | ___ | ___ | emotion=surprised | tags=
+B | ___ | ___ | ___ | emotion=amused+shy | tags=
+A | ___ | ___ | ___ | emotion=tsukkomi | tags=form:infinitivo-pessoal
+B | ___ | ___ | ___ | emotion=shy | tags=form:conjuntivo

@@ -1,0 +1,23 @@
+=== r2_love_c2
+level: R2
+kind: chat
+title: 잘못 보낸 음성 메시지
+emoji: 🌊
+scene: 바다가 거친 밤, Beatriz 가 먼저 {name} 에게 메시지를 보낸다. 내일 서핑은 취소.
+cast: B: Beatriz
+register: chat
+twist: 7 slip
+goal: 채팅 말투, 부가의문 pois não?, 완료과거 ouviste·ouvi
+expressions: que chatice; sei lá; se calhar; pois não?; então
+B | ___ | ___ | ___ | emotion=gentle | tags=
+A | ___ | ___ | ___ | emotion=neutral | tags=
+B | ___ | ___ | ___ | emotion=sad | tags=
+A | ___ | ___ | ___ | emotion=gentle | tags=expr:que chatice,expr:então
+B | ___ | ___ | ___ | emotion=sad | tags=expr:sei lá,expr:se calhar
+B | ___ | ___ | ___ | emotion=cheerful | tags=new:mensagem
+B | ___ | ___ | ___ | emotion=shy+annoyed | tags=twist,ui:voice
+A | ___ | ___ | ___ | emotion=flustered | tags=form:perfeito
+B | ___ | ___ | ___ | emotion=shout+flustered | tags=expr:pois não?,form:perfeito
+A | ___ | ___ | ___ | emotion=teasing | tags=form:perfeito
+B | ___ | ___ | ___ | emotion=shy | tags=expr:então
+A | ___ | ___ | ___ | emotion=gentle | tags=heart

@@ -1,0 +1,23 @@
+=== r2_friends_b1
+level: R2
+kind: chat
+title: 잘못 보낸 파티
+emoji: 🎂
+scene: 단톡방. Duarte 에게만 보내려던 메시지를 Beatriz 도 있는 방에 보내 버렸다.
+cast: B: Duarte, C: Beatriz
+register: chat
+twist: 10 chaos
+goal: 채팅 말투, 부가의문 「pois não?」, 과거형 sabia·disseste
+expressions: pá; pois não?; não ligues; aliás; tá bem
+A | ___ | ___ | ___ | emotion=cheerful | tags=
+B | ___ | ___ | ___ | emotion=worried | tags=expr:pá
+A | ___ | ___ | ___ | emotion=surprised+worried | tags=expr:pois não
+C | ___ | ___ | ___ | emotion=teasing | tags=
+A | ___ | ___ | ___ | emotion=flustered | tags=
+C | ___ | ___ | ___ | emotion=teasing | tags=form:perfeito
+B | ___ | ___ | ___ | emotion=polite | tags=expr:não ligues,form:gender-adj
+C | ___ | ___ | ___ | emotion=amused | tags=expr:tá bem
+A | ___ | ___ | ___ | emotion=surprised | tags=form:imperfeito
+C | ___ | ___ | ___ | emotion=amused+teasing | tags=expr:aliás,twist
+A | ___ | ___ | ___ | emotion=shout | tags=expr:fazer anos
+B | ___ | ___ | ___ | emotion=annoyed | tags=form:perfeito

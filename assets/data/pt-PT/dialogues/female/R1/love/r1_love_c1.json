@@ -37,138 +37,126 @@
  "turns": [
   {
    "speaker": "B",
-   "tl": "Olá! Estás aí?",
-   "ko": "안녕! 있어?",
-   "note": "Estás aí? = 거기 있어?(채팅에서 '있어?')",
+   "tl": "Olá {name}, estás bem?",
+   "ko": "안녕 {name}, 잘 지내?",
+   "note": "estar = 있다",
    "tags": [
     "form:estar"
    ],
-   "emotion": "cheerful",
    "ui": "bubble",
    "at": "22:47",
+   "emotion": "cheerful",
    "num": 1,
-   "rd": "올라! 이쉬따즈 아이?"
+   "rd": "올라 {name}, 이쉬따쉬 벵?"
   },
   {
    "speaker": "A",
-   "tl": "Estou, sim. Está tudo bem?",
-   "ko": "응, 있어. 별일 없어?",
-   "note": "Está tudo bem? = 다 괜찮아?(estás ↔ estou ↔ está)",
+   "tl": "Pois, estou. E tu?",
+   "ko": "응, 나 잘 지내. 너는?",
+   "note": "estar",
    "tags": [
     "form:answer-verb",
     "form:estar"
    ],
-   "emotion": "neutral",
    "ui": "bubble",
    "at": "22:47",
+   "emotion": "neutral",
    "num": 2,
-   "rd": "이쉬또우, 씽. 이쉬따 뚜두 벵?"
+   "rd": "뽀이쉬, 이쉬또우. 이 뚜?"
   },
   {
    "speaker": "B",
-   "tl": "Nada... só quero falar contigo.",
-   "ko": "아무것도… 그냥 너랑 얘기하고 싶어.",
-   "note": "contigo = 너와 함께",
+   "tl": "Também estou. Quero falar contigo.",
+   "ko": "나도 잘 지내. 너랑 얘기하고 싶어.",
+   "note": "",
    "tags": [],
-   "emotion": "shy",
    "ui": "bubble",
    "at": "22:48",
+   "emotion": "shy",
    "num": 3,
-   "rd": "나다... 쏘 께루 팔라르 꼰띠구."
+   "rd": "땀벵 이쉬또우. 께루 팔라르 꼰띠구."
   },
   {
    "speaker": "A",
-   "tl": "A sério? Queres? Então fala!",
-   "ko": "진짜? 하고 싶어? 그럼 말해!",
-   "note": "a sério? = 진짜?, queres? = 원해?(quero ↔ queres), então = 그럼",
+   "tl": "A sério? Então queres?",
+   "ko": "진짜? 그럼 원해?",
+   "note": "a sério? = 진짜?",
    "tags": [
     "expr:a sério?",
     "expr:então",
     "form:querer"
    ],
-   "emotion": "excited",
    "ui": "bubble",
    "at": "22:48",
+   "emotion": "excited",
    "num": 4,
-   "rd": "아 쎄리우? 께르쉬? 엔따웅 팔라!"
+   "rd": "아 쎄리우? 엔따웅 께르쉬?"
   },
   {
    "speaker": "B",
-   "tl": "Penso em ti o dia todo. 🙈",
-   "ko": "하루 종일 네 생각 해. 🙈",
+   "tl": "Estou a pensar em ti.",
+   "ko": "너를 생각하고 있어.",
    "note": "pensar em = ~을 생각하다",
    "tags": [
     "form:pensar-em"
    ],
-   "segs": [
-    [
-     "shy",
-     "Penso em ti o dia todo. 🙈",
-     "Penso em ti o dia todo."
-    ]
-   ],
    "ui": "bubble",
    "at": "22:49",
+   "emotion": "shy",
    "num": 5,
-   "rd": "뻰쑤 앵 띠 우 디아 또두. 🙈"
+   "rd": "이쉬또우 아 뻰싸르 앵 띠."
   },
   {
    "speaker": "A",
-   "tl": "Eu também penso em ti. Estou corada! 😳",
-   "ko": "나도 네 생각 해. 얼굴 빨개졌어! 😳",
-   "note": "corado/corada = 얼굴이 빨개진(말하는 사람 성별에 맞춤)",
+   "tl": "Também. Estou cansada.",
+   "ko": "나도. 나 지쳤어.",
+   "note": "também = 나도",
    "tags": [
     "expr:também",
     "form:gender-adj"
    ],
-   "segs": [
-    [
-     "shy",
-     "Eu também penso em ti. Estou corada! 😳",
-     "Eu também penso em ti. Estou corada!"
-    ]
-   ],
    "ui": "bubble",
    "at": "22:50",
+   "emotion": "shy",
    "num": 6,
-   "rd": "에우 땀벵 뻰쑤 앵 띠. 이쉬또우 꾸라다! 😳"
+   "rd": "땀벵. 이쉬또우 깐싸다."
   },
   {
    "speaker": "B",
-   "tl": "Ah! Desculpa, isto é para o Tiago!",
-   "ko": "앗! 미안, 이거 Tiago 한테 보낸 거야!",
-   "note": "isto é para… = 이건 ~한테 가는 거야",
+   "tl": "Não! Era para o Pedro.",
+   "ko": "아니! 페드로한테 보낸 거였어.",
+   "note": "",
    "tags": [
     "twist"
    ],
-   "emotion": "flustered",
    "ui": "bubble",
    "at": "22:50",
+   "emotion": "flustered",
    "num": 7,
-   "rd": "아! 드쉬꿀빠, 이쉬뚜 에 빠라 우 띠아구!"
+   "rd": "나웅! 에라 빠라 우 뻬드루."
   },
   {
    "speaker": "B",
-   "tl": "Espera. Disseste que também pensas em mim?",
-   "ko": "잠깐. 너도 내 생각 한다고 했어?",
-   "note": "disseste = 네가 말했다(dizer 완료과거)",
+   "tl": "Disseste \"também\"? Está perfeito.",
+   "ko": "\"나도\"라고 했어? 완벽해.",
+   "note": "disseste = 네가 말했다",
    "tags": [
     "form:perfeito"
    ],
+   "ui": "bubble",
+   "at": "22:51",
    "segs": [
     [
      "surprised",
-     "Espera."
+     "Disseste \"também\"?"
     ],
     [
      "teasing",
-     " Disseste que também pensas em mim?"
+     " Está perfeito."
     ]
    ],
-   "ui": "bubble",
-   "at": "22:51",
    "num": 8,
-   "rd": "이쉬뻬라. 디쎄쉬뜨 끄 땀벵 뻰싸즈 앵 밍?"
+   "rd": "디쎄쉬뜨 \"땀벵\"? 이쉬따 쁘르페이뚜."
   }
  ]
 }

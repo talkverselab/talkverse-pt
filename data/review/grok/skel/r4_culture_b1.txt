@@ -1,0 +1,25 @@
+=== r4_culture_b1
+level: R4
+kind: long
+title: 사라진 두아르트, 아주머니와 춤을
+emoji: 🎉
+scene: 6월 성 안토니오 축제의 밤, 골목은 사람으로 꽉 찼다. Beatriz 는 계획을 또 바꾸고, Duarte 는 연락이 끊겼다.
+cast: B: Beatriz, C: Duarte
+register: casual
+twist: 10 chaos
+goal: antes que·quero que + 접속법, 추측의 미래(estará·terá ido), 3인칭 접속법 명령(ele que se desenrasque), 미래 접속법(se aparecer)
+expressions: não faço ideia; se calhar; olha; pois; desenrascar; nem pensar; quer dizer; giro
+B | ___ | ___ | ___ | emotion=excited | tags=form:conjuntivo
+A | ___ | ___ | ___ | emotion=worried | tags=
+B | ___ | ___ | ___ | emotion=annoyed | tags=expr:não faço ideia,form:condicional
+A | ___ | ___ | ___ | emotion=amused | tags=form:futuro,form:futuro-perfeito
+B | ___ | ___ | ___ | emotion=excited | tags=expr:se calhar,expr:olha
+A | ___ | ___ | ___ | emotion=tsukkomi | tags=
+B | ___ | ___ | ___ | emotion=cheerful | tags=expr:pois,form:conjuntivo
+A | ___ | ___ | ___ | emotion=neutral | tags=form:futuro-conjuntivo
+B | ___ | ___ | ___ | emotion=teasing | tags=expr:desenrascar,form:conjuntivo
+A | ___ | ___ | ___ | emotion=surprised | tags=twist,form:estar-a
+C | ___ | ___ | ___ | emotion=shout | tags=form:conjuntivo
+B | ___ | ___ | ___ | emotion=shout+amused | tags=expr:nem pensar,expr:quer dizer,expr:giro,form:condicional
+A | ___ | ___ | ___ | emotion=tsukkomi | tags=form:futuro-conjuntivo
+C | ___ | ___ | ___ | emotion=amused | tags=form:estar-a

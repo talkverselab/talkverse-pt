@@ -37,178 +37,169 @@
  "turns": [
   {
    "speaker": "B",
-   "tl": "{name}, tens um minuto? Se me ajudares esta noite, faço o jantar a semana toda.",
-   "ko": "{name}, 잠깐 시간 돼? 오늘 밤 도와주면 일주일 내내 저녁은 내가 할게.",
-   "note": "se me ajudares = 나를 도와주면(미래 접속법)",
+   "tl": "Se me ajudares com isto, faço o jantar a semana toda.",
+   "ko": "이거 도와주면 일주일 저녁 내가 할게.",
+   "note": "ajudares = 미래 접속법",
    "tags": [
     "form:futuro-conjuntivo"
    ],
    "emotion": "cheerful",
    "num": 1,
-   "rd": "{name}, 뗑즈 웅 미누뚜? 쓰 므 아주다르즈 에쉬따 노이뜨, 파쑤 우 잔따르 아 쓰마나 또다."
+   "rd": "쓰 므 아주다르쉬 꽁 이쉬뚜, 파쑤 우 잔따르 아 쓰마나 또다."
   },
   {
    "speaker": "A",
-   "tl": "Ajudar em quê? Não me digas que é o exame de amanhã.",
-   "ko": "뭘 도와? 설마 내일 시험이라고 하진 마.",
-   "note": "não me digas = 설마(부정 명령 = 접속법) · exame = 시험(상한 밖 낱말)",
+   "tl": "Como se eu não tivesse exame também.",
+   "ko": "나도 시험 없는 것처럼 말이야.",
+   "note": "tivesse = 접속법 과거",
    "tags": [
     "form:conjuntivo"
    ],
    "emotion": "teasing",
    "num": 2,
-   "rd": "아주다르 앵 께? 나웅 므 디가쉬 끄 에 우 이자므 드 아망양."
+   "rd": "꼬무 쓰 에우 나웅 띠베쓰 이자므 땀벵."
   },
   {
    "speaker": "B",
-   "tl": "É. E ainda não abri o livro. Passei a tarde a ver o jogo.",
-   "ko": "맞아. 그리고 책은 아직 안 폈어. 오후 내내 경기 봤거든.",
-   "note": "passar a tarde a + 원형 = 오후 내내 ~하다",
+   "tl": "Estou a abrir o livro, a sério.",
+   "ko": "책 펴고 있어, 진짜로.",
+   "note": "",
    "tags": [
     "form:estar-a"
    ],
    "emotion": "flustered",
    "num": 3,
-   "rd": "에. 이 아인다 나웅 아브리 우 리브루. 빠쎄이 아 따르드 아 베르 우 조구."
+   "rd": "이쉬또우 아 아브리르 우 리브루, 아 쎄리우."
   },
   {
    "speaker": "A",
-   "tl": "A tarde toda? Duarte, o exame é amanhã de manhã!",
-   "ko": "오후 내내? 두아르트, 시험 내일 아침이야!",
-   "note": "amanhã de manhã = 내일 아침",
+   "tl": "Pá, o livro nem sequer está aberto.",
+   "ko": "야, 책 열리지도 않았잖아.",
+   "note": "",
    "tags": [],
    "emotion": "tsukkomi",
    "num": 4,
-   "rd": "아 따르드 또다? 두아르뜨, 우 이자므 에 아망양 드 망양!"
+   "rd": "빠, 우 리브루 넹 쓰께르 이쉬따 아베르뚜."
   },
   {
    "speaker": "B",
-   "tl": "Pois, por isso é que preciso de ti. Explicas-me tudo como se eu não soubesse nada?",
-   "ko": "그러니까 네가 필요하지. 내가 아무것도 모르는 셈 치고 다 설명해 줄래?",
-   "note": "como se + 접속법 과거 = 마치 ~인 것처럼",
+   "tl": "Pois, é como se o exame fosse já amanhã.",
+   "ko": "그렇지, 시험이 내일인 것처럼.",
+   "note": "fosse = 접속법 과거",
    "tags": [
     "expr:pois",
     "form:conjuntivo-imperfeito"
    ],
    "emotion": "worried",
    "num": 5,
-   "rd": "뽀이쉬, 뽀르 이쑤 에 끄 프르씨주 드 띠. 에쉬쁠리까쉬 므 뚜두 꼬무 쓰 에우 나웅 쏘우베쓰 나다?"
+   "rd": "뽀이쉬, 에 꼬무 쓰 우 이자므 포쓰 자 아망양."
   },
   {
    "speaker": "A",
-   "tl": "Está bem. Mas nada de jogos até acabarmos.",
-   "ko": "알았어. 대신 끝날 때까지 경기는 금지야.",
-   "note": "até acabarmos = 우리가 끝낼 때까지(미래 접속법·인칭 부정사 꼴)",
+   "tl": "Está bem, para tu ficares mais calmo.",
+   "ko": "알겠어, 네가 좀 더 진정하려고.",
+   "note": "ficares = 인칭 부정사",
    "tags": [
     "expr:está bem",
     "form:infinitivo-pessoal"
    ],
    "emotion": "annoyed",
    "num": 6,
-   "rd": "이쉬따 벵. 마쉬 나다 드 조구즈 아떼 아까바르무쉬."
+   "rd": "이쉬따 벵, 빠라 뚜 피까르쉬 마이쉬 깔무."
   },
   {
    "speaker": "B",
-   "tl": "Juro. Pronto, primeira pergunta: o que é que eu teria de saber para passar?",
-   "ko": "맹세해. 자, 첫 질문: 붙으려면 뭘 알아야 할까?",
-   "note": "teria de = ~해야 할 거다(조건법) · passar = 통과하다",
+   "tl": "Pronto, então teria de estudar contigo.",
+   "ko": "됐어, 그럼 너랑 같이 공부해야겠네.",
+   "note": "teria = 조건법",
    "tags": [
     "expr:pronto",
     "form:condicional"
    ],
    "emotion": "cheerful",
    "num": 7,
-   "rd": "주루. 프론뚜, 프리메이라 쁘르군따: 우 끄 에 끄 에우 떼리아 드 싸베르 빠라 빠싸르?"
+   "rd": "프론뚜, 엔따웅 떼리아 드 이쉬뚜다르 꼰띠구."
   },
   {
    "speaker": "A",
-   "tl": "Tudo. Mas se perceberes esta parte do livro, já é meio caminho.",
-   "ko": "전부. 근데 책 이 부분만 이해하면 반은 된 거야.",
-   "note": "se perceberes = 이해하면(미래 접속법) · meio caminho = 절반",
+   "tl": "Se perceberes o capítulo, está feito.",
+   "ko": "그 장 이해하면 끝이야.",
+   "note": "perceberes = 미래 접속법",
    "tags": [
     "form:futuro-conjuntivo"
    ],
    "emotion": "neutral",
    "num": 8,
-   "rd": "뚜두. 마쉬 쓰 쁘르쓰베르즈 에쉬따 빠르뜨 두 리브루, 자 에 메이우 까밍유."
+   "rd": "쓰 쁘르쓰베르즈 우 까삐뚤루, 이쉬따 페이뚜."
   },
   {
    "speaker": "A",
-   "tl": "Vá lá, já vamos a meio. Agora explica-me tu, como se eu fosse o professor.",
-   "ko": "자, 벌써 반 왔어. 이제 네가 설명해 봐, 내가 교수인 것처럼.",
-   "note": "como se eu fosse = 내가 ~인 것처럼(접속법 과거) · vá lá = 자, 어서",
+   "tl": "Vá lá, como se não soubesses isto já.",
+   "ko": "에이, 이미 아는 것처럼 하지 마.",
+   "note": "soubesses = 접속법 과거",
    "tags": [
     "expr:vá lá",
     "form:conjuntivo-imperfeito"
    ],
    "emotion": "gentle",
    "num": 9,
-   "rd": "바 라, 자 바무즈 아 메이우. 아고라 에쉬쁠리까 므 뚜, 꼬무 쓰 에우 포쓰 우 프루프쏘르."
+   "rd": "바 라, 꼬무 쓰 나웅 쏘우베쓰즈 이쉬뚜 자."
   },
   {
    "speaker": "B",
-   "tl": "Não é preciso. Já percebi. Agora já posso explicar tudo à Inês amanhã.",
-   "ko": "필요 없어. 이해했어. 이제 내일 이네스한테 다 설명해 줄 수 있어.",
-   "note": "já percebi = 이제 알겠어",
+   "tl": "Espera, o exame é teu, não é meu.",
+   "ko": "잠깐, 시험은 네 거야, 내 거 아니야.",
+   "note": "",
    "tags": [
     "twist"
    ],
    "emotion": "cheerful",
    "num": 10,
-   "rd": "나웅 에 프르씨주. 자 쁘르쓰비. 아고라 자 뽀쑤 에쉬쁠리까르 뚜두 아 이네즈 아망양."
+   "rd": "이쉬뻬라, 우 이자므 에 떼우, 나웅 에 메우."
   },
   {
    "speaker": "A",
-   "tl": "À Inês? Espera... o exame não é teu?",
-   "ko": "이네스한테? 잠깐… 시험 네 거 아니야?",
-   "note": "teu = 네 것",
+   "tl": "O quê? A sério?",
+   "ko": "뭐? 진짜?",
+   "note": "",
    "tags": [],
    "emotion": "surprised",
    "num": 11,
-   "rd": "아 이네쉬? 이쉬뻬라... 우 이자므 나웅 에 떼우?"
+   "rd": "우 께? 아 쎄리우?"
   },
   {
    "speaker": "B",
-   "tl": "Meu? Eu nem estudo lá. O exame é da Inês. Disse-lhe que a ajudava.",
-   "ko": "내 거? 난 거기 학생도 아닌데. 시험은 이네스 거야. 도와주겠다고 했거든.",
-   "note": "estudar = 공부하다, 다니다(상한 밖 낱말) · disse-lhe = 그녀에게 말했다",
+   "tl": "Eu só queria que estudasses um bocado.",
+   "ko": "그냥 네가 좀 공부하길 바랐어.",
+   "note": "",
    "tags": [],
-   "segs": [
-    [
-     "amused",
-     "Meu? Eu nem estudo lá."
-    ],
-    [
-     "shy",
-     " O exame é da Inês. Disse-lhe que a ajudava."
-    ]
-   ],
+   "emotion": "amused",
    "num": 12,
-   "rd": "메우? 에우 넹 이쉬뚜두 라. 우 이자므 에 다 이네쉬. 디쓰 리 끄 아 아주다바."
+   "rd": "에우 쏘 께리아 끄 이쉬뚜다쓰즈 웅 부까두."
   },
   {
    "speaker": "A",
-   "tl": "Então passei a noite a explicar isto para tu ficares bem com ela?",
-   "ko": "그러니까 내가 밤새 이걸 설명한 게 너 걔한테 잘 보이라고?",
-   "note": "para tu ficares = 네가 ~하도록(인칭 부정사)",
+   "tl": "Até acabarmos isto, não há jantar.",
+   "ko": "이거 다 끝날 때까지 저녁 없어.",
+   "note": "acabarmos = 인칭 부정사",
    "tags": [
     "form:infinitivo-pessoal"
    ],
    "emotion": "tsukkomi",
    "num": 13,
-   "rd": "엔따웅 빠쎄이 아 노이뜨 아 에쉬쁠리까르 이쉬뚜 빠라 뚜 피까르쉬 벵 꽁 엘라?"
+   "rd": "아떼 아까바르무즈 이쉬뚜, 나웅 아 잔따르."
   },
   {
    "speaker": "B",
-   "tl": "E faço o jantar o mês todo. Mas não lhe digas nada, por favor.",
-   "ko": "그럼 저녁은 한 달 내내 내가 할게. 대신 걔한텐 아무 말도 하지 마, 제발.",
-   "note": "não lhe digas = 그녀에게 말하지 마(접속법)",
+   "tl": "Se me deixares ajudar, eu fico.",
+   "ko": "도와주라고 하면 내가 있을게.",
+   "note": "deixares = 미래 접속법",
    "tags": [
     "form:conjuntivo"
    ],
    "emotion": "shy",
    "num": 14,
-   "rd": "이 파쑤 우 잔따르 우 메쉬 또두. 마쉬 나웅 리 디가쉬 나다, 뽀르 파보르."
+   "rd": "쓰 므 데이샤르즈 아주다르, 에우 피꾸."
   }
  ]
 }

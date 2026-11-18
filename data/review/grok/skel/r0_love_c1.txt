@@ -1,0 +1,17 @@
+=== r0_love_c1
+level: R0
+kind: chat
+title: 지금 와
+emoji: 📱
+scene: 밤 11시 40분, Inês 가 먼저 메시지를 보낸다. 다급한 「지금 와」의 진짜 이유는 따로 있다.
+cast: B: Inês
+register: chat
+twist: 5 chaos
+goal: 짧은 채팅 덩어리로 답하기 — 「tudo bem?」「a sério?」「pronto」
+expressions: tudo bem?; a sério?; é que
+B | ___ | ___ | ___ | emotion=cheerful | tags=expr:tudo bem?,form:estar
+A | ___ | ___ | ___ | emotion=neutral | tags=form:estar
+B | ___ | ___ | ___ | emotion=excited | tags=form:vir
+A | ___ | ___ | ___ | emotion=surprised+excited | tags=expr:a sério?
+B | ___ | ___ | ___ | emotion=shout | tags=twist,expr:é que
+B | ___ | ___ | ___ | emotion=shy | tags=heart

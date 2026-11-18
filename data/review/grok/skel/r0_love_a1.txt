@@ -1,0 +1,17 @@
+=== r0_love_a1
+level: R0
+kind: short
+title: 너 맞지?
+emoji: 🏄
+scene: 해변, 서핑을 마친 Beatriz 가 젖은 머리로 먼저 다가온다. 친구 얘기를 꺼내는데 뭔가 수상하다.
+cast: B: Beatriz
+register: casual
+twist: 5 reveal
+goal: 처음 말을 걸어 오는 사람에게 짧게 답하기 — 「olha」「a sério?」「vá lá」
+expressions: olha; a sério?; então; vá lá
+B | ___ | ___ | ___ | emotion=cheerful | tags=expr:olha,form:ser
+A | ___ | ___ | ___ | emotion=surprised | tags=form:ser
+B | ___ | ___ | ___ | emotion=teasing | tags=form:falar
+A | ___ | ___ | ___ | emotion=flustered | tags=expr:a sério?,form:dizer
+B | ___ | ___ | ___ | emotion=amused+shy | tags=twist,form:falar
+B | ___ | ___ | ___ | emotion=gentle | tags=heart,expr:então,expr:vá lá

@@ -42,201 +42,201 @@
  "turns": [
   {
    "speaker": "B",
-   "tl": "Olá! Gostei muito da tua fotografia com o cão. 🐶",
-   "ko": "안녕! 강아지랑 찍은 네 사진 너무 좋더라. 🐶",
-   "note": "gostei de = ~가 좋았다(gostar 완료과거)",
+   "tl": "Gostei da foto. O cão é teu?",
+   "ko": "사진 좋았어. 강아지 네 거야?",
+   "note": "gostei = 내가 좋아했다",
    "tags": [
     "form:perfeito"
    ],
-   "emotion": "cheerful",
    "ui": "bubble",
    "at": "22:10",
+   "emotion": "cheerful",
    "num": 1,
-   "rd": "올라! 구쉬떼이 무이뚜 다 뚜아 푸뚜그라피아 꽁 우 까웅. 🐶"
+   "rd": "구쉬떼이 다 포뚜. 우 까웅 에 떼우?"
   },
   {
    "speaker": "A",
-   "tl": "Obrigada! Mas olha, o cão não é meu.",
-   "ko": "고마워! 근데 있잖아, 그 강아지 내 거 아니야.",
-   "note": "olha = 있잖아, 봐(말 꺼낼 때)",
+   "tl": "Olha, é do meu amigo.",
+   "ko": "봐, 친구 거야.",
+   "note": "olha = 봐",
    "tags": [
     "expr:olha"
    ],
-   "emotion": "amused",
    "ui": "bubble",
    "at": "22:11",
+   "emotion": "amused",
    "num": 2,
-   "rd": "오브리가다! 마즈 올랴, 우 까웅 나웅 에 메우."
+   "rd": "올랴, 에 두 메우 아미구."
   },
   {
    "speaker": "B",
-   "tl": "A sério? Então de quem é?",
-   "ko": "진짜? 그럼 누구 건데?",
-   "note": "de quem = 누구의",
+   "tl": "A sério? Então não é teu?",
+   "ko": "진짜? 그럼 네 거 아니야?",
+   "note": "a sério? = 진짜?; então = 그럼",
    "tags": [
     "expr:a sério?",
     "expr:então"
    ],
-   "emotion": "surprised",
    "ui": "bubble",
    "at": "22:11",
+   "emotion": "surprised",
    "num": 3,
-   "rd": "아 쎄리우? 엔따웅 드 껭 에?"
+   "rd": "아 쎄리우? 엔따웅 나웅 에 떼우?"
   },
   {
    "speaker": "A",
-   "tl": "É da minha vizinha. Fui com ele à praia no sábado.",
-   "ko": "옆집 사람 거야. 토요일에 데리고 바닷가 갔었어.",
-   "note": "fui = 갔다(ir 완료과거) · vizinha = 이웃(여자)",
+   "tl": "Não. Gostaste dele?",
+   "ko": "아니. 걔 좋았어?",
+   "note": "gostaste = 네가 좋아했다",
    "tags": [
     "form:perfeito"
    ],
-   "emotion": "neutral",
    "ui": "bubble",
    "at": "22:12",
+   "emotion": "neutral",
    "num": 4,
-   "rd": "에 다 밍야 비징야. 푸이 꽁 엘르 아 프라이아 누 싸바두."
+   "rd": "나웅. 구쉬따쉬뜨 델르?"
   },
   {
    "speaker": "B",
-   "tl": "Ah... então não vives com ele? Que pena.",
-   "ko": "아… 그럼 같이 사는 거 아니야? 아쉽다.",
-   "note": "que pena = 아쉽다",
+   "tl": "Era fofo.",
+   "ko": "귀여웠어.",
+   "note": "",
    "tags": [],
-   "emotion": "sad",
    "ui": "bubble",
    "at": "22:12",
+   "emotion": "sad",
    "num": 5,
-   "rd": "아... 엔따웅 나웅 비브쉬 꽁 엘르? 끄 뻬나."
+   "rd": "에라 포푸."
   },
   {
    "speaker": "A",
-   "tl": "Pois. Desculpa, era a melhor fotografia que eu tinha.",
-   "ko": "그러게. 미안, 내가 가진 사진 중에 제일 잘 나온 거였어.",
-   "note": "era·tinha = ~였다·가지고 있었다(반과거)",
+   "tl": "Pois, tinha uns olhos grandes.",
+   "ko": "그래, 눈이 컸어.",
+   "note": "pois = 그래; tinha = 가지고 있었다",
    "tags": [
     "expr:pois",
     "form:imperfeito"
    ],
-   "emotion": "flustered",
    "ui": "bubble",
    "at": "22:13",
+   "emotion": "flustered",
    "num": 6,
-   "rd": "뽀이쉬. 드쉬꿀빠, 에라 아 믈료르 푸뚜그라피아 끄 에우 띵야."
+   "rd": "뽀이쉬, 띵야 웅즈 올류쉬 그란드쉬."
   },
   {
    "speaker": "B",
-   "tl": "Eu percebo. Na minha, eu estava com a minha irmã e cortei-a. 😅",
-   "ko": "이해해. 내 사진은 언니랑 찍은 건데 언니를 잘라냈거든. 😅",
-   "note": "estava = 있었다(반과거) · cortei-a = 그녀를 잘랐다",
+   "tl": "Estava mesmo giro. Fui ver o perfil.",
+   "ko": "진짜 귀여웠어. 프로필 보러 갔어.",
+   "note": "estava = 있었다; fui = 내가 갔다",
    "tags": [
     "form:imperfeito",
     "form:perfeito"
    ],
-   "emotion": "amused",
    "ui": "bubble",
    "at": "22:13",
+   "emotion": "amused",
    "num": 7,
-   "rd": "에우 쁘르쎄부. 나 밍야, 에우 이쉬따바 꽁 아 밍야 이르망 이 꾸르떼이 아. 😅"
+   "rd": "이쉬따바 메쥬무 지루. 푸이 베르 우 쁘르필."
   },
   {
    "speaker": "A",
-   "tl": "Então gostaste do cão, não de mim? 😏",
-   "ko": "그럼 나 말고 강아지가 좋았던 거야? 😏",
-   "note": "gostaste = 네가 좋아했다(gostei ↔ gostaste)",
+   "tl": "Então leste tudo?",
+   "ko": "그럼 다 읽었어?",
+   "note": "então = 그럼; leste = 네가 읽었다",
    "tags": [
     "expr:então",
     "form:perfeito"
    ],
-   "emotion": "teasing",
    "ui": "bubble",
    "at": "22:14",
+   "emotion": "teasing",
    "num": 8,
-   "rd": "엔따웅 구쉬따쉬뜨 두 까웅, 나웅 드 밍? 😏"
+   "rd": "엔따웅 레쉬뜨 뚜두?"
   },
   {
    "speaker": "B",
-   "tl": "Primeiro do cão, sim. Depois li o teu perfil e ri-me bué.",
-   "ko": "처음엔 강아지, 맞아. 그다음에 네 프로필 읽고 엄청 웃었어.",
-   "note": "li = 읽었다 · ri-me = 웃었다(rir-se) · bué = 엄청",
+   "tl": "Bué. Gostei de ti também.",
+   "ko": "엄청. 너도 좋았어.",
+   "note": "bué = 엄청; gostei = 내가 좋아했다",
    "tags": [
     "twist",
     "expr:bué",
     "form:perfeito"
    ],
+   "ui": "bubble",
+   "at": "22:14",
    "segs": [
     [
      "teasing",
-     "Primeiro do cão, sim."
+     "Bué."
     ],
     [
      "cheerful",
-     " Depois li o teu perfil e ri-me bué."
+     " Gostei de ti também."
     ]
    ],
-   "ui": "bubble",
-   "at": "22:14",
    "num": 9,
-   "rd": "프리메이루 두 까웅, 씽. 드뽀이쉬 리 우 떼우 쁘르필 이 히 므 부에."
+   "rd": "부에. 구쉬떼이 드 띠 땀벵."
   },
   {
    "speaker": "A",
-   "tl": "Ainda bem! E o que é que te fez rir?",
-   "ko": "다행이다! 뭐가 그렇게 웃겼는데?",
-   "note": "ainda bem = 다행이다 · te fez rir = 너를 웃게 했다",
+   "tl": "Ainda bem.",
+   "ko": "다행이다.",
+   "note": "ainda bem = 다행이다",
    "tags": [
     "expr:ainda bem"
    ],
-   "emotion": "cheerful",
    "ui": "bubble",
    "at": "22:15",
+   "emotion": "cheerful",
    "num": 10,
-   "rd": "아인다 벵! 이 우 끄 에 끄 뜨 페쉬 히르?"
+   "rd": "아인다 벵."
   },
   {
    "speaker": "B",
-   "tl": "«Faço o melhor café da cidade.» Se calhar tenho de provar. Amanhã?",
-   "ko": "「동네에서 커피 제일 잘 내림.」 아무래도 내가 직접 마셔 봐야겠네. 내일?",
-   "note": "se calhar = 아무래도, 어쩌면 · provar = 맛보다",
+   "tl": "Se calhar vamos tomar um café? 😊",
+   "ko": "혹시 커피 한잔할까? 😊",
+   "note": "se calhar = 혹시",
    "tags": [
     "expr:se calhar",
     "heart"
    ],
+   "ui": "bubble",
+   "at": "22:16",
    "segs": [
     [
      "amused",
-     "«Faço o melhor café da cidade.»"
+     "Se calhar vamos tomar um café?"
     ],
     [
      "shy",
-     " Se calhar tenho de provar. Amanhã?"
+     " 😊"
     ]
    ],
-   "ui": "bubble",
-   "at": "22:16",
    "num": 11,
-   "rd": "«파쑤 우 믈료르 까페 다 씨다드.» 쓰 깔랴르 뗑유 드 프루바르. 아망양?"
+   "rd": "쓰 깔랴르 바무쉬 뚜마르 웅 까페? 😊"
   },
   {
    "speaker": "A",
-   "tl": "Combinado! Às cinco? E levo o cão, a vizinha deixa.",
-   "ko": "좋아! 다섯 시? 강아지도 데려갈게, 옆집이 허락해 줘.",
-   "note": "combinado = 좋아, 그렇게 하자 · deixa = 허락한다",
+   "tl": "Vamos! Quando?",
+   "ko": "가자! 언제?",
+   "note": "",
    "tags": [],
+   "ui": "bubble",
+   "at": "22:16",
    "segs": [
     [
      "excited",
-     "Combinado! Às cinco?"
+     "Vamos!"
     ],
     [
      "amused",
-     " E levo o cão, a vizinha deixa."
+     " Quando?"
     ]
    ],
-   "ui": "bubble",
-   "at": "22:16",
    "num": 12,
-   "rd": "꽁비나두! 아쉬 씽꾸? 이 레부 우 까웅, 아 비징야 데이샤."
+   "rd": "바무쉬! 꽌두?"
   }
  ]
 }
