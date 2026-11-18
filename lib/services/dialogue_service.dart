@@ -1,10 +1,12 @@
 import '../core/embed_env.dart';
 import 'dart:convert';
 
+import 'package:flutter/foundation.dart' show ValueNotifier;
 import 'package:flutter/services.dart' show rootBundle;
 import '../core/prefs.dart';
 
 import 'learner_prefs.dart';
+import 'script_sync.dart';
 
 /// 회화 리더(일본어앱 시안 02 「만화책 읽기형」)용 회화 모델 — 2026-11-02, 일본어앱 `dialogue_service.dart` 를 옮김.
 ///
@@ -187,12 +189,26 @@ class DialogueService {
 
   String? _loadedGender;
 
+  /// 서버 원고를 뒤에서 받아 바뀌면 올라간다 — 회화 목록·화면이 다시 읽는다([ScriptSync]).
+  final ValueNotifier<int> revision = ValueNotifier(0);
+
   Future<void> _load() async {
     _lastOpened = (await Prefs.getInstance()).getString(_prefLast);
+    await _readAll();
+    // 서버에 더 새 원고가 있으면 뒤에서 받아 다시 읽는다(없거나 실패하면 그대로)
+    ScriptSync.instance.refresh().then((changed) async {
+      if (!changed) return;
+      await _readAll();
+      revision.value++;
+    });
+  }
+
+  /// 성별판 묶음을 읽는다 — 서버에서 받은 판이 있으면 그것(`ScriptSync.load`), 없으면 앱 안 것.
+  Future<void> _readAll() async {
     final g = _loadedGender = LearnerPrefs.gender.value;
     final all = <Dialogue>[];
     try {
-      final list = json.decode(await rootBundle.loadString(assetPath('assets/data/pt-PT/dialogues/$g.json'))) as List;
+      final list = json.decode(await ScriptSync.instance.load('pt-PT/dialogues/$g.json')) as List;
       for (final e in list) {
         final d = Dialogue.fromJson(e as Map<String, dynamic>);
         if (d.turns.isNotEmpty) all.add(d);

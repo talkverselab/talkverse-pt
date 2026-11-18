@@ -32,6 +32,18 @@ class _DialogueHomeScreenState extends State<DialogueHomeScreen> {
     DialogueService.instance.ensureLoaded().then((_) {
       if (mounted) setState(() => _loading = false);
     });
+    DialogueService.instance.revision.addListener(_onRevision);
+  }
+
+  // 서버 원고를 뒤에서 받아 목록이 바뀌면 다시 그린다
+  void _onRevision() {
+    if (mounted) setState(() {});
+  }
+
+  @override
+  void dispose() {
+    DialogueService.instance.revision.removeListener(_onRevision);
+    super.dispose();
   }
 
   @override
