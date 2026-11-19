@@ -1,0 +1,25 @@
+=== r5_love_b1
+level: R5
+kind: long
+title: 마지막 전차
+emoji: 🌙
+scene: 밤 11시 50분, 언덕 위 전차 정류장. 마지막 전차를 기다리는 학습자와 Inês.
+cast: B: Inês
+register: casual
+twist: 11 emotion
+goal: 넓은 어휘, 새 문법 없음 — 넓은 어휘로 마음 말하기
+expressions: olha; se calhar; pois; fica
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Inês 가 마지막 전차까지 몇 분 남았는지 묻는다. · 넣을 말: último
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 시간표를 보고 5분 남았다고 한다. · 넣을 말: cinco minutos
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Inês 가 오늘 정말 즐거웠다고 한다. · 넣을 말: diverti-me
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 자기도 그렇다며 도시가 이렇게 조용한 건 처음 본다고 한다. · 넣을 말: silêncio
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Inês 가 이 시간의 리스본을 가장 좋아한다고 한다. · 넣을 말: a esta hora
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 왜 그런지 묻는다. · 넣을 말: porquê
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Inês 가 강 위의 불빛과 아무도 없는 골목 때문이라고 한다. · 넣을 말: luzes; rio
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 멀리서 전차 소리가 들린다고 한다. · 넣을 말: ouço
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Inês 가 처음 만난 날 학습자가 자기한테 길을 물었던 걸 기억하냐고 묻는다. · 넣을 말: lembras-te
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 그날 Inês 가 반대 방향을 알려 줬다고 웃는다. · 넣을 말: ao contrário
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Inês 가 그건 일부러였다고, 한 번 더 만나고 싶어서였다고 고백한다. (반전 줄) · 넣을 말: de propósito
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 전차가 도착해 문이 열린다. · 넣을 말: abre
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Inês 가 오늘은 걸어서 가지 않겠냐고 조용히 묻는다. · 넣을 말: a pé
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 전차를 그냥 보내고 같이 걷자고 한다. · 넣을 말: vamos

@@ -1,0 +1,21 @@
+=== r2_life_c3
+level: R2
+kind: chat
+title: 열쇠 없어
+emoji: 🔑
+scene: 밤 10시, 학습자는 아직 회사. 옆집 Inês 가 문 앞에서 메시지를 보낸다.
+cast: B: Inês
+register: chat
+twist: 8 slip
+goal: 채팅 — 완료과거·반과거, 동사 앞 접어 — 완료과거·동사 앞 접어 — não a encontro·deixei
+expressions: não acredito; calma; olha; vá lá
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Inês 가 열쇠를 잃어버렸다고 한다. · 넣을 말: perdi
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 어디서 잃어버렸는지 묻는다. · 넣을 말: onde
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Inês 가 모르겠다며 아무리 찾아도 없다고 한다. · 넣을 말: não a encontro
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 가방은 봤는지 묻는다. · 넣을 말: a mala
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Inês 가 다 뒤져 봤다고 한다. · 넣을 말: vi tudo
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 자기 집 열쇠가 화분 밑에 있으니 들어가 있으라고 한다. · 넣을 말: debaixo do vaso
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Inês 가 고맙다며 들어왔다고 한다. · 넣을 말: entrei
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Inês 가 소파에 앉다가 자기 열쇠가 내내 주머니에 있었다는 걸 발견한다. (반전 줄) · 넣을 말: no bolso
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 이제 화분 밑 비밀까지 들켰다며 웃는다. · 넣을 말: segredo
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Inês 가 아무한테도 말 안 하겠다고 약속한다. · 넣을 말: não digo

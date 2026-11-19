@@ -1,0 +1,21 @@
+=== r2_culture_c1
+level: R2
+kind: chat
+title: 파두 보러 갈래?
+emoji: 🎶
+scene: 저녁, Tiago 가 알파마 작은 식당의 파두 공연에 오라고 한다.
+cast: B: Tiago
+register: chat
+twist: 8 emotion
+goal: 채팅 — 완료과거·반과거, 동사 앞 접어 — 반과거·완료과거 — cantava·ouvi·gostaste
+expressions: queres vir?; a sério?; pois; olha
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Tiago 가 오늘 밤 파두 공연에 오겠냐고 묻는다. · 넣을 말: queres vir
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 파두는 너무 슬픈 노래 아니냐고 한다. · 넣을 말: triste
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Tiago 가 조금 그렇지만 그래도 와 보라고 한다. · 넣을 말: um bocado
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 누가 노래하는지 묻는다. · 넣을 말: quem
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Tiago 가 그냥 동네 사람이라고 얼버무린다. · 넣을 말: alguém
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 가겠다고 한다. · 넣을 말: vou
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 공연이 끝난 뒤, 학습자가 무대에서 노래한 사람이 Tiago 였다는 걸 알고 놀란다. · 넣을 말: eras tu
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Tiago 가 할머니가 늘 부르던 노래를 처음으로 사람들 앞에서 불렀다고 한다. (반전 줄) · 넣을 말: a minha avó cantava
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 듣다가 울었다고 고백한다. · 넣을 말: chorei
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Tiago 가 그럼 오늘 공연은 성공이라고 한다. · 넣을 말: correu bem

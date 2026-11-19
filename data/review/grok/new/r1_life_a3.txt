@@ -1,0 +1,19 @@
+=== r1_life_a3
+level: R1
+kind: short
+title: 수박 하나만
+emoji: 🍉
+scene: 토요일 아침 시장. Beatriz 가 「수박 하나만」 사러 왔다며 학습자를 끌고 간다.
+cast: B: Beatriz
+register: casual
+twist: 7 chaos
+goal: eu·tu·ele 현재형 되풀이 — querer·levar 현재형 되풀이(quero·queres·quer)
+expressions: quanto custa?; olha; vá lá; pronto
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Beatriz 가 오늘은 수박 하나만 살 거라고 선언한다. · 넣을 말: quero; uma melancia
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 정말 하나만이냐고 의심한다. · 넣을 말: só uma
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Beatriz 가 복숭아를 집어 들며 학습자도 원하는지 묻는다. · 넣을 말: queres
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 조금만 달라고 한다. · 넣을 말: um pouco
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Beatriz 가 엄마도 체리를 원한다며 체리까지 담는다. · 넣을 말: a minha mãe quer
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 봉지가 너무 무겁다고 불평한다. · 넣을 말: pesad{o|a}
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Beatriz 가 정작 수박을 깜빡했다는 걸 깨닫는다. (반전 줄) · 넣을 말: esqueci-me
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 한숨을 쉬며 수박은 자기가 들겠다고 한다. · 넣을 말: levo eu

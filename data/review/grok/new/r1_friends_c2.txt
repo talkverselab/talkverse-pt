@@ -1,0 +1,19 @@
+=== r1_friends_c2
+level: R1
+kind: chat
+title: 새 머리
+emoji: 💇
+scene: 오후, Tiago 가 머리를 잘랐다며 사진을 보낸다는 메시지.
+cast: B: Tiago
+register: chat
+twist: 6 reveal
+goal: eu·tu·ele 현재형 되풀이 — ficar·gostar 현재형 — fica bem·gostas·gosto
+expressions: a sério?; fixe; gostas?; pá
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Tiago 가 머리를 잘랐다고 자랑한다. · 넣을 말: cortei
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 사진을 보여 달라고 한다. · 넣을 말: mostra
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Tiago 가 사진을 보내고 마음에 드는지 묻는다. · 넣을 말: gostas?
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 멋지고 잘 어울린다고 칭찬한다. · 넣을 말: fica bem; fixe
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Tiago 가 자기도 마음에 든다고 한다. · 넣을 말: gosto
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Tiago 가 사실 그건 털을 깎은 자기 고양이 사진이라고 밝힌다. (반전 줄) · 넣을 말: gato
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 고양이가 Tiago 보다 낫다고 놀린다. · 넣을 말: mais giro
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Tiago 가 고양이도 그렇게 생각한다고 받아친다. · 넣을 말: pá

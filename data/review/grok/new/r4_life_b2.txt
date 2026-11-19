@@ -1,0 +1,26 @@
+=== r4_life_b2
+level: R4
+kind: long
+title: 이 집이면 좋겠는데
+emoji: 🏠
+scene: 오후, 집 보러 간 낡은 아파트. 집주인 Fernanda 가 방을 하나씩 보여 준다.
+cast: B: Fernanda, C: Duarte
+register: polite
+twist: 11 reveal
+goal: 접속법·조건법 가볍게 — 접속법 현재(espero que·talvez seja)
+expressions: espero que; se calhar; tomara que; não faz mal
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Fernanda 가 거실을 보여 준다. · 넣을 말: sala
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 밝다며 조용한 집이었으면 좋겠다고 한다. · 넣을 말: espero que seja
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Fernanda 가 아주 조용한 건물이라고 장담한다. · 넣을 말: calmo
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 이웃은 어떤 사람인지 묻는다. · 넣을 말: vizinhos
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Fernanda 가 옆집에 젊은 남자가 하나 사는데 착하다고 한다. · 넣을 말: simpático
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 밤에 시끄럽지 않기를 바란다고 한다. · 넣을 말: tomara que não
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Fernanda 가 보통은 조용하다고 말끝을 흐린다. · 넣을 말: normalmente
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 월세를 묻는다. · 넣을 말: renda
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Fernanda 가 오래 살아 준다면 싸게 해 주겠다고 한다. · 넣을 말: que fique
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 그때 벽 너머에서 골 응원 소리가 크게 울린다. · 넣을 말: golo
+C | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 옆집 문이 열리고 Duarte 가 나와 학습자를 알아보고 놀란다. (반전 줄) · 넣을 말: és tu
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Fernanda 가 저 청년이 자기 아들이라고 밝힌다. · 넣을 말: filho
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 집주인 아들이 옆집이라면 앞으로 어떨지 상상한다. · 넣을 말: se calhar
+C | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Duarte 가 축구는 일주일에 세 번만 크게 보겠다고 약속한다. · 넣을 말: só
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 계약하겠다며, 대신 경기 표는 Duarte 가 사라고 한다. · 넣을 말: bilhete

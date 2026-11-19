@@ -1,0 +1,21 @@
+=== r2_friends_c5
+level: R2
+kind: chat
+title: 헬스장 첫날
+emoji: 🏋️
+scene: 아침 7시, Duarte 가 오늘부터 같이 헬스장 다니자며 깨운다.
+cast: B: Duarte
+register: chat
+twist: 7 chaos
+goal: 채팅 — 완료과거·반과거, 동사 앞 접어 — 완료과거 — fui·foste·desisti
+expressions: vá lá; já está; epá; nem pensar
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Duarte 가 헬스장 가자며 학습자를 깨운다. · 넣을 말: acorda
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 아직 7시라고 투덜댄다. · 넣을 말: nem pensar
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Duarte 가 어제 같이 가기로 약속했다고 한다. · 넣을 말: prometeste
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 자기가 정말 그랬냐고 묻는다. · 넣을 말: eu
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Duarte 가 이미 문 앞이라고 한다. · 넣을 말: estou à porta
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 5분만 기다리라며 일어난다. · 넣을 말: vou
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 10분 뒤, Duarte 가 너무 힘들어서 벌써 그만뒀다고 한다. (반전 줄) · 넣을 말: já está; desisti
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 자기는 방금 도착했다고 한다. · 넣을 말: acabei de chegar
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Duarte 가 맞은편 빵집에서 기다리겠다고 한다. · 넣을 말: pastelaria
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 둘 다 1년짜리 회원권을 끊었다는 사실을 떠올린다. · 넣을 말: um ano

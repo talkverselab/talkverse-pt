@@ -1,0 +1,21 @@
+=== r2_life_c1
+level: R2
+kind: chat
+title: 내 택배 어디 갔어
+emoji: 📦
+scene: 오후, 회사에 있는 학습자. 오늘 온다던 택배 추적은 「배달 완료」인데 집에 있는 Duarte 가 말이 없다.
+cast: B: Duarte
+register: chat
+twist: 8 chaos
+goal: 채팅 — 완료과거·반과거, 동사 앞 접어 — 완료과거 — chegou·abriste·abri
+expressions: chegou?; a sério?; epá; desculpa
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 집에 택배가 왔는지 묻는다. · 넣을 말: chegou
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Duarte 가 아무것도 안 왔다고 한다. · 넣을 말: nada
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 추적 화면에는 배달 완료라고 나온다고 한다. · 넣을 말: diz que
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Duarte 가 잠시 뜸 들이다 상자가 하나 오긴 왔다고 인정한다. · 넣을 말: uma caixa
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 그게 자기 거라고 한다. · 넣을 말: é meu
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Duarte 가 자기 건 줄 알고 열어 봤다고 고백한다. · 넣을 말: abri; pensei
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 안에 뭐가 들었는지 묻는다. · 넣을 말: o que
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Duarte 가 운동화였다며, 지금 그걸 신고 공원을 달리는 중이라고 한다. (반전 줄) · 넣을 말: estou a correr
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 당장 벗으라고 한다. · 넣을 말: tira
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Duarte 가 사이즈가 딱 맞는다며 사과는 하지만 감탄을 멈추지 않는다. · 넣을 말: desculpa; serve

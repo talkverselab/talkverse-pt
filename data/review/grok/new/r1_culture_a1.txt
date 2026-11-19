@@ -1,0 +1,19 @@
+=== r1_culture_a1
+level: R1
+kind: short
+title: 저녁은 아홉 시
+emoji: 🍽️
+scene: 저녁 7시, 셰어하우스 부엌. 배고픈 학습자가 Duarte 에게 저녁 언제 먹냐고 묻는다.
+cast: B: Duarte
+register: casual
+twist: 6 chaos
+goal: eu·tu·ele 현재형 되풀이 — comer·jantar 현재형 — comes·como·janta
+expressions: tenho fome; ainda não; calma; pá
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 배고프다며 저녁을 언제 먹는지 묻는다. · 넣을 말: tenho fome
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Duarte 가 아직 멀었다며 9시에 먹는다고 한다. · 넣을 말: ainda não
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 너무 늦다고 놀란다. · 넣을 말: tarde
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Duarte 가 여기선 다들 그렇다며 간식이라도 먹으라고 한다. · 넣을 말: come; lanche
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 빵을 하나 먹는다. · 넣을 말: como
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 9시 반, Duarte 가 엄마 문자를 보여 준다 — 오늘 저녁은 10시라고. (반전 줄) · 넣을 말: dez
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 빵을 하나 더 집는다. · 넣을 말: mais
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Duarte 가 이제 학습자도 진짜 포르투갈 사람이 다 됐다고 한다. · 넣을 말: calma; pá

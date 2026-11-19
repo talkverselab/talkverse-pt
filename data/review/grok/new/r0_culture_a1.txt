@@ -1,0 +1,18 @@
+=== r0_culture_a1
+level: R0
+kind: short
+title: 뽀뽀는 두 번
+emoji: 😘
+scene: 친구 생일 파티 현관. Inês 가 학습자를 친구들에게 소개한다. 학습자는 악수부터 내민다.
+cast: B: Inês
+register: casual
+twist: 5 chaos
+goal: 짧은 덩어리로 반응하기 — 처음 만난 인사 덩어리 — 「muito prazer」「dois beijinhos」
+expressions: muito prazer; tudo bem?; dois beijinhos; pronto
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Inês 가 친구들에게 학습자를 소개한다. · 넣을 말: {name}
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 정중하게 손을 내밀며 반갑다고 인사한다. · 넣을 말: muito prazer
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Inês 가 여기서는 손이 아니라 볼에 두 번 하는 거라고 알려 준다. · 넣을 말: dois beijinhos
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 두 번이냐고 확인한다. · 넣을 말: dois
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 긴장해서 세 번을 해 버리자 Inês 가 그건 다른 나라 방식이라며 웃는다. (반전 줄) · 넣을 말: três
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 얼굴이 빨개져 사과한다. · 넣을 말: desculpa
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Inês 가 괜찮다며 이제 다들 학습자를 절대 못 잊을 거라고 한다. · 넣을 말: pronto

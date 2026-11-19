@@ -1,0 +1,20 @@
+=== r2_life_c2
+level: R2
+kind: chat
+title: 물 끊겼어
+emoji: 🚿
+scene: 아침 8시, 이웃 Inês 의 메시지. 학습자는 샴푸 거품을 머리에 얹은 채 휴대폰을 집는다.
+cast: B: Inês
+register: chat
+twist: 7 chaos
+goal: 채팅 — 완료과거·반과거, 동사 앞 접어 — 반과거·완료과거 — estava·cortaram·avisei
+expressions: olha; não acredito; já; calma
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Inês 가 건물 물이 끊긴다고 알린다. · 넣을 말: cortaram
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 언제부터냐고 묻는다. · 넣을 말: quando
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Inês 가 바로 지금, 8시부터라고 한다. · 넣을 말: já
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 샤워하던 중이라 머리에 거품이 그대로라고 한다. · 넣을 말: estava a tomar banho
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Inês 가 어제 분명히 알려 줬다고 한다. · 넣을 말: avisei
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 그 메시지를 못 봤다고 한다. · 넣을 말: não vi; não acredito
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Inês 가 물 한 병을 갖다 주겠다고 한다. (반전 줄) · 넣을 말: levo
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Inês 가 문 앞에 왔는데, 가져온 건 탄산수다. · 넣을 말: com gás
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 머리에 부었더니 따끔거린다고 한다. · 넣을 말: arde

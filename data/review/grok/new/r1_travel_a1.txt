@@ -1,0 +1,19 @@
+=== r1_travel_a1
+level: R1
+kind: short
+title: 28번 전차
+emoji: 🚋
+scene: 오후, 사람으로 꽉 찬 28번 전차. Inês 가 창밖을 가리키며 동네를 소개한다.
+cast: B: Inês
+register: casual
+twist: 7 reveal
+goal: eu·tu·ele 현재형 되풀이 — ir·ver 현재형 — vamos·vês·vejo
+expressions: olha; vês?; que giro!; pois
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Inês 가 창밖의 성을 가리키며 보이냐고 묻는다. · 넣을 말: olha; vês
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 보인다며 예쁘다고 감탄한다. · 넣을 말: vejo; que giro
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Inês 가 이제 대성당 쪽으로 간다고 한다. · 넣을 말: vamos
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 대성당이 어디 있는지 묻는다. · 넣을 말: onde
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Inês 가 다음 정류장이라고 한다. · 넣을 말: é a próxima
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 창밖에 아까 그 성이 또 보인다고 한다. · 넣을 말: outra vez
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Inês 가 둘이 반대 방향 전차를 탔다는 걸 깨닫는다. (반전 줄) · 넣을 말: ao contrário
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 괜찮다며 경치는 똑같이 예쁘다고 한다. · 넣을 말: pois

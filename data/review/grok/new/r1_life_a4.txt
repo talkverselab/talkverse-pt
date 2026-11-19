@@ -1,0 +1,19 @@
+=== r1_life_a4
+level: R1
+kind: short
+title: 나 죽어 가
+emoji: 🤒
+scene: 셰어하우스 거실. Duarte 가 소파에서 배를 움켜쥐고 신음한다.
+cast: B: Duarte
+register: casual
+twist: 7 reveal
+goal: eu·tu·ele 현재형 되풀이 — doer·estar 현재형 — dói-me·estás·está
+expressions: dói-me; estás bem?; a sério?; coitado
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Duarte 가 과장되게 죽을 것 같다고 신음한다. · 넣을 말: estou a morrer
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 걱정하며 괜찮은지, 어디가 아픈지 묻는다. · 넣을 말: estás bem?
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Duarte 가 배가 아프다고 한다. · 넣을 말: dói-me a barriga
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 약국에 같이 가자고 한다. · 넣을 말: farmácia
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Duarte 가 걸을 힘도 없다고 한다. · 넣을 말: não consigo
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 오늘 뭘 먹었는지 묻는다. · 넣을 말: comeste
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Duarte 가 빈 빵집 상자를 내밀며 에그타르트 열 개를 먹었다고 털어놓는다. (반전 줄) · 넣을 말: dez
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 어이없어하며 약 말고 물이나 마시라고 한다. · 넣을 말: coitado; água

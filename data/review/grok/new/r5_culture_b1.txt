@@ -1,0 +1,25 @@
+=== r5_culture_b1
+level: R5
+kind: long
+title: 응원석을 잘못 앉았다
+emoji: ⚽
+scene: 일요일 밤, 리스본 축구 경기장. Duarte 가 처음 온 학습자를 데리고 자리를 찾는다.
+cast: B: Duarte
+register: casual
+twist: 9 chaos
+goal: 넓은 어휘, 새 문법 없음 — 넓은 어휘 — 경기장 말(golo·árbitro·bancada)
+expressions: golo!; vá lá; não acredito; árbitro
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Duarte 가 표를 보며 여기가 두 사람 자리라고 한다. · 넣을 말: lugar
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 사람이 엄청 많다고 놀란다. · 넣을 말: tanta gente
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Duarte 가 경기가 시작됐다며 초록 팀이 우리 팀이라고 알려 준다. · 넣을 말: verde
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 알겠다고 한다. · 넣을 말: percebi
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Duarte 가 옆 아저씨들을 따라 심판에게 고함을 지른다. · 넣을 말: árbitro
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 골이 터지자 학습자가 벌떡 일어나 환호한다. · 넣을 말: golo
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Duarte 가 앉으라며 그건 상대 팀 골이라고 한다. · 넣을 말: senta-te
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 그런데 주변 사람들은 다 같이 환호하고 있다고 한다. · 넣을 말: todos
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Duarte 가 둘이 상대 팀 응원석에 앉아 있다는 걸 깨닫는다. (반전 줄) · 넣을 말: bancada
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 이제 어떻게 하냐고 묻는다. · 넣을 말: e agora
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Duarte 가 초록 목도리를 조용히 숨기라고 한다. · 넣을 말: esconde
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 매점에서 상대 팀 빨간 모자를 사 온다. · 넣을 말: boné
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Duarte 가 배신자라고 한다. · 넣을 말: traidor / traidora
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 오늘만이라며 웃는다. · 넣을 말: só hoje

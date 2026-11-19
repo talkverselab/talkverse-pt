@@ -1,0 +1,21 @@
+=== r2_travel_c1
+level: R2
+kind: chat
+title: 포르투행 기차
+emoji: 🚆
+scene: 토요일 아침, 포르투에서 먼저 기다리는 학습자. Beatriz 가 기차에서 실시간 보고를 보낸다.
+cast: B: Beatriz
+register: chat
+twist: 7 chaos
+goal: 채팅 — 완료과거·반과거, 동사 앞 접어 — 완료과거 — entrei·saiu·chegaste
+expressions: já estou; espera; não acredito; olha
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Beatriz 가 기차에 탔다고 알린다. · 넣을 말: entrei
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 몇 시에 도착하는지 묻는다. · 넣을 말: chegas
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Beatriz 가 11시라고 한다. · 넣을 말: às onze
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 역에서 기다리겠다고 한다. · 넣을 말: espero
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Beatriz 가 창밖에 바다가 보인다며 들떠 있다. · 넣을 말: mar
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 그 노선에는 바다가 없다고 이상하게 여긴다. · 넣을 말: não há
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Beatriz 가 표지판을 보고 남쪽 끝 파루행 기차라는 걸 깨닫는다. (반전 줄) · 넣을 말: Faro
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 정반대 방향이라고 기가 막혀 한다. · 넣을 말: não acredito
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Beatriz 가 해변 사진을 보내며 차라리 학습자가 내려오라고 한다. · 넣을 말: vem tu
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 한숨을 쉬며 기차표를 검색한다. · 넣을 말: pronto

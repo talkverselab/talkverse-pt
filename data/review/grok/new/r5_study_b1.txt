@@ -1,0 +1,25 @@
+=== r5_study_b1
+level: R5
+kind: long
+title: 말하기 시험
+emoji: 🎤
+scene: 포르투갈어 말하기 시험장. 시험관 Marta 앞에 앉은 학습자 — 손이 떨린다.
+cast: B: Marta, C: Inês
+register: polite
+twist: 12 reveal
+goal: 넓은 어휘, 새 문법 없음 — 넓은 어휘로 자기소개·계획 말하기
+expressions: com licença; posso…?; não percebi; pois
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 시험관 Marta 가 앉으라며 자기소개를 해 보라고 한다. · 넣을 말: apresente-se
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 이름과 사는 동네를 말한다. · 넣을 말: chamo-me
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Marta 가 왜 포르투갈어를 배우는지 묻는다. · 넣을 말: porque
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 이곳 친구들과 이야기하고 싶어서라고 한다. · 넣을 말: amigos
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Marta 가 어떤 친구들인지 묻는다. · 넣을 말: que amigos
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 빵집에서 처음 만난 이웃 Inês 이야기를 한다. · 넣을 말: vizinha
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Marta 가 그 친구가 어떤 사람인지 묻는다. · 넣을 말: como é
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 다정하지만 사람 놀리는 걸 좋아한다고 한다. · 넣을 말: goza
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Marta 가 조금 더 천천히 다시 말해 달라고 한다. · 넣을 말: mais devagar
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 질문을 못 알아들었다며 다시 물어봐도 되냐고 한다. · 넣을 말: não percebi; posso
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Marta 가 미소 지으며 그 친구에게 오늘 시험 이야기를 했냐고 묻는다. · 넣을 말: contou
+C | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Inês 가 문을 열고 들어와 Marta 를 엄마라고 부르며 끝났냐고 묻는다. (반전 줄) · 넣을 말: mãe
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 그 자리에서 얼어붙는다. · 넣을 말: congelad{o|a}
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Marta 가 합격이라며, 딸이 놀리기 좋아하는 건 사실이라고 한다. · 넣을 말: passou

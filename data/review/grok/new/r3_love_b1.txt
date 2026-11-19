@@ -1,0 +1,25 @@
+=== r3_love_b1
+level: R3
+kind: long
+title: 누가 먼저 만났나
+emoji: 💞
+scene: 토요일, Tiago 카페 테라스. Inês 와 Beatriz 가 서로 「내가 {name} 을 먼저 만났다」며 다툰다.
+cast: B: Inês, C: Beatriz
+register: casual
+twist: 9 reveal
+goal: 복수(nós·vocês·eles)와 존칭(o senhor/a senhora) — 복수 동사(nós conhecemos·vocês conhecem·elas)
+expressions: a sério?; pois; nem pensar; olha
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Inês 가 빵집에서 학습자를 자기가 먼저 만났다고 주장한다. · 넣을 말: conheci primeiro
+C | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Beatriz 가 해변에서 자기가 먼저였다고 맞선다. · 넣을 말: eu
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 둘이 서로 아는 사이였냐고 놀란다. · 넣을 말: vocês conhecem-se
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Inês 가 둘은 어릴 때부터 친구라고 한다. · 넣을 말: somos
+C | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Beatriz 가 그래서 둘은 늘 같은 걸 좋아한다고 덧붙인다. · 넣을 말: gostamos
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 그럼 날짜를 비교해 보자고 한다. · 넣을 말: data
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Inês 가 3월 2일이라고 한다. · 넣을 말: dois de março
+C | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Beatriz 가 3월 1일이라며 이겼다고 좋아한다. · 넣을 말: um
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Inês 가 사실 그 전에 Beatriz 에게 학습자 이야기를 먼저 했고, 그래서 Beatriz 가 해변에 간 거라고 폭로한다. (반전 줄) · 넣을 말: contei-lhe
+C | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Beatriz 가 들켰다며 얼굴을 가린다. · 넣을 말: pronto
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 그럼 둘 다 자기를 보러 온 거냐고 묻는다. · 넣을 말: as duas
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Inês 가 이제 학습자가 고를 차례라고 한다. · 넣을 말: escolhe
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 대답 대신 Tiago 에게 커피 세 잔을 주문하며 피한다. · 넣을 말: três cafés
+C | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Beatriz 가 도망가지 말라고 한다. · 넣을 말: não fujas

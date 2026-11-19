@@ -1,0 +1,19 @@
+=== r1_love_c2
+level: R1
+kind: chat
+title: 내일 뭐 해?
+emoji: 📅
+scene: 밤 10시, Beatriz 가 먼저 메시지를 보낸다.
+cast: B: Beatriz
+register: chat
+twist: 5 slip
+goal: eu·tu·ele 현재형 되풀이 — fazer 현재형 — fazes·faço·faz
+expressions: o que fazes?; nada; então; a sério?
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Beatriz 가 학습자에게 내일 무엇을 하는지 묻는다. · 넣을 말: o que fazes
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 빨래하고 청소한다고 답한다. · 넣을 말: faço
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Beatriz 가 재미없다며 계획을 바꾸라고 한다. · 넣을 말: então
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 무엇으로 바꾸냐고 묻는다. · 넣을 말: o quê
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 들뜬 나머지 질문도 받기 전에 하트 잔뜩 붙인 「좋아」를 보내 버린다. (반전 줄) · 넣을 말: sim
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Beatriz 가 아직 아무것도 안 물어봤다고 놀린다. · 넣을 말: ainda
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 손가락이 미끄러졌다고 변명한다. · 넣을 말: dedo
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Beatriz 가 내일 6시에 해변에서 보자며, 이제 정식으로 물어본 거라고 한다. · 넣을 말: às seis

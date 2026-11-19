@@ -1,0 +1,25 @@
+=== r4_friends_b1
+level: R4
+kind: long
+title: 복권에 당첨되면
+emoji: 🎟️
+scene: 금요일 밤, Tiago 카페. 셋이 복권 한 장을 앞에 두고 결과 발표를 기다린다.
+cast: B: Duarte, C: Tiago
+register: casual
+twist: 12 reveal
+goal: 접속법·조건법 가볍게 — 접속법 과거 + 조건법(se ganhássemos… comprava/compraria)
+expressions: se calhar; imagina; nem pensar; pois
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Duarte 가 당첨되면 뭘 할 건지 묻는다. · 넣을 말: se ganhássemos
+C | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Tiago 가 바닷가에 카페를 사겠다고 한다. · 넣을 말: compraria
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 세계 여행을 하겠다고 한다. · 넣을 말: viajaria
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Duarte 가 자기는 축구팀을 사겠다고 한다. · 넣을 말: equipa
+C | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Tiago 가 당첨금 반은 자기 몫이라고 한다. · 넣을 말: metade
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 왜냐고 따진다. · 넣을 말: porquê
+C | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Tiago 가 자기 카페에서 산 복권이니까라고 한다. · 넣을 말: compraste
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Duarte 가 번호가 나온다며 조용히 하라고 한다. · 넣을 말: cala-te
+C | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Tiago 가 첫 번호가 맞았다고 소리친다. · 넣을 말: acertámos
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 두 번째도 맞았다고 흥분한다. · 넣을 말: também
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Duarte 가 벌떡 일어나 상상에 빠진다. · 넣을 말: imagina
+C | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Tiago 가 복권 날짜를 보고 지난주 추첨용이라는 걸 깨닫는다. (반전 줄) · 넣을 말: semana passada
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 이 복권을 누가 샀는지 묻는다. · 넣을 말: quem
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Duarte 가 딴청을 피우며 휘파람을 분다. · 넣을 말: pois

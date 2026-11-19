@@ -1,0 +1,21 @@
+=== r2_love_c4
+level: R2
+kind: chat
+title: 정어리 사진
+emoji: 🐟
+scene: 저녁, Beatriz 가 숯불 정어리 사진을 계속 보낸다.
+cast: B: Beatriz
+register: chat
+twist: 8 reveal
+goal: 채팅 — 완료과거·반과거, 동사 앞 접어 — 반과거·완료과거 — estava·comi·fiz
+expressions: que fome; vá lá; olha; já
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Beatriz 가 숯불에 굽는 정어리 사진을 보낸다. · 넣을 말: sardinhas
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 사진을 보니 배고프다고 한다. · 넣을 말: que fome
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Beatriz 가 사진을 하나 더 보낸다. · 넣을 말: olha
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 지금 어디냐고 묻는다. · 넣을 말: onde
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Beatriz 가 비밀이라고 한다. · 넣을 말: segredo
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 오늘 저녁을 아직 아무것도 못 먹었다고 한다. · 넣을 말: não comi
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Beatriz 가 그럴 줄 알았다고 한다. · 넣을 말: já
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Beatriz 가 문을 열어 보라고 한다 — 학습자 집 마당에서 굽고 있었다. (반전 줄) · 넣을 말: abre a porta
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 아까부터 나던 연기가 그거였냐고 묻는다. · 넣을 말: fumo
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Beatriz 가 식기 전에 빨리 나오라고 한다. · 넣을 말: vá lá

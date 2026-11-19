@@ -1,0 +1,21 @@
+=== r2_friends_c4
+level: R2
+kind: chat
+title: 선물은 비밀
+emoji: 🎁
+scene: 단톡방. Duarte 생일 선물을 Tiago 와 몰래 정하는 중 — 그런데 방에 누가 있는지 아무도 안 봤다.
+cast: B: Tiago, C: Duarte
+register: chat
+twist: 7 slip
+goal: 채팅 — 완료과거·반과거, 동사 앞 접어 — 완료과거·동사 앞 접어 — já lhe disseste·não lhe digas
+expressions: não lhe digas; vá lá; pronto; epá
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Tiago 가 Duarte 생일 선물로 뭘 할지 묻는다. · 넣을 말: presente
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 축구 저지를 제안한다. · 넣을 말: camisola
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Tiago 가 그건 작년에 이미 줬다고 한다. · 넣을 말: demos
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 콘서트 표를 제안한다. · 넣을 말: bilhetes
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Tiago 가 좋다며 Duarte 에게는 절대 말하지 말라고 한다. · 넣을 말: não lhe digas
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 당연하다고 한다. · 넣을 말: claro
+C | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Duarte 가 갑자기 끼어들어 자기도 이 방에 있다며 표가 마음에 든다고 한다. (반전 줄) · 넣을 말: estou aqui
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Tiago 가 방 참여자 목록을 보고 Duarte 를 빼먹지 않았다는 걸 깨닫는다. · 넣을 말: epá
+C | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Duarte 가 이왕이면 앞줄로 사 달라고 한다. · 넣을 말: à frente
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 포기하고 그럼 셋이 같이 고르자고 한다. · 넣을 말: pronto

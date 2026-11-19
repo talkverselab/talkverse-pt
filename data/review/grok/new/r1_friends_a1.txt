@@ -1,0 +1,19 @@
+=== r1_friends_a1
+level: R1
+kind: short
+title: 버스 놓쳤다
+emoji: 🚌
+scene: 아침, 버스 정류장 앞. 학습자와 Duarte 가 멀어지는 버스를 보고 멈춘다.
+cast: B: Duarte
+register: casual
+twist: 6 chaos
+goal: eu·tu·ele 현재형 되풀이 — ir·chegar 현재형 — vou·vais·vai·chega
+expressions: corre!; já está; espera; olha
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Duarte 가 버스가 떠난다며 뛰라고 외친다. · 넣을 말: corre; vai
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 숨을 헐떡이며 이미 가 버렸다고 한다. · 넣을 말: já foi
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Duarte 가 다음 버스는 언제 오는지 묻는다. · 넣을 말: quando chega
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 전광판을 보고 30분 뒤라고 알려 준다. · 넣을 말: meia hora
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Duarte 가 그럼 걸어가자고 한다. · 넣을 말: vamos a pé
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Duarte 가 마침 선 다른 버스에 무작정 올라타는데, 해변 가는 버스다. (반전 줄) · 넣을 말: praia
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 오늘 수업은 어떡하냐고 묻는다. · 넣을 말: aula
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Duarte 가 오늘은 바다가 수업이라고 태연하게 말한다. · 넣을 말: hoje

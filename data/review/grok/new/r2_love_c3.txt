@@ -1,0 +1,20 @@
+=== r2_love_c3
+level: R2
+kind: chat
+title: 어제 그 사람
+emoji: 👀
+scene: 밤 11시, Inês 가 갑자기 묻는다. 어제 카페에서 학습자와 같이 있던 사람이 누구냐고.
+cast: B: Inês
+register: chat
+twist: 7 reveal
+goal: 채팅 — 완료과거·반과거, 동사 앞 접어 — 완료과거 — vi·estiveste·estava
+expressions: quem era?; a sério?; pois; não sei
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Inês 가 어제 카페에서 학습자를 봤다고 한다. · 넣을 말: vi-te
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 자기를 봤냐며 놀란다. · 넣을 말: viste-me
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Inês 가 같이 있던 사람이 누구였는지 묻는다. · 넣을 말: quem era
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 사촌이었다고 한다. · 넣을 말: prima / primo
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Inês 가 그냥 궁금했을 뿐이라고 얼버무린다. · 넣을 말: só
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 그런데 Inês 는 왜 거기 있었냐고 되묻는다. · 넣을 말: porque é que
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Inês 가 사실 말 걸 용기가 없어서 창밖에서 한 시간을 기다렸다고 털어놓는다. (반전 줄) · 넣을 말: esperei; uma hora
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 다음엔 그냥 들어오라고 한다. · 넣을 말: entra
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Inês 가 내일 그 카페에서 보자며, 이번엔 안에서 기다리겠다고 한다. · 넣을 말: amanhã

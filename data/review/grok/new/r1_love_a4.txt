@@ -1,0 +1,19 @@
+=== r1_love_a4
+level: R1
+kind: short
+title: 우산 하나
+emoji: ☔
+scene: 저녁, 갑자기 비가 쏟아지는 버스 정류장. 우산이 없는 학습자 옆에 Inês 가 선다.
+cast: B: Inês
+register: casual
+twist: 7 emotion
+goal: eu·tu·ele 현재형 되풀이 — ter·estar 현재형 — tens·tenho·está a chover
+expressions: está a chover; tens guarda-chuva?; anda cá; tá bem
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Inês 가 비가 온다며 학습자에게 우산이 있는지 묻는다. · 넣을 말: está a chover; tens
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 없다고 한다. · 넣을 말: não tenho
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Inês 가 우산을 펼치며 이리 오라고 한다. · 넣을 말: anda cá
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 고마워하면서 우산이 작다고 한다. · 넣을 말: pequeno
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Inês 가 어깨가 젖는다며 더 가까이 오라고 한다. · 넣을 말: mais perto
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 버스가 온다고 알린다. · 넣을 말: vem
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Inês 가 이 버스는 보내고 다음 걸 타자고 한다 — 조금 더 같이 있고 싶어서. (반전 줄) · 넣을 말: o próximo
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 수줍게 좋다고 한다. · 넣을 말: tá bem

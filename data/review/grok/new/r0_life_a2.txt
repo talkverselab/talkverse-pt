@@ -1,0 +1,18 @@
+=== r0_life_a2
+level: R0
+kind: short
+title: 하나만 더
+emoji: 🥐
+scene: 아침, 동네 빵집. 단골 Inês 가 「하나만 맛보라」며 학습자 몫까지 고르기 시작한다.
+cast: B: Inês
+register: casual
+twist: 6 chaos
+goal: 짧은 덩어리로 반응하기 — 빵집에서 짧게 고르기 — 「queria」「mais um」「pronto」
+expressions: bom dia; queria; mais um; pronto
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Inês 가 아침 인사를 하고 학습자에게 무엇을 먹을지 묻는다. · 넣을 말: bom dia
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 에그타르트 하나를 주문한다. · 넣을 말: queria; um pastel de nata
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Inês 가 이 가게에서 하나만 사는 사람은 없다며 하나를 더 얹는다. · 넣을 말: mais um
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 마지못해 두 개로 늘린다. · 넣을 말: dois
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Inês 가 진열장의 다른 빵들도 맛있다며 신나서 계속 고른다. · 넣을 말: e este
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 건네받은 상자를 열어 보고 열두 개가 든 것을 보고 기겁한다. (반전 줄) · 넣을 말: pronto; doze
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Inês 가 절반은 자기 것이라며 태연하게 고맙다고 한다. · 넣을 말: obrigada

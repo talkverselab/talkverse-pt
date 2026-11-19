@@ -1,0 +1,17 @@
+=== r0_friends_a2
+level: R0
+kind: chat
+title: 어디야?
+emoji: 📍
+scene: 저녁 7시, 지하철역에서 만나기로 했다. Duarte 가 계속 「어디야?」를 보낸다.
+cast: B: Duarte
+register: chat
+twist: 6 reveal
+goal: 짧은 덩어리로 반응하기 — 짧은 채팅으로 위치 묻고 답하기 — 「onde estás?」「já cá estou」
+expressions: onde estás?; já cá estou; espera; olha
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Duarte 가 학습자의 위치를 묻는다. · 넣을 말: onde estás?
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 이미 역에 도착했다고 답한다. · 넣을 말: já cá estou
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Duarte 도 역에 있는데 학습자가 보이지 않는다고 한다. · 넣을 말: também
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 출구 번호를 알려 준다. · 넣을 말: saída dois
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Duarte 가 자기도 같은 출구라며 어디냐고 다시 묻는다. · 넣을 말: espera
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 뒤를 돌아보라고 한다 — 둘은 등을 맞대고 서 있었다. (반전 줄) · 넣을 말: olha

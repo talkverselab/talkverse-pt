@@ -1,0 +1,25 @@
+=== r4_travel_b1
+level: R4
+kind: long
+title: 가방이 안 나왔어요
+emoji: 🧳
+scene: 공항 수하물 창구. 학습자의 노란 가방만 안 나왔다. 직원 Fernanda 가 서류를 내민다.
+cast: B: Fernanda, C: Beatriz
+register: polite
+twist: 10 chaos
+goal: 접속법·조건법 가볍게 — 접속법(antes que·quando chegar)과 조건법(poderia)
+expressions: desculpe; poderia…?; quando chegar; que pena
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 창구 직원에게 가방이 안 나왔다고 말한다. · 넣을 말: desculpe
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Fernanda 가 탑승권을 보여 줄 수 있냐고 정중하게 묻는다. · 넣을 말: poderia
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 탑승권을 건넨다. · 넣을 말: aqui
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Fernanda 가 가방이 무슨 색인지 묻는다. · 넣을 말: cor
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 큰 노란 가방이라고 한다. · 넣을 말: amarela
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Fernanda 가 가방이 도착하면 바로 연락하겠다고 한다. · 넣을 말: quando chegar
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 오늘 안에 꼭 왔으면 좋겠다고 한다. · 넣을 말: que chegue
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Fernanda 가 장담은 못 한다며 미안해한다. · 넣을 말: que pena
+C | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 마중 나온 Beatriz 가 노란 가방을 끌고 창구로 다가온다. · 넣을 말: olha
+C | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Beatriz 가 학습자 것인 줄 모르고, 서핑보드를 넣기 딱 좋아 보여서 가져가던 중이었다고 한다. (반전 줄) · 넣을 말: levar
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 그건 자기 가방이라고 외친다. · 넣을 말: é minha
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Fernanda 가 서류를 접으며 다행이라고 한다. · 넣을 말: ainda bem
+C | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Beatriz 가 그럼 보드는 어디에 넣느냐고 아쉬워한다. · 넣을 말: onde
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 절대 안 된다고 한다. · 넣을 말: nem pensar

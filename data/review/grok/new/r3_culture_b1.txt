@@ -1,0 +1,26 @@
+=== r3_culture_b1
+level: R3
+kind: long
+title: 일요일 점심
+emoji: 🍲
+scene: 일요일 1시, Duarte 의 엄마 Fernanda 의 집. 식탁에 음식이 끝없이 나온다.
+cast: B: Fernanda, C: Duarte
+register: polite
+twist: 11 chaos
+goal: 복수(nós·vocês·eles)와 존칭(o senhor/a senhora) — 존칭(a senhora cozinha)과 복수(nós comemos·vocês querem)
+expressions: que bom!; obrigad{o|a}; já chega; à vontade
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Fernanda 가 학습자를 반기며 앉으라고 한다. · 넣을 말: sente-se
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 초대해 주셔서 감사하다고 한다. · 넣을 말: obrigad{o|a}
+C | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Duarte 가 자기 엄마 요리가 최고라고 자랑한다. · 넣을 말: cozinha
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Fernanda 가 수프부터 내온다. · 넣을 말: sopa
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 맛있다고 감탄한다. · 넣을 말: que bom
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Fernanda 가 대구 요리도 있다며 큰 접시를 놓는다. · 넣을 말: bacalhau
+C | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Duarte 가 이 집은 일요일 점심을 세 시간 동안 먹는다고 한다. · 넣을 말: comemos
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 세 시간이나 되냐고 놀란다. · 넣을 말: três horas
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Fernanda 가 편하게 많이 먹으라고 한다. · 넣을 말: à vontade
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 이제 정말 배부르다고 한다. · 넣을 말: já chega
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Fernanda 가 그럼 디저트라며 커다란 쌀 푸딩 쟁반을 들고 온다. (반전 줄) · 넣을 말: arroz doce
+C | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Duarte 가 안 먹으면 엄마가 서운해한다고 속삭인다. · 넣을 말: fica triste
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 딱 한 숟가락만 먹겠다고 한다. · 넣을 말: só um
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Fernanda 가 저녁도 먹고 가라고 한다. · 넣을 말: jantar
+C | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Duarte 가 시계를 보니 벌써 6시라고 한다. · 넣을 말: seis

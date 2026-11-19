@@ -1,0 +1,26 @@
+=== r3_life_b3
+level: R3
+kind: long
+title: 계산은 누가
+emoji: 🧾
+scene: 저녁, 바이샤의 작은 식당. 식사를 마친 셋이 계산서를 두고 머리를 맞댄다.
+cast: B: Tiago, C: Beatriz, D: Fernanda
+register: polite
+twist: 11 reveal
+goal: 복수(nós·vocês·eles)와 존칭(o senhor/a senhora) — 복수(vocês·nós pagamos)와 존칭(a senhora traz)
+expressions: a conta, por favor; pagamos; a meias; não faz mal
+D | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 종업원 Fernanda 가 세 사람에게 디저트를 먹겠냐고 묻는다. · 넣을 말: querem
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Tiago 가 괜찮다며 계산서를 부탁한다. · 넣을 말: a conta, por favor
+C | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Beatriz 가 반반 내자고 한다. · 넣을 말: a meias
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 세 명이니 셋으로 나누자고 한다. · 넣을 말: três
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Tiago 가 자기가 와인을 더 마셨다고 양심 고백을 한다. · 넣을 말: bebi
+C | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Beatriz 가 자기는 샐러드만 먹었다고 한다. · 넣을 말: só
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 휴대폰 계산기를 꺼낸다. · 넣을 말: calculadora
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Tiago 가 복잡하다며 둘이 정하라고 한다. · 넣을 말: vocês
+D | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Fernanda 가 계산서를 가져온다. · 넣을 말: aqui está
+C | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Beatriz 가 얼마냐고 묻는다. · 넣을 말: quanto é
+D | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Fernanda 가 이미 계산이 끝났다며 저쪽 테이블의 남자분이 냈다고 한다. (반전 줄) · 넣을 말: já está pago
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Tiago 가 그쪽을 보고 굳는다 — 자기 아버지다. · 넣을 말: o meu pai
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 감사 인사를 하러 일어난다. · 넣을 말: obrigad{o|a}
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Tiago 가 아버지 문자를 읽는다 — 대신 오늘 가게 설거지는 Tiago 몫이라고. · 넣을 말: lavar
+C | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Beatriz 가 그럼 다 같이 돕겠다고 한다. · 넣을 말: ajudamos

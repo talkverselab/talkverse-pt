@@ -1,0 +1,21 @@
+=== r2_study_c1
+level: R2
+kind: chat
+title: 마감은 내일?
+emoji: 📚
+scene: 오후 4시, 같은 수업을 듣는 Duarte 가 다급하게 메시지를 보낸다.
+cast: B: Duarte
+register: chat
+twist: 9 chaos
+goal: 채팅 — 완료과거·반과거, 동사 앞 접어 — 완료과거·반과거 — disseram·era·acabaste
+expressions: calma; não acredito; já está; epá
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Duarte 가 과제를 끝냈는지 묻는다. · 넣을 말: acabaste
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 아직이라며 마감은 내일이라고 한다. · 넣을 말: amanhã
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Duarte 가 다들 오늘 6시가 마감이라고 했다고 한다. · 넣을 말: disseram; hoje
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 농담하는 거냐고 묻는다. · 넣을 말: não acredito
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Duarte 가 교수 메일을 확인해 보라고 한다. · 넣을 말: email
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 두 시간밖에 안 남았다며 패닉에 빠진다. · 넣을 말: faltam
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Duarte 가 자기는 벌써 반은 썼다고 한다. · 넣을 말: metade
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 Duarte 가 지금 어디서 쓰고 있는지 묻는다. · 넣을 말: onde
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Duarte 가 메일을 다시 보니 날짜를 잘못 읽었다고 한다 — 마감은 어제였다. (반전 줄) · 넣을 말: era ontem
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 할 말을 잃는다. · 넣을 말: epá

@@ -1,0 +1,18 @@
+=== r0_love_a3
+level: R0
+kind: short
+title: 네 커피는 알아
+emoji: ☕
+scene: 바닷가 카페, 서핑을 마친 Beatriz 가 줄을 서 있는 학습자 옆에 선다.
+cast: B: Beatriz
+register: casual
+twist: 6 emotion
+goal: 짧은 덩어리로 반응하기 — 카페에서 짧게 주문하기 — 「um café」「para mim」
+expressions: um café; para mim; a sério?; obrigad{o|a}
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Beatriz 가 젖은 머리로 반갑게 인사한다. · 넣을 말: olá
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 서핑이 벌써 끝났는지 묻는다. · 넣을 말: já
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Beatriz 가 그렇다고 하고 학습자가 무엇을 마실지 묻는다. · 넣을 말: o que
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 메뉴판 앞에서 아직 못 정했다고 한다. · 넣을 말: não sei
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Beatriz 가 점원에게 학습자 몫으로 갈라웅 하나를 대신 주문한다. · 넣을 말: um galão; para
+B | ___ | ___ | ___ | emotion=? | tags=? | 흐름: Beatriz 가 학습자는 늘 그것만 마신다고 말해, 그동안 지켜보고 있었다는 것이 드러난다. (반전 줄) · 넣을 말: sempre
+A | ___ | ___ | ___ | emotion=? | tags=? | 흐름: 학습자가 놀라서 수줍게 고마워한다. · 넣을 말: a sério?; obrigad{o|a}
