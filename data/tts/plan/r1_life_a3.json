@@ -1,0 +1,72 @@
+{
+ "ep": "r1_life_a3",
+ "cast": {
+  "B": "beatriz"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Quero só uma melancia."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "amused",
+     "Só uma? A sério?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "excited",
+     "Olha, queres pêssegos?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "stiff",
+     "Um pouco, vá lá."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "cheerful",
+     "A minha mãe quer cerejas."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "annoyed",
+     "Isto está pesad{o|a}."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "surprised",
+     "Esqueci-me da melancia!"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "sad",
+     "Pronto. Levo eu."
+    ]
+   ]
+  }
+ }
+}

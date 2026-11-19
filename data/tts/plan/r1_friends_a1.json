@@ -1,0 +1,72 @@
+{
+ "ep": "r1_friends_a1",
+ "cast": {
+  "B": "duarte"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "shout",
+     "Corre! O autocarro vai!"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "annoyed",
+     "Já foi. Não chego."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "worried",
+     "Quando chega o próximo?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "stiff",
+     "Daqui a meia hora."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "cheerful",
+     "Vamos a pé, então."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "excited",
+     "Olha! Este vai à praia."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "worried",
+     "E a aula?"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "teasing",
+     "Hoje a praia é a aula."
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "ep": "r1_culture_a1",
+ "cast": {
+  "B": "duarte"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "worried",
+     "Tenho fome. Quando jantamos?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "gentle",
+     "Ainda não. Jantamos às nove."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "surprised",
+     "Às nove? É tarde!"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "amused",
+     "Aqui todos jantam tarde. Come um lanche."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "neutral",
+     "Como um pão."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "surprised",
+     "Olha, a minha mãe. Janta às dez."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "annoyed",
+     "Mais um, então."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "teasing",
+     "Calma, pá. Já és português."
+    ]
+   ]
+  }
+ }
+}

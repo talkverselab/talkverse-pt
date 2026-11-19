@@ -1,0 +1,129 @@
+{
+ "ep": "r3_culture_b1",
+ "cast": {
+  "B": "fernanda",
+  "C": "duarte"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Sente-se, por favor. Está em casa."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "polite",
+     "Obrigad{o|a} pelo convite, senhora Fernanda."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "cheerful",
+     "A minha mãe cozinha melhor que ninguém."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "gentle",
+     "Primeiro a sopa. É de legumes."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "excited",
+     "Que bom! Está deliciosa."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "cheerful",
+     "Também há bacalhau. Comam à vontade."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "amused",
+     "Nesta casa nós comemos o almoço de domingo três horas."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "surprised",
+     "Três horas? A sério?"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "gentle",
+     "Sim, comam à vontade. Não tenham pressa."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "polite",
+     "Já chega, a sério. Estou chei{o|a}."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "excited",
+     "Então o arroz doce. É o melhor."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "teasing",
+     "Se não comeres ela fica triste."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "flustered",
+     "Só um pouco, então. Uma colher."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "cheerful",
+     "Depois ficam para o jantar também."
+    ]
+   ]
+  },
+  "15": {
+   "segs": [
+    [
+     "surprised",
+     "Olha, já são seis horas."
+    ]
+   ]
+  }
+ }
+}

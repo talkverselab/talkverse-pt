@@ -1,0 +1,72 @@
+{
+ "ep": "r1_love_a4",
+ "cast": {
+  "B": "ines"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "worried",
+     "Está a chover. Tens guarda-chuva?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "sad",
+     "Não tenho."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "gentle",
+     "Anda cá."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "shy",
+     "Obrigad{o|a}. É pequeno."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "teasing",
+     "Mais perto. O ombro molha."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "surprised",
+     "O autocarro vem."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "shy",
+     "Vamos no próximo."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "shy",
+     "Tá bem."
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,88 @@
+{
+ "ep": "r2_culture_c1",
+ "cast": {
+  "B": "tiago"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Queres vir hoje ao fado?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "worried",
+     "O fado é muito triste, não é?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "teasing",
+     "Um bocado, mas olha, vem."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "gentle",
+     "Quem canta?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "neutral",
+     "Alguém do bairro."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "cheerful",
+     "Então vou."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "surprised",
+     "Espera… eras tu?"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "shy",
+     "A minha avó cantava esta. Cantei pela primeira vez."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "sad",
+     "Ouvi e chorei. Gostaste?"
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "gentle",
+     "Pois. Então correu bem, a sério?"
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "ep": "r1_travel_a1",
+ "cast": {
+  "B": "ines"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Olha, vês o castelo?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "excited",
+     "Vejo! Que giro!"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "cheerful",
+     "Agora vamos para a Sé."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "gentle",
+     "Onde é a Sé?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "neutral",
+     "É a próxima paragem."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "surprised",
+     "Olha, o castelo outra vez!"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "surprised",
+     "Espera, vamos ao contrário!"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "amused",
+     "Pois, mas a vista é igual."
+    ]
+   ]
+  }
+ }
+}

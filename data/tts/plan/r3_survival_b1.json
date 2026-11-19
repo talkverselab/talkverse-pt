@@ -1,0 +1,129 @@
+{
+ "ep": "r3_survival_b1",
+ "cast": {
+  "B": "fernanda",
+  "C": "duarte"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "polite",
+     "Desculpe, a senhora tem algo para a barriga?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "polite",
+     "Como é que lhe dói?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "worried",
+     "Dói-me a barriga desde ontem."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "gentle",
+     "O que é que comeu?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "sad",
+     "Arroz de marisco."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "polite",
+     "Comeu sozinh{o|a}?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "neutral",
+     "Não, com o meu colega de casa."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "worried",
+     "Desculpe, dói-me a barriga também."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "surprised",
+     "Vocês os dois comeram no mesmo sítio?"
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "flustered",
+     "Sim, nós comemos dois pratos cada um."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "amused",
+     "Então são dois da mesma coisa."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "gentle",
+     "Quanto é?"
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "stiff",
+     "Hoje não comam marisco."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "sad",
+     "Mas o jantar de hoje é marisco."
+    ]
+   ]
+  },
+  "15": {
+   "segs": [
+    [
+     "gentle",
+     "As melhoras."
+    ]
+   ]
+  }
+ }
+}

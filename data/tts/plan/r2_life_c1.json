@@ -1,0 +1,88 @@
+{
+ "ep": "r2_life_c1",
+ "cast": {
+  "B": "duarte"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "worried",
+     "Chegou a encomenda?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "Nada. Não chegou nada."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "annoyed",
+     "O tracking diz que chegou."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "flustered",
+     "Epá... chegou uma caixa."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "surprised",
+     "É meu. Abriste?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "shy",
+     "Abri. Pensei que era meu."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "annoyed",
+     "A sério? O que tinha?"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "amused",
+     "Ténis. Estou a correr no parque."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "shout",
+     "Tira já!"
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "teasing",
+     "Desculpa, mas servem perfeitamente."
+    ]
+   ]
+  }
+ }
+}

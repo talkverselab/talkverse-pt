@@ -1,0 +1,80 @@
+{
+ "ep": "r2_life_c2",
+ "cast": {
+  "B": "ines"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "worried",
+     "Olha, cortaram a água."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "surprised",
+     "Quando?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "neutral",
+     "Já, desde as 8."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "flustered",
+     "Estava a tomar banho. Tenho espuma."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "annoyed",
+     "Avisei ontem. Não viste?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "worried",
+     "Não vi. Não acredito."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "gentle",
+     "Calma, levo uma garrafa."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "amused",
+     "Estou à porta. É com gás."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "shout",
+     "Arde na cabeça!"
+    ]
+   ]
+  }
+ }
+}

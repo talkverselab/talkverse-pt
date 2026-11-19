@@ -1,0 +1,56 @@
+{
+ "ep": "r0_friends_a2",
+ "cast": {
+  "B": "duarte"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "worried",
+     "Onde estás?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Já cá estou."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "annoyed",
+     "Também. Não te vejo."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "stiff",
+     "Saída dois."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "surprised",
+     "Espera. Eu também."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "amused",
+     "Olha atrás!"
+    ]
+   ]
+  }
+ }
+}

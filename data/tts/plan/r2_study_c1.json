@@ -1,0 +1,88 @@
+{
+ "ep": "r2_study_c1",
+ "cast": {
+  "B": "duarte"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "worried",
+     "Já acabaste o trabalho?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "gentle",
+     "Ainda não o acabei. O prazo é amanhã."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "stiff",
+     "Disseram que é hoje às seis."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "surprised",
+     "Não acredito. Estás a brincar?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "gentle",
+     "Calma. Vê o email."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "worried",
+     "Só faltam duas horas!"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "cheerful",
+     "Eu já escrevi metade. Já está."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "gentle",
+     "Onde estás a escrever agora?"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "surprised",
+     "Epá, vi o email outra vez. Era ontem."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Epá..."
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "ep": "r4_friends_b1",
+ "cast": {
+  "B": "duarte",
+  "C": "tiago"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "excited",
+     "Se ganhássemos, o que fazíamos?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Eu compraria um café à beira-mar."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "excited",
+     "Eu viajaria pelo mundo inteiro."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "cheerful",
+     "Eu comprava uma equipa de futebol."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "teasing",
+     "Metade do prémio é minha."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "annoyed",
+     "Porquê?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "amused",
+     "Porque compraste o bilhete no meu café."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "worried",
+     "Cala-te, estão a sair os números."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "shout",
+     "Acertámos o primeiro!"
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "excited",
+     "Também o segundo!"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "excited",
+     "Imagina! Já estou a ver a equipa."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "surprised",
+     "Espera. Isto é da semana passada."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "surprised",
+     "Quem comprou este bilhete?"
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "flustered",
+     "Pois... se calhar não fui eu."
+    ]
+   ]
+  }
+ }
+}

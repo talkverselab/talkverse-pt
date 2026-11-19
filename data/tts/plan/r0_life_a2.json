@@ -1,0 +1,69 @@
+{
+ "ep": "r0_life_a2",
+ "cast": {
+  "B": "ines"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Bom dia! O que queres?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "polite",
+     "Queria um pastel de nata."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "teasing",
+     "Mais um. Só um não."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "stiff",
+     "Dois, então."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "excited",
+     "E este também. Fica bom."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "surprised",
+     "Pronto..."
+    ],
+    [
+     "shout",
+     " Doze?!",
+     "Doze?!"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "amused",
+     "Metade é minha. Obrigada!"
+    ]
+   ]
+  }
+ }
+}

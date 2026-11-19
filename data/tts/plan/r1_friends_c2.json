@@ -1,0 +1,72 @@
+{
+ "ep": "r1_friends_c2",
+ "cast": {
+  "B": "tiago"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Cortei o cabelo."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "gentle",
+     "Mostra a foto."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "shy",
+     "Gostas?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "amused",
+     "Fica bem. Fixe!"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "cheerful",
+     "Também gosto."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "teasing",
+     "A sério? É o gato."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "amused",
+     "O gato fica mais giro."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "teasing",
+     "O gato também acha, pá."
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,130 @@
+{
+ "ep": "r3_life_b3",
+ "cast": {
+  "B": "tiago",
+  "C": "beatriz",
+  "D": "fernanda"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "polite",
+     "Querem sobremesa?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "polite",
+     "Não, obrigado. A conta, por favor."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "cheerful",
+     "Pagamos a meias?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "neutral",
+     "Somos três. Dividimos por três."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "flustered",
+     "Eu bebi mais vinho. Não faz mal."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "amused",
+     "Eu só comi salada."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "worried",
+     "Vou abrir a calculadora."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "annoyed",
+     "É complicado. Vocês decidem."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "polite",
+     "Aqui está a conta."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "gentle",
+     "Quanto é?"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "cheerful",
+     "Já está pago. O senhor daquela mesa pagou."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "surprised",
+     "É o meu pai."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "polite",
+     "Vou agradecer. Obrigad{o|a}."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "sad",
+     "Ele diz que eu tenho de lavar a loiça hoje."
+    ]
+   ]
+  },
+  "15": {
+   "segs": [
+    [
+     "cheerful",
+     "Então nós ajudamos."
+    ]
+   ]
+  }
+ }
+}

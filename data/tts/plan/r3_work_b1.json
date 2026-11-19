@@ -1,0 +1,121 @@
+{
+ "ep": "r3_work_b1",
+ "cast": {
+  "B": "marta",
+  "C": "tiago"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Bem-vind{o|a}. Eu sou a Marta."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "polite",
+     "Muito prazer, senhora Marta."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "neutral",
+     "Eles são a equipa de design."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "gentle",
+     "Como se chamam?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "amused",
+     "Todos se chamam João."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "surprised",
+     "Os três são João?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "cheerful",
+     "Sim, por isso chamamos pelo apelido."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "cheerful",
+     "Olá, eu trabalho também no café."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "surprised",
+     "O senhor não trabalha no café do bairro?"
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "amused",
+     "De manhã aqui, à noite no café."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "neutral",
+     "A reunião de hoje é às dez."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "worried",
+     "Com qual João?"
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "cheerful",
+     "Com todos."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "flustered",
+     "Pronto. João 1, 2 e 3."
+    ]
+   ]
+  }
+ }
+}

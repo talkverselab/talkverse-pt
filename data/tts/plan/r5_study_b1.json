@@ -1,0 +1,121 @@
+{
+ "ep": "r5_study_b1",
+ "cast": {
+  "B": "marta",
+  "C": "ines"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "polite",
+     "Sente-se, por favor. Apresente-se."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "flustered",
+     "Chamo-me {name} e vivo em Alfama."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "polite",
+     "Porque está a aprender português?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "shy",
+     "Porque quero falar com os meus amigos daqui."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "gentle",
+     "Que amigos?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "gentle",
+     "A vizinha Inês, que conheci na padaria."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "polite",
+     "Como é ela?"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "amused",
+     "É simpática, mas gosta de gozar com as pessoas."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "polite",
+     "Fale mais devagar, por favor."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "flustered",
+     "Com licença, não percebi. Posso perguntar outra vez?"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "polite",
+     "Pois. Contou-lhe à sua amiga sobre o exame?"
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "cheerful",
+     "Mãe! Já acabou?"
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "surprised",
+     "Fico congelad{o|a}."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "amused",
+     "Passou. É verdade que a minha filha gosta de gozar."
+    ]
+   ]
+  }
+ }
+}

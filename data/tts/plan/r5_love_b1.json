@@ -1,0 +1,120 @@
+{
+ "ep": "r5_love_b1",
+ "cast": {
+  "B": "ines"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "polite",
+     "Olha, quanto falta para o último elétrico?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Cinco minutos, segundo o horário."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "cheerful",
+     "Divertime bué hoje."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "gentle",
+     "Eu também. Nunca vi a cidade em tanto silêncio."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "gentle",
+     "Pois, a esta hora Lisboa fica quieta. Adoro."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "gentle",
+     "Porquê?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "gentle",
+     "Pelas luzes no rio e pelas ruas vazias."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "excited",
+     "Ouço o elétrico ao longe."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "shy",
+     "Lembras-te do dia em que me perguntaste o caminho?"
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "amused",
+     "Sim, indicaste-me ao contrário."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "shy",
+     "Foi de propósito. Se calhar queria ver-te outra vez."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "surprised",
+     "O elétrico chegou. A porta abre."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "shy",
+     "Queres ir a pé hoje?"
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "gentle",
+     "Deixa-o. Vamos a pé."
+    ]
+   ]
+  }
+ }
+}

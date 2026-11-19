@@ -1,0 +1,80 @@
+{
+ "ep": "r2_love_c3",
+ "cast": {
+  "B": "ines"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Vi-te ontem no café."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "surprised",
+     "Viste-me? Com quem?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "gentle",
+     "Quem era a pessoa?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "neutral",
+     "Era a minha {prima|primo}."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "shy",
+     "A sério? Só curiosidade."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "teasing",
+     "Porque é que estiveste lá?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "flustered",
+     "Não sei. Esperei uma hora fora. Não tive coragem."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "gentle",
+     "Pois. Da próxima entra."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "shy",
+     "Amanhã no mesmo sítio. Desta vez dentro."
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "ep": "r1_love_c2",
+ "cast": {
+  "B": "beatriz"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "O que fazes amanhã?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "Faço a roupa e limpo. Nada mais."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "teasing",
+     "Então muda! A minha mãe faz o jantar."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "gentle",
+     "O quê? Tu fazes o quê?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "excited",
+     "Sim!! ❤️❤️❤️"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "amused",
+     "Ainda não perguntei nada, a sério?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "flustered",
+     "O dedo escorregou..."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "teasing",
+     "Amanhã às seis na praia. Agora pergunto."
+    ]
+   ]
+  }
+ }
+}

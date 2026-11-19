@@ -1,0 +1,88 @@
+{
+ "ep": "r2_travel_c1",
+ "cast": {
+  "B": "beatriz"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Já entrei no comboio."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "gentle",
+     "A que horas chegas?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "excited",
+     "Chego às onze. Já estou no meu lugar."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "gentle",
+     "Ok, espero-te na estação."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "excited",
+     "Olha, o mar está à minha frente!"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "surprised",
+     "Não há mar nessa linha."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "surprised",
+     "Epá, o letreiro diz Faro."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Não acredito. É o lado contrário."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "teasing",
+     "Olha a praia. Vem tu para cá."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "sad",
+     "Pronto... vou ver os bilhetes."
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,69 @@
+{
+ "ep": "r0_culture_a1",
+ "cast": {
+  "B": "ines"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Olha, {name}! Tudo bem?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "polite",
+     "Muito prazer."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "amused",
+     "Aqui, dois beijinhos."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "surprised",
+     "Dois?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "amused",
+     "Três?"
+    ],
+    [
+     "teasing",
+     " Isso é outro país!",
+     "Isso é outro país!"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "flustered",
+     "Desculpa..."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "teasing",
+     "Pronto, agora és {famoso|famosa}."
+    ]
+   ]
+  }
+ }
+}

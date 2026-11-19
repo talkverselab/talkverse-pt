@@ -1,0 +1,120 @@
+{
+ "ep": "r5_culture_b1",
+ "cast": {
+  "B": "duarte"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Olha o bilhete. Este é o nosso lugar."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "surprised",
+     "Uau, há tanta gente!"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "excited",
+     "Já começou. A equipa verde é a nossa."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "polite",
+     "Tá bem, percebi."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "shout",
+     "Grita com o árbitro, como estes senhores!"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "excited",
+     "Golo!"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "shout",
+     "Senta-te! Esse foi deles."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "surprised",
+     "Mas todos estão a gritar."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "surprised",
+     "Não acredito. Estamos na bancada deles."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "worried",
+     "E agora?"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "flustered",
+     "Vá lá, esconde o cachecol verde."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "cheerful",
+     "Fui ao bar e comprei um boné vermelho."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "teasing",
+     "{Traidor|Traidora}!"
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "amused",
+     "Só hoje."
+    ]
+   ]
+  }
+ }
+}

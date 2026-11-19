@@ -1,0 +1,134 @@
+{
+ "ep": "r4_life_b2",
+ "cast": {
+  "B": "fernanda",
+  "C": "duarte"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Esta é a sala. É bastante clara."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "gentle",
+     "Gosto. Espero que seja uma casa calma."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "cheerful",
+     "É um prédio muito calmo."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "gentle",
+     "E os vizinhos? Como são?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "gentle",
+     "Ao lado vive um jovem simpático."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "worried",
+     "Tomara que não faça barulho à noite."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "polite",
+     "Normalmente é silêncio."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "gentle",
+     "Quanto é a renda?"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "cheerful",
+     "Se ficar muito tempo, faço mais barato."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "excited",
+     "Que bom!"
+    ],
+    [
+     "surprised",
+     " (벽 너머에서 골 소리)",
+     "(벽 너머에서 골 소리)"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "surprised",
+     "És tu? Não acredito!"
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "amused",
+     "Esse jovem é o meu filho."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "shy",
+     "Se calhar vai ser interessante."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "flustered",
+     "Prometo que só vejo futebol três vezes por semana."
+    ]
+   ]
+  },
+  "15": {
+   "segs": [
+    [
+     "teasing",
+     "Então alugo. Mas o bilhete é contigo."
+    ]
+   ]
+  }
+ }
+}

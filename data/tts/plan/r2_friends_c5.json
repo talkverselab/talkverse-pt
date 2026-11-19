@@ -1,0 +1,88 @@
+{
+ "ep": "r2_friends_c5",
+ "cast": {
+  "B": "duarte"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Acorda! Vamos ao ginásio."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "annoyed",
+     "São 7 da manhã. Nem pensar."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "teasing",
+     "Ontem prometeste. Tu foste sério?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "flustered",
+     "Eu? Não me lembro."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "excited",
+     "Já estou à porta."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "annoyed",
+     "Vá lá, cinco minutos. Vou."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "amused",
+     "Epá, já está. Desisti."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "surprised",
+     "Acabei de chegar agora."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "cheerful",
+     "Estou na pastelaria em frente."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "worried",
+     "Epá, e o cartão de um ano?"
+    ]
+   ]
+  }
+ }
+}

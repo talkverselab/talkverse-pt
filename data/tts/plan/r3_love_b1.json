@@ -1,0 +1,121 @@
+{
+ "ep": "r3_love_b1",
+ "cast": {
+  "B": "ines",
+  "C": "beatriz"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Eu conheci {o|a} {name} primeiro, na padaria."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "teasing",
+     "Eu! Na praia. Eu cheguei antes."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "surprised",
+     "Vocês conhecem-se? A sério?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "cheerful",
+     "Pois. Nós somos amigas desde pequenas."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "amused",
+     "Por isso nós gostamos das mesmas coisas."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "gentle",
+     "Então vamos comparar a data."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "cheerful",
+     "Dois de março."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "excited",
+     "Um de março. Eu ganhei!"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "teasing",
+     "Olha, eu contei-lhe primeiro. Por isso ela foi à praia."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "flustered",
+     "Pronto... apanhada."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "shy",
+     "Então as duas vieram ver-me?"
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "amused",
+     "Agora tu escolhes."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "flustered",
+     "Tiago, três cafés, por favor."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "teasing",
+     "Nem pensar. Não fujas."
+    ]
+   ]
+  }
+ }
+}

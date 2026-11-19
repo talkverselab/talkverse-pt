@@ -1,0 +1,121 @@
+{
+ "ep": "r4_travel_b1",
+ "cast": {
+  "B": "fernanda",
+  "C": "beatriz"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "worried",
+     "Desculpe, a minha mala não saiu."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "polite",
+     "Poderia mostrar-me o cartão de embarque?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "polite",
+     "Aqui está."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "gentle",
+     "De que cor é a mala?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "worried",
+     "É grande e amarela."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "gentle",
+     "Quando chegar, contactamo-la logo."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "gentle",
+     "Espero que chegue ainda hoje."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "sad",
+     "Não posso garantir. Que pena."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "cheerful",
+     "Olha, encontrei esta mala amarela."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "flustered",
+     "Ia levá-la para a prancha de surf."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "shout",
+     "Essa é minha!"
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "cheerful",
+     "Ainda bem. Problema resolvido."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "sad",
+     "E agora onde meto a prancha?"
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "annoyed",
+     "Nem pensar."
+    ]
+   ]
+  }
+ }
+}

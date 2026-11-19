@@ -1,0 +1,88 @@
+{
+ "ep": "r2_life_c3",
+ "cast": {
+  "B": "ines"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "worried",
+     "Perdi a chave."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "gentle",
+     "Onde a deixaste?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "flustered",
+     "Não sei. Não a encontro."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "neutral",
+     "Viste a mala?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "sad",
+     "Vi tudo. Nada."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "gentle",
+     "Calma. A minha está debaixo do vaso."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "cheerful",
+     "Entrei. Obrigada."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "surprised",
+     "Olha, estava no bolso."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "amused",
+     "Não acredito. O segredo saiu."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "teasing",
+     "Vá lá, não digo a ninguém."
+    ]
+   ]
+  }
+ }
+}

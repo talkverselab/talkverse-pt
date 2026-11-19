@@ -1,0 +1,88 @@
+{
+ "ep": "r2_love_c4",
+ "cast": {
+  "B": "beatriz"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Sardinhas na brasa. Olha."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "excited",
+     "Que fome."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "teasing",
+     "Olha esta. Melhor ainda."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "gentle",
+     "Onde estás?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "teasing",
+     "Segredo."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "sad",
+     "Não comi nada hoje."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "amused",
+     "Já sabia."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "excited",
+     "Abre a porta. Estava no teu quintal."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "surprised",
+     "O fumo era teu?"
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "cheerful",
+     "Vá lá, vem antes que arrefeça."
+    ]
+   ]
+  }
+ }
+}
