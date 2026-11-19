@@ -73,8 +73,8 @@ class DialogueAudio {
   }
 }
 
-/// 기기 음성으로 읽을 글: 괄호·`{name}` 자리·이모지·인용 부호는 소리 내지 않는다.
-String ttsText(String tl) => tl
+/// 기기 음성으로 읽을 글: `{name}` 은 학습자 이름으로(없으면 뺀다), 괄호·이모지·인용 부호는 소리 내지 않는다.
+String ttsText(String tl) => (LearnerPrefs.name.value.isNotEmpty ? tl.replaceAll('{name}', LearnerPrefs.name.value) : tl)
     .replaceAll(RegExp(r'\([^)]*\)'), '')
     .replaceAll(RegExp(r'\{[a-z_]+\}'), '')
     .replaceAll(RegExp(r'[«»]|[\u{1F300}-\u{1FAFF}\u{2600}-\u{27BF}\u{FE0F}\u{200D}]', unicode: true), '')

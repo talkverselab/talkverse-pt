@@ -37,6 +37,7 @@ class TtsService {
     await _tts.setSpeechRate(0.45);
     await _tts.setPitch(1.0);
     await _tts.setVolume(1.0);
+    await _tts.awaitSpeakCompletion(true); // 재생 패널이 턴을 순서대로 읽을 수 있게 speak 가 끝날 때까지 기다린다(일본어앱과 같게)
     _tts.setCompletionHandler(() => _speaking = null);
     _tts.setCancelHandler(() => _speaking = null);
     _tts.setErrorHandler((msg) => _speaking = null);
@@ -54,14 +55,17 @@ class TtsService {
         if (v is! Map) continue;
         final name = (v['name'] ?? '').toString();
         final vLocale = (v['locale'] ?? '').toString();
-        if (!vLocale.toLowerCase().startsWith('pt')) continue;
+        // 유럽판만 — pt-BR 목소리가 먼저 잡히지 않게(안드로이드 pt_PT, iOS pt-PT)
+        final loc = vLocale.toLowerCase().replaceAll('_', '-');
+        if (!loc.startsWith('pt-pt') && !name.toLowerCase().startsWith('pt-pt')) continue;
         final lower = name.toLowerCase();
         final voice = {'name': name, 'locale': vLocale};
         // 안드로이드는 이름에 male/female 이 들어 있고, iOS 는 gender 필드로 준다.
         final gender = (v['gender'] ?? '').toString().toLowerCase();
-        final isFemale = gender == 'female' || lower.contains('female');
+        // 구글 TTS pt-PT 목소리는 이름에 성별이 없다 — 알려진 코드(jfb·sfs 여, jmn·pmj 남)로 가른다
+        final isFemale = gender == 'female' || lower.contains('female') || lower.contains('-jfb') || lower.contains('-sfs');
         final isMale = gender == 'male' ||
-            (lower.contains('male') && !lower.contains('female'));
+            (lower.contains('male') && !lower.contains('female')) || lower.contains('-jmn') || lower.contains('-pmj');
         if (_maleVoice == null && isMale) _maleVoice = voice;
         if (_femaleVoice == null && isFemale) _femaleVoice = voice;
       }
