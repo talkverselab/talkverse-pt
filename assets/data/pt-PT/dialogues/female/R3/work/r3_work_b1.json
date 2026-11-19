@@ -1,0 +1,184 @@
+{
+ "id": "r3_work_b1",
+ "region": "R3",
+ "island": "work",
+ "kind": "long",
+ "purpose": [
+  "work"
+ ],
+ "domain": [
+  "work"
+ ],
+ "title": "첫 출근, 이름 셋",
+ "emoji": "👔",
+ "scene": "첫 출근 아침, 사무실. 상사 Marta 가 팀원들을 소개한다. 학습자는 이름을 외우느라 필사적이다.",
+ "speakers": {
+  "A": "{name}",
+  "B": "Marta",
+  "C": "Tiago"
+ },
+ "cast": {
+  "B": "marta",
+  "C": "tiago"
+ },
+ "register": "polite",
+ "twist": 8,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "복수(nós·vocês·eles)와 존칭(o senhor/a senhora) — 존칭 소개(a senhora é·o senhor trabalha)와 복수(eles são)",
+ "expressions": [
+  "muito prazer",
+  "desculpe",
+  "com licença",
+  "não faz mal"
+ ],
+ "variant": "pt-PT",
+ "learner_gender": "female",
+ "draft": true,
+ "turns": [
+  {
+   "speaker": "B",
+   "tl": "Bem-vinda. Eu sou a Marta.",
+   "ko": "환영합니다. 저는 Marta예요.",
+   "note": "bem-vinda = 환영합니다",
+   "tags": [],
+   "emotion": "cheerful",
+   "num": 1,
+   "rd": "벵 빈다. 에우 쏘우 아 마르따."
+  },
+  {
+   "speaker": "A",
+   "tl": "Muito prazer, senhora Marta.",
+   "ko": "만나서 반갑습니다, Marta 여사님.",
+   "note": "muito prazer = 만나서 반갑습니다",
+   "tags": [
+    "expr:muito prazer"
+   ],
+   "emotion": "polite",
+   "num": 2,
+   "rd": "무이뚜 프라제르, 쎙요라 마르따."
+  },
+  {
+   "speaker": "B",
+   "tl": "Eles são a equipa de design.",
+   "ko": "저분들이 디자인 팀이에요.",
+   "note": "eles são = 그들은 ~이다",
+   "tags": [],
+   "emotion": "neutral",
+   "num": 3,
+   "rd": "엘르쉬 싸웅 아 에끼빠 드 드지그."
+  },
+  {
+   "speaker": "A",
+   "tl": "Como se chamam?",
+   "ko": "이름이 어떻게 되시나요?",
+   "note": "como se chamam = 이름이 뭐예요",
+   "tags": [],
+   "emotion": "gentle",
+   "num": 4,
+   "rd": "꼬무 쓰 샤마웅?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Todos se chamam João.",
+   "ko": "전부 이름이 João예요.",
+   "note": "João = 주앙",
+   "tags": [],
+   "emotion": "amused",
+   "num": 5,
+   "rd": "또두쉬 쓰 샤마웅 조아웅."
+  },
+  {
+   "speaker": "A",
+   "tl": "Os três são João?",
+   "ko": "세 분 다 João세요?",
+   "note": "os três = 세 명",
+   "tags": [],
+   "emotion": "surprised",
+   "num": 6,
+   "rd": "우쉬 트레쉬 싸웅 조아웅?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Sim, por isso chamamos pelo apelido.",
+   "ko": "네, 그래서 성으로 불러요.",
+   "note": "chamamos = 우리가 부르다",
+   "tags": [],
+   "emotion": "cheerful",
+   "num": 7,
+   "rd": "씽, 뽀르 이쑤 샤마무쉬 뻴루 아쁠리두."
+  },
+  {
+   "speaker": "C",
+   "tl": "Olá, eu trabalho também no café.",
+   "ko": "안녕하세요, 저도 커피를 맡고 있어요.",
+   "note": "trabalho = 일하다",
+   "tags": [
+    "twist"
+   ],
+   "emotion": "cheerful",
+   "num": 8,
+   "rd": "올라, 에우 트라발류 땀벵 누 까페."
+  },
+  {
+   "speaker": "A",
+   "tl": "O senhor não trabalha no café do bairro?",
+   "ko": "선생님은 동네 카페에서 일하지 않으세요?",
+   "note": "o senhor = 선생님",
+   "tags": [],
+   "emotion": "surprised",
+   "num": 9,
+   "rd": "우 쎙요르 나웅 트라발랴 누 까페 두 바이후?"
+  },
+  {
+   "speaker": "C",
+   "tl": "De manhã aqui, à noite no café.",
+   "ko": "아침엔 여기, 밤엔 카페예요.",
+   "note": "de manhã = 아침에",
+   "tags": [],
+   "emotion": "amused",
+   "num": 10,
+   "rd": "드 망양 아끼, 아 노이뜨 누 까페."
+  },
+  {
+   "speaker": "B",
+   "tl": "A reunião de hoje é às dez.",
+   "ko": "오늘 회의는 열 시예요.",
+   "note": "às dez = 10시에",
+   "tags": [],
+   "emotion": "neutral",
+   "num": 11,
+   "rd": "아 헤우니아웅 드 오즈 에 아쉬 데쉬."
+  },
+  {
+   "speaker": "A",
+   "tl": "Com qual João?",
+   "ko": "어느 João와 하는 건가요?",
+   "note": "qual = 어느",
+   "tags": [],
+   "emotion": "worried",
+   "num": 12,
+   "rd": "꽁 꽐 조아웅?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Com todos.",
+   "ko": "세 명 다요.",
+   "note": "todos = 모두",
+   "tags": [],
+   "emotion": "cheerful",
+   "num": 13,
+   "rd": "꽁 또두쉬."
+  },
+  {
+   "speaker": "A",
+   "tl": "Pronto. João 1, 2 e 3.",
+   "ko": "됐어요. João 1, 2, 3.",
+   "note": "pronto = 됐다",
+   "tags": [],
+   "emotion": "flustered",
+   "num": 14,
+   "rd": "프론뚜. 조아웅 1, 2 이 3."
+  }
+ ]
+}

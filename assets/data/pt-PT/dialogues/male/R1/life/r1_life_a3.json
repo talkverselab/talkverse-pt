@@ -1,0 +1,133 @@
+{
+ "id": "r1_life_a3",
+ "region": "R1",
+ "island": "life",
+ "kind": "short",
+ "purpose": [
+  "life"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "수박 하나만",
+ "emoji": "🍉",
+ "scene": "토요일 아침 시장. Beatriz 가 「수박 하나만」 사러 왔다며 학습자를 끌고 간다.",
+ "speakers": {
+  "A": "{name}",
+  "B": "Beatriz"
+ },
+ "cast": {
+  "B": "beatriz"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "eu·tu·ele 현재형 되풀이 — querer·levar 현재형 되풀이(quero·queres·quer)",
+ "expressions": [
+  "quanto custa?",
+  "olha",
+  "vá lá",
+  "pronto"
+ ],
+ "variant": "pt-PT",
+ "learner_gender": "male",
+ "draft": true,
+ "turns": [
+  {
+   "speaker": "B",
+   "tl": "Quero só uma melancia.",
+   "ko": "수박 하나만 살 거야.",
+   "note": "quero = 원한다",
+   "tags": [
+    "form:presente"
+   ],
+   "emotion": "cheerful",
+   "num": 1,
+   "rd": "께루 쏘 우마 믈랑씨아."
+  },
+  {
+   "speaker": "A",
+   "tl": "Só uma? A sério?",
+   "ko": "진짜 하나만?",
+   "note": "só uma = 하나만",
+   "tags": [],
+   "emotion": "amused",
+   "num": 2,
+   "rd": "쏘 우마? 아 쎄리우?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Olha, queres pêssegos?",
+   "ko": "봐, 복숭아 원해?",
+   "note": "olha = 봐; queres = 원해",
+   "tags": [
+    "expr:olha",
+    "form:presente"
+   ],
+   "emotion": "excited",
+   "num": 3,
+   "rd": "올랴, 께르쉬 뻬쎄구쉬?"
+  },
+  {
+   "speaker": "A",
+   "tl": "Um pouco, vá lá.",
+   "ko": "조금만, 그래.",
+   "note": "um pouco = 조금",
+   "tags": [
+    "expr:vá lá"
+   ],
+   "emotion": "stiff",
+   "num": 4,
+   "rd": "웅 뽀우꾸, 바 라."
+  },
+  {
+   "speaker": "B",
+   "tl": "A minha mãe quer cerejas.",
+   "ko": "엄마도 체리 원해.",
+   "note": "quer = 원한다",
+   "tags": [
+    "form:presente"
+   ],
+   "emotion": "cheerful",
+   "num": 5,
+   "rd": "아 밍야 마잉 께르 쓰레자쉬."
+  },
+  {
+   "speaker": "A",
+   "tl": "Isto está pesado.",
+   "ko": "이거 무거워.",
+   "note": "pesado = 무거운",
+   "tags": [],
+   "emotion": "annoyed",
+   "num": 6,
+   "rd": "이쉬뚜 이쉬따 쁘자두."
+  },
+  {
+   "speaker": "B",
+   "tl": "Esqueci-me da melancia!",
+   "ko": "수박을 깜빡했어!",
+   "note": "esqueci-me = 깜빡했어",
+   "tags": [
+    "form:pretérito",
+    "twist"
+   ],
+   "emotion": "surprised",
+   "num": 7,
+   "rd": "이쉬끄씨 므 다 믈랑씨아!"
+  },
+  {
+   "speaker": "A",
+   "tl": "Pronto. Levo eu.",
+   "ko": "자. 내가 들 게.",
+   "note": "levo = 든다; pronto = 자",
+   "tags": [
+    "expr:pronto",
+    "form:presente"
+   ],
+   "emotion": "sad",
+   "num": 8,
+   "rd": "프론뚜. 레부 에우."
+  }
+ ]
+}

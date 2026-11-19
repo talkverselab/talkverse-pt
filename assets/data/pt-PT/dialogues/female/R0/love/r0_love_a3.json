@@ -1,0 +1,127 @@
+{
+ "id": "r0_love_a3",
+ "region": "R0",
+ "island": "love",
+ "kind": "short",
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "title": "네 커피는 알아",
+ "emoji": "☕",
+ "scene": "바닷가 카페, 서핑을 마친 Beatriz 가 줄을 서 있는 학습자 옆에 선다.",
+ "speakers": {
+  "A": "{name}",
+  "B": "Beatriz"
+ },
+ "cast": {
+  "B": "beatriz"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "emotion",
+ "flags": [
+  "romance"
+ ],
+ "goal": "짧은 덩어리로 반응하기 — 카페에서 짧게 주문하기 — 「um café」「para mim」",
+ "expressions": [
+  "um café",
+  "para mim",
+  "a sério?",
+  "obrigad{o|a}"
+ ],
+ "variant": "pt-PT",
+ "learner_gender": "female",
+ "draft": true,
+ "turns": [
+  {
+   "speaker": "B",
+   "tl": "Olá!",
+   "ko": "안녕!",
+   "note": "olá = 안녕",
+   "tags": [],
+   "emotion": "cheerful",
+   "num": 1,
+   "rd": "올라!"
+  },
+  {
+   "speaker": "A",
+   "tl": "Já acabaste?",
+   "ko": "벌써 끝났어?",
+   "note": "já = 벌써",
+   "tags": [],
+   "emotion": "surprised",
+   "num": 2,
+   "rd": "자 아까바쉬뜨?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Sim. O que queres?",
+   "ko": "응. 뭐 마실래?",
+   "note": "o que = 뭐",
+   "tags": [],
+   "emotion": "cheerful",
+   "num": 3,
+   "rd": "씽. 우 끄 께르쉬?"
+  },
+  {
+   "speaker": "A",
+   "tl": "Não sei. Um café para mim?",
+   "ko": "모르겠어. 나 커피 하나?",
+   "note": "um café = 커피; para mim = 나한테",
+   "tags": [
+    "expr:um café",
+    "expr:para mim"
+   ],
+   "emotion": "shy",
+   "num": 4,
+   "rd": "나웅 쎄이. 웅 까페 빠라 밍?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Um galão para ti.",
+   "ko": "너 갈라웅 하나.",
+   "note": "um galão = 갈라웅",
+   "tags": [],
+   "emotion": "gentle",
+   "num": 5,
+   "rd": "웅 갈라웅 빠라 띠."
+  },
+  {
+   "speaker": "B",
+   "tl": "Bebes sempre isso.",
+   "ko": "너 항상 그거 마시잖아.",
+   "note": "sempre = 항상",
+   "tags": [
+    "twist"
+   ],
+   "emotion": "teasing",
+   "num": 6,
+   "rd": "베브쉬 쎔프르 이쑤."
+  },
+  {
+   "speaker": "A",
+   "tl": "A sério? Obrigada.",
+   "ko": "진짜? 고마워.",
+   "note": "a sério? = 진짜?",
+   "tags": [
+    "expr:a sério?",
+    "expr:obrigad{o|a}"
+   ],
+   "segs": [
+    [
+     "flustered",
+     "A sério?"
+    ],
+    [
+     "shy",
+     " Obrigada."
+    ]
+   ],
+   "num": 7,
+   "rd": "아 쎄리우? 오브리가다."
+  }
+ ]
+}

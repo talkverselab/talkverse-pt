@@ -1,0 +1,202 @@
+{
+ "id": "r3_culture_b1",
+ "region": "R3",
+ "island": "culture",
+ "kind": "long",
+ "purpose": [
+  "culture"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "title": "일요일 점심",
+ "emoji": "🍲",
+ "scene": "일요일 1시, Duarte 의 엄마 Fernanda 의 집. 식탁에 음식이 끝없이 나온다.",
+ "speakers": {
+  "A": "{name}",
+  "B": "Fernanda",
+  "C": "Duarte"
+ },
+ "cast": {
+  "B": "fernanda",
+  "C": "duarte"
+ },
+ "register": "polite",
+ "twist": 11,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "복수(nós·vocês·eles)와 존칭(o senhor/a senhora) — 존칭(a senhora cozinha)과 복수(nós comemos·vocês querem)",
+ "expressions": [
+  "que bom!",
+  "obrigad{o|a}",
+  "já chega",
+  "à vontade"
+ ],
+ "variant": "pt-PT",
+ "learner_gender": "female",
+ "draft": true,
+ "turns": [
+  {
+   "speaker": "B",
+   "tl": "Sente-se, por favor. Está em casa.",
+   "ko": "앉으세요. 편하게 계세요.",
+   "note": "sente-se = 앉으세요",
+   "tags": [],
+   "emotion": "cheerful",
+   "num": 1,
+   "rd": "쎈뜨 쓰, 뽀르 파보르. 이쉬따 앵 까자."
+  },
+  {
+   "speaker": "A",
+   "tl": "Obrigada pelo convite, senhora Fernanda.",
+   "ko": "초대해 주셔서 감사합니다, Fernanda 여사님.",
+   "note": "obrigada = 감사합니다",
+   "tags": [
+    "expr:obrigad{o|a}"
+   ],
+   "emotion": "polite",
+   "num": 2,
+   "rd": "오브리가다 뻴루 꼰비뜨, 쎙요라 프르난다."
+  },
+  {
+   "speaker": "C",
+   "tl": "A minha mãe cozinha melhor que ninguém.",
+   "ko": "우리 엄마 요리가 최고야.",
+   "note": "cozinha = 요리하다",
+   "tags": [],
+   "emotion": "cheerful",
+   "num": 3,
+   "rd": "아 밍야 마잉 꾸징야 믈료르 끄 닝겡."
+  },
+  {
+   "speaker": "B",
+   "tl": "Primeiro a sopa. É de legumes.",
+   "ko": "먼저 수프예요. 야채 수프예요.",
+   "note": "sopa = 수프",
+   "tags": [],
+   "emotion": "gentle",
+   "num": 4,
+   "rd": "프리메이루 아 쏘빠. 에 드 르구므쉬."
+  },
+  {
+   "speaker": "A",
+   "tl": "Que bom! Está deliciosa.",
+   "ko": "정말 맛있어요! 훌륭해요.",
+   "note": "que bom = 정말 좋다",
+   "tags": [
+    "expr:que bom!"
+   ],
+   "emotion": "excited",
+   "num": 5,
+   "rd": "끄 봉! 이쉬따 들리씨오자."
+  },
+  {
+   "speaker": "B",
+   "tl": "Também há bacalhau. Comam à vontade.",
+   "ko": "대구 요리도 있어요. 마음껏 드세요.",
+   "note": "bacalhau = 대구",
+   "tags": [],
+   "emotion": "cheerful",
+   "num": 6,
+   "rd": "땀벵 아 바깔랴우. 꼬마웅 아 본따드."
+  },
+  {
+   "speaker": "C",
+   "tl": "Nesta casa nós comemos o almoço de domingo três horas.",
+   "ko": "이 집은 일요일 점심을 세 시간 동안 먹어.",
+   "note": "comemos = 우리가 먹는다",
+   "tags": [
+    "form:presente"
+   ],
+   "emotion": "amused",
+   "num": 7,
+   "rd": "네쉬따 까자 노쉬 꾸메무즈 우 알모쑤 드 두밍구 트레즈 오라쉬."
+  },
+  {
+   "speaker": "A",
+   "tl": "Três horas? A sério?",
+   "ko": "세 시간이나요? 진짜요?",
+   "note": "três horas = 세 시간",
+   "tags": [],
+   "emotion": "surprised",
+   "num": 8,
+   "rd": "트레즈 오라쉬? 아 쎄리우?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Sim, comam à vontade. Não tenham pressa.",
+   "ko": "네, 편하게 드세요. 서두르지 마세요.",
+   "note": "à vontade = 편하게",
+   "tags": [
+    "expr:à vontade"
+   ],
+   "emotion": "gentle",
+   "num": 9,
+   "rd": "씽, 꼬마웅 아 본따드. 나웅 뗑양 프레싸."
+  },
+  {
+   "speaker": "A",
+   "tl": "Já chega, a sério. Estou cheia.",
+   "ko": "이제 정말 충분해요. 배가 불러요.",
+   "note": "já chega = 이제 충분하다",
+   "tags": [
+    "expr:já chega"
+   ],
+   "emotion": "polite",
+   "num": 10,
+   "rd": "자 셰가, 아 쎄리우. 이쉬또우 셰이아."
+  },
+  {
+   "speaker": "B",
+   "tl": "Então o arroz doce. É o melhor.",
+   "ko": "그럼 쌀 푸딩이에요. 최고예요.",
+   "note": "arroz doce = 쌀 푸딩",
+   "tags": [
+    "twist"
+   ],
+   "emotion": "excited",
+   "num": 11,
+   "rd": "엔따웅 우 아호쉬 도쓰. 에 우 믈료르."
+  },
+  {
+   "speaker": "C",
+   "tl": "Se não comeres ela fica triste.",
+   "ko": "안 먹으면 엄마가 서운해해.",
+   "note": "fica triste = 서운해하다",
+   "tags": [],
+   "emotion": "teasing",
+   "num": 12,
+   "rd": "쓰 나웅 꾸메르즈 엘라 피까 트리쉬뜨."
+  },
+  {
+   "speaker": "A",
+   "tl": "Só um pouco, então. Uma colher.",
+   "ko": "그럼 조금만. 한 숟갈만요.",
+   "note": "só um = 하나만",
+   "tags": [],
+   "emotion": "flustered",
+   "num": 13,
+   "rd": "쏘 웅 뽀우꾸, 엔따웅. 우마 꿀례르."
+  },
+  {
+   "speaker": "B",
+   "tl": "Depois ficam para o jantar também.",
+   "ko": "저녁도 먹고 가세요.",
+   "note": "jantar = 저녁",
+   "tags": [],
+   "emotion": "cheerful",
+   "num": 14,
+   "rd": "드뽀이쉬 피까웅 빠라 우 잔따르 땀벵."
+  },
+  {
+   "speaker": "C",
+   "tl": "Olha, já são seis horas.",
+   "ko": "봐, 벌써 6시야.",
+   "note": "seis = 여섯",
+   "tags": [],
+   "emotion": "surprised",
+   "num": 15,
+   "rd": "올랴, 자 싸웅 쎄이즈 오라쉬."
+  }
+ ]
+}

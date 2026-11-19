@@ -1,0 +1,175 @@
+{
+ "id": "r2_travel_c1",
+ "region": "R2",
+ "island": "travel",
+ "kind": "chat",
+ "purpose": [
+  "travel",
+  "chat"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "title": "포르투행 기차",
+ "emoji": "🚆",
+ "scene": "토요일 아침, 포르투에서 먼저 기다리는 학습자. Beatriz 가 기차에서 실시간 보고를 보낸다.",
+ "speakers": {
+  "A": "{name}",
+  "B": "Beatriz"
+ },
+ "cast": {
+  "B": "beatriz"
+ },
+ "register": "chat",
+ "twist": 7,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "채팅 — 완료과거·반과거, 동사 앞 접어 — 완료과거 — entrei·saiu·chegaste",
+ "expressions": [
+  "já estou",
+  "espera",
+  "não acredito",
+  "olha"
+ ],
+ "variant": "pt-PT",
+ "learner_gender": "male",
+ "draft": true,
+ "turns": [
+  {
+   "speaker": "B",
+   "tl": "Já entrei no comboio.",
+   "ko": "기차에 탔어.",
+   "note": "entrei = 탔어",
+   "tags": [
+    "form:pretérito"
+   ],
+   "ui": "bubble",
+   "at": "09:10",
+   "emotion": "cheerful",
+   "num": 1,
+   "rd": "자 엔트레이 누 꽁보이우."
+  },
+  {
+   "speaker": "A",
+   "tl": "A que horas chegas?",
+   "ko": "몇 시에 도착해?",
+   "note": "chegas = 도착해",
+   "tags": [
+    "form:presente"
+   ],
+   "ui": "bubble",
+   "at": "09:11",
+   "emotion": "gentle",
+   "num": 2,
+   "rd": "아 끄 오라쉬 셰가쉬?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Chego às onze. Já estou no meu lugar.",
+   "ko": "11시에 도착해. 이미 자리에 앉았어.",
+   "note": "às onze = 11시에; já estou = 이미 있어",
+   "tags": [
+    "expr:já estou"
+   ],
+   "ui": "bubble",
+   "at": "09:12",
+   "emotion": "excited",
+   "num": 3,
+   "rd": "셰구 아즈 온즈. 자 이쉬또우 누 메우 루가르."
+  },
+  {
+   "speaker": "A",
+   "tl": "Ok, espero-te na estação.",
+   "ko": "알겠어, 역에서 기다릴게.",
+   "note": "espero = 기다릴게",
+   "tags": [
+    "expr:espera"
+   ],
+   "ui": "bubble",
+   "at": "09:13",
+   "emotion": "gentle",
+   "num": 4,
+   "rd": "오께이, 이쉬뻬루 뜨 나 이쉬따싸웅."
+  },
+  {
+   "speaker": "B",
+   "tl": "Olha, o mar está à minha frente!",
+   "ko": "봐, 바다가 내 앞에 있어!",
+   "note": "mar = 바다",
+   "tags": [
+    "expr:olha"
+   ],
+   "ui": "bubble",
+   "at": "09:14",
+   "emotion": "excited",
+   "num": 5,
+   "rd": "올랴, 우 마르 이쉬따 아 밍야 프렌뜨!"
+  },
+  {
+   "speaker": "A",
+   "tl": "Não há mar nessa linha.",
+   "ko": "그 노선에는 바다가 없어.",
+   "note": "não há = 없다",
+   "tags": [],
+   "ui": "bubble",
+   "at": "09:15",
+   "emotion": "surprised",
+   "num": 6,
+   "rd": "나웅 아 마르 네싸 링야."
+  },
+  {
+   "speaker": "B",
+   "tl": "Epá, o letreiro diz Faro.",
+   "ko": "에파, 표지판에 파루라고 돼 있어.",
+   "note": "Faro = 파루",
+   "tags": [
+    "twist"
+   ],
+   "ui": "bubble",
+   "at": "09:16",
+   "emotion": "surprised",
+   "num": 7,
+   "rd": "에빠, 우 르트레이루 디쉬 파루."
+  },
+  {
+   "speaker": "A",
+   "tl": "Não acredito. É o lado contrário.",
+   "ko": "못 믿겠어. 정반대 방향이잖아.",
+   "note": "não acredito = 못 믿겠어",
+   "tags": [
+    "expr:não acredito"
+   ],
+   "ui": "bubble",
+   "at": "09:17",
+   "emotion": "tsukkomi",
+   "num": 8,
+   "rd": "나웅 아크르디뚜. 에 우 라두 꼰트라리우."
+  },
+  {
+   "speaker": "B",
+   "tl": "Olha a praia. Vem tu para cá.",
+   "ko": "해변 봐. 네가 여기로 와.",
+   "note": "vem tu = 네가 와",
+   "tags": [
+    "expr:olha"
+   ],
+   "ui": "bubble",
+   "at": "09:18",
+   "emotion": "teasing",
+   "num": 9,
+   "rd": "올랴 아 프라이아. 벵 뚜 빠라 까."
+  },
+  {
+   "speaker": "A",
+   "tl": "Pronto... vou ver os bilhetes.",
+   "ko": "하... 기차표 찾아볼게.",
+   "note": "pronto = 됐다/하",
+   "tags": [],
+   "ui": "bubble",
+   "at": "09:19",
+   "emotion": "sad",
+   "num": 10,
+   "rd": "프론뚜... 보우 베르 우쉬 빌례뜨쉬."
+  }
+ ]
+}

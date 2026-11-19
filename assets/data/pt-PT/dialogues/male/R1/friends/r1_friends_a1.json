@@ -1,0 +1,131 @@
+{
+ "id": "r1_friends_a1",
+ "region": "R1",
+ "island": "friends",
+ "kind": "short",
+ "purpose": [
+  "friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "title": "버스 놓쳤다",
+ "emoji": "🚌",
+ "scene": "아침, 버스 정류장 앞. 학습자와 Duarte 가 멀어지는 버스를 보고 멈춘다.",
+ "speakers": {
+  "A": "{name}",
+  "B": "Duarte"
+ },
+ "cast": {
+  "B": "duarte"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "eu·tu·ele 현재형 되풀이 — ir·chegar 현재형 — vou·vais·vai·chega",
+ "expressions": [
+  "corre!",
+  "já está",
+  "espera",
+  "olha"
+ ],
+ "variant": "pt-PT",
+ "learner_gender": "male",
+ "draft": true,
+ "turns": [
+  {
+   "speaker": "B",
+   "tl": "Corre! O autocarro vai!",
+   "ko": "뛰어! 버스 가!",
+   "note": "corre = 뛰어; vai = 간다",
+   "tags": [
+    "expr:corre!",
+    "form:presente"
+   ],
+   "emotion": "shout",
+   "num": 1,
+   "rd": "꼬흐! 우 아우뚜까후 바이!"
+  },
+  {
+   "speaker": "A",
+   "tl": "Já foi. Não chego.",
+   "ko": "이미 갔어. 못 따라가.",
+   "note": "já foi = 이미 갔어",
+   "tags": [
+    "form:pretérito"
+   ],
+   "emotion": "annoyed",
+   "num": 2,
+   "rd": "자 포이. 나웅 셰구."
+  },
+  {
+   "speaker": "B",
+   "tl": "Quando chega o próximo?",
+   "ko": "다음 버스 언제 와?",
+   "note": "chega = 도착한다",
+   "tags": [
+    "form:presente"
+   ],
+   "emotion": "worried",
+   "num": 3,
+   "rd": "꽌두 셰가 우 쁘로씨무?"
+  },
+  {
+   "speaker": "A",
+   "tl": "Daqui a meia hora.",
+   "ko": "30분 뒤에.",
+   "note": "meia hora = 30분",
+   "tags": [],
+   "emotion": "stiff",
+   "num": 4,
+   "rd": "다끼 아 메이아 오라."
+  },
+  {
+   "speaker": "B",
+   "tl": "Vamos a pé, então.",
+   "ko": "그럼 걸어가자.",
+   "note": "vamos = 가자",
+   "tags": [
+    "form:presente"
+   ],
+   "emotion": "cheerful",
+   "num": 5,
+   "rd": "바무즈 아 뻬, 엔따웅."
+  },
+  {
+   "speaker": "B",
+   "tl": "Olha! Este vai à praia.",
+   "ko": "봐! 이건 해변으로 가.",
+   "note": "olha = 봐; vai = 간다",
+   "tags": [
+    "expr:olha",
+    "form:presente",
+    "twist"
+   ],
+   "emotion": "excited",
+   "num": 6,
+   "rd": "올랴! 에쉬뜨 바이 아 프라이아."
+  },
+  {
+   "speaker": "A",
+   "tl": "E a aula?",
+   "ko": "수업은?",
+   "note": "aula = 수업",
+   "tags": [],
+   "emotion": "worried",
+   "num": 7,
+   "rd": "이 아 아울라?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Hoje a praia é a aula.",
+   "ko": "오늘은 바다가 수업이야.",
+   "note": "hoje = 오늘",
+   "tags": [],
+   "emotion": "teasing",
+   "num": 8,
+   "rd": "오즈 아 프라이아 에 아 아울라."
+  }
+ ]
+}

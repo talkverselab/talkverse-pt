@@ -1,0 +1,194 @@
+{
+ "id": "r5_study_b1",
+ "region": "R5",
+ "island": "study",
+ "kind": "long",
+ "purpose": [
+  "study"
+ ],
+ "domain": [
+  "study"
+ ],
+ "title": "말하기 시험",
+ "emoji": "🎤",
+ "scene": "포르투갈어 말하기 시험장. 시험관 Marta 앞에 앉은 학습자 — 손이 떨린다.",
+ "speakers": {
+  "A": "{name}",
+  "B": "Marta",
+  "C": "Inês"
+ },
+ "cast": {
+  "B": "marta",
+  "C": "ines"
+ },
+ "register": "polite",
+ "twist": 12,
+ "twist_type": "reveal",
+ "flags": [],
+ "goal": "넓은 어휘, 새 문법 없음 — 넓은 어휘로 자기소개·계획 말하기",
+ "expressions": [
+  "com licença",
+  "posso…?",
+  "não percebi",
+  "pois"
+ ],
+ "variant": "pt-PT",
+ "learner_gender": "male",
+ "draft": true,
+ "turns": [
+  {
+   "speaker": "B",
+   "tl": "Sente-se, por favor. Apresente-se.",
+   "ko": "앉으세요. 자기소개 해 보세요.",
+   "note": "apresente-se = 자기소개하세요",
+   "tags": [],
+   "emotion": "polite",
+   "num": 1,
+   "rd": "쎈뜨 쓰, 뽀르 파보르. 아프르젠뜨 쓰."
+  },
+  {
+   "speaker": "A",
+   "tl": "Chamo-me {name} e vivo em Alfama.",
+   "ko": "제 이름은 {name}이고 알파마에 살아요.",
+   "note": "chamo-me = 제 이름은",
+   "tags": [
+    "form:presente"
+   ],
+   "emotion": "flustered",
+   "num": 2,
+   "rd": "샤무 므 {name} 이 비부 앵 알파마."
+  },
+  {
+   "speaker": "B",
+   "tl": "Porque está a aprender português?",
+   "ko": "왜 포르투갈어를 배우세요?",
+   "note": "porque = 왜",
+   "tags": [
+    "form:presente"
+   ],
+   "emotion": "polite",
+   "num": 3,
+   "rd": "뿌르끄 이쉬따 아 아프렌데르 뿌르뚜게쉬?"
+  },
+  {
+   "speaker": "A",
+   "tl": "Porque quero falar com os meus amigos daqui.",
+   "ko": "여기 친구들과 이야기하고 싶어서요.",
+   "note": "amigos = 친구들",
+   "tags": [],
+   "emotion": "shy",
+   "num": 4,
+   "rd": "뿌르끄 께루 팔라르 꽁 우쉬 메우즈 아미구쉬 다끼."
+  },
+  {
+   "speaker": "B",
+   "tl": "Que amigos?",
+   "ko": "어떤 친구들요?",
+   "note": "que = 어떤",
+   "tags": [],
+   "emotion": "gentle",
+   "num": 5,
+   "rd": "끄 아미구쉬?"
+  },
+  {
+   "speaker": "A",
+   "tl": "A vizinha Inês, que conheci na padaria.",
+   "ko": "빵집에서 만난 이웃 Inês예요.",
+   "note": "vizinha = 이웃",
+   "tags": [],
+   "emotion": "gentle",
+   "num": 6,
+   "rd": "아 비징야 이네쉬, 끄 꽁느씨 나 빠다리아."
+  },
+  {
+   "speaker": "B",
+   "tl": "Como é ela?",
+   "ko": "그 사람은 어떤 사람이에요?",
+   "note": "como é = 어떤 사람",
+   "tags": [],
+   "emotion": "polite",
+   "num": 7,
+   "rd": "꼬무 에 엘라?"
+  },
+  {
+   "speaker": "A",
+   "tl": "É simpática, mas gosta de gozar com as pessoas.",
+   "ko": "다정하지만 사람 놀리는 걸 좋아해요.",
+   "note": "goza = 놀리다",
+   "tags": [],
+   "emotion": "amused",
+   "num": 8,
+   "rd": "에 씸빠띠까, 마쉬 고쉬따 드 구자르 꽁 아쉬 뻬쏘아쉬."
+  },
+  {
+   "speaker": "B",
+   "tl": "Fale mais devagar, por favor.",
+   "ko": "좀 더 천천히 말해 주세요.",
+   "note": "mais devagar = 더 천천히",
+   "tags": [
+    "form:imperativo"
+   ],
+   "emotion": "polite",
+   "num": 9,
+   "rd": "팔르 마이쉬 드바가르, 뽀르 파보르."
+  },
+  {
+   "speaker": "A",
+   "tl": "Com licença, não percebi. Posso perguntar outra vez?",
+   "ko": "실례합니다, 못 알아들었어요. 다시 물어봐도 될까요?",
+   "note": "não percebi = 못 알아들었어요",
+   "tags": [
+    "expr:com licença expr:não percebi expr:posso"
+   ],
+   "emotion": "flustered",
+   "num": 10,
+   "rd": "꽁 리쎈싸, 나웅 쁘르쓰비. 뽀쑤 쁘르군따르 오우트라 베쉬?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Pois. Contou-lhe à sua amiga sobre o exame?",
+   "ko": "그렇군요. 그 친구에게 오늘 시험 이야기를 했나요?",
+   "note": "contou = 말했나요",
+   "tags": [
+    "expr:pois"
+   ],
+   "emotion": "polite",
+   "num": 11,
+   "rd": "뽀이쉬. 꼰또우 리 아 쑤아 아미가 쏘브르 우 이자므?"
+  },
+  {
+   "speaker": "C",
+   "tl": "Mãe! Já acabou?",
+   "ko": "엄마! 끝났어?",
+   "note": "mãe = 엄마",
+   "tags": [
+    "twist"
+   ],
+   "emotion": "cheerful",
+   "num": 12,
+   "rd": "마잉! 자 아까보우?"
+  },
+  {
+   "speaker": "A",
+   "tl": "Fico congelado.",
+   "ko": "그 자리에서 얼어붙어요.",
+   "note": "congelado = 얼어붙은",
+   "tags": [
+    "form:adjetivo"
+   ],
+   "emotion": "surprised",
+   "num": 13,
+   "rd": "피꾸 꽁즐라두."
+  },
+  {
+   "speaker": "B",
+   "tl": "Passou. É verdade que a minha filha gosta de gozar.",
+   "ko": "합격이에요. 제 딸이 놀리기 좋아하는 건 사실이에요.",
+   "note": "passou = 합격했어요",
+   "tags": [],
+   "emotion": "amused",
+   "num": 14,
+   "rd": "빠쏘우. 에 브르다드 끄 아 밍야 필랴 고쉬따 드 구자르."
+  }
+ ]
+}

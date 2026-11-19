@@ -1,0 +1,164 @@
+{
+ "id": "r2_love_c3",
+ "region": "R2",
+ "island": "love",
+ "kind": "chat",
+ "purpose": [
+  "love",
+  "chat"
+ ],
+ "domain": [
+  "love"
+ ],
+ "title": "어제 그 사람",
+ "emoji": "👀",
+ "scene": "밤 11시, Inês 가 갑자기 묻는다. 어제 카페에서 학습자와 같이 있던 사람이 누구냐고.",
+ "speakers": {
+  "A": "{name}",
+  "B": "Inês"
+ },
+ "cast": {
+  "B": "ines"
+ },
+ "register": "chat",
+ "twist": 7,
+ "twist_type": "reveal",
+ "flags": [
+  "romance"
+ ],
+ "goal": "채팅 — 완료과거·반과거, 동사 앞 접어 — 완료과거 — vi·estiveste·estava",
+ "expressions": [
+  "quem era?",
+  "a sério?",
+  "pois",
+  "não sei"
+ ],
+ "variant": "pt-PT",
+ "learner_gender": "female",
+ "draft": true,
+ "turns": [
+  {
+   "speaker": "B",
+   "tl": "Vi-te ontem no café.",
+   "ko": "어제 카페에서 봤어.",
+   "note": "vi-te = 너를 봤다",
+   "tags": [
+    "form:pretérito form:clítico"
+   ],
+   "ui": "bubble",
+   "at": "23:10",
+   "emotion": "cheerful",
+   "num": 1,
+   "rd": "비 뜨 온뗑 누 까페."
+  },
+  {
+   "speaker": "A",
+   "tl": "Viste-me? Com quem?",
+   "ko": "나를 봤어? 누구랑?",
+   "note": "viste-me = 나를 봤어",
+   "tags": [
+    "form:pretérito form:clítico"
+   ],
+   "ui": "bubble",
+   "at": "23:11",
+   "emotion": "surprised",
+   "num": 2,
+   "rd": "비쉬뜨 므? 꽁 껭?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Quem era a pessoa?",
+   "ko": "그 사람이 누구였어?",
+   "note": "quem era = 누구였어",
+   "tags": [
+    "form:imperfeito expr:quem era?"
+   ],
+   "ui": "bubble",
+   "at": "23:12",
+   "emotion": "gentle",
+   "num": 3,
+   "rd": "껭 에라 아 뻬쏘아?"
+  },
+  {
+   "speaker": "A",
+   "tl": "Era a minha primo.",
+   "ko": "내 사촌이었어.",
+   "note": "primo = 사촌",
+   "tags": [],
+   "ui": "bubble",
+   "at": "23:13",
+   "emotion": "neutral",
+   "num": 4,
+   "rd": "에라 아 밍야 프리무."
+  },
+  {
+   "speaker": "B",
+   "tl": "A sério? Só curiosidade.",
+   "ko": "진짜? 그냥 궁금해서.",
+   "note": "a sério? = 진짜?",
+   "tags": [
+    "expr:a sério?"
+   ],
+   "ui": "bubble",
+   "at": "23:14",
+   "emotion": "shy",
+   "num": 5,
+   "rd": "아 쎄리우? 쏘 꾸리오지다드."
+  },
+  {
+   "speaker": "A",
+   "tl": "Porque é que estiveste lá?",
+   "ko": "너는 왜 거기 있었어?",
+   "note": "estiveste = 네가 있었다",
+   "tags": [
+    "form:pretérito"
+   ],
+   "ui": "bubble",
+   "at": "23:15",
+   "emotion": "teasing",
+   "num": 6,
+   "rd": "뿌르끄 에 끄 이쉬띠베쉬뜨 라?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Não sei. Esperei uma hora fora. Não tive coragem.",
+   "ko": "모르겠어. 밖에서 한 시간 기다렸어. 용기가 안 났어.",
+   "note": "esperei = 기다렸다, uma hora = 한 시간",
+   "tags": [
+    "expr:não sei form:pretérito twist",
+    "twist"
+   ],
+   "ui": "bubble",
+   "at": "23:16",
+   "emotion": "flustered",
+   "num": 7,
+   "rd": "나웅 쎄이. 이쉬쁘레이 우마 오라 포라. 나웅 띠브 꾸라젱."
+  },
+  {
+   "speaker": "A",
+   "tl": "Pois. Da próxima entra.",
+   "ko": "그렇지. 다음엔 그냥 들어와.",
+   "note": "entra = 들어와",
+   "tags": [
+    "expr:pois"
+   ],
+   "ui": "bubble",
+   "at": "23:17",
+   "emotion": "gentle",
+   "num": 8,
+   "rd": "뽀이쉬. 다 쁘로씨마 엔트라."
+  },
+  {
+   "speaker": "B",
+   "tl": "Amanhã no mesmo sítio. Desta vez dentro.",
+   "ko": "내일 같은 카페에서. 이번엔 안에서.",
+   "note": "amanhã = 내일",
+   "tags": [],
+   "ui": "bubble",
+   "at": "23:18",
+   "emotion": "shy",
+   "num": 9,
+   "rd": "아망양 누 메쥬무 씨띠우. 데쉬따 베쉬 덴트루."
+  }
+ ]
+}

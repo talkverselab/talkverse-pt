@@ -1,0 +1,195 @@
+{
+ "id": "r3_love_b1",
+ "region": "R3",
+ "island": "love",
+ "kind": "long",
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "title": "누가 먼저 만났나",
+ "emoji": "💞",
+ "scene": "토요일, Tiago 카페 테라스. Inês 와 Beatriz 가 서로 「내가 {name} 을 먼저 만났다」며 다툰다.",
+ "speakers": {
+  "A": "{name}",
+  "B": "Inês",
+  "C": "Beatriz"
+ },
+ "cast": {
+  "B": "ines",
+  "C": "beatriz"
+ },
+ "register": "casual",
+ "twist": 9,
+ "twist_type": "reveal",
+ "flags": [
+  "romance"
+ ],
+ "goal": "복수(nós·vocês·eles)와 존칭(o senhor/a senhora) — 복수 동사(nós conhecemos·vocês conhecem·elas)",
+ "expressions": [
+  "a sério?",
+  "pois",
+  "nem pensar",
+  "olha"
+ ],
+ "variant": "pt-PT",
+ "learner_gender": "female",
+ "draft": true,
+ "turns": [
+  {
+   "speaker": "B",
+   "tl": "Eu conheci a {name} primeiro, na padaria.",
+   "ko": "내가 빵집에서 {name} 을 먼저 만났어.",
+   "note": "conheci primeiro = 먼저 만났어",
+   "tags": [
+    "form:pretérito"
+   ],
+   "emotion": "cheerful",
+   "num": 1,
+   "rd": "에우 꽁느씨 아 {name} 프리메이루, 나 빠다리아."
+  },
+  {
+   "speaker": "C",
+   "tl": "Eu! Na praia. Eu cheguei antes.",
+   "ko": "나야! 해변에서. 내가 더 먼저였어.",
+   "note": "eu = 나",
+   "tags": [],
+   "emotion": "teasing",
+   "num": 2,
+   "rd": "에우! 나 프라이아. 에우 쉬게이 안뜨쉬."
+  },
+  {
+   "speaker": "A",
+   "tl": "Vocês conhecem-se? A sério?",
+   "ko": "너희 서로 아는 사이야? 진짜?",
+   "note": "conhecem-se = 서로 알다",
+   "tags": [
+    "expr:a sério?"
+   ],
+   "emotion": "surprised",
+   "num": 3,
+   "rd": "부쎄쉬 꽁예쎙 쓰? 아 쎄리우?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Pois. Nós somos amigas desde pequenas.",
+   "ko": "그렇지. 우린 어릴 때부터 친구야.",
+   "note": "somos = 우리는 ~이다",
+   "tags": [
+    "expr:pois"
+   ],
+   "emotion": "cheerful",
+   "num": 4,
+   "rd": "뽀이쉬. 노쉬 쏘무즈 아미가쉬 데쥬드 쁘께나쉬."
+  },
+  {
+   "speaker": "C",
+   "tl": "Por isso nós gostamos das mesmas coisas.",
+   "ko": "그래서 우리는 늘 같은 걸 좋아해.",
+   "note": "gostamos = 우리가 좋아한다",
+   "tags": [
+    "form:presente"
+   ],
+   "emotion": "amused",
+   "num": 5,
+   "rd": "뽀르 이쑤 노쉬 구쉬따무쉬 다쉬 메쥬마쉬 꼬이자쉬."
+  },
+  {
+   "speaker": "A",
+   "tl": "Então vamos comparar a data.",
+   "ko": "그럼 날짜를 비교해 보자.",
+   "note": "data = 날짜",
+   "tags": [],
+   "emotion": "gentle",
+   "num": 6,
+   "rd": "엔따웅 바무쉬 꽁빠라르 아 다따."
+  },
+  {
+   "speaker": "B",
+   "tl": "Dois de março.",
+   "ko": "3월 2일이야.",
+   "note": "dois de março = 3월 2일",
+   "tags": [],
+   "emotion": "cheerful",
+   "num": 7,
+   "rd": "도이쉬 드 마르쑤."
+  },
+  {
+   "speaker": "C",
+   "tl": "Um de março. Eu ganhei!",
+   "ko": "3월 1일이야. 내가 이겼어!",
+   "note": "um = 하나",
+   "tags": [],
+   "emotion": "excited",
+   "num": 8,
+   "rd": "웅 드 마르쑤. 에우 강예이!"
+  },
+  {
+   "speaker": "B",
+   "tl": "Olha, eu contei-lhe primeiro. Por isso ela foi à praia.",
+   "ko": "봐, 내가 먼저 그녀에게 말했어. 그래서 그녀가 해변에 간 거야.",
+   "note": "contei-lhe = 그녀에게 말했다",
+   "tags": [
+    "twist",
+    "expr:olha"
+   ],
+   "emotion": "teasing",
+   "num": 9,
+   "rd": "올랴, 에우 꼰떼이 리 프리메이루. 뽀르 이쑤 엘라 포이 아 프라이아."
+  },
+  {
+   "speaker": "C",
+   "tl": "Pronto... apanhada.",
+   "ko": "됐다... 들켰어.",
+   "note": "pronto = 됐다",
+   "tags": [],
+   "emotion": "flustered",
+   "num": 10,
+   "rd": "프론뚜... 아빵야다."
+  },
+  {
+   "speaker": "A",
+   "tl": "Então as duas vieram ver-me?",
+   "ko": "그럼 둘 다 나를 보러 온 거야?",
+   "note": "as duas = 둘 다",
+   "tags": [],
+   "emotion": "shy",
+   "num": 11,
+   "rd": "엔따웅 아쉬 두아쉬 비에라웅 베르 므?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Agora tu escolhes.",
+   "ko": "이제 네가 고를 차례야.",
+   "note": "escolhe = 골라",
+   "tags": [],
+   "emotion": "amused",
+   "num": 12,
+   "rd": "아고라 뚜 이쉬꼴르쉬."
+  },
+  {
+   "speaker": "A",
+   "tl": "Tiago, três cafés, por favor.",
+   "ko": "Tiago, 커피 세 잔 부탁해.",
+   "note": "três cafés = 커피 세 잔",
+   "tags": [],
+   "emotion": "flustered",
+   "num": 13,
+   "rd": "띠아구, 트레쉬 까페쉬, 뽀르 파보르."
+  },
+  {
+   "speaker": "C",
+   "tl": "Nem pensar. Não fujas.",
+   "ko": "절대 안 돼. 도망가지 마.",
+   "note": "não fujas = 도망가지 마",
+   "tags": [
+    "expr:nem pensar"
+   ],
+   "emotion": "teasing",
+   "num": 14,
+   "rd": "넹 뻰싸르. 나웅 푸자쉬."
+  }
+ ]
+}

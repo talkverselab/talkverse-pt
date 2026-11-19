@@ -1,0 +1,199 @@
+{
+ "id": "r5_love_b1",
+ "region": "R5",
+ "island": "love",
+ "kind": "long",
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "title": "마지막 전차",
+ "emoji": "🌙",
+ "scene": "밤 11시 50분, 언덕 위 전차 정류장. 마지막 전차를 기다리는 학습자와 Inês.",
+ "speakers": {
+  "A": "{name}",
+  "B": "Inês"
+ },
+ "cast": {
+  "B": "ines"
+ },
+ "register": "casual",
+ "twist": 11,
+ "twist_type": "emotion",
+ "flags": [
+  "romance"
+ ],
+ "goal": "넓은 어휘, 새 문법 없음 — 넓은 어휘로 마음 말하기",
+ "expressions": [
+  "olha",
+  "se calhar",
+  "pois",
+  "fica"
+ ],
+ "variant": "pt-PT",
+ "learner_gender": "male",
+ "draft": true,
+ "turns": [
+  {
+   "speaker": "B",
+   "tl": "Olha, quanto falta para o último elétrico?",
+   "ko": "봐, 마지막 전차까지 얼마나 남았어?",
+   "note": "último = 마지막",
+   "tags": [
+    "expr:olha"
+   ],
+   "emotion": "polite",
+   "num": 1,
+   "rd": "올랴, 꽌뚜 팔따 빠라 우 울띠무 엘레트리꾸?"
+  },
+  {
+   "speaker": "A",
+   "tl": "Cinco minutos, segundo o horário.",
+   "ko": "시간표로는 5분이야.",
+   "note": "cinco = 다섯",
+   "tags": [
+    "form:numeral"
+   ],
+   "emotion": "cheerful",
+   "num": 2,
+   "rd": "씽꾸 미누뚜쉬, 쓰군두 우 오라리우."
+  },
+  {
+   "speaker": "B",
+   "tl": "Divertime bué hoje.",
+   "ko": "오늘 정말 즐거웠어.",
+   "note": "diverti-me = 즐거웠어",
+   "tags": [
+    "form:pretérito"
+   ],
+   "emotion": "cheerful",
+   "num": 3,
+   "rd": "디브르띠므 부에 오즈."
+  },
+  {
+   "speaker": "A",
+   "tl": "Eu também. Nunca vi a cidade em tanto silêncio.",
+   "ko": "나도. 도시가 이렇게 조용한 건 처음이야.",
+   "note": "silêncio = 침묵",
+   "tags": [],
+   "emotion": "gentle",
+   "num": 4,
+   "rd": "에우 땀벵. 눙까 비 아 씨다드 앵 딴뚜 씰렝씨우."
+  },
+  {
+   "speaker": "B",
+   "tl": "Pois, a esta hora Lisboa fica quieta. Adoro.",
+   "ko": "그래, 이 시간이면 리스본이 조용해져. 제일 좋아해.",
+   "note": "a esta hora = 이 시간에",
+   "tags": [
+    "expr:pois expr:fica"
+   ],
+   "emotion": "gentle",
+   "num": 5,
+   "rd": "뽀이쉬, 아 에쉬따 오라 리쉬보아 피까 끼에따. 아도루."
+  },
+  {
+   "speaker": "A",
+   "tl": "Porquê?",
+   "ko": "왜?",
+   "note": "porquê = 왜",
+   "tags": [],
+   "emotion": "gentle",
+   "num": 6,
+   "rd": "뽀르께?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Pelas luzes no rio e pelas ruas vazias.",
+   "ko": "강 위의 불빛과 아무도 없는 골목 때문이야.",
+   "note": "luzes = 불빛, rio = 강",
+   "tags": [],
+   "emotion": "gentle",
+   "num": 7,
+   "rd": "뻴라쉬 루즈쉬 누 히우 이 뻴라쉬 후아쉬 바지아쉬."
+  },
+  {
+   "speaker": "A",
+   "tl": "Ouço o elétrico ao longe.",
+   "ko": "멀리서 전차 소리가 들려.",
+   "note": "ouço = 들려",
+   "tags": [
+    "form:presente"
+   ],
+   "emotion": "excited",
+   "num": 8,
+   "rd": "오우쑤 우 엘레트리꾸 아우 롱즈."
+  },
+  {
+   "speaker": "B",
+   "tl": "Lembras-te do dia em que me perguntaste o caminho?",
+   "ko": "처음 만난 날 나한테 길을 물었던 거 기억해?",
+   "note": "lembras-te = 기억해",
+   "tags": [
+    "form:pretérito"
+   ],
+   "emotion": "shy",
+   "num": 9,
+   "rd": "렘브라쉬 뜨 두 디아 앵 끄 므 쁘르군따쉬뜨 우 까밍유?"
+  },
+  {
+   "speaker": "A",
+   "tl": "Sim, indicaste-me ao contrário.",
+   "ko": "응, 반대 방향을 알려줬잖아.",
+   "note": "ao contrário = 반대로",
+   "tags": [],
+   "emotion": "amused",
+   "num": 10,
+   "rd": "씽, 인디까쉬뜨 므 아우 꼰트라리우."
+  },
+  {
+   "speaker": "B",
+   "tl": "Foi de propósito. Se calhar queria ver-te outra vez.",
+   "ko": "일부러 그랬어. 한 번 더 보고 싶어서인지도.",
+   "note": "de propósito = 일부러",
+   "tags": [
+    "expr:se calhar twist",
+    "twist"
+   ],
+   "emotion": "shy",
+   "num": 11,
+   "rd": "포이 드 프루뽀지뚜. 쓰 깔랴르 께리아 베르 뜨 오우트라 베쉬."
+  },
+  {
+   "speaker": "A",
+   "tl": "O elétrico chegou. A porta abre.",
+   "ko": "전차가 도착했어. 문이 열려.",
+   "note": "abre = 열리다",
+   "tags": [
+    "form:presente"
+   ],
+   "emotion": "surprised",
+   "num": 12,
+   "rd": "우 엘레트리꾸 쉬고우. 아 뽀르따 아브르."
+  },
+  {
+   "speaker": "B",
+   "tl": "Queres ir a pé hoje?",
+   "ko": "오늘은 걸어서 가지 않을래?",
+   "note": "a pé = 걸어서",
+   "tags": [],
+   "emotion": "shy",
+   "num": 13,
+   "rd": "께르즈 이르 아 뻬 오즈?"
+  },
+  {
+   "speaker": "A",
+   "tl": "Deixa-o. Vamos a pé.",
+   "ko": "그냥 보내자. 같이 걷자.",
+   "note": "vamos = 가자",
+   "tags": [
+    "form:imperativo"
+   ],
+   "emotion": "gentle",
+   "num": 14,
+   "rd": "데이샤 우. 바무즈 아 뻬."
+  }
+ ]
+}

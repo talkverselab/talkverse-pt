@@ -1,0 +1,197 @@
+{
+ "id": "r4_friends_b1",
+ "region": "R4",
+ "island": "friends",
+ "kind": "long",
+ "purpose": [
+  "friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "title": "복권에 당첨되면",
+ "emoji": "🎟️",
+ "scene": "금요일 밤, Tiago 카페. 셋이 복권 한 장을 앞에 두고 결과 발표를 기다린다.",
+ "speakers": {
+  "A": "{name}",
+  "B": "Duarte",
+  "C": "Tiago"
+ },
+ "cast": {
+  "B": "duarte",
+  "C": "tiago"
+ },
+ "register": "casual",
+ "twist": 12,
+ "twist_type": "reveal",
+ "flags": [],
+ "goal": "접속법·조건법 가볍게 — 접속법 과거 + 조건법(se ganhássemos… comprava/compraria)",
+ "expressions": [
+  "se calhar",
+  "imagina",
+  "nem pensar",
+  "pois"
+ ],
+ "variant": "pt-PT",
+ "learner_gender": "female",
+ "draft": true,
+ "turns": [
+  {
+   "speaker": "B",
+   "tl": "Se ganhássemos, o que fazíamos?",
+   "ko": "당첨되면 뭘 할 거야?",
+   "note": "se ganhássemos = 만약 우리가 이긴다면",
+   "tags": [
+    "form:conjuntivo"
+   ],
+   "emotion": "excited",
+   "num": 1,
+   "rd": "쓰 강야쎄무쉬, 우 끄 파지아무쉬?"
+  },
+  {
+   "speaker": "C",
+   "tl": "Eu compraria um café à beira-mar.",
+   "ko": "나는 바닷가에 카페를 살 거야.",
+   "note": "compraria = 살 것이다",
+   "tags": [
+    "form:condicional"
+   ],
+   "emotion": "cheerful",
+   "num": 2,
+   "rd": "에우 꽁프라리아 웅 까페 아 베이라 마르."
+  },
+  {
+   "speaker": "A",
+   "tl": "Eu viajaria pelo mundo inteiro.",
+   "ko": "나는 세계 여행을 할 거야.",
+   "note": "viajaria = 여행할 것이다",
+   "tags": [
+    "form:condicional"
+   ],
+   "emotion": "excited",
+   "num": 3,
+   "rd": "에우 비아자리아 뻴루 문두 인떼이루."
+  },
+  {
+   "speaker": "B",
+   "tl": "Eu comprava uma equipa de futebol.",
+   "ko": "나는 축구팀을 살 거야.",
+   "note": "equipa = 팀",
+   "tags": [],
+   "emotion": "cheerful",
+   "num": 4,
+   "rd": "에우 꽁프라바 우마 에끼빠 드 푸뜨볼."
+  },
+  {
+   "speaker": "C",
+   "tl": "Metade do prémio é minha.",
+   "ko": "당첨금 반은 내 몫이야.",
+   "note": "metade = 절반",
+   "tags": [],
+   "emotion": "teasing",
+   "num": 5,
+   "rd": "므따드 두 프레미우 에 밍야."
+  },
+  {
+   "speaker": "A",
+   "tl": "Porquê?",
+   "ko": "왜?",
+   "note": "porquê = 왜",
+   "tags": [],
+   "emotion": "annoyed",
+   "num": 6,
+   "rd": "뽀르께?"
+  },
+  {
+   "speaker": "C",
+   "tl": "Porque compraste o bilhete no meu café.",
+   "ko": "내 카페에서 산 복권이니까.",
+   "note": "compraste = 네가 샀어",
+   "tags": [
+    "form:pretérito"
+   ],
+   "emotion": "amused",
+   "num": 7,
+   "rd": "뿌르끄 꽁프라쉬뜨 우 빌례뜨 누 메우 까페."
+  },
+  {
+   "speaker": "B",
+   "tl": "Cala-te, estão a sair os números.",
+   "ko": "조용히 해, 번호가 나오고 있어.",
+   "note": "cala-te = 조용히 해",
+   "tags": [],
+   "emotion": "worried",
+   "num": 8,
+   "rd": "깔라 뜨, 이쉬따웅 아 싸이르 우쉬 누메루쉬."
+  },
+  {
+   "speaker": "C",
+   "tl": "Acertámos o primeiro!",
+   "ko": "첫 번호 맞았어!",
+   "note": "acertámos = 우리가 맞췄어",
+   "tags": [
+    "form:pretérito"
+   ],
+   "emotion": "shout",
+   "num": 9,
+   "rd": "아쓰르따무즈 우 프리메이루!"
+  },
+  {
+   "speaker": "A",
+   "tl": "Também o segundo!",
+   "ko": "두 번째도!",
+   "note": "também = 도",
+   "tags": [],
+   "emotion": "excited",
+   "num": 10,
+   "rd": "땀벵 우 쓰군두!"
+  },
+  {
+   "speaker": "B",
+   "tl": "Imagina! Já estou a ver a equipa.",
+   "ko": "상상해 봐! 벌써 팀이 보여.",
+   "note": "imagina = 상상해 봐",
+   "tags": [
+    "expr:imagina"
+   ],
+   "emotion": "excited",
+   "num": 11,
+   "rd": "이마지나! 자 이쉬또우 아 베르 아 에끼빠."
+  },
+  {
+   "speaker": "C",
+   "tl": "Espera. Isto é da semana passada.",
+   "ko": "잠깐. 이건 지난주 추첨용이야.",
+   "note": "semana passada = 지난주",
+   "tags": [
+    "twist"
+   ],
+   "emotion": "surprised",
+   "num": 12,
+   "rd": "이쉬뻬라. 이쉬뚜 에 다 쓰마나 빠싸다."
+  },
+  {
+   "speaker": "A",
+   "tl": "Quem comprou este bilhete?",
+   "ko": "이 복권 누가 샀어?",
+   "note": "quem = 누구",
+   "tags": [],
+   "emotion": "surprised",
+   "num": 13,
+   "rd": "껭 꽁프로우 에쉬뜨 빌례뜨?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Pois... se calhar não fui eu.",
+   "ko": "글쎄... 내가 아닐지도.",
+   "note": "pois = 글쎄; se calhar = 어쩌면",
+   "tags": [
+    "expr:pois",
+    "expr:se calhar"
+   ],
+   "emotion": "flustered",
+   "num": 14,
+   "rd": "뽀이쉬... 쓰 깔랴르 나웅 푸이 에우."
+  }
+ ]
+}

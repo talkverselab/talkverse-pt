@@ -1,0 +1,174 @@
+{
+ "id": "r2_friends_c4",
+ "region": "R2",
+ "island": "friends",
+ "kind": "chat",
+ "purpose": [
+  "friends",
+  "chat"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "title": "선물은 비밀",
+ "emoji": "🎁",
+ "scene": "단톡방. Duarte 생일 선물을 Tiago 와 몰래 정하는 중 — 그런데 방에 누가 있는지 아무도 안 봤다.",
+ "speakers": {
+  "A": "{name}",
+  "B": "Tiago",
+  "C": "Duarte"
+ },
+ "cast": {
+  "B": "tiago",
+  "C": "duarte"
+ },
+ "register": "chat",
+ "twist": 7,
+ "twist_type": "slip",
+ "flags": [],
+ "goal": "채팅 — 완료과거·반과거, 동사 앞 접어 — 완료과거·동사 앞 접어 — já lhe disseste·não lhe digas",
+ "expressions": [
+  "não lhe digas",
+  "vá lá",
+  "pronto",
+  "epá"
+ ],
+ "variant": "pt-PT",
+ "learner_gender": "male",
+ "draft": true,
+ "turns": [
+  {
+   "speaker": "B",
+   "tl": "O que damos de presente ao Duarte?",
+   "ko": "Duarte 생일 선물로 뭘 할까?",
+   "note": "presente = 선물",
+   "tags": [],
+   "ui": "bubble",
+   "at": "20:30",
+   "emotion": "gentle",
+   "num": 1,
+   "rd": "우 끄 다무쉬 드 프르젠뜨 아우 두아르뜨?"
+  },
+  {
+   "speaker": "A",
+   "tl": "Uma camisola de futebol?",
+   "ko": "축구 저지 어때?",
+   "note": "camisola = 저지",
+   "tags": [],
+   "ui": "bubble",
+   "at": "20:31",
+   "emotion": "cheerful",
+   "num": 2,
+   "rd": "우마 까미졸라 드 푸뜨볼?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Já demos isso no ano passado.",
+   "ko": "작년에 이미 줬어.",
+   "note": "demos = 우리가 줬다",
+   "tags": [
+    "form:pretérito"
+   ],
+   "ui": "bubble",
+   "at": "20:32",
+   "emotion": "amused",
+   "num": 3,
+   "rd": "자 데무즈 이쑤 누 아누 빠싸두."
+  },
+  {
+   "speaker": "A",
+   "tl": "Então bilhetes para o concerto?",
+   "ko": "그럼 콘서트 표는?",
+   "note": "bilhetes = 표",
+   "tags": [],
+   "ui": "bubble",
+   "at": "20:33",
+   "emotion": "cheerful",
+   "num": 4,
+   "rd": "엔따웅 빌례뜨쉬 빠라 우 꽁쎄르뚜?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Fixe! Não lhe digas nada.",
+   "ko": "좋아! 절대 말하지 마.",
+   "note": "não lhe digas = 그에게 말하지 마",
+   "tags": [
+    "form:clítico expr:não lhe digas"
+   ],
+   "ui": "bubble",
+   "at": "20:34",
+   "emotion": "teasing",
+   "num": 5,
+   "rd": "피쉬! 나웅 리 디가쉬 나다."
+  },
+  {
+   "speaker": "A",
+   "tl": "Claro que não.",
+   "ko": "당연하지.",
+   "note": "claro = 당연",
+   "tags": [],
+   "ui": "bubble",
+   "at": "20:35",
+   "emotion": "neutral",
+   "num": 6,
+   "rd": "끌라루 끄 나웅."
+  },
+  {
+   "speaker": "C",
+   "tl": "Epá, estou aqui. Gosto dos bilhetes.",
+   "ko": "야, 나도 여기 있어. 표 마음에 들어.",
+   "note": "estou aqui = 내가 여기 있다",
+   "tags": [
+    "expr:epá twist",
+    "twist"
+   ],
+   "ui": "bubble",
+   "at": "20:36",
+   "emotion": "amused",
+   "num": 7,
+   "rd": "에빠, 이쉬또우 아끼. 고쉬뚜 두쉬 빌례뜨쉬."
+  },
+  {
+   "speaker": "B",
+   "tl": "Epá... não o tirei da lista.",
+   "ko": "야... 목록에서 안 뺐네.",
+   "note": "epá = 야",
+   "tags": [
+    "expr:epá"
+   ],
+   "ui": "bubble",
+   "at": "20:37",
+   "emotion": "flustered",
+   "num": 8,
+   "rd": "에빠... 나웅 우 띠레이 다 리쉬따."
+  },
+  {
+   "speaker": "C",
+   "tl": "Vá lá, à frente então.",
+   "ko": "이왕이면 앞줄로 해줘.",
+   "note": "vá lá = 제발/이왕이면, à frente = 앞에",
+   "tags": [
+    "expr:vá lá"
+   ],
+   "ui": "bubble",
+   "at": "20:38",
+   "emotion": "teasing",
+   "num": 9,
+   "rd": "바 라, 아 프렌뜨 엔따웅."
+  },
+  {
+   "speaker": "A",
+   "tl": "Pronto, escolhemos os três juntos.",
+   "ko": "그래, 그럼 셋이 같이 고르자.",
+   "note": "pronto = 그래/됐어",
+   "tags": [
+    "expr:pronto"
+   ],
+   "ui": "bubble",
+   "at": "20:39",
+   "emotion": "amused",
+   "num": 10,
+   "rd": "프론뚜, 이쉬꿀례무즈 우쉬 트레쉬 준뚜쉬."
+  }
+ ]
+}

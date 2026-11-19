@@ -1,0 +1,134 @@
+{
+ "id": "r1_love_a4",
+ "region": "R1",
+ "island": "love",
+ "kind": "short",
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "title": "우산 하나",
+ "emoji": "☔",
+ "scene": "저녁, 갑자기 비가 쏟아지는 버스 정류장. 우산이 없는 학습자 옆에 Inês 가 선다.",
+ "speakers": {
+  "A": "{name}",
+  "B": "Inês"
+ },
+ "cast": {
+  "B": "ines"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "emotion",
+ "flags": [
+  "romance"
+ ],
+ "goal": "eu·tu·ele 현재형 되풀이 — ter·estar 현재형 — tens·tenho·está a chover",
+ "expressions": [
+  "está a chover",
+  "tens guarda-chuva?",
+  "anda cá",
+  "tá bem"
+ ],
+ "variant": "pt-PT",
+ "learner_gender": "female",
+ "draft": true,
+ "turns": [
+  {
+   "speaker": "B",
+   "tl": "Está a chover. Tens guarda-chuva?",
+   "ko": "비 온다. 우산 있어?",
+   "note": "está a chover = 비가 온다; tens = 있어",
+   "tags": [
+    "expr:está a chover",
+    "expr:tens guarda-chuva?",
+    "form:presente"
+   ],
+   "emotion": "worried",
+   "num": 1,
+   "rd": "이쉬따 아 슈베르. 뗑쉬 과르다 슈바?"
+  },
+  {
+   "speaker": "A",
+   "tl": "Não tenho.",
+   "ko": "없어.",
+   "note": "não tenho = 없어",
+   "tags": [
+    "form:presente"
+   ],
+   "emotion": "sad",
+   "num": 2,
+   "rd": "나웅 뗑유."
+  },
+  {
+   "speaker": "B",
+   "tl": "Anda cá.",
+   "ko": "이리 와.",
+   "note": "anda cá = 이리 와",
+   "tags": [
+    "expr:anda cá"
+   ],
+   "emotion": "gentle",
+   "num": 3,
+   "rd": "안다 까."
+  },
+  {
+   "speaker": "A",
+   "tl": "Obrigada. É pequeno.",
+   "ko": "고마워. 작네.",
+   "note": "pequeno = 작은",
+   "tags": [],
+   "emotion": "shy",
+   "num": 4,
+   "rd": "오브리가다. 에 쁘께누."
+  },
+  {
+   "speaker": "B",
+   "tl": "Mais perto. O ombro molha.",
+   "ko": "더 가까이. 어깨 젖어.",
+   "note": "mais perto = 더 가까이",
+   "tags": [],
+   "emotion": "teasing",
+   "num": 5,
+   "rd": "마이쉬 뻬르뚜. 우 옹브루 몰랴."
+  },
+  {
+   "speaker": "A",
+   "tl": "O autocarro vem.",
+   "ko": "버스 온다.",
+   "note": "vem = 온다",
+   "tags": [
+    "form:presente"
+   ],
+   "emotion": "surprised",
+   "num": 6,
+   "rd": "우 아우뚜까후 벵."
+  },
+  {
+   "speaker": "B",
+   "tl": "Vamos no próximo.",
+   "ko": "다음 버스 타자.",
+   "note": "o próximo = 다음 것",
+   "tags": [
+    "twist"
+   ],
+   "emotion": "shy",
+   "num": 7,
+   "rd": "바무쉬 누 쁘로씨무."
+  },
+  {
+   "speaker": "A",
+   "tl": "Tá bem.",
+   "ko": "좋아.",
+   "note": "tá bem = 좋아",
+   "tags": [
+    "expr:tá bem"
+   ],
+   "emotion": "shy",
+   "num": 8,
+   "rd": "따 벵."
+  }
+ ]
+}

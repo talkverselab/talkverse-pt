@@ -1,0 +1,154 @@
+{
+ "id": "r1_friends_c2",
+ "region": "R1",
+ "island": "friends",
+ "kind": "chat",
+ "purpose": [
+  "friends",
+  "chat"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "title": "새 머리",
+ "emoji": "💇",
+ "scene": "오후, Tiago 가 머리를 잘랐다며 사진을 보낸다는 메시지.",
+ "speakers": {
+  "A": "{name}",
+  "B": "Tiago"
+ },
+ "cast": {
+  "B": "tiago"
+ },
+ "register": "chat",
+ "twist": 6,
+ "twist_type": "reveal",
+ "flags": [],
+ "goal": "eu·tu·ele 현재형 되풀이 — ficar·gostar 현재형 — fica bem·gostas·gosto",
+ "expressions": [
+  "a sério?",
+  "fixe",
+  "gostas?",
+  "pá"
+ ],
+ "variant": "pt-PT",
+ "learner_gender": "female",
+ "draft": true,
+ "turns": [
+  {
+   "speaker": "B",
+   "tl": "Cortei o cabelo.",
+   "ko": "머리 잘랐어.",
+   "note": "cortei = 잘랐어",
+   "tags": [
+    "form:pretérito"
+   ],
+   "ui": "bubble",
+   "at": "15:20",
+   "emotion": "cheerful",
+   "num": 1,
+   "rd": "꾸르떼이 우 까벨루."
+  },
+  {
+   "speaker": "A",
+   "tl": "Mostra a foto.",
+   "ko": "사진 보여 줘.",
+   "note": "mostra = 보여 줘",
+   "tags": [
+    "form:imperativo"
+   ],
+   "ui": "bubble",
+   "at": "15:21",
+   "emotion": "gentle",
+   "num": 2,
+   "rd": "모쉬트라 아 포뚜."
+  },
+  {
+   "speaker": "B",
+   "tl": "Gostas?",
+   "ko": "마음에 들어?",
+   "note": "gostas? = 마음에 들어?",
+   "tags": [
+    "expr:gostas?",
+    "form:presente"
+   ],
+   "ui": "bubble",
+   "at": "15:22",
+   "emotion": "shy",
+   "num": 3,
+   "rd": "고쉬따쉬?"
+  },
+  {
+   "speaker": "A",
+   "tl": "Fica bem. Fixe!",
+   "ko": "잘 어울려. 멋져!",
+   "note": "fica bem = 잘 어울려; fixe = 멋져",
+   "tags": [
+    "expr:fixe",
+    "form:presente"
+   ],
+   "ui": "bubble",
+   "at": "15:23",
+   "emotion": "amused",
+   "num": 4,
+   "rd": "피까 벵. 피쉬!"
+  },
+  {
+   "speaker": "B",
+   "tl": "Também gosto.",
+   "ko": "나도 마음에 들어.",
+   "note": "gosto = 마음에 들어",
+   "tags": [
+    "form:presente"
+   ],
+   "ui": "bubble",
+   "at": "15:24",
+   "emotion": "cheerful",
+   "num": 5,
+   "rd": "땀벵 고쉬뚜."
+  },
+  {
+   "speaker": "B",
+   "tl": "A sério? É o gato.",
+   "ko": "진짜? 고양이 사진이야.",
+   "note": "a sério? = 진짜?; gato = 고양이",
+   "tags": [
+    "expr:a sério?",
+    "twist"
+   ],
+   "ui": "bubble",
+   "at": "15:25",
+   "emotion": "teasing",
+   "num": 6,
+   "rd": "아 쎄리우? 에 우 가뚜."
+  },
+  {
+   "speaker": "A",
+   "tl": "O gato fica mais giro.",
+   "ko": "고양이가 더 멋져.",
+   "note": "mais giro = 더 멋져",
+   "tags": [
+    "form:presente"
+   ],
+   "ui": "bubble",
+   "at": "15:26",
+   "emotion": "amused",
+   "num": 7,
+   "rd": "우 가뚜 피까 마이쉬 지루."
+  },
+  {
+   "speaker": "B",
+   "tl": "O gato também acha, pá.",
+   "ko": "고양이도 그렇게 생각해, 야.",
+   "note": "pá = 야",
+   "tags": [
+    "expr:pá"
+   ],
+   "ui": "bubble",
+   "at": "15:27",
+   "emotion": "teasing",
+   "num": 8,
+   "rd": "우 가뚜 땀벵 아샤, 빠."
+  }
+ ]
+}

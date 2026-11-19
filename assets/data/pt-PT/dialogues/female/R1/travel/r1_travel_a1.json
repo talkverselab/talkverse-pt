@@ -1,0 +1,131 @@
+{
+ "id": "r1_travel_a1",
+ "region": "R1",
+ "island": "travel",
+ "kind": "short",
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "title": "28번 전차",
+ "emoji": "🚋",
+ "scene": "오후, 사람으로 꽉 찬 28번 전차. Inês 가 창밖을 가리키며 동네를 소개한다.",
+ "speakers": {
+  "A": "{name}",
+  "B": "Inês"
+ },
+ "cast": {
+  "B": "ines"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "reveal",
+ "flags": [],
+ "goal": "eu·tu·ele 현재형 되풀이 — ir·ver 현재형 — vamos·vês·vejo",
+ "expressions": [
+  "olha",
+  "vês?",
+  "que giro!",
+  "pois"
+ ],
+ "variant": "pt-PT",
+ "learner_gender": "female",
+ "draft": true,
+ "turns": [
+  {
+   "speaker": "B",
+   "tl": "Olha, vês o castelo?",
+   "ko": "봐, 성 보이니?",
+   "note": "olha = 봐, vês = 보이니",
+   "tags": [
+    "form:ver expr:olha expr:vês?"
+   ],
+   "emotion": "cheerful",
+   "num": 1,
+   "rd": "올랴, 베즈 우 까쉬뗄루?"
+  },
+  {
+   "speaker": "A",
+   "tl": "Vejo! Que giro!",
+   "ko": "보여! 진짜 예쁘다!",
+   "note": "vejo = 내가 본다, que giro = 진짜 멋지다",
+   "tags": [
+    "form:ver expr:que giro!"
+   ],
+   "emotion": "excited",
+   "num": 2,
+   "rd": "베주! 끄 지루!"
+  },
+  {
+   "speaker": "B",
+   "tl": "Agora vamos para a Sé.",
+   "ko": "이제 대성당 쪽으로 가.",
+   "note": "vamos = 우리가 간다",
+   "tags": [
+    "form:ir"
+   ],
+   "emotion": "cheerful",
+   "num": 3,
+   "rd": "아고라 바무쉬 빠라 아 쎄."
+  },
+  {
+   "speaker": "A",
+   "tl": "Onde é a Sé?",
+   "ko": "대성당이 어디야?",
+   "note": "onde = 어디",
+   "tags": [],
+   "emotion": "gentle",
+   "num": 4,
+   "rd": "옹드 에 아 쎄?"
+  },
+  {
+   "speaker": "B",
+   "tl": "É a próxima paragem.",
+   "ko": "다음 정류장이야.",
+   "note": "próxima = 다음",
+   "tags": [],
+   "emotion": "neutral",
+   "num": 5,
+   "rd": "에 아 쁘로씨마 빠라젱."
+  },
+  {
+   "speaker": "A",
+   "tl": "Olha, o castelo outra vez!",
+   "ko": "봐, 성이 또 보여!",
+   "note": "outra vez = 또 다시",
+   "tags": [
+    "expr:olha"
+   ],
+   "emotion": "surprised",
+   "num": 6,
+   "rd": "올랴, 우 까쉬뗄루 오우트라 베쉬!"
+  },
+  {
+   "speaker": "B",
+   "tl": "Espera, vamos ao contrário!",
+   "ko": "잠깐, 우리 반대 방향으로 가고 있어!",
+   "note": "ao contrário = 반대로",
+   "tags": [
+    "form:ir twist",
+    "twist"
+   ],
+   "emotion": "surprised",
+   "num": 7,
+   "rd": "이쉬뻬라, 바무즈 아우 꼰트라리우!"
+  },
+  {
+   "speaker": "A",
+   "tl": "Pois, mas a vista é igual.",
+   "ko": "그렇지, 그래도 경치는 똑같아.",
+   "note": "pois = 그렇지",
+   "tags": [
+    "expr:pois"
+   ],
+   "emotion": "amused",
+   "num": 8,
+   "rd": "뽀이쉬, 마즈 아 비쉬따 에 이괄."
+  }
+ ]
+}

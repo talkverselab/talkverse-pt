@@ -1,0 +1,120 @@
+{
+ "id": "r0_friends_a2",
+ "region": "R0",
+ "island": "friends",
+ "kind": "chat",
+ "purpose": [
+  "friends",
+  "chat"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "title": "어디야?",
+ "emoji": "📍",
+ "scene": "저녁 7시, 지하철역에서 만나기로 했다. Duarte 가 계속 「어디야?」를 보낸다.",
+ "speakers": {
+  "A": "{name}",
+  "B": "Duarte"
+ },
+ "cast": {
+  "B": "duarte"
+ },
+ "register": "chat",
+ "twist": 6,
+ "twist_type": "reveal",
+ "flags": [],
+ "goal": "짧은 덩어리로 반응하기 — 짧은 채팅으로 위치 묻고 답하기 — 「onde estás?」「já cá estou」",
+ "expressions": [
+  "onde estás?",
+  "já cá estou",
+  "espera",
+  "olha"
+ ],
+ "variant": "pt-PT",
+ "learner_gender": "male",
+ "draft": true,
+ "turns": [
+  {
+   "speaker": "B",
+   "tl": "Onde estás?",
+   "ko": "어디야?",
+   "note": "onde estás? = 어디 있어?",
+   "tags": [
+    "expr:onde estás?"
+   ],
+   "ui": "bubble",
+   "at": "19:02",
+   "emotion": "worried",
+   "num": 1,
+   "rd": "옹드 이쉬따쉬?"
+  },
+  {
+   "speaker": "A",
+   "tl": "Já cá estou.",
+   "ko": "나 이미 여기 있어.",
+   "note": "já cá estou = 이미 여기 있어",
+   "tags": [
+    "expr:já cá estou"
+   ],
+   "ui": "bubble",
+   "at": "19:03",
+   "emotion": "cheerful",
+   "num": 2,
+   "rd": "자 까 이쉬또우."
+  },
+  {
+   "speaker": "B",
+   "tl": "Também. Não te vejo.",
+   "ko": "나도. 안 보여.",
+   "note": "também = 나도",
+   "tags": [],
+   "ui": "bubble",
+   "at": "19:04",
+   "emotion": "annoyed",
+   "num": 3,
+   "rd": "땀벵. 나웅 뜨 베주."
+  },
+  {
+   "speaker": "A",
+   "tl": "Saída dois.",
+   "ko": "2번 출구.",
+   "note": "saída = 출구",
+   "tags": [],
+   "ui": "bubble",
+   "at": "19:05",
+   "emotion": "stiff",
+   "num": 4,
+   "rd": "싸이다 도이쉬."
+  },
+  {
+   "speaker": "B",
+   "tl": "Espera. Eu também.",
+   "ko": "잠깐. 나도 거기야.",
+   "note": "espera = 잠깐",
+   "tags": [
+    "expr:espera"
+   ],
+   "ui": "bubble",
+   "at": "19:06",
+   "emotion": "surprised",
+   "num": 5,
+   "rd": "이쉬뻬라. 에우 땀벵."
+  },
+  {
+   "speaker": "A",
+   "tl": "Olha atrás!",
+   "ko": "뒤 봐!",
+   "note": "olha = 봐",
+   "tags": [
+    "expr:olha",
+    "twist"
+   ],
+   "ui": "bubble",
+   "at": "19:07",
+   "emotion": "amused",
+   "num": 6,
+   "rd": "올랴 아트라쉬!"
+  }
+ ]
+}

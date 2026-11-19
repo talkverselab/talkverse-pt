@@ -1,0 +1,174 @@
+{
+ "id": "r2_life_c1",
+ "region": "R2",
+ "island": "life",
+ "kind": "chat",
+ "purpose": [
+  "life",
+  "chat"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "내 택배 어디 갔어",
+ "emoji": "📦",
+ "scene": "오후, 회사에 있는 학습자. 오늘 온다던 택배 추적은 「배달 완료」인데 집에 있는 Duarte 가 말이 없다.",
+ "speakers": {
+  "A": "{name}",
+  "B": "Duarte"
+ },
+ "cast": {
+  "B": "duarte"
+ },
+ "register": "chat",
+ "twist": 8,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "채팅 — 완료과거·반과거, 동사 앞 접어 — 완료과거 — chegou·abriste·abri",
+ "expressions": [
+  "chegou?",
+  "a sério?",
+  "epá",
+  "desculpa"
+ ],
+ "variant": "pt-PT",
+ "learner_gender": "female",
+ "draft": true,
+ "turns": [
+  {
+   "speaker": "A",
+   "tl": "Chegou a encomenda?",
+   "ko": "택배 왔어?",
+   "note": "chegou = 도착했다",
+   "tags": [
+    "form:pretérito expr:chegou?"
+   ],
+   "ui": "bubble",
+   "at": "14:12",
+   "emotion": "worried",
+   "num": 1,
+   "rd": "쉬고우 아 엥꾸멘다?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Nada. Não chegou nada.",
+   "ko": "아무것도. 안 왔어.",
+   "note": "nada = 아무것도",
+   "tags": [],
+   "ui": "bubble",
+   "at": "14:13",
+   "emotion": "neutral",
+   "num": 2,
+   "rd": "나다. 나웅 쉬고우 나다."
+  },
+  {
+   "speaker": "A",
+   "tl": "O tracking diz que chegou.",
+   "ko": "추적에는 배달 완료라고 나와.",
+   "note": "diz que = ~라고 한다",
+   "tags": [],
+   "ui": "bubble",
+   "at": "14:14",
+   "emotion": "annoyed",
+   "num": 3,
+   "rd": "우 트라크낑그 디쉬 끄 쉬고우."
+  },
+  {
+   "speaker": "B",
+   "tl": "Epá... chegou uma caixa.",
+   "ko": "야... 상자 하나 오긴 했어.",
+   "note": "uma caixa = 상자 하나",
+   "tags": [
+    "expr:epá form:pretérito"
+   ],
+   "ui": "bubble",
+   "at": "14:15",
+   "emotion": "flustered",
+   "num": 4,
+   "rd": "에빠... 쉬고우 우마 까이샤."
+  },
+  {
+   "speaker": "A",
+   "tl": "É meu. Abriste?",
+   "ko": "내 거야. 열었어?",
+   "note": "é meu = 내 거다, abriste = 네가 열었다",
+   "tags": [
+    "form:pretérito"
+   ],
+   "ui": "bubble",
+   "at": "14:16",
+   "emotion": "surprised",
+   "num": 5,
+   "rd": "에 메우. 아브리쉬뜨?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Abri. Pensei que era meu.",
+   "ko": "열었어. 내 건 줄 알았어.",
+   "note": "abri = 내가 열었다",
+   "tags": [
+    "form:pretérito"
+   ],
+   "ui": "bubble",
+   "at": "14:17",
+   "emotion": "shy",
+   "num": 6,
+   "rd": "아브리. 뻰쎄이 끄 에라 메우."
+  },
+  {
+   "speaker": "A",
+   "tl": "A sério? O que tinha?",
+   "ko": "진짜? 뭐가 들어 있었어?",
+   "note": "o que = 뭐",
+   "tags": [
+    "expr:a sério?"
+   ],
+   "ui": "bubble",
+   "at": "14:18",
+   "emotion": "annoyed",
+   "num": 7,
+   "rd": "아 쎄리우? 우 끄 띵야?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Ténis. Estou a correr no parque.",
+   "ko": "운동화. 지금 공원에서 뛰고 있어.",
+   "note": "estou a correr = 뛰고 있다",
+   "tags": [
+    "form:estar a twist",
+    "twist"
+   ],
+   "ui": "bubble",
+   "at": "14:19",
+   "emotion": "amused",
+   "num": 8,
+   "rd": "떼니쉬. 이쉬또우 아 꾸헤르 누 빠르끄."
+  },
+  {
+   "speaker": "A",
+   "tl": "Tira já!",
+   "ko": "당장 벗어!",
+   "note": "tira = 벗어",
+   "tags": [],
+   "ui": "bubble",
+   "at": "14:20",
+   "emotion": "shout",
+   "num": 9,
+   "rd": "띠라 자!"
+  },
+  {
+   "speaker": "B",
+   "tl": "Desculpa, mas servem perfeitamente.",
+   "ko": "미안, 근데 사이즈 딱 맞아.",
+   "note": "desculpa = 미안, servem = 맞다",
+   "tags": [
+    "expr:desculpa"
+   ],
+   "ui": "bubble",
+   "at": "14:21",
+   "emotion": "teasing",
+   "num": 10,
+   "rd": "드쉬꿀빠, 마쉬 쎄르벵 쁘르페이따멘뜨."
+  }
+ ]
+}

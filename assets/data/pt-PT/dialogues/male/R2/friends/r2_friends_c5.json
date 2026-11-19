@@ -1,0 +1,172 @@
+{
+ "id": "r2_friends_c5",
+ "region": "R2",
+ "island": "friends",
+ "kind": "chat",
+ "purpose": [
+  "friends",
+  "chat"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "title": "헬스장 첫날",
+ "emoji": "🏋️",
+ "scene": "아침 7시, Duarte 가 오늘부터 같이 헬스장 다니자며 깨운다.",
+ "speakers": {
+  "A": "{name}",
+  "B": "Duarte"
+ },
+ "cast": {
+  "B": "duarte"
+ },
+ "register": "chat",
+ "twist": 7,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "채팅 — 완료과거·반과거, 동사 앞 접어 — 완료과거 — fui·foste·desisti",
+ "expressions": [
+  "vá lá",
+  "já está",
+  "epá",
+  "nem pensar"
+ ],
+ "variant": "pt-PT",
+ "learner_gender": "male",
+ "draft": true,
+ "turns": [
+  {
+   "speaker": "B",
+   "tl": "Acorda! Vamos ao ginásio.",
+   "ko": "일어나! 헬스장 가자.",
+   "note": "acorda = 일어나",
+   "tags": [],
+   "ui": "bubble",
+   "at": "07:00",
+   "emotion": "cheerful",
+   "num": 1,
+   "rd": "아꼬르다! 바무즈 아우 지나지우."
+  },
+  {
+   "speaker": "A",
+   "tl": "São 7 da manhã. Nem pensar.",
+   "ko": "아침 7시잖아. 절대 안 해.",
+   "note": "nem pensar = 절대 안 돼",
+   "tags": [
+    "expr:nem pensar"
+   ],
+   "ui": "bubble",
+   "at": "07:01",
+   "emotion": "annoyed",
+   "num": 2,
+   "rd": "싸웅 7 다 망양. 넹 뻰싸르."
+  },
+  {
+   "speaker": "B",
+   "tl": "Ontem prometeste. Tu foste sério?",
+   "ko": "어제 약속했잖아. 진짜로 그랬어?",
+   "note": "prometeste = 네가 약속했다, foste = 네가 했다",
+   "tags": [
+    "form:pretérito"
+   ],
+   "ui": "bubble",
+   "at": "07:02",
+   "emotion": "teasing",
+   "num": 3,
+   "rd": "온뗑 프루므떼쉬뜨. 뚜 포쉬뜨 쎄리우?"
+  },
+  {
+   "speaker": "A",
+   "tl": "Eu? Não me lembro.",
+   "ko": "내가? 기억이 안 나.",
+   "note": "eu = 나",
+   "tags": [],
+   "ui": "bubble",
+   "at": "07:03",
+   "emotion": "flustered",
+   "num": 4,
+   "rd": "에우? 나웅 므 렘브루."
+  },
+  {
+   "speaker": "B",
+   "tl": "Já estou à porta.",
+   "ko": "이미 문 앞에 있어.",
+   "note": "à porta = 문 앞에",
+   "tags": [],
+   "ui": "bubble",
+   "at": "07:04",
+   "emotion": "excited",
+   "num": 5,
+   "rd": "자 이쉬또우 아 뽀르따."
+  },
+  {
+   "speaker": "A",
+   "tl": "Vá lá, cinco minutos. Vou.",
+   "ko": "제발, 5분만. 갈게.",
+   "note": "vá lá = 제발",
+   "tags": [
+    "expr:vá lá"
+   ],
+   "ui": "bubble",
+   "at": "07:05",
+   "emotion": "annoyed",
+   "num": 6,
+   "rd": "바 라, 씽꾸 미누뚜쉬. 보우."
+  },
+  {
+   "speaker": "B",
+   "tl": "Epá, já está. Desisti.",
+   "ko": "야, 됐어. 포기했어.",
+   "note": "já está = 됐어, desisti = 포기했다",
+   "tags": [
+    "form:pretérito expr:já está expr:epá twist",
+    "twist"
+   ],
+   "ui": "bubble",
+   "at": "07:06",
+   "emotion": "amused",
+   "num": 7,
+   "rd": "에빠, 자 이쉬따. 드지쉬띠."
+  },
+  {
+   "speaker": "A",
+   "tl": "Acabei de chegar agora.",
+   "ko": "방금 도착했는데.",
+   "note": "acabei de chegar = 막 도착했다",
+   "tags": [
+    "form:pretérito"
+   ],
+   "ui": "bubble",
+   "at": "07:07",
+   "emotion": "surprised",
+   "num": 8,
+   "rd": "아까베이 드 쉬가르 아고라."
+  },
+  {
+   "speaker": "B",
+   "tl": "Estou na pastelaria em frente.",
+   "ko": "맞은편 빵집에서 기다릴게.",
+   "note": "pastelaria = 빵집",
+   "tags": [],
+   "ui": "bubble",
+   "at": "07:08",
+   "emotion": "cheerful",
+   "num": 9,
+   "rd": "이쉬또우 나 빠쉬뜰라리아 앵 프렌뜨."
+  },
+  {
+   "speaker": "A",
+   "tl": "Epá, e o cartão de um ano?",
+   "ko": "야, 1년 회원권은 어쩌고?",
+   "note": "um ano = 1년",
+   "tags": [
+    "expr:epá"
+   ],
+   "ui": "bubble",
+   "at": "07:09",
+   "emotion": "worried",
+   "num": 10,
+   "rd": "에빠, 이 우 까르따웅 드 웅 아누?"
+  }
+ ]
+}

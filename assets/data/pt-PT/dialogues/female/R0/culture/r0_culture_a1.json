@@ -1,0 +1,127 @@
+{
+ "id": "r0_culture_a1",
+ "region": "R0",
+ "island": "culture",
+ "kind": "short",
+ "purpose": [
+  "culture"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "title": "뽀뽀는 두 번",
+ "emoji": "😘",
+ "scene": "친구 생일 파티 현관. Inês 가 학습자를 친구들에게 소개한다. 학습자는 악수부터 내민다.",
+ "speakers": {
+  "A": "{name}",
+  "B": "Inês"
+ },
+ "cast": {
+  "B": "ines"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "짧은 덩어리로 반응하기 — 처음 만난 인사 덩어리 — 「muito prazer」「dois beijinhos」",
+ "expressions": [
+  "muito prazer",
+  "tudo bem?",
+  "dois beijinhos",
+  "pronto"
+ ],
+ "variant": "pt-PT",
+ "learner_gender": "female",
+ "draft": true,
+ "turns": [
+  {
+   "speaker": "B",
+   "tl": "Olha, {name}! Tudo bem?",
+   "ko": "봐, {name}! 잘 지내?",
+   "note": "olha = 봐",
+   "tags": [
+    "expr:tudo bem?"
+   ],
+   "emotion": "cheerful",
+   "num": 1,
+   "rd": "올랴, {name}! 뚜두 벵?"
+  },
+  {
+   "speaker": "A",
+   "tl": "Muito prazer.",
+   "ko": "만나서 반가워요.",
+   "note": "muito prazer = 만나서 반가워요",
+   "tags": [
+    "expr:muito prazer"
+   ],
+   "emotion": "polite",
+   "num": 2,
+   "rd": "무이뚜 프라제르."
+  },
+  {
+   "speaker": "B",
+   "tl": "Aqui, dois beijinhos.",
+   "ko": "여기선 뽀뽀 두 번이야.",
+   "note": "dois beijinhos = 볼 뽀뽀 두 번",
+   "tags": [
+    "expr:dois beijinhos"
+   ],
+   "emotion": "amused",
+   "num": 3,
+   "rd": "아끼, 도이쉬 베이징유쉬."
+  },
+  {
+   "speaker": "A",
+   "tl": "Dois?",
+   "ko": "두 번이요?",
+   "note": "dois = 둘",
+   "tags": [],
+   "emotion": "surprised",
+   "num": 4,
+   "rd": "도이쉬?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Três? Isso é outro país!",
+   "ko": "세 번? 그건 다른 나라 거야!",
+   "note": "três = 셋",
+   "tags": [
+    "twist"
+   ],
+   "segs": [
+    [
+     "amused",
+     "Três?"
+    ],
+    [
+     "teasing",
+     " Isso é outro país!"
+    ]
+   ],
+   "num": 5,
+   "rd": "트레쉬? 이쑤 에 오우트루 빠이쉬!"
+  },
+  {
+   "speaker": "A",
+   "tl": "Desculpa...",
+   "ko": "죄송해요...",
+   "note": "desculpa = 미안",
+   "tags": [],
+   "emotion": "flustered",
+   "num": 6,
+   "rd": "드쉬꿀빠..."
+  },
+  {
+   "speaker": "B",
+   "tl": "Pronto, agora és famosa.",
+   "ko": "자, 이제 너 유명해.",
+   "note": "pronto = 자",
+   "tags": [
+    "expr:pronto"
+   ],
+   "emotion": "teasing",
+   "num": 7,
+   "rd": "프론뚜, 아고라 에쉬 파모자."
+  }
+ ]
+}

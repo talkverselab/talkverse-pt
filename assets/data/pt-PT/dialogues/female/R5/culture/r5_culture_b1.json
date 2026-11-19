@@ -1,0 +1,201 @@
+{
+ "id": "r5_culture_b1",
+ "region": "R5",
+ "island": "culture",
+ "kind": "long",
+ "purpose": [
+  "culture"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "title": "응원석을 잘못 앉았다",
+ "emoji": "⚽",
+ "scene": "일요일 밤, 리스본 축구 경기장. Duarte 가 처음 온 학습자를 데리고 자리를 찾는다.",
+ "speakers": {
+  "A": "{name}",
+  "B": "Duarte"
+ },
+ "cast": {
+  "B": "duarte"
+ },
+ "register": "casual",
+ "twist": 9,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "넓은 어휘, 새 문법 없음 — 넓은 어휘 — 경기장 말(golo·árbitro·bancada)",
+ "expressions": [
+  "golo!",
+  "vá lá",
+  "não acredito",
+  "árbitro"
+ ],
+ "variant": "pt-PT",
+ "learner_gender": "female",
+ "draft": true,
+ "turns": [
+  {
+   "speaker": "B",
+   "tl": "Olha o bilhete. Este é o nosso lugar.",
+   "ko": "표 봐. 여기가 우리 자리야.",
+   "note": "lugar = 자리",
+   "tags": [
+    "form:lugar"
+   ],
+   "emotion": "cheerful",
+   "num": 1,
+   "rd": "올랴 우 빌례뜨. 에쉬뜨 에 우 노쑤 루가르."
+  },
+  {
+   "speaker": "A",
+   "tl": "Uau, há tanta gente!",
+   "ko": "와, 사람 엄청 많아!",
+   "note": "gente = 사람들",
+   "tags": [
+    "form:há"
+   ],
+   "emotion": "surprised",
+   "num": 2,
+   "rd": "우아우, 아 딴따 젠뜨!"
+  },
+  {
+   "speaker": "B",
+   "tl": "Já começou. A equipa verde é a nossa.",
+   "ko": "이미 시작했어. 초록 팀이 우리 팀이야.",
+   "note": "verde = 초록, equipa = 팀",
+   "tags": [
+    "form:equipa"
+   ],
+   "emotion": "excited",
+   "num": 3,
+   "rd": "자 꾸므쏘우. 아 에끼빠 베르드 에 아 노싸."
+  },
+  {
+   "speaker": "A",
+   "tl": "Tá bem, percebi.",
+   "ko": "알겠어.",
+   "note": "percebi = 이해했다",
+   "tags": [
+    "form:pretérito"
+   ],
+   "emotion": "polite",
+   "num": 4,
+   "rd": "따 벵, 쁘르쓰비."
+  },
+  {
+   "speaker": "B",
+   "tl": "Grita com o árbitro, como estes senhores!",
+   "ko": "이 아저씨들처럼 심판한테 소리 질러!",
+   "note": "árbitro = 심판",
+   "tags": [
+    "expr:árbitro"
+   ],
+   "emotion": "shout",
+   "num": 5,
+   "rd": "그리따 꽁 우 아르비트루, 꼬무 이쉬뜨쉬 쎙요르쉬!"
+  },
+  {
+   "speaker": "A",
+   "tl": "Golo!",
+   "ko": "골!",
+   "note": "golo = 골",
+   "tags": [
+    "expr:golo!"
+   ],
+   "emotion": "excited",
+   "num": 6,
+   "rd": "골루!"
+  },
+  {
+   "speaker": "B",
+   "tl": "Senta-te! Esse foi deles.",
+   "ko": "앉아! 저건 그들 골이야.",
+   "note": "senta-te = 앉아",
+   "tags": [
+    "form:imperativo"
+   ],
+   "emotion": "shout",
+   "num": 7,
+   "rd": "쎈따 뜨! 에쓰 포이 델르쉬."
+  },
+  {
+   "speaker": "A",
+   "tl": "Mas todos estão a gritar.",
+   "ko": "근데 다들 소리 지르고 있잖아.",
+   "note": "todos = 모두",
+   "tags": [
+    "form:estar a"
+   ],
+   "emotion": "surprised",
+   "num": 8,
+   "rd": "마쉬 또두즈 이쉬따웅 아 그리따르."
+  },
+  {
+   "speaker": "B",
+   "tl": "Não acredito. Estamos na bancada deles.",
+   "ko": "믿을 수가 없어. 우리 상대 팀 응원석에 있어.",
+   "note": "bancada = 응원석",
+   "tags": [
+    "expr:não acredito twist",
+    "twist"
+   ],
+   "emotion": "surprised",
+   "num": 9,
+   "rd": "나웅 아크르디뚜. 이쉬따무쉬 나 방까다 델르쉬."
+  },
+  {
+   "speaker": "A",
+   "tl": "E agora?",
+   "ko": "이제 어떡해?",
+   "note": "agora = 지금",
+   "tags": [],
+   "emotion": "worried",
+   "num": 10,
+   "rd": "이 아고라?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Vá lá, esconde o cachecol verde.",
+   "ko": "어서, 초록 목도리 숨겨.",
+   "note": "esconde = 숨겨",
+   "tags": [
+    "expr:vá lá"
+   ],
+   "emotion": "flustered",
+   "num": 11,
+   "rd": "바 라, 이쉬꽁드 우 까쉬꼴 베르드."
+  },
+  {
+   "speaker": "A",
+   "tl": "Fui ao bar e comprei um boné vermelho.",
+   "ko": "매점 가서 빨간 모자 사 왔어.",
+   "note": "boné = 모자",
+   "tags": [
+    "form:pretérito"
+   ],
+   "emotion": "cheerful",
+   "num": 12,
+   "rd": "푸이 아우 바르 이 꽁프레이 웅 부네 브르멜류."
+  },
+  {
+   "speaker": "B",
+   "tl": "Traidora!",
+   "ko": "배신자!",
+   "note": "traidor = 배신자",
+   "tags": [],
+   "emotion": "teasing",
+   "num": 13,
+   "rd": "트라이도라!"
+  },
+  {
+   "speaker": "A",
+   "tl": "Só hoje.",
+   "ko": "오늘만이야.",
+   "note": "só = 단지",
+   "tags": [],
+   "emotion": "amused",
+   "num": 14,
+   "rd": "쏘 오즈."
+  }
+ ]
+}

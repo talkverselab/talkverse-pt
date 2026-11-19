@@ -1,0 +1,204 @@
+{
+ "id": "r3_life_b3",
+ "region": "R3",
+ "island": "life",
+ "kind": "long",
+ "purpose": [
+  "life"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "계산은 누가",
+ "emoji": "🧾",
+ "scene": "저녁, 바이샤의 작은 식당. 식사를 마친 셋이 계산서를 두고 머리를 맞댄다.",
+ "speakers": {
+  "A": "{name}",
+  "B": "Tiago",
+  "C": "Beatriz",
+  "D": "Fernanda"
+ },
+ "cast": {
+  "B": "tiago",
+  "C": "beatriz",
+  "D": "fernanda"
+ },
+ "register": "polite",
+ "twist": 11,
+ "twist_type": "reveal",
+ "flags": [],
+ "goal": "복수(nós·vocês·eles)와 존칭(o senhor/a senhora) — 복수(vocês·nós pagamos)와 존칭(a senhora traz)",
+ "expressions": [
+  "a conta, por favor",
+  "pagamos",
+  "a meias",
+  "não faz mal"
+ ],
+ "variant": "pt-PT",
+ "learner_gender": "female",
+ "draft": true,
+ "turns": [
+  {
+   "speaker": "D",
+   "tl": "Querem sobremesa?",
+   "ko": "디저트 드시겠어요?",
+   "note": "querem = 원하세요",
+   "tags": [],
+   "emotion": "polite",
+   "num": 1,
+   "rd": "께렝 쑤브르메자?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Não, obrigado. A conta, por favor.",
+   "ko": "아니요, 감사합니다. 계산서 부탁해요.",
+   "note": "a conta, por favor = 계산서 주세요",
+   "tags": [
+    "expr:a conta",
+    "por favor"
+   ],
+   "emotion": "polite",
+   "num": 2,
+   "rd": "나웅, 오브리가두. 아 꼰따, 뽀르 파보르."
+  },
+  {
+   "speaker": "C",
+   "tl": "Pagamos a meias?",
+   "ko": "반반 낼까?",
+   "note": "a meias = 반반",
+   "tags": [
+    "expr:a meias"
+   ],
+   "emotion": "cheerful",
+   "num": 3,
+   "rd": "빠가무즈 아 메이아쉬?"
+  },
+  {
+   "speaker": "A",
+   "tl": "Somos três. Dividimos por três.",
+   "ko": "세 명이야. 셋으로 나누자.",
+   "note": "três = 셋",
+   "tags": [],
+   "emotion": "neutral",
+   "num": 4,
+   "rd": "쏘무쉬 트레쉬. 디비디무쉬 뽀르 트레쉬."
+  },
+  {
+   "speaker": "B",
+   "tl": "Eu bebi mais vinho. Não faz mal.",
+   "ko": "내가 와인을 더 마셨어. 괜찮아.",
+   "note": "bebi = 마셨어; não faz mal = 괜찮아",
+   "tags": [
+    "expr:não faz mal",
+    "form:pretérito"
+   ],
+   "emotion": "flustered",
+   "num": 5,
+   "rd": "에우 브비 마이쉬 빙유. 나웅 파쉬 말."
+  },
+  {
+   "speaker": "C",
+   "tl": "Eu só comi salada.",
+   "ko": "나는 샐러드만 먹었어.",
+   "note": "só = 만",
+   "tags": [],
+   "emotion": "amused",
+   "num": 6,
+   "rd": "에우 쏘 꾸미 쌀라다."
+  },
+  {
+   "speaker": "A",
+   "tl": "Vou abrir a calculadora.",
+   "ko": "계산기 열게.",
+   "note": "calculadora = 계산기",
+   "tags": [],
+   "emotion": "worried",
+   "num": 7,
+   "rd": "보우 아브리르 아 깔꿀라도라."
+  },
+  {
+   "speaker": "B",
+   "tl": "É complicado. Vocês decidem.",
+   "ko": "복잡해. 너희가 정해.",
+   "note": "vocês = 너희",
+   "tags": [],
+   "emotion": "annoyed",
+   "num": 8,
+   "rd": "에 꽁쁠리까두. 부쎄쉬 드씨뎅."
+  },
+  {
+   "speaker": "D",
+   "tl": "Aqui está a conta.",
+   "ko": "계산서 여기 있어요.",
+   "note": "aqui está = 여기 있다",
+   "tags": [],
+   "emotion": "polite",
+   "num": 9,
+   "rd": "아끼 이쉬따 아 꼰따."
+  },
+  {
+   "speaker": "C",
+   "tl": "Quanto é?",
+   "ko": "얼마예요?",
+   "note": "quanto é = 얼마야",
+   "tags": [],
+   "emotion": "gentle",
+   "num": 10,
+   "rd": "꽌뚜 에?"
+  },
+  {
+   "speaker": "D",
+   "tl": "Já está pago. O senhor daquela mesa pagou.",
+   "ko": "이미 계산됐어요. 저쪽 테이블 남자분이 내셨어요.",
+   "note": "já está pago = 이미 지불됨",
+   "tags": [
+    "twist"
+   ],
+   "emotion": "cheerful",
+   "num": 11,
+   "rd": "자 이쉬따 빠구. 우 쎙요르 다껠라 메자 빠고우."
+  },
+  {
+   "speaker": "B",
+   "tl": "É o meu pai.",
+   "ko": "우리 아버지야.",
+   "note": "o meu pai = 우리 아버지",
+   "tags": [],
+   "emotion": "surprised",
+   "num": 12,
+   "rd": "에 우 메우 빠이."
+  },
+  {
+   "speaker": "A",
+   "tl": "Vou agradecer. Obrigada.",
+   "ko": "감사 인사하러 갈게. 감사합니다.",
+   "note": "obrigada = 감사합니다",
+   "tags": [],
+   "emotion": "polite",
+   "num": 13,
+   "rd": "보우 아그라드쎄르. 오브리가다."
+  },
+  {
+   "speaker": "B",
+   "tl": "Ele diz que eu tenho de lavar a loiça hoje.",
+   "ko": "오늘 설거지는 내가 해야 한대.",
+   "note": "lavar = 씻다",
+   "tags": [],
+   "emotion": "sad",
+   "num": 14,
+   "rd": "엘르 디쉬 끄 에우 뗑유 드 라바르 아 로이싸 오즈."
+  },
+  {
+   "speaker": "C",
+   "tl": "Então nós ajudamos.",
+   "ko": "그럼 우리가 도와줄게.",
+   "note": "ajudamos = 돕는다",
+   "tags": [
+    "form:presente"
+   ],
+   "emotion": "cheerful",
+   "num": 15,
+   "rd": "엔따웅 노즈 아주다무쉬."
+  }
+ ]
+}

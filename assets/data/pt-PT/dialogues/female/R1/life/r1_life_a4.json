@@ -1,0 +1,135 @@
+{
+ "id": "r1_life_a4",
+ "region": "R1",
+ "island": "life",
+ "kind": "short",
+ "purpose": [
+  "life"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "나 죽어 가",
+ "emoji": "🤒",
+ "scene": "셰어하우스 거실. Duarte 가 소파에서 배를 움켜쥐고 신음한다.",
+ "speakers": {
+  "A": "{name}",
+  "B": "Duarte"
+ },
+ "cast": {
+  "B": "duarte"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "reveal",
+ "flags": [],
+ "goal": "eu·tu·ele 현재형 되풀이 — doer·estar 현재형 — dói-me·estás·está",
+ "expressions": [
+  "dói-me",
+  "estás bem?",
+  "a sério?",
+  "coitado"
+ ],
+ "variant": "pt-PT",
+ "learner_gender": "female",
+ "draft": true,
+ "turns": [
+  {
+   "speaker": "B",
+   "tl": "Estou a morrer...",
+   "ko": "나 죽어 가...",
+   "note": "estou a morrer = 죽어 가",
+   "tags": [
+    "form:estar a"
+   ],
+   "emotion": "sad",
+   "num": 1,
+   "rd": "이쉬또우 아 무헤르..."
+  },
+  {
+   "speaker": "A",
+   "tl": "Estás bem? Onde dói?",
+   "ko": "괜찮아? 어디가 아파?",
+   "note": "estás bem? = 괜찮아?",
+   "tags": [
+    "expr:estás bem?",
+    "form:presente"
+   ],
+   "emotion": "worried",
+   "num": 2,
+   "rd": "이쉬따쉬 벵? 옹드 도이?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Dói-me a barriga.",
+   "ko": "배가 아파.",
+   "note": "dói-me = 아파",
+   "tags": [
+    "expr:dói-me",
+    "form:presente"
+   ],
+   "emotion": "sad",
+   "num": 3,
+   "rd": "도이 므 아 바히가."
+  },
+  {
+   "speaker": "A",
+   "tl": "Vamos à farmácia.",
+   "ko": "약국 가자.",
+   "note": "farmácia = 약국",
+   "tags": [],
+   "emotion": "worried",
+   "num": 4,
+   "rd": "바무즈 아 파르마씨아."
+  },
+  {
+   "speaker": "B",
+   "tl": "Não consigo andar.",
+   "ko": "걸을 힘도 없어.",
+   "note": "não consigo = 못 해",
+   "tags": [
+    "form:presente"
+   ],
+   "emotion": "sad",
+   "num": 5,
+   "rd": "나웅 꼰씨구 안다르."
+  },
+  {
+   "speaker": "A",
+   "tl": "O que comeste hoje?",
+   "ko": "오늘 뭐 먹었어?",
+   "note": "comeste = 먹었어",
+   "tags": [
+    "form:pretérito"
+   ],
+   "emotion": "gentle",
+   "num": 6,
+   "rd": "우 끄 꾸메쉬뜨 오즈?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Dez pastéis de nata. A sério.",
+   "ko": "에그타르트 열 개. 진짜.",
+   "note": "dez = 열; a sério? = 진짜?",
+   "tags": [
+    "expr:a sério?",
+    "twist"
+   ],
+   "emotion": "flustered",
+   "num": 7,
+   "rd": "데쉬 빠쉬떼이쉬 드 나따. 아 쎄리우."
+  },
+  {
+   "speaker": "A",
+   "tl": "Coitado. Bebe água.",
+   "ko": "불쌍해. 물이나 마셔.",
+   "note": "coitado = 불쌍한; água = 물",
+   "tags": [
+    "expr:coitado"
+   ],
+   "emotion": "amused",
+   "num": 8,
+   "rd": "꼬이따두. 베브 아과."
+  }
+ ]
+}

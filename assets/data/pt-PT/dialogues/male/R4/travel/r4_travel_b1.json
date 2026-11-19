@@ -1,0 +1,194 @@
+{
+ "id": "r4_travel_b1",
+ "region": "R4",
+ "island": "travel",
+ "kind": "long",
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "title": "가방이 안 나왔어요",
+ "emoji": "🧳",
+ "scene": "공항 수하물 창구. 학습자의 노란 가방만 안 나왔다. 직원 Fernanda 가 서류를 내민다.",
+ "speakers": {
+  "A": "{name}",
+  "B": "Fernanda",
+  "C": "Beatriz"
+ },
+ "cast": {
+  "B": "fernanda",
+  "C": "beatriz"
+ },
+ "register": "polite",
+ "twist": 10,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "접속법·조건법 가볍게 — 접속법(antes que·quando chegar)과 조건법(poderia)",
+ "expressions": [
+  "desculpe",
+  "poderia…?",
+  "quando chegar",
+  "que pena"
+ ],
+ "variant": "pt-PT",
+ "learner_gender": "male",
+ "draft": true,
+ "turns": [
+  {
+   "speaker": "A",
+   "tl": "Desculpe, a minha mala não saiu.",
+   "ko": "실례합니다, 제 가방이 안 나왔어요.",
+   "note": "desculpe = 실례합니다",
+   "tags": [
+    "expr:desculpe"
+   ],
+   "emotion": "worried",
+   "num": 1,
+   "rd": "드쉬꿀쁘, 아 밍야 말라 나웅 싸이우."
+  },
+  {
+   "speaker": "B",
+   "tl": "Poderia mostrar-me o cartão de embarque?",
+   "ko": "탑승권 보여 주실 수 있나요?",
+   "note": "poderia = ~할 수 있을까요",
+   "tags": [
+    "expr:poderia…?",
+    "form:condicional"
+   ],
+   "emotion": "polite",
+   "num": 2,
+   "rd": "뿌데리아 무쉬트라르 므 우 까르따웅 드 엠바르끄?"
+  },
+  {
+   "speaker": "A",
+   "tl": "Aqui está.",
+   "ko": "여기 있어요.",
+   "note": "aqui = 여기",
+   "tags": [],
+   "emotion": "polite",
+   "num": 3,
+   "rd": "아끼 이쉬따."
+  },
+  {
+   "speaker": "B",
+   "tl": "De que cor é a mala?",
+   "ko": "가방이 무슨 색인가요?",
+   "note": "cor = 색깔",
+   "tags": [],
+   "emotion": "gentle",
+   "num": 4,
+   "rd": "드 끄 꼬르 에 아 말라?"
+  },
+  {
+   "speaker": "A",
+   "tl": "É grande e amarela.",
+   "ko": "크고 노란색이에요.",
+   "note": "amarela = 노란색",
+   "tags": [],
+   "emotion": "worried",
+   "num": 5,
+   "rd": "에 그란드 이 아마렐라."
+  },
+  {
+   "speaker": "B",
+   "tl": "Quando chegar, contactamo-la logo.",
+   "ko": "도착하면 바로 연락드릴게요.",
+   "note": "quando chegar = 도착하면",
+   "tags": [
+    "expr:quando chegar",
+    "form:conjuntivo"
+   ],
+   "emotion": "gentle",
+   "num": 6,
+   "rd": "꽌두 쉬가르, 꼰따크따무 라 로구."
+  },
+  {
+   "speaker": "A",
+   "tl": "Espero que chegue ainda hoje.",
+   "ko": "오늘 안에 왔으면 좋겠어요.",
+   "note": "que chegue = 도착하기를",
+   "tags": [
+    "form:conjuntivo"
+   ],
+   "emotion": "gentle",
+   "num": 7,
+   "rd": "이쉬뻬루 끄 셰그 아인다 오즈."
+  },
+  {
+   "speaker": "B",
+   "tl": "Não posso garantir. Que pena.",
+   "ko": "장담은 못 해요. 유감이에요.",
+   "note": "que pena = 유감이다",
+   "tags": [
+    "expr:que pena"
+   ],
+   "emotion": "sad",
+   "num": 8,
+   "rd": "나웅 뽀쑤 가란띠르. 끄 뻬나."
+  },
+  {
+   "speaker": "C",
+   "tl": "Olha, encontrei esta mala amarela.",
+   "ko": "봐, 이 노란 가방 찾았어.",
+   "note": "olha = 봐",
+   "tags": [],
+   "emotion": "cheerful",
+   "num": 9,
+   "rd": "올랴, 엥꼰트레이 에쉬따 말라 아마렐라."
+  },
+  {
+   "speaker": "C",
+   "tl": "Ia levá-la para a prancha de surf.",
+   "ko": "서핑보드 넣으려고 가져가던 중이었어.",
+   "note": "levar = 가져가다",
+   "tags": [
+    "twist"
+   ],
+   "emotion": "flustered",
+   "num": 10,
+   "rd": "이아 르바 라 빠라 아 프랑샤 드 쑤르프."
+  },
+  {
+   "speaker": "A",
+   "tl": "Essa é minha!",
+   "ko": "그건 내 거야!",
+   "note": "é minha = 내 것이다",
+   "tags": [],
+   "emotion": "shout",
+   "num": 11,
+   "rd": "에싸 에 밍야!"
+  },
+  {
+   "speaker": "B",
+   "tl": "Ainda bem. Problema resolvido.",
+   "ko": "다행이네요. 문제 해결됐어요.",
+   "note": "ainda bem = 다행이다",
+   "tags": [],
+   "emotion": "cheerful",
+   "num": 12,
+   "rd": "아인다 벵. 프루블레마 흐줄비두."
+  },
+  {
+   "speaker": "C",
+   "tl": "E agora onde meto a prancha?",
+   "ko": "그럼 보드는 어디에 넣지?",
+   "note": "onde = 어디",
+   "tags": [],
+   "emotion": "sad",
+   "num": 13,
+   "rd": "이 아고라 옹드 메뚜 아 프랑샤?"
+  },
+  {
+   "speaker": "A",
+   "tl": "Nem pensar.",
+   "ko": "절대 안 돼.",
+   "note": "nem pensar = 절대 안 돼",
+   "tags": [],
+   "emotion": "annoyed",
+   "num": 14,
+   "rd": "넹 뻰싸르."
+  }
+ ]
+}

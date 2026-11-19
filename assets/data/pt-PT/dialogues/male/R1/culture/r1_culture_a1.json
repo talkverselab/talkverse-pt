@@ -1,0 +1,136 @@
+{
+ "id": "r1_culture_a1",
+ "region": "R1",
+ "island": "culture",
+ "kind": "short",
+ "purpose": [
+  "culture"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "title": "저녁은 아홉 시",
+ "emoji": "🍽️",
+ "scene": "저녁 7시, 셰어하우스 부엌. 배고픈 학습자가 Duarte 에게 저녁 언제 먹냐고 묻는다.",
+ "speakers": {
+  "A": "{name}",
+  "B": "Duarte"
+ },
+ "cast": {
+  "B": "duarte"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "eu·tu·ele 현재형 되풀이 — comer·jantar 현재형 — comes·como·janta",
+ "expressions": [
+  "tenho fome",
+  "ainda não",
+  "calma",
+  "pá"
+ ],
+ "variant": "pt-PT",
+ "learner_gender": "male",
+ "draft": true,
+ "turns": [
+  {
+   "speaker": "A",
+   "tl": "Tenho fome. Quando jantamos?",
+   "ko": "배고파. 저녁 언제 먹어?",
+   "note": "tenho fome = 배고파",
+   "tags": [
+    "expr:tenho fome",
+    "form:presente"
+   ],
+   "emotion": "worried",
+   "num": 1,
+   "rd": "뗑유 포므. 꽌두 잔따무쉬?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Ainda não. Jantamos às nove.",
+   "ko": "아직이야. 아홉 시에 먹어.",
+   "note": "ainda não = 아직",
+   "tags": [
+    "expr:ainda não",
+    "form:presente"
+   ],
+   "emotion": "gentle",
+   "num": 2,
+   "rd": "아인다 나웅. 잔따무즈 아쉬 노브."
+  },
+  {
+   "speaker": "A",
+   "tl": "Às nove? É tarde!",
+   "ko": "아홉 시? 늦잖아!",
+   "note": "tarde = 늦어",
+   "tags": [
+    "form:presente"
+   ],
+   "emotion": "surprised",
+   "num": 3,
+   "rd": "아쉬 노브? 에 따르드!"
+  },
+  {
+   "speaker": "B",
+   "tl": "Aqui todos jantam tarde. Come um lanche.",
+   "ko": "여기선 다들 늦게 먹어. 간식 먹어.",
+   "note": "come = 먹어; lanche = 간식",
+   "tags": [
+    "form:presente"
+   ],
+   "emotion": "amused",
+   "num": 4,
+   "rd": "아끼 또두쉬 잔따웅 따르드. 꼬므 웅 랑쉬."
+  },
+  {
+   "speaker": "A",
+   "tl": "Como um pão.",
+   "ko": "빵 하나 먹는다.",
+   "note": "como = 먹는다",
+   "tags": [
+    "form:presente"
+   ],
+   "emotion": "neutral",
+   "num": 5,
+   "rd": "꼬무 웅 빠웅."
+  },
+  {
+   "speaker": "B",
+   "tl": "Olha, a minha mãe. Janta às dez.",
+   "ko": "봐, 엄마 문자. 열 시에 저녁이야.",
+   "note": "janta = 저녁 먹는다; dez = 열",
+   "tags": [
+    "form:presente",
+    "twist"
+   ],
+   "emotion": "surprised",
+   "num": 6,
+   "rd": "올랴, 아 밍야 마잉. 잔따 아쉬 데쉬."
+  },
+  {
+   "speaker": "A",
+   "tl": "Mais um, então.",
+   "ko": "그럼 하나 더.",
+   "note": "mais = 더",
+   "tags": [],
+   "emotion": "annoyed",
+   "num": 7,
+   "rd": "마이즈 웅, 엔따웅."
+  },
+  {
+   "speaker": "B",
+   "tl": "Calma, pá. Já és português.",
+   "ko": "진정해, 야. 이제 진짜 포르투갈 사람이야.",
+   "note": "calma = 진정; pá = 야",
+   "tags": [
+    "expr:calma",
+    "expr:pá"
+   ],
+   "emotion": "teasing",
+   "num": 8,
+   "rd": "깔마, 빠. 자 에쉬 뿌르뚜게쉬."
+  }
+ ]
+}

@@ -1,0 +1,176 @@
+{
+ "id": "r2_life_c3",
+ "region": "R2",
+ "island": "life",
+ "kind": "chat",
+ "purpose": [
+  "life",
+  "chat"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "열쇠 없어",
+ "emoji": "🔑",
+ "scene": "밤 10시, 학습자는 아직 회사. 옆집 Inês 가 문 앞에서 메시지를 보낸다.",
+ "speakers": {
+  "A": "{name}",
+  "B": "Inês"
+ },
+ "cast": {
+  "B": "ines"
+ },
+ "register": "chat",
+ "twist": 8,
+ "twist_type": "slip",
+ "flags": [],
+ "goal": "채팅 — 완료과거·반과거, 동사 앞 접어 — 완료과거·동사 앞 접어 — não a encontro·deixei",
+ "expressions": [
+  "não acredito",
+  "calma",
+  "olha",
+  "vá lá"
+ ],
+ "variant": "pt-PT",
+ "learner_gender": "female",
+ "draft": true,
+ "turns": [
+  {
+   "speaker": "B",
+   "tl": "Perdi a chave.",
+   "ko": "열쇠 잃어버렸어.",
+   "note": "perdi = 잃었다",
+   "tags": [
+    "form:pretérito"
+   ],
+   "ui": "bubble",
+   "at": "22:00",
+   "emotion": "worried",
+   "num": 1,
+   "rd": "쁘르디 아 샤브."
+  },
+  {
+   "speaker": "A",
+   "tl": "Onde a deixaste?",
+   "ko": "어디에 뒀어?",
+   "note": "onde = 어디",
+   "tags": [],
+   "ui": "bubble",
+   "at": "22:01",
+   "emotion": "gentle",
+   "num": 2,
+   "rd": "옹드 아 데이샤쉬뜨?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Não sei. Não a encontro.",
+   "ko": "모르겠어. 아무리 찾아도 없어.",
+   "note": "não a encontro = 그것을 못 찾는다",
+   "tags": [
+    "form:clítico"
+   ],
+   "ui": "bubble",
+   "at": "22:02",
+   "emotion": "flustered",
+   "num": 3,
+   "rd": "나웅 쎄이. 나웅 아 엥꼰트루."
+  },
+  {
+   "speaker": "A",
+   "tl": "Viste a mala?",
+   "ko": "가방은 봤어?",
+   "note": "a mala = 가방",
+   "tags": [],
+   "ui": "bubble",
+   "at": "22:03",
+   "emotion": "neutral",
+   "num": 4,
+   "rd": "비쉬뜨 아 말라?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Vi tudo. Nada.",
+   "ko": "다 뒤져 봤어. 없어.",
+   "note": "vi = 봤다",
+   "tags": [
+    "form:pretérito"
+   ],
+   "ui": "bubble",
+   "at": "22:04",
+   "emotion": "sad",
+   "num": 5,
+   "rd": "비 뚜두. 나다."
+  },
+  {
+   "speaker": "A",
+   "tl": "Calma. A minha está debaixo do vaso.",
+   "ko": "진정해. 내 건 화분 밑에 있어.",
+   "note": "debaixo do vaso = 화분 밑에",
+   "tags": [
+    "expr:calma"
+   ],
+   "ui": "bubble",
+   "at": "22:05",
+   "emotion": "gentle",
+   "num": 6,
+   "rd": "깔마. 아 밍야 이쉬따 드바이슈 두 바주."
+  },
+  {
+   "speaker": "B",
+   "tl": "Entrei. Obrigada.",
+   "ko": "들어왔어. 고마워.",
+   "note": "entrei = 들어왔다",
+   "tags": [
+    "form:pretérito"
+   ],
+   "ui": "bubble",
+   "at": "22:06",
+   "emotion": "cheerful",
+   "num": 7,
+   "rd": "엔트레이. 오브리가다."
+  },
+  {
+   "speaker": "B",
+   "tl": "Olha, estava no bolso.",
+   "ko": "봐, 주머니에 있었어.",
+   "note": "no bolso = 주머니에",
+   "tags": [
+    "expr:olha form:imperfeito twist",
+    "twist"
+   ],
+   "ui": "bubble",
+   "at": "22:07",
+   "emotion": "surprised",
+   "num": 8,
+   "rd": "올랴, 이쉬따바 누 볼쑤."
+  },
+  {
+   "speaker": "A",
+   "tl": "Não acredito. O segredo saiu.",
+   "ko": "믿을 수가 없네. 비밀 들켰어.",
+   "note": "segredo = 비밀",
+   "tags": [
+    "expr:não acredito"
+   ],
+   "ui": "bubble",
+   "at": "22:08",
+   "emotion": "amused",
+   "num": 9,
+   "rd": "나웅 아크르디뚜. 우 쓰그레두 싸이우."
+  },
+  {
+   "speaker": "B",
+   "tl": "Vá lá, não digo a ninguém.",
+   "ko": "제발, 아무한테도 말 안 할게.",
+   "note": "não digo = 말 안 한다",
+   "tags": [
+    "expr:vá lá"
+   ],
+   "ui": "bubble",
+   "at": "22:09",
+   "emotion": "teasing",
+   "num": 10,
+   "rd": "바 라, 나웅 디구 아 닝겡."
+  }
+ ]
+}

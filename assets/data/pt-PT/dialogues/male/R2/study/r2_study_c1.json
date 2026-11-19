@@ -1,0 +1,181 @@
+{
+ "id": "r2_study_c1",
+ "region": "R2",
+ "island": "study",
+ "kind": "chat",
+ "purpose": [
+  "study",
+  "chat"
+ ],
+ "domain": [
+  "study"
+ ],
+ "title": "마감은 내일?",
+ "emoji": "📚",
+ "scene": "오후 4시, 같은 수업을 듣는 Duarte 가 다급하게 메시지를 보낸다.",
+ "speakers": {
+  "A": "{name}",
+  "B": "Duarte"
+ },
+ "cast": {
+  "B": "duarte"
+ },
+ "register": "chat",
+ "twist": 9,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "채팅 — 완료과거·반과거, 동사 앞 접어 — 완료과거·반과거 — disseram·era·acabaste",
+ "expressions": [
+  "calma",
+  "não acredito",
+  "já está",
+  "epá"
+ ],
+ "variant": "pt-PT",
+ "learner_gender": "male",
+ "draft": true,
+ "turns": [
+  {
+   "speaker": "B",
+   "tl": "Já acabaste o trabalho?",
+   "ko": "과제 다 끝냈어?",
+   "note": "acabaste = 끝냈어",
+   "tags": [
+    "form:pretérito"
+   ],
+   "ui": "bubble",
+   "at": "16:03",
+   "emotion": "worried",
+   "num": 1,
+   "rd": "자 아까바쉬뜨 우 트라발류?"
+  },
+  {
+   "speaker": "A",
+   "tl": "Ainda não o acabei. O prazo é amanhã.",
+   "ko": "아직 안 끝냈어. 마감은 내일이야.",
+   "note": "acabei = 끝냈다; amanhã = 내일",
+   "tags": [
+    "form:pretérito"
+   ],
+   "ui": "bubble",
+   "at": "16:04",
+   "emotion": "gentle",
+   "num": 2,
+   "rd": "아인다 나웅 우 아까베이. 우 프라주 에 아망양."
+  },
+  {
+   "speaker": "B",
+   "tl": "Disseram que é hoje às seis.",
+   "ko": "다들 오늘 6시라고 했어.",
+   "note": "disseram = 말했다",
+   "tags": [
+    "form:pretérito"
+   ],
+   "ui": "bubble",
+   "at": "16:05",
+   "emotion": "stiff",
+   "num": 3,
+   "rd": "디쎄라웅 끄 에 오즈 아쉬 쎄이쉬."
+  },
+  {
+   "speaker": "A",
+   "tl": "Não acredito. Estás a brincar?",
+   "ko": "못 믿겠어. 농담하는 거야?",
+   "note": "não acredito = 못 믿겠어",
+   "tags": [
+    "expr:não acredito",
+    "form:estar a"
+   ],
+   "ui": "bubble",
+   "at": "16:06",
+   "emotion": "surprised",
+   "num": 4,
+   "rd": "나웅 아크르디뚜. 이쉬따즈 아 브링까르?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Calma. Vê o email.",
+   "ko": "진정해. 이메일 확인해 봐.",
+   "note": "calma = 진정해",
+   "tags": [
+    "expr:calma"
+   ],
+   "ui": "bubble",
+   "at": "16:07",
+   "emotion": "gentle",
+   "num": 5,
+   "rd": "깔마. 베 우 에마일."
+  },
+  {
+   "speaker": "A",
+   "tl": "Só faltam duas horas!",
+   "ko": "두 시간밖에 안 남았어!",
+   "note": "faltam = 남다",
+   "tags": [],
+   "ui": "bubble",
+   "at": "16:08",
+   "emotion": "worried",
+   "num": 6,
+   "rd": "쏘 팔따웅 두아즈 오라쉬!"
+  },
+  {
+   "speaker": "B",
+   "tl": "Eu já escrevi metade. Já está.",
+   "ko": "나는 이미 절반 썼어. 끝났어.",
+   "note": "metade = 절반; já está = 이미 됐어",
+   "tags": [
+    "expr:já está",
+    "form:pretérito"
+   ],
+   "ui": "bubble",
+   "at": "16:09",
+   "emotion": "cheerful",
+   "num": 7,
+   "rd": "에우 자 이쉬크르비 므따드. 자 이쉬따."
+  },
+  {
+   "speaker": "A",
+   "tl": "Onde estás a escrever agora?",
+   "ko": "지금 어디서 쓰고 있어?",
+   "note": "onde = 어디",
+   "tags": [
+    "form:estar a"
+   ],
+   "ui": "bubble",
+   "at": "16:10",
+   "emotion": "gentle",
+   "num": 8,
+   "rd": "옹드 이쉬따즈 아 이쉬크르베르 아고라?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Epá, vi o email outra vez. Era ontem.",
+   "ko": "에파, 이메일 다시 봤어. 어제였어.",
+   "note": "era = 이었다",
+   "tags": [
+    "twist",
+    "expr:epá",
+    "form:imperfeito"
+   ],
+   "ui": "bubble",
+   "at": "16:11",
+   "emotion": "surprised",
+   "num": 9,
+   "rd": "에빠, 비 우 에마일 오우트라 베쉬. 에라 온뗑."
+  },
+  {
+   "speaker": "A",
+   "tl": "Epá...",
+   "ko": "에파...",
+   "note": "epá = 에파",
+   "tags": [
+    "expr:epá"
+   ],
+   "ui": "bubble",
+   "at": "16:12",
+   "emotion": "tsukkomi",
+   "num": 10,
+   "rd": "에빠..."
+  }
+ ]
+}

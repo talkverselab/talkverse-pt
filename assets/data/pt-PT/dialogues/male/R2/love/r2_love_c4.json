@@ -1,0 +1,176 @@
+{
+ "id": "r2_love_c4",
+ "region": "R2",
+ "island": "love",
+ "kind": "chat",
+ "purpose": [
+  "love",
+  "chat"
+ ],
+ "domain": [
+  "love"
+ ],
+ "title": "정어리 사진",
+ "emoji": "🐟",
+ "scene": "저녁, Beatriz 가 숯불 정어리 사진을 계속 보낸다.",
+ "speakers": {
+  "A": "{name}",
+  "B": "Beatriz"
+ },
+ "cast": {
+  "B": "beatriz"
+ },
+ "register": "chat",
+ "twist": 8,
+ "twist_type": "reveal",
+ "flags": [
+  "romance"
+ ],
+ "goal": "채팅 — 완료과거·반과거, 동사 앞 접어 — 반과거·완료과거 — estava·comi·fiz",
+ "expressions": [
+  "que fome",
+  "vá lá",
+  "olha",
+  "já"
+ ],
+ "variant": "pt-PT",
+ "learner_gender": "male",
+ "draft": true,
+ "turns": [
+  {
+   "speaker": "B",
+   "tl": "Sardinhas na brasa. Olha.",
+   "ko": "숯불 정어리. 봐.",
+   "note": "sardinhas = 정어리",
+   "tags": [
+    "expr:olha"
+   ],
+   "ui": "bubble",
+   "at": "19:45",
+   "emotion": "cheerful",
+   "num": 1,
+   "rd": "싸르딩야쉬 나 브라자. 올랴."
+  },
+  {
+   "speaker": "A",
+   "tl": "Que fome.",
+   "ko": "배고파.",
+   "note": "que fome = 배고파",
+   "tags": [
+    "expr:que fome"
+   ],
+   "ui": "bubble",
+   "at": "19:46",
+   "emotion": "excited",
+   "num": 2,
+   "rd": "끄 포므."
+  },
+  {
+   "speaker": "B",
+   "tl": "Olha esta. Melhor ainda.",
+   "ko": "이거 봐. 더 좋아.",
+   "note": "olha = 봐",
+   "tags": [
+    "expr:olha"
+   ],
+   "ui": "bubble",
+   "at": "19:47",
+   "emotion": "teasing",
+   "num": 3,
+   "rd": "올랴 에쉬따. 믈료르 아인다."
+  },
+  {
+   "speaker": "A",
+   "tl": "Onde estás?",
+   "ko": "지금 어디야?",
+   "note": "onde = 어디",
+   "tags": [],
+   "ui": "bubble",
+   "at": "19:48",
+   "emotion": "gentle",
+   "num": 4,
+   "rd": "옹드 이쉬따쉬?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Segredo.",
+   "ko": "비밀.",
+   "note": "segredo = 비밀",
+   "tags": [],
+   "ui": "bubble",
+   "at": "19:49",
+   "emotion": "teasing",
+   "num": 5,
+   "rd": "쓰그레두."
+  },
+  {
+   "speaker": "A",
+   "tl": "Não comi nada hoje.",
+   "ko": "오늘 아무것도 못 먹었어.",
+   "note": "não comi = 안 먹었다",
+   "tags": [
+    "form:pretérito"
+   ],
+   "ui": "bubble",
+   "at": "19:50",
+   "emotion": "sad",
+   "num": 6,
+   "rd": "나웅 꾸미 나다 오즈."
+  },
+  {
+   "speaker": "B",
+   "tl": "Já sabia.",
+   "ko": "그럴 줄 알았어.",
+   "note": "já = 이미",
+   "tags": [
+    "expr:já"
+   ],
+   "ui": "bubble",
+   "at": "19:51",
+   "emotion": "amused",
+   "num": 7,
+   "rd": "자 싸비아."
+  },
+  {
+   "speaker": "B",
+   "tl": "Abre a porta. Estava no teu quintal.",
+   "ko": "문 열어. 네 마당에서 굽고 있었어.",
+   "note": "estava = 하고 있었다",
+   "tags": [
+    "form:imperfeito twist",
+    "twist"
+   ],
+   "ui": "bubble",
+   "at": "19:52",
+   "emotion": "excited",
+   "num": 8,
+   "rd": "아브르 아 뽀르따. 이쉬따바 누 떼우 낀딸."
+  },
+  {
+   "speaker": "A",
+   "tl": "O fumo era teu?",
+   "ko": "아까 연기 그거였어?",
+   "note": "fumo = 연기",
+   "tags": [],
+   "ui": "bubble",
+   "at": "19:53",
+   "emotion": "surprised",
+   "num": 9,
+   "rd": "우 푸무 에라 떼우?"
+  },
+  {
+   "speaker": "B",
+   "tl": "Vá lá, vem antes que arrefeça.",
+   "ko": "빨리 나와, 식기 전에.",
+   "note": "vá lá = 빨리/제발",
+   "tags": [
+    "expr:vá lá"
+   ],
+   "ui": "bubble",
+   "at": "19:54",
+   "emotion": "cheerful",
+   "num": 10,
+   "rd": "바 라, 벵 안뜨쉬 끄 아흐페싸."
+  }
+ ]
+}

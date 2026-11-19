@@ -1,0 +1,126 @@
+{
+ "id": "r0_life_a2",
+ "region": "R0",
+ "island": "life",
+ "kind": "short",
+ "purpose": [
+  "life"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "하나만 더",
+ "emoji": "🥐",
+ "scene": "아침, 동네 빵집. 단골 Inês 가 「하나만 맛보라」며 학습자 몫까지 고르기 시작한다.",
+ "speakers": {
+  "A": "{name}",
+  "B": "Inês"
+ },
+ "cast": {
+  "B": "ines"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "짧은 덩어리로 반응하기 — 빵집에서 짧게 고르기 — 「queria」「mais um」「pronto」",
+ "expressions": [
+  "bom dia",
+  "queria",
+  "mais um",
+  "pronto"
+ ],
+ "variant": "pt-PT",
+ "learner_gender": "male",
+ "draft": true,
+ "turns": [
+  {
+   "speaker": "B",
+   "tl": "Bom dia! O que queres?",
+   "ko": "안녕! 뭐 먹을래?",
+   "note": "bom dia = 안녕",
+   "tags": [
+    "expr:bom dia"
+   ],
+   "emotion": "cheerful",
+   "num": 1,
+   "rd": "봉 디아! 우 끄 께르쉬?"
+  },
+  {
+   "speaker": "A",
+   "tl": "Queria um pastel de nata.",
+   "ko": "에그타르트 하나 주세요.",
+   "note": "queria = ~주세요",
+   "tags": [
+    "expr:queria"
+   ],
+   "emotion": "polite",
+   "num": 2,
+   "rd": "께리아 웅 빠쉬뗄 드 나따."
+  },
+  {
+   "speaker": "B",
+   "tl": "Mais um. Só um não.",
+   "ko": "하나 더. 하나만은 안 돼.",
+   "note": "mais um = 하나 더",
+   "tags": [
+    "expr:mais um"
+   ],
+   "emotion": "teasing",
+   "num": 3,
+   "rd": "마이즈 웅. 쏘 웅 나웅."
+  },
+  {
+   "speaker": "A",
+   "tl": "Dois, então.",
+   "ko": "그럼 두 개요.",
+   "note": "dois = 둘",
+   "tags": [],
+   "emotion": "stiff",
+   "num": 4,
+   "rd": "도이쉬, 엔따웅."
+  },
+  {
+   "speaker": "B",
+   "tl": "E este também. Fica bom.",
+   "ko": "이것도. 맛있을 거야.",
+   "note": "e este = 이것도",
+   "tags": [],
+   "emotion": "excited",
+   "num": 5,
+   "rd": "이 에쉬뜨 땀벵. 피까 봉."
+  },
+  {
+   "speaker": "A",
+   "tl": "Pronto... Doze?!",
+   "ko": "자... 열두 개?!",
+   "note": "pronto = 자; doze = 열둘",
+   "tags": [
+    "expr:pronto",
+    "twist"
+   ],
+   "segs": [
+    [
+     "surprised",
+     "Pronto..."
+    ],
+    [
+     "shout",
+     " Doze?!"
+    ]
+   ],
+   "num": 6,
+   "rd": "프론뚜... 도즈?!"
+  },
+  {
+   "speaker": "B",
+   "tl": "Metade é minha. Obrigada!",
+   "ko": "절반은 내 거야. 고마워!",
+   "note": "obrigada = 고마워",
+   "tags": [],
+   "emotion": "amused",
+   "num": 7,
+   "rd": "므따드 에 밍야. 오브리가다!"
+  }
+ ]
+}
