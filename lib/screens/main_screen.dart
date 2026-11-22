@@ -18,7 +18,6 @@ import 'speaking_practice_screen.dart';
 import 'progress_screen.dart';
 import 'sense_course_screen.dart';
 import 'topic_vocab_screen.dart';
-import 'verb_screen.dart';
 import 'word_flashcard_screen.dart';
 import 'word_freq_screen.dart';
 import 'word_quiz_screen.dart';
@@ -407,10 +406,7 @@ class _MenuGrid extends StatelessWidget {
           builder: (_) => const SenseCourseScreen()),
         _MenuItem(label: tr('문법'), sub: 'Gramática', badge: 'G', color: AppColors.rojoDeep,
           builder: (_) => const GrammarHubScreen()),
-        _MenuItem(label: tr('동사 활용'), sub: 'Conjugação', badge: 'V', color: AppColors.irregular,
-          builder: (_) => const VerbScreen()),
-        _MenuItem(label: tr('성·수'), sub: 'Género', badge: 'el/la', color: AppColors.mar,
-          builder: (_) => _ComingSoon(title: tr('성·수 일치'))),
+        // 동사 활용(verbs_core.json 0개)·성·수(준비 중) 는 내용이 찰 때까지 메뉴에서 숨김 — 통합 앱 심사(11-23)에 빈 화면이 보이지 않게(11-22)
       ]),
       (tr('회화'), [
         _MenuItem(label: tr('회화'), sub: 'Conversa', badge: 'Ch', color: AppColors.beniLight,
@@ -536,6 +532,7 @@ class _MenuTile extends StatelessWidget {
   }
 }
 
+// ignore: unused_element
 class _ComingSoon extends StatelessWidget {
   final String title;
   const _ComingSoon({required this.title});
