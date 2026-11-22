@@ -1,0 +1,65 @@
+{
+ "_note": "문법 스텝 목록 — 앱은 이 목록(개수·순서·제목)대로만 그리고, 패턴이 빈 스텝은 숨긴다. 서버 원고(script/pt)의 이 파일이 있으면 그것을 따른다(스텝을 빼면 사라지고 더하면 생김).",
+ "steps": [
+  {
+   "step": 1,
+   "file": "grammar/lesson1.json"
+  },
+  {
+   "step": 2,
+   "file": "grammar/lesson2.json"
+  },
+  {
+   "step": 3,
+   "file": "grammar/lesson3.json"
+  },
+  {
+   "step": 4,
+   "file": "grammar/lesson4.json"
+  },
+  {
+   "step": 5,
+   "file": "grammar/lesson5.json"
+  },
+  {
+   "step": 6,
+   "file": "grammar/lesson6.json"
+  },
+  {
+   "step": 7,
+   "file": "grammar/lesson7.json"
+  },
+  {
+   "step": 8,
+   "file": "grammar/lesson8.json"
+  },
+  {
+   "step": 9,
+   "file": "grammar/lesson9.json"
+  },
+  {
+   "step": 10,
+   "file": "grammar/lesson10.json"
+  },
+  {
+   "step": 11,
+   "file": "grammar/lesson11.json"
+  },
+  {
+   "step": 12,
+   "file": "grammar/lesson12.json"
+  },
+  {
+   "step": 13,
+   "file": "grammar/lesson13.json"
+  },
+  {
+   "step": 14,
+   "file": "grammar/lesson14.json"
+  },
+  {
+   "step": 15,
+   "file": "grammar/lesson15.json"
+  }
+ ]
+}

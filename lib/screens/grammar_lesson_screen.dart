@@ -1,11 +1,10 @@
-import '../core/embed_env.dart';
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart' show rootBundle;
 
 import '../core/theme.dart';
 import '../services/ko_reading.dart';
+import '../services/script_sync.dart';
 import '../services/tts_service.dart';
 import '../widgets/spanish_decor.dart';
 import 'grammar_test_screen.dart';
@@ -26,22 +25,39 @@ class GrammarLesson {
   int get exampleCount =>
       patterns.fold(0, (n, p) => n + ((p['examples'] as List?)?.length ?? 0));
 
-  static Future<List<GrammarLesson>> loadAll() async {
+  static GrammarLesson? _parse(Map<String, dynamic> d, int i, String? title) {
+    final patterns = [for (final p in (d['patterns'] as List? ?? const [])) Map<String, dynamic>.from(p as Map)];
+    if (patterns.isEmpty) return null; // 빈 스텝은 숨김 — 서버에 내용이 올라오면 저절로 나타난다
+    final t = (title?.isNotEmpty ?? false) ? title! : (d['title'] as String? ?? '');
+    return GrammarLesson(
+      (d['lesson'] as num?)?.toInt() ?? i,
+      t.isNotEmpty ? t : trf('문법 {0}', [i]),
+      d['subtitle'] as String? ?? '',
+      [for (final s in (d['stages'] as List? ?? const [])) if (s is Map) Map<String, dynamic>.from(s)],
+      patterns,
+    );
+  }
+
+  /// 스텝 목록(`grammar/lessons.json`)·각 스텝 파일을 서버 원고(ScriptSync — 있으면 서버 판, 없으면 앱 안 것)로 읽는다.
+  /// 스텝 구성·제목·순서도 데이터에서 — 앱을 다시 내지 않고 서버 원고만 올려 바꾼다(사용자 지시 2026-11-23).
+  /// [load] 는 시험용 주입.
+  static Future<List<GrammarLesson>> loadAll({Future<String> Function(String rel)? load}) async {
+    final read = load ?? ScriptSync.instance.load;
     final out = <GrammarLesson>[];
-    for (var i = 1; i <= 20; i++) {
+    List steps;
+    try {
+      steps = (json.decode(await read('grammar/lessons.json')) as Map<String, dynamic>)['steps'] as List? ?? const [];
+    } catch (_) {
+      steps = [for (var i = 1; i <= 15; i++) {'step': i, 'file': 'grammar/lesson$i.json'}]; // 목록 파일이 깨졌을 때만 쓰는 기본 틀
+    }
+    for (final st in steps) {
+      if (st is! Map) continue;
+      final i = (st['step'] as num?)?.toInt() ?? out.length + 1;
+      final file = st['file'] as String? ?? 'grammar/lesson$i.json';
       try {
-        final raw = await rootBundle.loadString(assetPath('assets/data/grammar/lesson$i.json'));
-        final d = json.decode(raw) as Map<String, dynamic>;
-        out.add(GrammarLesson(
-          (d['lesson'] as num?)?.toInt() ?? i,
-          d['title'] as String? ?? trf('문법 {0}', [i]),
-          d['subtitle'] as String? ?? '',
-          [for (final s in (d['stages'] as List? ?? const [])) Map<String, dynamic>.from(s as Map)],
-          [for (final p in (d['patterns'] as List? ?? const [])) Map<String, dynamic>.from(p as Map)],
-        ));
-      } catch (_) {
-        break;
-      }
+        final l = _parse(json.decode(await read(file)) as Map<String, dynamic>, i, st['title'] as String?);
+        if (l != null) out.add(l);
+      } catch (_) {}
     }
     return out;
   }
@@ -61,9 +77,16 @@ class _GrammarHubScreenState extends State<GrammarHubScreen> {
   @override
   void initState() {
     super.initState();
-    GrammarLesson.loadAll().then((l) {
-      if (mounted) setState(() => _lessons = l);
+    _load();
+    // 서버에 더 새 원고가 있으면 받아 다시 읽는다(없거나 실패하면 그대로)
+    ScriptSync.instance.refresh().then((changed) {
+      if (changed) _load();
     });
+  }
+
+  Future<void> _load() async {
+    final l = await GrammarLesson.loadAll();
+    if (mounted) setState(() => _lessons = l);
   }
 
   @override

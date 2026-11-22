@@ -1,8 +1,24 @@
 {
 "files": {
+"grammar/lesson1.json": "655c60e840e3",
+"grammar/lesson10.json": "6b5ec0bad53f",
+"grammar/lesson11.json": "8982e22f2048",
+"grammar/lesson12.json": "3845e6e12b44",
+"grammar/lesson13.json": "1035d37679c2",
+"grammar/lesson14.json": "20bd722ee1ca",
+"grammar/lesson15.json": "03b81acc60fe",
+"grammar/lesson2.json": "04ebe1cb0ac8",
+"grammar/lesson3.json": "39237e46110d",
+"grammar/lesson4.json": "fbccd5a3a65d",
+"grammar/lesson5.json": "389ee929351f",
+"grammar/lesson6.json": "bfaae366114d",
+"grammar/lesson7.json": "4619b83ec611",
+"grammar/lesson8.json": "ab887c67a13d",
+"grammar/lesson9.json": "2c1ca868e55d",
+"grammar/lessons.json": "b69e502b956a",
 "grammar/sense_course.json": "d79b94b640fd",
 "pt-PT/dialogues/female.json": "505bc5deaea0",
 "pt-PT/dialogues/male.json": "91e7214e2a55"
 },
-"rev": 7
+"rev": 8
 }
