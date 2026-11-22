@@ -1,0 +1,23 @@
+아래 첨부한 L10.txt 뼈대(끝에 규칙)로 쓴 네 답에 틀린 곳이 있다. 지적을 반영해 10줄 전체를 다시 써서, 같은 형식(머리 줄 + `누구 | 포르투갈어 | 한국어` 10줄)으로 코드 블록 하나에만 답해라. 화자 순서는 그대로. 표시 {낱말|번호} 는 포르투갈어·한국어 양쪽에 같은 번호가 모두 있어야 한다.
+
+지적:
+- 「levarias-me」 — 유럽 포르투갈어에서 조건법 + 접어는 동사 사이(levar-me-ias)인데 그건 R5 문법이라 쓰지 말 것. 접어 없이 바꿔라.
+- 「Se ganhares, o que farias?」 — se + 접속법 미래와 조건법이 맞지 않는다. 조건법이면 se ganhasses(접속법 반과거), 아니면 vais fazer.
+- 「Comprei lotaria」 → pt-PT 자연스러운 표현으로(um bilhete da lotaria 등).
+
+네 이전 답:
+=== sense_L10
+title: 미래·조건 (vou fazer · faria)
+scene: 해 질 녘 강가. 친구 Duarte 와 복권에 당첨되면 뭘 할지 이야기한다.
+cast: 나(학습자), Duarte
+
+Duarte | Comprei lotaria. Amanhã {vou ver|1}. | 복권 샀어. 내일 {확인할게|1}.
+나 | Se ganhares, o que {farias|1}? | 당첨되면 뭐 {할 거야|1}?
+Duarte | {Compraria|1} um barco. | {배 살 거야|1}.
+나 | Eu {viajaria|1} pelo mundo. | 나는 {세계 여행할 거야|1}.
+Duarte | Amanhã {vou trabalhar|1} na mesma. | 내일은 일단 {출근할 거야|1}.
+나 | Se ganhares, {deixarias|1} o emprego? | 당첨되면 회사 {그만둘 거야|1}?
+Duarte | Sim, {deixaria|1} logo. | 응, 바로 {그만둘 거야|1}.
+나 | Então {levarias-me|1} no barco? | 그럼 배 {태워 줄 거야|1}?
+Duarte | Claro. E tu {cozinharias|1}. | 물론이지. 요리는 네가 {담당이야|1}.
+나 | Então amanhã {vamos ver|1} juntos. | 그럼 내일 같이 {결과 보자|1}.

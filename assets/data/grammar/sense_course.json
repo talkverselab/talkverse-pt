@@ -1,6 +1,6 @@
 {
  "title": "언어감각 익히기",
- "subtitle": "정규과정 · 영상 → 대화 통째로 외우기 → 참고",
+ "subtitle": "정규과정 · 영상 → 대화 통째로 외우기",
  "levels": [
   {
    "id": "L1",
@@ -11,8 +11,69 @@
      "title": "성과 수 맞추기 (o/a · -s)",
      "kind": "memorize",
      "video": "",
-     "note": "",
-     "sentences": []
+     "note": "일부러 규칙을 설명하지 않았어요. 대화를 통째로 외우면 o·a·s 가 저절로 맞춰져요.",
+     "sentences": [
+      {
+       "who": "점원",
+       "tl": "Bom {dia|1}! O que deseja?",
+       "rd": "봉 디아! 우 끄 드제자?",
+       "ko": "좋은 {아침|1}! 무엇을 원하세요?"
+      },
+      {
+       "who": "나",
+       "tl": "Um {pão|1}, por favor.",
+       "rd": "웅 빠웅, 뽀르 파보르.",
+       "ko": "{빵|1} 하나 주세요."
+      },
+      {
+       "who": "점원",
+       "tl": "{Quantos|1} {pães|2} deseja?",
+       "rd": "꽌뚜쉬 빠잉쉬 드제자?",
+       "ko": "{몇|1} {개|2}의 빵을 원하세요?"
+      },
+      {
+       "who": "나",
+       "tl": "Dois {pães|1}.",
+       "rd": "도이쉬 빠잉쉬.",
+       "ko": "{빵|1} 두 개요."
+      },
+      {
+       "who": "점원",
+       "tl": "Temos uma {tarte|1} {nova|2}. Quer?",
+       "rd": "떼무즈 우마 따르뜨 노바. 께르?",
+       "ko": "새로운 {타르트|1} {하나|2} 있어요. 원하세요?"
+      },
+      {
+       "who": "나",
+       "tl": "A {tarte|1} é {bonita|2}. Duas {tartes|1}, por favor.",
+       "rd": "아 따르뜨 에 부니따. 두아쉬 따르뜨쉬, 뽀르 파보르.",
+       "ko": "{타르트|1}가 {예뻐요|2}. {타르트|1} 두 개 주세요."
+      },
+      {
+       "who": "점원",
+       "tl": "Os {pães|1} estão {quentes|2}, a tarte está {fria|1}.",
+       "rd": "우쉬 빠잉즈 이쉬따웅 껜뜨쉬, 아 따르뜨 이쉬따 프리아.",
+       "ko": "{빵들|1}은 {따뜻하고|2}, 타르트는 {차가워요|1}."
+      },
+      {
+       "who": "나",
+       "tl": "Prefiro o {pão|1} {quente|2}.",
+       "rd": "프르피루 우 빠웅 껜뜨.",
+       "ko": "{따뜻한|2} {빵|1}이 더 좋아요."
+      },
+      {
+       "who": "점원",
+       "tl": "{Tudo|1} isso são quatro euros.",
+       "rd": "뚜두 이쑤 싸웅 꽈트루 에우루쉬.",
+       "ko": "{전부|1} 해서 4유로입니다."
+      },
+      {
+       "who": "나",
+       "tl": "Até {logo|1}!",
+       "rd": "아떼 로구!",
+       "ko": "또 {봐요|1}!"
+      }
+     ]
     }
    ]
   },
@@ -25,8 +86,69 @@
      "title": "ser 와 estar",
      "kind": "memorize",
      "video": "",
-     "note": "",
-     "sentences": []
+     "note": "「~이다」가 둘이에요. 늘 그런 것과 지금 그런 것 — 대화로 감을 잡아요.",
+     "sentences": [
+      {
+       "who": "Inês",
+       "tl": "Hoje {pareces|1} um bocado em baixo.",
+       "rd": "오즈 빠레쓰즈 웅 부까두 앵 바이슈.",
+       "ko": "오늘 좀 {처져 보여|1}."
+      },
+      {
+       "who": "나",
+       "tl": "Eu {sou|1} de manhã, mas hoje {estou|2} assim.",
+       "rd": "에우 쏘우 드 망양, 마즈 오즈 이쉬또우 아씽.",
+       "ko": "나는 원래 {아침형|1}인데 오늘은 {이래|2}."
+      },
+      {
+       "who": "Inês",
+       "tl": "Eu {sou|1} de noite, sempre.",
+       "rd": "에우 쏘우 드 노이뜨, 쎔프르.",
+       "ko": "나는 항상 {저녁형|1}이야."
+      },
+      {
+       "who": "나",
+       "tl": "Este café {está|1} mesmo {frio|2}.",
+       "rd": "에쉬뜨 까페 이쉬따 메쥬무 프리우.",
+       "ko": "이 커피 {진짜|1} {차가워요|2}."
+      },
+      {
+       "who": "Inês",
+       "tl": "O café daqui {é|1} sempre {bom|2}.",
+       "rd": "우 까페 다끼 에 쎔프르 봉.",
+       "ko": "여기 커피는 {원래|1} {맛있어|2}."
+      },
+      {
+       "who": "나",
+       "tl": "O café {é|1} perto de casa?",
+       "rd": "우 까페 에 뻬르뚜 드 까자?",
+       "ko": "카페가 집에서 {가까워|1}?"
+      },
+      {
+       "who": "Inês",
+       "tl": "Agora {está|1} {cheio|2} e barulhento.",
+       "rd": "아고라 이쉬따 셰이우 이 바룰롄뚜.",
+       "ko": "지금은 {사람 많고|1} {시끄러워|2}."
+      },
+      {
+       "who": "나",
+       "tl": "Hoje {pareces|1} bem {contente|2}.",
+       "rd": "오즈 빠레쓰쉬 벵 꼰뗀뜨.",
+       "ko": "오늘 {꽤|1} {기분 좋아 보여|2}."
+      },
+      {
+       "who": "Inês",
+       "tl": "O exame {está|1} finalmente {acabado|2}.",
+       "rd": "우 이자므 이쉬따 피날멘뜨 아까바두.",
+       "ko": "시험이 {드디어|1} {끝났어|2}."
+      },
+      {
+       "who": "나",
+       "tl": "Vamos a um sítio que {é|1} {calmo|2}.",
+       "rd": "바무즈 아 웅 씨띠우 끄 에 깔무.",
+       "ko": "다음에 {좀|1} {조용한|2} 곳에 가자."
+      }
+     ]
     }
    ]
   },
@@ -39,8 +161,69 @@
      "title": "tu 와 o senhor",
      "kind": "memorize",
      "video": "",
-     "note": "",
-     "sentences": []
+     "note": "같은 말을 친구에게, 처음 보는 어른에게 — 동사 끝이 바뀌는 걸 들어 보세요.",
+     "sentences": [
+      {
+       "who": "나",
+       "tl": "{Sabes|1} se o 28 passa aqui?",
+       "rd": "싸브쉬 쓰 우 28 빠싸 아끼?",
+       "ko": "{알아|1}? 28번이 여기 지나?"
+      },
+      {
+       "who": "Tiago",
+       "tl": "Não sei. {Pergunta|1} à senhora.",
+       "rd": "나웅 쎄이. 쁘르군따 아 쎙요라.",
+       "ko": "몰라. 저 할머니께 {여쭤봐|1}."
+      },
+      {
+       "who": "나",
+       "tl": "{A senhora sabe|1} se o 28 vem já?",
+       "rd": "아 쎙요라 싸브 쓰 우 28 벵 자?",
+       "ko": "{할머니는 아세요|1}? 28번이 곧 오나요?"
+      },
+      {
+       "who": "Fernanda",
+       "tl": "{Sei|1}, sim. {Vem já|2}.",
+       "rd": "쎄이, 씽. 벵 자.",
+       "ko": "{알아요|1}. {곧 와요|2}."
+      },
+      {
+       "who": "나",
+       "tl": "{A senhora vai|1} aonde?",
+       "rd": "아 쎙요라 바이 아옹드?",
+       "ko": "{할머니는 어디 가세요|1}?"
+      },
+      {
+       "who": "Fernanda",
+       "tl": "Vou ao mercado. E {o senhor|1}?",
+       "rd": "보우 아우 므르까두. 이 우 쎙요르?",
+       "ko": "시장에 가요. 그럼 {선생님은|1}?"
+      },
+      {
+       "who": "나",
+       "tl": "{Vamos|1} ao castelo com o Tiago.",
+       "rd": "바무즈 아우 까쉬뗄루 꽁 우 띠아구.",
+       "ko": "티아고랑 {성에 가요|1}."
+      },
+      {
+       "who": "Tiago",
+       "tl": "{Tens|1} o bilhete?",
+       "rd": "뗑즈 우 빌례뜨?",
+       "ko": "{표 있어|1}?"
+      },
+      {
+       "who": "나",
+       "tl": "Onde é que {a senhora compra|1} o bilhete?",
+       "rd": "옹드 에 끄 아 쎙요라 꽁프라 우 빌례뜨?",
+       "ko": "{표는 어디서 사세요|1}?"
+      },
+      {
+       "who": "Fernanda",
+       "tl": "{Compra-se|1} no elétrico.",
+       "rd": "꽁프라 쓰 누 엘레트리꾸.",
+       "ko": "{전차 안에서 사요|1}."
+      }
+     ]
     }
    ]
   },
@@ -53,8 +236,69 @@
      "title": "estar a + 원형 (지금 하는 중)",
      "kind": "memorize",
      "video": "",
-     "note": "",
-     "sentences": []
+     "note": "「지금 ~하고 있어」는 estar a + 원형. 전화 대화로 익혀요.",
+     "sentences": [
+      {
+       "who": "Duarte",
+       "tl": "O que {estás a fazer|1}?",
+       "rd": "우 끄 이쉬따즈 아 파제르?",
+       "ko": "지금 뭐 {하고 있어|1}?"
+      },
+      {
+       "who": "나",
+       "tl": "{Estou à espera|1} do autocarro.",
+       "rd": "이쉬또우 아 이쉬뻬라 두 아우뚜까후.",
+       "ko": "{버스 기다리고 있어|1}."
+      },
+      {
+       "who": "Duarte",
+       "tl": "Eu já {estou a comer|1}.",
+       "rd": "에우 자 이쉬또우 아 꾸메르.",
+       "ko": "나는 벌써 {먹고 있어|1}."
+      },
+      {
+       "who": "나",
+       "tl": "O autocarro {está a chegar|1}.",
+       "rd": "우 아우뚜까후 이쉬따 아 쉬가르.",
+       "ko": "버스가 지금 {오고 있어|1}."
+      },
+      {
+       "who": "Duarte",
+       "tl": "Os outros também {estão a esperar|1}.",
+       "rd": "우즈 오우트루쉬 땀벵 이쉬따웅 아 이쉬쁘라르.",
+       "ko": "다른 애들도 {기다리고 있어|1}."
+      },
+      {
+       "who": "나",
+       "tl": "Agora {estou a correr|1}.",
+       "rd": "아고라 이쉬또우 아 꾸헤르.",
+       "ko": "지금 {뛰고 있어|1}."
+      },
+      {
+       "who": "Duarte",
+       "tl": "{Está a chover|1} aí?",
+       "rd": "이쉬따 아 슈베르 아이?",
+       "ko": "거기 {비 오고 있어|1}?"
+      },
+      {
+       "who": "나",
+       "tl": "Sim, {está a chover|1} um bocado.",
+       "rd": "씽, 이쉬따 아 슈베르 웅 부까두.",
+       "ko": "응, {조금 오고 있어|1}."
+      },
+      {
+       "who": "Duarte",
+       "tl": "O empregado {está a olhar|1} para mim.",
+       "rd": "우 엠프르가두 이쉬따 아 올랴르 빠라 밍.",
+       "ko": "웨이터가 자꾸 {쳐다보고 있어|1}."
+      },
+      {
+       "who": "나",
+       "tl": "Já {estou a entrar|1}. Até já!",
+       "rd": "자 이쉬또우 아 엔트라르. 아떼 자!",
+       "ko": "지금 {들어가고 있어|1}. 곧 봐!"
+      }
+     ]
     }
    ]
   },
@@ -67,8 +311,69 @@
      "title": "완료과거 — 했다",
      "kind": "memorize",
      "video": "",
-     "note": "",
-     "sentences": []
+     "note": "어제 한 일 이야기. -ei · -aste · -ou 소리가 반복돼요.",
+     "sentences": [
+      {
+       "who": "Beatriz",
+       "tl": "O que {fizeste|1} no fim de semana?",
+       "rd": "우 끄 피제쉬뜨 누 핑 드 쓰마나?",
+       "ko": "주말에 뭐 {했어|1}?"
+      },
+      {
+       "who": "나",
+       "tl": "{Fui|1} a Sintra.",
+       "rd": "푸이 아 씬트라.",
+       "ko": "{신트라에 갔어|1}."
+      },
+      {
+       "who": "Beatriz",
+       "tl": "Com quem {foste|1}?",
+       "rd": "꽁 껭 포쉬뜨?",
+       "ko": "누구랑 {갔어|1}?"
+      },
+      {
+       "who": "나",
+       "tl": "{Fomos|1} de comboio com um amigo.",
+       "rd": "포무쉬 드 꽁보이우 꽁 웅 아미구.",
+       "ko": "친구랑 기차로 {갔어|1}."
+      },
+      {
+       "who": "Beatriz",
+       "tl": "O que {comeste|1}?",
+       "rd": "우 끄 꾸메쉬뜨?",
+       "ko": "뭐 {먹었어|1}?"
+      },
+      {
+       "who": "나",
+       "tl": "{Comi|1} travesseiros.",
+       "rd": "꾸미 트라브쎄이루쉬.",
+       "ko": "{유명한 과자 먹었어|1}."
+      },
+      {
+       "who": "Beatriz",
+       "tl": "Eu só {dormi|1} em casa.",
+       "rd": "에우 쏘 두르미 앵 까자.",
+       "ko": "나는 집에서 {잠만 잤어|1}."
+      },
+      {
+       "who": "나",
+       "tl": "Quantas horas {dormiste|1}?",
+       "rd": "꽌따즈 오라쉬 두르미쉬뜨?",
+       "ko": "몇 시간 {잤어|1}?"
+      },
+      {
+       "who": "Beatriz",
+       "tl": "{Doze horas|1}!",
+       "rd": "도즈 오라쉬!",
+       "ko": "{열두 시간|1}!"
+      },
+      {
+       "who": "나",
+       "tl": "Por isso hoje {pareces|1} bem.",
+       "rd": "뽀르 이쑤 오즈 빠레쓰쉬 벵.",
+       "ko": "그래서 오늘 {기분 좋아 보여|1}."
+      }
+     ]
     }
    ]
   },
@@ -81,8 +386,69 @@
      "title": "반과거 — 하곤 했다",
      "kind": "memorize",
      "video": "",
-     "note": "",
-     "sentences": []
+     "note": "어릴 때 늘 하던 일은 반과거. -ava · -ia 가 들려요.",
+     "sentences": [
+      {
+       "who": "나",
+       "tl": "Esta criança {é a senhora|1}?",
+       "rd": "에쉬따 크리안싸 에 아 쎙요라?",
+       "ko": "이 아이가 {할머니예요|1}?"
+      },
+      {
+       "who": "Fernanda",
+       "tl": "Sim, {vivia|1} aqui em pequena.",
+       "rd": "씽, 비비아 아끼 앵 쁘께나.",
+       "ko": "응, 어릴 때 이 동네에 {살았어|1}."
+      },
+      {
+       "who": "나",
+       "tl": "A que {brincava|1} a senhora naquela altura?",
+       "rd": "아 끄 브링까바 아 쎙요라 나껠라 알뚜라?",
+       "ko": "그때 뭐 하고 {노셨어요|1}?"
+      },
+      {
+       "who": "Fernanda",
+       "tl": "Todos os dias {jogávamos|1} à bola na rua.",
+       "rd": "또두즈 우쉬 디아쉬 주가바무즈 아 볼라 나 후아.",
+       "ko": "매일 길에서 {공놀이했어|1}."
+      },
+      {
+       "who": "나",
+       "tl": "A escola {era longe|1}?",
+       "rd": "아 이쉬꼴라 에라 롱즈?",
+       "ko": "학교는 {멀었어요|1}?"
+      },
+      {
+       "who": "Fernanda",
+       "tl": "Não, {ia a pé|1}.",
+       "rd": "나웅, 이아 아 뻬.",
+       "ko": "아니, {걸어서 다녔어|1}."
+      },
+      {
+       "who": "나",
+       "tl": "Eu só {jogava|1} videojogos.",
+       "rd": "에우 쏘 주가바 비데오조구쉬.",
+       "ko": "나는 {게임만 했어|1}."
+      },
+      {
+       "who": "Fernanda",
+       "tl": "Naquela época {não havia|1} televisão.",
+       "rd": "나껠라 에뽀까 나웅 아비아 뜰르비자웅.",
+       "ko": "그때는 텔레비전도 {없었어|1}."
+      },
+      {
+       "who": "나",
+       "tl": "E à noite o que {faziam|1}?",
+       "rd": "이 아 노이뜨 우 끄 파지아웅?",
+       "ko": "그럼 저녁엔 뭐 {하셨어요|1}?"
+      },
+      {
+       "who": "Fernanda",
+       "tl": "{Cantávamos|1} todos juntos.",
+       "rd": "깐따바무쉬 또두쉬 준뚜쉬.",
+       "ko": "다 같이 {노래 불렀어|1}."
+      }
+     ]
     }
    ]
   },
@@ -95,8 +461,69 @@
      "title": "접어 붙이기 (diz-me · não me diz)",
      "kind": "memorize",
      "video": "",
-     "note": "",
-     "sentences": []
+     "note": "「나에게·그것을」 같은 짧은 말이 동사 뒤에 붙었다가, 부정문에선 앞으로 와요.",
+     "sentences": [
+      {
+       "who": "Tiago",
+       "tl": "{Diz-me|1} se viste a chave.",
+       "rd": "디쉬 므 쓰 비쉬뜨 아 샤브.",
+       "ko": "열쇠 봤는지 {말해 줘|1}."
+      },
+      {
+       "who": "나",
+       "tl": "Não vi. {Levaste-a|1} ontem.",
+       "rd": "나웅 비. 르바쉬뜨 아 온뗑.",
+       "ko": "못 봤어. 어제 {가져갔잖아|1}."
+      },
+      {
+       "who": "Tiago",
+       "tl": "{Não a levei|1}.",
+       "rd": "나웅 아 르베이.",
+       "ko": "{안 가져갔어|1}."
+      },
+      {
+       "who": "나",
+       "tl": "{Vê|1} debaixo do sofá.",
+       "rd": "베 드바이슈 두 쑤파.",
+       "ko": "소파 밑을 {봐|1}."
+      },
+      {
+       "who": "Tiago",
+       "tl": "{Encontrei-a|1}! {Dou-te|2}.",
+       "rd": "엥꼰트레이 아! 도우 뜨.",
+       "ko": "{찾았어|1}! {줄게|2}."
+      },
+      {
+       "who": "나",
+       "tl": "Obrigado. Amanhã {devolvo-a|1}.",
+       "rd": "오브리가두. 아망양 드볼부 아.",
+       "ko": "고마워. 내일 {돌려줄게|1}."
+      },
+      {
+       "who": "Tiago",
+       "tl": "{Não a deixes|1} em lado nenhum.",
+       "rd": "나웅 아 데이쉬즈 앵 라두 넹융.",
+       "ko": "{아무 데나 두지 마|1}."
+      },
+      {
+       "who": "나",
+       "tl": "Tranquilo, {ponho-a|1} na mochila.",
+       "rd": "트랑낄루, 뽕유 아 나 무실라.",
+       "ko": "걱정 마, 가방에 {넣을게|1}."
+      },
+      {
+       "who": "Tiago",
+       "tl": "Amanhã {liga-me|1}.",
+       "rd": "아망양 리가 므.",
+       "ko": "내일 {전화해|1}."
+      },
+      {
+       "who": "나",
+       "tl": "De manhã {ligo-te|1}.",
+       "rd": "드 망양 리구 뜨.",
+       "ko": "아침에 {전화할게|1}."
+      }
+     ]
     }
    ]
   },
@@ -109,8 +536,69 @@
      "title": "묻고 맞장구치기",
      "kind": "memorize",
      "video": "",
-     "note": "",
-     "sentences": []
+     "note": "a sério? · pois · ai é? — 리스본 사람의 맞장구를 대화째 외워요.",
+     "sentences": [
+      {
+       "who": "Inês",
+       "tl": "Ontem {sabes o que|1} aconteceu?",
+       "rd": "온뗑 싸브즈 우 끄 아꼰뜨쎄우?",
+       "ko": "어제 {있잖아|1}, 대박 일이 있었어."
+      },
+      {
+       "who": "나",
+       "tl": "{O quê|1}?",
+       "rd": "우 께?",
+       "ko": "{뭔데|1}?"
+      },
+      {
+       "who": "Inês",
+       "tl": "{Vi|1} um jogador famoso na rua.",
+       "rd": "비 웅 주가도르 파모주 나 후아.",
+       "ko": "길에서 유명 축구 선수를 {봤어|1}."
+      },
+      {
+       "who": "나",
+       "tl": "{A sério|1}?",
+       "rd": "아 쎄리우?",
+       "ko": "{진짜|1}?"
+      },
+      {
+       "who": "Inês",
+       "tl": "Sim, até {tirei|1} foto.",
+       "rd": "씽, 아떼 띠레이 포뚜.",
+       "ko": "응, 사진도 {찍었어|1}."
+      },
+      {
+       "who": "나",
+       "tl": "{Ai é|1}?",
+       "rd": "아이 에?",
+       "ko": "{오, 그래|1}?"
+      },
+      {
+       "who": "Inês",
+       "tl": "Mas a foto {ficou tremida|1}.",
+       "rd": "마즈 아 포뚜 피꼬우 트르미다.",
+       "ko": "근데 사진이 {흔들렸어|1}."
+      },
+      {
+       "who": "나",
+       "tl": "{Pois|1}…",
+       "rd": "뽀이쉬…",
+       "ko": "{그렇지 뭐|1}…"
+      },
+      {
+       "who": "Inês",
+       "tl": "Mas o {autógrafo|1} consegui.",
+       "rd": "마즈 우 아우또그라푸 꼰쓰기.",
+       "ko": "그래도 {사인|1}은 받았어."
+      },
+      {
+       "who": "나",
+       "tl": "{Mostra lá|1}.",
+       "rd": "모쉬트라 라.",
+       "ko": "{어디 보자|1}."
+      }
+     ]
     }
    ]
   },
@@ -123,8 +611,69 @@
      "title": "접속법 맛보기 (quando quiseres · se calhar)",
      "kind": "memorize",
      "video": "",
-     "note": "",
-     "sentences": []
+     "note": "굳은 표현부터 — 규칙 없이 덩어리째 쓰면 돼요.",
+     "sentences": [
+      {
+       "who": "나",
+       "tl": "{Qual|1} livro achas melhor?",
+       "rd": "꽐 리브루 아샤쉬 믈료르?",
+       "ko": "어떤 책이 {좋을까|1}?"
+      },
+      {
+       "who": "Marta",
+       "tl": "{Se calhar|1} um romance.",
+       "rd": "쓰 깔랴르 웅 후망쓰.",
+       "ko": "{아마|1} 소설이 좋을 거야."
+      },
+      {
+       "who": "나",
+       "tl": "{Talvez|1} o meu irmão goste.",
+       "rd": "딸베즈 우 메우 이르마웅 고쉬뜨.",
+       "ko": "동생이 {좋아할지도|1} 몰라."
+      },
+      {
+       "who": "Marta",
+       "tl": "{Se quiseres|1}, eu escolho.",
+       "rd": "쓰 끼제르쉬, 에우 이쉬꼴류.",
+       "ko": "{원하면|1} 내가 골라 줄게."
+      },
+      {
+       "who": "나",
+       "tl": "Fixe, {qualquer|1} um serve.",
+       "rd": "피쉬, 꽐께르 웅 쎄르브.",
+       "ko": "좋아, {아무거나|1} 괜찮아."
+      },
+      {
+       "who": "Marta",
+       "tl": "{Quando acabarmos|1}, vamos tomar um café.",
+       "rd": "꽌두 아까바르무쉬, 바무쉬 뚜마르 웅 까페.",
+       "ko": "{다 고르면|1} 커피 마시러 가자."
+      },
+      {
+       "who": "나",
+       "tl": "Quero embrulhar {antes que|1} ele veja.",
+       "rd": "께루 엠브룰랴르 안뜨쉬 끄 엘르 베자.",
+       "ko": "동생이 보기 {전에|1} 포장하고 싶어."
+      },
+      {
+       "who": "Marta",
+       "tl": "{Pede|1} à senhora para embrulhar.",
+       "rd": "뻬드 아 쎙요라 빠라 엠브룰랴르.",
+       "ko": "점원에게 {포장해 달라고 해|1}."
+      },
+      {
+       "who": "나",
+       "tl": "O café ofereço {quando quiseres|1}.",
+       "rd": "우 까페 오프레쑤 꽌두 끼제르쉬.",
+       "ko": "커피는 {원할 때|1} 언제든 살게."
+      },
+      {
+       "who": "Marta",
+       "tl": "Então {vamos já|1}!",
+       "rd": "엔따웅 바무쉬 자!",
+       "ko": "그럼 {지금 가자|1}!"
+      }
+     ]
     }
    ]
   },
@@ -137,8 +686,69 @@
      "title": "미래·조건 (vou fazer · faria)",
      "kind": "memorize",
      "video": "",
-     "note": "",
-     "sentences": []
+     "note": "「할 거야」는 vou + 원형, 「~할 텐데」는 -ria. 꿈 이야기로 익혀요.",
+     "sentences": [
+      {
+       "who": "Duarte",
+       "tl": "Comprei um bilhete da lotaria. Amanhã {vou ver|1}.",
+       "rd": "꽁프레이 웅 빌례뜨 다 루따리아. 아망양 보우 베르.",
+       "ko": "복권 한 장 샀어. 내일 {확인할게|1}."
+      },
+      {
+       "who": "나",
+       "tl": "Se ganhasses, o que {farias|1}?",
+       "rd": "쓰 강야쓰쉬, 우 끄 파리아쉬?",
+       "ko": "당첨되면 뭐 {할 거야|1}?"
+      },
+      {
+       "who": "Duarte",
+       "tl": "{Compraria|1} um barco.",
+       "rd": "꽁프라리아 웅 바르꾸.",
+       "ko": "{배 살 거야|1}."
+      },
+      {
+       "who": "나",
+       "tl": "Eu {viajaria|1} pelo mundo.",
+       "rd": "에우 비아자리아 뻴루 문두.",
+       "ko": "나는 {세계 여행할 거야|1}."
+      },
+      {
+       "who": "Duarte",
+       "tl": "Amanhã {vou trabalhar|1} na mesma.",
+       "rd": "아망양 보우 트라발랴르 나 메쥬마.",
+       "ko": "내일은 일단 {출근할 거야|1}."
+      },
+      {
+       "who": "나",
+       "tl": "Se ganhasses, {deixarias|1} o emprego?",
+       "rd": "쓰 강야쓰쉬, 데이샤리아즈 우 엠프레구?",
+       "ko": "당첨되면 회사 {그만둘 거야|1}?"
+      },
+      {
+       "who": "Duarte",
+       "tl": "Sim, {deixaria|1} logo.",
+       "rd": "씽, 데이샤리아 로구.",
+       "ko": "응, 바로 {그만둘 거야|1}."
+      },
+      {
+       "who": "나",
+       "tl": "Então ia contigo no barco?",
+       "rd": "엔따웅 이아 꼰띠구 누 바르꾸?",
+       "ko": "그럼 배 {같이 갈 수 있어|1}?"
+      },
+      {
+       "who": "Duarte",
+       "tl": "Claro. E tu {cozinharias|1}.",
+       "rd": "끌라루. 이 뚜 꾸징야리아쉬.",
+       "ko": "물론이지. 요리는 네가 {담당이야|1}."
+      },
+      {
+       "who": "나",
+       "tl": "Então amanhã {vamos ver|1} juntos.",
+       "rd": "엔따웅 아망양 바무쉬 베르 준뚜쉬.",
+       "ko": "그럼 내일 같이 {결과 보자|1}."
+      }
+     ]
     }
    ]
   }

@@ -1,8 +1,8 @@
 {
 "files": {
-"grammar/sense_course.json": "7dc1456aece5",
+"grammar/sense_course.json": "d79b94b640fd",
 "pt-PT/dialogues/female.json": "505bc5deaea0",
 "pt-PT/dialogues/male.json": "91e7214e2a55"
 },
-"rev": 6
+"rev": 7
 }

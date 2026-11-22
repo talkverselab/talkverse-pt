@@ -1,0 +1,22 @@
+아래 첨부한 L7.txt 뼈대(끝에 규칙)로 쓴 네 답에 틀린 곳이 있다. 지적을 반영해 10줄 전체를 다시 써서, 같은 형식(머리 줄 + `누구 | 포르투갈어 | 한국어` 10줄)으로 코드 블록 하나에만 답해라. 화자 순서는 그대로. 표시 {낱말|번호} 는 포르투갈어·한국어 양쪽에 같은 번호가 모두 있어야 한다.
+
+지적:
+- 첫 줄이 as chaves(복수)인데 뒤의 접어가 전부 단수 a(levaste-a·não a levei·encontrei-a·devolvo-a·ponho-a). 열쇠를 하나(a chave)로 하든 복수로 하든 접어의 성·수를 맞출 것. 이 급의 목표가 접어라 가장 중요.
+- 「Não a deixes perder」 부자연 — 자연스러운 pt-PT 로.
+
+네 이전 답:
+=== sense_L7
+title: 접어 붙이기 (diz-me · não me diz)
+scene: 집. 룸메이트 Tiago 가 학습자의 열쇠를 찾고 있다.
+cast: 나(학습자), Tiago
+
+Tiago | {Diz-me|1} se viste as chaves. | 열쇠 봤는지 {말해 줘|1}.
+나 | Não vi. {Levaste-a|1} ontem. | 못 봤어. 어제 {가져갔잖아|1}.
+Tiago | {Não a levei|1}. | {안 가져갔어|1}.
+나 | {Vê|1} debaixo do sofá. | 소파 밑을 {봐|1}.
+Tiago | {Encontrei-a|1}! {Dou-te|2}. | {찾았어|1}! {줄게|2}.
+나 | Obrigado. Amanhã {devolvo-a|1}. | 고마워. 내일 {돌려줄게|1}.
+Tiago | {Não a deixes|1} perder. | {잃어버리지 마|1}.
+나 | Tranquilo, {ponho-a|1} na mochila. | 걱정 마, 가방에 {넣을게|1}.
+Tiago | Amanhã {liga-me|1}. | 내일 {전화해|1}.
+나 | De manhã {ligo-te|1}. | 아침에 {전화할게|1}.
