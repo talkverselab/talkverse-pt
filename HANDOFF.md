@@ -128,3 +128,10 @@
 - 1436a9e: 스텝 목록 `assets/data/grammar/lessons.json`(지금 15칸, 개수·순서·제목은 데이터대로 — 서버 목록에서 빼면 사라지고 더하면 생김), 각 스텝 `grammar/lessonN.json` 은 ScriptSync(서버 판 우선·묶음 대체), 패턴 빈 스텝은 숨김. 내용 있는 스텝 1/15. `script_publish.py` 대상에 문법 파일 포함 → 서버 원고 rev 8.
 - 빌드: Android CI 28(Zealot https://apps.talkverse.uk/KtegX/641·PC 백업), iOS TestFlight 2611222334. M6 디스크 규칙(uk): iOS 빌드는 10GB 이상·한 번에 한 세션(`pgrep xcodebuild`), 올린 뒤 build/ 바로 삭제.
 - ⚠ `ios/Runner.xcodeproj/project.pbxproj` 에 이 세션 전부터 커밋 안 된 변경(130줄)이 있다 — `git checkout` 으로 되돌리지 말 것.
+
+## 11-23 06시 — 음성 받아쓰기 검사 다시(한국어앱이 찾은 qa 캐시 버그, uk 전달)
+- `tools/tts/qa.py`: 캐시 키에 대사 글·파일 생성 시각(mtime)을 넣음(ko c6433c4 와 같게) — 같은 이름으로 다시 만든 조각에 옛 점수가 남던 버그. 옛 캐시는 `~/tts_work/pt/wav/qa_1107_bak.json`.
+- 서버에 올라 있던 11-07 시험 음성 102줄 중 지금 대사와 글이 같아 실제로 재생되는 것은 r2_friends_b1 20줄뿐(나머지 82줄은 대사가 바뀌어 앱이 TTS 로 읽음). 다시 채점 → 조각 21개 중 불합격 2(02_0_c 0.41, 03_0_m 파일 없음) → D1 `audio_lines` 에서 그 턴 3줄(2턴 m·f, 3턴 m)만 지움(서버 목록 102→99), `data/tts/audio_pt.json` 도 맞춤. 11-26 본 생성 때 전편 새로 만들어 다시 올라간다.
+- `run_all.py` `sh()`: PC 오류문(cp949)을 utf-8 로 못 읽어 실행이 죽던 것 → `errors='replace'`.
+- 참고 음성(11-23 01:00): 118개 중 잡음 기준(-60dB) 미달 47개가 3회 다시 만들어도 그대로(-56~-59dB, VoxCPM 바닥 잡음) — 기준(§5 공용)은 손대지 않고 uk 에 알림. 11-26 은 PC 에 있는 참고 음성을 그대로 쓴다.
+- 11-22 19시 멈춤 때 screen 은 내렸지만 안의 night_pt.sh(25일 03:40 둘·26일 하나)가 남아 돌고 있었다 → 종료. 지금은 screen `pt-tts-26` 하나만.

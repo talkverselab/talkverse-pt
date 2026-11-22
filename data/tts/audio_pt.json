@@ -165,33 +165,6 @@
 "ms": 3900
 },
 {
-"turn": 2,
-"voice": "m",
-"speaker": "duarte",
-"emotion": "worried",
-"key": "audio/pt/r2_friends_b1/02_m.mp4",
-"sha1": "83ef06e75dab5868ffc82c264318699db325c130",
-"ms": 3800
-},
-{
-"turn": 2,
-"voice": "f",
-"speaker": "duarte",
-"emotion": "worried",
-"key": "audio/pt/r2_friends_b1/02_f.mp4",
-"sha1": "83ef06e75dab5868ffc82c264318699db325c130",
-"ms": 3800
-},
-{
-"turn": 3,
-"voice": "m",
-"speaker": "am",
-"emotion": "surprised+worried",
-"key": "audio/pt/r2_friends_b1/03_m.mp4",
-"sha1": "e4b20308d563a714f2fbcfdde2564d5c080e9096",
-"ms": 3500
-},
-{
 "turn": 3,
 "voice": "f",
 "speaker": "af",

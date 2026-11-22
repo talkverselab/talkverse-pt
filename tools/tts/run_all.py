@@ -11,7 +11,8 @@ log = lambda *a: print(time.strftime('%H:%M:%S'), *a, flush=True)
 
 
 def sh(*a, check=True, **k):
-    return subprocess.run(a, check=check, capture_output=True, text=True, **k)
+    # PC PowerShell 오류문은 한국어 코드페이지(cp949)라 utf-8 로 못 읽으면 실행이 죽었다(11-23 새벽) — 못 읽는 글자는 바꿔 넣는다
+    return subprocess.run(a, check=check, capture_output=True, text=True, encoding='utf-8', errors='replace', **k)
 
 
 def pc_run(kind='moss'):
