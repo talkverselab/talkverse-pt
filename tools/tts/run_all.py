@@ -19,14 +19,28 @@ def pc_run(kind='moss'):
     while 'Ready' not in sh('ssh', PC, "(Get-ScheduledTask -TaskName 'TTS job 2060').State", check=False).stdout:
         time.sleep(30)                     # 앞선 작업(참고 음성 등)이 끝날 때까지
     other = 'vox' if kind == 'moss' else 'moss'
+    J = 'D:\\tts_test\\job\\'
+    # 작업 파일 이름은 여러 앱 공용(uk 11-22) — 다른 앱이 미리 올려 둔 파일이면 지우지 않고 잠시 옮겼다가 끝나면 되돌린다
+    held = False
+    o = sh('ssh', PC, f"if (Test-Path {J}{other}_jobs.json) {{ if (Select-String -Path {J}{other}_jobs.json -Pattern 'ref_pt/' -SimpleMatch -Quiet) {{ 'MINE' }} else {{ 'OTHER' }} }} else {{ 'NONE' }}", check=False).stdout
+    if 'OTHER' in o:
+        sh('ssh', PC, f"Move-Item -Force {J}{other}_jobs.json {J}{other}_jobs.json.held_by_pt"); held = True
+        log('다른 앱의', f'{other}_jobs.json', '잠시 옮김')
+    elif 'MINE' in o:
+        sh('ssh', PC, f"Remove-Item {J}{other}_jobs.json -ErrorAction SilentlyContinue")
     sh('scp', '-q', f'{work}/job/{kind}_jobs.json', f'{PC}:D:/tts_test/job/')
-    sh('ssh', PC, f"Remove-Item D:\\tts_test\\job\\{other}_jobs.json -ErrorAction SilentlyContinue; Start-ScheduledTask -TaskName 'TTS job 2060'")
+    sh('ssh', PC, "Start-ScheduledTask -TaskName 'TTS job 2060'")
     time.sleep(20)
-    while True:
-        r = sh('ssh', PC, "(Get-ScheduledTask -TaskName 'TTS job 2060').State", check=False).stdout
-        if 'Ready' in r:
-            return
-        time.sleep(30)
+    try:
+        while True:
+            r = sh('ssh', PC, "(Get-ScheduledTask -TaskName 'TTS job 2060').State", check=False).stdout
+            if 'Ready' in r:
+                break
+            time.sleep(30)
+    finally:
+        sh('ssh', PC, f"Remove-Item {J}{kind}_jobs.json -ErrorAction SilentlyContinue", check=False)   # 끝난 pt 작업 파일은 남기지 않는다
+        if held:
+            sh('ssh', PC, f"Move-Item -Force {J}{other}_jobs.json.held_by_pt {J}{other}_jobs.json", check=False); log('되돌림', f'{other}_jobs.json')
 
 
 def fetch(path):
@@ -52,6 +66,9 @@ def refs():
         jobs = json.load(open(f'{work}/job/vox_jobs.json')) if os.path.exists(f'{work}/job/vox_jobs.json') else []
         if not jobs or rnd == 2:
             break
+        t = time.localtime()
+        if '--refs-only' in sys.argv and (t.tm_hour, t.tm_min) >= (2, 20):   # 11-23 은 02:30 태국어 차례 — 02:25 전에 비운다(uk)
+            log('02:20 지나 참고 음성 재생성 멈춤 — 남은', len(jobs)); break
         for j in jobs:
             j['seed'] = 7 + 31 * (rnd + 1)
         json.dump(jobs, open(f'{work}/job/vox_jobs.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=0); pc_run('vox')
