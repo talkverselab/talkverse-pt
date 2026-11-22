@@ -4,7 +4,7 @@
 cd "$(dirname "$0")/../.."
 export GROK_CDP_PORT=9260
 first=/private/tmp/claude-501/grok_pt_sense_first.txt
-ids=(${@:-L1 L2 L3 L4 L5 L6 L7 L8 L9 L10}); chat=""
+ids=($@); (( $#ids )) || ids=(L1 L2 L3 L4 L5 L6 L7 L8 L9 L10); chat=""
 for id in $ids; do
   out=data/review/grok/out/sense_$id.md
   [[ -s $out ]] && { echo "skip $id"; continue; }
