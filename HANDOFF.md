@@ -135,3 +135,8 @@
 - `run_all.py` `sh()`: PC 오류문(cp949)을 utf-8 로 못 읽어 실행이 죽던 것 → `errors='replace'`.
 - 참고 음성(11-23 01:00): 118개 중 잡음 기준(-60dB) 미달 47개가 3회 다시 만들어도 그대로(-56~-59dB, VoxCPM 바닥 잡음) — 기준(§5 공용)은 손대지 않고 uk 에 알림. 11-26 은 PC 에 있는 참고 음성을 그대로 쓴다.
 - 11-22 19시 멈춤 때 screen 은 내렸지만 안의 night_pt.sh(25일 03:40 둘·26일 하나)가 남아 돌고 있었다 → 종료. 지금은 screen `pt-tts-26` 하나만.
+
+## 11-23 07시 — 음성은 uk 「pt 지금 시작」 대기(고정 새벽 실행기 내림)
+- uk: 3090 은 낮에도 음성, 순서 zh → ko 재생성 → es → ja R4 → **pt**. screen `pt-tts-26`(11-26 01:00) 내림 — 지금 걸린 실행기 없음.
+- 「pt 지금 시작」이 오면: `screen -dmS pt-tts zsh -c '~/.venvs/tts_zh/bin/python tools/tts/run_all.py ~/tts_work/pt 3 --refs > ~/tts_work/pt/run_day.log 2>&1'`(`--night` 없음) → `tv-progress pt run`. 앞 순서가 3090 을 달라면 `touch ~/tts_work/pt/PAUSE`(묶음 경계에서 멈춤). 끝나면 「GPU 끝」+남은 조각을 uk·아랍어앱에, `tv-progress pt done`, `data/tts/audio_pt.json` 커밋.
+- 참고 음성 잡음 미달 47개(-56~-59dB)는 uk 판단으로 통과(모델 바닥 잡음) — 그 목소리로 만든 본 음성의 받아쓰기·음량 불합격이 늘면 그 목소리만 다른 참고로 바꾼다. 공용 §5 문서는 그대로.
