@@ -28,7 +28,7 @@ PREFIX = 'script/pt'
 
 
 def current():
-    paths = sorted(glob.glob(str(DATA / 'pt-PT/dialogues/*.json')))
+    paths = sorted(glob.glob(str(DATA / 'pt-PT/dialogues/*.json'))) + [str(DATA / 'grammar/sense_course.json')]   # 언어감각 원고도 서버로(11-22)
     out = {}
     for p in paths:
         b = Path(p).read_bytes()

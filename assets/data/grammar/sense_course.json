@@ -1,0 +1,146 @@
+{
+ "title": "언어감각 익히기",
+ "subtitle": "정규과정 · 영상 → 대화 통째로 외우기 → 참고",
+ "levels": [
+  {
+   "id": "L1",
+   "title": "성과 수 맞추기 (o/a · -s)",
+   "lessons": [
+    {
+     "id": "L1-talk",
+     "title": "성과 수 맞추기 (o/a · -s)",
+     "kind": "memorize",
+     "video": "",
+     "note": "",
+     "sentences": []
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "title": "ser 와 estar",
+   "lessons": [
+    {
+     "id": "L2-talk",
+     "title": "ser 와 estar",
+     "kind": "memorize",
+     "video": "",
+     "note": "",
+     "sentences": []
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "title": "tu 와 o senhor",
+   "lessons": [
+    {
+     "id": "L3-talk",
+     "title": "tu 와 o senhor",
+     "kind": "memorize",
+     "video": "",
+     "note": "",
+     "sentences": []
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "title": "estar a + 원형 (지금 하는 중)",
+   "lessons": [
+    {
+     "id": "L4-talk",
+     "title": "estar a + 원형 (지금 하는 중)",
+     "kind": "memorize",
+     "video": "",
+     "note": "",
+     "sentences": []
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "title": "완료과거 — 했다",
+   "lessons": [
+    {
+     "id": "L5-talk",
+     "title": "완료과거 — 했다",
+     "kind": "memorize",
+     "video": "",
+     "note": "",
+     "sentences": []
+    }
+   ]
+  },
+  {
+   "id": "L6",
+   "title": "반과거 — 하곤 했다",
+   "lessons": [
+    {
+     "id": "L6-talk",
+     "title": "반과거 — 하곤 했다",
+     "kind": "memorize",
+     "video": "",
+     "note": "",
+     "sentences": []
+    }
+   ]
+  },
+  {
+   "id": "L7",
+   "title": "접어 붙이기 (diz-me · não me diz)",
+   "lessons": [
+    {
+     "id": "L7-talk",
+     "title": "접어 붙이기 (diz-me · não me diz)",
+     "kind": "memorize",
+     "video": "",
+     "note": "",
+     "sentences": []
+    }
+   ]
+  },
+  {
+   "id": "L8",
+   "title": "묻고 맞장구치기",
+   "lessons": [
+    {
+     "id": "L8-talk",
+     "title": "묻고 맞장구치기",
+     "kind": "memorize",
+     "video": "",
+     "note": "",
+     "sentences": []
+    }
+   ]
+  },
+  {
+   "id": "L9",
+   "title": "접속법 맛보기 (quando quiseres · se calhar)",
+   "lessons": [
+    {
+     "id": "L9-talk",
+     "title": "접속법 맛보기 (quando quiseres · se calhar)",
+     "kind": "memorize",
+     "video": "",
+     "note": "",
+     "sentences": []
+    }
+   ]
+  },
+  {
+   "id": "L10",
+   "title": "미래·조건 (vou fazer · faria)",
+   "lessons": [
+    {
+     "id": "L10-talk",
+     "title": "미래·조건 (vou fazer · faria)",
+     "kind": "memorize",
+     "video": "",
+     "note": "",
+     "sentences": []
+    }
+   ]
+  }
+ ]
+}

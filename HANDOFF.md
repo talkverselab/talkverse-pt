@@ -15,6 +15,13 @@
 
 - **11-19**: 빌드 — Android CI 빌드 19(Flutter 3.47.7 고정, 6db3614)·Zealot https://apps.talkverse.uk/KtegX/515·PC 백업, iOS TestFlight 2611191957(IPA PC 백업). 서버 원고 rev 4(노트 작성 표시 「(A 성별)」 10줄 지움). **새 회화 33편**(사용자 「새회화 시작·레벨 러시아어참고」 → R0~R5 그대로, 러시아어앱 분포로 R0 4·R1 8·R2 10·R3 5·R4 3·R5 3): 초안 `tools/grok/new_specs_1119.py`(흐름은 설명 문장, 대사 문장 금지) → 뼈대 `data/review/grok/new/` → uk 「pt 시작」 뒤 `zsh tools/grok/new_all.sh`(규칙 `write_grok_pt.md`) → `new_specs_1119.py apply` → `data/dialogues_src/pt-PT/new_1119.json` → build_dialogues·turn_lock·script_publish. uk 대기 4번. 대사 확정 뒤 음성 편 수를 uk 에 알릴 것(새벽 창 배정).
 - **11-19 밤**: 새 회화 33편 Grok 작성 완료(방 4개, 경고 없음) → `new_1119.json` → 서버 원고 rev 5(9c8502e), 묶음 남·여 각 65편. 형식만 손댐: 목록 밖 감정 40개 매핑(curious→gentle 등), r0_culture_a1 「és {famoso|famosa}」. Android 빌드 20(Zealot https://apps.talkverse.uk/KtegX/521·PC 백업), iOS TestFlight 2611192228. 음성: 33편 조각 507개(공용 195·남 156·여 156, 새벽 창 1회 분량) — `data/tts/plan/` 생성만, **사용자 전편 음성 지시·11-07 실패 원인 답 전에는 3090 쓰지 말 것**(uk 날짜 배정 대기).
+- **11-22 「막힌 것 각자 판단대로 완료」(사용자 → uk 전달) — 이 세션이 고른 것**:
+  - 음성 = 전편 MOSS(uk 읽기 「전편 음성 여부 - TTS」). 65편 1,059조각, `tools/tts/night_pt.sh`(3090 5분 연속 8GB 미만일 때 시작·06:30 PAUSE). 11-07 실패 원인은 답이 없어 받아쓰기 기준 0.72→0.85, 옛 4편은 대사가 바뀌어 다시 만든다(옛 done → `~/tts_work/pt/done_1107_old.txt`). screen `pt-refs-23`(11-23 01:00 참고 음성 70개, 2060) · `pt-tts-25`(11-25 03:40~, 인도네시아어 다음). 둘째·셋째 창은 uk 가 알려 줌. 끝날 때마다 uk 에 「GPU 끝」+남은 조각.
+  - 회화 기기 음성(TTS) 연결 고침 — 빌드 21(925137f).
+  - 언어감각 10급: 화면·메뉴(문법 구역 첫 칸) + 자리표시 원고(서버 원고 rev 6 에 포함, `script_publish.py` 가 `grammar/sense_course.json` 도 올림). 대사는 Grok — 초안 `tools/grok/sense_specs_1122.py`(skel→`data/review/grok/sense/`, 회차 `sense_run.sh`, 뒤 `apply` → `script_publish.py --publish`). 영상은 자리만(「영상 준비 중」, video_player 없음).
+  - 단어 퀴즈: `word_quiz_screen.dart`(뜻 → 포르투갈어 4지선다, 절벽 1,919어). 단어 그림은 이미 연결돼 있음(ArtService, 매니페스트 1,792장).
+  - 장면 컷 10편(남·여 20건): `tools/grok/scene_prompts.py` → `data/review/scene/*_prompt.md`, 회차 `scene_run.sh`(그림 도구 `grok_img.py`). Grok 순서 uk 요청함. 받은 그림 게시는 uk(`grok_art.py scene pt`).
+  - 옛 L1 초안 5편: 지우지 않고 「이야기」 메뉴·문장 카드 DB 시드로 그대로 둔다(새 회화 65편과 겹치지 않음).
 - **11-18 일본어앱 수준 맞추기(사용자 지시, 일본어앱 전달 `~/talkverse/ja/docs/RELAY_2026-11-18_ja_parity.md`)**: ① 원고 서버 받기 완료(3773146) — `ScriptSync`(`script/pt`, 대상 = 성별판 묶음 2개), 켤 때 15초, `tools/script_publish.py`·`turn_lock.py`. 서버 rev 2 = 11-10 Grok 답 15편을 Grok 문장 그대로 넣은 판(옛 rev 1 기준표로 실제 서버 받기 시험 통과). ② 남은 것: Grok 재작성 17편(uk 순서 4번 — 「pt 시작」 받으면 PC 9260, 「빠른」 모드) · 새 편 약 34편(30% 기준, 사용자 답 대기) · 언어감각 과정·단어 퀴즈 · 장면 컷 10장 · 빌드(Android+iOS) 뒤 uk 에 커밋·rev 보고. **회화 대사는 Grok 이 쓰고 Claude 는 초안·형식만(11-18 사용자 지시).**
 
 ## ▶ 다음 세션이 바로 할 일(2026-11-08 세션 종료 시점)

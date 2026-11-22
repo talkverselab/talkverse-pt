@@ -16,10 +16,12 @@ import 'pt_sounds_screen.dart';
 import 'sentence_flashcard_screen.dart';
 import 'speaking_practice_screen.dart';
 import 'progress_screen.dart';
+import 'sense_course_screen.dart';
 import 'topic_vocab_screen.dart';
 import 'verb_screen.dart';
 import 'word_flashcard_screen.dart';
 import 'word_freq_screen.dart';
+import 'word_quiz_screen.dart';
 import '../core/l10n.dart';
 
 class MainScreen extends StatefulWidget {
@@ -401,6 +403,8 @@ class _MenuGrid extends StatelessWidget {
           builder: (_) => const PtSoundsScreen()),
       ]),
       (tr('문법'), [
+        _MenuItem(label: tr('언어감각 익히기'), sub: tr('영상 → 대화 통째로 외우기 · 10급'), badge: '🧠', color: AppColors.beni,
+          builder: (_) => const SenseCourseScreen()),
         _MenuItem(label: tr('문법'), sub: 'Gramática', badge: 'G', color: AppColors.rojoDeep,
           builder: (_) => const GrammarHubScreen()),
         _MenuItem(label: tr('동사 활용'), sub: 'Conjugação', badge: 'V', color: AppColors.irregular,
@@ -419,6 +423,8 @@ class _MenuGrid extends StatelessWidget {
       (tr('단어'), [
         _MenuItem(label: tr('절벽 단어'), sub: tr('R1~R5 · 2,000어'), badge: 'F', color: AppColors.lusa,
           builder: (_) => const WordFreqScreen()),
+        _MenuItem(label: tr('단어 퀴즈'), sub: tr('3단계 · 4지선다 10문제'), badge: 'Q', color: AppColors.irregular,
+          builder: (_) => const WordQuizHome()),
         _MenuItem(label: tr('단어'), sub: 'Vocabulário', badge: 'W', color: AppColors.oliva,
           builder: (_) => const TopicVocabScreen()),
         _MenuItem(label: tr('표현'), sub: 'Expressão', badge: 'E', color: AppColors.rojoLight,
