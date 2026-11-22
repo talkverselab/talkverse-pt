@@ -9,7 +9,7 @@
    "segs": [
     [
      "annoyed",
-     "Duarte, ouviste aquele barulho? Outra vez, às seis da manhã."
+     "Este barulho todos os dias às seis... não aguento."
     ]
    ]
   },
@@ -17,7 +17,7 @@
    "segs": [
     [
      "stiff",
-     "Que barulho? Eu estava a dormir. Deve ser o vento."
+     "Deve ser o vento. Bate na janela."
     ]
    ]
   },
@@ -25,7 +25,7 @@
    "segs": [
     [
      "tsukkomi",
-     "O vento não bate assim, pá. Parecia uma máquina dentro da parede."
+     "Pá, o vento não faz isso na parede."
     ]
    ]
   },
@@ -33,12 +33,12 @@
    "segs": [
     [
      "flustered",
-     "Se calhar são os pássaros."
+     "Se calhar é um pássaro."
     ],
     [
      "stiff",
-     " Olha, vou fazer o pequeno-almoço.",
-     "Olha, vou fazer o pequeno-almoço."
+     " Olha, às vezes cantam cedo.",
+     "Olha, às vezes cantam cedo."
     ]
    ]
   },
@@ -46,7 +46,7 @@
    "segs": [
     [
      "teasing",
-     "Tu fazes o pequeno-almoço? E porque é que a máquina de lavar está cheia de roupa molhada?"
+     "Ou a máquina a lavar a roupa às seis."
     ]
    ]
   },
@@ -54,7 +54,7 @@
    "segs": [
     [
      "shout",
-     "Isso é de ontem à noite! Juro. Não lavo roupa às seis, não sou maluco."
+     "Eu não lavo nada de madrugada!"
     ]
    ]
   },
@@ -62,7 +62,7 @@
    "segs": [
     [
      "polite",
-     "Bom dia, meninos. Desculpem, está tudo bem? Ouvi gritos."
+     "Desculpem o grito. Ouvi barulho."
     ]
    ]
   },
@@ -70,7 +70,7 @@
    "segs": [
     [
      "polite",
-     "Bom dia, Dona Fernanda. A senhora também acordou com aquele barulho às seis?"
+     "A senhora também acorda com isto?"
     ]
    ]
   },
@@ -78,7 +78,7 @@
    "segs": [
     [
      "surprised",
-     "Acordei? Não, eu às seis já estou a pé. Porquê?"
+     "Eu acordo sempre às seis, sim."
     ]
    ]
   },
@@ -86,7 +86,7 @@
    "segs": [
     [
      "annoyed",
-     "Há um barulho horrível todas as manhãs. {O|A} {name} acha que sou eu."
+     "Então é ela! Sabia."
     ]
    ]
   },
@@ -94,12 +94,7 @@
    "segs": [
     [
      "surprised",
-     "Ah… às seis?"
-    ],
-    [
-     "flustered",
-     " Então é a minha máquina. Ponho-a a lavar cedo porque a luz é mais barata.",
-     "Então é a minha máquina. Ponho-a a lavar cedo porque a luz é mais barata."
+     "É a luz barata que pisca e faz barulho."
     ]
    ]
   },
@@ -107,7 +102,7 @@
    "segs": [
     [
      "surprised",
-     "A da senhora? E o barulho chega ao nosso quarto?"
+     "A luz? A sério que é isso?"
     ]
    ]
   },
@@ -115,7 +110,7 @@
    "segs": [
     [
      "polite",
-     "Pois, a máquina está junto à vossa parede. Desculpem, a partir de amanhã ponho às oito."
+     "Pois, a da parede do corredor. Desculpem."
     ]
    ]
   },
@@ -123,12 +118,12 @@
    "segs": [
     [
      "cheerful",
-     "Obrigad{o|a}!"
+     "Afinal era só a luz."
     ],
     [
      "gentle",
-     " E desculpa, Duarte. Afinal não eras tu. Achei mesmo que eras.",
-     "E desculpa, Duarte. Afinal não eras tu. Achei mesmo que eras."
+     " Podemos mudar.",
+     "Podemos mudar."
     ]
    ]
   }

@@ -8,8 +8,7 @@
    "segs": [
     [
      "cheerful",
-     "Olá! Gostei muito da tua fotografia com o cão. 🐶",
-     "Olá! Gostei muito da tua fotografia com o cão."
+     "Gostei da foto. O cão é teu?"
     ]
    ]
   },
@@ -17,7 +16,7 @@
    "segs": [
     [
      "amused",
-     "Obrigad{o|a}! Mas olha, o cão não é meu."
+     "Olha, é do meu amigo."
     ]
    ]
   },
@@ -25,7 +24,7 @@
    "segs": [
     [
      "surprised",
-     "A sério? Então de quem é?"
+     "A sério? Então não é teu?"
     ]
    ]
   },
@@ -33,7 +32,7 @@
    "segs": [
     [
      "neutral",
-     "É da minha vizinha. Fui com ele à praia no sábado."
+     "Não. Gostaste dele?"
     ]
    ]
   },
@@ -41,7 +40,7 @@
    "segs": [
     [
      "sad",
-     "Ah... então não vives com ele? Que pena."
+     "Era fofo."
     ]
    ]
   },
@@ -49,7 +48,7 @@
    "segs": [
     [
      "flustered",
-     "Pois. Desculpa, era a melhor fotografia que eu tinha."
+     "Pois, tinha uns olhos grandes."
     ]
    ]
   },
@@ -57,8 +56,7 @@
    "segs": [
     [
      "amused",
-     "Eu percebo. Na minha, eu estava com a minha irmã e cortei-a. 😅",
-     "Eu percebo. Na minha, eu estava com a minha irmã e cortei-a."
+     "Estava mesmo giro. Fui ver o perfil."
     ]
    ]
   },
@@ -66,8 +64,7 @@
    "segs": [
     [
      "teasing",
-     "Então gostaste do cão, não de mim? 😏",
-     "Então gostaste do cão, não de mim?"
+     "Então leste tudo?"
     ]
    ]
   },
@@ -75,12 +72,12 @@
    "segs": [
     [
      "teasing",
-     "Primeiro do cão, sim."
+     "Bué."
     ],
     [
      "cheerful",
-     " Depois li o teu perfil e ri-me bué.",
-     "Depois li o teu perfil e ri-me bué."
+     " Gostei de ti também.",
+     "Gostei de ti também."
     ]
    ]
   },
@@ -88,7 +85,7 @@
    "segs": [
     [
      "cheerful",
-     "Ainda bem! E o que é que te fez rir?"
+     "Ainda bem."
     ]
    ]
   },
@@ -96,13 +93,12 @@
    "segs": [
     [
      "amused",
-     "«Faço o melhor café da cidade.»",
-     "Faço o melhor café da cidade."
+     "Se calhar vamos tomar um café?"
     ],
     [
      "shy",
-     " Se calhar tenho de provar. Amanhã?",
-     "Se calhar tenho de provar. Amanhã?"
+     " 😊",
+     ""
     ]
    ]
   },
@@ -110,12 +106,12 @@
    "segs": [
     [
      "excited",
-     "Combinado! Às cinco?"
+     "Vamos!"
     ],
     [
      "amused",
-     " E levo o cão, a vizinha deixa.",
-     "E levo o cão, a vizinha deixa."
+     " Quando?",
+     "Quando?"
     ]
    ]
   }

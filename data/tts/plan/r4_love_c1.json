@@ -8,12 +8,7 @@
    "segs": [
     [
      "cheerful",
-     "Olha, uma pergunta."
-    ],
-    [
-     "shy",
-     " Se eu te pedisse para jantar comigo amanhã, o que dirias?",
-     "Se eu te pedisse para jantar comigo amanhã, o que dirias?"
+     "Olha, se eu te pedisse para jantar, tu dirias que sim?"
     ]
    ]
   },
@@ -21,8 +16,7 @@
    "segs": [
     [
      "surprised",
-     "Diria que sim. Mas porquê «se»? Estás a perguntar a sério?",
-     "Diria que sim. Mas porquê se? Estás a perguntar a sério?"
+     "A sério? Estás a gozar? Eu diria que era só prática."
     ]
    ]
   },
@@ -30,7 +24,7 @@
    "segs": [
     [
      "flustered",
-     "Pronto, é para não ficar com vergonha caso digas que não."
+     "Pronto, era só o conjuntivo. Se eu soubesse como dizer..."
     ]
    ]
   },
@@ -38,7 +32,7 @@
    "segs": [
     [
      "teasing",
-     "Nem pensar. Mas só vou se fores tu a escolher o sítio."
+     "Nem pensar. Se fores sincera, admite já."
     ]
    ]
   },
@@ -46,7 +40,7 @@
    "segs": [
     [
      "excited",
-     "Fixe! Há um sítio perto do rio onde cantam fado. Achas que gostarias?"
+     "Fixe, então gostarias de sair comigo?"
     ]
    ]
   },
@@ -54,7 +48,7 @@
    "segs": [
     [
      "cheerful",
-     "Gostaria muito. Nunca ouvi fado ao vivo."
+     "Eu diria que sim, sem problema."
     ]
    ]
   },
@@ -62,12 +56,7 @@
    "segs": [
     [
      "shout",
-     "ELE DISSE QUE SIM!!!"
-    ],
-    [
-     "excited",
-     " Ajuda, o que é que eu visto? Preciso que me digas já!!",
-     "Ajuda, o que é que eu visto? Preciso que me digas já!!"
+     "Se eu pedisse para irmos ao cinema, tu irias agora?!"
     ]
    ]
   },
@@ -75,7 +64,7 @@
    "segs": [
     [
      "flustered",
-     "Espera."
+     "Espera, não! Isso foi para outra conversa!"
     ]
    ]
   },
@@ -83,7 +72,7 @@
    "segs": [
     [
      "flustered",
-     "Isso não era para ti. Era para a Beatriz. Esquece o que viste."
+     "A gata escreveu! Ela está no telemóvel!"
     ]
    ]
   },
@@ -91,7 +80,7 @@
    "segs": [
     [
      "amused",
-     "Tarde demais. Já li tudo, e mais de uma vez."
+     "A gata? Que história."
     ]
    ]
   },
@@ -99,12 +88,7 @@
    "segs": [
     [
      "flustered",
-     "Que vergonha..."
-    ],
-    [
-     "shy",
-     " Pronto, é verdade. Há semanas que queria que fosses tu a pedir.",
-     "Pronto, é verdade. Há semanas que queria que fosses tu a pedir."
+     "Pronto, se eu pedisse mesmo, tu dirias que não?"
     ]
    ]
   },
@@ -112,7 +96,7 @@
    "segs": [
     [
      "surprised",
-     "Semanas? E eu a pensar que tu nem olhavas para mim."
+     "Estás a corar? A gata, a sério?"
     ]
    ]
   },
@@ -120,7 +104,7 @@
    "segs": [
     [
      "gentle",
-     "Quanto à roupa: vem como quiseres. Vais estar bonita de qualquer maneira."
+     "Se fores, eu gostaria de ir contigo."
     ]
    ]
   },
@@ -128,7 +112,7 @@
    "segs": [
     [
      "shy",
-     "...Esta também vou mostrar à Beatriz."
+     "...Tá bem, se calhar."
     ]
    ]
   }

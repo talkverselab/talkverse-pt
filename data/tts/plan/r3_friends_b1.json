@@ -10,7 +10,7 @@
    "segs": [
     [
      "excited",
-     "Então, pessoal, a Beatriz chega às oito. Vocês trataram de tudo?"
+     "Então, vocês trataram da comida?"
     ]
    ]
   },
@@ -18,7 +18,7 @@
    "segs": [
     [
      "cheerful",
-     "Eu tratei da música. E chamei umas pessoas do trabalho dela."
+     "Ninguém tratou de nada."
     ]
    ]
   },
@@ -26,7 +26,7 @@
    "segs": [
     [
      "cheerful",
-     "Eu trouxe as flores e os copos. E tu, Duarte?"
+     "Eu trouxe uns snacks."
     ]
    ]
   },
@@ -34,7 +34,7 @@
    "segs": [
     [
      "flustered",
-     "Eu? Eu estava a ver o jogo… Pensei que vocês iam comprar as coisas para comer."
+     "Vocês não trouxeram mais?"
     ]
    ]
   },
@@ -42,7 +42,7 @@
    "segs": [
     [
      "tsukkomi",
-     "Nós?! Duarte, tu disseste que tratavas tu disso!"
+     "Nós escondemos o bolo."
     ]
    ]
   },
@@ -50,7 +50,7 @@
    "segs": [
     [
      "worried",
-     "Pronto, não faz mal. Temos quanto tempo?"
+     "Pronto, não faz mal."
     ]
    ]
   },
@@ -58,7 +58,7 @@
    "segs": [
     [
      "excited",
-     "Uma hora. Eu vou já buscar qualquer coisa. Vocês ficam aqui e escondem as flores."
+     "Vocês são fixe, pá!"
     ]
    ]
   },
@@ -66,7 +66,7 @@
    "segs": [
     [
      "tsukkomi",
-     "Escondemos onde? A casa é um quarto e meio!"
+     "Nós somos uns inúteis."
     ]
    ]
   },
@@ -74,7 +74,7 @@
    "segs": [
     [
      "worried",
-     "Espera… alguém está a abrir a porta."
+     "Estamos a improvisar."
     ]
    ]
   },
@@ -82,7 +82,7 @@
    "segs": [
     [
      "excited",
-     "Olá! Mudei de planos, cheguei mais cedo!"
+     "Olá, malta!"
     ]
    ]
   },
@@ -90,7 +90,7 @@
    "segs": [
     [
      "surprised",
-     "Beatriz?! Ainda são sete horas!"
+     "Beatriz?!"
     ]
    ]
   },
@@ -98,12 +98,12 @@
    "segs": [
     [
      "excited",
-     "Pois é! O Duarte contou-me tudo ontem."
+     "Pois é, nós estamos todos!"
     ],
     [
      "cheerful",
-     " Trouxe pizas… e os meus amigos do surf. Somos seis!",
-     "Trouxe pizas… e os meus amigos do surf. Somos seis!"
+     " Surpresa!",
+     "Surpresa!"
     ]
    ]
   },
@@ -111,11 +111,12 @@
    "segs": [
     [
      "amused",
-     "Temos flores, copos e uma surpresa."
+     "Quer dizer..."
     ],
     [
      "tsukkomi",
-     "Quer dizer… tínhamos."
+     " É para ti.",
+     "É para ti."
     ]
    ]
   },
@@ -123,12 +124,12 @@
    "segs": [
     [
      "excited",
-     "Pessoal, cheguei! Só consegui um doce…"
+     "Pronto, conseguimos!"
     ],
     [
      "flustered",
-     " Beatriz?! Pronto, fui eu que contei.",
-     "Beatriz?! Pronto, fui eu que contei."
+     " Vá lá.",
+     "Vá lá."
     ]
    ]
   }

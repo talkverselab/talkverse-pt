@@ -8,7 +8,7 @@
    "segs": [
     [
      "excited",
-     "Despacha-te, {name}! O comboio para o Porto sai daqui a dez minutos."
+     "Vamos despachar! O comboio parte já."
     ]
    ]
   },
@@ -16,7 +16,7 @@
    "segs": [
     [
      "amused",
-     "Calma, pá. Tenho a mala, o passaporte e a garrafa de água. Tu tens os bilhetes?"
+     "Pá, a mala, o passaporte e a garrafa... tenho tudo."
     ]
    ]
   },
@@ -24,7 +24,7 @@
    "segs": [
     [
      "cheerful",
-     "Tenho! Comprei-os ontem no telemóvel. Olha, lugares à janela."
+     "O bilhete está no telemóvel. Tenho a certeza."
     ]
    ]
   },
@@ -32,7 +32,7 @@
    "segs": [
     [
      "cheerful",
-     "Fixe. E no Porto ficamos naquele hotel perto da ponte, certo?"
+     "Fixe, o hotel fica perto da ponte."
     ]
    ]
   },
@@ -40,7 +40,7 @@
    "segs": [
     [
      "excited",
-     "Epá, mudei de ideias. Primeiro vamos à praia, amanhã há ondas enormes!"
+     "Epá, e a praia é enorme! Vamos lá."
     ]
    ]
   },
@@ -48,7 +48,7 @@
    "segs": [
     [
      "tsukkomi",
-     "Outra vez? Na semana passada disseste o mesmo e mudaste o plano três vezes."
+     "Este é o quarto plano que dizes hoje."
     ]
    ]
   },
@@ -56,7 +56,7 @@
    "segs": [
     [
      "teasing",
-     "Mas desta vez é a sério. Prometo, é o último plano."
+     "A sério? Eu prometi que era o último."
     ]
    ]
   },
@@ -64,7 +64,7 @@
    "segs": [
     [
      "worried",
-     "Está bem. Onde é que mostramos os bilhetes? Não vejo ninguém na entrada."
+     "Está bem, mas a entrada do comboio fecha."
     ]
    ]
   },
@@ -72,7 +72,7 @@
    "segs": [
     [
      "cheerful",
-     "Na máquina ao lado da porta. Pões o telemóvel em cima e já está."
+     "A máquina de bilhetes está ali. Rápido!"
     ]
    ]
   },
@@ -80,7 +80,7 @@
    "segs": [
     [
      "worried",
-     "A máquina diz que não. Vês? Aparece uma data estranha... dez do doze?"
+     "Espera, vou ver a data no bilhete."
     ]
    ]
   },
@@ -88,11 +88,12 @@
    "segs": [
     [
      "surprised",
-     "Do doze?!"
+     "Oh não..."
     ],
     [
      "flustered",
-     "Ai... comprei os bilhetes para o mês que vem."
+     " o comboio é amanhã!",
+     "o comboio é amanhã!"
     ]
    ]
   },
@@ -100,7 +101,7 @@
    "segs": [
     [
      "sad",
-     "Então a mala, o passaporte, a garrafa... tudo para nada?"
+     "Então perdemos? Que chatice."
     ]
    ]
   },
@@ -108,11 +109,7 @@
    "segs": [
     [
      "excited",
-     "Nada disso! Há um autocarro para a praia às onze."
-    ],
-    [
-     "cheerful",
-     "Vá lá, novo plano!"
+     "Vá lá, há um autocarro daqui a pouco."
     ]
    ]
   },
@@ -120,7 +117,7 @@
    "segs": [
     [
      "amused",
-     "Quarto plano em dez minutos. És mesmo maluca, sabes?"
+     "Mesmo maluco, este plano também."
     ]
    ]
   }

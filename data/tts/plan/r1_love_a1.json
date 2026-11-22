@@ -8,7 +8,7 @@
    "segs": [
     [
      "teasing",
-     "Olá! Estás sozinh{o|a}?"
+     "Olá! Estás sozinh{o|a} aí?"
     ]
    ]
   },
@@ -16,7 +16,7 @@
    "segs": [
     [
      "neutral",
-     "Estou, sim. Porquê?"
+     "Estou, sim. Porquê perguntas?"
     ]
    ]
   },
@@ -24,7 +24,7 @@
    "segs": [
     [
      "teasing",
-     "Porque estás a ler o menu há meia hora."
+     "Porque estás a olhar o menu há tanto tempo."
     ]
    ]
   },
@@ -32,7 +32,7 @@
    "segs": [
     [
      "flustered",
-     "Pois é... não percebo nada. Está tudo em português!"
+     "Pois é... não percebo nada disto. Está tudo em português!"
     ]
    ]
   },
@@ -40,7 +40,7 @@
    "segs": [
     [
      "gentle",
-     "Não percebes? Então eu ajudo. O que queres?"
+     "Não percebes? Então eu explico. O que queres?"
     ]
    ]
   },
@@ -56,7 +56,7 @@
    "segs": [
     [
      "surprised",
-     "Ah! Afinal sabes falar! Que atrevid{o|a}!"
+     "Ah! Afinal falas! Que atrevid{o|a}!"
     ]
    ]
   },
@@ -64,7 +64,7 @@
    "segs": [
     [
      "shy",
-     "Só sei essa frase. Treinei em casa."
+     "Só sei essa. Treinei em casa."
     ]
    ]
   }

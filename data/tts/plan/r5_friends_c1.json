@@ -8,7 +8,7 @@
    "segs": [
     [
      "excited",
-     "Estás acordad{o|a}? Acabei o quadro para o café do Tiago e preciso da tua opinião."
+     "Acabei o quadro! Qual é a tua opinião?"
     ]
    ]
   },
@@ -16,7 +16,7 @@
    "segs": [
     [
      "cheerful",
-     "Manda lá! Prometo dizer a verdade."
+     "Prometi que ia ver já. Manda a foto."
     ]
    ]
   },
@@ -24,7 +24,7 @@
    "segs": [
     [
      "shy",
-     "Pronto, foto enviada. Sê simpátic{o|a}, por favor."
+     "Pronto, vou enviar agora. É simpático?"
     ]
    ]
   },
@@ -32,7 +32,7 @@
    "segs": [
     [
      "surprised",
-     "Epá... é um gato a andar de bicicleta? Ou um cão?"
+     "Epá, parece um gato ou quê?"
     ]
    ]
   },
@@ -40,7 +40,7 @@
    "segs": [
     [
      "tsukkomi",
-     "É um retrato da minha avó, {name}."
+     "É um retrato da minha avó, pá!"
     ]
    ]
   },
@@ -48,7 +48,7 @@
    "segs": [
     [
      "flustered",
-     "Ah. Pois... a tua avó tem um sorriso lindo. E as cores são giras!"
+     "Pois, o sorriso dela... a cor é giro."
     ]
    ]
   },
@@ -56,11 +56,7 @@
    "segs": [
     [
      "amused",
-     "Mentira! Mas não faz mal, ela também se ia rir."
-    ],
-    [
-     "cheerful",
-     "Vens ao café no sábado?"
+     "Não faz mal se for mentira, posso rir."
     ]
    ]
   },
@@ -68,7 +64,7 @@
    "segs": [
     [
      "teasing",
-     "Claro que vou. Quero ver o gato ao vivo."
+     "Claro que é a verdade, juro."
     ]
    ]
   },
@@ -76,7 +72,7 @@
    "segs": [
     [
      "sad",
-     "Ainda bem. Vai ser o meu último sábado cá."
+     "Ainda bem que gostas mesmo."
     ]
    ]
   },
@@ -84,7 +80,7 @@
    "segs": [
     [
      "worried",
-     "Último? Como assim?"
+     "Estás bem? Pareces triste."
     ]
    ]
   },
@@ -92,7 +88,7 @@
    "segs": [
     [
      "sad",
-     "Consegui um emprego numa escola de arte lá fora. Parto no domingo."
+     "O emprego na arte... a avó queria tanto."
     ]
    ]
   },
@@ -100,11 +96,12 @@
    "segs": [
     [
      "shout",
-     "O quê?! A sério?"
+     "A sério?"
     ],
     [
      "annoyed",
-     "E só me dizes isso agora?"
+     " Não me tinhas dito!",
+     "Não me tinhas dito!"
     ]
    ]
   },
@@ -112,11 +109,12 @@
    "segs": [
     [
      "shy",
-     "Tinha medo de chorar."
+     "Pronto, desculpa."
     ],
     [
      "sad",
-     "Pronto, já estou a chorar."
+     " É difícil falar.",
+     "É difícil falar."
     ]
    ]
   },
@@ -124,11 +122,12 @@
    "segs": [
     [
      "gentle",
-     "Então no sábado compro o gato de bicicleta."
+     "A foto está linda."
     ],
     [
      "teasing",
-     "E não digo nada à tua avó."
+     " A avó ia adorar.",
+     "A avó ia adorar."
     ]
    ]
   }

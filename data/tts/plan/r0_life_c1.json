@@ -8,7 +8,7 @@
    "segs": [
     [
      "cheerful",
-     "Estás em casa?"
+     "Estás em casa agora?"
     ]
    ]
   },
@@ -16,7 +16,7 @@
    "segs": [
     [
      "neutral",
-     "Estou. Porquê?"
+     "Estou sim. Porquê?"
     ]
    ]
   },
@@ -24,7 +24,7 @@
    "segs": [
     [
      "excited",
-     "Vou já. Tenho uma coisa para ti."
+     "Já vou aí. Tenho para ti."
     ]
    ]
   },
@@ -32,7 +32,7 @@
    "segs": [
     [
      "surprised",
-     "Para mim? Tens o quê?"
+     "Para mim? O que é?"
     ]
    ]
   },
@@ -40,7 +40,7 @@
    "segs": [
     [
      "teasing",
-     "A tua chave. Ficou cá ontem."
+     "A tua chave. Ontem cá."
     ]
    ]
   },
@@ -48,7 +48,7 @@
    "segs": [
     [
      "worried",
-     "A minha chave? Então a porta..."
+     "A chave?! A porta..."
     ]
    ]
   },
@@ -56,8 +56,8 @@
    "segs": [
     [
      "amused",
-     "Está aberta desde ontem? 😂",
-     "Está aberta desde ontem?"
+     "Está aberta desde ontem. 😂",
+     "Está aberta desde ontem."
     ]
    ]
   },

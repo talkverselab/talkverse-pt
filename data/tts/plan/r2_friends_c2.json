@@ -9,8 +9,7 @@
    "segs": [
     [
      "excited",
-     "Fim de semana no mar, em Peniche! Quem quer? 🏄‍♀️",
-     "Fim de semana no mar, em Peniche! Quem quer?"
+     "Gente, vamos a Cascais sábado?"
     ]
    ]
   },
@@ -18,7 +17,7 @@
    "segs": [
     [
      "cheerful",
-     "Eu! Mas há jogo às oito da noite."
+     "Fixe! Eu topo."
     ]
    ]
   },
@@ -26,7 +25,7 @@
    "segs": [
     [
      "cheerful",
-     "Eu também quero. Levo o carro?"
+     "Eu também."
     ]
    ]
   },
@@ -34,7 +33,7 @@
    "segs": [
     [
      "excited",
-     "Espera, mudei de ideia. Lisboa é mais fixe!"
+     "Não, mudei. Sintra está fixe."
     ]
    ]
   },
@@ -42,7 +41,7 @@
    "segs": [
     [
      "tsukkomi",
-     "Lisboa? Ontem disseste que Lisboa era cara demais."
+     "Disseste Cascais. Era melhor."
     ]
    ]
   },
@@ -50,11 +49,7 @@
    "segs": [
     [
      "flustered",
-     "Pois, mas..."
-    ],
-    [
-     "excited",
-     "não, olha: Porto! Tem tudo e é perto do rio!"
+     "Olha, agora é Óbidos."
     ]
    ]
   },
@@ -62,7 +57,7 @@
    "segs": [
     [
      "tsukkomi",
-     "Beatriz, já mudaste três vezes em cinco minutos, pá."
+     "Pá, já mudaste outra vez?"
     ]
    ]
   },
@@ -70,7 +65,7 @@
    "segs": [
     [
      "annoyed",
-     "Pronto. Escolhe uma coisa e eu encontro uma casa."
+     "Pronto, decide lá."
     ]
    ]
   },
@@ -78,7 +73,7 @@
    "segs": [
     [
      "amused",
-     "Tá bem, tá bem. Porto. De certeza."
+     "Tá bem, de certeza Sintra."
     ]
    ]
   },
@@ -86,8 +81,7 @@
    "segs": [
     [
      "excited",
-     "Já está! Duas noites, uma casa ao pé do rio. 🙌",
-     "Já está! Duas noites, uma casa ao pé do rio."
+     "Eu já paguei o bilhete."
     ]
    ]
   },
@@ -95,11 +89,12 @@
    "segs": [
     [
      "cheerful",
-     "Boa!"
+     "Não!"
     ],
     [
      "flustered",
-     "Ah... esqueci-me de dizer. Ontem paguei dois dias em Peniche."
+     " Mudei para o Porto.",
+     "Mudei para o Porto."
     ]
    ]
   },
@@ -107,7 +102,7 @@
    "segs": [
     [
      "shout",
-     "E eu? Há jogo, pá!"
+     "Pá, estás doida!"
     ]
    ]
   }

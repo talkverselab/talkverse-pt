@@ -8,7 +8,7 @@
    "segs": [
     [
      "cheerful",
-     "Olá! Estás em casa?"
+     "Tudo bem? Estás em casa?"
     ]
    ]
   },
@@ -16,7 +16,7 @@
    "segs": [
     [
      "neutral",
-     "Estou. Queres o quê?"
+     "Estou sim. Porquê?"
     ]
    ]
   },
@@ -24,7 +24,7 @@
    "segs": [
     [
      "excited",
-     "Vem à minha casa. Agora!"
+     "Vem cá agora. Já!"
     ]
    ]
   },
@@ -36,8 +36,8 @@
     ],
     [
      "excited",
-     " Vou já!",
-     "Vou já!"
+     " Vou já.",
+     "Vou já."
     ]
    ]
   },
@@ -45,7 +45,7 @@
    "segs": [
     [
      "shout",
-     "É que há uma barata aqui!"
+     "É que há uma barata!"
     ]
    ]
   },
@@ -53,7 +53,7 @@
    "segs": [
     [
      "shy",
-     "E... também te queria ver."
+     "Mas também quero ver-te."
     ]
    ]
   }

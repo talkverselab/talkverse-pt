@@ -8,7 +8,7 @@
    "segs": [
     [
      "worried",
-     "Duarte? Estás bem? O que se passa?"
+     "Duarte, pá. Estás bem? Há algo?"
     ]
    ]
   },
@@ -16,7 +16,7 @@
    "segs": [
     [
      "sad",
-     "Não estou. Deixa-me, pá."
+     "Não estou. Deixa-me em paz, pá."
     ]
    ]
   },
@@ -24,7 +24,7 @@
    "segs": [
     [
      "worried",
-     "Morreu alguém? Fala comigo."
+     "Morreu alguém? Fala comigo já."
     ]
    ]
   },
@@ -32,7 +32,7 @@
    "segs": [
     [
      "sad",
-     "Morri eu. O meu clube perdeu hoje."
+     "Eu morri. O clube perdeu o jogo."
     ]
    ]
   },
@@ -40,7 +40,7 @@
    "segs": [
     [
      "amused",
-     "Ah... é só isso? Pronto, pronto. Está tudo bem."
+     "Só o jogo? Pronto, pronto. Está tudo bem."
     ]
    ]
   },
@@ -48,7 +48,7 @@
    "segs": [
     [
      "shout",
-     "Só isso?! Estou a falar da minha vida, pá!"
+     "O jogo?! Estou a falar da vida, pá!"
     ]
    ]
   },
@@ -56,7 +56,7 @@
    "segs": [
     [
      "gentle",
-     "Desculpa. Anda cá, eu fico contigo."
+     "Desculpa. Vem cá. Eu fico contigo."
     ]
    ]
   },
@@ -64,7 +64,7 @@
    "segs": [
     [
      "gentle",
-     "Obrigado..."
+     "Obrigad{o|a}..."
     ],
     [
      "tsukkomi",

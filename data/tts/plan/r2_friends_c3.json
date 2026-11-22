@@ -8,7 +8,7 @@
    "segs": [
     [
      "worried",
-     "Duarte, viste o meu bolo? Estava aqui em casa."
+     "O bolo estava aqui. Viste-o?"
     ]
    ]
   },
@@ -16,7 +16,7 @@
    "segs": [
     [
      "stiff",
-     "Que bolo? Estou a ver o jogo."
+     "Não sei."
     ]
    ]
   },
@@ -24,7 +24,7 @@
    "segs": [
     [
      "annoyed",
-     "O de chocolate. Estava na cozinha, numa caixa branca."
+     "Era o meu bolo."
     ]
    ]
   },
@@ -32,7 +32,7 @@
    "segs": [
     [
      "teasing",
-     "Ah, esse. Pois, era muito bom."
+     "Pois, estava bom."
     ]
    ]
   },
@@ -40,7 +40,7 @@
    "segs": [
     [
      "shout",
-     "ERA?! Duarte, comeste o meu bolo?"
+     "Comeste o bolo?"
     ]
    ]
   },
@@ -48,12 +48,12 @@
    "segs": [
     [
      "flustered",
-     "Só um bocado."
+     "Um bocado."
     ],
     [
      "excited",
-     " Epá, que jogo!",
-     "Epá, que jogo!"
+     " Epá, estava mesmo bom.",
+     "Epá, estava mesmo bom."
     ]
    ]
   },
@@ -61,7 +61,7 @@
    "segs": [
     [
      "annoyed",
-     "Não quero saber do jogo. Um bocado quanto?"
+     "Não acredito."
     ]
    ]
   },
@@ -69,7 +69,7 @@
    "segs": [
     [
      "flustered",
-     "Um bocado grande. Quer dizer... metade."
+     "Quer dizer, só um pedaço."
     ]
    ]
   },
@@ -77,7 +77,7 @@
    "segs": [
     [
      "shout",
-     "Metade?! Olha que esse bolo era para os anos da Inês!"
+     "Olha, era para hoje."
     ]
    ]
   },
@@ -85,12 +85,12 @@
    "segs": [
     [
      "surprised",
-     "Da Inês?"
+     "Epá, pensei que era teu."
     ],
     [
      "flustered",
-     " Epá... pensei que era o bolo que a minha mãe me mandou.",
-     "Epá... pensei que era o bolo que a minha mãe me mandou."
+     " Não, mandei mensagem.",
+     "Não, mandei mensagem."
     ]
    ]
   },
@@ -98,7 +98,7 @@
    "segs": [
     [
      "tsukkomi",
-     "O da tua mãe está no teu quarto desde sábado, pá. Não viste?"
+     "Mandaste o quê?"
     ]
    ]
   },
@@ -106,7 +106,7 @@
    "segs": [
     [
      "teasing",
-     "Pronto. Amanhã a Inês come o da minha mãe. Ela nem vai saber."
+     "Pronto, compro outro."
     ]
    ]
   }

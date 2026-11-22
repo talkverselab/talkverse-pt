@@ -8,7 +8,7 @@
    "segs": [
     [
      "surprised",
-     "Epá! Quem fez isto?"
+     "Epá! Quem limpou isto?"
     ]
    ]
   },
@@ -16,7 +16,7 @@
    "segs": [
     [
      "neutral",
-     "Eu? Não fiz nada."
+     "Eu não. Não fiz."
     ]
    ]
   },
@@ -24,7 +24,7 @@
    "segs": [
     [
      "shout",
-     "A casa está muito bem!"
+     "Está tão limpa!"
     ]
    ]
   },
@@ -40,7 +40,7 @@
    "segs": [
     [
      "worried",
-     "Foi a Inês? A Beatriz?"
+     "Foi a Inês então?"
     ]
    ]
   },
@@ -52,8 +52,8 @@
     ],
     [
      "worried",
-     " Ainda está aqui.",
-     "Ainda está aqui."
+     " Ainda está cá.",
+     "Ainda está cá."
     ]
    ]
   }

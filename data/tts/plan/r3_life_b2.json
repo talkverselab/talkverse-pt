@@ -8,7 +8,7 @@
    "segs": [
     [
      "polite",
-     "Bom dia! {O senhor|A senhora} quer sentar-se lá fora ou aqui dentro?"
+     "O senhor quer um café?"
     ]
    ]
   },
@@ -16,7 +16,7 @@
    "segs": [
     [
      "stiff",
-     "Aqui dentro, obrigad{o|a}. Quero um café, se faz favor."
+     "Sim, se faz favor."
     ]
    ]
   },
@@ -24,7 +24,7 @@
    "segs": [
     [
      "polite",
-     "Claro. Quer uma água com o café? Fresca ou natural?"
+     "Claro, com leite?"
     ]
    ]
   },
@@ -32,7 +32,7 @@
    "segs": [
     [
      "stiff",
-     "Sim, pode ser."
+     "Pode ser."
     ]
    ]
   },
@@ -40,7 +40,7 @@
    "segs": [
     [
      "cheerful",
-     "E um doce? Hoje temos pastéis de nata acabados de fazer."
+     "Nós temos bolo hoje."
     ]
    ]
   },
@@ -56,7 +56,7 @@
    "segs": [
     [
      "teasing",
-     "Um ou dois? As pessoas daqui comem sempre dois."
+     "Eles gostam muito."
     ]
    ]
   },
@@ -64,7 +64,7 @@
    "segs": [
     [
      "flustered",
-     "Sim, sim… como dois, claro."
+     "Claro, eu como."
     ]
    ]
   },
@@ -72,7 +72,7 @@
    "segs": [
     [
      "excited",
-     "Muito bem! E torradas? Nós fazemos com pão da casa, os clientes adoram."
+     "Nós recomendamos, eles pedem sempre."
     ]
    ]
   },
@@ -80,7 +80,7 @@
    "segs": [
     [
      "flustered",
-     "Sim… quer dizer… pode ser?"
+     "Quer dizer... tudo?"
     ]
    ]
   },
@@ -88,7 +88,7 @@
    "segs": [
     [
      "cheerful",
-     "Pronto! E leva também uma caixa de seis pastéis para casa? Estão quentinhos."
+     "Pronto, o senhor leva os dois."
     ]
    ]
   },
@@ -96,7 +96,7 @@
    "segs": [
     [
      "flustered",
-     "Sim, claro… Quanto é que eu pago, se faz favor?"
+     "Quanto é que eu pago, se faz favor?"
     ]
    ]
   },
@@ -104,12 +104,12 @@
    "segs": [
     [
      "polite",
-     "Então: um café, uma água, oito pastéis e torradas."
+     "Eles pagam no fim."
     ],
     [
      "teasing",
-     " São dezassete euros e meio. Paga com cartão?",
-     "São dezassete euros e meio. Paga com cartão?"
+     " O senhor também.",
+     "O senhor também."
     ]
    ]
   },
@@ -117,8 +117,7 @@
    "segs": [
     [
      "tsukkomi",
-     "Dezassete?! Pois… acho que hoje aprendi a dizer «não».",
-     "Dezassete?! Pois… acho que hoje aprendi a dizer não."
+     "Pois..."
     ]
    ]
   }

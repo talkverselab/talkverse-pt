@@ -9,7 +9,7 @@
    "segs": [
     [
      "excited",
-     "Anda, depressa! Quero chegar antes que a festa comece a sério!"
+     "Quero que fiques aqui antes que se perca."
     ]
    ]
   },
@@ -17,7 +17,7 @@
    "segs": [
     [
      "worried",
-     "Calma, Beatriz. Há gente por todo o lado. Onde é que está o Duarte?"
+     "Duarte não responde."
     ]
    ]
   },
@@ -25,7 +25,7 @@
    "segs": [
     [
      "annoyed",
-     "Não faço ideia. Disse que estaria perto da igreja, e há uma hora que não diz nada."
+     "Não faço ideia, estará perdido."
     ]
    ]
   },
@@ -33,7 +33,7 @@
    "segs": [
     [
      "amused",
-     "Estará perdido? Ou terá ido comer sardinhas sem nós?"
+     "Terá ido beber, se calhar."
     ]
    ]
   },
@@ -41,7 +41,7 @@
    "segs": [
     [
      "excited",
-     "Se calhar as duas coisas. Olha, esquece a igreja: primeiro vamos ver as marchas!"
+     "Olha, se calhar está com a malta."
     ]
    ]
   },
@@ -49,7 +49,7 @@
    "segs": [
     [
      "tsukkomi",
-     "Outra vez? Já mudaste de ideias não sei quantas vezes esta noite."
+     "Nem me avisou."
     ]
    ]
   },
@@ -57,7 +57,7 @@
    "segs": [
     [
      "cheerful",
-     "Pois, mas desta vez é a sério. Quero que vejas isto pelo menos uma vez na vida."
+     "Pois, quero que dance comigo."
     ]
    ]
   },
@@ -65,7 +65,7 @@
    "segs": [
     [
      "neutral",
-     "Está bem. Mas se o Duarte aparecer, quem lhe diz onde estamos?"
+     "Se aparecer, falamos."
     ]
    ]
   },
@@ -73,7 +73,7 @@
    "segs": [
     [
      "teasing",
-     "Ele que se desenrasque. Já não é nenhuma criança."
+     "Ele que se desenrasque, olha."
     ]
    ]
   },
@@ -81,7 +81,7 @@
    "segs": [
     [
      "surprised",
-     "Espera... aquele ali, a dançar com a Dona Fernanda ao pé das sardinhas, não é o Duarte?"
+     "Está a dançar com a senhora!"
     ]
    ]
   },
@@ -89,7 +89,7 @@
    "segs": [
     [
      "shout",
-     "{name}! Beatriz! Fiquei sem bateria! A Dona Fernanda não me larga. Venham, que falta gente!"
+     "Que eu dance, pá!"
     ]
    ]
   },
@@ -97,12 +97,12 @@
    "segs": [
     [
      "shout",
-     "Nem pensar! ..."
+     "Nem pensar!"
     ],
     [
      "amused",
-     " Quer dizer, até seria giro. Anda, {name}!",
-     "Quer dizer, até seria giro. Anda, {name}!"
+     " Quer dizer, giro, mas não.",
+     "Quer dizer, giro, mas não."
     ]
    ]
   },
@@ -110,7 +110,7 @@
    "segs": [
     [
      "tsukkomi",
-     "Se alguém tirar uma fotografia, eu mudo de país."
+     "Se quiseres, vamos buscá-lo."
     ]
    ]
   },
@@ -118,7 +118,7 @@
    "segs": [
     [
      "amused",
-     "Tarde demais! A filha da Dona Fernanda está a filmar desde que chegaste!"
+     "Estou a divertir-me!"
     ]
    ]
   }

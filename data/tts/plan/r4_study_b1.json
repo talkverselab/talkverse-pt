@@ -8,7 +8,7 @@
    "segs": [
     [
      "cheerful",
-     "{name}, tens um minuto? Se me ajudares esta noite, faço o jantar a semana toda."
+     "Se me ajudares com isto, faço o jantar a semana toda."
     ]
    ]
   },
@@ -16,7 +16,7 @@
    "segs": [
     [
      "teasing",
-     "Ajudar em quê? Não me digas que é o exame de amanhã."
+     "Como se eu não tivesse exame também."
     ]
    ]
   },
@@ -24,7 +24,7 @@
    "segs": [
     [
      "flustered",
-     "É. E ainda não abri o livro. Passei a tarde a ver o jogo."
+     "Estou a abrir o livro, a sério."
     ]
    ]
   },
@@ -32,7 +32,7 @@
    "segs": [
     [
      "tsukkomi",
-     "A tarde toda? Duarte, o exame é amanhã de manhã!"
+     "Pá, o livro nem sequer está aberto."
     ]
    ]
   },
@@ -40,7 +40,7 @@
    "segs": [
     [
      "worried",
-     "Pois, por isso é que preciso de ti. Explicas-me tudo como se eu não soubesse nada?"
+     "Pois, é como se o exame fosse já amanhã."
     ]
    ]
   },
@@ -48,7 +48,7 @@
    "segs": [
     [
      "annoyed",
-     "Está bem. Mas nada de jogos até acabarmos."
+     "Está bem, para tu ficares mais calmo."
     ]
    ]
   },
@@ -56,7 +56,7 @@
    "segs": [
     [
      "cheerful",
-     "Juro. Pronto, primeira pergunta: o que é que eu teria de saber para passar?"
+     "Pronto, então teria de estudar contigo."
     ]
    ]
   },
@@ -64,7 +64,7 @@
    "segs": [
     [
      "neutral",
-     "Tudo. Mas se perceberes esta parte do livro, já é meio caminho."
+     "Se perceberes o capítulo, está feito."
     ]
    ]
   },
@@ -72,7 +72,7 @@
    "segs": [
     [
      "gentle",
-     "Vá lá, já vamos a meio. Agora explica-me tu, como se eu fosse o professor."
+     "Vá lá, como se não soubesses isto já."
     ]
    ]
   },
@@ -80,7 +80,7 @@
    "segs": [
     [
      "cheerful",
-     "Não é preciso. Já percebi. Agora já posso explicar tudo à Inês amanhã."
+     "Espera, o exame é teu, não é meu."
     ]
    ]
   },
@@ -88,7 +88,7 @@
    "segs": [
     [
      "surprised",
-     "À Inês? Espera... o exame não é teu?"
+     "O quê? A sério?"
     ]
    ]
   },
@@ -96,12 +96,7 @@
    "segs": [
     [
      "amused",
-     "Meu? Eu nem estudo lá."
-    ],
-    [
-     "shy",
-     " O exame é da Inês. Disse-lhe que a ajudava.",
-     "O exame é da Inês. Disse-lhe que a ajudava."
+     "Eu só queria que estudasses um bocado."
     ]
    ]
   },
@@ -109,7 +104,7 @@
    "segs": [
     [
      "tsukkomi",
-     "Então passei a noite a explicar isto para tu ficares bem com ela?"
+     "Até acabarmos isto, não há jantar."
     ]
    ]
   },
@@ -117,7 +112,7 @@
    "segs": [
     [
      "shy",
-     "E faço o jantar o mês todo. Mas não lhe digas nada, por favor."
+     "Se me deixares ajudar, eu fico."
     ]
    ]
   }

@@ -8,8 +8,7 @@
    "segs": [
     [
      "polite",
-     "Senha 147? Faça favor, sente-se. Em que posso ajudar?",
-     "Senha cento e quarenta e sete? Faça favor, sente-se. Em que posso ajudar?"
+     "Faça favor, o senhor tem número de contribuinte?"
     ]
    ]
   },
@@ -17,7 +16,7 @@
    "segs": [
     [
      "stiff",
-     "Bom dia. Preciso de um número de contribuinte para alugar um apartamento."
+     "Preciso de casa primeiro."
     ]
    ]
   },
@@ -25,7 +24,7 @@
    "segs": [
     [
      "polite",
-     "Com certeza. Tem aí um comprovativo de morada?"
+     "Com certeza, precisa de morada."
     ]
    ]
   },
@@ -33,7 +32,7 @@
    "segs": [
     [
      "worried",
-     "Não tenho, porque o senhorio só faz o contrato depois de eu ter o número."
+     "Para terem a morada, preciso do número."
     ]
    ]
   },
@@ -41,7 +40,7 @@
    "segs": [
     [
      "polite",
-     "Pois, mas sem morada não lhe posso dar o número."
+     "Pois, diga-lhe ao senhorio."
     ]
    ]
   },
@@ -49,7 +48,7 @@
    "segs": [
     [
      "flustered",
-     "E sem número não tenho morada. Então como é que se faz?"
+     "Como é que faço sem casa?"
     ]
    ]
   },
@@ -57,7 +56,7 @@
    "segs": [
     [
      "amused",
-     "Olhe, é um clássico. Há quem ande nisto há três meses."
+     "Olhe, traga um comprovativo."
     ]
    ]
   },
@@ -65,7 +64,7 @@
    "segs": [
     [
      "shout",
-     "Três meses?! Ando a dormir no sofá de um colega há duas semanas!"
+     "Ando a procurar há meses!"
     ]
    ]
   },
@@ -73,7 +72,7 @@
    "segs": [
     [
      "gentle",
-     "Coitad{o|a}. E não conhece ninguém que lhe empreste uma morada?"
+     "Coitad{o|a}, que encontre depressa."
     ]
    ]
   },
@@ -81,12 +80,7 @@
    "segs": [
     [
      "annoyed",
-     "Não conheço ninguém. Durmo no sofá de um colega."
-    ],
-    [
-     "sad",
-     " Vou passar a vida naquele sofá?",
-     "Vou passar a vida naquele sofá?"
+     "Durmo no sofá dos amigos."
     ]
    ]
   },
@@ -94,7 +88,7 @@
    "segs": [
     [
      "surprised",
-     "Espere lá. Deixe-me ver o seu passaporte… há aqui uma coisa estranha."
+     "Espere lá, já lhe dei um papel."
     ]
    ]
   },
@@ -102,7 +96,7 @@
    "segs": [
     [
      "worried",
-     "Estranha? Não me diga que agora preciso de mais um papel."
+     "Não me diga que perdi."
     ]
    ]
   },
@@ -110,12 +104,7 @@
    "segs": [
     [
      "surprised",
-     "Pelo contrário, não precisa de nada."
-    ],
-    [
-     "amused",
-     " {O senhor|A senhora} já tem número desde o ano passado. Pediu-o a sua universidade.",
-     "{O senhor|A senhora} já tem número desde o ano passado. Pediu-o a sua universidade."
+     "O senhor já o tem aqui."
     ]
    ]
   },
@@ -123,7 +112,7 @@
    "segs": [
     [
      "shout",
-     "Desde o ano passado?! E ninguém me disse nada?"
+     "Encontrei-o agora!"
     ]
    ]
   },
@@ -131,7 +120,7 @@
    "segs": [
     [
      "teasing",
-     "Se calhar disseram. Mandaram-lhe uma carta, em português. Coitad{o|a}."
+     "Se calhar, coitad{o|a}."
     ]
    ]
   },
@@ -139,12 +128,7 @@
    "segs": [
     [
      "amused",
-     "Acho que acabei de arranjar casa."
-    ],
-    [
-     "tsukkomi",
-     " E de perder duas semanas.",
-     "E de perder duas semanas."
+     "Acabei de o achar."
     ]
    ]
   }

@@ -8,7 +8,7 @@
    "segs": [
     [
      "worried",
-     "Preciso de ti, {name}. Agora!"
+     "Preciso de ti agora, {name}. Vem!"
     ]
    ]
   },
@@ -16,7 +16,7 @@
    "segs": [
     [
      "worried",
-     "O que foi? Precisas de quê?"
+     "O que se passa? Precisas de quê?"
     ]
    ]
   },
@@ -24,7 +24,7 @@
    "segs": [
     [
      "worried",
-     "A minha mãe vem cá hoje à noite."
+     "A minha mãe chega cá esta noite."
     ]
    ]
   },
@@ -48,7 +48,7 @@
    "segs": [
     [
      "teasing",
-     "Ah, tens? Coitad{o|a}! Quem é?"
+     "Tens mesmo? Coitad{o|a}! Quem é?"
     ]
    ]
   },
@@ -60,8 +60,8 @@
     ],
     [
      "shy",
-     " Disse o teu nome sem pensar.",
-     "Disse o teu nome sem pensar."
+     " Eu disse o teu nome sem pensar.",
+     "Eu disse o teu nome sem pensar."
     ]
    ]
   },
@@ -69,7 +69,7 @@
    "segs": [
     [
      "gentle",
-     "Pronto. E achas que amanhã também posso ser?"
+     "Pronto. Achas que amanhã também posso ser?"
     ]
    ]
   }

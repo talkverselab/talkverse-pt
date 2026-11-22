@@ -8,11 +8,12 @@
    "segs": [
     [
      "polite",
-     "{name}, tem um minuto?"
+     "Alguém guardou o bolo no escritório?"
     ],
     [
      "annoyed",
-     "Alguém comeu o bolo que eu guardei na copa."
+     " Desapareceu.",
+     "Desapareceu."
     ]
    ]
   },
@@ -20,7 +21,7 @@
    "segs": [
     [
      "worried",
-     "O bolo de anos? Que chatice. Era para quem?"
+     "Que chatice. Eu não vi nada."
     ]
    ]
   },
@@ -28,7 +29,7 @@
    "segs": [
     [
      "sad",
-     "Para o meu sobrinho. Faz seis anos hoje e o almoço é às duas."
+     "Era para o aniversário do meu sobrinho, ao almoço."
     ]
    ]
   },
@@ -36,11 +37,12 @@
    "segs": [
     [
      "gentle",
-     "Coitado do miúdo."
+     "Coitado do menino."
     ],
     [
      "flustered",
-     "Mas porque é que está a olhar para mim assim?"
+     " Eu juro que não fui.",
+     "Eu juro que não fui."
     ]
    ]
   },
@@ -48,7 +50,7 @@
    "segs": [
     [
      "stiff",
-     "Porque há migalhas de bolo na sua cadeira, {name}."
+     "Há migalhas na sua cadeira."
     ]
    ]
   },
@@ -56,7 +58,7 @@
    "segs": [
     [
      "shout",
-     "Isso não é prova nenhuma! Sou inocente, juro. Eu nem como doces."
+     "Isso não é prova! Sou inocente!"
     ]
    ]
   },
@@ -64,7 +66,7 @@
    "segs": [
     [
      "tsukkomi",
-     "A sério? Na semana passada comeu três gelados na reunião de equipa."
+     "A sério? Estávamos todos na reunião da equipa."
     ]
    ]
   },
@@ -72,11 +74,7 @@
    "segs": [
     [
      "flustered",
-     "Quer dizer... gelado é diferente."
-    ],
-    [
-     "excited",
-     "A câmara de segurança grava a cozinha, não grava?"
+     "Quer dizer, a câmara de segurança pode gravar."
     ]
    ]
   },
@@ -84,7 +82,7 @@
    "segs": [
     [
      "annoyed",
-     "Grava, sim. Vamos ver o vídeo agora, e acabou-se a mentira."
+     "Não me venha com mentiras. O vídeo mostra tudo."
     ]
    ]
   },
@@ -92,7 +90,7 @@
    "segs": [
     [
      "teasing",
-     "Está bem. Se calhar vai pedir-me desculpa daqui a cinco minutos."
+     "Se calhar foi outra pessoa."
     ]
    ]
   },
@@ -100,12 +98,12 @@
    "segs": [
     [
      "surprised",
-     "Espere... esta pessoa sou eu."
+     "Espera..."
     ],
     [
      "flustered",
-     " Às nove tirei o bolo da copa e levei-o para o carro.",
-     "Às nove tirei o bolo da copa e levei-o para o carro."
+     " eu levei o bolo para casa ontem!",
+     "eu levei o bolo para casa ontem!"
     ]
    ]
   },
@@ -113,7 +111,7 @@
    "segs": [
     [
      "teasing",
-     "Para o carro? Afinal o bolo está inteiro e o ladrão é a chefe."
+     "Afinal a senhora é a ladra."
     ]
    ]
   },
@@ -121,12 +119,12 @@
    "segs": [
     [
      "flustered",
-     "Pronto, peço desculpa. No carro estava mais fresco."
+     "Pronto, desculpe."
     ],
     [
      "teasing",
-     " Mas então, as migalhas na sua cadeira?",
-     "Mas então, as migalhas na sua cadeira?"
+     " Ainda está fresco em casa.",
+     "Ainda está fresco em casa."
     ]
    ]
   },
@@ -134,7 +132,7 @@
    "segs": [
     [
      "flustered",
-     "Ah, essas... são do pão do pequeno-almoço. De certeza."
+     "De certeza que não comeu já?"
     ]
    ]
   }

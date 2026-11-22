@@ -8,7 +8,7 @@
    "segs": [
     [
      "excited",
-     "Bom dia! Estás acordad{o|a}? Hoje vens comigo à praia!"
+     "Bom dia! Estás acordad{o|a}? Vens hoje à praia?"
     ]
    ]
   },
@@ -16,7 +16,7 @@
    "segs": [
     [
      "cheerful",
-     "Quero! Fixe! A que horas?"
+     "Quero sim! Fixe! A que horas?"
     ]
    ]
   },
@@ -24,12 +24,12 @@
    "segs": [
     [
      "excited",
-     "Agora!"
+     "Agora já!"
     ],
     [
      "flustered",
-     " Não, espera... à tarde.",
-     "Não, espera... à tarde."
+     " Não, à tarde.",
+     "Não, à tarde."
     ]
    ]
   },
@@ -45,7 +45,7 @@
    "segs": [
     [
      "excited",
-     "Ou amanhã! Não... hoje à noite!"
+     "Ou não... hoje à noite!"
     ]
    ]
   },
@@ -53,7 +53,7 @@
    "segs": [
     [
      "tsukkomi",
-     "Beatriz... estás bem? Sabes o que queres?"
+     "Sabes o que queres? Estás bem?"
     ]
    ]
   },
@@ -61,8 +61,8 @@
    "segs": [
     [
      "teasing",
-     "Sei! E já estou na tua casa. 😎",
-     "Sei! E já estou na tua casa."
+     "Sei! Já estou na tua casa. 😎",
+     "Sei! Já estou na tua casa."
     ]
    ]
   },
@@ -70,7 +70,7 @@
    "segs": [
     [
      "amused",
-     "O Duarte está comigo. Ele também vem!"
+     "O Duarte vem comigo também!"
     ]
    ]
   }

@@ -8,7 +8,7 @@
    "segs": [
     [
      "polite",
-     "Antes de terminarmos, gostava de saber a sua opinião sobre a proposta, {name}."
+     "Para terminarmos, qual a sua opinião sobre a proposta?"
     ]
    ]
   },
@@ -16,7 +16,7 @@
    "segs": [
     [
      "stiff",
-     "Com todo o respeito, acho que seria preferível adiarmos a decisão até termos mais dados."
+     "Com todo o respeito, eu diria que está sólida."
     ]
    ]
   },
@@ -24,7 +24,7 @@
    "segs": [
     [
      "polite",
-     "Compreendo, mas o cliente está à espera de uma resposta até sexta-feira."
+     "Estou à espera de mais pormenores."
     ]
    ]
   },
@@ -32,7 +32,7 @@
    "segs": [
     [
      "polite",
-     "Nesse caso, talvez pudéssemos propor uma fase de teste, sem nos comprometermos já."
+     "Embora não tivesse visto tudo, parece boa."
     ]
    ]
   },
@@ -40,7 +40,7 @@
    "segs": [
     [
      "polite",
-     "Não me parece disparate nenhum. Mas há algum risco que me está a escapar?"
+     "Algum ponto que queira destacar?"
     ]
    ]
   },
@@ -48,7 +48,7 @@
    "segs": [
     [
      "worried",
-     "Há um pormenor, sim. Receio que o orçamento não chegue, caso o prazo derrape."
+     "Talvez seja melhor revermos, caso haja cortes."
     ]
    ]
   },
@@ -56,7 +56,7 @@
    "segs": [
     [
      "teasing",
-     "Curioso. Ainda esta manhã alguém disse exatamente o mesmo, de forma bem menos educada."
+     "É bem menos claro do que parece."
     ]
    ]
   },
@@ -64,7 +64,7 @@
    "segs": [
     [
      "flustered",
-     "A sério? Quem terá sido?"
+     "A sério? Terá sido já discutido assim?"
     ]
    ]
   },
@@ -72,8 +72,7 @@
    "segs": [
     [
      "teasing",
-     "Não sei. Só ouvi uma voz a dizer que a proposta era «um desastre de gravata».",
-     "Não sei. Só ouvi uma voz a dizer que a proposta era um desastre de gravata."
+     "Está a hesitar bastante nisso."
     ]
    ]
   },
@@ -81,7 +80,7 @@
    "segs": [
     [
      "flustered",
-     "Que expressão tão... criativa. Não faço ideia de quem possa ter dito tal coisa."
+     "Não faço ideia se isso funcione bem."
     ]
    ]
   },
@@ -89,7 +88,7 @@
    "segs": [
     [
      "polite",
-     "Pois. O seu microfone ficou ligado durante a pausa. Ouvimos todos."
+     "O microfone esteve ligado durante a pausa."
     ]
    ]
   },
@@ -97,7 +96,7 @@
    "segs": [
     [
      "worried",
-     "Todos? Incluindo o cliente?"
+     "Oh... o que é que ouviu?"
     ]
    ]
   },
@@ -105,7 +104,7 @@
    "segs": [
     [
      "amused",
-     "Sobretudo o cliente. E, por incrível que pareça, adorou a expressão."
+     "Por incrível que pareça, falou da gravata."
     ]
    ]
   },
@@ -113,7 +112,7 @@
    "segs": [
     [
      "stiff",
-     "Quer dizer que não vou ser despedid{o|a}?"
+     "Quer dizer, a minha gravata?"
     ]
    ]
   },
@@ -121,7 +120,7 @@
    "segs": [
     [
      "amused",
-     "Pelo contrário. Quer que seja {o|a} {name} a apresentar o desastre. De gravata."
+     "Pelo contrário, chamou-lhe um desastre."
     ]
    ]
   }

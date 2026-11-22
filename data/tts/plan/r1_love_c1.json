@@ -8,7 +8,7 @@
    "segs": [
     [
      "cheerful",
-     "Olá! Estás aí?"
+     "Olá {name}, estás bem?"
     ]
    ]
   },
@@ -16,7 +16,7 @@
    "segs": [
     [
      "neutral",
-     "Estou, sim. Está tudo bem?"
+     "Pois, estou. E tu?"
     ]
    ]
   },
@@ -24,7 +24,7 @@
    "segs": [
     [
      "shy",
-     "Nada... só quero falar contigo."
+     "Também estou. Quero falar contigo."
     ]
    ]
   },
@@ -32,7 +32,7 @@
    "segs": [
     [
      "excited",
-     "A sério? Queres? Então fala!"
+     "A sério? Então queres?"
     ]
    ]
   },
@@ -40,8 +40,7 @@
    "segs": [
     [
      "shy",
-     "Penso em ti o dia todo. 🙈",
-     "Penso em ti o dia todo."
+     "Estou a pensar em ti."
     ]
    ]
   },
@@ -49,8 +48,7 @@
    "segs": [
     [
      "shy",
-     "Eu também penso em ti. Estou corad{o|a}! 😳",
-     "Eu também penso em ti. Estou corad{o|a}!"
+     "Também. Estou cansad{o|a}."
     ]
    ]
   },
@@ -58,7 +56,7 @@
    "segs": [
     [
      "flustered",
-     "Ah! Desculpa, isto é para o Tiago!"
+     "Não! Era para o Pedro."
     ]
    ]
   },
@@ -66,12 +64,12 @@
    "segs": [
     [
      "surprised",
-     "Espera."
+     "Disseste \"também\"?"
     ],
     [
      "teasing",
-     " Disseste que também pensas em mim?",
-     "Disseste que também pensas em mim?"
+     " Está perfeito.",
+     "Está perfeito."
     ]
    ]
   }

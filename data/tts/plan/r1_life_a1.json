@@ -16,7 +16,7 @@
    "segs": [
     [
      "flustered",
-     "Com ninguém, pá! Estás cansad{o|a}, vai dormir."
+     "Com ninguém, pá! Estás cansad{o|a}, vai."
     ]
    ]
   },
@@ -33,7 +33,7 @@
    "segs": [
     [
      "stiff",
-     "Pois... ouviste bem. Estou a falar com a minha mãe."
+     "Pois... ouviste bem. Estou a falar com a mãe."
     ]
    ]
   },
@@ -41,7 +41,7 @@
    "segs": [
     [
      "surprised",
-     "Com a tua mãe? Ela fala a esta hora?"
+     "Com a tua mãe? Ela fala agora?"
     ]
    ]
   },
@@ -53,8 +53,8 @@
     ],
     [
      "worried",
-     " Ela está no carro... e já está à porta!",
-     "Ela está no carro... e já está à porta!"
+     " Ela está no carro... e já à porta!",
+     "Ela está no carro... e já à porta!"
     ]
    ]
   },
@@ -62,7 +62,7 @@
    "segs": [
     [
      "shout",
-     "À porta?! Agora? E a sala está assim!"
+     "À porta?! Agora? A sala está assim!"
     ]
    ]
   },

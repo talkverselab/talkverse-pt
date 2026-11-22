@@ -8,7 +8,7 @@
    "segs": [
     [
      "gentle",
-     "Estás acordad{o|a}?"
+     "Olá. O mar está mau."
     ]
    ]
   },
@@ -16,7 +16,7 @@
    "segs": [
     [
      "neutral",
-     "Estou. Não consigo dormir."
+     "Pois."
     ]
    ]
   },
@@ -24,7 +24,7 @@
    "segs": [
     [
      "sad",
-     "Amanhã não dá para ir ao mar. Está muito mau."
+     "Amanhã não dá para surfar."
     ]
    ]
   },
@@ -32,7 +32,7 @@
    "segs": [
     [
      "gentle",
-     "Que chatice. Então o que fazes amanhã?"
+     "Que chatice. Então cancelamos?"
     ]
    ]
   },
@@ -40,7 +40,7 @@
    "segs": [
     [
      "sad",
-     "Sei lá. Se calhar fico em casa a ver filmes sozinha."
+     "Sei lá. Se calhar sim."
     ]
    ]
   },
@@ -48,7 +48,7 @@
    "segs": [
     [
      "cheerful",
-     "Espera, vou mandar uma mensagem de voz à Inês."
+     "Mandei-te uma mensagem."
     ]
    ]
   },
@@ -56,12 +56,12 @@
    "segs": [
     [
      "shy",
-     "Inês, acho que gosto d{ele|ela}..."
+     "Espera, isso era voz."
     ],
     [
      "annoyed",
-     "e el{e|a} não percebe nada! 🎤",
-     "e el{e|a} não percebe nada!"
+     " Não era para ti.",
+     "Não era para ti."
     ]
    ]
   },
@@ -69,7 +69,7 @@
    "segs": [
     [
      "flustered",
-     "Beatriz... acho que isso não foi para a Inês."
+     "Ouviste? Não, ouvi eu."
     ]
    ]
   },
@@ -77,11 +77,12 @@
    "segs": [
     [
      "shout",
-     "NÃO. Esquece isso!"
+     "Não ouviste isso, pois não?"
     ],
     [
      "flustered",
-     "Não ouviste nada, pois não?"
+     " Apaga!",
+     "Apaga!"
     ]
    ]
   },
@@ -89,8 +90,7 @@
    "segs": [
     [
      "teasing",
-     "Ouvi. Duas vezes. 😏",
-     "Ouvi. Duas vezes."
+     "Ouvi um bocado."
     ]
    ]
   },
@@ -98,7 +98,7 @@
    "segs": [
     [
      "shy",
-     "... E então?"
+     "Então esquece."
     ]
    ]
   },
@@ -106,7 +106,7 @@
    "segs": [
     [
      "gentle",
-     "Então amanhã não vês filmes sozinha."
+     "Tá bem. Estás bem?"
     ]
    ]
   }
