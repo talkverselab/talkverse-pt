@@ -432,8 +432,7 @@ class _ControlBar extends StatelessWidget {
         ),
       chip('한국어', showKo, onKo),
       // 판 전환(시안 PT-01 칸 ②) — 브라질판 데이터가 생기기 전까지 Portugal 고정
-      chip('Portugal ▾', false, () => ScaffoldMessenger.of(context).showSnackBar(
-            SnackBar(content: Text(tr('브라질판(pt-BR)은 준비 중입니다 — 지금은 유럽 포르투갈어(Portugal)입니다.'))))),
+      // 판 전환 칩(Portugal ▾)은 브라질판 데이터가 생길 때까지 감춘다 — 누르면 「준비 중」만 나와서(심사 11-22)
     ]);
     final speed = Row(mainAxisSize: MainAxisSize.min, children: [
       Text(tr('속도'), style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w800, color: AppColors.sumi)),

@@ -4,6 +4,8 @@
 // ignore_for_file: lines_longer_than_80_chars
 
 const Map<String, String> kDictEn = {
+  '대화 통째로 외우기 · 10급': 'Memorize whole conversations · 10 levels',
+  '대화를 통째로 외워요. 규칙은 참고에만 있어요.': 'Memorize whole conversations. Rules are only in the notes.',
   '다른 언어 배우기': 'Learn another language',
   'Talkverse 의 다른 언어로 이동': 'Switch to another Talkverse language',
   // 이용권·결제(2026-11-09 가격 확정)
@@ -90,7 +92,7 @@ const Map<String, String> kDictEn = {
   '발음': 'Pronunciation', '발음 (rr · ñ · 강세)': 'Pronunciation (rr · ñ · stress)', '단어 카드': 'Word cards',
   '복습': 'Review', '플래시카드 복습': 'Flashcard review',
   // 회화
-  '회화 · Conversación': 'Conversation', '회화 · Beszélgetés': 'Conversation', '회화 · Conversazione': 'Conversation',
+  '회화 · Conversación': 'Conversation', '회화 · Conversa': 'Conversation', '회화 · Beszélgetés': 'Conversation', '회화 · Conversazione': 'Conversation',
   '회화 · Konuşma': 'Conversation', '회화 · Разговор': 'Conversation', '회화 · Яриа': 'Conversation', '회화 · محادثة': 'Conversation',
   'L1 스토리 — 첫 만남': 'L1 Story — first meeting', 'L2 일상 챗': 'L2 Daily chat', 'L3 내러티브': 'L3 Narrative',
   '문장 카드로 연습': 'Practice with sentence cards', '한국어 번역 토글': 'Toggle Korean translation',
@@ -337,6 +339,8 @@ const Map<String, String> kDictEn = {
 };
 
 const Map<String, String> kDictJa = {
+  '대화 통째로 외우기 · 10급': '会話をまるごと暗記 · 10級',
+  '대화를 통째로 외워요. 규칙은 참고에만 있어요.': '会話をまるごと覚えましょう。ルールは参考だけにあります。',
   '다른 언어 배우기': '他の言語を学ぶ',
   'Talkverse 의 다른 언어로 이동': 'Talkverse の他の言語へ',
   // 이용권·결제(2026-11-09 가격 확정)
@@ -421,7 +425,7 @@ const Map<String, String> kDictJa = {
   '빈도 단어': '頻出単語', '성·수': '性・数', '성·수 일치': '性・数の一致',
   '발음': '発音', '발음 (rr · ñ · 강세)': '発音 (rr · ñ · アクセント)', '단어 카드': '単語カード',
   '복습': '復習', '플래시카드 복습': 'フラッシュカード復習',
-  '회화 · Conversación': '会話', '회화 · Beszélgetés': '会話', '회화 · Conversazione': '会話',
+  '회화 · Conversación': '会話', '회화 · Conversa': '会話', '회화 · Beszélgetés': '会話', '회화 · Conversazione': '会話',
   '회화 · Konuşma': '会話', '회화 · Разговор': '会話', '회화 · Яриа': '会話', '회화 · محادثة': '会話',
   'L1 스토리 — 첫 만남': 'L1 ストーリー — 初めての出会い', 'L2 일상 챗': 'L2 日常チャット', 'L3 내러티브': 'L3 ナラティブ',
   '문장 카드로 연습': '文カードで練習', '한국어 번역 토글': '韓国語訳の表示切替',
@@ -659,6 +663,8 @@ const Map<String, String> kDictJa = {
 };
 
 const Map<String, String> kDictZh = {
+  '대화 통째로 외우기 · 10급': '整段背对话 · 10级',
+  '대화를 통째로 외워요. 규칙은 참고에만 있어요.': '整段背下对话。规则只在参考里。',
   '다른 언어 배우기': '学习其他语言',
   'Talkverse 의 다른 언어로 이동': '切换到 Talkverse 的其他语言',
   // 이용권·결제(2026-11-09 가격 확정)
@@ -743,7 +749,7 @@ const Map<String, String> kDictZh = {
   '빈도 단어': '高频词', '성·수': '性·数', '성·수 일치': '性数一致',
   '발음': '发音', '발음 (rr · ñ · 강세)': '发音 (rr · ñ · 重音)', '단어 카드': '单词卡片',
   '복습': '复习', '플래시카드 복습': '卡片复习',
-  '회화 · Conversación': '会话', '회화 · Beszélgetés': '会话', '회화 · Conversazione': '会话',
+  '회화 · Conversación': '会话', '회화 · Conversa': '会话', '회화 · Beszélgetés': '会话', '회화 · Conversazione': '会话',
   '회화 · Konuşma': '会话', '회화 · Разговор': '会话', '회화 · Яриа': '会话', '회화 · محادثة': '会话',
   'L1 스토리 — 첫 만남': 'L1 故事 — 初次见面', 'L2 일상 챗': 'L2 日常聊天', 'L3 내러티브': 'L3 叙事',
   '문장 카드로 연습': '用句子卡片练习', '한국어 번역 토글': '切换韩语翻译',

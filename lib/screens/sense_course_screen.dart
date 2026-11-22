@@ -32,8 +32,23 @@ class SenseCourse {
     } catch (_) {
       raw = utf8.decode((await rootBundle.load(assetPath('assets/data/$_kRel'))).buffer.asUint8List());
     }
-    return _cache = json.decode(raw) as Map<String, dynamic>;
+    return _cache = _onlyFilled(json.decode(raw) as Map<String, dynamic>);
   }
+
+  /// 데이터가 있는 회차·급만 보인다 — 빈 「대화 준비 중」 회차는 감춘다(통합 앱 심사 11-22, 지우지 않고 조건으로).
+  static Map<String, dynamic> _onlyFilled(Map<String, dynamic> d) {
+    bool filled(Map<String, dynamic> ls) =>
+        ls['kind'] == 'memorize' ? ((ls['sentences'] as List?) ?? const []).isNotEmpty : true;
+    final levels = <Map<String, dynamic>>[];
+    for (final lv in ((d['levels'] as List?) ?? const []).cast<Map<String, dynamic>>()) {
+      final ls = ((lv['lessons'] as List?) ?? const []).cast<Map<String, dynamic>>().where(filled).toList();
+      if (ls.isNotEmpty) levels.add({...lv, 'lessons': ls});
+    }
+    return {...d, 'levels': levels};
+  }
+
+  /// 영상 주소가 하나라도 있는지(없으면 「영상」 안내·칸을 감춘다).
+  static bool hasVideo(Map<String, dynamic> d) => flat(d).any((e) => ((e.$2['video'] as String?) ?? '').isNotEmpty);
 
   static Future<Set<String>> done() async => ((await Prefs.getInstance()).getStringList(_kDoneKey) ?? const []).toSet();
 
@@ -98,7 +113,7 @@ class _SenseCourseScreenState extends State<SenseCourseScreen> {
     final next = all.indexWhere((e) => !isRef(e.$2) && !_done.contains(e.$2['id']));
     final real = all.where((e) => !isRef(e.$2)).toList();
     final children = <Widget>[
-      Text(tr('영상을 보고, 대화를 통째로 외워요. 규칙은 참고에만 있어요.'),
+      Text(SenseCourse.hasVideo(d) ? tr('영상을 보고, 대화를 통째로 외워요. 규칙은 참고에만 있어요.') : tr('대화를 통째로 외워요. 규칙은 참고에만 있어요.'),
           style: const TextStyle(fontSize: 13, color: AppColors.sumiLight)),
       const SizedBox(height: 4),
       Text(trf('{0}/{1}회 마침', [real.where((e) => _done.contains(e.$2['id'])).length, real.length]),
@@ -337,7 +352,7 @@ class _Memorize extends StatelessWidget {
     const tlStyle = TextStyle(fontSize: 19, fontWeight: FontWeight.w800, color: AppColors.sumi, height: 1.45);
     const koStyle = TextStyle(fontSize: 14, color: AppColors.sumi, height: 1.45);
     return Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
-      LessonVideo(url: video),
+      if (video.isNotEmpty) LessonVideo(url: video), // 영상이 없으면 칸을 감춘다(「영상 준비 중」 안 보임)
       if (note.isNotEmpty) ...[
         const SizedBox(height: 12),
         Container(

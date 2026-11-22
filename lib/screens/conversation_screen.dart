@@ -45,13 +45,13 @@ class _ConversationScreenState extends State<ConversationScreen> {
     final catalog = EpisodeCatalog.instance;
     return Scaffold(
       backgroundColor: AppColors.cal,
-      appBar: AppBar(title: Text(tr('회화 · Conversación'))),
+      appBar: AppBar(title: Text(tr('회화 · Conversa'))),
       body: _loading
           ? const Center(child: CircularProgressIndicator())
           : ListView(
               padding: const EdgeInsets.all(16),
               children: [
-                for (final level in EpisodeCatalog.levels) ...[
+                for (final level in EpisodeCatalog.levels.where((l) => catalog.forLevel(l).isNotEmpty)) ...[   // 편이 있는 레벨만(심사 11-22)
                   Row(
                     children: [
                       TileBadge(text: level, size: 28),

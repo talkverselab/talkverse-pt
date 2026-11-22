@@ -402,7 +402,7 @@ class _MenuGrid extends StatelessWidget {
           builder: (_) => const PtSoundsScreen()),
       ]),
       (tr('문법'), [
-        _MenuItem(label: tr('언어감각 익히기'), sub: tr('영상 → 대화 통째로 외우기 · 10급'), badge: '🧠', color: AppColors.beni,
+        _MenuItem(label: tr('언어감각 익히기'), sub: tr('대화 통째로 외우기 · 10급'), badge: '🧠', color: AppColors.beni,
           builder: (_) => const SenseCourseScreen()),
         _MenuItem(label: tr('문법'), sub: 'Gramática', badge: 'G', color: AppColors.rojoDeep,
           builder: (_) => const GrammarHubScreen()),
