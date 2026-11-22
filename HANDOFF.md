@@ -140,3 +140,4 @@
 - uk: 3090 은 낮에도 음성, 순서 zh → ko 재생성 → es → ja R4 → **pt**. screen `pt-tts-26`(11-26 01:00) 내림 — 지금 걸린 실행기 없음.
 - 「pt 지금 시작」이 오면: `screen -dmS pt-tts zsh -c '~/.venvs/tts_zh/bin/python tools/tts/run_all.py ~/tts_work/pt 3 --refs > ~/tts_work/pt/run_day.log 2>&1'`(`--night` 없음) → `tv-progress pt run`. 앞 순서가 3090 을 달라면 `touch ~/tts_work/pt/PAUSE`(묶음 경계에서 멈춤). 끝나면 「GPU 끝」+남은 조각을 uk·아랍어앱에, `tv-progress pt done`, `data/tts/audio_pt.json` 커밋.
 - 참고 음성 잡음 미달 47개(-56~-59dB)는 uk 판단으로 통과(모델 바닥 잡음) — 그 목소리로 만든 본 음성의 받아쓰기·음량 불합격이 늘면 그 목소리만 다른 참고로 바꾼다. 공용 §5 문서는 그대로.
+- uk(11-23 07:1x): 3090 「비었다」는 nvidia-smi 만으로 판단 금지(묶음마다 모델을 올렸다 내려 몇 초씩 576MiB 로 보임) — ① 앞 세션 「GPU 끝」/uk 「pt 지금 시작」 + ② PC `D:	ts_test\job\job.log`·`moss_jobs.json` 수정 시각 5분 넘게 멈춤, 둘 다일 때만. night_pt.sh 의 8GB 조건은 시작 신호를 받은 뒤에만.
