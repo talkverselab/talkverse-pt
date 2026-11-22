@@ -5,7 +5,7 @@ PC 쪽은 작업 스케줄러 'TTS job 2060'(run_job.sh)이 돈다 — 참고 �
 import glob, json, os, subprocess, sys, time
 import ttslib as L
 PC = 'Administrator@100.127.143.37'; HERE = os.path.dirname(os.path.abspath(__file__))
-_a = [x for x in sys.argv[1:] if x not in ('--night', '--refs')]; work = _a[0]; N = int(_a[1]) if len(_a) > 1 else 6
+_a = [x for x in sys.argv[1:] if x not in ('--night', '--refs', '--refs-only')]; work = _a[0]; N = int(_a[1]) if len(_a) > 1 else 6
 os.makedirs(f'{work}/job', exist_ok=True); os.makedirs(f'{work}/wav', exist_ok=True)
 log = lambda *a: print(time.strftime('%H:%M:%S'), *a, flush=True)
 
@@ -62,6 +62,8 @@ ids = [e for e in L.planned() if e not in done]
 log('남은 편', len(ids))
 if '--refs' in sys.argv:
     refs()
+if '--refs-only' in sys.argv:
+    log('참고 음성만 — 끝'); sys.exit(0)
 for i in range(0, len(ids), N):
     if os.path.exists(f'{work}/PAUSE'):      # uk 끼어들기: 묶음 경계에서 멈춤(파일을 지우고 다시 실행하면 이어간다) — 태국어앱과 같게
         log('PAUSE 로 멈춤 — 남은 편', len(ids) - i); sys.exit(0)
