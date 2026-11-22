@@ -24,6 +24,6 @@ void main() {
     await LearnerPrefs.setGender('female');
     await svc.ensureLoaded();
     expect(svc.byId('r1_love_a1')!.turns.first.tl, contains('sozinha'));
-    expect(svc.all.where((d) => d.region != 'L1').length, 32);
+    expect(svc.all.where((d) => d.region != 'L1').length, 65); // 11-19 새 편 33 추가 뒤 65편
   });
 }

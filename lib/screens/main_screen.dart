@@ -8,6 +8,7 @@ import '../widgets/spanish_decor.dart';
 import 'about_screen.dart';
 import 'chunk_search_screen.dart';
 import 'conversation_screen.dart';
+import 'curriculum_screen.dart';
 import 'dialogue_screen.dart';
 import 'episode_screen.dart';
 import 'grammar_lesson_screen.dart';
@@ -439,6 +440,11 @@ class _MenuGrid extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
+        // 토크버스 커리큘럼 — 홈 첫 화면, 회화 메뉴 위(전 언어 공통 기준 CURRICULUM_SPEC.md, 2026-11-22)
+        Padding(
+          padding: const EdgeInsets.only(bottom: 10),
+          child: CurriculumHomeCard(onOpen: () => openPane(context, (_) => const CurriculumScreen())),
+        ),
         for (final (title, items) in sections) ...[
           Padding(
             padding: const EdgeInsets.fromLTRB(2, 6, 2, 8),
