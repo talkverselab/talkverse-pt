@@ -117,3 +117,9 @@
 - 절벽 말뭉치 한계: 자국 작품 수가 적고(PT 181편·BR 115편), pt-BR 은 브라질판 전용 자막 묶음이 아니라 포르투갈어 묶음 안의 브라질 제작 작품 — 더 정확히 하려면 브라질판 묶음을 받아 분류부터.
 - 공용 사전 원본 `talkverse/_update_kit/l10n/l10n_dict.dart` 에 이 앱에서 추가한 로그인·리더 문구를 옮길지(다른 앱 세션과 겹치지 않을 때).
 - 작업 트리에 줄바꿈(CRLF)만 다른 파일이 남아 있다 — `git add -A` 금지, 바꾼 파일만 경로로.
+
+## 11-22 밤 — 토크버스 커리큘럼(전 언어 공통, `~/talkverse/CURRICULUM_SPEC.md`)
+- 1998a38 첫 구현 → 75e96e8 일본어 기준(ja ceb91c3) 맞춤(service·screen·test·l10n 그대로, 대상어 tl·낱말 경계 빈칸·독음 줄) → fa96839 칩 줄 Wrap(300 폭 넘침).
+- 저장 `pt_curriculum_v1`(Prefs 접두) + `today:{day,new,review}`. 포르투갈어 회화 묶음에 lemmas 없음 → 문제는 뜻 4지선다만(빈칸은 표면형 있는 줄만).
+- AI 회화 작성: `custom_script_screen/service` 이식, 서버 `https://talkverse.uk/api/script/pt`, `kCustomScriptLive=false`(숨김, 켜는 것은 사용자 결정).
+- 사용자 「넣어야지」 → 커리큘럼은 심사 빌드에 보이게. 빌드: Android CI 27(Zealot https://apps.talkverse.uk/KtegX/619·PC 백업), iOS TestFlight 2611222203.
