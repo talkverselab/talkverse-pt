@@ -123,3 +123,8 @@
 - 저장 `pt_curriculum_v1`(Prefs 접두) + `today:{day,new,review}`. 포르투갈어 회화 묶음에 lemmas 없음 → 문제는 뜻 4지선다만(빈칸은 표면형 있는 줄만).
 - AI 회화 작성: `custom_script_screen/service` 이식, 서버 `https://talkverse.uk/api/script/pt`, `kCustomScriptLive=false`(숨김, 켜는 것은 사용자 결정).
 - 사용자 「넣어야지」 → 커리큘럼은 심사 빌드에 보이게. 빌드: Android CI 27(Zealot https://apps.talkverse.uk/KtegX/619·PC 백업), iOS TestFlight 2611222203.
+
+## 11-23 새벽 — 문법 스텝 서버 받기(사용자 지시, uk 경유)
+- 1436a9e: 스텝 목록 `assets/data/grammar/lessons.json`(지금 15칸, 개수·순서·제목은 데이터대로 — 서버 목록에서 빼면 사라지고 더하면 생김), 각 스텝 `grammar/lessonN.json` 은 ScriptSync(서버 판 우선·묶음 대체), 패턴 빈 스텝은 숨김. 내용 있는 스텝 1/15. `script_publish.py` 대상에 문법 파일 포함 → 서버 원고 rev 8.
+- 빌드: Android CI 28(Zealot https://apps.talkverse.uk/KtegX/641·PC 백업), iOS TestFlight 2611222334. M6 디스크 규칙(uk): iOS 빌드는 10GB 이상·한 번에 한 세션(`pgrep xcodebuild`), 올린 뒤 build/ 바로 삭제.
+- ⚠ `ios/Runner.xcodeproj/project.pbxproj` 에 이 세션 전부터 커밋 안 된 변경(130줄)이 있다 — `git checkout` 으로 되돌리지 말 것.
