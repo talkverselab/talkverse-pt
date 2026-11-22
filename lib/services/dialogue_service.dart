@@ -169,6 +169,8 @@ class DialogueService {
     'R5': '레벨 5 · 어휘 완주',
     'L1': '이야기',
   };
+  /// 커리큘럼·맞춤 회화가 쓰는 회화 레벨 순서(옛 이야기 L1 제외).
+  static const levels = ['R0', 'R1', 'R2', 'R3', 'R4', 'R5'];
   static const _prefLast = 'dialogue_last';
 
   final List<Dialogue> _all = [];

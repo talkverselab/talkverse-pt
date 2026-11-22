@@ -8,110 +8,148 @@ import 'package:portuguese_universe/services/curriculum_service.dart';
 import 'package:portuguese_universe/services/dialogue_service.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-/// 토크버스 커리큘럼(CURRICULUM_SPEC.md) — 80% 경계, 간격 반복 날짜, 시험·복습 흐름.
+Dialogue _d(String id, String island, int n) => Dialogue.fromJson({
+      'id': id,
+      'region': 'R1',
+      'island': island,
+      'turns': [
+        for (var i = 1; i <= n; i++) {'num': i, 'speaker': i.isOdd ? 'A' : 'B', 'tl': 'Frase$id$i', 'ko': '뜻$id$i'}
+      ],
+    });
+
 void main() {
   group('점수 80% 경계', () {
     test('소수점 버림', () {
-      expect(scorePercent(8, 10), 80);
-      expect(isPass(8, 10), isTrue);
       expect(scorePercent(7, 9), 77);
-      expect(isPass(7, 9), isFalse);
-      expect(scorePercent(23, 29), 79); // 79.3 → 79, 불통
-      expect(isPass(23, 29), isFalse);
-      expect(isPass(24, 30), isTrue);
+      expect(scorePercent(2, 3), 66);
       expect(scorePercent(0, 0), 0);
     });
-  });
-
-  group('간격 반복 1·3·7일', () {
-    test('맞히면 다음 간격, 틀리면 1일, 7일 맞히면 졸업', () {
-      final r = ReviewItem('d#1', '2026-11-23', 0);
-      expect(r.answer(true, '2026-11-23'), isFalse);
-      expect((r.step, r.due), (1, '2026-11-26'));
-      expect(r.answer(true, '2026-11-26'), isFalse);
-      expect((r.step, r.due), (2, '2026-12-03'));
-      expect(r.answer(false, '2026-12-03'), isFalse);
-      expect((r.step, r.due), (0, '2026-12-04'));
-      r.step = 2;
-      expect(r.answer(true, '2026-12-10'), isTrue);
+    test('80% 이상만 통과', () {
+      expect(isPass(8, 10), isTrue);
+      expect(isPass(79, 100), isFalse);
+      expect(isPass(4, 5), isTrue);
+      expect(isPass(23, 29), isFalse); // 79.3 → 79
+      expect(isPass(24, 30), isTrue);
     });
-    test('월·해 넘김', () {
-      expect(addDays('2026-12-31', 1), '2027-01-01');
-      expect(addDays('2027-02-27', 3), '2027-03-02');
-    });
-    test('연습한 줄은 1일 뒤 대기열, 틀린 줄은 1일로 되돌림', () {
-      final s = CurriculumState();
-      s.enqueueLines(['a#1', 'a#2'], {}, '2026-11-22');
-      expect(s.review.map((r) => r.due), ['2026-11-23', '2026-11-23']);
-      s.answerReview('a#1', true, '2026-11-23');
-      expect(s.review.first.due, '2026-11-26');
-      s.enqueueLines(['a#1'], {'a#1'}, '2026-11-24');
-      expect((s.review.first.step, s.review.first.due), (0, '2026-11-25'));
-      expect(s.dueReviews('2026-11-23').map((r) => r.lineId), ['a#2']);
+    test('시험 기록 — 통과면 편 통과, 아니면 틀린 편 연습 다시', () {
+      final st = CurriculumState(course: Course('c', ['a', 'b'], practiced: ['a', 'b']));
+      expect(st.recordExam(7, 10, {'b'}, '2026-11-22'), isFalse);
+      expect(st.course!.practiced, ['a']);
+      expect(st.passedDialogues, isEmpty);
+      st.course!.practiced.add('b');
+      expect(st.recordExam(8, 10, {}, '2026-11-23'), isTrue);
+      expect(st.course!.passedAt, '2026-11-23');
+      expect(st.passedDialogues, ['a', 'b']);
+      expect(st.course!.examScores, [70, 80]);
     });
   });
 
-  group('코스 시험·하루 분량', () {
-    test('80% 이상 통과, 미만이면 틀린 편만 연습 해제', () {
-      final s = CurriculumState(course: Course(id: 'c', dialogueIds: ['a', 'b'], practiced: ['a', 'b']));
-      expect(s.applyExam(5, 10, {'b'}, '2026-11-22'), isFalse);
-      expect(s.course!.practiced, ['a']);
-      expect(s.course!.examScores, [50]);
-      s.course!.practiced.add('b');
-      expect(s.applyExam(8, 10, {'a'}, '2026-11-23'), isTrue);
-      expect(s.passedDialogues, ['a', 'b']);
-      expect(s.course!.passedAt, '2026-11-23');
+  group('간격 반복 날짜', () {
+    test('1일 → 3일 → 7일 → 졸업', () {
+      final st = CurriculumState();
+      st.enqueue('x#1', '2026-11-22');
+      expect(st.review.single.due, '2026-11-23');
+      st.grade('x#1', true, '2026-11-23');
+      expect(st.review.single.due, '2026-11-26');
+      st.grade('x#1', true, '2026-11-26');
+      expect(st.review.single.due, '2026-12-03');
+      st.grade('x#1', true, '2026-12-03');
+      expect(st.review, isEmpty);
     });
-    test('연속 일수', () {
-      final s = CurriculumState();
-      s.markDailyDone('2026-11-22');
-      s.markDailyDone('2026-11-22');
-      s.markDailyDone('2026-11-23');
-      expect(s.streakCount, 2);
-      s.markDailyDone('2026-11-25');
-      expect(s.streakCount, 1);
+    test('틀리면 1일 뒤 처음 간격으로', () {
+      final st = CurriculumState();
+      st.enqueue('x#1', '2026-11-22');
+      st.grade('x#1', true, '2026-11-23');
+      st.grade('x#1', false, '2026-11-26');
+      expect(st.review.single.step, 0);
+      expect(st.review.single.due, '2026-11-27');
     });
-    test('시험 문제 수: 편당 3 이상, 전체 30 이하', () {
-      for (final n in [3, 5, 10]) {
-        expect(examPerDialogue(n) >= 3, isTrue);
-        expect(examPerDialogue(n) * n <= 30, isTrue);
-      }
-    });
-    test('저장 모양 왕복', () {
-      final s = CurriculumState(level: 'R1', course: Course(id: 'c', dialogueIds: ['a']));
-      s.enqueueLines(['a#1'], {}, '2026-11-22');
-      final j = jsonDecode(jsonEncode(s.toJson())) as Map<String, dynamic>;
-      expect(j.keys, containsAll(['level', 'dailyGoal', 'course', 'passedDialogues', 'review', 'streak']));
-      final back = CurriculumState.fromJson(j);
-      expect((back.level, back.review.single.lineId), ('R1', 'a#1'));
-      expect(back.course!.dialogueIds, ['a']);
+    test('달·해 넘김', () {
+      expect(addDays('2026-12-30', 3), '2027-01-02');
+      expect(addDays('2028-02-28', 1), '2028-02-29');
     });
   });
 
-  test('실제 회화 묶음으로 문제 만들기·추천', () {
-    final list = jsonDecode(File('assets/data/pt-PT/dialogues/male.json').readAsStringSync()) as List;
-    final ds = [for (final e in list) Dialogue.fromJson(e as Map<String, dynamic>)];
-    for (final d in ds) {
-      final qs = questionsFor(d, pool: ds.where((o) => o.region == d.region && o.id != d.id).toList());
-      expect(qs, isNotEmpty, reason: d.id);
-      expect(qs.length <= 10, isTrue);
+  group('하루 분량·연속', () {
+    test('새 편 목표를 채우고 복습이 없으면 끝, 연속 일수', () {
+      final st = CurriculumState(dailyGoal: 1, course: Course('c', ['a', 'b']));
+      expect(st.dayDone('2026-11-22'), isFalse);
+      st.markPracticed('a', [1, 2], '2026-11-22');
+      expect(st.dayDone('2026-11-22'), isTrue);
+      expect(st.streakShown('2026-11-22'), 1);
+      // 다음 날: 복습 2줄 + 새 편 1
+      expect(st.dueReview('2026-11-23').length, 2);
+      st.grade('a#1', true, '2026-11-23');
+      st.grade('a#2', true, '2026-11-23');
+      st.markPracticed('b', [1], '2026-11-23');
+      expect(st.todayReview, 2);
+      expect(st.streakShown('2026-11-23'), 2);
+      expect(st.streakShown('2026-11-25'), 0);
+    });
+    test('저장 형식 왕복', () {
+      final st = CurriculumState(level: 'R1', course: Course('c', ['a']));
+      st.markPracticed('a', [1], '2026-11-22');
+      final back = CurriculumState.fromJson(st.toJson());
+      expect(back.toJson(), st.toJson());
+      expect(st.toJson().keys, containsAll(['level', 'dailyGoal', 'course', 'passedDialogues', 'review', 'streak']));
+    });
+  });
+
+  group('문제·추천', () {
+    test('편마다 줄 수만큼, 최대 10, 보기 4개 중 정답 1', () {
+      final a = _d('a', 'friends', 12), b = _d('b', 'life', 4);
+      final qs = buildQuestions(a, limit: 10, pool: [b]);
+      expect(qs.length, 10);
       for (final q in qs) {
         expect(q.choices.length, 4);
-        expect(q.choices.toSet().length, 4, reason: '${q.lineId} ${q.choices}');
-        expect(q.answer, inInclusiveRange(0, 3));
-        if (q.kind == 'blank') expect(q.prompt.contains('____'), isTrue, reason: q.prompt);
+        expect(q.choices.toSet().length, 4);
+        expect(q.choices[q.answer], '뜻a${q.turn}');
+      }
+      expect(buildQuestions(b, limit: 10, pool: [a]).length, 4);
+    });
+    test('시험 문제 수: 편당 최소 3, 전체 최대 30', () {
+      expect(examPerDialogue(3), 10);
+      expect(examPerDialogue(5), 6);
+      expect(examPerDialogue(10), 3);
+    });
+    test('추천 = 안 한 편, 주제 겹치지 않게', () {
+      final list = [_d('f1', 'friends', 2), _d('f2', 'friends', 2), _d('l1', 'life', 2), _d('w1', 'work', 2)];
+      final r = recommend(list, {'l1'}, {}, 3);
+      expect(r, ['f1', 'w1', 'f2']);
+    });
+  });
+
+  testWidgets('시험 화면 — 고르고 결과까지', (t) async {
+    final a = _d('a', 'friends', 5);
+    final qs = buildQuestions(a, limit: 2);
+    await t.pumpWidget(MaterialApp(home: CurriculumQuizScreen(title: 'T', questions: qs, mode: QuizMode.exam)));
+    for (var i = 0; i < 2; i++) {
+      await t.tap(find.text(qs[i].choices[qs[i].answer]));
+      await t.pump();
+      await t.tap(find.byType(FilledButton).last);
+      await t.pump();
+    }
+    expect(find.textContaining('100'), findsOneWidget);
+  });
+
+  test('포르투갈어 실제 회화 65편 — 문제 4지선다·보기 중복 없음', () {
+    for (final g in ['male', 'female']) {
+      final list = jsonDecode(File('assets/data/pt-PT/dialogues/$g.json').readAsStringSync()) as List;
+      final ds = [for (final e in list) Dialogue.fromJson(e as Map<String, dynamic>)];
+      expect(ds.length, 65);
+      for (final d in ds) {
+        final qs = buildQuestions(d, limit: 10, pool: ds.where((o) => o.region == d.region && o.id != d.id).toList());
+        expect(qs, isNotEmpty, reason: d.id);
+        for (final q in qs) {
+          expect(q.choices.toSet().length, 4, reason: '${q.lineId} ${q.choices}');
+          expect(q.answer, inInclusiveRange(0, 3));
+        }
       }
     }
-    final r1 = ds.where((d) => d.region == 'R1').toList();
-    final pick = recommend(r1, {}, 5);
-    expect(pick.length, 5);
-    expect(pick.toSet().length, 5);
-    final islands = pick.map((id) => r1.firstWhere((d) => d.id == id).island).toSet();
-    expect(islands.length, greaterThanOrEqualTo(3));
   });
 
   for (final size in const [Size(360, 740), Size(834, 1194)]) {
-    testWidgets('커리큘럼 화면 ${size.width}', (t) async {
+    testWidgets('커리큘럼 첫 화면 넘침 없음 ${size.width}', (t) async {
       SharedPreferences.setMockInitialValues({});
       t.view.physicalSize = size;
       t.view.devicePixelRatio = 1;
@@ -121,7 +159,6 @@ void main() {
         await Future<void>.delayed(const Duration(seconds: 3));
       });
       await t.pump();
-      expect(find.text('회화 레벨을 고르세요'), findsOneWidget);
       expect(t.takeException(), isNull);
     });
   }

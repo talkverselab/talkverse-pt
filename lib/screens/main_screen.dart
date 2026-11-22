@@ -9,6 +9,7 @@ import 'about_screen.dart';
 import 'chunk_search_screen.dart';
 import 'conversation_screen.dart';
 import 'curriculum_screen.dart';
+import 'custom_script_screen.dart';
 import 'dialogue_screen.dart';
 import 'episode_screen.dart';
 import 'grammar_lesson_screen.dart';
@@ -416,6 +417,10 @@ class _MenuGrid extends StatelessWidget {
           builder: (_) => const SpeakingPracticeScreen()),
         _MenuItem(label: tr('문장 카드'), sub: 'Frases', badge: 'S', color: AppColors.tinta,
           builder: (_) => const SentenceFlashcardScreen()),
+        // AI 회화 작성(맞춤 회화) — 일본어앱과 같은 화면, 작성기·결제 흐름이 켜질 때까지 숨김(CURRICULUM_SPEC §11, 켜는 것은 사용자 결정)
+        if (kCustomScriptLive)
+          _MenuItem(label: tr('AI 회화 작성'), sub: tr('나만의 회화'), badge: '✍', color: AppColors.beniDeep,
+            builder: (_) => const CustomScriptScreen()),
       ]),
       (tr('단어'), [
         _MenuItem(label: tr('절벽 단어'), sub: tr('R1~R5 · 2,000어'), badge: 'F', color: AppColors.lusa,
@@ -443,7 +448,7 @@ class _MenuGrid extends StatelessWidget {
         // 토크버스 커리큘럼 — 홈 첫 화면, 회화 메뉴 위(전 언어 공통 기준 CURRICULUM_SPEC.md, 2026-11-22)
         Padding(
           padding: const EdgeInsets.only(bottom: 10),
-          child: CurriculumHomeCard(onOpen: () => openPane(context, (_) => const CurriculumScreen())),
+          child: const CurriculumHomeCard(),
         ),
         for (final (title, items) in sections) ...[
           Padding(

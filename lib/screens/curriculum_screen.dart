@@ -1,14 +1,17 @@
 import 'package:flutter/material.dart';
 
 import '../core/l10n.dart';
+import '../core/pane.dart';
 import '../core/platform.dart';
 import '../core/theme.dart';
 import '../services/curriculum_service.dart';
 import '../services/dialogue_audio.dart';
 import '../services/dialogue_service.dart';
+import '../services/learner_prefs.dart';
 import '../widgets/spanish_decor.dart';
 
-/// 토크버스 커리큘럼(`~/talkverse/CURRICULUM_SPEC.md`) — 레벨 고르기 → 코스(고른 편) → 편마다 연습 → 코스 시험 80%.
+/// 토크버스 커리큘럼 — 전 언어 공통 기준(`~/talkverse/CURRICULUM_SPEC.md`, 2026-11-22). 일본어앱이 기준 구현.
+/// 레벨 고르기 → 다이얼로그 고르기(3·5·10) → 편마다 듣기·확인 문제 → 코스 시험(80% 이상 통과) → 다음 코스. 하루 분량·복습.
 class CurriculumScreen extends StatefulWidget {
   const CurriculumScreen({super.key});
   @override
@@ -16,492 +19,524 @@ class CurriculumScreen extends StatefulWidget {
 }
 
 class _CurriculumScreenState extends State<CurriculumScreen> {
-  final _ds = DialogueService.instance;
-  final _cs = CurriculumService.instance;
-  bool _ready = false;
-  bool _pickLevel = false;
+  final _svc = CurriculumService.instance;
+  bool _loading = true;
+  bool _picking = false; // 다이얼로그 고르는 중
+  bool _confirmNew = false; // 「지금 코스를 버릴까요?」 칸
+  bool _levelPick = false;
+  int _pickCount = 5;
+  final Set<String> _picked = {};
+
+  CurriculumState get _st => _svc.state;
 
   @override
   void initState() {
     super.initState();
-    _init();
+    _svc.ensureLoaded().then((_) {
+      if (!mounted) return;
+      setState(() {
+        _loading = false;
+        _levelPick = _st.level == null;
+        _picking = _st.level != null && _st.course == null;
+      });
+    });
   }
 
-  Future<void> _init() async {
-    await _ds.ensureLoaded();
-    await _cs.load();
-    if (mounted) setState(() => _ready = true);
+  Future<void> _setLevel(String lv) async {
+    _st.level = lv;
+    await _svc.save();
+    setState(() {
+      _levelPick = false;
+      _picked.clear();
+      _picking = _st.course == null;
+    });
   }
 
-  CurriculumState get _s => _cs.state;
+  Future<void> _startCourse() async {
+    await _svc.startCourse(_picked.toList());
+    setState(() {
+      _picking = false;
+      _picked.clear();
+    });
+  }
 
-  Future<void> _push(Widget w) async {
-    await Navigator.of(context).push(MaterialPageRoute(builder: (_) => w));
+  Future<void> _practice(Dialogue d) async {
+    await openFull(context, (_) => CurriculumPracticeScreen(dialogue: d));
+    if (mounted) setState(() {});
+  }
+
+  Future<void> _exam() async {
+    final c = _st.course!;
+    final ds = [for (final id in c.dialogueIds) DialogueService.instance.byId(id)].whereType<Dialogue>().toList();
+    final per = examPerDialogue(ds.length);
+    final seed = DateTime.now().millisecondsSinceEpoch;
+    final qs = [for (final d in ds) ...buildQuestions(d, limit: per, pool: ds, seed: seed)]..shuffle();
+    final res = await openFull<QuizResult>(context, (_) => CurriculumQuizScreen(title: tr('코스 시험'), questions: qs.take(30).toList(), mode: QuizMode.exam));
+    if (res == null || !mounted) return;
+    final passed = _st.recordExam(res.correct, res.total, res.wrongDialogues, _svc.today);
+    await _svc.save();
+    if (!mounted) return;
+    setState(() {});
+    await showDialog<void>(
+      context: context,
+      builder: (ctx) => AlertDialog(
+        title: Text(passed ? tr('코스 통과!') : tr('조금만 더')),
+        content: Text(passed
+            ? trf('{0}점 — 80점을 넘었어요. 다음 코스를 골라요.', [scorePercent(res.correct, res.total)])
+            : trf('{0}점 — 80점이 넘어야 통과예요. 틀린 편만 다시 연습하고 시험을 봐요.', [scorePercent(res.correct, res.total)])),
+        actions: [TextButton(onPressed: () => Navigator.pop(ctx), child: Text(tr('확인')))],
+      ),
+    );
+    if (passed && mounted) {
+      setState(() {
+        _st.course = null;
+        _picking = true;
+      });
+      await _svc.save();
+    }
+  }
+
+  Future<void> _review() async {
+    final due = _st.dueReview(_svc.today).take(20).toList();
+    final qs = <CurQuestion>[];
+    final seed = DateTime.now().millisecondsSinceEpoch;
+    for (final r in due) {
+      final d = DialogueService.instance.byId(r.dialogueId);
+      if (d == null) continue;
+      qs.addAll(buildQuestions(d, limit: 1, pool: _svc.levelList(d.region), seed: seed, onlyTurns: {r.turn}));
+    }
+    if (qs.isEmpty) {
+      // 원고가 바뀌어 줄이 없어진 항목은 대기열에서 뺀다
+      _st.review.removeWhere((r) => due.contains(r));
+      await _svc.save();
+      setState(() {});
+      return;
+    }
+    await openFull<QuizResult>(context, (_) => CurriculumQuizScreen(title: tr('오늘 복습'), questions: qs, mode: QuizMode.review));
     if (mounted) setState(() {});
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: AppColors.calDeep,
-      appBar: AppBar(title: Text(tr('토크버스 커리큘럼'))),
-      body: !_ready
+      backgroundColor: AppColors.washi,
+      appBar: AppBar(
+        title: Text(tr('토크버스 커리큘럼'), style: const TextStyle(color: AppColors.sumi, fontWeight: FontWeight.w800, fontSize: 16)),
+        actions: [
+          if (!_loading && _st.level != null && !_levelPick)
+            TextButton(
+              onPressed: () => setState(() => _levelPick = true),
+              child: Text('${_st.level} ${tr(DialogueService.levelKo[_st.level] ?? '')}', style: const TextStyle(fontWeight: FontWeight.w800, color: AppColors.beni)),
+            ),
+        ],
+      ),
+      body: _loading
           ? const Center(child: CircularProgressIndicator())
-          : (_s.level == null || _pickLevel)
-              ? _levelPicker()
-              : _courseHome(),
+          : ListView(
+              padding: EdgeInsets.fromLTRB(16, 8, 16, 24 + bottomInset(context)),
+              children: _levelPick ? _levelPicker() : [_todayCard(), const SizedBox(height: 12), ..._courseBody()],
+            ),
     );
   }
 
   // ── 레벨 고르기 ──
-  Widget _levelPicker() {
-    final ls = _cs.levels(_ds);
-    return ListView(
-      padding: EdgeInsets.fromLTRB(16, 12, 16, 24 + bottomInset(context)),
-      children: [
-        Text(tr('회화 레벨을 고르세요'), style: const TextStyle(fontSize: 17, fontWeight: FontWeight.w800, color: AppColors.tinta)),
-        const SizedBox(height: 4),
-        Text(tr('처음이면 가장 낮은 레벨부터 권합니다. 레벨의 편을 모두 통과하면 다음 레벨이 열립니다.'),
-            style: const TextStyle(fontSize: 12.5, color: AppColors.tintaLight)),
-        const SizedBox(height: 12),
-        for (final (i, l) in ls.indexed)
-          Builder(builder: (context) {
-            final open = _cs.unlocked(_ds, l);
-            final eps = _ds.list(region: l);
-            final passed = eps.where((d) => _s.passedDialogues.contains(d.id)).length;
-            return Card(
-              elevation: 0,
-              color: AppColors.cal,
-              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12), side: const BorderSide(color: AppColors.gualda)),
-              child: ListTile(
-                enabled: open,
-                leading: Icon(open ? Icons.flag_outlined : Icons.lock_outline, color: open ? AppColors.beni : AppColors.gualdaDeep),
-                title: Text(tr(DialogueService.levelKo[l] ?? l), style: const TextStyle(fontWeight: FontWeight.w700)),
-                subtitle: Text(trf('{0}편 중 {1}편 통과', [eps.length, passed]) + (i == 0 && _s.level == null ? ' · ${tr('추천')}' : '')),
-                trailing: l == _s.level ? const Icon(Icons.check_circle, color: AppColors.lusa) : null,
-                onTap: () async {
-                  _s.level = l;
-                  await _cs.save();
-                  setState(() => _pickLevel = false);
-                },
-              ),
-            );
-          }),
-      ],
-    );
-  }
-
-  // ── 코스 화면 ──
-  Widget _courseHome() {
-    final t = _cs.today;
-    _s.rollDay(t);
-    final c = _s.course;
-    final due = _s.dueReviews(t);
-    final newLeft = c == null ? 0 : c.dialogueIds.where((id) => !c.practiced.contains(id)).length;
-    final newToday = (_s.newGoal - _s.newDone).clamp(0, newLeft);
-    final total = _s.newGoal + _s.reviewDone + due.length;
-    final done = _s.newDone.clamp(0, _s.newGoal) + _s.reviewDone;
-    final dailyDone = _s.streakLastDay == t;
-    return ListView(
-      padding: EdgeInsets.fromLTRB(16, 12, 16, 24 + bottomInset(context)),
-      children: [
-        _box(Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-          Row(children: [
-            Expanded(
-              child: Text(dailyDone ? tr('오늘 분량 끝') : trf('오늘: 복습 {0} · 새 편 {1}', [due.length, newToday]),
-                  style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w800, color: AppColors.tinta)),
-            ),
-            if (_s.streakCount > 0) Text('🔥 ${trf('{0}일 연속', [_s.streakCount])}', style: const TextStyle(fontSize: 12.5, color: AppColors.er)),
-          ]),
-          const SizedBox(height: 8),
-          ClipRRect(
-            borderRadius: BorderRadius.circular(6),
-            child: LinearProgressIndicator(
-                value: dailyDone ? 1 : (total == 0 ? 0 : done / total), minHeight: 8, color: AppColors.lusa, backgroundColor: AppColors.gualda),
-          ),
-          const SizedBox(height: 10),
-          Wrap(spacing: 6, runSpacing: 4, children: [
-            for (final g in kDailyGoals.keys)
-              ChoiceChip(
-                label: Text(_goalLabel(g), style: const TextStyle(fontSize: 12)),
-                selected: _s.dailyGoal == g,
-                onSelected: (_) async {
-                  _s.dailyGoal = g;
-                  await _cs.save();
-                  setState(() {});
-                },
-              ),
-          ]),
-          if (due.isNotEmpty) ...[
-            const SizedBox(height: 8),
-            SizedBox(
-              width: double.infinity,
-              child: FilledButton.icon(
-                icon: const Icon(Icons.replay),
-                label: Text(trf('복습 {0}개 하기', [due.length])),
-                onPressed: () => _push(_ReviewScreen(items: due)),
-              ),
-            ),
-          ],
-        ])),
-        const SizedBox(height: 12),
-        Row(children: [
-          Expanded(
-            child: Text(tr(DialogueService.levelKo[_s.level] ?? _s.level!),
-                style: const TextStyle(fontSize: 15, fontWeight: FontWeight.w800, color: AppColors.beniDeep)),
-          ),
-          TextButton(onPressed: () => setState(() => _pickLevel = true), child: Text(tr('레벨 바꾸기'))),
-        ]),
-        if (c == null || c.passed) ...[
-          if (c != null && c.passed)
-            _box(Text(trf('코스 통과! 시험 {0}%', [c.examScores.last]), style: const TextStyle(fontWeight: FontWeight.w700, color: AppColors.lusa))),
-          const SizedBox(height: 8),
-          if (_levelAllPassed())
-            _box(Text(tr('이 레벨의 편을 모두 통과했습니다. 레벨 바꾸기에서 다음 레벨을 고르세요.'), style: const TextStyle(color: AppColors.tinta)))
-          else
-            FilledButton.icon(
-              icon: const Icon(Icons.add),
-              label: Text(c == null ? tr('코스 만들기') : tr('다음 코스 만들기')),
-              onPressed: () => _push(_CourseBuilder(level: _s.level!)),
-            ),
-        ] else
-          ..._courseBody(c),
-      ],
-    );
-  }
-
-  bool _levelAllPassed() => _ds.list(region: _s.level).every((d) => _s.passedDialogues.contains(d.id));
-
-  List<Widget> _courseBody(Course c) {
-    final eps = [for (final id in c.dialogueIds) _ds.byId(id)].whereType<Dialogue>().toList();
+  List<Widget> _levelPicker() {
+    final lowest = DialogueService.levels.firstWhere((l) => DialogueService.instance.count(l) > 0, orElse: () => 'R1');
     return [
-      for (final d in eps)
-        Card(
-          elevation: 0,
-          color: AppColors.cal,
-          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12), side: const BorderSide(color: AppColors.gualda)),
-          child: ListTile(
-            leading: Text(d.emoji, style: const TextStyle(fontSize: 24)),
-            title: Text(d.title, maxLines: 2, overflow: TextOverflow.ellipsis),
-            subtitle: Text(c.practiced.contains(d.id) ? tr('연습 끝') : tr('연습 전')),
-            trailing: Icon(c.practiced.contains(d.id) ? Icons.check_circle : Icons.play_circle_outline,
-                color: c.practiced.contains(d.id) ? AppColors.lusa : AppColors.beni),
-            onTap: () => _push(_PracticeScreen(dialogue: d)),
-          ),
-        ),
-      const SizedBox(height: 8),
-      if (c.examScores.isNotEmpty)
-        Padding(
-          padding: const EdgeInsets.only(bottom: 6),
-          child: Text(trf('지난 시험 {0}% — 80% 이상이면 통과. 틀린 편만 다시 연습하세요.', [c.examScores.last]),
-              style: const TextStyle(fontSize: 12.5, color: AppColors.er)),
-        ),
-      FilledButton.icon(
-        icon: const Icon(Icons.school_outlined),
-        label: Text(c.allPracticed ? tr('코스 시험 보기') : trf('코스 시험 (연습 {0}/{1})', [c.practiced.length, c.dialogueIds.length])),
-        onPressed: c.allPracticed ? () => _push(_ExamScreen(dialogues: eps)) : null,
-      ),
+      Text(tr('회화 레벨을 골라요'), style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w800, color: AppColors.sumi)),
       const SizedBox(height: 4),
-      TextButton(onPressed: () => _push(_CourseBuilder(level: _s.level!)), child: Text(tr('새 코스로 바꾸기'))),
-    ];
-  }
-
-  Widget _box(Widget child) => Container(
-        padding: const EdgeInsets.all(14),
-        decoration: BoxDecoration(color: AppColors.cal, borderRadius: BorderRadius.circular(14), border: Border.all(color: AppColors.gualda)),
-        child: child,
-      );
-}
-
-String _goalLabel(String g) => switch (g) {
-      'light' => tr('가볍게 · 새 편 1'),
-      'focus' => tr('집중 · 새 편 3'),
-      _ => tr('보통 · 새 편 2'),
-    };
-
-/// 홈 위 커리큘럼 카드 — 「오늘: 복습 N · 새 편 N」 + 진행 막대(§6).
-class CurriculumHomeCard extends StatefulWidget {
-  final VoidCallback onOpen;
-  const CurriculumHomeCard({super.key, required this.onOpen});
-  @override
-  State<CurriculumHomeCard> createState() => _CurriculumHomeCardState();
-}
-
-class _CurriculumHomeCardState extends State<CurriculumHomeCard> {
-  @override
-  void initState() {
-    super.initState();
-    CurriculumService.instance.load().then((_) {
-      if (mounted) setState(() {});
-    });
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return ValueListenableBuilder<int>(
-      valueListenable: CurriculumService.instance.revision,
-      builder: (context, _, _) {
-        final s = CurriculumService.instance.state;
-        final t = dayKey(DateTime.now());
-        s.rollDay(t);
-        final c = s.course;
-        final due = s.dueReviews(t).length;
-        final newLeft = c == null || c.passed ? 0 : c.dialogueIds.where((id) => !c.practiced.contains(id)).length;
-        final newToday = (s.newGoal - s.newDone).clamp(0, newLeft);
-        final total = s.newDone.clamp(0, s.newGoal) + s.reviewDone + due + newToday;
-        final done = s.newDone.clamp(0, s.newGoal) + s.reviewDone;
-        final finished = s.streakLastDay == t;
-        final line = s.level == null
-            ? tr('레벨을 고르고 다이얼로그로 코스를 만드세요')
-            : finished
-                ? '${tr('오늘 분량 끝')} · 🔥 ${trf('{0}일 연속', [s.streakCount])}'
-                : trf('오늘: 복습 {0} · 새 편 {1}', [due, newToday]);
-        return InkWell(
-          onTap: widget.onOpen,
-          borderRadius: BorderRadius.circular(14),
-          child: Container(
-            padding: const EdgeInsets.all(14),
-            decoration: BoxDecoration(
-                color: AppColors.cal, borderRadius: BorderRadius.circular(14), border: Border.all(color: AppColors.gualda)),
+      Text(tr('처음이면 가장 낮은 레벨부터 권해요. 문법 레벨과는 따로예요.'), style: const TextStyle(fontSize: 12.5, color: AppColors.muted)),
+      const SizedBox(height: 12),
+      for (final lv in DialogueService.levels)
+        if (DialogueService.instance.count(lv) > 0)
+          _card(
+            onTap: () => _setLevel(lv),
+            selected: _st.level == lv,
             child: Row(children: [
-              const TileBadge(text: '🎯', size: 44, color: AppColors.beniDeep),
+              TileBadge(text: lv, size: 40, color: AppColors.beni),
               const SizedBox(width: 12),
               Expanded(
                 child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                  Text(tr('토크버스 커리큘럼'), style: const TextStyle(fontSize: 14, fontWeight: FontWeight.w800, color: AppColors.tinta)),
-                  const SizedBox(height: 2),
-                  Text(line, style: const TextStyle(fontSize: 12, color: AppColors.tintaLight)),
-                  if (s.level != null) ...[
-                    const SizedBox(height: 6),
-                    ClipRRect(
-                      borderRadius: BorderRadius.circular(4),
-                      child: LinearProgressIndicator(
-                          value: finished ? 1 : (total == 0 ? 0 : done / total),
-                          minHeight: 5,
-                          color: AppColors.lusa,
-                          backgroundColor: AppColors.gualda),
-                    ),
-                  ],
+                  Text(tr(DialogueService.levelKo[lv] ?? lv), style: const TextStyle(fontWeight: FontWeight.w800, color: AppColors.sumi)),
+                  Text(
+                    trf('{0}편 · 통과 {1}', [DialogueService.instance.count(lv), _svc.levelList(lv).where((d) => _st.passedDialogues.contains(d.id)).length]),
+                    style: const TextStyle(fontSize: 12, color: AppColors.muted),
+                  ),
                 ]),
               ),
-              const Icon(Icons.chevron_right, color: AppColors.gualdaDeep),
+              if (_st.level == null && lv == lowest) _pill(tr('추천'), AppColors.matcha),
             ]),
           ),
-        );
-      },
+    ];
+  }
+
+  // ── 오늘 분량 ──
+  Widget _todayCard() {
+    final today = _svc.today;
+    final due = _st.dueReview(today).length;
+    final newLeft = _st.newLeft(today);
+    final doneNew = _st.todayDay == today ? _st.todayNew : 0;
+    final doneRev = _st.todayDay == today ? _st.todayReview : 0;
+    final total = doneNew + doneRev + due + newLeft;
+    final done = _st.dayDone(today);
+    final streak = _st.streakShown(today);
+    return _card(
+      child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+        Row(children: [
+          Text(done ? tr('오늘 분량 끝') : tr('오늘 분량'), style: const TextStyle(fontWeight: FontWeight.w800, color: AppColors.sumi, fontSize: 15)),
+          const Spacer(),
+          if (streak > 0) _pill(trf('🔥 {0}일 연속', [streak]), AppColors.beni),
+        ]),
+        const SizedBox(height: 6),
+        Text(trf('오늘: 복습 {0} · 새 편 {1}', [due, newLeft]), style: const TextStyle(fontSize: 13, color: AppColors.sumiLight)),
+        const SizedBox(height: 8),
+        ClipRRect(
+          borderRadius: BorderRadius.circular(4),
+          child: LinearProgressIndicator(
+            value: total == 0 ? 1 : (doneNew + doneRev) / total,
+            minHeight: 6,
+            backgroundColor: AppColors.line,
+            color: AppColors.beni,
+          ),
+        ),
+        const SizedBox(height: 10),
+        Row(children: [
+          Text(tr('하루 목표'), style: const TextStyle(fontSize: 12, color: AppColors.muted)),
+          const SizedBox(width: 8),
+          Expanded(
+            child: SegmentedButton<int>(
+              showSelectedIcon: false,
+              style: SegmentedButton.styleFrom(visualDensity: VisualDensity.compact, textStyle: const TextStyle(fontSize: 11.5, fontWeight: FontWeight.w700)),
+              segments: [
+                ButtonSegment(value: 1, label: Text(tr('가볍게'))),
+                ButtonSegment(value: 2, label: Text(tr('보통'))),
+                ButtonSegment(value: 3, label: Text(tr('집중'))),
+              ],
+              selected: {_st.dailyGoal},
+              onSelectionChanged: (s) async {
+                _st.dailyGoal = s.first;
+                await _svc.save();
+                setState(() {});
+              },
+            ),
+          ),
+        ]),
+        if (due > 0) ...[
+          const SizedBox(height: 10),
+          SizedBox(
+            width: double.infinity,
+            child: FilledButton.icon(
+              style: FilledButton.styleFrom(backgroundColor: AppColors.beni),
+              onPressed: _review,
+              icon: const Icon(Icons.replay, size: 18),
+              label: Text(trf('복습 {0}줄 시작', [due])),
+            ),
+          ),
+        ],
+      ]),
     );
   }
-}
 
-// ── 코스 만들기: 3·5·10 편 고르기 ──
-class _CourseBuilder extends StatefulWidget {
-  final String level;
-  const _CourseBuilder({required this.level});
-  @override
-  State<_CourseBuilder> createState() => _CourseBuilderState();
-}
-
-class _CourseBuilderState extends State<_CourseBuilder> {
-  final _cs = CurriculumService.instance;
-  int _n = 5;
-  final _picked = <String>[];
-  bool _confirm = false;
-
-  List<Dialogue> get _eps => DialogueService.instance.list(region: widget.level);
-
-  @override
-  Widget build(BuildContext context) {
-    final s = _cs.state;
-    final passed = s.passedDialogues.toSet();
-    final active = s.course != null && !s.course!.passed;
-    return Scaffold(
-      backgroundColor: AppColors.calDeep,
-      appBar: AppBar(title: Text(tr('코스 만들기'))),
-      body: ListView(
-        padding: const EdgeInsets.fromLTRB(16, 12, 16, 12),
-        children: [
-          Text(tr('몇 편으로 할까요?'), style: const TextStyle(fontWeight: FontWeight.w700)),
-          const SizedBox(height: 6),
-          Wrap(spacing: 6, children: [
-            for (final n in const [3, 5, 10])
-              ChoiceChip(
-                label: Text(trf('{0}편', [n])),
-                selected: _n == n,
-                onSelected: (_) => setState(() {
-                  _n = n;
-                  if (_picked.length > n) _picked.removeRange(n, _picked.length);
-                }),
+  // ── 코스 ──
+  List<Widget> _courseBody() {
+    final c = _st.course;
+    if (_confirmNew) {
+      return [
+        _card(
+          child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+            Text(tr('지금 코스를 그만두고 새로 고를까요?'), style: const TextStyle(fontWeight: FontWeight.w800, color: AppColors.sumi)),
+            const SizedBox(height: 4),
+            Text(tr('연습한 표시와 시험 점수는 사라져요. 통과한 편과 복습 줄은 남아요.'), style: const TextStyle(fontSize: 12.5, color: AppColors.muted)),
+            const SizedBox(height: 10),
+            Row(children: [
+              OutlinedButton(onPressed: () => setState(() => _confirmNew = false), child: Text(tr('계속하기'))),
+              const SizedBox(width: 8),
+              FilledButton(
+                style: FilledButton.styleFrom(backgroundColor: AppColors.beni),
+                onPressed: () async {
+                  _st.course = null;
+                  await _svc.save();
+                  setState(() {
+                    _confirmNew = false;
+                    _picking = true;
+                  });
+                },
+                child: Text(tr('새로 고르기')),
               ),
-            ActionChip(
-              avatar: const Icon(Icons.auto_awesome, size: 16),
-              label: Text(tr('추천으로 채우기')),
-              onPressed: () => setState(() {
-                final r = recommend(_eps, passed, _n, keep: _picked);
-                _picked
-                  ..clear()
-                  ..addAll(r);
-              }),
-            ),
+            ]),
           ]),
-          const SizedBox(height: 8),
-          Text(trf('{0}/{1} 고름', [_picked.length, _n]), style: const TextStyle(fontSize: 12.5, color: AppColors.tintaLight)),
-          const SizedBox(height: 4),
-          for (final d in _eps)
-            CheckboxListTile(
-              dense: true,
-              value: _picked.contains(d.id),
-              onChanged: (v) => setState(() {
-                if (v == true && _picked.length < _n) {
-                  _picked.add(d.id);
-                } else {
-                  _picked.remove(d.id);
+        ),
+      ];
+    }
+    if (_picking || c == null) return _picker();
+    final ds = [for (final id in c.dialogueIds) DialogueService.instance.byId(id)].whereType<Dialogue>().toList();
+    final lv = _st.level!;
+    return [
+      Row(children: [
+        Text(trf('지금 코스 · {0}편', [ds.length]), style: const TextStyle(fontWeight: FontWeight.w800, color: AppColors.sumi, fontSize: 15)),
+        const Spacer(),
+        TextButton(onPressed: () => setState(() => _confirmNew = true), child: Text(tr('새 코스'))),
+      ]),
+      Text(trf('연습 {0}/{1}{2}', [c.practiced.length, ds.length, c.examScores.isEmpty ? '' : ' · ${trf('지난 시험 {0}점', [c.examScores.last])}']),
+          style: const TextStyle(fontSize: 12, color: AppColors.muted)),
+      const SizedBox(height: 8),
+      for (final d in ds)
+        _card(
+          onTap: () => _practice(d),
+          child: Row(children: [
+            Text(d.emoji, style: const TextStyle(fontSize: 22)),
+            const SizedBox(width: 10),
+            Expanded(
+              child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                Text(d.title, maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(fontWeight: FontWeight.w700, color: AppColors.sumi)),
+                Text('${tr(DialogueService.islandKo[d.island] ?? d.island)} · ${trf('{0}줄', [d.turns.length])}', style: const TextStyle(fontSize: 12, color: AppColors.muted)),
+              ]),
+            ),
+            if (c.practiced.contains(d.id)) const Icon(Icons.check_circle, color: AppColors.matcha) else _pill(tr('연습'), AppColors.beni),
+          ]),
+        ),
+      const SizedBox(height: 8),
+      SizedBox(
+        width: double.infinity,
+        child: FilledButton.icon(
+          style: FilledButton.styleFrom(backgroundColor: AppColors.sumi, padding: const EdgeInsets.symmetric(vertical: 12)),
+          onPressed: c.allPracticed && ds.isNotEmpty ? _exam : null,
+          icon: const Icon(Icons.flag, size: 18),
+          label: Text(c.allPracticed ? tr('코스 시험 보기 (80% 이상 통과)') : tr('모든 편을 연습하면 시험이 열려요')),
+        ),
+      ),
+      if (_svc.levelDone(lv) && _svc.nextLevel(lv) != null) ...[
+        const SizedBox(height: 12),
+        _card(
+          onTap: () => _setLevel(_svc.nextLevel(lv)!),
+          child: Text(trf('{0} 편을 모두 통과했어요 → {1} 로', [lv, _svc.nextLevel(lv)!]), style: const TextStyle(fontWeight: FontWeight.w800, color: AppColors.matcha)),
+        ),
+      ],
+    ];
+  }
+
+  List<Widget> _picker() {
+    final lv = _st.level!;
+    final list = _svc.levelList(lv);
+    final passed = _st.passedDialogues.toSet();
+    final doneLevel = _svc.levelDone(lv);
+    final next = _svc.nextLevel(lv);
+    return [
+      Text(tr('다이얼로그 고르기'), style: const TextStyle(fontWeight: FontWeight.w800, color: AppColors.sumi, fontSize: 15)),
+      const SizedBox(height: 2),
+      Text(tr('이 편들로 연습하고, 코스 시험에서 80% 이상이면 다음 코스로 넘어가요.'), style: const TextStyle(fontSize: 12.5, color: AppColors.muted)),
+      if (doneLevel && next != null) ...[
+        const SizedBox(height: 8),
+        _card(
+          onTap: () => _setLevel(next),
+          child: Text(trf('{0} 편을 모두 통과했어요 → {1} 로', [lv, next]), style: const TextStyle(fontWeight: FontWeight.w800, color: AppColors.matcha)),
+        ),
+      ],
+      const SizedBox(height: 10),
+      Row(children: [
+        for (final n in const [3, 5, 10])
+          Padding(
+            padding: const EdgeInsets.only(right: 6),
+            child: ChoiceChip(
+              label: Text(trf('{0}편', [n])),
+              selected: _pickCount == n,
+              onSelected: (_) => setState(() {
+                _pickCount = n;
+                while (_picked.length > n) {
+                  _picked.remove(_picked.last);
                 }
               }),
-              secondary: Text(d.emoji, style: const TextStyle(fontSize: 20)),
-              title: Text(d.title, maxLines: 2, overflow: TextOverflow.ellipsis),
-              subtitle: Text('${tr(DialogueService.islandKo[d.island] ?? d.island)}${passed.contains(d.id) ? ' · ${tr('통과')}' : ''}'),
             ),
-        ],
+          ),
+        const Spacer(),
+        TextButton.icon(
+          onPressed: () => setState(() => _picked.addAll(recommend(list, passed, _picked, _pickCount))),
+          icon: const Icon(Icons.auto_awesome, size: 16),
+          label: Text(tr('추천으로 채우기')),
+        ),
+      ]),
+      const SizedBox(height: 6),
+      SizedBox(
+        width: double.infinity,
+        child: FilledButton(
+          style: FilledButton.styleFrom(backgroundColor: AppColors.beni, padding: const EdgeInsets.symmetric(vertical: 12)),
+          onPressed: _picked.isEmpty ? null : _startCourse,
+          child: Text(trf('{0}/{1}편으로 코스 시작', [_picked.length, _pickCount])),
+        ),
       ),
-      bottomNavigationBar: Padding(
-        padding: EdgeInsets.fromLTRB(16, 8, 16, 16 + bottomInset(context)),
-        child: _confirm
-            ? Column(mainAxisSize: MainAxisSize.min, children: [
-                Text(tr('진행 중인 코스를 버리고 새 코스를 시작할까요?'), style: const TextStyle(fontWeight: FontWeight.w700)),
-                const SizedBox(height: 8),
-                Row(children: [
-                  Expanded(child: OutlinedButton(onPressed: () => setState(() => _confirm = false), child: Text(tr('취소')))),
-                  const SizedBox(width: 8),
-                  Expanded(child: FilledButton(onPressed: _start, child: Text(tr('새 코스 시작')))),
-                ]),
-              ])
-            : FilledButton(
-                onPressed: _picked.isEmpty ? null : () => active ? setState(() => _confirm = true) : _start(),
-                child: Text(trf('{0}편으로 코스 시작', [_picked.length])),
-              ),
+      const SizedBox(height: 10),
+      for (final d in list)
+        _card(
+          selected: _picked.contains(d.id),
+          onTap: () => setState(() {
+            if (_picked.contains(d.id)) {
+              _picked.remove(d.id);
+            } else if (_picked.length < _pickCount) {
+              _picked.add(d.id);
+            }
+          }),
+          child: Row(children: [
+            Icon(_picked.contains(d.id) ? Icons.check_box : Icons.check_box_outline_blank, color: _picked.contains(d.id) ? AppColors.beni : AppColors.muted),
+            const SizedBox(width: 8),
+            Text(d.emoji, style: const TextStyle(fontSize: 20)),
+            const SizedBox(width: 8),
+            Expanded(
+              child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                Text(d.title, maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(fontWeight: FontWeight.w700, color: AppColors.sumi)),
+                Text('${tr(DialogueService.islandKo[d.island] ?? d.island)} · ${trf('{0}줄', [d.turns.length])}', style: const TextStyle(fontSize: 12, color: AppColors.muted)),
+              ]),
+            ),
+            if (passed.contains(d.id)) _pill(tr('통과'), AppColors.matcha),
+          ]),
+        ),
+    ];
+  }
+}
+
+Widget _card({required Widget child, VoidCallback? onTap, bool selected = false}) => Padding(
+      padding: const EdgeInsets.only(bottom: 8),
+      child: Material(
+        color: selected ? AppColors.washiDeep : AppColors.washi,
+        borderRadius: BorderRadius.circular(12),
+        child: InkWell(
+          borderRadius: BorderRadius.circular(12),
+          onTap: onTap,
+          child: Container(
+            padding: const EdgeInsets.all(12),
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(12),
+              border: Border.all(color: selected ? AppColors.beni : AppColors.line, width: selected ? 1.5 : 1),
+            ),
+            child: child,
+          ),
+        ),
       ),
     );
-  }
 
-  Future<void> _start() async {
-    _cs.state.course = Course(id: 'c${DateTime.now().millisecondsSinceEpoch}', dialogueIds: [..._picked]);
-    await _cs.save();
-    if (mounted) Navigator.of(context).pop();
-  }
-}
+Widget _pill(String text, Color color) => Container(
+      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 3),
+      decoration: BoxDecoration(color: color.withValues(alpha: 0.1), borderRadius: BorderRadius.circular(20)),
+      child: Text(text, style: TextStyle(fontSize: 11, fontWeight: FontWeight.w800, color: color)),
+    );
 
-// ── 편 연습: 듣기·읽기(줄마다 뜻) + 따라 말하기(줄 반복) → 확인 문제 ──
-class _PracticeScreen extends StatefulWidget {
+/// 편 하나 연습: ① 듣기·읽기(전체 재생·줄마다 뜻) ② 따라 말하기(줄을 눌러 반복 듣기, 채점 없음) ③ 확인 문제.
+class CurriculumPracticeScreen extends StatefulWidget {
   final Dialogue dialogue;
-  const _PracticeScreen({required this.dialogue});
+  const CurriculumPracticeScreen({super.key, required this.dialogue});
   @override
-  State<_PracticeScreen> createState() => _PracticeScreenState();
+  State<CurriculumPracticeScreen> createState() => _CurriculumPracticeScreenState();
 }
 
-class _PracticeScreenState extends State<_PracticeScreen> {
-  final _showKo = <int>{};
+class _CurriculumPracticeScreenState extends State<CurriculumPracticeScreen> {
+  bool _showKo = true;
   int? _playing;
-  bool _playAll = false;
+  bool _stop = false;
+
+  Dialogue get d => widget.dialogue;
 
   @override
   void dispose() {
+    _stop = true;
     DialogueAudio.instance.stop();
     super.dispose();
   }
 
-  Future<void> _play(DialogueTurn t) async {
+  Future<void> _playAll() async {
+    _stop = false;
+    for (final t in d.turns) {
+      if (_stop || !mounted) break;
+      setState(() => _playing = t.num);
+      await speakTurn(d, t);
+    }
+    if (mounted) setState(() => _playing = null);
+  }
+
+  Future<void> _playOne(int i) async {
+    _stop = true;
+    await DialogueAudio.instance.stop();
+    _stop = false;
+    final t = d.turns[i];
     setState(() => _playing = t.num);
-    await speakTurn(widget.dialogue, t);
+    await speakTurn(d, t);
     if (mounted && _playing == t.num) setState(() => _playing = null);
   }
 
-  Future<void> _playAllTurns() async {
-    if (_playAll) {
-      _playAll = false;
-      await DialogueAudio.instance.stop();
-      setState(() => _playing = null);
-      return;
-    }
-    setState(() => _playAll = true);
-    for (final t in widget.dialogue.turns) {
-      if (!mounted || !_playAll) break;
-      await _play(t);
-    }
-    if (mounted) setState(() => _playAll = false);
+  Future<void> _quiz() async {
+    _stop = true;
+    await DialogueAudio.instance.stop();
+    final svc = CurriculumService.instance;
+    final qs = buildQuestions(d, limit: 10, pool: svc.levelList(d.region), seed: DateTime.now().millisecondsSinceEpoch);
+    if (!mounted) return;
+    final res = await openFull<QuizResult>(context, (_) => CurriculumQuizScreen(title: d.title, questions: qs, mode: QuizMode.practice));
+    if (res == null || !mounted) return;
+    svc.state.markPracticed(d.id, d.turns.map((t) => t.num), svc.today);
+    await svc.save();
+    if (mounted) Navigator.pop(context);
   }
 
   @override
   Widget build(BuildContext context) {
-    final d = widget.dialogue;
     return Scaffold(
-      backgroundColor: AppColors.calDeep,
-      appBar: AppBar(title: Text(d.title)),
+      backgroundColor: AppColors.washi,
+      appBar: AppBar(
+        title: Text('${d.emoji} ${d.title}', style: const TextStyle(color: AppColors.sumi, fontWeight: FontWeight.w800, fontSize: 15)),
+        actions: [
+          TextButton(onPressed: () => setState(() => _showKo = !_showKo), child: Text(_showKo ? tr('뜻 숨기기') : tr('뜻 보기'))),
+        ],
+      ),
       body: ListView(
-        padding: const EdgeInsets.fromLTRB(16, 8, 16, 12),
+        padding: const EdgeInsets.fromLTRB(16, 8, 16, 16),
         children: [
-          Text(tr('줄을 누르면 다시 듣고(따라 말하기), 「뜻」으로 한국어를 봅니다.'), style: const TextStyle(fontSize: 12.5, color: AppColors.tintaLight)),
+          if (d.scene.isNotEmpty) Text(d.scene, style: const TextStyle(fontSize: 12.5, color: AppColors.muted)),
+          const SizedBox(height: 4),
+          Text(tr('① 전체 듣기 ② 줄을 눌러 따라 말하기 ③ 확인 문제'), style: const TextStyle(fontSize: 12, color: AppColors.sumiLight, fontWeight: FontWeight.w600)),
           const SizedBox(height: 8),
-          for (final t in d.turns)
-            Card(
-              elevation: 0,
-              color: _playing == t.num ? AppColors.gualdaBright.withValues(alpha: 0.35) : AppColors.cal,
-              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10), side: const BorderSide(color: AppColors.gualda)),
-              child: InkWell(
-                onTap: () => _play(t),
-                child: Padding(
-                  padding: const EdgeInsets.fromLTRB(12, 10, 6, 10),
-                  child: Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                    SizedBox(
-                        width: 56,
-                        child: Text(d.speakerName(t.speaker),
-                            maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(fontSize: 12, color: AppColors.beni, fontWeight: FontWeight.w700))),
-                    Expanded(
-                      child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                        Text(ttsTextShown(t.tl), style: const TextStyle(fontSize: 15.5, color: AppColors.tinta)),
-                        if (t.rd.isNotEmpty) Text(t.rd, style: const TextStyle(fontSize: 12, color: AppColors.gualdaDeep)),
-                        if (_showKo.contains(t.num)) Text(t.ko, style: const TextStyle(fontSize: 13, color: AppColors.oliva)),
-                      ]),
-                    ),
-                    TextButton(
-                      onPressed: () => setState(() => _showKo.contains(t.num) ? _showKo.remove(t.num) : _showKo.add(t.num)),
-                      child: Text(tr('뜻')),
-                    ),
-                  ]),
-                ),
-              ),
-            ),
+          for (var i = 0; i < d.turns.length; i++)
+            Builder(builder: (_) {
+              final t = d.turns[i];
+              final on = _playing == t.num;
+              return _card(
+                selected: on,
+                onTap: () => _playOne(i),
+                child: Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                  SizedBox(
+                    width: 52,
+                    child: Text(d.speakerName(t.speaker), maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(fontSize: 11.5, fontWeight: FontWeight.w800, color: AppColors.beni)),
+                  ),
+                  Expanded(
+                    child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                      Text(t.tl.replaceAll('{name}', LearnerPrefs.name.value.isNotEmpty ? LearnerPrefs.name.value : '…'), style: const TextStyle(fontSize: 16, color: AppColors.sumi, height: 1.4)),
+                      if (t.rd.isNotEmpty) Text(t.rd, style: const TextStyle(fontSize: 12, color: AppColors.gualdaDeep)),
+                      if (_showKo && t.ko.isNotEmpty) Text(t.ko, style: const TextStyle(fontSize: 12.5, color: AppColors.muted)),
+                    ]),
+                  ),
+                  Icon(on ? Icons.volume_up : Icons.replay, size: 18, color: on ? AppColors.beni : AppColors.line),
+                ]),
+              );
+            }),
         ],
       ),
       bottomNavigationBar: Padding(
-        padding: EdgeInsets.fromLTRB(16, 8, 16, 16 + bottomInset(context)),
+        padding: EdgeInsets.fromLTRB(16, 8, 16, 12 + bottomInset(context)),
         child: Row(children: [
           Expanded(
             child: OutlinedButton.icon(
-              icon: Icon(_playAll ? Icons.stop : Icons.play_arrow),
-              label: Text(_playAll ? tr('멈춤') : tr('전체 듣기')),
-              onPressed: _playAllTurns,
+              onPressed: _playing == null ? _playAll : () async {
+                _stop = true;
+                await DialogueAudio.instance.stop();
+                if (mounted) setState(() => _playing = null);
+              },
+              icon: Icon(_playing == null ? Icons.play_arrow : Icons.stop),
+              label: Text(_playing == null ? tr('전체 듣기') : tr('멈추기')),
             ),
           ),
           const SizedBox(width: 8),
           Expanded(
             child: FilledButton.icon(
-              icon: const Icon(Icons.quiz_outlined),
+              style: FilledButton.styleFrom(backgroundColor: AppColors.beni),
+              onPressed: _quiz,
+              icon: const Icon(Icons.quiz, size: 18),
               label: Text(tr('확인 문제')),
-              onPressed: () async {
-                _playAll = false;
-                await DialogueAudio.instance.stop();
-                if (!context.mounted) return;
-                final pool = DialogueService.instance.list(region: d.region).where((o) => o.id != d.id).toList();
-                final qs = questionsFor(d, pool: pool);
-                await Navigator.of(context).pushReplacement(MaterialPageRoute(
-                  builder: (_) => _QuizScreen(
-                    title: d.title,
-                    questions: qs,
-                    onDone: (wrong, correct) =>
-                        CurriculumService.instance.finishPractice(d, qs, {for (final q in wrong) q.lineId}),
-                  ),
-                ));
-              },
             ),
           ),
         ]),
@@ -510,197 +545,187 @@ class _PracticeScreenState extends State<_PracticeScreen> {
   }
 }
 
-String ttsTextShown(String tl) => tl.replaceAll('{name}', '…');
+enum QuizMode { practice, review, exam }
 
-// ── 복습 ──
-class _ReviewScreen extends StatelessWidget {
-  final List<ReviewItem> items;
-  const _ReviewScreen({required this.items});
-
-  @override
-  Widget build(BuildContext context) {
-    final ds = DialogueService.instance;
-    final qs = <CurQuestion>[];
-    final skip = <String>[];
-    for (final r in items) {
-      final p = r.lineId.split('#');
-      final d = ds.byId(p.first);
-      final num = int.tryParse(p.length > 1 ? p[1] : '');
-      if (d == null || num == null) {
-        skip.add(r.lineId);
-        continue;
-      }
-      final pool = ds.list(region: d.region).where((o) => o.id != d.id).toList();
-      final q = questionsFor(d, pool: pool, onlyTurns: [num], seed: DateTime.now().day + num);
-      if (q.isEmpty) {
-        skip.add(r.lineId);
-      } else {
-        qs.add(q.first);
-      }
-    }
-    return _QuizScreen(
-      title: tr('복습'),
-      questions: qs,
-      onDone: (wrong, correct) {
-        final wrongIds = {for (final q in wrong) q.lineId};
-        // 회화 원고가 바뀌어 사라진 줄은 맞힌 것으로 넘겨 대기열에서 빠지게 한다
-        return CurriculumService.instance.answerReviews({
-          for (final q in qs) q.lineId: !wrongIds.contains(q.lineId),
-          for (final id in skip) id: true,
-        });
-      },
-    );
-  }
+class QuizResult {
+  final int correct, total;
+  final Set<String> wrongDialogues;
+  const QuizResult(this.correct, this.total, this.wrongDialogues);
 }
 
-// ── 코스 시험 ──
-class _ExamScreen extends StatelessWidget {
-  final List<Dialogue> dialogues;
-  const _ExamScreen({required this.dialogues});
-
-  @override
-  Widget build(BuildContext context) {
-    final per = examPerDialogue(dialogues.length);
-    final seed = DateTime.now().millisecondsSinceEpoch;
-    final qs = <CurQuestion>[
-      for (final d in dialogues) ...questionsFor(d, max: per, pool: dialogues.where((o) => o.id != d.id).toList(), seed: seed + d.id.hashCode),
-    ]..shuffle();
-    return _QuizScreen(
-      title: tr('코스 시험'),
-      questions: qs,
-      exam: true,
-      onDone: (wrong, correct) =>
-          CurriculumService.instance.finishExam(correct, qs.length, {for (final q in wrong) q.dialogueId}),
-    );
-  }
-}
-
-/// 4지선다 문제 풀이 — 연습·복습·시험 공용. 끝나면 [onDone](틀린 문제, 정답 수) 를 부르고 결과를 보인다.
-class _QuizScreen extends StatefulWidget {
+/// 확인 문제·복습·코스 시험 공용. 한 문제씩 4지선다, 고르면 바로 정답 표시 → 다음.
+/// 연습·복습은 문제마다 간격 반복에 반영, 시험은 점수만(끝에 부르는 쪽이 기록).
+class CurriculumQuizScreen extends StatefulWidget {
   final String title;
   final List<CurQuestion> questions;
-  final bool exam;
-  final Future<Object?> Function(List<CurQuestion> wrong, int correct) onDone;
-  const _QuizScreen({required this.title, required this.questions, required this.onDone, this.exam = false});
+  final QuizMode mode;
+  const CurriculumQuizScreen({super.key, required this.title, required this.questions, required this.mode});
   @override
-  State<_QuizScreen> createState() => _QuizScreenState();
+  State<CurriculumQuizScreen> createState() => _CurriculumQuizScreenState();
 }
 
-class _QuizScreenState extends State<_QuizScreen> {
-  int _i = 0;
+class _CurriculumQuizScreenState extends State<CurriculumQuizScreen> {
+  int _i = 0, _correct = 0;
   int? _chosen;
-  int _correct = 0;
-  final _wrong = <CurQuestion>[];
-  bool _finished = false;
-  bool? _passed;
+  final Set<String> _wrong = {};
 
-  List<CurQuestion> get _qs => widget.questions;
+  List<CurQuestion> get qs => widget.questions;
 
-  Future<void> _next() async {
-    if (_i + 1 < _qs.length) {
-      setState(() {
-        _i++;
-        _chosen = null;
-      });
-      return;
-    }
-    final r = await widget.onDone(_wrong, _correct);
-    if (mounted) {
-      setState(() {
-        _finished = true;
-        _passed = r is bool ? r : null;
-      });
+  Future<void> _choose(int k) async {
+    if (_chosen != null) return;
+    final q = qs[_i];
+    final ok = k == q.answer;
+    setState(() {
+      _chosen = k;
+      if (ok) {
+        _correct++;
+      } else {
+        _wrong.add(q.dialogueId);
+      }
+    });
+    if (widget.mode != QuizMode.exam) {
+      final svc = CurriculumService.instance;
+      svc.state.grade(q.lineId, ok, svc.today, countReview: widget.mode == QuizMode.review);
+      await svc.save();
     }
   }
+
+  void _next() {
+    if (_i + 1 >= qs.length) {
+      setState(() => _i = qs.length);
+      return;
+    }
+    setState(() {
+      _i++;
+      _chosen = null;
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final done = _i >= qs.length;
+    return Scaffold(
+      backgroundColor: AppColors.washi,
+      appBar: AppBar(title: Text(widget.title, style: const TextStyle(color: AppColors.sumi, fontWeight: FontWeight.w800, fontSize: 15))),
+      body: Padding(
+        padding: EdgeInsets.fromLTRB(16, 8, 16, 16 + bottomInset(context)),
+        child: qs.isEmpty
+            ? _end(tr('이 편은 만들 문제가 없어요.'))
+            : done
+                ? _end(trf('{0}문제 중 {1}개 맞힘 · {2}점', [qs.length, _correct, scorePercent(_correct, qs.length)]))
+                : _question(qs[_i]),
+      ),
+    );
+  }
+
+  Widget _end(String msg) => Column(mainAxisAlignment: MainAxisAlignment.center, crossAxisAlignment: CrossAxisAlignment.stretch, children: [
+        Text(msg, textAlign: TextAlign.center, style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w800, color: AppColors.sumi)),
+        const SizedBox(height: 20),
+        FilledButton(
+          style: FilledButton.styleFrom(backgroundColor: AppColors.beni, padding: const EdgeInsets.symmetric(vertical: 12)),
+          onPressed: () => Navigator.pop(context, QuizResult(_correct, qs.length, _wrong)),
+          child: Text(tr('마침')),
+        ),
+      ]);
+
+  Widget _question(CurQuestion q) {
+    return ListView(children: [
+      LinearProgressIndicator(value: _i / qs.length, minHeight: 4, backgroundColor: AppColors.line, color: AppColors.beni),
+      const SizedBox(height: 8),
+      Text('${_i + 1} / ${qs.length}', style: const TextStyle(fontSize: 12, color: AppColors.muted)),
+      const SizedBox(height: 12),
+      Text(q.kind == 'blank' ? tr('빈칸에 들어갈 말은?') : tr('뜻으로 맞는 것을 고르세요.'), style: const TextStyle(fontSize: 13, color: AppColors.sumiLight, fontWeight: FontWeight.w600)),
+      const SizedBox(height: 8),
+      Text(q.prompt, style: const TextStyle(fontSize: 20, color: AppColors.sumi, height: 1.4, fontWeight: FontWeight.w600)),
+      if (q.hint.isNotEmpty) ...[const SizedBox(height: 4), Text(q.hint, style: const TextStyle(fontSize: 13, color: AppColors.muted))],
+      const SizedBox(height: 16),
+      for (var k = 0; k < q.choices.length; k++)
+        _card(
+          onTap: _chosen == null ? () => _choose(k) : null,
+          selected: _chosen != null && (k == q.answer || k == _chosen),
+          child: Row(children: [
+            Expanded(child: Text(q.choices[k], style: const TextStyle(fontSize: 15, color: AppColors.sumi))),
+            if (_chosen != null && k == q.answer) const Icon(Icons.check_circle, color: AppColors.matcha),
+            if (_chosen != null && k == _chosen && k != q.answer) const Icon(Icons.cancel, color: AppColors.fem),
+          ]),
+        ),
+      if (_chosen != null) ...[
+        const SizedBox(height: 8),
+        FilledButton(
+          style: FilledButton.styleFrom(backgroundColor: AppColors.sumi, padding: const EdgeInsets.symmetric(vertical: 12)),
+          onPressed: _next,
+          child: Text(_i + 1 >= qs.length ? tr('결과 보기') : tr('다음')),
+        ),
+      ],
+    ]);
+  }
+}
+
+/// 홈 카드 — 「오늘: 복습 N · 새 편 N」 + 진행 막대 + 연속 일수.
+class CurriculumHomeCard extends StatefulWidget {
+  const CurriculumHomeCard({super.key});
+  @override
+  State<CurriculumHomeCard> createState() => _CurriculumHomeCardState();
+}
+
+class _CurriculumHomeCardState extends State<CurriculumHomeCard> {
+  final _svc = CurriculumService.instance;
+  bool _ready = false;
 
   @override
   void initState() {
     super.initState();
-    if (_qs.isEmpty) {
-      WidgetsBinding.instance.addPostFrameCallback((_) => _next());
-    }
+    _svc.changed.addListener(_refresh);
+    _svc.ensureLoaded().then((_) => _refresh());
+  }
+
+  @override
+  void dispose() {
+    _svc.changed.removeListener(_refresh);
+    super.dispose();
+  }
+
+  void _refresh() {
+    if (mounted) setState(() => _ready = true);
   }
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: AppColors.calDeep,
-      appBar: AppBar(title: Text(widget.title)),
-      body: _finished || _qs.isEmpty ? _result() : _question(),
-    );
-  }
-
-  Widget _result() {
-    final total = _qs.length;
-    final pct = scorePercent(_correct, total);
-    return Center(
-      child: Padding(
-        padding: const EdgeInsets.all(24),
-        child: Column(mainAxisSize: MainAxisSize.min, children: [
-          Text(total == 0 ? tr('끝') : '$pct%', style: const TextStyle(fontSize: 44, fontWeight: FontWeight.w900, color: AppColors.beniDeep)),
-          const SizedBox(height: 6),
-          if (total > 0) Text(trf('{0}문제 중 {1}개 정답', [total, _correct])),
-          const SizedBox(height: 10),
-          if (widget.exam)
-            Text(_passed == true ? tr('통과! 코스를 마쳤습니다.') : tr('80% 미만 — 틀린 편만 다시 연습한 뒤 다시 시험을 봅니다.'),
-                textAlign: TextAlign.center,
-                style: TextStyle(fontWeight: FontWeight.w700, color: _passed == true ? AppColors.lusa : AppColors.er))
-          else if (_wrong.isNotEmpty)
-            Text(tr('틀린 줄은 내일 복습에 나옵니다.'), style: const TextStyle(color: AppColors.tintaLight)),
-          const SizedBox(height: 18),
-          FilledButton(onPressed: () => Navigator.of(context).pop(), child: Text(tr('돌아가기'))),
-        ]),
-      ),
-    );
-  }
-
-  Widget _question() {
-    final q = _qs[_i];
-    return ListView(
-      padding: EdgeInsets.fromLTRB(16, 12, 16, 24 + bottomInset(context)),
-      children: [
-        LinearProgressIndicator(value: (_i + 1) / _qs.length, color: AppColors.beni, backgroundColor: AppColors.gualda),
-        const SizedBox(height: 6),
-        Text('${_i + 1} / ${_qs.length} · ${q.kind == 'blank' ? tr('빈칸에 들어갈 낱말') : tr('알맞은 뜻')}',
-            style: const TextStyle(fontSize: 12.5, color: AppColors.tintaLight)),
-        const SizedBox(height: 14),
-        Text(q.prompt, style: const TextStyle(fontSize: 19, fontWeight: FontWeight.w700, color: AppColors.tinta)),
-        if (q.hint.isNotEmpty) ...[
-          const SizedBox(height: 4),
-          Text(q.hint, style: const TextStyle(fontSize: 13, color: AppColors.gualdaDeep)),
-        ],
-        const SizedBox(height: 18),
-        for (final (k, c) in q.choices.indexed)
-          Padding(
-            padding: const EdgeInsets.only(bottom: 8),
-            child: OutlinedButton(
-              style: OutlinedButton.styleFrom(
-                alignment: Alignment.centerLeft,
-                padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 14),
-                backgroundColor: _chosen == null
-                    ? AppColors.cal
-                    : k == q.answer
-                        ? AppColors.lusa.withValues(alpha: 0.18)
-                        : k == _chosen
-                            ? AppColors.fem.withValues(alpha: 0.14)
-                            : AppColors.cal,
-              ),
-              onPressed: _chosen != null
-                  ? null
-                  : () => setState(() {
-                        _chosen = k;
-                        if (k == q.answer) {
-                          _correct++;
-                        } else {
-                          _wrong.add(q);
-                        }
-                      }),
-              child: Text(c, style: const TextStyle(fontSize: 15, color: AppColors.tinta)),
-            ),
+    final st = _svc.state;
+    final today = _svc.today;
+    final due = _ready ? st.dueReview(today).length : 0;
+    final newLeft = _ready ? st.newLeft(today) : 0;
+    final doneN = _ready && st.todayDay == today ? st.todayNew + st.todayReview : 0;
+    final total = doneN + due + newLeft;
+    final streak = _ready ? st.streakShown(today) : 0;
+    final sub = !_ready || st.level == null
+        ? tr('레벨에서 다이얼로그를 골라 연습 · 80% 넘으면 다음 코스')
+        : st.dayDone(today)
+            ? (streak > 0 ? trf('오늘 분량 끝 · 🔥 {0}일 연속', [streak]) : tr('오늘 분량 끝'))
+            : trf('오늘: 복습 {0} · 새 편 {1}', [due, newLeft]);
+    return _card(
+      onTap: () => openPane(context, (_) => const CurriculumScreen()),
+      child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+        Row(children: [
+          const TileBadge(text: '🎯', size: 40, color: AppColors.beni),
+          const SizedBox(width: 12),
+          Expanded(
+            child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+              Text(tr('토크버스 커리큘럼'), style: const TextStyle(fontSize: 14.5, fontWeight: FontWeight.w700, color: AppColors.sumi)),
+              const SizedBox(height: 2),
+              Text(sub, maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(fontSize: 11.5, color: AppColors.muted)),
+            ]),
           ),
-        if (_chosen != null)
-          FilledButton(onPressed: _next, child: Text(_i + 1 < _qs.length ? tr('다음') : tr('결과 보기'))),
-      ],
+          const Icon(Icons.chevron_right, color: AppColors.muted),
+        ]),
+        if (_ready && st.level != null) ...[
+          const SizedBox(height: 8),
+          ClipRRect(
+            borderRadius: BorderRadius.circular(4),
+            child: LinearProgressIndicator(value: total == 0 ? 1 : doneN / total, minHeight: 5, backgroundColor: AppColors.line, color: AppColors.beni),
+          ),
+        ],
+      ]),
     );
   }
 }
