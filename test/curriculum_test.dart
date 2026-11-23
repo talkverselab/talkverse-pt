@@ -173,8 +173,8 @@ void main() {
       await t.runAsync(() => Future<void>.delayed(const Duration(milliseconds: 300)));
       await t.pump();
     }
-    expect(find.text('회화 레벨을 골라요'), findsOneWidget);
-    await t.tap(find.text('R1'));
+    expect(find.text('단계를 골라요'), findsOneWidget);
+    await t.tap(find.text('1단계'));
     for (var i = 0; i < 3; i++) {
       await t.runAsync(() => Future<void>.delayed(const Duration(milliseconds: 100)));
       await t.pump();
@@ -187,5 +187,70 @@ void main() {
       await t.pump();
       expect(t.takeException(), isNull);
     }
+  });
+
+  group('§12 단계(1~5) — 서버 JSON·앱 안 기본값', () {
+    final svc = CurriculumService.instance;
+    final eps = [for (final e in jsonDecode(File('assets/data/pt-PT/dialogues/male.json').readAsStringSync()) as List) Dialogue.fromJson(e as Map<String, dynamic>)];
+    tearDown(() => svc.applyPlan(const {'rev': 0, 'stages': []}));
+
+    test('앱 안 기본 JSON: 단계 5개, 편 id 가 모두 앱 회화에 있다, 기본 대응 R0+R1→1 …', () {
+      final j = jsonDecode(File('assets/curriculum_pt.json').readAsStringSync()) as Map<String, dynamic>;
+      final ids = {for (final d in eps) d.id};
+      final stages = j['stages'] as List;
+      expect(stages.length, 5);
+      final region = {for (final d in eps) d.id: d.region};
+      const m = {'R0': 1, 'R1': 1, 'R2': 2, 'R3': 3, 'R4': 4, 'R5': 5};
+      for (final st in stages) {
+        for (final id in st['dialogueIds'] as List) {
+          expect(ids, contains(id));
+          expect(m[region[id]], st['n']);
+        }
+      }
+      expect((j['prep'] as List), isEmpty);
+    });
+
+    test('앱에 없는 편 id 는 건너뛰고, 편이 0개인 단계는 숨김, 다음 단계', () {
+      svc.applyPlan({
+        'rev': 2,
+        'stages': [
+          {'n': 1, 'title': '1단계', 'dialogueIds': ['없는편', eps.first.id]},
+          {'n': 2, 'title': '2단계', 'dialogueIds': ['없는편2']},
+          {'n': 3, 'title': '3단계', 'dialogueIds': [eps.last.id], 'pick': [3, 5]},
+        ]
+      });
+      expect(svc.stageMode, isTrue);
+      // 시험에선 DialogueService 를 읽지 않으므로 byId 가 비어 있을 수 있다 — 목록 키는 편이 있는 단계만
+      final keys = svc.levelKeys;
+      expect(keys.contains('2'), isFalse);
+      expect(svc.pickOptions('3'), [3, 5]);
+      expect(svc.levelTitle('1'), '1단계');
+    });
+
+    test('옛 R 값·숫자 단계 저장 왕복', () {
+      final st = CurriculumState(level: '3');
+      final back = CurriculumState.fromJson(jsonDecode(jsonEncode(st.toJson())) as Map);
+      expect(jsonDecode(jsonEncode(st.toJson()))['level'], 3);
+      expect(back.level, '3');
+      expect(CurriculumService.rToStage['R0'], '1');
+      expect(CurriculumService.rToStage['R2'], '2');
+    });
+
+    test('서버 rev 가 더 높을 때만 바꿔 쓴다, 실패·빈 단계면 그대로', () async {
+      SharedPreferences.setMockInitialValues({});
+      svc.applyPlan({'rev': 1, 'stages': [{'n': 1, 'title': '1단계', 'dialogueIds': []}]});
+      expect(await svc.refreshPlan(fetch: (_) async => null), isFalse);
+      expect(await svc.refreshPlan(fetch: (_) async => jsonEncode({'rev': 1, 'stages': [{'n': 9}]})), isFalse);
+      expect(await svc.refreshPlan(fetch: (_) async => jsonEncode({'rev': 5, 'stages': []})), isFalse);
+      expect(await svc.refreshPlan(fetch: (_) async => jsonEncode({'rev': 5, 'stages': [{'n': 1, 'title': '서버 1단계', 'dialogueIds': []}]})), isTrue);
+      expect(svc.planRev, 5);
+      expect(svc.levelTitle('1'), '서버 1단계');
+    });
+
+    test('계획이 없으면 옛 동작(회화 레벨)', () {
+      svc.applyPlan(const {'rev': 0, 'stages': []});
+      expect(svc.stageMode, isFalse);
+      expect(svc.levelTitle('R1'), DialogueService.levelKo['R1']);
+    });
   });
 }
