@@ -13,6 +13,7 @@ import '../services/ko_reading.dart';
 import '../services/tts_service.dart';
 import '../services/word_lookup.dart' as lookup;
 import 'word_freq_screen.dart' show kCliffsPt, kWordCap;
+import '../core/word_filter.dart';
 
 /// 단어 퀴즈 복습(베트남어앱 word_quiz_screen 이식, 2026-11-22).
 /// 단어 = 절벽 단어표 `assets/data/freq/cliff_pt_PT.csv`(pt-PT 빈도 2,000위, 한국어 뜻 있는 것만).
@@ -49,7 +50,7 @@ Future<List<QWord>> loadQuizWords() async {
     if (r.length < 5) continue;
     final ko = '${r[4]}'.trim();
     final tl = '${r[1]}'.trim();
-    if (ko.isEmpty || tl.isEmpty) continue;
+    if (ko.isEmpty || tl.isEmpty || isOffensiveWord(tl, ko)) continue; // 12+ — 비속어 제외
     out.add(QWord(int.tryParse('${r[0]}') ?? 0, tl, ko));
   }
   // 독음은 단어장에 있는 말만(절벽 단어 화면과 같게)

@@ -7,6 +7,7 @@ import 'package:flutter/services.dart' show rootBundle;
 import '../../core/prefs.dart';
 
 import 'app_database.dart';
+import '../../core/word_filter.dart';
 
 class SeedLoader {
   final AppDatabase db;
@@ -53,6 +54,7 @@ class SeedLoader {
     for (var i = 1; i < rows.length; i++) {
       final row = rows[i];
       if (row.length < 9) continue;
+      if (isOffensiveWord('${row[1]}', '${row[4]}')) continue; // 12+ — 비속어 제외
       batch.add(WordsCompanion.insert(
         rank: Value(int.tryParse('${row[0]}') ?? 0),
         word: '${row[1]}',

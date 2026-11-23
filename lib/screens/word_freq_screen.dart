@@ -13,6 +13,7 @@ import '../services/content_sync.dart';
 import '../services/ko_reading.dart';
 import '../services/tts_service.dart';
 import '../services/word_lookup.dart' as lookup;
+import '../core/word_filter.dart';
 
 /// 절벽 단어 — 유럽판 빈도 1~2,000위를 절벽구간(R1~R5)별 **20어 단원**으로, 단어는 **네모 타일**로(일본어앱 2026-11-07 개편 이식).
 /// 위 버튼 「절벽구간 단어만 / 회화 단어 포함」 — 포함이면 회화에 나오지만 2,000위 밖인 단어가 「회화」 구간으로 뒤에 붙는다.
@@ -62,6 +63,7 @@ class _WordFreqScreenState extends State<WordFreqScreen> {
     for (var i = 1; i < rows.length; i++) {
       final r = rows[i];
       if (r.length < 5) continue;
+      if (isOffensiveWord('${r[1]}', '${r[4]}')) continue; // 12+ — 비속어는 목록에서 뺀다
       words.add(CliffWord(rank: int.tryParse('${r[0]}') ?? 0, word: '${r[1]}', region: '${r[3]}'.trim(), ko: '${r[4]}'));
     }
     final conv = <CliffWord>[];
@@ -69,6 +71,7 @@ class _WordFreqScreenState extends State<WordFreqScreen> {
       final j = json.decode(await rootBundle.loadString(assetPath('assets/data/freq/conv_words_pt.json'))) as Map<String, dynamic>;
       var n = 0;
       for (final w in (j['words'] as List).cast<Map<String, dynamic>>()) {
+        if (isOffensiveWord(w['word'] as String, (w['ko'] as String?) ?? '')) continue;
         conv.add(CliffWord(rank: ++n, word: w['word'] as String, region: 'C', ko: (w['ko'] as String?) ?? ''));
       }
     } catch (_) {}

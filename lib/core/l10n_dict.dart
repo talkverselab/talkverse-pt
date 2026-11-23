@@ -391,6 +391,11 @@ const Map<String, String> kDictEn = {
   '확인 문제': 'Check quiz',
   '회화 레벨을 골라요': 'Choose a conversation level',
   '🔥 {0}일 연속': '🔥 {0}-day streak',
+  '이메일로 로그인': 'Sign in with email',
+  '로그인하면 다른 기기에서도': 'Sign in to use it on your other devices too',
+  '결제는 App Store 에서 처리됩니다. 표시 가격은 스토어 가격을 따르며 세금이 포함될 수 있습니다. 숨은 요금은 없습니다.': 'Payment is processed by the App Store. Prices follow the store and may include tax. No hidden fees.',
+  '결제는 Google Play 에서 처리됩니다. 표시 가격은 스토어 가격을 따르며 세금이 포함될 수 있습니다. 숨은 요금은 없습니다.': 'Payment is processed by Google Play. Prices follow the store and may include tax. No hidden fees.',
+  '포르투갈어': 'Portuguese',
 };
 
 const Map<String, String> kDictJa = {
@@ -770,6 +775,11 @@ const Map<String, String> kDictJa = {
   '확인 문제': '確認問題',
   '회화 레벨을 골라요': '会話レベルを選ぶ',
   '🔥 {0}일 연속': '🔥 {0}日連続',
+  '이메일로 로그인': 'メールでログイン',
+  '로그인하면 다른 기기에서도': 'ログインすれば他の端末でも',
+  '결제는 App Store 에서 처리됩니다. 표시 가격은 스토어 가격을 따르며 세금이 포함될 수 있습니다. 숨은 요금은 없습니다.': 'お支払いは App Store で処理されます。表示価格はストア価格に従い、税が含まれる場合があります。隠れた料金はありません。',
+  '결제는 Google Play 에서 처리됩니다. 표시 가격은 스토어 가격을 따르며 세금이 포함될 수 있습니다. 숨은 요금은 없습니다.': 'お支払いは Google Play で処理されます。表示価格はストア価格に従い、税が含まれる場合があります。隠れた料金はありません。',
+  '포르투갈어': 'ポルトガル語',
 };
 
 const Map<String, String> kDictZh = {
@@ -1149,4 +1159,9 @@ const Map<String, String> kDictZh = {
   '확인 문제': '确认题',
   '회화 레벨을 골라요': '选择会话级别',
   '🔥 {0}일 연속': '🔥 连续{0}天',
+  '이메일로 로그인': '邮箱登录',
+  '로그인하면 다른 기기에서도': '登录后在其他设备上也能用',
+  '결제는 App Store 에서 처리됩니다. 표시 가격은 스토어 가격을 따르며 세금이 포함될 수 있습니다. 숨은 요금은 없습니다.': '付款由 App Store 处理。显示价格以商店为准，可能含税。没有隐藏费用。',
+  '결제는 Google Play 에서 처리됩니다. 표시 가격은 스토어 가격을 따르며 세금이 포함될 수 있습니다. 숨은 요금은 없습니다.': '付款由 Google Play 处理。显示价格以商店为准，可能含税。没有隐藏费用。',
+  '포르투갈어': '葡萄牙语',
 };
