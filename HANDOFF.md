@@ -147,3 +147,8 @@
 - ca1c1e2: 단계 JSON 의 pass(시험 판정·문구)·daily(가볍게·보통·집중 새 편 수)도 읽음(없으면 80 / 1·2·3). prep 은 pt 없음.
 - uk 에 편 목록 경로(`…/art/script/pt/pt-PT/dialogues/male.json`)와 이 JSON 을 알림 — D1 값은 uk 가 채움.
 - 빌드: Android 29(KtegX/660)·30(KtegX/666, PC 백업), iOS 2611231202·2611231212. 음성은 uk 「pt 지금 시작」 대기 그대로.
+
+## 11-23 오후 — 심사 수정·이용권 잠금
+- b4ce04d 심사 점검(비속어 10개 단어표·퀴즈·시드 제외 `lib/core/word_filter.dart`, 로그인 문구·준비 안 된 제공자 숨김, 결제 문구 플랫폼별·해지 안내 Talkverse). 4f39dce 이용권 잠금(PAYWALL_SPEC, `lib/data/access.dart`): 무료 = 커리큘럼 1단계·회화 R0·R1·L1·문법 1~2스텝·언어감각 1급, 한도는 커리큘럼 JSON rev 2(free·freeSteps·freeSenseLevels). 결제 화면 스토어 가격만·불러오기 실패 시 다시 시도/닫기. 저장 pt_entitlement_v1·all_entitlement_v1. 시작 복원은 안드로이드만(iOS 는 암호 창 우려 — uk 에 알림).
+- Android 32(Zealot KtegX/670, PC 백업).
+- **uk(11-23 오후): M6 디스크 빠듯 → 단독 iOS 빌드(TestFlight) 당분간 멈춤.** 출시는 통합 앱(uk 가 1.0.0+15 로 묶어 올림). 단독 앱은 Android CI·Zealot 만. 4f39dce iOS 빌드는 이미 돌던 것이라 끝까지 두고 build/ 삭제.
