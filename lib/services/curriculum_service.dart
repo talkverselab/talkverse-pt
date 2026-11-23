@@ -71,7 +71,11 @@ class Course {
 /// `curriculum_v1` 한 벌. 기준 형식 + `today`(오늘 한 양 — 홈 카드 진행 막대용, 기준 문서에 없는 칸이라 uk 에 알림).
 class CurriculumState {
   String? level;
-  int dailyGoal; // 새 편 수: 1 가볍게 · 2 보통 · 3 집중
+  int dailyGoal; // 하루 목표 칸: 1 가볍게 · 2 보통 · 3 집중
+  /// 지금 단계의 규칙(§12 서버 JSON pass·daily) — 저장하지 않음, 서비스가 채운다. 값이 없으면 80 / 1·2·3.
+  int passPercent = kPassPercent;
+  Map<int, int> dailyCounts = const {1: 1, 2: 2, 3: 3};
+  int get dailyNew => dailyCounts[dailyGoal] ?? dailyGoal;
   Course? course;
   final List<String> passedDialogues;
   final List<ReviewItem> review;
@@ -131,7 +135,7 @@ class CurriculumState {
   List<ReviewItem> dueReview(String today) => review.where((r) => r.due.compareTo(today) <= 0).toList();
 
   /// 오늘 남은 새 편 수.
-  int newLeft(String today) => max(0, dailyGoal - (todayDay == today ? todayNew : 0));
+  int newLeft(String today) => max(0, dailyNew - (todayDay == today ? todayNew : 0));
 
   /// 오늘 분량을 다 했나(복습 0 + 새 편 목표 채움).
   bool dayDone(String today) => dueReview(today).isEmpty && newLeft(today) == 0;
@@ -190,7 +194,7 @@ class CurriculumState {
     if (c == null) return false;
     final s = scorePercent(correct, total);
     c.examScores.add(s);
-    if (s >= kPassPercent) {
+    if (s >= passPercent) {
       c.passedAt = today;
       for (final id in c.dialogueIds) {
         if (!passedDialogues.contains(id)) passedDialogues.add(id);
@@ -290,13 +294,22 @@ class CurStage {
   final String title, desc;
   final List<String> dialogueIds;
   final List<int>? pick;
-  const CurStage(this.n, this.title, this.desc, this.dialogueIds, this.pick);
+  final int? pass;
+  final Map<int, int>? daily; // 칸(1 가볍게·2 보통·3 집중) → 하루 새 편 수
+  const CurStage(this.n, this.title, this.desc, this.dialogueIds, this.pick, {this.pass, this.daily});
   factory CurStage.fromJson(Map j) => CurStage(
         (j['n'] as num?)?.toInt() ?? 0,
         '${j['title'] ?? ''}',
         '${j['desc'] ?? ''}',
         [for (final x in (j['dialogueIds'] as List? ?? const [])) '$x'],
         (j['pick'] as List?)?.map((e) => (e as num).toInt()).toList(),
+        pass: (j['pass'] as num?)?.toInt(),
+        daily: j['daily'] is Map
+            ? {
+                for (final e in const {'light': 1, 'normal': 2, 'focus': 3}.entries)
+                  if ((j['daily'] as Map)[e.key] is num) e.value: ((j['daily'] as Map)[e.key] as num).toInt()
+              }
+            : null,
       );
 }
 
@@ -359,6 +372,7 @@ class CurriculumService {
       applyPlan(j);
       await (await Prefs.getInstance()).setString(_planPref, body);
       _mapOldLevel();
+      applyStageRules();
       changed.value++;
       return true;
     } catch (_) {
@@ -391,6 +405,15 @@ class CurriculumService {
       ? [for (final s in stages) if (levelList('${s.n}').isNotEmpty) '${s.n}']
       : [for (final l in DialogueService.levels) if (DialogueService.instance.count(l) > 0) l];
 
+  /// 지금 단계의 통과 점수·하루 새 편 수를 상태에 반영(값 없으면 기본).
+  void applyStageRules() {
+    final s = state.level == null ? null : stageOf(state.level!);
+    state.passPercent = s?.pass ?? kPassPercent;
+    state.dailyCounts = {1: 1, 2: 2, 3: 3, ...?s?.daily};
+  }
+
+  int get passPercent => state.passPercent;
+
   CurStage? stageOf(String key) => stages.where((s) => '${s.n}' == key).firstOrNull;
   String levelTitle(String key) => stageMode ? (stageOf(key)?.title ?? '$key단계') : (DialogueService.levelKo[key] ?? key);
   String levelDesc(String key) => stageMode ? (stageOf(key)?.desc ?? '') : '';
@@ -408,11 +431,13 @@ class CurriculumService {
       } catch (_) {}
     }
     _mapOldLevel();
+    applyStageRules();
     _loaded = true;
     refreshPlan();
   }
 
   Future<void> save() async {
+    applyStageRules();
     await (await Prefs.getInstance()).setString(key, json.encode(state.toJson()));
     changed.value++;
   }

@@ -247,6 +247,27 @@ void main() {
       expect(svc.levelTitle('1'), '서버 1단계');
     });
 
+    test('단계 JSON 의 pass·daily 를 시험 판정·하루 분량에 쓴다(없으면 80 / 1·2·3)', () {
+      svc.applyPlan({
+        'rev': 3,
+        'stages': [
+          {'n': 1, 'title': '1단계', 'dialogueIds': [], 'pass': 70, 'daily': {'light': 2, 'normal': 4, 'focus': 6}},
+          {'n': 2, 'title': '2단계', 'dialogueIds': []},
+        ]
+      });
+      svc.state = CurriculumState(level: '1', dailyGoal: 2, course: Course('c', ['a'], practiced: ['a']));
+      svc.applyStageRules();
+      expect(svc.passPercent, 70);
+      expect(svc.state.newLeft('2026-11-23'), 4);
+      expect(svc.state.recordExam(7, 10, {}, '2026-11-23'), isTrue); // 70% 통과
+      svc.state = CurriculumState(level: '2', dailyGoal: 3, course: Course('c', ['a'], practiced: ['a']));
+      svc.applyStageRules();
+      expect(svc.passPercent, 80);
+      expect(svc.state.newLeft('2026-11-23'), 3);
+      expect(svc.state.recordExam(7, 10, {}, '2026-11-23'), isFalse);
+      svc.state = CurriculumState();
+    });
+
     test('계획이 없으면 옛 동작(회화 레벨)', () {
       svc.applyPlan(const {'rev': 0, 'stages': []});
       expect(svc.stageMode, isFalse);
