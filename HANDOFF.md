@@ -141,3 +141,9 @@
 - 「pt 지금 시작」이 오면: `screen -dmS pt-tts zsh -c '~/.venvs/tts_zh/bin/python tools/tts/run_all.py ~/tts_work/pt 3 --refs > ~/tts_work/pt/run_day.log 2>&1'`(`--night` 없음) → `tv-progress pt run`. 앞 순서가 3090 을 달라면 `touch ~/tts_work/pt/PAUSE`(묶음 경계에서 멈춤). 끝나면 「GPU 끝」+남은 조각을 uk·아랍어앱에, `tv-progress pt done`, `data/tts/audio_pt.json` 커밋.
 - 참고 음성 잡음 미달 47개(-56~-59dB)는 uk 판단으로 통과(모델 바닥 잡음) — 그 목소리로 만든 본 음성의 받아쓰기·음량 불합격이 늘면 그 목소리만 다른 참고로 바꾼다. 공용 §5 문서는 그대로.
 - uk(11-23 07:1x): 3090 「비었다」는 nvidia-smi 만으로 판단 금지(묶음마다 모델을 올렸다 내려 몇 초씩 576MiB 로 보임) — ① 앞 세션 「GPU 끝」/uk 「pt 지금 시작」 + ② PC `D:	ts_test\job\job.log`·`moss_jobs.json` 수정 시각 5분 넘게 멈춤, 둘 다일 때만. night_pt.sh 의 8GB 조건은 시작 신호를 받은 뒤에만.
+
+## 11-23 낮 — 커리큘럼 §12(단계 1~5·서버 목록)
+- 863dc90: 단계·편 목록 `assets/curriculum_pt.json`(rev 1, 기본 대응 R0+R1→1 … R5→5, 편 27·15·8·8·7) → 서버 `https://talkverse.uk/api/curriculum/pt` rev 가 더 높으면 받아 prefs `curriculum_plan_v1` 에 두고 씀(지금 404). 앱에 없는 id 건너뜀·빈 단계 숨김, 옛 R 저장값 → 단계, JSON 실패면 회화 레벨 동작.
+- ca1c1e2: 단계 JSON 의 pass(시험 판정·문구)·daily(가볍게·보통·집중 새 편 수)도 읽음(없으면 80 / 1·2·3). prep 은 pt 없음.
+- uk 에 편 목록 경로(`…/art/script/pt/pt-PT/dialogues/male.json`)와 이 JSON 을 알림 — D1 값은 uk 가 채움.
+- 빌드: Android 29(KtegX/660)·30(KtegX/666, PC 백업), iOS 2611231202·2611231212. 음성은 uk 「pt 지금 시작」 대기 그대로.
