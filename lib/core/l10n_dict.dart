@@ -396,6 +396,15 @@ const Map<String, String> kDictEn = {
   '결제는 App Store 에서 처리됩니다. 표시 가격은 스토어 가격을 따르며 세금이 포함될 수 있습니다. 숨은 요금은 없습니다.': 'Payment is processed by the App Store. Prices follow the store and may include tax. No hidden fees.',
   '결제는 Google Play 에서 처리됩니다. 표시 가격은 스토어 가격을 따르며 세금이 포함될 수 있습니다. 숨은 요금은 없습니다.': 'Payment is processed by Google Play. Prices follow the store and may include tax. No hidden fees.',
   '포르투갈어': 'Portuguese',
+  '이용권으로 열리는 회화예요': 'This conversation is unlocked with a pass',
+  '1단계(레벨 0·1) 회화는 무료예요.': 'Stage 1 (levels 0–1) conversations are free.',
+  '커리큘럼 2~5단계와 회화 2단계 이상 모든 편': 'Curriculum stages 2–5 and every conversation from stage 2',
+  '문법 3스텝부터 · 언어감각 2급부터': 'Grammar from step 3 · Language sense from level 2',
+  'AI 맞춤 회화 만들기': 'Create AI custom conversations',
+  '이용권 정보를 불러오지 못했어요. 잠시 뒤 다시 시도해 주세요.': "Couldn't load pass info. Please try again shortly.",
+  '다시 시도': 'Try again',
+  '이용 중 — 모든 단계가 열려 있어요': 'Active — all stages are unlocked',
+  '2단계 이상 회화·커리큘럼, 문법 3스텝~, 언어감각 2급~': 'Stage 2+ conversations & curriculum, grammar step 3+, language sense level 2+',
 };
 
 const Map<String, String> kDictJa = {
@@ -780,6 +789,15 @@ const Map<String, String> kDictJa = {
   '결제는 App Store 에서 처리됩니다. 표시 가격은 스토어 가격을 따르며 세금이 포함될 수 있습니다. 숨은 요금은 없습니다.': 'お支払いは App Store で処理されます。表示価格はストア価格に従い、税が含まれる場合があります。隠れた料金はありません。',
   '결제는 Google Play 에서 처리됩니다. 표시 가격은 스토어 가격을 따르며 세금이 포함될 수 있습니다. 숨은 요금은 없습니다.': 'お支払いは Google Play で処理されます。表示価格はストア価格に従い、税が含まれる場合があります。隠れた料金はありません。',
   '포르투갈어': 'ポルトガル語',
+  '이용권으로 열리는 회화예요': 'パスで開く会話です',
+  '1단계(레벨 0·1) 회화는 무료예요.': 'ステージ1（レベル0・1）の会話は無料です。',
+  '커리큘럼 2~5단계와 회화 2단계 이상 모든 편': 'カリキュラム2〜5段階とステージ2以上のすべての会話',
+  '문법 3스텝부터 · 언어감각 2급부터': '文法ステップ3から・言語感覚2級から',
+  'AI 맞춤 회화 만들기': 'AIオーダー会話を作る',
+  '이용권 정보를 불러오지 못했어요. 잠시 뒤 다시 시도해 주세요.': 'パス情報を読み込めませんでした。しばらくしてからもう一度お試しください。',
+  '다시 시도': 'もう一度',
+  '이용 중 — 모든 단계가 열려 있어요': '利用中 — すべての段階が開いています',
+  '2단계 이상 회화·커리큘럼, 문법 3스텝~, 언어감각 2급~': 'ステージ2以上の会話・カリキュラム、文法ステップ3〜、言語感覚2級〜',
 };
 
 const Map<String, String> kDictZh = {
@@ -1164,4 +1182,13 @@ const Map<String, String> kDictZh = {
   '결제는 App Store 에서 처리됩니다. 표시 가격은 스토어 가격을 따르며 세금이 포함될 수 있습니다. 숨은 요금은 없습니다.': '付款由 App Store 处理。显示价格以商店为准，可能含税。没有隐藏费用。',
   '결제는 Google Play 에서 처리됩니다. 표시 가격은 스토어 가격을 따르며 세금이 포함될 수 있습니다. 숨은 요금은 없습니다.': '付款由 Google Play 处理。显示价格以商店为准，可能含税。没有隐藏费用。',
   '포르투갈어': '葡萄牙语',
+  '이용권으로 열리는 회화예요': '此会话需要会员',
+  '1단계(레벨 0·1) 회화는 무료예요.': '第1阶段（0·1级）会话免费。',
+  '커리큘럼 2~5단계와 회화 2단계 이상 모든 편': '课程第2~5阶段及第2阶段以上的全部会话',
+  '문법 3스텝부터 · 언어감각 2급부터': '语法第3步起 · 语感第2级起',
+  'AI 맞춤 회화 만들기': '制作 AI 定制会话',
+  '이용권 정보를 불러오지 못했어요. 잠시 뒤 다시 시도해 주세요.': '无法加载会员信息，请稍后重试。',
+  '다시 시도': '重试',
+  '이용 중 — 모든 단계가 열려 있어요': '使用中 — 所有阶段已解锁',
+  '2단계 이상 회화·커리큘럼, 문법 3스텝~, 언어감각 2급~': '第2阶段起的会话·课程、语法第3步起、语感第2级起',
 };

@@ -45,14 +45,14 @@ Future<void> embedInit({bool standalone = false}) async {
   Account.load(); // 저장된 로그인 표시 + 뒤에서 토큰 갱신(기다리지 않음)
   // 통합 앱이면 결제 스트림은 공용 결제가 넘겨준다(Purchase.onPurchaseUpdates).
   Purchase.ownStream = standalone;
-  // 가격표 = ~/talkverse/PRICING.md(사용자 확정 2026-11-09) — 앱 할인가(30%)·앱 정가.
+  // 상품 = PAYWALL_SPEC §1(언어 4 + 종합 2). 가격은 스토어 값만 보인다(코드에 원화·할인 표시 없음, 11-23).
   Purchase.configure('pt', const [
-    Plan('lang_pt_1m', 1, 3900, listKrw: 5500),
-    Plan('lang_pt_3m', 3, 9000, listKrw: 12900),
-    Plan('lang_pt_1y', 12, 19900, listKrw: 28500),
-    Plan('lang_pt_life', 0, 49000, listKrw: 69900),
-    Plan('all_1y', 12, 79000, listKrw: 112900, bundle: true),
-    Plan('all_life', 0, 329000, listKrw: 469000, bundle: true),
+    Plan('lang_pt_1m', 1),
+    Plan('lang_pt_3m', 3),
+    Plan('lang_pt_1y', 12),
+    Plan('lang_pt_life', 0),
+    Plan('all_1y', 12, bundle: true),
+    Plan('all_life', 0, bundle: true),
   ]);
   // 회화 원고 서버 받기 — 켤 때마다 무조건, 그림·음성 내려받기와 따로(일본어앱 빌드 113·114, CONTENT_SYNC §6).
   // 느린 망에서는 startupWait 까지만 기다리고 앱을 연다(받기는 뒤에서 이어지고, 끝나면 회화 목록을 다시 읽는다).

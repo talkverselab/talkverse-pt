@@ -12,6 +12,8 @@ import '../core/theme.dart';
 import '../services/ko_reading.dart';
 import '../services/script_sync.dart';
 import '../services/tts_service.dart';
+import '../data/access.dart';
+import '../services/curriculum_service.dart';
 
 /// 언어감각 익히기 — 정규과정(베트남어앱 sense_course_screen 이식, 2026-11-22).
 /// 급(L1~L10)마다 회차: kind `memorize` = 영상 → 안내 한 줄 → 외울 문장 10개, kind `ref` = 참고.
@@ -59,6 +61,15 @@ class SenseCourse {
   }
 
   /// 모든 회차를 순서대로 (레벨, 회차) 쌍으로.
+  /// 평평한 목록의 [idx] 가 몇 번째 급인지(1부터) — 이용권 잠금(freeSenseLevels)용.
+  static int levelOrd(List<(Map<String, dynamic>, Map<String, dynamic>)> all, int idx) {
+    final seen = <Map<String, dynamic>>[];
+    for (var i = 0; i <= idx && i < all.length; i++) {
+      if (!seen.contains(all[i].$1)) seen.add(all[i].$1);
+    }
+    return seen.length;
+  }
+
   static List<(Map<String, dynamic>, Map<String, dynamic>)> flat(Map<String, dynamic> d) => [
         for (final lv in ((d['levels'] as List?) ?? const []).cast<Map<String, dynamic>>())
           for (final ls in ((lv['lessons'] as List?) ?? const []).cast<Map<String, dynamic>>()) (lv, ls),
@@ -83,6 +94,7 @@ class _SenseCourseScreenState extends State<SenseCourseScreen> {
   }
 
   Future<void> _load() async {
+    await CurriculumService.instance.ensureLoaded(); // 무료 급 수(freeSenseLevels)
     final d = await SenseCourse.load();
     final done = await SenseCourse.done();
     if (!mounted) return;
@@ -93,6 +105,13 @@ class _SenseCourseScreenState extends State<SenseCourseScreen> {
   }
 
   Future<void> _open(int index) async {
+    final d = _data;
+    // 2급부터 이용권(PAYWALL_SPEC §2, 서버 freeSenseLevels)
+    if (d != null && !await Access.unlock(context, Access.senseLevelOpen(SenseCourse.levelOrd(SenseCourse.flat(d), index)))) {
+      if (mounted) setState(() {});
+      return;
+    }
+    if (!mounted) return;
     await Navigator.of(context).push(MaterialPageRoute<void>(builder: (_) => SenseLessonScreen(index: index)));
     _load();
   }
@@ -120,11 +139,19 @@ class _SenseCourseScreenState extends State<SenseCourseScreen> {
           style: const TextStyle(fontSize: 12, color: AppColors.muted)),
     ];
     var i = 0;
+    var lvNo = 0;
     for (final lv in ((d['levels'] as List?) ?? const []).cast<Map<String, dynamic>>()) {
+      lvNo++;
+      final open = Access.senseLevelOpen(lvNo);
       children.add(Padding(
         padding: const EdgeInsets.fromLTRB(2, 18, 2, 8),
-        child: Text('${lv['id']}  ${lv['title']}',
-            style: const TextStyle(fontSize: 14, fontWeight: FontWeight.w800, color: AppColors.sumi)),
+        child: Row(children: [
+          Expanded(
+            child: Text('${lv['id']}  ${lv['title']}',
+                style: const TextStyle(fontSize: 14, fontWeight: FontWeight.w800, color: AppColors.sumi)),
+          ),
+          if (!open) const LockIcon(),
+        ]),
       ));
       var n = 1;
       for (final ls in ((lv['lessons'] as List?) ?? const []).cast<Map<String, dynamic>>()) {
@@ -204,7 +231,7 @@ class _SenseLessonScreenState extends State<SenseLessonScreen> {
     while (nextIdx < all.length && all[nextIdx].$2['kind'] == 'ref') {
       nextIdx++;
     }
-    if (nextIdx < all.length) {
+    if (nextIdx < all.length && Access.senseLevelOpen(SenseCourse.levelOrd(all, nextIdx))) {
       Navigator.of(context).pushReplacement(MaterialPageRoute<void>(builder: (_) => SenseLessonScreen(index: nextIdx)));
     } else {
       Navigator.of(context).pop();

@@ -12,6 +12,7 @@ import '../widgets/episode_play_pane.dart';
 import '../widgets/lemma_text.dart';
 import '../widgets/spanish_decor.dart';
 import 'dialogue_card_screen.dart';
+import '../data/access.dart';
 
 /// 회화 홈(주제 목록) → 편 목록 → 편 화면 — 일본어앱 Grok UXUI 시안 02 「만화책 읽기형」을 옮김(2026-11-02).
 /// 지금 회화는 옛 L1 이야기 2편뿐(dialogue_service.dart). 맞춤 회화·왕초보/초보 전환은 새 회화 구조가 들어온 뒤.
@@ -152,7 +153,7 @@ class _IslandRow extends StatelessWidget {
             leading: Text(DialogueService.islandEmoji[island] ?? '💬', style: const TextStyle(fontSize: 26)),
             title: Text(tr(DialogueService.islandKo[island] ?? island), style: const TextStyle(fontSize: 15, fontWeight: FontWeight.w800, color: AppColors.sumi)),
             subtitle: Text(trf('{0}편', [count]), style: const TextStyle(fontSize: 11, color: AppColors.muted)),
-            trailing: const Icon(Icons.chevron_right, color: AppColors.muted),
+            trailing: Access.premium || Access.freeRegions.contains(lv) ? const Icon(Icons.chevron_right, color: AppColors.muted) : const LockIcon(),
           ),
         ),
       );
@@ -188,7 +189,7 @@ class DialogueListScreen extends StatelessWidget {
                 leading: Text(d.emoji, style: const TextStyle(fontSize: 24)),
                 title: Text(d.title, style: const TextStyle(fontSize: 15, fontWeight: FontWeight.w800, color: AppColors.sumi)),
                 subtitle: Text(d.scene, maxLines: 2, overflow: TextOverflow.ellipsis, style: const TextStyle(fontSize: 11, color: AppColors.muted, height: 1.3)),
-                trailing: Text(trf('{0}턴', [d.turns.length]), style: const TextStyle(fontSize: 11, color: AppColors.muted)),
+                trailing: Access.dialogueOpen(d) ? Text(trf('{0}턴', [d.turns.length]), style: const TextStyle(fontSize: 11, color: AppColors.muted)) : const LockIcon(),
               ),
             ),
           );
@@ -224,8 +225,35 @@ class _DialogueScreenState extends State<DialogueScreen> {
 
   void _openPlay({int at = 0}) => openFull(context, (_) => _PlayFull(dialogue: d, at: at));
 
+  /// 이용권이 필요한 편(R2~) — 내용 대신 자물쇠와 결제 화면 단추(PAYWALL_SPEC §3). 어느 입구로 와도 여기서 막힌다.
+  Widget _locked() => Scaffold(
+        backgroundColor: AppColors.washi,
+        appBar: AppBar(title: Text('${d.emoji} ${d.title}', style: const TextStyle(color: AppColors.sumi, fontWeight: FontWeight.w800, fontSize: 15))),
+        body: Center(
+          child: Padding(
+            padding: const EdgeInsets.all(28),
+            child: Column(mainAxisSize: MainAxisSize.min, children: [
+              const LockIcon(size: 40),
+              const SizedBox(height: 12),
+              Text(tr('이용권으로 열리는 회화예요'), textAlign: TextAlign.center, style: const TextStyle(fontSize: 17, fontWeight: FontWeight.w800, color: AppColors.sumi)),
+              const SizedBox(height: 6),
+              Text(tr('1단계(레벨 0·1) 회화는 무료예요.'), textAlign: TextAlign.center, style: const TextStyle(fontSize: 13, color: AppColors.sumiLight)),
+              const SizedBox(height: 18),
+              FilledButton(
+                onPressed: () async {
+                  await Access.unlock(context, false);
+                  if (mounted) setState(() {});
+                },
+                child: Text(tr('이용권 보기')),
+              ),
+            ]),
+          ),
+        ),
+      );
+
   @override
   Widget build(BuildContext context) {
+    if (!Access.dialogueOpen(d)) return _locked();
     final wide = isWide(context);
     return Scaffold(
       backgroundColor: AppColors.washi,

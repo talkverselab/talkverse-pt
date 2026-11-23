@@ -12,6 +12,7 @@ import '../data/purchase.dart';
 import '../embed.dart';
 import '../services/ko_reading.dart';
 import '../services/learner_prefs.dart';
+import '../data/entitlement.dart';
 
 class ProfileScreen extends StatelessWidget {
   const ProfileScreen({super.key});
@@ -220,6 +221,18 @@ class _AccountSection extends StatelessWidget {
                   ),
                 ]),
         ),
+      ),
+      const SizedBox(height: 8),
+      // 이용권 입구(PAYWALL_SPEC §3) — 이용 중이면 표시만
+      ValueListenableBuilder<Map<String, int>>(
+        valueListenable: Purchase.owned,
+        builder: (context, _, _) => _box(ListTile(
+          leading: Icon(Entitlement.premium ? Icons.verified : Icons.workspace_premium_outlined, color: AppColors.rojo),
+          title: Text(tr('이용권')),
+          subtitle: Text(Entitlement.premium ? tr('이용 중 — 모든 단계가 열려 있어요') : tr('2단계 이상 회화·커리큘럼, 문법 3스텝~, 언어감각 2급~'), style: const TextStyle(fontSize: 12)),
+          trailing: Entitlement.premium ? null : const Icon(Icons.chevron_right),
+          onTap: Entitlement.premium ? null : () => Entitlement.showPaywall(context),
+        )),
       ),
       const SizedBox(height: 8),
       _box(ListTile(

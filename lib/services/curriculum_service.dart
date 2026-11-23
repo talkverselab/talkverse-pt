@@ -296,7 +296,8 @@ class CurStage {
   final List<int>? pick;
   final int? pass;
   final Map<int, int>? daily; // 칸(1 가볍게·2 보통·3 집중) → 하루 새 편 수
-  const CurStage(this.n, this.title, this.desc, this.dialogueIds, this.pick, {this.pass, this.daily});
+  final bool? free; // 이용권 없이 열림(PAYWALL_SPEC §2, 없으면 1단계만)
+  const CurStage(this.n, this.title, this.desc, this.dialogueIds, this.pick, {this.pass, this.daily, this.free});
   factory CurStage.fromJson(Map j) => CurStage(
         (j['n'] as num?)?.toInt() ?? 0,
         '${j['title'] ?? ''}',
@@ -304,6 +305,7 @@ class CurStage {
         [for (final x in (j['dialogueIds'] as List? ?? const [])) '$x'],
         (j['pick'] as List?)?.map((e) => (e as num).toInt()).toList(),
         pass: (j['pass'] as num?)?.toInt(),
+        free: j['free'] is bool ? j['free'] as bool : null,
         daily: j['daily'] is Map
             ? {
                 for (final e in const {'light': 1, 'normal': 2, 'focus': 3}.entries)
@@ -336,6 +338,8 @@ class CurriculumService {
 
   /// 단계 목록 — 비어 있으면(JSON 없음·실패) 옛 동작(회화 레벨 R) 그대로.
   List<CurStage> stages = const [];
+  /// 이용권 없이 여는 문법 스텝 수·언어감각 급 수(PAYWALL_SPEC §2, 서버 JSON 최상위).
+  int freeSteps = 2, freeSenseLevels = 1;
   int planRev = 0;
   bool get stageMode => stages.isNotEmpty;
 
@@ -343,6 +347,8 @@ class CurriculumService {
   @visibleForTesting
   void applyPlan(Map<String, dynamic> j) {
     planRev = (j['rev'] as num?)?.toInt() ?? 0;
+    freeSteps = (j['freeSteps'] as num?)?.toInt() ?? 2;
+    freeSenseLevels = (j['freeSenseLevels'] as num?)?.toInt() ?? 1;
     stages = [
       for (final s in (j['stages'] as List? ?? const []))
         if (s is Map) CurStage.fromJson(s)
@@ -413,6 +419,13 @@ class CurriculumService {
   }
 
   int get passPercent => state.passPercent;
+
+  /// 이 단계가 이용권 없이 열리나 — 서버 `free`, 없으면 1단계(옛 R 모드면 R0·R1)만.
+  bool stageFree(String key) {
+    if (!stageMode) return key == 'R0' || key == 'R1';
+    final s = stageOf(key);
+    return s?.free ?? (s?.n == 1);
+  }
 
   CurStage? stageOf(String key) => stages.where((s) => '${s.n}' == key).firstOrNull;
   String levelTitle(String key) => stageMode ? (stageOf(key)?.title ?? '$key단계') : (DialogueService.levelKo[key] ?? key);

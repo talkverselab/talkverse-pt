@@ -9,6 +9,7 @@ import '../services/dialogue_audio.dart';
 import '../services/dialogue_service.dart';
 import '../services/learner_prefs.dart';
 import '../widgets/spanish_decor.dart';
+import '../data/access.dart';
 
 /// 토크버스 커리큘럼 — 전 언어 공통 기준(`~/talkverse/CURRICULUM_SPEC.md`, 2026-11-22). 일본어앱이 기준 구현.
 /// 레벨 고르기 → 다이얼로그 고르기(3·5·10) → 편마다 듣기·확인 문제 → 코스 시험(80% 이상 통과) → 다음 코스. 하루 분량·복습.
@@ -36,10 +37,20 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
       if (!mounted) return;
       setState(() {
         _loading = false;
-        _levelPick = _st.level == null;
-        _picking = _st.level != null && _st.course == null;
+        // 고른 단계가 이용권 단계인데 이용권이 없으면(만료 등) 단계 고르기부터
+        _levelPick = _st.level == null || !Access.stageOpen(_st.level!);
+        _picking = !_levelPick && _st.course == null;
       });
     });
+  }
+
+  /// 잠긴 단계(이용권 필요)면 결제 화면 → 열렸을 때만 고른다(PAYWALL_SPEC §3).
+  Future<void> _trySetLevel(String lv) async {
+    if (await Access.unlock(context, Access.stageOpen(lv))) {
+      await _setLevel(lv);
+    } else if (mounted) {
+      setState(() {});
+    }
   }
 
   Future<void> _setLevel(String lv) async {
@@ -150,7 +161,7 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
       const SizedBox(height: 12),
       for (final lv in keys)
           _card(
-            onTap: () => _setLevel(lv),
+            onTap: () => _trySetLevel(lv),
             selected: _st.level == lv,
             child: Row(children: [
               TileBadge(text: lv, size: 40, color: AppColors.beni),
@@ -165,7 +176,7 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
                   ),
                 ]),
               ),
-              if (_st.level == null && lv == lowest) _pill(tr('추천'), AppColors.matcha),
+              if (!Access.stageOpen(lv)) const LockIcon() else if (_st.level == null && lv == lowest) _pill(tr('추천'), AppColors.matcha),
             ]),
           ),
     ];
@@ -309,7 +320,7 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
       if (_svc.levelDone(lv) && _svc.nextLevel(lv) != null) ...[
         const SizedBox(height: 12),
         _card(
-          onTap: () => _setLevel(_svc.nextLevel(lv)!),
+          onTap: () => _trySetLevel(_svc.nextLevel(lv)!),
           child: Text(trf('{0} 편을 모두 통과했어요 → {1} 로', [tr(_svc.levelTitle(lv)), tr(_svc.levelTitle(_svc.nextLevel(lv)!))]), style: const TextStyle(fontWeight: FontWeight.w800, color: AppColors.matcha)),
         ),
       ],
@@ -329,7 +340,7 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
       if (doneLevel && next != null) ...[
         const SizedBox(height: 8),
         _card(
-          onTap: () => _setLevel(next),
+          onTap: () => _trySetLevel(next),
           child: Text(trf('{0} 편을 모두 통과했어요 → {1} 로', [tr(_svc.levelTitle(lv)), tr(_svc.levelTitle(next))]), style: const TextStyle(fontWeight: FontWeight.w800, color: AppColors.matcha)),
         ),
       ],

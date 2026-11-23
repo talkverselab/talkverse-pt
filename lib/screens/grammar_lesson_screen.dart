@@ -10,6 +10,8 @@ import '../widgets/spanish_decor.dart';
 import 'grammar_test_screen.dart';
 import '../core/platform.dart';
 import '../core/l10n.dart';
+import '../data/access.dart';
+import '../services/curriculum_service.dart';
 
 /// 문법 강의 자산 — `assets/data/grammar/lessonN.json`
 /// `{lesson, title, subtitle, stages:[{stage,title}],
@@ -85,6 +87,7 @@ class _GrammarHubScreenState extends State<GrammarHubScreen> {
   }
 
   Future<void> _load() async {
+    await CurriculumService.instance.ensureLoaded(); // 무료 스텝 수(freeSteps)
     final l = await GrammarLesson.loadAll();
     if (mounted) setState(() => _lessons = l);
   }
@@ -116,18 +119,26 @@ class _GrammarHubScreenState extends State<GrammarHubScreen> {
                           subtitle: Text(
                               '${l.subtitle.isEmpty ? '' : '${l.subtitle}\n'}${trf('패턴 {0} · 예문 {1}', [l.patterns.length, l.exampleCount])}',
                               style: const TextStyle(fontSize: 12, height: 1.4)),
-                          trailing: IconButton(
-                            tooltip: tr('테스트'),
-                            icon: const Icon(Icons.quiz, color: AppColors.rojo),
-                            onPressed: () => Navigator.push(
-                              context,
-                              MaterialPageRoute(builder: (_) => GrammarTestScreen(lesson: l)),
-                            ),
-                          ),
-                          onTap: () => Navigator.push(
-                            context,
-                            MaterialPageRoute(builder: (_) => GrammarLessonScreen(lesson: l)),
-                          ),
+                          trailing: !Access.grammarStepOpen(l.number)
+                              ? const Padding(padding: EdgeInsets.all(12), child: LockIcon())
+                              : IconButton(
+                                  tooltip: tr('테스트'),
+                                  icon: const Icon(Icons.quiz, color: AppColors.rojo),
+                                  onPressed: () => Navigator.push(
+                                    context,
+                                    MaterialPageRoute(builder: (_) => GrammarTestScreen(lesson: l)),
+                                  ),
+                                ),
+                          // 3스텝부터 이용권(PAYWALL_SPEC §2, 서버 freeSteps)
+                          onTap: () async {
+                            if (!await Access.unlock(context, Access.grammarStepOpen(l.number))) {
+                              if (mounted) setState(() {});
+                              return;
+                            }
+                            if (!context.mounted) return;
+                            await Navigator.push(context, MaterialPageRoute(builder: (_) => GrammarLessonScreen(lesson: l)));
+                            if (mounted) setState(() {});
+                          },
                         ),
                       ),
                   ],
