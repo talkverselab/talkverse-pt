@@ -2176,8 +2176,8 @@
 "speaker": "am",
 "emotion": "surprised+excited",
 "key": "audio/pt/r0_love_c1/04_m.mp4",
-"sha1": "95934fadde01bf78da59474f6c893d8bcd6cad94",
-"ms": 3200
+"sha1": "a3326a79be7436395c980699839977c24c92f306",
+"ms": 4100
 },
 {
 "turn": 4,
@@ -4440,8 +4440,8 @@
 "speaker": "am",
 "emotion": "gentle",
 "key": "audio/pt/r2_culture_c1/04_m.mp4",
-"sha1": "9bb1a0aee32c57fcba4563b42757367cfcf4783c",
-"ms": 942
+"sha1": "774752555b74875cd146d233fb03f08d280ed6d3",
+"ms": 703
 },
 {
 "turn": 4,
@@ -4804,8 +4804,8 @@
 "speaker": "duarte",
 "emotion": "stiff",
 "key": "audio/pt/r2_friends_c3/02_m.mp4",
-"sha1": "24cff93d6df155832dfc0fafa6306e76e92ff07a",
-"ms": 1477
+"sha1": "57781ecc3aab4e05c917738fb6ec929905197cf3",
+"ms": 812
 },
 {
 "turn": 2,
@@ -4813,8 +4813,8 @@
 "speaker": "duarte",
 "emotion": "stiff",
 "key": "audio/pt/r2_friends_c3/02_f.mp4",
-"sha1": "24cff93d6df155832dfc0fafa6306e76e92ff07a",
-"ms": 1477
+"sha1": "57781ecc3aab4e05c917738fb6ec929905197cf3",
+"ms": 812
 },
 {
 "turn": 3,
@@ -4966,8 +4966,8 @@
 "speaker": "am",
 "emotion": "tsukkomi",
 "key": "audio/pt/r2_friends_c3/11_m.mp4",
-"sha1": "6b746f46dc7dbdaca873b9f819720a5c4e938344",
-"ms": 991
+"sha1": "fb2a0ffcc5c32e27337967e5e2571dfcb7fb7fde",
+"ms": 1022
 },
 {
 "turn": 11,
@@ -6094,8 +6094,8 @@
 "speaker": "am",
 "emotion": "excited+amused",
 "key": "audio/pt/r2_love_c1/12_m.mp4",
-"sha1": "8d15565667d85e89843d8f6f67a82ccee48eb179",
-"ms": 2297
+"sha1": "92444450e8aff42c55ea317ade747187d46cb58e",
+"ms": 1500
 },
 {
 "turn": 12,
@@ -6559,8 +6559,8 @@
 "speaker": "af",
 "emotion": "gentle",
 "key": "audio/pt/r2_love_c4/04_f.mp4",
-"sha1": "9b3a261f96ee59cd117447d84ab1d2006a007cc4",
-"ms": 2458
+"sha1": "c08242ee8a9930c84a1657fbad69d2273b02818c",
+"ms": 750
 },
 {
 "turn": 5,
@@ -10088,8 +10088,8 @@
 "speaker": "am",
 "emotion": "excited+surprised",
 "key": "audio/pt/r4_life_b2/10_m.mp4",
-"sha1": "9b5a8bc2ae2b84b17c6b2f23df6ec74ea31693bf",
-"ms": 4700
+"sha1": "eba3e0ee88c83b99038f8fd1874fbed49a8c2039",
+"ms": 3700
 },
 {
 "turn": 10,
@@ -11122,8 +11122,8 @@
 "speaker": "am",
 "emotion": "worried",
 "key": "audio/pt/r5_culture_b1/10_m.mp4",
-"sha1": "edfe21ccf804c8777817229806505c77175d93c9",
-"ms": 1860
+"sha1": "ff80eca5d3beafc5a809b7a6d2cd97ce901b0ad2",
+"ms": 696
 },
 {
 "turn": 10,
