@@ -1554,8 +1554,8 @@
 "speaker": "am",
 "emotion": "stiff",
 "key": "audio/pt/r0_life_a2/04_m.mp4",
-"sha1": "0b1238f3d99f3df19d5d74ebdfd104ade1ec2fe5",
-"ms": 1013
+"sha1": "344e0158473710a5b8440002b473909b5ec563ee",
+"ms": 1210
 },
 {
 "turn": 4,
@@ -3272,8 +3272,8 @@
 "speaker": "am",
 "emotion": "stiff",
 "key": "audio/pt/r1_life_a3/04_m.mp4",
-"sha1": "7aa17d9b51f20d3f9e08d2bad950b375edc31c17",
-"ms": 942
+"sha1": "e43b642007812d40930b8caf940a85fbc26237e4",
+"ms": 1320
 },
 {
 "turn": 4,
@@ -3344,8 +3344,8 @@
 "speaker": "am",
 "emotion": "sad",
 "key": "audio/pt/r1_life_a3/08_m.mp4",
-"sha1": "6581b2a0f6fae2eba31625d4328ba2afa93ccff5",
-"ms": 1740
+"sha1": "b77e630c2f2af0579bca6aa10738b5dc713587c9",
+"ms": 3400
 },
 {
 "turn": 8,
@@ -4494,8 +4494,8 @@
 "speaker": "am",
 "emotion": "surprised",
 "key": "audio/pt/r2_culture_c1/07_m.mp4",
-"sha1": "6377621ec082f8851d7545b0bb0285310efab388",
-"ms": 1373
+"sha1": "c9a12326908944158d1a38550830db89ab58633e",
+"ms": 2151
 },
 {
 "turn": 7,
@@ -5732,8 +5732,8 @@
 "speaker": "am",
 "emotion": "gentle",
 "key": "audio/pt/r2_life_c3/02_m.mp4",
-"sha1": "5f34977dcbb2ecbe0d95006c965ccb088d5281b5",
-"ms": 863
+"sha1": "7e41f5b3fee119c87a961f173678951462cd3553",
+"ms": 1215
 },
 {
 "turn": 2,
@@ -6094,8 +6094,8 @@
 "speaker": "am",
 "emotion": "excited+amused",
 "key": "audio/pt/r2_love_c1/12_m.mp4",
-"sha1": "92444450e8aff42c55ea317ade747187d46cb58e",
-"ms": 1500
+"sha1": "405456602d23b247fc64b53d97daba902932edfa",
+"ms": 1634
 },
 {
 "turn": 12,
@@ -6586,8 +6586,8 @@
 "speaker": "am",
 "emotion": "sad",
 "key": "audio/pt/r2_love_c4/06_m.mp4",
-"sha1": "0bb9eb50b94907c4042b5ad3b050eca28e88643c",
-"ms": 1332
+"sha1": "d704b6ff57b456700d5937d39ebe12f6df84dba8",
+"ms": 1879
 },
 {
 "turn": 6,
@@ -6914,8 +6914,8 @@
 "speaker": "am",
 "emotion": "gentle",
 "key": "audio/pt/r2_travel_c1/04_m.mp4",
-"sha1": "ae9b7f8f7517434fb05070c064feeded8a2db75c",
-"ms": 1282
+"sha1": "d4924d39782ae509d7e4e2bd531013b003200823",
+"ms": 1706
 },
 {
 "turn": 4,
@@ -8420,8 +8420,8 @@
 "speaker": "am",
 "emotion": "sad",
 "key": "audio/pt/r3_survival_b1/05_m.mp4",
-"sha1": "4f4fd6d96e6c34e28c644aa1c28970a2ee32dd02",
-"ms": 979
+"sha1": "9325bc34b721ad343384ae297901f786f7bb6331",
+"ms": 1335
 },
 {
 "turn": 5,
@@ -10142,8 +10142,8 @@
 "speaker": "am",
 "emotion": "shy",
 "key": "audio/pt/r4_life_b2/13_m.mp4",
-"sha1": "44965013db317a48ab8cf3bc49a28cedda811652",
-"ms": 595
+"sha1": "fbb3c60dbfc57e501509cb4891b66b3feb2039bc",
+"ms": 1209
 },
 {
 "turn": 13,
@@ -10832,8 +10832,8 @@
 "speaker": "fernanda",
 "emotion": "sad",
 "key": "audio/pt/r4_travel_b1/08_m.mp4",
-"sha1": "952e2b07d22ecb82d221c4039730fbcbbc4861c9",
-"ms": 1719
+"sha1": "577bcae72f17f91b3bec27bce8e8c9de75c8ee89",
+"ms": 3800
 },
 {
 "turn": 8,
@@ -10841,8 +10841,8 @@
 "speaker": "fernanda",
 "emotion": "sad",
 "key": "audio/pt/r4_travel_b1/08_f.mp4",
-"sha1": "952e2b07d22ecb82d221c4039730fbcbbc4861c9",
-"ms": 1719
+"sha1": "577bcae72f17f91b3bec27bce8e8c9de75c8ee89",
+"ms": 3800
 },
 {
 "turn": 9,
@@ -11412,8 +11412,8 @@
 "speaker": "am",
 "emotion": "shout+annoyed",
 "key": "audio/pt/r5_friends_c1/12_m.mp4",
-"sha1": "1d1e2a0ef05ebc50c5a2b58fc4b1b2860d1268d7",
-"ms": 3800
+"sha1": "bbf39eb3abdaf326584fa199a07eeba3a8b1fc71",
+"ms": 4900
 },
 {
 "turn": 12,

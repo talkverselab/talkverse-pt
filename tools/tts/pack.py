@@ -4,13 +4,15 @@
 조각마다 앞뒤 무음을 자르고 0.45초 넘는 쉼을 줄인 뒤 0.22초 간격으로 잇고 소리 크기를 맞춘다(-18 LUFS).
   python3 tools/tts/pack.py <wav폴더> <편id>... [--upload]
 목록 = data/tts/audio_pt.json(리뷰 페이지용). 주소에는 ?v=<sha1 앞 8자리>(서버 캐시가 1년)."""
-import datetime, hashlib, json, os, subprocess, sys, tempfile
+import datetime, hashlib, json, os, re, subprocess, sys, tempfile
 from concurrent.futures import ThreadPoolExecutor
 import ttslib as L
 R = L.R
 TRIM = ('silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.03,areverse,'
         'silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.05,areverse,'
         'silenceremove=stop_periods=-1:stop_duration=0.45:stop_threshold=-45dB:stop_silence=0.45')
+# 조각별 예외(data/tts/trim_rel.json, 11-24): 작게 녹음된 조각은 -45dB 가 말까지 자른다 → 기준 = min(-45, 조각 최대-35)dB. 전체에 쓰면 다른 조각의 잡음 꼬리가 늘어 목록에만 쓴다.
+REL = set(json.load(open(f'{R}/data/tts/trim_rel.json', encoding='utf-8'))['clips']) if os.path.exists(f'{R}/data/tts/trim_rel.json') else set()
 W = ['npx', '-y', 'wrangler@4']
 
 
@@ -18,14 +20,27 @@ def run(*a):
     subprocess.run(a, check=True, capture_output=True)
 
 
+def trim(src, key):
+    """이 조각에 쓸 자르기 필터. key = '<편>/<조각>.wav'."""
+    if key not in REL:
+        return TRIM
+    o = subprocess.run(['ffmpeg', '-hide_banner', '-i', src, '-af', 'volumedetect', '-f', 'null', '-'], capture_output=True, text=True).stderr
+    th = min(-45.0, float(re.search(r'max_volume: (-?[\d.]+) dB', o).group(1)) - 35)
+    return TRIM.replace('-45dB', f'{th:.1f}dB')
+
+
+def clip(src, key, o):
+    """조각 하나를 묶기용으로 자른다(묶은 뒤 검사 packqa·retake 도 이것을 쓴다)."""
+    run('ffmpeg', '-y', '-i', src, '-af', trim(src, key), '-ar', '24000', '-ac', '1', o)
+    if os.path.getsize(o) < 1000:            # 소리가 작아 무음 자르기에 전부 잘려 나간 조각(ffmpeg 는 0 을 돌려준다) → 자르지 않고 쓴다
+        run('ffmpeg', '-y', '-i', src, '-ar', '24000', '-ac', '1', o)
+
+
 def build(wav, ep, num, tag, n, out, tmp):
     parts = []
     for i in range(n):
         o = f'{tmp}/{ep}_{num}_{i}_{tag}.wav'
-        src = f'{wav}/{ep}/{num:02d}_{i}_{tag}.wav'
-        run('ffmpeg', '-y', '-i', src, '-af', TRIM, '-ar', '24000', '-ac', '1', o)
-        if os.path.getsize(o) < 1000:            # 소리가 작아 무음 자르기에 전부 잘려 나간 조각(ffmpeg 는 0 을 돌려준다) → 자르지 않고 쓴다
-            run('ffmpeg', '-y', '-i', src, '-ar', '24000', '-ac', '1', o)
+        clip(f'{wav}/{ep}/{num:02d}_{i}_{tag}.wav', f'{ep}/{num:02d}_{i}_{tag}.wav', o)
         parts.append(o)
     gap = f'{tmp}/gap.wav'
     if not os.path.exists(gap):

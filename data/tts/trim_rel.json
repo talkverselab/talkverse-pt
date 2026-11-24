@@ -1,0 +1,17 @@
+{
+ "why": "11-24: 작게 녹음된 조각은 -45dB 고정 기준이 말까지 자른다. 시험(의심 60·확인 100)에서 전체 적용은 다른 조각의 잡음 꼬리를 늘려 쓰지 않고, 받아쓰기가 회복되고 꼬리가 안 늘어난 이 조각들만 기준을 min(-45, 조각 최대-35)dB 로 자른다. 조각을 다시 만들면(retake) 이 목록에서 뺄 것.",
+ "clips": [
+  "r0_life_a2/04_0_m.wav",
+  "r1_life_a3/04_0_m.wav",
+  "r1_life_a3/08_0_m.wav",
+  "r2_culture_c1/07_0_m.wav",
+  "r2_life_c3/02_0_m.wav",
+  "r2_love_c1/12_1_m.wav",
+  "r2_love_c4/06_0_m.wav",
+  "r2_travel_c1/04_0_m.wav",
+  "r3_survival_b1/05_0_m.wav",
+  "r4_life_b2/13_0_m.wav",
+  "r4_travel_b1/08_0_c.wav",
+  "r5_friends_c1/12_1_m.wav"
+ ]
+}

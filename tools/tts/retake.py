@@ -2,14 +2,14 @@
 """qa.json 에서 불합격(ok=false)인 조각만 새 seed 로 다시 만든다(run_all 은 끝난 편을 건너뛰고 세 번 다 쓴 조각은 다시 안 만든다).
   <venv>/bin/python tools/tts/retake.py <작업폴더> [--go] [--rounds 3]     --go 없으면 작업 목록만 <작업폴더>/job/retake_plan.json 에 쓰고 끝(3090 안 씀)
 번호는 t4 부터(seed 42+97×번호) — t1~t3 은 이미 쓴 seed 라 같은 결과가 나온다. 옛 재생성본은 보지 않는다.
-합격 = 받아쓰기 0.85 이상 + 말 뒤 잡소리 없음(tail()). 합격본만 본 파일로 바꾸고(원래 것은 <작업폴더>/retake_bak) 묶어 올리기는 따로 한다(바뀐 편 이름을 출력).
+합격 = 받아쓰기 0.85 이상 + 말 뒤 잡소리 없음(tail()) + 묶은 뒤 받아쓰기 0.85 이상(packqa — 작게 나온 조각이 묶을 때 잘리는 것을 막음). 합격본만 본 파일로 바꾸고(원래 것은 <작업폴더>/retake_bak) 묶어 올리기는 따로 한다(바뀐 편 이름을 출력).
 PAUSE 파일이 있으면 회차 경계에서 멈춘다."""
 import json, os, shutil, subprocess, sys, time
 import numpy as np
 A = [a for a in sys.argv[1:] if not a.startswith('--')]; GO = '--go' in sys.argv
 ROUNDS = int(A[1]) if len(A) > 1 else 3
 sys.argv = [sys.argv[0], A[0]]
-import run_all as RA, ttslib as L, qa   # noqa: E402
+import run_all as RA, ttslib as L, qa, packqa   # noqa: E402
 work = A[0]; wav = f'{work}/wav'; log = RA.log
 
 
@@ -52,8 +52,9 @@ def main():
             if not os.path.exists(c):
                 log('없음', k, n); continue
             s, d = qa.score(c, todo[k][2]); bad = tail(c)
-            log(k, f't{n}', round(s, 2), '잡소리' if bad else '')
-            if s >= 0.85 and not bad:
+            g, p = packqa.packed_score(c, 'retake/' + k, todo[k][2]) if s >= 0.85 and not bad else ('', 0.0)   # 새 조각에는 조각별 예외(trim_rel)를 쓰지 않는다
+            log(k, f't{n}', round(s, 2), '묶은 뒤', round(p, 2), repr(g), '잡소리' if bad else '')
+            if s >= 0.85 and not bad and p >= 0.85:
                 b = f'{work}/retake_bak/{k}'; os.makedirs(os.path.dirname(b), exist_ok=True)
                 if not os.path.exists(b):
                     shutil.copy2(f'{wav}/{k}', b)
