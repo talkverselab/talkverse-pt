@@ -10086,19 +10086,19 @@
 "turn": 10,
 "voice": "m",
 "speaker": "am",
-"emotion": "excited+surprised",
+"emotion": "excited",
 "key": "audio/pt/r4_life_b2/10_m.mp4",
-"sha1": "eba3e0ee88c83b99038f8fd1874fbed49a8c2039",
-"ms": 3700
+"sha1": "cf53fb40e319f381c931e27eb3416ea7dfbe0fb9",
+"ms": 1623
 },
 {
 "turn": 10,
 "voice": "f",
 "speaker": "af",
-"emotion": "excited+surprised",
+"emotion": "excited",
 "key": "audio/pt/r4_life_b2/10_f.mp4",
-"sha1": "da466065d4ec113792b4cdb97f278df1e3e38ce4",
-"ms": 2831
+"sha1": "a2e7e4a91d684a3a3c61787870555fbc3325d15f",
+"ms": 837
 },
 {
 "turn": 11,

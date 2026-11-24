@@ -136,22 +136,13 @@
   },
   {
    "speaker": "A",
-   "tl": "Que bom! (벽 너머에서 골 소리)",
-   "ko": "좋아요! (벽 너머에서 골 소리)",
+   "tl": "Que bom!",
+   "ko": "좋아요!",
    "note": "golo = 골",
    "tags": [],
-   "segs": [
-    [
-     "excited",
-     "Que bom!"
-    ],
-    [
-     "surprised",
-     " (벽 너머에서 골 소리)"
-    ]
-   ],
+   "emotion": "excited",
    "num": 10,
-   "rd": "끄 봉! (   )"
+   "rd": "끄 봉!"
   },
   {
    "speaker": "C",
