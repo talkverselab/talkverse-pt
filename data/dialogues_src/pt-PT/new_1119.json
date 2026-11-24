@@ -801,7 +801,7 @@
    {"speaker": "B", "tl": "Normalmente é silêncio.", "ko": "보통은 조용해요.", "note": "normalmente = 보통", "tags": [], "emotion": "polite"},
    {"speaker": "A", "tl": "Quanto é a renda?", "ko": "월세가 얼마예요?", "note": "renda = 월세", "tags": [], "emotion": "gentle"},
    {"speaker": "B", "tl": "Se ficar muito tempo, faço mais barato.", "ko": "오래 살아 주시면 더 싸게 해 드릴게요.", "note": "que fique = 머물다", "tags": ["form:conjuntivo"], "emotion": "cheerful"},
-   {"speaker": "A", "tl": "Que bom!", "ko": "좋아요!", "note": "golo = 골", "tags": [], "emotion": "excited"},
+   {"speaker": "A", "tl": "Que bom!", "ko": "좋아요!", "note": "", "tags": [], "emotion": "excited"},
    {"speaker": "C", "tl": "És tu? Não acredito!", "ko": "너야? 믿을 수 없어!", "note": "és tu = 너야", "tags": ["twist"], "emotion": "surprised"},
    {"speaker": "B", "tl": "Esse jovem é o meu filho.", "ko": "저 청년이 제 아들이에요.", "note": "filho = 아들", "tags": [], "emotion": "amused"},
    {"speaker": "A", "tl": "Se calhar vai ser interessante.", "ko": "어쩌면 재미있을지도요.", "note": "se calhar = 어쩌면", "tags": ["expr:se calhar"], "emotion": "shy"},
