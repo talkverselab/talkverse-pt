@@ -4748,8 +4748,8 @@
 "speaker": "beatriz",
 "emotion": "cheerful+flustered",
 "key": "audio/pt/r2_friends_c2/11_m.mp4",
-"sha1": "904739b612852ca08c9fc2cc162229b91b45353a",
-"ms": 4700
+"sha1": "ab51090d5f9e95e16dd50d3fedb011c7634d7bc9",
+"ms": 3700
 },
 {
 "turn": 11,
@@ -4757,8 +4757,8 @@
 "speaker": "beatriz",
 "emotion": "cheerful+flustered",
 "key": "audio/pt/r2_friends_c2/11_f.mp4",
-"sha1": "904739b612852ca08c9fc2cc162229b91b45353a",
-"ms": 4700
+"sha1": "ab51090d5f9e95e16dd50d3fedb011c7634d7bc9",
+"ms": 3700
 },
 {
 "turn": 12,
@@ -6568,8 +6568,8 @@
 "speaker": "beatriz",
 "emotion": "teasing",
 "key": "audio/pt/r2_love_c4/05_m.mp4",
-"sha1": "0a8ded22a67942adee0d5eda8e97106f36e39d9d",
-"ms": 1856
+"sha1": "afa9f860e8490a71d894051f8800cfa6d4998f98",
+"ms": 733
 },
 {
 "turn": 5,
@@ -6577,8 +6577,8 @@
 "speaker": "beatriz",
 "emotion": "teasing",
 "key": "audio/pt/r2_love_c4/05_f.mp4",
-"sha1": "0a8ded22a67942adee0d5eda8e97106f36e39d9d",
-"ms": 1856
+"sha1": "afa9f860e8490a71d894051f8800cfa6d4998f98",
+"ms": 733
 },
 {
 "turn": 6,
@@ -10088,8 +10088,8 @@
 "speaker": "am",
 "emotion": "excited",
 "key": "audio/pt/r4_life_b2/10_m.mp4",
-"sha1": "cf53fb40e319f381c931e27eb3416ea7dfbe0fb9",
-"ms": 1623
+"sha1": "ce23fdb65e190f7c91507d3f7db4d5f6f85d1cca",
+"ms": 626
 },
 {
 "turn": 10,
@@ -11194,8 +11194,8 @@
 "speaker": "am",
 "emotion": "amused",
 "key": "audio/pt/r5_culture_b1/14_m.mp4",
-"sha1": "0a957ff59c7e523766aeb68f0d8630073d2083ac",
-"ms": 1975
+"sha1": "dbf3c4723fe4fe412e2d74a17f3169d0ac7b0f75",
+"ms": 876
 },
 {
 "turn": 14,

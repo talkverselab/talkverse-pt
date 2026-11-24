@@ -75,55 +75,56 @@ def refs():
         json.dump(jobs, open(f'{work}/job/vox_jobs.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=0); pc_run('vox')
 
 
-done = set(open(f'{work}/done.txt').read().split()) if os.path.exists(f'{work}/done.txt') else set()
-ids = [e for e in L.planned() if e not in done]
-log('남은 편', len(ids))
-if '--refs' in sys.argv:
-    refs()
-if '--refs-only' in sys.argv:
-    log('참고 음성만 — 끝'); sys.exit(0)
-for i in range(0, len(ids), N):
-    if os.path.exists(f'{work}/PAUSE'):      # uk 끼어들기: 묶음 경계에서 멈춤(파일을 지우고 다시 실행하면 이어간다) — 태국어앱과 같게
-        log('PAUSE 로 멈춤 — 남은 편', len(ids) - i); sys.exit(0)
-    t = time.localtime()
-    if '--night' in sys.argv and not (1 <= t.tm_hour < 6 or (t.tm_hour == 6 and t.tm_min < 30)):   # 새벽만, 06:30 이후 새 묶음 금지(uk 3090 배정 11-22)
-        log('06:30 지나 멈춤 — 남은 편', len(ids) - i); sys.exit(0)
-    eps = ids[i:i + N]
-    sh(sys.executable, f'{HERE}/make_jobs.py', f'{work}/job', *eps); pc_run()
-    for ep in eps:
-        fetch(ep)
-    for rnd in range(3):
-        # whisper 가 한 파일에서 멈추는 일이 있어(일본어 7시간) 편별 하위 프로세스 + 600초 제한. 넘기면 그 편 재생성본은 버리고 넘어간다.
-        tot = 0
+if __name__ == '__main__':
+    done = set(open(f'{work}/done.txt').read().split()) if os.path.exists(f'{work}/done.txt') else set()
+    ids = [e for e in L.planned() if e not in done]
+    log('남은 편', len(ids))
+    if '--refs' in sys.argv:
+        refs()
+    if '--refs-only' in sys.argv:
+        log('참고 음성만 — 끝'); sys.exit(0)
+    for i in range(0, len(ids), N):
+        if os.path.exists(f'{work}/PAUSE'):      # uk 끼어들기: 묶음 경계에서 멈춤(파일을 지우고 다시 실행하면 이어간다) — 태국어앱과 같게
+            log('PAUSE 로 멈춤 — 남은 편', len(ids) - i); sys.exit(0)
+        t = time.localtime()
+        if '--night' in sys.argv and not (1 <= t.tm_hour < 6 or (t.tm_hour == 6 and t.tm_min < 30)):   # 새벽만, 06:30 이후 새 묶음 금지(uk 3090 배정 11-22)
+            log('06:30 지나 멈춤 — 남은 편', len(ids) - i); sys.exit(0)
+        eps = ids[i:i + N]
+        sh(sys.executable, f'{HERE}/make_jobs.py', f'{work}/job', *eps); pc_run()
         for ep in eps:
+            fetch(ep)
+        for rnd in range(3):
+            # whisper 가 한 파일에서 멈추는 일이 있어(일본어 7시간) 편별 하위 프로세스 + 600초 제한. 넘기면 그 편 재생성본은 버리고 넘어간다.
+            tot = 0
+            for ep in eps:
+                try:
+                    r = subprocess.run([sys.executable, f'{HERE}/qa.py', f'{work}/wav', ep, '--jobs', f'{work}/job/qa_{ep}.json'], capture_output=True, text=True, timeout=600)
+                    log(r.stdout.strip() or r.stderr.strip()[-200:])
+                except subprocess.TimeoutExpired:
+                    log('TIMEOUT', ep)
+                    for f in glob.glob(f'{work}/wav/retake/{ep}/*.wav'):
+                        os.remove(f)
+            jobs = []
+            for ep in eps:
+                p = f'{work}/job/qa_{ep}.json'
+                if os.path.exists(p):
+                    jobs += json.load(open(p)); os.remove(p)
+            tot = len(jobs)
+            if tot == 0:
+                break
+            json.dump(jobs, open(f'{work}/job/moss_jobs.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
+            pc_run()
+            for ep in eps:
+                fetch(f'retake/{ep}')
+        for ep in eps:   # 마지막(3회째) 재생성본도 채점·반영한 뒤 묶는다 — 빠지면 받아만 두고 예전 판을 올린다(11-24, fr a39cf4b 와 같게)
             try:
-                r = subprocess.run([sys.executable, f'{HERE}/qa.py', f'{work}/wav', ep, '--jobs', f'{work}/job/qa_{ep}.json'], capture_output=True, text=True, timeout=600)
-                log(r.stdout.strip() or r.stderr.strip()[-200:])
+                r = subprocess.run([sys.executable, f'{HERE}/qa.py', f'{work}/wav', ep], capture_output=True, text=True, timeout=600)
+                log('마지막', r.stdout.strip() or r.stderr.strip()[-200:])
             except subprocess.TimeoutExpired:
                 log('TIMEOUT', ep)
-                for f in glob.glob(f'{work}/wav/retake/{ep}/*.wav'):
-                    os.remove(f)
-        jobs = []
         for ep in eps:
-            p = f'{work}/job/qa_{ep}.json'
-            if os.path.exists(p):
-                jobs += json.load(open(p)); os.remove(p)
-        tot = len(jobs)
-        if tot == 0:
-            break
-        json.dump(jobs, open(f'{work}/job/moss_jobs.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
-        pc_run()
-        for ep in eps:
-            fetch(f'retake/{ep}')
-    for ep in eps:   # 마지막(3회째) 재생성본도 채점·반영한 뒤 묶는다 — 빠지면 받아만 두고 예전 판을 올린다(11-24, fr a39cf4b 와 같게)
-        try:
-            r = subprocess.run([sys.executable, f'{HERE}/qa.py', f'{work}/wav', ep], capture_output=True, text=True, timeout=600)
-            log('마지막', r.stdout.strip() or r.stderr.strip()[-200:])
-        except subprocess.TimeoutExpired:
-            log('TIMEOUT', ep)
-    for ep in eps:
-        r = sh(sys.executable, f'{HERE}/pack.py', f'{work}/wav', ep, '--upload', check=False)
-        if r.returncode:
-            log('실패', ep, (r.stderr or r.stdout)[-300:]); continue
-        log(r.stdout.strip()); open(f'{work}/done.txt', 'a').write(ep + '\n')
-log('끝')
+            r = sh(sys.executable, f'{HERE}/pack.py', f'{work}/wav', ep, '--upload', check=False)
+            if r.returncode:
+                log('실패', ep, (r.stderr or r.stdout)[-300:]); continue
+            log(r.stdout.strip()); open(f'{work}/done.txt', 'a').write(ep + '\n')
+    log('끝')
