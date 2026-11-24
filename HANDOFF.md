@@ -7,6 +7,12 @@
 - 도구 `tools/grok/`: `pt_dialogue_txt.py export|import`(원본 JSON ↔ 편별 글, 감정 바뀌는 곳은 ` // `, 숫자 읽기 `say=`), 규칙 `rewrite_grok_pt.md`(방 첫 메시지에만 첨부), `rewrite_all.sh`(10편씩 방 하나, 결과 `data/review/grok/out/`, 로그 `run.log`). 넣은 뒤 `build_dialogues.py`(모든 원본 한 번에 — 그래야 앱 묶음 `assets/data/pt-PT/dialogues/<male|female>.json` 이 갱신됨) → `make_plan.py`.
 - 앱 연결(단계 A, 6cdd9d7): 회화 메뉴에 레벨 0~5(32편) + 옛 「이야기」 5편. 학습자 성별로 묶음 파일을 고르고 성별을 바꾸면 다시 읽음. 음성은 `ContentSync.audioIndex`(색인만, 미리 받기 없음) + `DialogueAudio` — **음성 글이 지금 대사와 같을 때만** 재생, 아니면 TTS. DB 시드(문장 카드·말하기)는 아직 옛 L1 만(전략 문서 단계 A 의 SeedLoader 항목은 남음).
 - 절벽 단어 뜻: `data/freq/ko_fill_pt_PT.csv` 로 373어 채움(활용형 「(너) 간다 · ir」, 이름 「(이름) …」), 뜻이 「-」인 81어(말뭉치 잡음·외국 이름 조각)는 목록에서 숨김 — 순위 번호는 그대로.
+- **11-24 음성 — 멈춤(사용자 지시 「음성작업 하던거 하고 멈춰줘」, 다시 시작 신호는 uk)**: 65편 생성·업로드는 끝났지만 고칠 조각이 남았다.
+  - 남은 일: 불합격 **33조각(23편)** 재생성 — `tools/tts/retake.py ~/tts_work/pt --go`(uk 「pt 지금 시작」 뒤, 3090). t4 부터 새 seed, 합격 = 받아쓰기 0.85 + 끝 잡소리 없음 + 묶은 뒤 받아쓰기 0.85. **실제 생성으로는 한 번도 안 돌려 봤다**(작업 목록 만들기까지만 시험, 묶은 뒤 검사를 넣은 뒤로는 문법 검사만). 끝나면 바뀐 편을 `pack.py --upload` 로 다시 묶고, 다시 만든 조각이 `data/tts/trim_rel.json` 에 있으면 목록에서 뺄 것.
+  - 불합격 목록 = `~/tts_work/pt/wav/qa.json` 의 ok=false(사람이 넣은 것은 manual 사유, 원래 점수 sim_auto).
+  - 찾은 문제: ① run_all 이 3회째 재생성본을 채점 없이 넘김(고침 f2458d1) ② `pack.py` 자르기(-45dB 고정)가 작게 녹음된 조각의 말을 자름 — 전체 기준 변경은 시험에서 다른 조각 잡음 꼬리가 늘어 적용 안 함, 12조각만 `trim_rel.json` 예외(11편 다시 올림, 올린 파일 받아쓰기 0.88 이상 확인) ③ qa 는 묶기 전 조각만 봄 → 묶은 뒤 검사 `tools/tts/packqa.py <작업폴더>`(의심 = 자르기로 말 길이 15% 넘게 잃음). 의심 60개만 받아썼고 나머지 997조각은 묶은 상태로 확인 안 함.
+  - 통과 조각 중 끝 잡소리 의심 12개: 5개 자름, 7개 재생성 목록. 듣고 확인한 것은 없다(전부 받아쓰기·파형 기준).
+  - 백업(M6, 재생성 끝나고 확인 뒤 지울 후보): `~/tts_work/pt/rescore_1124_bak`·`trim_1124_bak`·`mp4_1124_bak`(다시 묶기 전 서버 mp4 250줄).
 - **11-10 00:20 멈춤(사용자 지시 "uk 세션 외 모든 세션 지금 작업만 마무리하고 작업 끄고 탭 닫고 대기")**: Grok 재작성 15/32 받음(`data/review/grok/out/`, 아직 원본에 안 넣음·리뷰 전). 3분 넘겨 중지된 편 r1_love_c1·r2_friends_c2 와 나머지 17편은 `zsh tools/grok/rewrite_all.sh` 다시 돌리면 이어서 함(있는 편은 건너뜀). 9260 의 Grok 탭은 닫음(크롬·PC 예약 작업은 둠).
 - **Grok 답 3분 한도(사용자 지시 11-10 "그록 3분만, 넘어가면 대화방 중지")**: `grok_text.py` 기본 `--wait 180`, 넘으면 중지 단추(없으면 Esc) 누르고 저장 없이 rc=4.
 - **11-10 세션 종료(허브 지시 "M6 꽉 참 — 마무리·캐시 삭제·세션 닫기")**: `flutter clean`·android/.gradle·__pycache__ 지움(약 3.7GB). 6cdd9d7(앱 연결·단어 뜻)은 push 했지만 [skip ci] 커밋이 맨 위라 **CI 빌드·Zealot·TestFlight 는 아직 안 함** — 다음 앱 변경 push 때 Android+iOS 함께. 지울 후보: `~/tts_work/pt`(32MB, 실패 판정 시험 음성 — R2·D1 에 올라가 있음; 사용자가 원인 답하기 전엔 둠).
