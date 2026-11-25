@@ -3,11 +3,11 @@ level: R2
 kind: chat
 title: 그 강아지 누구 거야
 emoji: 🐶
-scene: 데이팅앱 매칭 직후. Inês 가 먼저 말을 건다 — {name} 프로필 사진 속 강아지 얘기로.
+scene: 언어교류앱 매칭 직후. Inês 가 먼저 말을 건다 — {name} 프로필 사진 속 강아지 얘기로.
 cast: B: Inês
 register: chat
 twist: 9 reveal
-goal: 데이팅앱 첫 채팅과 약속 잡기, 완료과거 gostei·gostaste·fui·li, 반과거 era·tinha·estava
+goal: 언어교류앱 첫 채팅과 약속 잡기, 완료과거 gostei·gostaste·fui·li, 반과거 era·tinha·estava
 expressions: olha; a sério?; então; pois; bué; ainda bem; se calhar
 B | ___ | ___ | ___ | emotion=cheerful | tags=form:perfeito
 A | ___ | ___ | ___ | emotion=amused | tags=expr:olha

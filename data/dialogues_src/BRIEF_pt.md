@@ -33,7 +33,7 @@
 ## 쓰는 법(굴절어 전략 §B 요약)
 - 최우선: 포르투갈 사람이 실제로 많이 쓰는 짧은 구어 표현을 편마다 2개 이상. 표현 풀: pois · pois é · então · olha · ó · pá · epá · fixe · bué · giro · tá bem · está bem · pronto · vá lá · ya · sei lá · se calhar · de certeza · claro · afinal · mesmo · ainda bem · que chatice · não faz mal · tudo bem? · até já · um bocado · tás a ver? · percebes? · a sério? · nem pensar · quer dizer · coitado/a · ora essa · estou-me nas tintas(R4+) · desenrascar(R3+).
 - 유럽판 말: tu + 2인칭 동사, estar a + 원형(진행), 접어는 동사 뒤(chamo-me), pequeno-almoço·autocarro·telemóvel·casa de banho·comboio·bica·galão·fino·Multibanco. 브라질 말(você 반말·gerúndio·ônibus·celular·trem) 금지.
-- SNS·1:1 채팅·데이팅앱 장면 많이. 채팅 편은 kind "chat", 턴에 "ui":"bubble","at":"21:03", 읽씹은 "read":false.
+- SNS·1:1 채팅·언어교류앱 장면 많이. 채팅 편은 kind "chat", 턴에 "ui":"bubble","at":"21:03", 읽씹은 "read":false.
 - 편마다 반전 1회: twist(턴 번호) + twist_type(chaos·slip·reveal·emotion·ignore), 그 턴 tags 에 "twist". 이 레벨 묶음에서 chaos 가 30% 이상. 연애·플러팅 편은 심쿵 한 줄(웃음 킥과 다른 턴), 여성이 먼저 다가가는 편을 더 많이.
 - 금지: 교과서체·번역투·설명 대사·다짐/감사 마무리·정리된 AI 말투. 실존 인물·작품·브랜드·출처 금지. 수위 12+, 술·질투는 flags.
 - A = 학습자: "{name}" 만(국적·도시 고정 금지). B·C = 고정 인물 Inês(다정·장난)·Beatriz(서퍼·말 빠름·계획 바꿈)·Tiago(느긋한 바리스타·기타)·Duarte(룸메이트·직진·축구광), R3 이상 조연 Dona Fernanda(50대 여성)·Marta(40대 여성 상사). 남성 조연이 필요하면 Tiago·Duarte 를 쓴다.
