@@ -2,6 +2,19 @@
 
 규칙은 `CLAUDE.md`(서명 §1·Zealot §8·판 §9·회화 원칙 §10), 언어앱 공통 절차는 `~/talkverse/LANG_APP_REPLICATE_PROMPT.md`.
 
+## ▶ 11-28 세션 닫힘(사용자 지시: 베트남어·일본어만 남기고 언어 세션 닫음, uk 전달) — 다시 열면 여기부터
+- **먼저 `~/talkverse/CHANGES.md`** 를 읽는다(전 앱 변경 기록·uk 공지는 이제 그 문서에 적힘).
+- **지금 걸린 멈춤(풀리는 것은 사용자가 말할 때)**: 음성(11-24 「하던거 하고 멈춰」) · Grok 전부(11-26) · 단어 작업은 베트남어만(11-25) · 회화 그림은 공개 65편 것만(11-25) · 단독 iOS/TestFlight(11-23, Android·Zealot 만).
+- **하던 일**: 없음. 돌던 백그라운드 작업(음성·그림·빌드) 없음 — 닫기 전 남은 옛 `flutter test` 컴파일러와 음성 로그 `tail` 을 끔.
+- **마지막 커밋** 7f515c8 「데이팅앱 → 언어교류앱」(12세 등급, r2_love_c1 장면·목표 15곳, 서버 원고 **rev 11**). 대사에는 데이팅앱을 가리키는 말 없음. 남긴 것: 장면 「언어교류앱 매칭 직후」의 「매칭」, 내부 분류값 purpose `"dating"`(화면에 안 나옴).
+- **다음 할 일(신호가 오면)**: ① 음성 불합격 33조각(23편) 재생성 — 아래 「11-24 음성」 ② Grok 재개 시 `data/review/grok/out/` 의 답들 정리.
+- **커밋 안 한 변경(일부러 둠)**:
+  - 플랫폼 폴더(android·ios·linux·macos·web·windows) 와 `.gitignore`·`analysis_options.yaml` 수정 — 이 세션 이전부터 있던 것, **`ios/Runner.xcodeproj/project.pbxproj` 는 checkout 금지**. `ios/Podfile`·`Podfile.lock`·swiftpm 폴더·`macos/Podfile` 도 미추적.
+  - `data/review/scene/<편>/`·`<편>_f/` 20폴더(장면 컷 그림 사본, 폴더당 약 1.2MB) — 게시본은 art 저장소 `~/talkverse/pt-art`·R2. 공개 저장소에 그림을 넣을지 정하지 않아 커밋 안 함.
+  - `data/review/grok/out/*.md`·`run_1118.log`(Grok 답·로그), `data/review/art/ref_*.{png,jpg}`, `tools/zealot_push.sh`.
+- **지울 후보(확인 뒤)**: `~/tts_work/pt/rescore_1124_bak`·`trim_1124_bak`·`mp4_1124_bak`(합 약 13MB, 재생성 끝난 뒤).
+- **사용자(또는 uk)에게 물을 것**: ① iOS 앱 시작 때 구매 복원 확인을 넣을지(uk 결정 대기) ② 묶은 상태 받아쓰기 검사를 나머지 997조각에도 돌릴지 ③ 장면 「매칭」·purpose `"dating"` 도 바꿀지 ④ 메모리 규칙 「음성은 낮에도 가능」은 권한 정책이 막아 저장 못 함 — 필요하면 사용자가 직접.
+
 ## 11-09 밤 진행(Grok 재작성·앱 연결·단어 뜻)
 - **Grok = PC 크롬 9260**(예약 작업 `Grok-Chrome-pt-9260`, 프로필 `D:\chrome-grok-pt`, 포트 표 M4 `~/talkverse-uk/docs/GROK_CHROME_PORTS.md` 에 적음 — uk 리포라 커밋은 안 함). 터널: M4·M6 각각 `ssh -fN -L 9260:127.0.0.1:9260 pc`, 쿠키 `ssh macmini4 '/usr/bin/python3 ~/talkverse-uk/tools/grok_cookie_sync.py 9231 9260'`, 모델 전문가 확인 `grok_mode.py 9260 --check`. 처음 띄우면 쿠키 동의 창(OneTrust)이 화면을 가려 모델 단추가 안 보임 → 「모두 거부」 누르면 됨.
 - 도구 `tools/grok/`: `pt_dialogue_txt.py export|import`(원본 JSON ↔ 편별 글, 감정 바뀌는 곳은 ` // `, 숫자 읽기 `say=`), 규칙 `rewrite_grok_pt.md`(방 첫 메시지에만 첨부), `rewrite_all.sh`(10편씩 방 하나, 결과 `data/review/grok/out/`, 로그 `run.log`). 넣은 뒤 `build_dialogues.py`(모든 원본 한 번에 — 그래야 앱 묶음 `assets/data/pt-PT/dialogues/<male|female>.json` 이 갱신됨) → `make_plan.py`.
